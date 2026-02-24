@@ -1,0 +1,125 @@
+Título del Video: Fundamentos, Ética y el Factor Humano
+URL: https://youtu.be/pNij_D2EYhc
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+¿Qué es la inteligencia artificial,
+evolución y ética?
+Bienvenidos a este modelo fundamental.
+Hoy no solo hablaremos de tecnología,
+sino de una transformación estructural.
+Como dice el título de nuestra unidad,
+exploraremos la evolución, pero también
+el peso de la ética. Este proyecto busca
+entender cómo la IA y la automatización
+se aplican en distintos sectores, desde
+la industria hasta los servicios,
+analizando no solo el cómo, sino el por
+qué. Debemos ser cuidadosos en su
+implementación. Es un viaje desde el
+origen técnico hasta el impacto social.
+Para profundizar en este tema, hemos
+estructurado nuestro aprendizaje en
+cuatro pilares críticos. Primero
+abordaremos la ética y riesgos, donde
+desmitificaremos la idea de que la IA es
+neutral. Segundo, veremos los marcos
+regulatorios analizando las leyes que
+intentan poner eh orden al caos
+tecnológico. Tercero, las oportunidades,
+el lado optimista donde la guía eh
+potencia el ingenio humano. Y finalmente
+benchmarks para aprender a medir y
+comparar la eficacia de estas
+herramientas en el mundo real.
+La IA en números.
+Cifras impactantes dominan el panorama
+actual. Según proyecciones de Deloite,
+para este 2025,
+más del 80% de las grandes corporaciones
+ya han integrado el A en sus flujos de
+trabajo. No es una moda, es una
+revolución productiva que está
+transformando la salud mediante
+diagnósticos más precisos, las finanzas
+con análisis de riesgos en tiempo real y
+la educación. Sin embargo, surge el gran
+dilema. Estamos priorizando la eficacia
+sobre la ética. El costo social como el
+desplazamiento laboral o la pérdida de
+privacidad debe ser evaluado con la
+misma rigurosidad con el retorno de
+inversión.
+Ética y riesgos.
+Entremos en la sección más crítica. La
+ética no es un freno para la innovación,
+es un cinturón de seguridad. Al hablar
+de riesgos nos referimos a consecuencias
+imprevistas de algoritmos mal diseñados
+o datos sesgados. En los próximos
+minutos desglosaremos por qué una IA sin
+ética es, en última instancia una
+tecnología fallida.
+Educación superior y ética.
+Un caso de estudio vital es el de la
+Universidad Bolivariana del Ecuador.
+Ellos han implementado un programa
+pionero para mitigar riesgos. El
+objetivo es evitar la dependencia
+excesiva, que el estudiante no deje de
+pensar porque la IA le da la respuesta.
+Se busca un equilibrio donde la IA sea
+un asistente, pero la creatividad y el
+pensamiento crítico, eh, aquellas
+habilidades que nos hacen humanos,
+permanezcan como el núcleo del proceso
+educativo. Es aprender a usar la
+herramienta sin convertirse en su
+subordinado.
+Sesgos y discriminación.
+La IA puede ser injusta.
+Investigaciones famosas han demostrado
+que el software de reconocimiento facial
+tiene tasas de error y mucho más altas
+en mujeres y personas con tono de piel
+más oscuro.
+Privacidad y vigilancia.
+Nuestra huella digital es el combustible
+de la IA. Pero, ¿quién tiene las llaves
+de ese depósito? El riesgo de vigilancia
+masiva es real. Se capturan datos
+constantemente, a menudo, sin que
+entendamos el alcance de los términos y
+condiciones que aceptamos. El
+perfilamiento permite que las empresas y
+gobiernos predigan y manipulen eh
+nuestras decisiones de compra o incluso
+nuestras inclinaciones políticas,
+amenazando la libertad individual y la
+privacidad básica, transparencia y
+responsabilidad.
+Muchos sistemas de funcionan como una
+caja negra. reciben datos y dan un
+resultado,
+pero ni siquiera sus creadores pueden
+explicar exactamente cómo llegaron a esa
+conclusión. Esto es inaceptable en
+sectores como la justicia o la medicina.
+Si un diagnóstico es erróneo, ¿de quién
+sería la culpa? ¿Es culpa del médico,
+del programador o de la máquina? La
+transparencia exige que los algoritmos
+sean explicables y que siempre exista
+una supervisión humana que puede
+intervenir y tomar responsabilidad al
+final.
+Opacidad algorítmica.
+Cerramos este primer video enfatizando
+que la opacidad es el enemigo de la
+confianza. Para que la sociedad adopte
+la IA, debemos garantizar que los
+sistemas sean auditables. En el próximo
+vídeo veremos cómo los gobiernos están
+intentando regular estos desafíos a
+través de leyes y marcos
+internacionales.

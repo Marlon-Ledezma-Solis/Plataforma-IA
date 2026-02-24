@@ -1,0 +1,315 @@
+Título del Video: Ejercicio integrador del Módulo 3.
+URL: https://youtu.be/wvgDi3GpMIA
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Unidad 13, desarrollo de un ejercicio
+integrador de los conocimientos del
+módulo 3.
+Bienvenidos a la culminación de nuestro
+aprendizaje técnico. En esta sesión nos
+enfocaremos en la unidad número 13, que
+representa el cierre estratégico del
+módulo 3. No se trata solo de un
+ejercicio más, es la síntesis de cómo la
+inteligencia artificial y la
+automatización
+están dejando de ser conceptos
+abstractos. para convertirse en motores
+operativos en sectores como la banca, la
+salud, la logística y el comercio
+minorista. El objetivo hoy es entender
+cómo unir todas las piezas del
+rompecabezas,
+desde el código que escribiremos hasta
+las decisiones que una guía puede tomar
+por nosotros para optimizar procesos
+humanos.
+Propósito del módulo 3. Nivel técnico
+intermedio.
+Pasar de automatizaciones simples a
+soluciones estructuradas similares a
+entornos laborales reales.
+Integración completa.
+Combinar programación Python, APIs, dia
+de y plataformas con N8N o MAC.
+Flujos automatizados.
+aplicar lógica de flujos automatizados a
+procesos reales con toma de decisiones.
+En este nivel técnico intermedio, el
+propósito central es la estructuración
+profesional.
+En el mundo laboral real, los procesos
+no son lineales, tienen excepciones,
+errores y requieren múltiples
+herramientas conectadas.
+Para lograr esta integración completa,
+utilizaremos un ecosistema de tres
+pilares. Python como el cerebro lógico
+para manipular datos. Apis de IA como el
+motor cognitivo que entiende el lenguaje
+natural.
+N8N o Make orquestadores que conectan
+todo el flujo de trabajo. La clave aquí
+es la toma de decisiones.
+Un flujo avanzado no solo mueve datos,
+sino que decide qué camino tomar
+basándose en la información que recibe.
+Contenidos en práctica.
+Programación Python. Lógica básica
+aplicada a limpieza, transformación y
+validación de datos. Integración de IA.
+Uso de APIs o nodos inteligentes para
+clasificación y procesamiento.
+Flujos automatizados.
+Diseño de flujos con N8N, make o
+herramientas equivalentes.
+Vamos a desglosar qué significa poner en
+práctica estos contenidos.
+Python para datos. No estamos creando
+aplicaciones completas, sino scripts
+enfocados en la higiene de los datos. Si
+los datos entran sucios, por así
+decirlo, con errores o formatos
+distintos, la automatización fallará.
+Aprenderemos a validar que un correo sea
+realmente un correo antes de procesarlo.
+Usaremos nodos inteligentes que en lugar
+de buscar palabras claves rígidas
+entienden la intención del usuario. Si
+un cliente escribe estoy furioso con mi
+pedido, la IA clasificará
+automáticamente como prioridad alta este
+reclamo. Usar N8N o Make nos permite
+visualizar el proceso.
+La diferencia entre escribir 500 líneas
+de código o diseñar un mapa lógico donde
+vemos por dónde viaja la información en
+tiempo real.
+Evolución del aprendizaje.
+Ejercicio. Módulo 2. Automatización de
+tareas puntuales en Office. Comprensión
+de IA.
+EA como herramienta operativa efectiva.
+Módulo 3. Orquestación de procesos
+completos con entrada, procesamiento y
+salida.
+Es importante mirar hacia atrás para
+valorar cuánto han avanzado. En el
+módulo dos nos enfocamos en lo micro,
+automatizar una tarea en Excel o Word
+para ahorrar unos minutos.
+fue el primer paso para entender que la
+tecnología puede trabajar por nosotros.
+Ahora, en el módulo tres, damos el salto
+a lo macro,
+la orquestación.
+Un proceso completo implica entrada. ¿De
+dónde vienen los datos? Por ejemplo,
+formularios, correos,
+también necesita de procesamiento. ¿Qué
+hacemos con estos datos? limpieza con
+Python, análisis con IAG, entre otros. Y
+por último, también necesita una salida.
+¿A dónde van estos datos? A otra base de
+datos, notificaciones Slack, respuestas
+automáticas.
+Ustedes ya no son solo usuarios de IA,
+son arquitectos de sistemas que utilizan
+la IA como una herramienta operativa
+crítica.
+Caso práctico,
+sistema de gestión de solicitudes.
+Automatización de recepción,
+clasificación y respuesta.
+Construir un flujo automatizado que
+reciba solicitudes. Limpie y normalice
+información. Utilice IA para clasificar
+y generar respuestas preliminares.
+Registre automáticamente datos
+procesados y aplique reglas básicas de
+decisión.
+Este caso reproduce escenarios comunes
+en atención al cliente, soporte interno,
+servicios administrativos y call
+centers.
+Para este ejercicio integrador
+trabajaremos en un sistema de gestión de
+solicitudes. Un ejemplo de ello es
+imaginar que una empresa recibe 1000
+correos al día. Un humano tardaría horas
+solo en leerlos y poderlos clasificar.
+Nuestro sistema de inteligencia
+artificial lo hará en segundos. Esto con
+el flujo que construiremos, el cual debe
+ser capaz de normalizar.
+Si alguien escribe su nombre en
+minúsculas o con errores, el sistema lo
+corrige.
+También de decidir si la solicitud es
+urgente, debe enviarse a un canal
+diferente o si se debe a una solicitud
+general.
+Escalabilidad.
+Este modelo que aplicamos es universal.
+Se puede aplicar tanto para sistemas de
+etiquetas de TI, para procesar
+currículum de recursos humanos o para
+gestionar pedidos en un e-commerce.
+Resultado final del módulo 3.
+Flujo funcional, automatización completa
+con entrada. Procesamiento, salida.
+Evidencia técnica.
+Uso demostrable de programación básica e
+integrada.
+Registro automático.
+Sistema de trazabilidad de solicitud
+procesada.
+Explicación clara. Documentación del
+flujo, lógica y utilidad práctica.
+Al finalizar esta unidad, cada
+estudiante debe presentar cuatro
+entregables clave.
+Uno, el flujo vivo debe ser un flujo que
+realmente corra y transforme un dato de
+entrada a una salida útil.
+Dos, la prueba del código. Deben mostrar
+como su script de Python interactúa con
+la IA. Es la evidencia de que dominan la
+integración técnica. Trazabilidad.
+Lo que no se registra no existe. El
+sistema debe guardar un historial, ya
+sea en hojas de cálculo de Google un CSV
+de cada solicitud procesada. Esto es
+vital para auditorías y mejora continua.
+Y cuatro, narrativa técnica. No basta
+con que funcione. Deben ser capaces de
+explicarle a un cliente o jefe por qué
+eligieron esa lógica y qué valor aporta
+al negocio.
+Pasos del uno al tres. Entrada y
+preparación. Definición de entrada.
+Establece tipo de entrada y campos
+mínimos. nombre, contacto, tema,
+descripción y urgencia.
+Dos, normalización de datos.
+Limpiar texto, validar campos
+obligatorios, generar ID único y
+registrar fecha hora.
+Clasificación con IA. Diseñar prompt
+para clasificar solicitud, asignar
+prioridad y generar resumen. Entramos en
+la fase de construcción, el cual, el
+paso uno, debemos ser estrictos con la
+entrada. Si no pedimos el tema o la
+urgencia, la guía tendrá que adivinar y
+eso aumenta el margen de error. Definir
+campos mínimos es el primer paso de una
+buena arquitectura de datos.
+En el paso dos, aquí entra Python.
+Generamos un identificador universal
+único para cada solicitud. Esto ubita
+confusiones entre clientes con el mismo
+nombre y permite arrastrar el ticket en
+todo el sistema. También registraremos
+el time stamp exacto de entrada.
+El diseño del prompt es crucial. No
+basta con decir clasificar esto. Debemos
+instruir a la IA. Por ejemplo, actúa
+como un experto en soporte. Clasifica
+este texto en una de estas tres
+categorías: técnico, facturación o
+comercial y asigna una prioridad del uno
+al cinco.
+Del paso cuatro al siete, procesamiento
+y validación. Generación de respuesta.
+Solicitar a la guía redacción de
+respuesta inicial con tono profesional y
+regla clara. Reglas de decisión. Definir
+al menos dos reglas. escalamiento con
+prioridad alta o solicitud de datos
+faltantes.
+Registro automático. Guardar datos de
+entrada, clasificación respuesta y
+estado final en hoja de cálculo o CSV.
+Pruebas y validación.
+Probar con casos urgentes, incompletos y
+simples para verificar coherencia.
+En el paso cuatro, la guía redactará el
+borrador. Es vital configurar un tono
+profesional. Queremos que el cliente se
+sienta escuchado de inmediato, mientras
+un humano puede revisar el caso.
+Paso cinco, la lógica de negocio. Si la
+IA detecta prioridad 5, en este caso
+sería la crítica, el flujo debe enviar
+una alerta inmediata a un canal de
+emergencia. Si faltan datos como el
+número de factura, el flujo debe
+responder automáticamente pidiendo esa
+información antes de seguir.
+Paso seis y siete. Finalmente, guardamos
+todo. Las pruebas de estrés son
+obligatorias. ¿Qué pasa si el usuario
+envía un mensaje vacío? ¿Qué pasa si
+escribe en otro idioma? Un sistema
+robusto debe manejar esas excepciones
+sin romperse.
+Capacidades desarrolladas.
+Módulo 3. Pensamiento lógico aplicado a
+diseño de procesos automatizados.
+Flujos automatizados.
+Comprensión de arquitectura de
+automatización.
+Resolución técnica. Solución de
+problemas técnicos intermedios.
+IA integrada. Uso práctico de IA en
+sistemas reales.
+Al llegar aquí, su perfil profesional ha
+cambiado. Ya no solo saben de IA, sino
+que tienen la capacidad de resolver
+problemas técnicos.
+El pensamiento lógico que han
+desarrollado les permite ver un proceso
+empresarial desordenado y decir, "Puedo
+estructurar esto." Han aprendido a
+diagnosticar fallos en la conexión de
+una API y a optimizar la arquitectura de
+un flujo para que sea más rápido y
+económico.
+Perfiles profesionales desarrollados.
+Especialista en automatización,
+diseño y gestión de procesos
+automatizados.
+Analista operativo con IA. Integración
+de inteligencia artificial en
+operaciones.
+Soporte técnico avanzado. Automatización
+de servicios y atención.
+¿Dónde pueden trabajar con esto? Las
+puertas se abren en tres frentes.
+Especialista de automatización. Ideales
+para empresas que buscan transformación
+digital desde cero. Analista operativo
+para quienes prefieren mejorar lo que ya
+existe. Insertando cerebros de IA en los
+flujos actuales de la empresa para
+hacerlos más eficientes.
+Soporte técnico avanzado.
+En la era de los cambios, las empresas
+necesitan gente que sepa configurar los
+flujos detrás de esos chats para que no
+frustren al usuario, sino que resuelvan
+sus problemas de forma autónoma.
+Rúbrica de evaluación, módulo 3. Para
+obtener la calificación máxima, logro
+alto, su proyecto no puede ser frágil.
+debe manejar excepciones. Por ejemplo,
+si la API de IA no responde, su flujo se
+detiene o intenta de nuevo. Si el
+registro y la hoja de cálculo falla, hay
+un plan B. La documentación técnica será
+el cierre. debe ser tan clara que
+cualquier otro desarrollador pueda
+entender su lógica sin necesidad de que
+ustedes estén presentes. Esa.

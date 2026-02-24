@@ -1,0 +1,214 @@
+Título del Video: Funcionalidades en ChatGPT
+URL: https://youtu.be/riAXgihbTpY
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora entonces vamos a
+continuar con la herramienta de chat GPT
+para usar las tres funcionalidades que
+hemos estado trabajando con todas las
+demás herramientas. Entonces, en este
+caso vamos a proceder a ingresar al chat
+GPT y aquí en chat GPT entonces vamos a
+utilizar el mismo prom que hemos
+utilizado en las diversas aplicaciones
+anteriores.
+Y acá entonces procedemos a pegarlo. Y
+para activar, en este caso, como
+mencionábamos, tenemos la posibilidad de
+un modelo eh que haga investigación eh
+pero en búsqueda en internet en primera
+instancia. Entonces, nos venimos acá y
+activemos la opción de buscar en
+internet. Y también acá nosotros podemos
+escoger que utilice un modelo razonador,
+¿verdad? Entonces escogemos un modelo
+razonador
+y ya con eso entonces le podemos dar en
+buscar. sino aquí a veces en el más sale
+la opción de eh modelo resonador.
+Entonces es cuestión de activarle esas
+dos funcionalidades y ya estaríamos
+entonces utilizando
+o realizando esa eh ese primer ejercicio
+en el cual queremos que al momento de
+respondernos utilice el eh modelo
+razonador y también utilice la búsqueda
+en internet. Entonces, como ustedes ven,
+él ya empieza a utilizar ahí el modelo
+resonador y también empieza a utilizar
+la búsqueda en internet para
+colaborarnos.
+Vamos a parar acá un momento la
+grabación para que él termine entonces
+de hacer la búsqueda en internet y
+obtenga eh también pues el análisis del
+modelo resonador.
+Bien, entonces acá en este caso
+observar el resultado que nos eh
+suministró en este caso Chat GPT.
+Entonces eh pues ya nos indica,
+¿verdad?, igual de dónde está tomando
+propiamente la información.
+Y eh también pues nos indica
+proyecciones, nos indica también para
+cada uno de los elementos en donde eh
+cuál es la situación actual y los
+resultados más importantes que se están
+observando, ¿verdad? Entonces, como
+podemos ver aquí ya nos está ayudando
+pues para realizar propiamente ese
+primer análisis. Ahora vamos a utilizar
+la segunda funcionalidad, que en este
+caso es la investigación profunda.
+Entonces acá vamos a enterar un poco
+diferente. Vamos igual a pegarle el
+prom, pero le vamos ahora a activar la
+posibilidad de una investigación
+avanzada o investigación profunda. Acá,
+como podemos observar, nos da las
+posibilidades de activar diferentes eh
+conexiones adicionales, pero si no lo
+podemos dejar así y va a encargarse de
+buscar directamente en internet.
+Cuando hacemos esto
+y se lo enviamos, entonces él pues nos
+hace alguna pregunta, ¿verdad?
+E
+deseamos pues que vengan encabezados
+todas las instituciones, pueden decir sí
+por favor y que incluya diversos
+sectores, ¿okay? Y que profundice por
+sectores.
+Básicamente tenemos la pregunta que nos
+indica
+y ya empieza a regresar la
+investigación. Esta investigación puede
+durar varios minutos. Entonces, de igual
+manera, vamos a parar un momento la
+grabación para que eh podamos ya ver el
+resultado final.
+Acá ya podemos ver el resultado y eh nos
+está justamente mostrando un informe, el
+cual pues también podemos compartir y
+pues en dado caso podemos leerlo en voz
+alta, ¿verdad? O copiarlo y trasladarlo
+pues donde nosotros eh querramos. Y como
+ven aquí ya es un análisis un poco más
+detallado, ¿verdad? Entonces, se nos
+está planteando los diferentes
+eh resultados que está observando y de
+dónde pues está tomando la información,
+tal y como podemos ver por acá. Después
+empieza a hacer un desempeño por
+sectores más específico.
+Después entonces empieza a volcar eh los
+otros temas que habíamos solicitado, el
+tema de inflación,
+las expectativas, el tipo de cambio,
+comportamiento observado,
+sector externo. Ben y entonces ahí ya
+empieza como pues en este caso a hacer
+la investigación tal cual se estamos y
+como podemos observar pues generó un
+informe bastante detallado, ¿verdad?
+Ahora, en este caso, bueno, y también
+una tabla inclusive con los resultados
+generales y las confusiones ejecutivas.
+Entonces, como ven, fue un análisis más
+detallado de lo que habíamos observado
+en primera instancia utilizando nada más
+el modelo de búsqueda y el modelo
+resonador. Ahora, lo que nos falta por
+eh desarrollar
+es aquí igual en chat pting. Igual lo
+voy a hacer mejor en otra cuenta que es
+gratuita. Permény un momento.
+Listo. Ahora sí, en esta versión
+gratuita podemos para que vean que
+también eh funciona de modo gratuito.
+Aquí en proyectos eh yo le puedo pues eh
+crear un proyecto, nada más le pongo un
+nombre, por ejemplo, análisis de
+tráfico.
+Igual puedo indicar pues si es para
+algún tema en particular, ¿verdad?
+y le doy crear proyecto.
+Estos proyectos son estos espacios
+colaborativos que estábamos mencionando
+anteriormente. Entonces, ¿qué podemos
+hacer acá? Pues justamente
+agregar los archivos
+que nosotrosamos y también le podemos
+dar una instrucción, como lo vemos
+también en Perplexity, donde yo le puedo
+decir, "Bueno, actúe de esta manera. Las
+respuestas hágalas eh de esta forma. eh
+utilice principalmente la información
+que le suministramos, cada respuesta
+respáldela con datos, todo eso pues lo
+podríamos incluir acá si nosotros
+quisiéramos.
+Escogemos y
+acá ya obtenemos los datos o le
+incorporamos los datos que están como
+insumo en la unidad y que podrían pues
+propiamente incorporarse, ¿verdad?
+Aquí
+eh nos dice que lo máximo son cinco,
+¿verdad? Entonces, por eso aquí están
+cinco de modo gratuito. En eh la versión
+plus se podrían hasta 25. Y aquí pues ya
+pueden ver como efectivamente se
+cargaron los archivos. Igual le podemos
+dar clic aquí y de modo muy parecido por
+Plexit cargar archivos, modificar
+instrucciones o demás.
+Eh, también, como mencionábamos, se
+puede compartir, eso es otro eh elemento
+de los espacios de trabajo que y de los
+proyectos y notebook que también vimos
+anteriormente que tienen esa facilidad y
+lo que buscan es eso. Entonces, que
+podamos utilizar nuestros archivos, que
+podamos compartirlos y que con base en
+esos archivos podamos obtener
+información. Acá voy a copiar y pegar
+nuevamente el prom específico que
+estábamos utilizando. Y efectivamente,
+entonces aquí ya está el prom como tal
+y entonces ahí ya analiza los documentos
+que le suministramos.
+Es importante indicar que aquí también
+pues le podríamos activar pues algún eh
+modelo en particular si quisiéramos,
+pero vean qué interesante como ya
+efectivamente con los documentos que le
+suministramos él procede a realizar
+o a obtener la respuesta a solicitud que
+le planteamos, ¿verdad?
+Y ahí está. Entonces, pues la
+información ya con el detalle que le
+solicitamos, como ustedes ven, pues es
+un poco más concreto, pero está
+atendiendo específicamente a la
+información que le brindamos. Y vean que
+aquí ya me sale el proyecto. Entonces
+aquí me va a salir el chat que en
+primera instancia hicimos y puedo
+entonces hacerle otro chat, inclusive
+puedo dictarle o usar el modo eh de voz
+para interactuar en este caso con la
+inteligencia artificial y explotar al
+máximo estos archivos que le
+suministramos.
+Entonces, de esa manera, como ustedes
+logran observar, ya podríamos utilizar
+nuestros propios archivos y utilizar la
+inteligencia artificial para que también
+desde chat GPT nos ayude a procesar
+nuestros propios datos y ya con ellos
+entonces poder extraer la información o
+atender las instrucciones que nosotros
+le solicitemos.
+Yeah.

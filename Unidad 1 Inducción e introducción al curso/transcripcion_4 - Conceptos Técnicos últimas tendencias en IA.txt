@@ -1,0 +1,314 @@
+Título del Video: 4 - Conceptos Técnicos últimas tendencias en IA
+URL: https://youtu.be/ze5NqirkLVQ
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, para finalizar esta primera
+unidad vamos a hablar de algunos
+elementos más técnicos asociados a la
+inteligencia artificial para que
+tengamos un contexto
+suficientemente adecuado para las
+siguientes sesiones en las cuales ya
+vamos a trabajar más de lleno en el
+desarrollo
+y uso de intenso activado y
+automatizaciones.
+Vamos a ver lo que son en los modelos de
+discusión. Estos modelos son muy
+importantes porque son modelos que
+permiten propiamente el desarrollo de
+imágenes. Ya hablamos un poco de los
+CNN, que eran modelos o regalables
+convolucionarios que ayudaban a analizar
+patrones, entender ciertos
+comportamiento, pero eso funciona más en
+la parte gráfica de tablas, de análisis,
+digamos, más de patrones, pero en la
+parte de generación de las imágenes como
+tal, los modelos de difusión son los
+modelos y cor son los más utilizados. Lo
+primero que hacen es eh que generan un
+usan un esquema llamado generación por
+reer y entonces eh generan diferentes eh
+lienzos en términos de mira. Pun pum, y
+empiezan a ir refinando esos lienzos
+hasta que obtienen el resultado
+buscando. Por ejemplo, aquí es un primer
+lienzo y lo empieza a refinar y llega a
+este otro lienzo. Entonces eso es lo que
+llamamos modelos de difusión. son
+modelos especializados para generación
+de imágenes. Entonces tiran un primer
+lienzo cuando uno genera imágenes
+entonces han visto que uno generan eh se
+ve un poco como opaco, ¿verdad? Y no
+dice qué estar haciendo, qué está
+haciendo y empieza a refinar y refinar
+hasta que obtiene la imagen respectiva.
+Esto logra a partir de estos modelos
+llamados modelos de difusión.
+Después tenemos lo que llamamos el
+instruction tuning, el fine tuning, el
+rack y el cac. ¿Qué son todos estos
+elementos? nos explicamos con más
+detalle en la plaza, pero de momento en
+términos de resumen vamos a hablar son
+esquemas cuando uno logra ir
+personalizando la intensa artificial
+donde uno logra irla afinando, donde uno
+logra ir eh permitiendo que la
+inteligencia credencial se adapte más
+específicamente a un contexto propio.
+Entonces pensemos en los casos de
+empresas. Eh, las inteligencias
+artificiales son muy interesantes. Uno
+puede ir y trabajar con ellas y obtener
+respuestas. Sin embargo, lo que sucede
+es que como empresas uno decirle que no
+lo entiendo, que es el trabaje
+con nuestra información, que realicen
+ciertas tareas específicas de nuestra
+organización que logre en este caso que
+los resultados sean específicos para la
+empresa. Y esto por medio de un modo
+general no lo buscamos, sino que tenemos
+que utilizar estas otras herramientas
+donde agarramos a la inteligencia
+artificial y la entrenamos
+específicamente
+con nuestra información de un modo muy
+profesional para que ella
+específicamente
+eh se adapte al contexto que le demos y
+todo lo que nos responda o todas las
+tareas que ejecute esté en función de
+eso que nosotros los entrenamientos
+específicos queremos.
+Después está lo que llamamos los
+benchmarks.
+Estos benchmarks hay muchos inclusive en
+la próxima sesión vamos a entrar más en
+detalle en estos, pero estos benchmark
+lo que hacen es componer a competir a
+los modelos porque como ustedes
+comprenderán existen muchos modelos. De
+hecho, la próxima eh sesión en el módulo
+en el la módulo, perdón, en la segunda
+clase de en la unidad dos, perdón,
+básicamente vamos a empezar a dar ya en
+la parte más práctica y en esa parte
+práctica vamos a ver propiamente cómo se
+desarrollan estos benchmark, cómo
+podemos participar de ese proceso y
+cuáles son los resultados que se obtien
+pero en modo de resumen. Hoy por hoy hay
+mucho modo de inteligencia artificial y
+cómo determinar cuáles son los mejores.
+a partir de estos benchmarks. En estos
+benchmarks se les asign un montón de
+preguntas que ya han sido diseñadas con
+un respaldo científico por una comunidad
+que está trabajando en este tipo de
+evaluaciones y se ponen a competir los
+resultados y dependiendo del resultado
+que dio cada una se califica a cada una
+de las inteligencias artificiales y de
+esa manera se va construyendo un rank un
+ranking. Entonces, los benchmark lo que
+buscan es entonces a partir de este
+conjunto de preguntas determinadas
+ya propiamente darle una calificación
+para poder de esa manera determinar cuál
+es la mejor inteligencia artificial.
+Pero sus benchmarks no solo están para
+un tipo de preguntas, están para varios
+tipos de preguntas en diferentes
+esquemas. Entonces, en este caso existen
+varios benchmark para que dependiendo de
+cuál fuera nuestro eh principal caso de
+uso o para lo que estemos usando
+inteligencia artificial nos diga cuál es
+el modelo de inteligencia artificial más
+adecuado. Y después tenemos las técnicas
+de razonamiento que como dijimos en
+algún momento existen los modelos
+razonadores. Los resonadores son los que
+logran analizar o logran pensar,
+digamos, entre comillas, e mejorar las
+respuestas antes de dárnoslas. Entonces
+para ello utilizan diferentes eh
+técnicas, pero lo que en este caso a
+nivel de resumen queremos que largo es
+que estas técnicas permitieron modificar
+sustancialmente
+la forma en que funcionaban los 92os. O
+sea, de esta manera. Hoy por hoy ya los
+nuevos antes de la respuesta hacen en
+este caso algunos de estos esquemas para
+obtener una respuesta muchísimo mejor eh
+redactada y desarrollada de lo que
+podría de lo que hacían anteriormente.
+Entonces es como agregarle una capa que
+hace un análisis previo antes de dar una
+respuesta.
+Y después tenemos lo que llamamos el MOE
+o mixture of export. En este caso es una
+arquitectura basada en en procesos de
+activación. Hay un router, ¿verdad?
+Necesitamos una inteligencia artificial
+central
+y cuando llega una pregunta entonces él
+dice, "Okay, ¿de qué es este tema? de
+tal punto. Entonces, lo vamos a enviar a
+estos expertos.
+Y a qué nos referimos con expertos. ¿Qué
+es esto que está detrás? Digamos la
+inteligencia artificial en el fondo
+trabaja con redes neuronales. Ya lo
+vimos. Las redes neuronales tienen
+diferentes capas muchas muy profundas,
+¿verdad? Que en este caso están
+entrenadas a partir de cierta
+información.
+Cuando
+eh nacieron los modelos de inteligencia
+artificial, las preguntas llegaban y
+pasaban por todas las capas. Hoy por
+hoy, ya después de Deepsek,
+se observó que no era necesario y
+Deepsek básicamente lo que hizo fue
+introducir este nuevo esquema de
+entrenamiento, bueno, no de
+entrenamiento, sino de respuesta, en el
+cual antes de que se activen todas las
+capas, que es como llegue una pregunta
+sobre un tema a una oficina, menos que
+es un edificio de 10 plan. Entonces, en
+ese momento dijimos, "Uy, búsquenlo en
+todo el edificio, pum, pum, pum, pum,
+pum, hasta que encontremos la
+respuesta." Eso es lo que hacían los
+modelos anteriores. Los nuevos modelos
+usan esta arquitectura que entonces usa
+como un un experto en la entrada,
+¿verdad?, que llega y dice, "¿De qué es
+suo?" Ah, yo ocupo información sobre
+punto. Okay, muy bien. Vamos al tercer
+piso y se activa todo el tercer piso
+para darle respuesta a ese prom. Ven,
+entonces dio mucha más eficiencia de lo
+que hacían eh propiamente los modelos
+anteriores, porque ya nos permite en
+este caso enfocarnos en función de lo
+que se solicitó y no eh dedicar recursos
+indudariamente en otros temas, sino
+enfocarse específicamente en lo que se
+solicita.
+Y para ir finalizando en esta parte es
+eh vamos a hablar un poquito de lo que
+son las herramientas. Como dijimos, si
+yo tengo una inteligencia artificial,
+lo doy herramientas, lo do herramientas,
+lo convierto en un agente. Entonces un
+agente no me va a responder propiamente
+en un chat, sino que me va a generar un
+resultado. Entonces, piensen por ejemplo
+en un ejemplo bastante sencillo. ¿Cómo
+lo es crear una presentación? Crear una
+presentación
+es una tarea específica.
+En los esquemas viejos uno le decía a
+decía, quiero crear una presentación. Y
+la decía y le daba el viía, haga una
+presentación así, así y así. Pero uno en
+el fondo, ¿qué quería? Que le hiciera la
+presentación. Y eso es lo que hoy por
+hoy hacen los agentes. Los agentes
+entonces logran conectar a diferentes
+herramientas y en lugar de darme la
+respuesta de cómo hacerlo, lo hacen y
+nos dan efectivamente el resultado que
+nosotros queremos. Y eso es super
+importante, por eso el 25 ha sido el año
+de los agentes por el hecho de que ha
+permitido que la inteligencia artificial
+no solo de respuestas, sino que termine
+creando acciones gracias a que le damos
+RMS.
+Y aquí e ya esto lo mencionamos un
+poquito en eh la presentación de la
+evolución respectiva, pero ven aquí
+tenemos la ingeniería de contexto que
+permite en este caso
+crear una arquitectura para tareas
+complejas. Entonces, cuando vamos a
+programar por medio de este esquema de
+ingeniería de contexto, yo les logro dar
+las líneas generales y específicas que
+quiero que tome en consideración al
+momento de dar eh propiamente
+de momento de generar el código.
+Entonces, la forma de programar antes de
+esto era como si nosotros fuéramos los
+albañiles y nos encargamos de ir
+poniendo blog, blog, blog, ir generando
+el beneficio. Hoy por hoy lo que eh se
+busca es que seamos más los ingenieros o
+los arquitectos de la obra. Entonces,
+nosotros nos encargamos de diseñar
+claramente cómo es que creamos la obra y
+la inteligencia artificial se encarga de
+generar esa parte más eh digamos así
+rutinaria de ir creando el código de
+acuerdo a las especificaciones que
+nosotros le dimos. Y el MSP es un
+contexto, es un eh término muy
+importante porque es un protocolo que
+permite o estandarizó la forma en que la
+inteligencia artificial cede
+herramientas.
+Entonces generó un esquema muy práctico,
+muy goodill y que hoy prácticamente
+todas las inteligencias artificiales se
+utilizan para que si yo necesito
+conectarme con Excel, ah, entonces le
+generamos un para que se conecte el uso.
+Si yo necesito conectarme a un servidor
+para obtener información con un mspo
+acelerar eso. Y necesito conectarme eh
+propiamente obtener eh datos de booking
+o demás. Entonces le hago un MCP para
+conectarme, eso ocupo acceder a los
+correos. Con un MCP el se conecta a los
+correos. ¿Ven? Entonces fue como abrir
+las puertas para que y eso después vamos
+a explicar con más detal para que la
+inteligencia artificial pudiera acceder
+a herramientas. Y muy bien, para
+finalizar esta parte les vamos a pedir
+que eh con base en lo que ya hemos
+hablado a lo largo de la sesión eh nos
+indiquen, bueno, cuáles de estos
+conceptos ya conocían y también definan
+en sus propias palabras. Estos términos,
+como vemos, son los más importantes y
+son fundamentales para lo que sigue. E
+ya vamos a entrar en esa parte más
+práctica y para ello es necesario que
+ustedes comprendan adecuadamente todos
+estos conceptos, pero que sobre todo los
+tengan incorporados en su conocimiento.
+Entonces, en sus propias palabras tienen
+que comprender y saber a qué nos
+referimos con cada uno de hechos.
+Entonces, les dejamos aquí la lista de
+términos para que ustedes ya propiamente
+analicen esta información, lo logren eh
+propiamente ya en sus palabras eh crear
+esos conceptos o indicar a qué nos
+estamos refiriendo o a qué entienden
+ustedes por cada uno de ellos. Muchas
+gracias por su atención. De esta manera
+finalizamos el la primera unidad. Muy
+amabas.

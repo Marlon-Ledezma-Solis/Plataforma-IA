@@ -1,0 +1,372 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1RUuOp8QZQRqsUmRuGkwcs760u0Hv4agWCy4u4PTMEME/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+El Futuro Inevitable: 
+Un Mercado Laboral Transformado
+Las proyecciones globales destacan la velocidad y el alcance de la transformación impulsada por la automatización, especialmente en sectores clave.
+1
+Análisis del Foro Económico Mundial
+El World Economic Forum (2023), en su informe Future of Jobs Report, subraya la profunda reestructuración que experimentará el mercado laboral.
+2
+Impacto en Finanzas y Economía
+Se estima que más del 40% de las tareas dentro de los sectores de finanzas y economía son susceptibles de ser automatizadas en la próxima década.
+3
+Nuevas Oportunidades Emergentes
+Esta transición no solo implica un cambio en las tareas, sino también la creación de millones de nuevos empleos relacionados con la gestión de tecnologías avanzadas y la inteligencia artificial.
+World Economic Forum. (2023). Future of Jobs Report. https://www.weforum.org/publications/the-future-of-jobs-report-2023/
+
+--- Diapositiva 3 ---
+Goldman Sachs (2025, agosto). How will AI affect the global workforce? Goldman Sachs Global Investment Research.
+https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-global-workforce
+La Perspectiva Histórica
+1
+2
+Disrrupción temporal
+La agitación histórica de la innovación tecnológica resulta temporal: los impactos desaparecen después de dos años
+3
+La tecnología crea empleos
+El 85% del crecimiento del empleo desde 1940 provino de la creación de empleo impulsada por la tecnología, no del desplazamiento.
+El impacto futuro de la IA
+Los casos de uso actuales de IA afectarían solo al 2,5% del empleo de EE. UU. si se expandieran a toda la economía.
+Se estima 15% de aumento de la productividad laboral cuando la IA se adopte por completo.
+"Las predicciones de que la tecnología reducirá la necesidad de mano de obra humana tienen una larga historia, pero un historial pobre".- Goldman Sachs Research
+
+--- Diapositiva 4 ---
+Ejemplos de Automatización en Ciencias Económicas
+Actualización de series temporales
+Informes de Power BI
+Consolidar datos financieros
+Automatización de informes fiscales
+Automatizar informes de Power BI para indicadores macroeconómicos.
+Esto agilizará el proceso de informes.
+Actualizar
+automáticamente
+series temporales
+económicas
+utilizando APIs.
+Utilizar Power Automate o Make.com para consolidar información financiera de diversas fuentes. Esto asegura la precisión de los datos.
+Automatizar informes fiscales utilizando macros en Excel y PowerQuery. Esto mejora la eficiencia.
+
+--- Diapositiva 5 ---
+Diferencias Entre IA y Automatización
+Referencia: Poole & Mackworth (2023) Artificial Intelligence: Foundations of Computational Agents.
+Tareas estructuradas
+Adaptación dinámica
+Repetición predefinida
+Análisis de datos complejos
+Automatización
+Inteligencia Artificial
+
+--- Diapositiva 6 ---
+Complementariedad: Una Sinergia Imparable
+La verdadera potencia emerge cuando la automatización y la IA trabajan juntas. La automatización proporciona la estructura y la eficiencia para ejecutar tareas, mientras que la IA añade la inteligencia necesaria para optimizar y mejorar esas tareas de forma continua.
+La Automatización
+Crea y gestiona los flujos de trabajo repetitivos, asegurando que las operaciones básicas se realicen de forma fluida y eficiente.
+La IA
+Analiza los datos generados por la automatización para identificar oportunidades de mejora, optimizar decisiones y prever resultados.
+
+--- Diapositiva 7 ---
+Evolución tecnológica para llegar al PLN
+
+--- Diapositiva 8 ---
+¿Por qué automatizar procesos con IA?
+La automatización con Inteligencia Artificial en procesos representa un salto cualitativo en la eficiencia y precisión del análisis. Los Large Language Models (LLMs) y las redes neuronales generativas ofrecen capacidades sin precedentes para procesar, analizar y sintetizar información compleja.
+La implementación de IA en flujos de trabajo no solo mejora la velocidad de procesamiento, sino que también garantiza la consistencia en los análisis y permite mantener una trazabilidad completa de los procesos de decisión.
+
+--- Diapositiva 9 ---
+Los cuatro pilares de la automatización inteligente
+Productividad
+Optimización radical del tiempo de procesamiento.
+Consistencia
+Análisis unificado y estandarizado.
+Trazabilidad
+Transparencia y auditoría completa.
+Human-in-the-loop
+Colaboración inteligente entre humanos e IA.
+
+--- Diapositiva 10 ---
+Gestión de riesgos en automatización IA
+Implementación de técnicas de anonimización y pseudonimización para proteger información económica sensible. Cumplimiento con regulaciones de protección de datos personales.
+Privacidad de datos
+Evaluación continua de outputs para detectar sesgos algorítmicos. Diversificación de fuentes de datos y validación cruzada de resultados económicos.
+Mitigación de sesgos
+Encriptación end-to-end, autenticación multifactor y monitoreo continuo de accesos. Implementación de protocolos de seguridad de nivel bancario.
+Seguridad robusta
+Registro completo de prompts utilizados y outputs generados. Trazabilidad total de decisiones automatizadas para cumplimiento regulatorio.
+Auditoría transparente
+
+--- Diapositiva 11 ---
+ChatGPT (GPTs)
+Gemini (Gems)
+Copilot Studio
+Comparación de modelos de IA generativa
+Sin scheduler/trigger robusto
+Orquestaciones complejas requieren herramientas externas
+Úsalo si: Quieres un agente suite-neutral con acceso flexible a APIs y servicios propios.
+Menos conectores fuera de Google
+Flujos muy avanzados pueden necesitar servicios extra
+Úsalo si: Tu organización vive en Google y quieres automatizar rápido correo, docs y reuniones.
+Actions para llamar APIs
+Conexión con sistemas propios (MCP)
+Conectores a la nube (Drive/SharePoint)
+UX conversacional fluida
+Integración profunda con Google Workspace
+Workspace Flows no-code (Gmail/Docs/Sheets)
+Gobierno centralizado de Workspace
+Fortalezas:
+Orquestación potente con Power Automate
+Cientos de conectores (M365, SAP)
+Disparadores ricos (tiempo, eventos)
+Gobierno/DLP enterprise
+Curva de aprendizaje elevada
+Licencias Power Platform pueden ser costosas
+Úsalo si: Estás en Microsoft 365/Power Platform o necesitas compliance y flujos complejos enterprise.
+Fortalezas:
+Fortalezas:
+Debilidades:
+Debilidades:
+Debilidades:
+
+--- Diapositiva 12 ---
+Actividad 1: Automatización con Gem de Gemini
+https://gemini.google.com/gem/1BYCysDI1dcpzRpuS9z0kr5ssiPO83tUM?usp=sharing
+Para el siguiente ejercicio vamos a construir una Gema capas de transformar imágenes de facturas en una base de datos estructurada.
+
+Le suministraremos un conjunto de facturas que se encuentran en el material de apoyo (Insumos Unidad 5) y le pediremos que a partir de los datos ahí indicados proceda a realizar una hoja de cálculo con los datos estructurados asociados a dichas facturas.
+
+--- Diapositiva 13 ---
+Automatización con Gem de Gemini
+
+--- Diapositiva 14 ---
+Automatización con Gem de Gemini
+
+--- Diapositiva 15 ---
+Automatización con Gem de Gemini
+
+--- Diapositiva 16 ---
+Prompt para automatización con Gem de Gemini
+# Rol
+Actuá como un experto en procesamiento automático de documentos con inteligencia artificial, especializado en extracción de datos de facturas o recibos en imagen y su conversión a bases de datos estructuradas. Tenés experiencia en contabilidad digital, automatización de procesos empresariales y gestión documental. 
+
+# Contexto
+Estás diseñado para trabajar dentro de una automatización con Gem de Gemini, interpretando imágenes de facturas de distintos formatos y estructurando los datos de forma precisa y exacta.
+
+# Deber
+Tu tarea es analizar una o varias imágenes de facturas, extraer todos los datos relevantes y convertirlos en una base de datos estructurada en formato tabla:
+
+- Identificar automáticamente la cantidad y el monto, si no viene una cantidad específica por favor poner 1, y en muchas ocasiones la cantidad que viene es el monto, por favor revisa con detalle las cantidades numéricas que aparecen pues son muy importantes (en ocasiones pueden venir en letras) de facturas en los archivos proporcionados (puede ser una o varias).
+- Procesar cada factura de forma individual.
+- Si faltan datos en la factura dejarlos en blanco en su espacio correspondiente en la tabla, sin embargo si es el monto por favor tratar de buscar las cantidades dentro de la imagen con mucho esmero.
+- Organizar los resultados en una tabla única, exportable como hoja de cálculo (CSV o Excel).
+
+--- Diapositiva 17 ---
+# Instrucción
+
+- Extraé información relevante como: número de factura (en ocasiones el número factura esta debajo de un código de barras), fecha, proveedor o emisor, productos o servicios detallados, cantidades, precios unitarios, totales, impuestos y método de pago.
+- La estructura de la tabla tendrá las siguientes columnas: Número de Factura, Fecha, Proveedor o Emisor, Productos o Servicios Detallados, Cantidades, Precios Unitarios, Totales, Subtotal, Descuento, Impuestos, Total a Pagar y método de pago.
+- Si una imagen contiene más de una factura (por ejemplo, escaneadas juntas), detectá cada factura por separado.
+- Si se cargan múltiples imágenes, combiná todas las facturas extraídas en una sola tabla final.
+- Mantené el orden de los campos según el documento de referencia.
+- Validá que los datos extraídos sean coherentes y estén correctamente alineados con los campos definidos.
+- Si realizas operaciones matemáticas como sumas, restas multiplicaciones y divisiones, entrega resultados exactos.
+- La salida debe poder exportarse como una hoja de cálculo (.xlsx o .csv), manteniendo formato tabular limpio.
+- Utiliza el siguiente formato para los valores monetarios: ₡113,000.00.
+Prompt para automatización con Gem de Gemini
+
+--- Diapositiva 18 ---
+# Ejemplos
+-Entrada: imagen escaneada de una factura de proveedor con ítems, totales e impuestos visibles.
+ Salida esperada: columna en la tabla con cada campo completado (fecha, proveedor, ítems, subtotal, impuestos, total, etc.).
+
+-Entrada: cinco imágenes de facturas distintas.
+Salida esperada: cinco filas en la tabla, cada una con la información de una factura individual, todas bajo el mismo esquema de columnas.
+
+# Notas
+Siempre usá la estructura definida de columnas para organizar los datos.
+La tabla de salida debe estar lista para exportarse como .xlsx o .csv sin requerir limpieza adicional.
+Asegúrate de no omitir ninguna factura ni ningún campo importante.
+Si un campo no está presente en una factura, completarlo como vacío sin eliminarlo de la estructura.
+El procesamiento debe ser robusto ante facturas con diferentes diseños, pero respetando los campos clave.
+Prompt para automatización con Gem de Gemini
+
+--- Diapositiva 19 ---
+Automatización con Gem de Gemini
+
+--- Diapositiva 20 ---
+Automatización con Gem de Gemini
+
+--- Diapositiva 21 ---
+Actividad 2: Automatización con GPT de Open AI
+Le suministraremos un conjunto de informes que se encuentran en el material de apoyo (Insumos Unidad 5) y le pediremos que a partir de los datos ahí indicados proceda a realizar el informe ejecutivo que le solicitamos.
+https://chatgpt.com/g/g-68fd54de8b3c8191a78d454dd3d5efc0-informe-actividad-economica-cr
+Para el siguiente ejercicio utilizaremos un GPT para construir una automatización que se encargará de crear un informe ejecutivo sobre la actividad de Costa Rica, basándose en datos oficiales importantes como por ejemplo: el índice mensual de actividad económica (IMAE), Variación interanual del IPC e Indicadores de inflación.
+
+--- Diapositiva 22 ---
+Automatización con GPT de Open AI
+
+--- Diapositiva 23 ---
+Automatización con GPT de Open AI
+
+--- Diapositiva 24 ---
+Automatización con GPT de Open AI
+
+--- Diapositiva 25 ---
+# Rol
+Actuá como un economista experto en análisis económico con 10 años de experiencia. Tenés formación en el procesamiento de documentos y redacción ejecutiva. Estás entrenado para interpretar estadísticas macroeconómicas y redactar reportes ejecutivos  claros, concisos y enfocados en tomadores de decisión. 
+
+# Tarea
+Tu tarea principal es analizar documentos adjuntos en PDF que contienen información económica extraída de fuentes oficiales de Costa Rica (INEC y Banco Central de Costa Rica), y a partir de ellos, generar un reporte ejecutivo exportable sobre la evolución reciente de la economía del país.
+
+# Detalles Específicos
+Los documentos contendrán los siguientes indicadores:
+Del Instituto Nacional de Estadística y Censos (INEC): Índice de Desempleo y Tasa de Ocupación. 
+Del Banco Central de Costa Rica (BCCR): Índice Mensual de Actividad Económica (IMAE), Variación interanual del IPC e Indicadores de inflación.
+Extraé los valores más recientes disponibles de cada indicador. 
+Redactá un reporte ejecutivo que:
+Presente un resumen del estado económico actual de Costa Rica. 
+Destaque tendencias y cambios relevantes en los indicadores en comparación con periodos anteriores.
+Presente gráficos de los indicadores.
+Esté escrito en lenguaje profesional y accesible para lectores no técnicos.
+Si alguno de los indicadores no está presente en los documentos, indicá claramente su ausencia en el reporte. 
+El análisis debe ser objetivo, sin interpretaciones políticas ni subjetivas.
+El reporte debe ser exportable en un documento de Word o PDF y debe incluir los gráficos de los indicadores.
+Automatización con GPT de Open AI
+
+--- Diapositiva 26 ---
+# Contexto
+Analizar automáticamente documentos estructurados o semiestructurados con datos económicos, y generar reportes útiles para ejecutivos o instituciones que requieran análisis macroeconómicos sin intervención manual. 
+
+# Notas
+- Nunca asumas valores que no estén explícitamente en los documentos. 
+- Todos los valores deben expresarse con unidades y fechas correspondientes. 
+- Si los documentos están incompletos o mal formateados, indicá el problema sin inventar datos. 
+- El informe debe estar redactado en español latino y ser profesionalmente presentable. 
+- Siempre extraé los datos más recientes disponibles en las fuentes oficiales. 
+- Si no hay actualización en alguno de los indicadores, mencioná expresamente la fecha del último dato disponible. 
+- No respondas a consultas que impliquen especulación económica sin datos concretos.
+- IPC = Índice de Precios al Consumidor.
+Automatización con GPT de Open AI
+
+--- Diapositiva 27 ---
+Automatización con GPT de Open AI
+
+--- Diapositiva 28 ---
+Automatización con GPT de Open AI
+
+--- Diapositiva 29 ---
+Automatización con GPT de Open AI
+
+--- Diapositiva 30 ---
+Automatización con GPT de Open AI
+
+--- Diapositiva 31 ---
+El futuro de la economía automatizada
+La clave del éxito estará en mantener el equilibrio entre la potencia tecnológica y el juicio experto humano, asegurando que la automatización amplíe nuestras capacidades sin reemplazar el pensamiento crítico.
+
+--- Diapositiva 32 ---
+Mostramos vários GPTs existentes y que son públicos para ser utilizados de modo gratuito
+GPTs personalizados existentes
+Herramienta extra:
+
+--- Diapositiva 33 ---
+GPTs personalizados de ChatGPT:
+
+--- Diapositiva 34 ---
+GPTs personalizados de ChatGPT:
+
+--- Diapositiva 35 ---
+Crear GPT
+
+--- Diapositiva 36 ---
+Editar GPT
+
+--- Diapositiva 37 ---
+GPTs personalizados de ChatGPT:
+Texto
+
+XXXXXXXXXXXXXX
+
+--- Diapositiva 38 ---
+GPTs personalizados de ChatGPT:
+
+--- Diapositiva 39 ---
+GPT Store para usar GPTs creados por la comunidad
+
+--- Diapositiva 40 ---
+Economy Professor
+
+--- Diapositiva 41 ---
+Consensus
+
+--- Diapositiva 42 ---
+Scholar GPT
+
+--- Diapositiva 43 ---
+World Bank 2025
+
+--- Diapositiva 44 ---
+Economic Data Visualizer (IMF)
+
+--- Diapositiva 45 ---
+VoxScript
+Texto
+
+XXXXXXXXXXXXXX
+
+--- Diapositiva 46 ---
+VoxScript
+
+--- Diapositiva 47 ---
+Boolio – Global Stocks Analyst
+
+--- Diapositiva 48 ---
+Boolio – Global Stocks Analyst
+
+--- Diapositiva 49 ---
+Air bnb Rental Earnings Optimizer
+
+--- Diapositiva 50 ---
+Herramientas extra: asistente con Copilot
+
+--- Diapositiva 51 ---
+Automatización con Copilot Studio
+
+--- Diapositiva 52 ---
+Automatización con Copilot Studio
+
+--- Diapositiva 53 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 54 ---
+Automatización con Copilot Studio Pro
+Por favor requiero que realices un proceso para extraer del BCCR los datos de composición del PIB, específicamente el consumo (C) que puede estar indicado como Gasto de consumo final de los hogares e ISFLSH o similar, la Inversión (I) es la suma de la formación bruta y variación de existencias o similar, el Gasto de Gobierno (G) es el Gasto de consumo final del Gobierno General y las Importaciones (M) y las exportaciones (X).
+
+--- Diapositiva 55 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 56 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 57 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 58 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 59 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 60 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 61 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 62 ---
+Automatización con Copilot Studio Pro
+
+--- Diapositiva 63 ---
+Muchas gracias

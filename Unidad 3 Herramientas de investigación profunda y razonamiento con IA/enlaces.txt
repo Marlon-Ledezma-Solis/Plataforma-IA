@@ -1,0 +1,7 @@
+Link de google Slice: https://docs.google.com/presentation/d/10fbUcDl2FuOG3H8I6YSjWoi-u2f4qPnXIgweqXhU2lU/edit?usp=sharing
+
+Link de los tutoriales y los links con sus nombres:
+- Explicación teórica de Funcionalidades: https://youtu.be/Oe-FpJ-Ig78
+- Funcionalidades en Perplexity: https://youtu.be/aeQDRGBFHy8
+- Funcionalidad en Google Gemini: https://youtu.be/GZtsEPUzOvc
+- Funcionalidades en ChatGPT: https://youtu.be/riAXgihbTpY

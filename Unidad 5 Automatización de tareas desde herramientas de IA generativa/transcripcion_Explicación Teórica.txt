@@ -1,0 +1,239 @@
+Título del Video: Explicación Teórica
+URL: https://youtu.be/zhKHvOA-kbE?si=hh_KO3-83Q5gfzVr
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Bien, ahora vamos entonces a trabajar
+con la unidad número cinco, que es
+automatización de tareas desde
+herramientas de generativa. Y vamos a
+ver en primera instancia algunos
+elementos teóricos. Lo primero es que
+estamos justamente ante un mercado
+laboral que se está transformando. Acá
+tenemos pues algunas eh puntos
+importantes que queremos mencionarles.
+Por ejemplo, lo que fue el análisis del
+foro económico mundial que en año en el
+año 2023, ¿verdad?,
+eh surgió la importancia de la profunda
+reestructuración que experimentará el
+mercado laboral a partir de este eh de
+este cambio que está implementando la
+inteligencia artificial en todas sus
+dimensiones. Hay un impacto muy
+importante en la actividad económica,
+¿verdad? se estima que más de 40% de las
+tareas dentro de los sectores de
+finanzas, de economías y de actividad
+productiva estarían siendo susceptibles
+a un proceso de modificación importante
+y hay nuevas oportunidades emergentes,
+¿verdad? No solo implica un cambio en
+las tareas, sino creación de nuevos
+empleos y también pues eliminación de
+algunos de ellos, ¿verdad? Acá entonces
+tenemos una perspectiva histórica,
+¿verdad? Eh, la tecnología pues ha
+creado empleos desde el año 1940,
+¿verdad? Ha habido un cambio importante
+a nivel tecnológico y eso pues ha
+permitido la creación de empleos
+diferentes. Hay una disrupción
+importante en el mercado laboral,
+¿verdad? En este momento estamos en un
+eh proceso de modificación importante en
+el cual pues eh se espera que en los
+próximos años eh varios de los eh h
+trabajos que en este momento existen
+pues sean modificados eh sustancialmente
+a partir de la inteligencia artificial y
+el impacto futuro. Pues en este caso lo
+que estamos esperando es que se afecten
+eh cerca de un 2,5%
+del empleo, ¿verdad? Si se expandieran
+en toda la economía, ¿verdad? Ya sería
+como un crecimiento esperado y un 15% de
+aumento en la productividad cuando se
+logre adoptar por completo. Eso por
+medio de la investigación de Goldman Sax
+que realizó en su oportunidad. Ahora
+bien, ¿cuáles son ejemplos de
+automatización? Específicamente acá lo
+podemos observar en detalle. Para
+actividades económicas e tenemos la
+actualización de series eh temporales,
+¿verdad? Entonces eh muchas veces hay
+información que se tiene que estar
+actualizando cada cierto tiempo,
+¿verdad? Y en este caso entonces todo lo
+que es actualización de información
+podría entonces automatizarse con
+inteligencia artificial. Después tenemos
+los informes en Power BI, que es una
+herramienta muy poderosa para el
+análisis de datos. Entonces, eh la
+inteligencia sí se puede ayudar a
+automatizar parte de estos procesos,
+también consolidar datos financieros,
+eso eh o datos pues económicos o eh
+productivos en general, donde pues ya
+podemos hacer que la inteligencia
+artificial nos ayude a consolidar ese
+tipo de de información y automatización
+de informes.
+Ahora es importante eh, y esto es uno de
+los pilares más importantes a
+comprender, es cómo existen dos
+esquemas, por decirlo así, de
+automatización básicos. En primera
+instancia hablamos de automatización en
+términos generales, que son tareas
+estructuradas y de repetición
+predefinida. Entonces, es como estar
+haciendo eh constantemente un mismo
+proceso. Entonces, como es estar
+haciendo constantemente un mismo
+proceso, esperaríamos propiamente que la
+automatización nos permita llegar a ese
+nivel en el cual detallamos eh
+propiamente todo el proceso que se tiene
+que realizar y hacemos que inteligencia
+artificial se encargue de e repetir ese
+proceso. en este caso, más bien los
+robots que se desarrollen se encarguen
+de repetir eh todos estos procesos. Eso
+es lo que llamamos automatización en
+términos eh generales. Pero ahora la
+inteligencia artificial viene a realizar
+una modificación muy importante y es que
+cuando teníamos un modelo de
+automatización en el cual siempre se
+realizaba un mismo proceso, cuando algo
+de ese proceso cambiaba, entonces eh se
+daba una ruptura muy muy fuerte en la
+automatización.
+Eso esa ruptura le llamamos
+incertidumbre. O sea, decimos que cuando
+algo cambia y e en un proceso está
+articulado y se enfrenta a algo que
+tiende a variar o que es diferente,
+entonces estamos hablando ya propiamente
+de lo que denominaríamos incertidumbre.
+mediante esa incertidumbre, entonces las
+máquinas tienen que empezar a tomar
+propiamente decisiones.
+Estas decisiones son las que hoy por
+hoy, gracias a inteligencia artificial,
+las máquinas pueden hacerlo por medio de
+una adaptación dinámica donde eh con
+base en patrones históricos y de
+comportamiento logren ver cómo sortear
+ese tipo de situaciones
+y el análisis de datos complejos donde
+entonces a partir de la información que
+están recibiendo también ellos pueden eh
+construir un modelo y tomar una decisión
+eh respectiva al momento de proceder.
+Entonces, ya esto es una sinergia muy
+importante que se tiene, una sinergia en
+la cual la automatización permite crear
+flujos
+eh automatizados donde normalmente
+estamos refiriendo tareas, pero la
+inteligencia artificial logra sortear la
+incertidumbre y
+eh proceder a hacer análisis o incluir
+eh modelos que nos permitan analizar la
+información y ante situaciones que se
+nos salen del patrón o el flujo esperado
+de la automatización puedan ya propi
+propiamente entonces tomar decisiones y
+accionar de un modo más autónomo e
+independiente.
+¿Cuál ha sido pues eh un poco la
+evolución que hemos tenido para llegar a
+este punto? Bueno, en primera instancia
+el procesamiento del lenguaje natural
+que por medio de los Transformers nos
+permitió entonces que las computadoras
+entendieran eh propiamente lo que
+significaban las diferentes palabras y
+entonces ahora sí poder trabajar con
+texto, ¿verdad? con palabras, con
+lenguaje natural. Entonces, eso fue un
+gran cambio que tuvimos y que nos
+permite que hoy por hoy entonces se
+logre sortear la incertidumbre de mejor
+manera. Después de ahí vinieron los
+modelos de eh lenguaje de gran tamaño,
+que en este caso son modelos avanzados
+construidos con los Transformers y que
+entonces ahora sí, dado que están
+entrenados con una gran cantidad de
+información y tienen redes neuronales
+muy grandes, entonces van a poder eh
+propiamente proceder a analizar la
+información y tomar decisiones. Y de
+redes neuronales es la base, ¿verdad?,
+eh que está detrás de todo esto. Son los
+modelos matemáticos que permiten
+entonces hacer los procesos para eh
+analizar la información. ¿Y por qué
+automatizar los procesos de inteligencia
+artificial? Pues justamente porque la eh
+inteligencia artificial nos permite
+reducir muchos de los tiempos que
+estamos invirtiendo, específicamente en
+este tipo de tareas que podríamos
+perfectamente hacer de un modo más
+sencillo utilizando la inteligencia
+artificial. ¿Y cuáles son los cuatro
+pilares?
+Acá podemos observar como eh pues los
+cuatro pilares para esta automatización
+es que permiten entonces eh mejorar la
+productividad, no una mayor consistencia
+al momento de realizar los análisis hay
+más trazabilidad porque eh nos permiten
+entonces parametrizar o crear flujos muy
+concretos de eh manejo de información y
+también pues la colaboración inteligente
+entre humanos inteligencia. artificial,
+pero hay importantes riesgos que se
+tienen que tomar en consideración. Uno
+es el tema de la privacidad de los
+datos. Después tenemos la al momento de
+utilizar herramientas de inteligencia
+artificial, sin jugar a dudas, entonces
+los datos acá eh pues tienen que
+cuidarse y tienen que eh resguardarse
+para que eh sean utilizados
+adecuadamente. el tema de los sesgos,
+que también ya conversamos en algún otro
+momento, para que estos procesos de
+automatización no contemplen sesgos que
+afecten propiamente a las herramientas,
+una seguridad robusta para garantizar,
+en este caso, que no haya ninguna
+interferencia de algún e
+programa malicioso que quiera afectar la
+infraestructura y la información y una
+auditoría transparente que permita, en
+este caso, pues poder verificar todo el
+proceso que se está desarrollando. Y
+ahora pues lo que vamos a hacer es ver
+cómo podemos hacer este tipo de
+automatizaciones de ciertos procesos
+utilizando CH GPT, Gemini y de modo
+extra coparlo para ello. Entonces, vamos
+a mostrarles que son los GPTs, qué son
+las gemas y qué son eh los agentes,
+aunque en realidad eso va a ser un
+material extra que queda para eh
+valoración de cada uno de los
+estudiantes. Entonces, vamos a proceder
+a ver cada una de esas herramientas
+donde van a poder detallar cómo
+utilizarlas para automatizar ciertas
+ciertos procesos. M.

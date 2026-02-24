@@ -1,0 +1,584 @@
+Texto extraído de la presentación: https://drive.google.com/open?id=12vL8DCfr60RSXlZvefE9hU6kNCcIua9UymDV4Xz6QAI&usp=drive_copy
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Vibe Coding: forma simple de programar con IA
+Descubre cómo la inteligencia artificial está revolucionando el desarrollo de software, permitiendo crear aplicaciones completas usando únicamente lenguaje natural.
+
+--- Diapositiva 3 ---
+CONCEPTO CLAVE
+Definición de Vibe Coding
+Vibe Coding es una metodología revolucionaria de desarrollo asistida por inteligencia artificial donde describes en lenguaje natural qué quieres crear y la IA genera el código automáticamente. No necesitas conocer sintaxis compleja ni escribir líneas de código manualmente.
+El término fue acuñado por Andrej Karpathy en 2025, visionario en el campo de la IA, quien lo definió de manera brillante como "olvidar que el código existe" y enfocarse únicamente en la idea o el 'vibe' de la aplicación que deseas construir.
+Esta metodología representa un cambio paradigmático: pasamos de pensar en cómo programar algo a simplemente expresar qué queremos crear.
+¿Qué significa "vibe"?
+Se refiere a la esencia, la sensación y el propósito de tu aplicación, sin preocuparte por la implementación técnica.
+"El código es solo un medio, la visión es el fin"
+
+--- Diapositiva 4 ---
+¿Cómo funciona el Vibe Coding?
+El proceso de Vibe Coding transforma tu visión en realidad mediante un flujo de trabajo intuitivo y colaborativo con la inteligencia artificial.
+01
+Describe tu visión en lenguaje sencillo
+Simplemente expresa tu idea como si hablaras con un colega: "Crea una app de tareas con modo oscuro y sincronización en la nube". Sin términos técnicos, sin complicaciones.
+02
+La IA genera el código completo
+La inteligencia artificial interpreta tu descripción y construye automáticamente tanto el frontend (interfaz visual) como el backend (lógica y base de datos) de tu aplicación.
+03
+Pruebas y ajustes iterativos
+Interactúa con tu aplicación y solicita cambios usando instrucciones naturales: "Haz los botones más grandes" o "Agrega notificaciones por email". La IA entiende y ejecuta inmediatamente.
+04
+Escalas y despliegas con asistencia
+Cuando estés satisfecho, la IA te ayuda a optimizar el rendimiento, configurar servidores y publicar tu aplicación en producción.
+
+--- Diapositiva 5 ---
+VENTAJAS CLAVE
+Beneficios principales del Vibe Coding
+⚡ Desarrollo 10x más rápido
+Lo que antes tomaba semanas o meses ahora se completa en horas o días. Prototipa, itera y lanza productos con una velocidad sin precedentes.
+🚀 Menor barrera de entrada
+No necesitas ser un programador experto ni tener años de experiencia. Si puedes explicar tu idea claramente, puedes construirla.
+🔄 Iteración instantánea
+Realiza cambios y mejoras con solo describirlos. La experimentación se vuelve rápida, económica y libre de riesgos técnicos.
+💡 Enfoque en creatividad
+Dedica tu energía a resolver problemas reales y diseñar experiencias excepcionales, no a luchar con detalles técnicos complejos.
+Estos beneficios no solo aceleran el desarrollo: transforman completamente quién puede innovar y cómo se crean soluciones tecnológicas en el mundo moderno.
+
+--- Diapositiva 6 ---
+Retos y consideraciones importantes
+Aunque el Vibe Coding es transformador, es fundamental comprender sus limitaciones y aplicarlo estratégicamente para obtener los mejores resultados.
+1
+Supervisión humana esencial
+La IA genera código funcional, pero la supervisión humana sigue siendo clave para garantizar calidad, seguridad, escalabilidad y cumplimiento de mejores prácticas. No todo el código generado es óptimo de entrada.
+2
+La creatividad humana es irreemplazable
+El Vibe Coding no reemplaza el pensamiento crítico, la visión estratégica ni la creatividad humana. La IA es una herramienta poderosa, pero las mejores soluciones surgen de la colaboración humano-IA.
+3
+Enfoque híbrido recomendado
+Lo ideal es combinar Vibe Coding para desarrollo rápido con programación tradicional para optimización fina, refactorización y funcionalidades complejas que requieren control preciso.
+"El Vibe Coding no elimina la necesidad de desarrolladores, sino que los empodera para enfocarse en problemas de mayor valor y complejidad."
+
+--- Diapositiva 7 ---
+Ingeniería de Especificación
+Cómo trabajar con IA paso a paso en Ciencia de Datos
+La ingeniería de especificación es el proceso de descomponer problemas complejos en pasos claros y explícitos, permitiendo que la IA ejecute cada tarea correctamente.
+
+--- Diapositiva 8 ---
+Relación Entre Conceptos Clave
+Ingeniería de Especificación
+Define qué se quiere hacer, cómo, en qué orden y con qué restricciones
+Ingeniería de Características
+Es una etapa específica dentro de la ingeniería de especificación
+La ingeniería de especificación es el marco general que guía todo el proceso analítico, mientras que la ingeniería de características se enfoca en crear variables predictivas.
+
+--- Diapositiva 9 ---
+¿Qué es la Ingeniería de Especificación?
+Descomponer Problemas
+Es el proceso de descomponer un problema complejo en pasos claros, explícitos y secuenciales, de forma que una IA pueda ejecutar cada tarea correctamente.
+No es:
+Escribir código directamente
+Probar al azar
+Pedir "hazme todo"
+Es:
+Pensar el proceso completo
+Dividir en tareas manejables
+Guiar a la IA paso a paso
+
+--- Diapositiva 10 ---
+¿Por Qué la IA Falla con Peticiones Vagas?
+Cuando se pide "Haz un modelo con estos datos", la IA debe hacer múltiples suposiciones implícitas, mezcla etapas sin orden claro, toma decisiones sin justificación y produce resultados difíciles de interpretar o corregir.
+La IA trabaja mejor cuando se le dan pasos específicos, no cuando se le dan objetivos vagos.
+
+--- Diapositiva 11 ---
+Principio Central
+Pasos, No Objetivos
+La IA trabaja mejor cuando se le dan pasos específicos, no cuando se le dan objetivos vagos. Por eso la especificación debe ser secuencial y cada paso debe tener un resultado verificable.
+
+--- Diapositiva 12 ---
+¿Qué Se Debe Especificar Siempre?
+Toda buena ingeniería de especificación incluye seis elementos fundamentales que guían el proceso completo.
+1
+Contexto
+Qué tipo de problema es y qué representan los datos
+2
+Objetivo
+Qué se quiere obtener (no cómo)
+3
+Entradas
+Variables disponibles y formato de datos
+4
+Pasos Explícitos
+Secuencia ordenada de acciones
+5
+Restricciones
+Simplicidad, interpretabilidad, tipo de modelo
+6
+Salida Esperada
+Forma del resultado y qué debe mostrarse
+
+--- Diapositiva 13 ---
+Vibe Coding vs Ingeniería de Especificación
+❌ Vibe Coding
+"Hazme un modelo con estos datos"
+Exploración rápida sin control
+Resultados opacos
+Difícil de corregir
+Poco aprendizaje
+Útil para explorar, no para aprender ni construir bien.
+✓ Ingeniería de Especificación
+Divide el problema en pasos
+Controla cada etapa
+Valida resultados intermedios
+Enseña el proceso
+Reduce errores
+Aquí la IA se vuelve una herramienta profesional.
+
+--- Diapositiva 14 ---
+Ejemplo: Flujo de Ciencia de Datos Bien Especificado
+Una organización tiene información mensual de clientes y quiere analizar y predecir el comportamiento de consumo. En lugar de pedir "haz todo", especificamos cada etapa.
+1
+Construcción del Dataset Base
+Cargar y estructurar datos iniciales
+2
+Validación de Variables
+Verificar tipos, rangos y calidad
+3
+Diseño de Características
+Crear variables predictivas paso a paso
+4
+Preparación Final
+Dataset listo para modelación
+5
+Modelo Simple
+Entrenar y evaluar
+6
+Interpretación
+Explicar resultados y decisiones
+
+--- Diapositiva 15 ---
+Actividad 1: Uso de Google AI Studio
+En esta primera actividad, el objetivo es que el estudiante aprenda a utilizar Google AI Studio como un laboratorio de experimentación para construir, refinar y validar prompts orientados al diseño web. El trabajo inicia definiendo un brief general del sitio (tipo de negocio, propósito, tono, estructura mínima y restricciones), y a partir de ahí se conduce un proceso iterativo donde el estudiante conversa con el modelo para obtener, primero, un sitemap y un desglose de contenido por secciones; luego un wireframe textual; y finalmente un primer prototipo de páginas en HTML/CSS (con un enfoque mobile-first).
+
+--- Diapositiva 16 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 17 ---
+INTRODUCCIÓN
+¿Qué es Google AI Studio?
+AI Studio es un "playground" interactivo diseñado para probar prompts con modelos de Gemini en múltiples modalidades: texto, imagen, audio y video, todo en un mismo lugar. Esta plataforma permite experimentar y refinar instrucciones de manera ágil antes de implementarlas en proyectos reales.
+
+--- Diapositiva 18 ---
+Conceptos Fundamentales
+1
+2
+3
+El "motor" de IA con distintas capacidades, costos y latencia según tus necesidades
+Modelo
+Instrucciones claras más contexto relevante para guiar al modelo
+Prompt
+Ciclo rápido de probar, ajustar y comparar resultados
+Iteración
+
+--- Diapositiva 19 ---
+Estructura del Prompt Efectivo
+Componentes Clave
+Objetivos claros y medibles
+Restricciones específicas
+Formato de salida deseado
+Criterios de calidad
+Casos de prueba
+Salida Utilizable
+Un prompt bien estructurado genera código limpio, checklists accionables y pasos siguientes claros. La clave está en la especificidad: mientras más detallado el prompt, más preciso el resultado.
+
+--- Diapositiva 20 ---
+METODOLOGÍA
+Flujo Recomendado para Desarrollo Web
+01
+Definir Requerimientos
+Crear un brief web completo con objetivos y restricciones
+02
+Generar Sitemap
+Esquematizar la estructura del sitio y navegación
+03
+Wireframe Textual
+Definir secciones y contenido sin código
+04
+HTML/CSS Mínimo
+Generar el primer prototipo funcional
+05
+Iterar por Páginas
+Desarrollar Home, Servicios y Contacto
+06
+Integrar Chatbot
+Añadir UI y conectar backend/API
+07
+Validación Final
+Verificar responsive, accesibilidad y performance
+
+--- Diapositiva 21 ---
+Gemini Live: Conversación en Tiempo Real
+Gemini Live permite conversación natural con voz y, según disponibilidad, compartir cámara o pantalla para recibir respuestas habladas en tiempo real. Esta experiencia de usuario transforma la interacción con IA en algo más natural e intuitivo.
+
+--- Diapositiva 22 ---
+Live API para Desarrolladores
+El Live API ofrece baja latencia y procesa streams continuos de audio, video o texto para interacciones en tiempo real. Ideal para construir aplicaciones propias con capacidades conversacionales avanzadas.
+También existen guías para usar Live API con Firebase AI Logic, actualmente en preview, que facilita la integración en proyectos existentes.
+Casos de Uso
+Soporte al cliente
+Tutoría interactiva
+Asistencia en procesos
+Guías de uso en sitios
+
+--- Diapositiva 23 ---
+Actividad Práctica: Demo Conceptual
+Entrada Continua
+Audio y video en tiempo real
+Procesamiento
+Análisis instantáneo con IA
+Respuesta Bidireccional
+Interacción natural y fluida
+Esta demostración conceptual ayuda a comprender cómo funciona la comunicación en tiempo real sin necesidad de programar, enfocándose en los casos de uso prácticos.
+
+--- Diapositiva 24 ---
+HERRAMIENTAS VISUALES
+Nano Banana: Generación de Imágenes
+En el ecosistema Gemini, Nano Banana representa capacidades nativas de generación y edición de imágenes disponibles vía Gemini API y accesibles desde AI Studio según configuración.
+Cuándo Usar
+Para prototipos rápidos y visualizaciones conceptuales
+Cuándo Evitar
+En flujos de producción donde adjuntar imágenes falla
+
+--- Diapositiva 25 ---
+Estrategia con Placeholders
+Enfoque Recomendado
+Para el ejemplo web del curso, conviene no depender de imágenes en el primer prototipo. Usa placeholders y deja la carga real de imágenes para una iteración posterior.
+Ventajas
+Desarrollo más rápido
+Menos puntos de falla
+Enfoque en estructura
+Flexibilidad posterior
+
+--- Diapositiva 26 ---
+Actividad 2: Uso de Google Antigravity
+En la segunda actividad, el foco pasa de “prototipar prompts” a ejecutar un flujo completo de ingeniería y construcción real usando Antigravity como entorno agent-first. Aquí, el estudiante trabaja dentro de un workspace con una estructura predefinida: una subcarpeta /info con textos e insumos del negocio (descripción, servicios, datos de contacto, lineamientos), una subcarpeta /imagenes con recursos visuales disponibles (logo e imágenes), y una carpeta destino /public donde se generará el sitio final listo para despliegue.
+
+--- Diapositiva 27 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 28 ---
+Google Antigravity: IDE Agent-First
+Antigravity se presenta como una plataforma orientada a agentes que planifican, codifican y verifican tareas complejas. Es un IDE donde el agente no solo conversa, sino que actúa directamente sobre el proyecto.
+
+--- Diapositiva 29 ---
+Capacidades de Antigravity
+Editor
+Crea y modifica archivos directamente en el proyecto
+Terminal
+Ejecuta comandos para instalar dependencias y levantar servidores
+Browser
+Abre y valida resultados con navegación automática
+
+--- Diapositiva 30 ---
+Sistema de Artifacts
+Antigravity deja evidencia mediante Artifacts: documentos que registran planes, listas de tareas, diffs de código, screenshots y grabaciones para que puedas verificar cada acción realizada.
+Listas de Tareas
+Qué hará el agente paso a paso
+Planes
+Cómo implementará cada tarea
+Diffs
+Cambios específicos en el código
+Evidencias
+Screenshots y grabaciones de validación
+
+--- Diapositiva 31 ---
+VISTAS PRINCIPALES
+Interfaz de Antigravity
+Agent Manager
+Mission Control que orquesta agentes, gestiona el "Inbox" y revisa artifacts generados
+Editor View
+Árbol de archivos estilo VS Code con panel del agente para trabajar directamente sobre el proyecto
+
+--- Diapositiva 32 ---
+Fortaleza Clave de Antigravity
+No es simplemente un "chat de código". Antigravity ofrece un flujo completo de ingeniería:
+Iteración
+Verificación
+Implementación
+Plan
+Todo con evidencia documentada y control total sobre cada decisión del agente.
+
+--- Diapositiva 33 ---
+CONFIGURACIÓN CRÍTICA
+Configuración Segura Antes de Empezar
+Antigravity permite distintos niveles de autonomía. El modo review-driven es el balance recomendado: el agente propone acciones y pide aprobación antes de ejecutar comandos sensibles.
+
+--- Diapositiva 34 ---
+Ajustes Esenciales para tu Metodología
+1
+Terminal Execution Policy
+Usa Review-driven development para aprobar comandos manualmente
+2
+Artifact Review Policy
+El agente debe generar Task List + Implementation Plan antes de codificar
+3
+Browser Integration
+Habilita integración con Chrome para validación visual y screenshots
+4
+URL Allowlist
+Restringe navegación a dominios confiables en ~/.gemini/antigravity/browserAllowlist.txt
+
+--- Diapositiva 35 ---
+Mensaje Pedagógico: Seguridad Primero
+Se han reportado incidentes por permisos amplios, incluyendo ejecución de comandos peligrosos o exfiltración de datos con "autonomía total".
+La regla de oro para la clase es clara: Plan y revisión primero; ejecución después. Nunca permitas ejecución automática sin revisar comandos y efectos, especialmente en terminal y manejo de archivos.
+
+--- Diapositiva 36 ---
+CICLO DE TRABAJO
+Uso Convencional de Antigravity
+Este es el ciclo estándar que debes enseñar y repetir en cada ejercicio de clase:
+1
+Prompt Maestro
+Define objetivo, restricciones y carpeta de trabajo
+2
+Task List
+El agente produce lista de tareas para tu revisión
+3
+Implementation Plan
+Estructura de archivos y decisiones técnicas
+4
+Code Diffs
+Cambios concretos para revisar y aprobar
+5
+Verificación
+Levanta servidor, abre browser y prueba
+6
+Walkthrough
+Resumen con instrucciones de testing
+7
+Iteraciones
+Correcciones puntuales y ciclo repetido
+
+--- Diapositiva 37 ---
+Preparación del Proyecto: Estructura de Carpetas
+El agente debe entender la estructura del workspace desde el inicio. Esta organización es compatible con Hostinger:
+mi_sitio/
+├── info/
+│   ├── mision-vision.txt
+│   ├── servicios.txt
+│   ├── contacto.txt
+│   └── branding.txt
+├── imagenes/
+│   ├── logo.png
+│   ├── servicios/
+│   └── banners/
+├── public/
+│   └── (sitio generado)
+└── README.md
+Concepto Clave
+Tú "alimentas" el sitio con contenidos reales en /info y assets en /imagenes. El agente construye en /public, listo para subir a Hostinger.
+
+--- Diapositiva 38 ---
+PROMPT MAESTRO
+Instrucción Única para Antigravity
+Este prompt está diseñado para trabajar sobre la carpeta, leer contenidos, generar artifacts y construir un sitio informativo, moderno y profesional sin formulario en contacto.
+
+--- Diapositiva 39 ---
+Prompt Maestro: Parte 1
+Objetivo: Crear un sitio web informativo, 
+moderno y profesional, listo para desplegarse 
+en Hostinger.
+
+Contexto del workspace:
+- En esta carpeta hay:
+ 1) /info (textos y lineamientos del negocio)
+ 2) /imagenes (logo e imágenes disponibles)
+- El sitio final debe generarse en /public.
+
+Reglas de trabajo (obligatorias):
+1) Trabaja en pasos cortos y seguros.
+2) Antes de escribir o modificar archivos, 
+ genera:
+ - Artifact 1: Task List (8–12 tareas)
+ - Artifact 2: Implementation Plan 
+ (estructura de archivos + decisiones)
+ y espera mi revisión.
+
+--- Diapositiva 40 ---
+Prompt Maestro: Parte 2
+3) No ejecutes comandos de terminal sin 
+ pedirme aprobación.
+4) Si algún dato falta en /info, crea 
+ placeholders claros [ASIGNAR_LUEGO] 
+ sin inventar información.
+5) Si hay imágenes en /imagenes, úsalas; 
+ si no, usa placeholders. No dependas 
+ de enlaces externos.
+6) Páginas mínimas:
+ - Home (propuesta de valor + secciones)
+ - Nuestros Servicios (explicar servicios 
+ + imágenes/placeholder por servicio)
+ - Contacto (SIN formulario; solo 
+ [WHATSAPP], [CORREO], [TELEFONO], 
+ [DIRECCION])
+
+--- Diapositiva 41 ---
+Prompt Maestro: Parte 3
+7) Buenas prácticas: responsive, 
+ accesibilidad básica (contraste/labels), 
+ navegación clara.
+8) Entregables:
+ - /public con los HTML/CSS/JS listos
+ - Un README.md con instrucciones de 
+ despliegue en Hostinger
+ - Artifact final: Walkthrough + cómo 
+ validar localmente.
+
+Ahora:
+A) Lee /info y resume lo que encontraste.
+B) Lista cualquier faltante crítico.
+C) Produce Task List e Implementation Plan 
+ para mi aprobación.
+
+--- Diapositiva 42 ---
+Prompt más específico
+Dentro de la carpeta de insumos, se encuentra un documento de Word, con un prompt más detallado, para poder utilizarlo
+
+--- Diapositiva 43 ---
+EJECUCIÓN PRÁCTICA
+Paso a Paso en Antigravity
+Abrir Workspace
+En Agent Manager, abre la carpeta mi_sitio/ como workspace
+Pegar Prompt Maestro
+Pégalo en el panel del agente en Planning mode
+Revisar Task List
+Valida orden lógico, alcance y pasos cortos
+Revisar Implementation Plan
+Valida estructura, naming, consistencia visual
+
+--- Diapositiva 44 ---
+Continuación del Proceso
+Aceptar Cambios por Diffs
+En Editor View, revisa diffs y acepta/rechaza por bloques
+Verificación Automática
+El agente levanta servidor, abre browser y captura evidencias
+Iteraciones
+Solicita correcciones puntuales como product owner
+
+--- Diapositiva 45 ---
+Ejemplos de Iteraciones
+Correcciones de Contenido
+"En Servicios, reescribe el servicio 2 con lenguaje más simple"
+"Aumenta el espacio en blanco y reduce texto en el hero"
+Ajustes de Diseño
+"En Contacto, el bloque de dirección debe ser más visible"
+"Haz que el menú fijo no tape el título en móvil"
+El agente vuelve a generar diffs, ejecuta mini-verificación y actualiza el walkthrough automáticamente.
+
+--- Diapositiva 46 ---
+EVALUACIÓN
+Checklist de Calidad: Estructura y Contenido
+Uso de Recursos
+Usó /info y marcó faltantes sin inventar información
+Imágenes
+Usó /imagenes o placeholders claros si faltan
+Páginas Completas
+Home + Servicios + Contacto existen y funcionan
+Contacto Correcto
+Sin formulario y con placeholders apropiados
+
+--- Diapositiva 47 ---
+Checklist de Calidad: Experiencia y Best Practices
+Responsive
+Funciona correctamente en móvil
+Navegación
+Menú consistente y claro
+Accesibilidad
+Contraste, tamaños y foco visible
+Performance
+Carga rápida con imágenes optimizadas
+
+--- Diapositiva 48 ---
+Checklist de Calidad: Evidencia de Ingeniería
+Artifacts Generados
+Task List completo
+Implementation Plan detallado
+Diffs revisados
+Walkthrough con instrucciones
+La presencia de estos artifacts demuestra un proceso de ingeniería sólido y trazable. Cada documento sirve como evidencia del trabajo realizado y facilita futuras iteraciones o mantenimiento del proyecto.
+
+--- Diapositiva 49 ---
+FORTALEZAS CLAVE
+Por Qué Antigravity Destaca
+Orquestación y Trazabilidad
+Los artifacts reducen el "trust gap" al documentar cada decisión y acción
+Integración con Navegador
+Valida UI real con Chrome extension y evidencia visual automática
+Ciclo Iterativo Eficiente
+Comentarios sobre artifacts/diffs permiten correcciones rápidas
+Manager View
+Maneja varios trabajos/iteraciones con "Inbox" y tareas separadas
+
+--- Diapositiva 50 ---
+Reglas de Oro para tu Flujo
+Estas reglas garantizan un trabajo seguro y controlado con Antigravity:
+
+--- Diapositiva 51 ---
+Reglas de Oro: Seguridad y Control
+Nunca Modo Auto
+Evita modos tipo "Turbo/auto-exec" en clase. Mantén aprobación manual de terminal siempre
+Allowlist del Navegador
+Configura lista de dominios permitidos para que el agente no navegue fuera de lo esperado
+
+--- Diapositiva 52 ---
+Reglas de Oro: Contenido y Proceso
+Todo Real Viene de /info
+Si no está en /info, usa placeholder. Esto evita contenido inventado que quita tiempo después
+Itera por Tickets
+1 corrección = 1 instrucción. Evita pedir 15 cambios en una sola iteración
+
+--- Diapositiva 53 ---
+CASO PRÁCTICO
+Proyecto de Clase: Web con Chatbot
+El resultado esperado es un sitio mínimo viable con estas características:
+Estructura del Sitio
+Landing de 1 página o 3 páginas separadas
+Home con hero y propuesta de valor
+Servicios explicados claramente
+Contacto con datos (sin formulario)
+Características Técnicas
+UI moderna y responsive
+Botón flotante "Chat"
+Panel de chatbot funcional
+Conexión a endpoint o proveedor
+
+--- Diapositiva 54 ---
+Prompts Micro-Paso para AI Studio
+Tu documento pide explícitamente pasos cortos y seguros, evitando prompts demasiado grandes. A continuación, una secuencia genérica lista para usar en clase.
+
+--- Diapositiva 55 ---
+Secuencia de Prompts: Pasos 1-3
+Prompt 1: Brief + Restricciones
+Define el proyecto, restricciones y estructura sin código. Solo sitemap y lista de contenido
+Prompt 2: Wireframe Textual
+Crea estructura de secciones por página sin código. Mantén todo conciso
+Prompt 3: HTML/CSS Mínimo
+Genera SOLO la página Home con CSS embebido, responsive y placeholders
+
+--- Diapositiva 56 ---
+Secuencia de Prompts: Pasos 4-6
+Prompt 4: Páginas Adicionales
+Genera Servicios.html y Contacto.html con mismo estilo. Contacto sin formulario
+Prompt 5: Chatbot UI
+Agrega botón flotante y panel lateral. Solo UI sin conexión por ahora
+Prompt 6: Chatbot Real
+Conecta a backend con endpoint /api/chat. API key en variables de entorno
+
+--- Diapositiva 57 ---
+Complementariedad de Herramientas
+AI Studio
+Laboratorio de prompts y diseño de especificación. Ideal para texto y prototipos pequeños.
+Antigravity
+Ejecución de ingeniería completa. Proyecto, estructura, refactor, pruebas y despliegue.
+Ambas herramientas se complementan perfectamente: AI Studio para planificar y prototipar, Antigravity para ejecutar y validar.

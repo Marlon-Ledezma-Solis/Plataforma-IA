@@ -1,0 +1,521 @@
+Título del Video: 3. API de IA en Excel
+URL: https://youtu.be/XMKDJTOxg20?si=Sd8XNSIUB2r7VGgv
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora vamos a hablar cómo
+utilizar APIs en el mundo de la
+inteligencia artificial, porque antes
+vimos un ejemplo en el cual utilizamos
+una API para conectarnos a datos de, por
+ejemplo, un ente público como el Banco
+Central. Nosotros podríamos conectarnos
+a nuestras APIs empresariales, podríamos
+conectarnos a las APIs internacionales,
+podemos conectarnos a cualquier API que
+exista, porque nuevamente las APIs,
+recordemos la idea de lo que era el
+camarero. Entonces, uno hace una
+solicitud, se envía un servidor y el
+servidor no responde. Eso es básicamente
+lo que hace el app. Entonces, esto
+simplifica mucho en la vida de red
+porque nos permite entonces interactuar
+con servidores de un modo bastante
+sencillo, ¿verdad? Es más o menos como
+lo que son los MCP desde el punto de
+vista de la inteligencia artificial,
+nada más que la API es como el método un
+poco más antiguo, ¿verdad? Por decirlo
+así, pero que es el estándar que se
+utiliza a nivel mundial para conectarse
+a cualquier servidor. De hecho, los
+MCPs, muchos por detrás, preconfiguran
+APIs, ¿verdad? Entonces, digamos que el
+MCP es como una evolución en el ámbito
+propio de la inteligencia artificial,
+¿verdad? Pero por detrás están
+utilizando muchos de ellos APIs, pero
+como vimos las APIs pueden ser de muchos
+tipos. En el ejemplo anterior fue
+conectarnos a la API del Banco Central
+para extraer datos del Banco Central y
+así nos podemos conectar a un montón de
+instituciones y a un montón de empresas,
+a servidores que en este caso tengan las
+APIs configuradas. Ahora vamos a usar
+una API en especial que es la API a
+empresas de inteligencia artificial. O
+sea, yo me quiero conectar a un servidor
+de inteligencia artificial, por ejemplo,
+el servidor de Open AI. ¿Para qué? Para
+yo no. Eh, en este caso eh el servicio
+el que les voy a solicitar, porque
+recordemos que por medio de una AP
+solicita información o servicios. En
+este caso lo voy a solicitar un
+servicio. ¿Cuál va a ser el servicio que
+lo voy a solicitar? El uso de
+inteligencia artificial. Entonces, le
+voy a decir, "Okay, yo quiero que usted
+venga y se eh en este caso y me provea
+el servicio de inteligencia artificial.
+Pero usted podría llegar y decir,
+"Bueno, ¿para qué hacemos esto?" Porque
+ah yo ya tengo acceso a chat GPT, tengo
+acceso a Yemin, tengo acceso a Cloud, a
+Queen, a todas estas herramientas en sus
+chatbots de propósito general.
+Pero el problema con eso es que es un
+poco más reducido, no tiene que estarle
+interactuando por medio de un char donde
+estoy ingresando la información y demás,
+pero uno se pregunta, bueno, ¿y por qué
+no, verdad, interactuar vía servidor?
+vía API, o sea, que sea directamente
+inteligencia artificial la que esté
+integrada en mis eh herramientas. V.
+Entonces, ya no tengo que ir llevarle
+toda la información al chatbot ahí
+conversando con chat GPT, por ejemplo,
+sino que yo digo, "No, mira, a mí lo que
+me interesa es que desde el Excel, donde
+yo estoy trabajando, donde yo trabajo
+todos los días, tener a la inteligencia
+artificial ahí para que trabaje dentro
+de mi Excel, me lo voy a integrar en mis
+aplicaciones. Para eso es que usamos las
+API de inteligencia artificial. Hay
+muchas aplicaciones, ¿verdad? Por
+ejemplo, visión computacional. Uno
+podría entonces ahora integrar a
+inteligencia artificial para que se
+encargue de hacer análisis visual, para
+que logre extraer información de
+facturas, para que logre extraer
+información de productos, de
+inventarios, de diferentes elementos
+bien inteligencia artificial. ¿Ven? Eso
+podría ayudarnos a a hacer nuestros
+sistemas mucho más inteligentes. Lo
+mismo procesamiento de lenguaje natural.
+Entonces, yo tengo textos que son
+difíciles de trabajar computacionalmente
+si no estoy usando inteligencia
+artificial. Entonces, voy a integrar
+inteligencia artificial en mis sistemas
+para que puedan trabajar con textos de
+un modo eficiente. Lo mismo con el tema
+de voz y audio, inclusive con partes
+numéricas que son complejas. Uno de los
+ejemplos más populares es conectarme a
+la API de Google y o a la API de Open
+AI, pero en realidad todos todos
+los modelos que tienen inteligencia
+artificial tienen una API para poder
+utilizarla. ¿Cuáles son los beneficios
+de usar la API? Pues esto es básicamente
+que vamos a poder reducir los costos,
+vamos a poder escalar nuestros eh
+sistemas con muchísima más capacidad
+porque le estamos inyectando la
+inteligencia artificial ahí mismo. O
+sea, es lo más eficiente, o sea, llegar
+y decir, vamos a integrar nuestras
+herramientas con diferentes esquemas en
+los cuales eh podamos utilizar
+inteligencia artificial. Lo otro es que
+entonces ya reducimos temas de
+mantenimientos porque entonces eh
+podemos ya usar esto, una arquitectura
+que es más eficiente y también el tema
+de la innovación.
+Ahora bien, es importante tener claro
+que el futuro es conectado. Entre más eh
+sistemas logramos interconectar,
+entonces más interoperabilidad existe y
+por consiguiente pues mayor y mayor
+facilidad en el funcionamiento
+respectivo.
+Ahora vamos a hacer un ejemplo sencillo
+más adelante, ¿verdad? Vamos a hacer
+ejemplos un poco más complejos donde
+vamos a integrar nuestra inteligencia
+artificial en herramientas un poco más
+avanzadas como Python. De momento vamos
+a hacer dentro del Excel. Entonces, yo
+lo que quiero es hacer un Excel que
+pueda utilizar la inteligencia
+artificial
+de un modo incorporado.
+Muy bien. Entonces, para poder revisar
+lo anterior, eh tenemos que en primera
+instancia
+conectarnos a las API Key de Open. AI.
+Entonces, ya tenemos que revisar el
+proceso para poder obtener esa
+información. Entonces aquí en Google
+vamos a escribir a Vinky Open AI. Una
+vez que estamos acá entramos a esta
+parte que dice open platforme.
+Esta eh ya propiamente es una página de
+desarrolladores. Tienen que hacerse una
+cuenta de desarrollador. Yo ya la tengo,
+¿no? Los que no la tengan tendrían que
+armarla. Yo en mi caso pues ya la tengo
+y la voy a ingresar. Esto es porque
+estaríamos eh registrándonos como
+desarroll desarrolladores en el platform
+de Open AI. Aquí nosotros lo que podemos
+hacer es que creamos una nueva API Key
+secreta y listo. Con solo que nos
+vengamos acá, eh, venimos y escogemos el
+proyecto. Si no tienen ninguno, pues le
+dan por default y ya le pueden crear la
+API key. Una vez que hacen la API key,
+eso les va a dar un código. Ese código
+largo es el que tienen que utilizar para
+efectos del proyecto, ¿verdad?
+Acá. Entonces, una vez que hacemos eso,
+ya vamos a guardar. tienen que copiar la
+clave que les da, ¿verdad? Aquí yo no lo
+voy a mostrar porque por temas de
+seguridad pues no lo voy a mostrar, pero
+el momento que eh ustedes les den el
+la clave ustedes la guardan. ¿Y ahora
+qué vamos a hacer? Vamos entonces a
+interactuar con
+Chat GPT
+o con cualquier otro software
+y le empezamos a pedir propiamente que
+nos ayude a realizar una función
+personalizada con inteligencia
+artificial en Excel. O sea, ¿qué quiero
+decirles acá? O sea, por medio de B
+coding uno le empieza a pedir qué me
+gustaría hacer. En este caso vamos a
+inyectarle la inteligencia artificial
+en Excel para que ella nos ayude
+entonces a trabajar de un modo eh con
+una función más personalizada donde
+podamos decir que están usando a eh chat
+GPT en el interior.
+Entonces para eso le vamos a decir algo
+así. trabaja como experto en
+programación, necesito que me ayudes a
+generar una macro que me permita en
+Excel poder darle un prom
+que pueda darle como insumo un rango,
+una tabla y que con insumo eh desarrolle
+lo que se le indique en el prom. Para
+ello debe conectarse con la APD Open AI
+usando la API King que yo le incluiré en
+el código. Y entonces a partir de eso
+ella genera
+todo un proceso acá, pero nos dice que
+hay que hacer un proceso de preparación
+en primera instancia. Entonces voy a
+mostrarles un poquito hacia dónde vamos
+para que tengan más claridad. Eso está
+aquí en los insumos. Se llama función
+personalizada con inteligencia
+artificial. Y vamos ahora sí a usar esta
+que dice función ya personalizada.
+Aquí me voy a editar contenido y voy a
+mostrarles un poquito el ejemplo para
+que ustedes lo puedan tener claro.
+Entonces, vean, lo que vamos a estamos
+haciendo acá es que yo acabo de crear o
+vamos a crear ahorita, ¿verdad?, una
+función que se va a llamar IA
+personalizada.
+En esta función de personalizada va a
+ser algo así como cuando uno hace suma,
+promedia, multiplicación, división,
+etcétera. Uno le va a dar un prompt aquí
+en texto, por ejemplo, le podría decir
+indicando,
+o por ejemplo podría decir indicar
+cuánto
+es el doble
+del número que le voy a proporcionar.
+Este es el pro, ¿saben? Este primero que
+estoy digitando acá, que va entre
+comillas es el PROM. Es como si yo fuera
+a HGPT y describiera este prom y después
+le voy a dar el número. Entonces, en la
+siguiente en el siguiente argumento con
+cómo punto y cómo, pues todo depende de
+la de la configuración de sus
+computadores, le van a dar clic a la
+celda en la cual ustedes le van a dar
+como insumo. Ven.
+Entonces, vean que por ejemplo, por
+favor, proporciona el número porque no
+no se puso, ¿verdad? Pero yo le voy a
+poner ocho. Y vean que en el momento que
+pongo ocho, él me da 16. ¿Ven? Porque
+entonces ya el inteligencia artificial
+está trabajando aquí adentro. V le estoy
+dando un prom y le estoy dando un insumo
+y ella se va a conectar con los
+servidores de Open AI y va a a recibir
+ese prom. Dígame cuánto es el doble del
+siguiente número y viene como el sumo el
+ocho. ¿Ven? Entonces me responde 16.
+Así les puedo mostrar varios ejemplos,
+pero lo vamos a hacer ahora eh más
+adelante. De momento eh quiero que
+entremos ya a la parte de la
+configuración como tal. Entonces, bueno,
+ya vimos qué es lo que vamos a hacer. Ya
+le dijimos que interactuando con la
+inteligencia artificial, ella nos va a
+guiar de cómo hacerlo. Acá hay que
+revisar un proceso eh previo para poder
+llegar a este ejemplo. O sea, si lo
+hiciéramos un archivo nuevo, si yo lo
+hago un Excel nuevo, que es lo que
+estamos usando, esta función ya
+personalizada que ya está lista, ya se
+configuró, ya se hizo todo el proceso.
+Acá yo les podría, en este caso explicar
+cómo hacerlo desde ser. Eso es el
+proceso que vamos a hacer ahorita.
+Entonces, en primera instancia tenemos
+que irnos a eh Visual Basic. Voy de
+momento a cerrar
+este función ya personalizada.
+Le voy a dar guardar en este caso para
+que no haya inconveniente.
+Y voy a entrar al F11.
+Y ya aquí entro en Visual Basic, le doy
+donde dice insertar módulo.
+Una vez que estoy en insertar módulo,
+tenemos que instalar este eh Parcer
+Jason, que es como un esquema para que
+él reciba y envíe archivos de un modo
+adecuado, si no va a generar problemas.
+¿Está bien?
+Entonces vamos a hacer este proceso.
+Cris descarga jasonconverte.bas
+y eso está en un gitubo.
+Básicamente ven, dice jonverter.bas.
+Entonces habría que entrar a internet,
+en Google y poner descargar.
+Es un converter.
+bas
+y eso nos conecta aquí con este
+repositorio de GitHub y ya aquí
+tendríamos que descargarlo, ¿verdad? Eso
+es básicamente
+lo que tendríamos que hacer, pero no se
+preocupen porque también aquí ya está
+descargado, ¿no? Pues nada más dado caso
+desde internet
+eh puede venir acá y descargar el
+repositorio como tal, ¿verdad? Lo ven
+acá.
+Pero eh también nosotros ya aquí se lo
+vamos descargado. Entonces no se
+preocupen, cualquiera de las dos
+opciones lo pueden descargar o ya ahí va
+a estar descargado. Después de que hacen
+eso, eh nos venimos a a
+archivo, importar archivo y
+seleccionamos que dice
+jonconverter.bass,
+que es en esta carpetita, ven que hay
+uno que dice jonverter.b.
+Entonces, desde el Excel nos venimos a
+archivo, importar archivo
+y buscamos como digo, este que acabamos
+de explicar y nada más lo importa y lo
+abre. Yo en mi caso pues ya lo tengo
+importado, entonces no puede ser.
+Después de que hacen eso, lo que se
+quería ahora sí es ajustar la clave de
+Open. Aí nosotros acá ustedes ven en los
+insumos de la sesión, ya aquí está el
+script listo, o sea, ustedes no tienen
+que ir a hacer el proceso de byp como
+tal. Nosotros ya lo hicimos y ustedes
+aquí pueden utilizar el código que nos
+generó, pero reiteramos generar este
+código no es nada del otro mundo. Yo sé
+que se ve largo, son 13 páginas y se
+puede ver un poco complejo, pero en
+realidad nació de la función concreta
+que leímos antes. Necesitábamos que nos
+ayude a crear una macro para esto, esto,
+esto y esto. Entonces, ya está. Aquí,
+¿qué tenemos que hacer? simple y
+llanamente donde dice reemplazar tu AP
+key, ¿verdad? Aquí donde dice pon
+aquí tu AP, simple y llanamente ahí es
+donde hay que poner la clave secreta de
+cada uno, que esa clave es la que se va
+a conectar con el servidor de chat GPT.
+Es importante indicar que cuando se
+conectan con el servidor de chat GPT,
+eso consume dinero porque cada vez que
+nosotros requerimos el servidor de
+ellos, ellos nos cobran por el uso de
+ese servidor, o sea, por el uso del
+servicio. Entonces, aquí en donde dice
+billink, uno tendría que eh
+cargarle, digamos, eh propiamente un
+método.
+5, por ejemplo, duran cualquier cantidad
+de
+interacciones. Es increíble, o sea, es
+bastante bastante funcional. O sea, en
+realidad es muy barato. Igual estos
+precios e nos pueden ustedes consultar,
+pero son precios sumamente cómodos. O
+sea, estoy diciendo que por yo gasto
+menos de $5 al mes, eh, por ejemplo, en
+diferentes aplicaciones que tengo.
+Entonces, es muy cómodo, ¿verdad? Y eh
+esto hay que entender que nos lo está
+cobrando. Ustedes dicen, pero yo tengo
+suscripción de chat GPT. Sí, pero eso es
+para el uso del chat eh GPT en el
+chatbot de propósito general. Esto es
+por detrás. Esto es cuando yo quiero
+insertar o incluir en este caso de
+inteligencia artificial en mis
+aplicaciones, cuando yo quiero usar su
+API oficial para entonces poder eh
+aprovechar su potencial en mis propias
+aplicaciones, ¿verdad? Como en este caso
+en mi Excel. Yo quiero que él ya trabaje
+dentro de mi Excel. Entonces, en ese
+caso tengo que usar la API Key, tengo
+que conectarme a los servidores de ellos
+y quiero usar su inteligencia artificial
+dentro de mi Excel y eh pues eso tiene
+un costo en este caso si lo hacemos pues
+de este modo más profesional. Hay otras
+formas de hacerlo pues más informales,
+pero este es el modo profesional para
+poder incorporarlo. Entonces, ven, con
+solo que ustedes le cambien eso, ya lo
+demás está listo. Ya lo demás está
+listo. Ustedes pueden copiar eso, lo
+pegan
+y ya con eso
+va a quedarle su archivito listo. Tienen
+que darle guardar.
+Aquí yo voy a abrir ya el archivo.
+Listo.
+Y al momento de guardar tienen que darle
+eso sí como libro de Excel habilitado
+para macros porque ya tiene una macro
+interna incorporada. Y una vez que
+ustedes hicieron eso, va a ser tan fácil
+como hacer esto. Vean acá. Voy a usar
+este mismo de acá.
+Nada más ponen ya personalizada y con
+solo eso ya están abriendo esta nueva
+función que acabamos de hacer.
+Lo primero que le van a dar, entre
+comillas, es el prom. Por ejemplo, vean
+este prom que le estoy diciendo. Extraer
+el primer apellido de los siguientes
+nombres. Solo dame el apellido. Y
+después
+le doy coma. Y ahora sí le doy la celda
+a la cual le quiero extraer esto. ¿Ven?
+Por ejemplo, Ana Gerardo Quesada Roja,
+¿verdad? ¿Cuál sería el primer apellido?
+Quesada, ¿verdad?
+Entonces, vean ahí cómo se conectó con
+la inteligencia, con el servidor de
+inteligencia artificial y me respondió
+la pregunta. Es más, y yo hasta le puedo
+usar autorrelleno aquí para que me lo
+extraiga a todas esas celdas. ¿Ven? Pero
+esto si yo lo quisiera hacer con una
+función regular o normal de Excel, no lo
+podría hacer porque inclusive ni
+siquiera separando, porque ven que hay
+unos que tienen dos nombres, otro uno,
+etcétera, etcétera, eso a veces es un
+dolor de cabeza. Entonces, querer hacer
+eso dentro, ¿verdad?, eh, de Excel
+usando sus funciones regulares, en
+realidad no es posible. Al día de hoy
+tendría que hacer un trabajo adicional.
+Y vean que aquí usando inteligencia
+artificial fue muy sencillo, ¿verdad?
+Vean, por ejemplo, otro otra aplicación
+que podríamos hacer, porque esto
+funciona mucho con texto, porque ustedes
+me van a decir, "Ah, bueno, entonces yo
+lo puedo hacer para sacar sumas y esto y
+promedios y no." En realidad no tiene
+tanto sentido porque eso lo hacemos con
+funciones de Excel comunes y corrientes
+y funcionan superb. Aquí la idea es
+incorporarle para hacer cosas que no
+podía hacer con el Excel regular.
+Entonces, por ejemplo, si yo tengo aquí
+eh textos, ¿verdad? Y yo quiero saber si
+esos fueron comentarios positivos o
+negativos, ¿ven? Eso yo tendría que
+empezar a leer uno a uno y empezar a
+categorizarlos. En cambio, aquí yo puedo
+decirle, vean el PROM, dime si el
+comentario es positivo, negativo o
+neutro, solo dame el resultado.
+Este es el PROM. Y le doy la Z y me
+dice, este es positivo, este es
+positivo, este es neutro y este es eh
+positivo. ¿Ven? Si aquí uno podría
+decir, creo que se puede mejorar de eso
+creo que fue de textuosa,
+pero
+no me gustó.
+Entonces, vean como él analiza ahora
+este nuevo texto y me responde que fue
+un comentario negativo. Ven. O vean, por
+ejemplo, esta. Este es algo que me gusta
+mucho.
+Esto es una descripción de una
+actividad. Planifica clases, imparte
+lecciones, evalúa el desempeño de
+estudiantes y participa en reuniones
+académicas. Y yo quisiera saber cuál es
+el código asociado.
+Entonces, vean lo que le puedo decir.
+Catalogar la siguiente descripción en el
+código CU que le corresponde. Código C
+es un catálogo a nivel internacional que
+divide todas las tareas en un código.
+Digamos, si es enseñanza es un código,
+si es agricultura es un código, si es
+comercio es un código. Bueno, todo esto
+es un catálogo a nivel mundial que
+existe. Entonces vean que con solo leo
+esta descripción en este prom, él va a
+ir a analizar esa descripción. lo va a
+ir a corroborar contra el catálogo CU
+que él tiene dentro de su proceso de
+entrenamiento y me va a decir, "Bueno,
+resulta que para alguien que hace estas
+labores, el código C que le corresponde
+es el 8510." Entonces, ¿ven que termina
+siendo una aplicación bastante poderosa,
+¿para qué? para yo utilizarlo como, ah,
+vea, en esta en esta celda ocupo hacer
+esto, uy, no lo puedo hacer con los
+métodos convencionales, ah, ahora puedo
+inyectar inteligencia artificial para
+que me ayude a resolver este tipo de
+problemas. Entonces, eso es un poquito
+la lógica de lo que habría que hacer en
+este en este otro en este otro tipo de
+desarrollos. Muchas gracias. Ya con eso
+estaríamos culminando propiamente esta
+unidad. Muy amables.

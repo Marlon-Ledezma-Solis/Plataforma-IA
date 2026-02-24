@@ -1,0 +1,576 @@
+Título del Video: 2. Uso de API para automatizar información
+URL: https://youtu.be/0LvShmLBIN8?si=D4iApS9NparyVHa5
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Bien, ahora vamos a continuar con el
+tema de OPIS e inteligencia artificial.
+Entonces, en este caso, lo primero que
+queremos eh aclarar es que es una API
+como tal. Una API es una eh interface de
+aplicación programada. Básicamente es un
+intermediario que permite que dos
+aplicaciones se comuniquen. Pensemos y
+tal vez la energía más sencilla es
+pensar en un camarero. Un camarero.
+Entonces, en este caso sería el
+interlocutor entre el cliente que está
+solicitando algún algún eh plato o algún
+eh eh en este caso alimento y el
+cocinero o la cocina, ¿verdad?, que en
+este caso es quien le va a suministrar
+eso. Esto es más o menos lo que sucede
+con una API. Tenemos a un cliente,
+¿verdad?, que es una aplicación que
+necesita datos. Vamos a tener un
+servidor que ese análogo de la cocina,
+que es donde se preparan los datos y los
+servicios y el camarero lleva su pedido
+a la cocina y trae la comida. En este
+caso lleva la solicitud de información
+al servidor y el servidor se encarga de
+entregarle esa información y la API se
+encarga posteriormente de entregárselo a
+el cliente a quien está solicitando en
+este caso la información.
+Entonces, ¿cómo funciona? Pues
+básicamente hay una petición que es lo
+que nosotros desde nuestras computadoras
+vayamos a solicitar a un servidor,
+porque lo que vamos a hacer aquí es
+conectarnos a servidores que poseen eh
+ciertas eh ciertos datos o servicios. Y
+eso es importante porque vamos a
+trabajar con ambos, vamos a trabajar con
+datos y con servicios. Eh, si ocupamos
+datos, entonces, lo que vamos a hacer es
+eh hacer una solicitud para que nos
+entreguen cierta información y si
+ocupamos servicios, vamos a obtener ya
+propiamente los eh servicios necesarios
+para poder en este caso utilizarlos. El
+procesamiento ya es la el canal en este
+caso que se establece la infraestructura
+donde la cual la API lleva la solicitud
+al servidor y la respuesta ya es en este
+caso lo que en se devolvería del
+servidor. El servidor va a generar
+nuevamente en formato Jason una
+respuesta y esa es la que va a regresar
+a el cliente. Ahora entonces vamos a ver
+cómo funciona esto en la práctica. Vamos
+a utilizar una APIC que eh normalmente
+tenemos que buscar appics que ya estén
+eh completamente eh oficializadas,
+formalizadas de parte de quien en este
+caso eh habilite los datos o el
+servicio. En este caso vamos a utilizar
+la API del Banco Central para
+conectarnos a información oficial de
+Costa Rica y para esto entonces nos
+vamos a a conectar por medio de Power
+BI. Entonces, en Power BI vamos a hacer
+la conexión vía API con el Banco Central
+para que eh podamos obtener información
+de eh datos estadísticos relevantes que
+podamos aprovechar.
+Para hacer esto, en primera instanciais,
+tenemos que suscribirnos a la sección de
+indicadores. Para eso, pues existe un
+proceso. Aquí están las guías
+respectivas y entonces hay que hacer el
+proceso de suscripción y eso nos va a
+ayudar a generar un token. ese token es
+el que vamos a utilizar en nuestro caso.
+Esto no lo vamos a hacer aquí en la
+sesión como tal, pero eh vamos también
+entonces a eh generar un video
+específico sobre cómo es suscribirse
+propiamente a el a la sección
+indicadores del Banco Central y cómo
+obtener entonces la API respectiva e
+perdón, el token respectivo. Después de
+eso, tenemos que generar un script,
+tenemos que generar un código que nos
+ayude a conectarnos. En este caso,
+dentro de la información que ustedes
+tienen como insumo en la unidad cuatro,
+en la subsección de importar datos
+macros, van a tener ya el código listo.
+Es este código que ustedes pueden
+observar acá. Y de este código solo hay
+que cambiar los elementos que están en
+amarillo, que ya vamos a explicar
+propiamente cuáles son.
+Sí, es importante que este eh código no
+se inventó de nada y tampoco no es nada
+del otro mundo. Para generarlo,
+básicamente lo que necesitamos es la
+documentación oficial de la API. Y ven,
+aquí hay un documento en PDF y que
+cualquier persona que en este caso
+genere una API tiene que generar la
+documentación respectiva. Entonces, una
+vez que tenemos la documentación de la
+AP como tal, podemos tomar esta
+documentación.
+Vamos a chat GPT y le podemos eh
+propiamente cargar esa documentación
+a cualquier modelo de inteligencia. En
+realidad, inclusive si pudimos hacerlo
+en cloud es todavía mejor, pero aquí lo
+vamos a hacer en chat GPT
+y le vamos a pedir que y aquí ya le
+damos el promos
+conectarnos
+a la información del Banco Central.
+Y aquí voy a detener un momento la
+grabación para eh terminar de escribir
+un prom
+específico.
+Muy bien. Entonces aquí podemos observar
+como ya después de invocarle esto a la
+inteligencia artificial y darle la
+documentación propia de la API, entonces
+ella ya logra generar el script acá,
+¿verdad? este script nosotros lo podemos
+eh generar y eh ya pues aquí tenemos que
+incluir el token, que el token es
+propiamente una clave que nos estarían
+dando desde el Banco Central, cuando uno
+se suscribe al sistema de indicadores y
+el Banco Central ya nos indica cuál es
+nuestra clave, por decirlo así, que es
+el token. Y ya con ese token,
+entonces ahí es donde nosotros ya
+podemos propiamente
+acceder, digámoslo así, nuestra
+contraseña para poder acceder a la API y
+obtener los datos. ¿Ves?
+A veces nos pueden dar algunos errores
+cuando hacemos este proceso y entonces
+nosotros, ¿qué hacemos? Cuando tomamos
+los pantallazos de los errores y demás,
+se los vamos pasando a la inteligencia
+artificial y él se encarga de irnos
+ayudando a corregir. Este proceso es lo
+que se conoce como vi coding, es decir,
+donde vamos codificando por vibraciones,
+por decirlo de esa manera. Es es como la
+traducción, pero en el fondo es hago una
+solicitud a partir de un promo inicial,
+me da un resultado, empiezo a mostrar
+los errores, los cambios que quiero y en
+esos procesos de iteraciones vamos
+ajustando el código y eso ya es ese
+proceso de by coding que les comentaba,
+¿verdad? Y una vez que entonces ya lo
+ajustamos, ¿verdad? Ahí vemos un pequeño
+roll, hiz un ajuste en el parcer.
+Digamos que el parcer es como la
+estructura que vamos a recibir y ya nos
+da un código de jurado. Ese código de
+jurado es el que entonces ya podríamos
+utilizar. Ahora bien, en este proceso de
+revisiones, pues nosotros ya les damos
+acá un código que eh ya pues pasó por
+varios procesos de depuración y que
+entonces en este caso ya les permitiría
+a ustedes utilizarlo. Para poder
+utilizarlo vamos a utilizar por detrás
+Python. Entonces es importante que
+tengan instalados estas eh librerías
+adicionales. De igual manera, si no las
+tienen instaladas, ustedes pueden eh
+mandarle a la inteligencia artificial eh
+los mensajes y decirle, "Bueno,
+necesitamos estas librerías. Dame los
+comandos para poder eh propiamente
+instalarlos."
+y eh con esos comandos. De hecho,
+permítame, se los voy a mostrar por acá.
+Entonces acá, bueno, nos estamos yendo a
+los insumos de la unidad y en los
+insumos de la unidad van a poder ver
+este archivo que dice el código que
+install. Este, básicamente es un archivo
+de texto que ustedes pueden
+perfectamente
+eh
+eh
+instalando desde Power Shell. Este es el
+más fácil. Si lo pudiéramos hacer desde
+Power Shell es lo más sencillo. Este es
+un poquito pues más complejo. Habría que
+correr este este eh proceso, ¿verdad?
+Pero en realidad eh creo que lo más
+fácil es utilizar este de acá. Entonces,
+¿qué tienen que hacer? Nada más copian
+esta línea de acá, le dan Windows R o
+buscan inicio ejecutar, escriben Power
+Shell. El momento que abren Powerhell,
+eso les abre la consola de Windows y ahí
+ustedes nada más copian y pegan ese
+comando, esa línea. Y con solo que
+ustedes hagan eso, ya van a instalar
+todos los paquetes necesarios para que
+pueda ocurrir este algoritmo sin
+inconveniente. Voy a yo le dar para que
+él igual haga una reinstalación y
+entonces va a empezar a instalar la los
+diferentes paquetes. Entonces,
+para que lo tengamos ahí en
+consideración. Ahora, una vez que los
+instalamos
+entonces ya es mucho más sencillo porque
+ya podríamos utilizar el
+el código tal cual se estamos
+suministrando por acá. Este código, como
+les digo, se podría haber trabajado
+directamente con inteligencia
+artificial, pero nosotros aquí por
+facilidad se lo estamos eh los estamos
+dando para que ustedes lo tengan de
+referencia, para que no tengan que hacer
+muchas iteraciones. Igual la idea es que
+ya a nivel de eh eh tareas y demás
+ustedes tengan que desarrollarlo desde
+cero, ¿verdad? Y ya vimos que el proceso
+no es complicado, es verdad, darle la
+documentación, empezar a mostrarles los
+errores y por medio de by coding ir
+corrigiendo esos errores hasta que
+logremos hacer que el proceso funcione.
+Aquí ustedes pueden ver entonces que ya
+el proceso funciona adecuadamente y lo
+que hay que cambiar es lo que está en
+amarillo. Aquí donde dice escribir
+token, tienen que escribir el token
+propiamente ustedes, la fecha de inicio
+y fecha de término, la que ustedes
+quieran. Normalmente esa fecha creo que
+está adecuada,
+pero si ustedes quieren las pueden
+cambiar, ¿verdad? Nada más es cuestión
+de que las cambien. Aquí también vamos a
+utilizar la API Fred. Esta API también
+ya no va a ser solo para conectarnos a
+eh información de Costa Rica, del Banco
+Central de Costa Rica, sino que también
+nos vamos a conectar con información del
+Banco Central de Estados Unidos. El
+Banco Central de Estados Unidos también
+tiene una app. Entonces, eh nosotros
+perfectamente
+también tomamos la información o la
+documentación de la API de la Fred, que
+es más sencillo porque es una API muy
+usada a nivel mundial, entonces es muy
+sencillo. Entonces ya nosotros también
+nada más eh sacamos la app el en este
+caso pues el la app key, ¿verdad? O sea,
+la clave que nos van a dar de la Fred.
+Igual van a ver unos videíos donde
+ustedes van a poder ver exactamente qué
+proceso es el que tienen que hacer.
+Acá
+vamos eh después a indicar pues cuáles
+son las variables que en este caso vamos
+a querer eh propiamente obtener. En este
+caso solo estamos eh sacando el producto
+interno bruto real de Estados Unidos y
+el GDP now que le llamamos digamos como
+a la aproximación de tasa de crecimiento
+GDP estimada, ¿verdad? Y esto pues nada
+más aquí es unos pequeños cambios que le
+estamos haciendo que en realidad es nada
+más escoger el nombre de la serie que
+eso sí nos lo dan directamente en en la
+página oficial de ellos. O sea, si uno
+quiere obtener este indicador que es el
+PR de Estados Unidos, tiene que buscar
+cuál es el código. Este es el código y
+para el GDP Now este es el código. ¿Ven?
+Entonces nada más es traerse esos
+códigos, le pone uno el nombre que
+quiera y listo, ¿verdad? Lo mismo para
+esta de acá, se trae el código y le pone
+el nombre que quiera. Como les digo,
+este código y este código es el que sí
+tenemos que sacar sí o sí de la página
+oficial de la Fred, que es dónde nos
+diría cuál es el código asociado
+propiamente a ese indicador.
+Y listo, hecho anterior, entonces ella
+aquí ustedes dicen, "Pero entonces, ¿por
+qué está marcado esto por acá?"
+Esto está marcado simple y llanamente
+porque
+eh tenemos que hacer
+una
+cuestión de estas. Vean esta de aquí,
+tenemos que hacerla por cada indicador.
+Entonces, si ustedes ven acá, nosotros
+creamos DFP pip, que es donde extrajimos
+la información de este indicador
+y DF GDP now, que es donde extrajimos de
+este indicador. Entonces, ¿qué estamos
+haciendo aquí? Tenemos que hacer este
+proceso que ustedes ven aquí
+para DFP pip
+y tenemos que hacer ese mismo proceso,
+pero para DFP, si fueran más, ¿verdad?
+Si fueran tres, cuatro así, entonces
+sería lo mismo, uno por cada uno y
+después
+eh ya con eso tendríamos la información.
+¿Qué es lo otro que tenemos que cambiar?
+Y esto es quizás lo más importante
+porque esto de la de la Fred es porque
+fue adicional y nosotros queríamos
+aprovechar para que ustedes vieran cómo
+se puede conseguir información del Banco
+Central y también de la Fred.
+Pero eh aquí en el caso del Banco
+Central es importante que le indiquemos
+los códigos de los indicadores que
+nosotros queremos eh propiamente
+obtener. Y en esto sí es importante que
+vean de dónde sacan esos códigos.
+Si ustedes entran al Banco Central
+a la sección de indicadores,
+entren indicadores, ¿verdad?
+Perdón, digamos que van a buscar, por
+ejemplo, producción empleo
+y entonces quieren este el índice mejor
+de la actividad económica
+aquí en serie original.
+Y ya encontraron el indicador que
+ustedes querían. Digamos que era este.
+Este es el valor que a ustedes les
+interesa. Este valor, si ustedes le dan
+aquí a la I, ya les dice cuál es el
+código de esa variable. Entonces este
+código
+es el que tenemos que utilizar aquí. De
+hecho, si ustedes ven, ese código
+probablemente esté por acá. Y entonces,
+¿ven? 94.
+Bueno, en ese no lo metimos, pero
+perfectamente uno podría simplamente
+agregarlo acá
+y nada más es cuestión de pegar, ¿ven?
+Entonces, uno hace la lista con todos
+los códigos que quiere y listo. Lo de
+las fechas que llevamos. Una vez que
+hicimos estos ajustes, como ven, o sea,
+no es nada de otro mundo, es nada más
+cuestión de ir haciendo los ajustes
+respectivos. Copiamos eso,
+copiamos, ¿verdad? Y bueno, una vez que
+hayamos eso sí le hayamos puesto todos
+los valores, ¿verdad? de las API KS
+ajustados los variables que nosotros
+querramos y demás, que en este caso en
+realidad para efectos del ejercicio con
+solo que le metan la el token acá
+de el Banco Central que les dieron a
+ustedes al momento de escribirse los
+indicadores y como digo, pues hay un
+video específico de cómo obtenerlo y con
+solo eh obtener aquí también el token de
+la Appifed, que también en ese mismo
+video explica cómo obtenerlos. Entonces,
+ya una vez que tenemos esos dos, nada
+más se los escribimos y con lo que
+hagamos eso,
+bueno, entonces nos podemos ir a Power
+BI
+y en Power BI podemos venirnos aquí en
+donde dice
+un script de Python
+y aquí podemos propiamente
+darle el script. Y esto es
+importantísimo porque entonces me
+permite a mí poder desde Python hacer
+cualquier proceso que yo quiera,
+le hago el código respectivo
+y con solo que yo le de aceptar,
+entonces él va a cargar los datos. Lo
+voy a hacer yo aquí. Yo ya tengo uno
+listo para esto, para que ustedes lo
+vean. De hecho, también está acá dentro
+de los materiales de la unidad.
+V. Si yo le doy,
+voy a irme ahí nada más aquí donde dice
+transformar datos porque lo voy a hacer
+como si fuera desde cero. Yo aquí tengo
+el origen. Ven, este fue el código tal
+cual se creó.
+Si yo le voy a aceptar, vean que él de
+una vez me genera aquí algo que se llama
+el dataset que pueden observar acá. Y ya
+aquí ya me muestra la información.
+Y esa información me la trae por acá.
+Acá vean que
+igual si yo entro aquí a Power BI,
+¿verdad? Ya. Entonces tengo esa
+información. A veces puede que estas
+variables no vengan en formato de
+número. Entonces nada más uno le puede
+cambiar el formato no hay ningún
+inconveniente, ¿verdad? hacernos los
+ajustes. Si por alguna razón los está
+recibiendo como texto, vamos a saber que
+los está recibiendo como número porque
+va a tener este símbolo de sigma,
+este simbolito de sigma.
+Es entonces es una posibilidad. Ahora
+bien,
+esto lo hicimos en Power BI por una
+sencilla razón para uno tener los
+gráficos acá. ¿Ven? Entonces yo puedo
+hacer gráficos. ¿Cómo hago los gráficos?
+Simple llanamente
+me vengo, hago aquí un espacio en
+blanco. Eso lo vamos a ver con más
+detalle en otra unidad donde vamos a
+detallar más en esto, pero para hacer
+gráficos es muy sencillo. Yo puedo
+simple llanamente hago el grafiquito por
+acá, voy a poner en el eje X la fecha
+y digamos que en el eje Y quiero meter
+el eh tipo de cambio, ¿verdad?
+que lo estamos viendo allá.
+Aquí esto se está haciendo por año,
+¿verdad? Entonces, igual yo puedo bajar
+aquí con este simbolito y lo hago por
+día. V y aquí tengo los datos
+diarios inclusive yo puedo bajar hasta
+el 29 de enero, pero ya ese está
+desactualizado. Si yo le diera en este
+caso actualizar
+el en ese preciso instante se va a
+conectar con el Banco Central. vean que
+ya no tengo que yo estar actualizando
+estos datos, sino que él lo va a hacer
+por medio de esta conexión. Entonces,
+esa es la automatización que estamos
+haciendo. O sea, ya no tener yo que
+todas las veces ir actualizar el tipo de
+cambio y todo eso para ver cómo se
+comportó, no, ya tengo entonces con
+inteligencia artificial, por dicha logré
+armar codificación necesaria para poder
+estar enlazados con el Banco Central,
+con los servidores del Banco Central y
+de esa manera cada vez que yo requiera,
+en este caso puedo dato, vean como con
+solo darle clic aquí arriba donde dice
+actualizar porque ya hicimos toda la
+conexión que acabamos de conversar,
+entonces él me va a poder dar los
+resultados. Vamos a pausar aquí un
+momento mientras hace actualización para
+que eh no consuma mucho esa grabación.
+Y entonces, bueno, ya actualizó, si
+nosotros podemos observar, ya inclusive
+actualizó hasta el 2 de febrero,
+¿verdad?, que es la fecha de la
+grabación de acá. Es importante indicar
+que eh bueno, nosotros cuando hacemos
+los gráficos, ¿verdad? Aquí ya le tiré
+el tipo de cambio de compra, el tipo de
+cambio de venta. Como les digo, aquí uno
+puede ir bajando a nivel mínimo si uno
+quiere, ¿verdad? Pero eh también es
+importante indicar que hay filtros. Este
+filtrito que está acá, ¿verdad? Uno lo
+puede incluir y le incluye la variable
+de fecha y ya eh propiamente ahí uno
+puede filtrar pues a las fechas que
+quiera, ¿verdad?
+Y eso entonces ya le permite pues a uno
+pues tener la información más
+desagregada para los periodos que uno
+desea, pero en realidad esto se ve con
+más detalle cuando vemos el e la unidad
+asociada a Power BI. De momento pues la
+idea es como que ustedes puedan ver que
+eh con este trabajo que hicimos ya
+automatizamos el proceso de obtener
+información eh por medio de una API.
+Entonces, la app nos permite automatizar
+todo el proceso de un modo bastante eh
+bastante eficiente. Como ustedes ven, ya
+una vez que se armó esto, simplemente es
+encontrarle, actualizar y ya todos los
+datos se actualizan y ya podemos
+trabajar con ellos sin ningún
+inconveniente. Entonces, eh resulta muy
+funcional para esos labores en que a
+veces uno está normalmente actualizando
+y actualizando y actualizando
+información. Bueno, con estos medios eh
+ya más eh
+eficientes y automatizados, entonces
+podemos perfectamente simplificar este
+trabajo. Muy bien. Ya con esto, entonces
+estaríamos eh culminando eh propiamente
+esta sección. Solo indicar que también,
+¿verdad?, si se quisiera eh uno podría
+perfectamente eh decirle que también lo
+haga en en Excel. O sea, yo quisiera que
+esto lo podamos hacer desde Excel medio
+de Power Query, que es una plataforma
+muy poderosa. Entonces, ya al momento
+decirle eso, nos da el código en Power
+Query. Entonces, yo perfectamente me
+puedo ir a Excel.
+De hecho, aquí lo tengo. Y eh puedo
+simple aquí en datos, ¿verdad? Aquí le
+doy obtener datos y eh perfectamente ya
+le doy aquí en iniciar power query.
+Uno puede crear una consulta en blanco.
+Yo no me especificar datos. Hago una
+consulta en blanco. Ven esta que está
+acá, tabla dos y le doy aquí en donde
+dice editor avanzado y le pego ese ese e
+este código que nos generó. Y ya con
+eso, entonces vean como
+si yo llego y lo pego ahí
+ya podría. Ay, perdón, es que lo hice
+con esta, es que me da dos opciones.
+Esta es la que está totalmente completa.
+Perdón, porque una lo puedo hacer con
+parámetros y en la otra lo puedo hacer
+con
+código completo. Aquí lo voy a hacer más
+bien con código completo porque aquí más
+bien está dando parámetros. Quiero hacer
+el código completo, que es esta segunda
+opción. Y vean que al pegarlo
+me va a pedir nuevas credenciales. Ahí
+ya las conecto, ¿verdad?
+Y bueno, tengo que dar la AP Keep, pero
+entonces no lo voy a mostrar por
+cuestión de seguridad, pero aquí ya él
+lo genera. Y en el momento que lo
+genero, eh, al darle cerrar y cargar,
+vean como entonces él me da la
+información ya aquí en el Excel. Digo,
+este tabla sí que tiene mis
+credenciales. Esta eh tendría que
+hacerlo aquí en vivo, pero en realidad
+no la idea es no mostrar la clave, sino
+que ustedes vean el proceso aquí.
+Entonces, vean aquí como él también
+logra obtener información desde eh la
+API que nosotros ya hemos estado
+trabajando, pero ahora desde Excel.
+Entonces, ese es el proceso para
+realizar este tipo de automatizaciones.
+Vamos ahora a continuar con el uso de
+inteligencia artificial directamente
+desde Excel utilizando pero ahora una
+API de inteligencia artificial. M.

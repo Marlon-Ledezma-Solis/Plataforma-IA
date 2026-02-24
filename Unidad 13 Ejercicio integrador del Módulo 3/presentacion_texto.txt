@@ -1,0 +1,122 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1LzwGrsxXbBt8relFSmzudZue2fLO_Tj9CiWXr9tgYxU/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Propósito del Módulo 3
+Nivel Técnico Intermedio
+Pasar de automatizaciones simples a soluciones estructuradas similares a entornos laborales reales
+Integración Completa
+Combinar programación Python, APIs  de IA y plataformas como n8n o Make
+Flujos Automatizados
+Aplicar lógica de flujos automatizados a procesos reales con toma de decisiones
+
+--- Diapositiva 3 ---
+Contenidos en Práctica
+Programación Python
+Lógica básica aplicada a limpieza, transformación y validación de datos
+Integración de IA
+Uso de APIs o nodos inteligentes para clasificación y procesamiento
+Flujos Automatizados
+Diseño de flujos con n8n, Make o herramientas equivalentes
+
+--- Diapositiva 4 ---
+Evolución del Aprendizaje
+Ejercicio Módulo 2
+Automatización de tareas puntuales en Office
+Comprensión de IA
+IA como herramienta operativa efectiva
+Módulo 3
+Orquestación de procesos completos con entrada, procesamiento y salida
+
+--- Diapositiva 5 ---
+Caso Práctico: Sistema de Gestión de Solicitudes
+Automatización de Recepción, Clasificación y Respuesta
+Construir un flujo automatizado que reciba solicitudes, limpie y normalice información, utilice IA para clasificar y generar respuestas preliminares, registre automáticamente datos procesados y aplique reglas básicas de decisión.
+Este caso reproduce escenarios comunes en atención al cliente, soporte interno, servicios administrativos y call centers.
+
+--- Diapositiva 6 ---
+Resultado Final del Módulo 3
+1
+Flujo Funcional
+Automatización completa con entrada → procesamiento → salida
+2
+Evidencia Técnica
+Uso demostrable de programación básica e IA integrada
+3
+Registro Automático
+Sistema de trazabilidad de solicitudes procesadas
+4
+Explicación Clara
+Documentación del flujo, lógica y utilidad práctica
+
+--- Diapositiva 7 ---
+Pasos 1-3: Entrada y Preparación
+1
+Definición de Entrada
+Establecer tipo de entrada y campos mínimos: nombre, contacto, tema, descripción, urgencia
+2
+Normalización de Datos
+Limpiar texto, validar campos obligatorios, generar ID único y registrar fecha/hora
+3
+Clasificación con IA
+Diseñar prompt para clasificar solicitud, asignar prioridad y generar resumen
+
+--- Diapositiva 8 ---
+Pasos 4-7: Procesamiento y Validación
+Generación de Respuesta
+Solicitar a IA redacción de respuesta inicial con tono profesional y reglas claras
+Reglas de Decisión
+Definir al menos dos reglas: escalamiento por prioridad alta o solicitud de datos faltantes
+Registro Automático
+Guardar datos de entrada, clasificación, respuesta y estado final en hoja de cálculo o CSV
+Pruebas y Validación
+Probar con casos urgentes, incompletos y simples para verificar coherencia
+
+--- Diapositiva 9 ---
+Capacidades Desarrolladas - Módulo 3
+Pensamiento Lógico
+Aplicado a diseño de procesos automatizados
+Flujos Automatizados
+Comprensión de arquitectura de automatización
+IA Integrada
+Uso práctico de IA en sistemas reales
+Resolución Técnica
+Solución de problemas técnicos intermedios
+
+--- Diapositiva 10 ---
+Perfiles Profesionales Desarrollados
+Especialista en Automatización
+Diseño y gestión de procesos automatizados
+Analista Operativo con IA
+Integración de inteligencia artificial en operaciones
+Soporte Técnico Avanzado
+Automatización de servicios y atención
+
+--- Diapositiva 11 ---
+Rúbrica de Evaluación - Módulo 3
+Criterio
+Logro Alto
+Logro Medio
+Logro Básico
+Flujo automatizado
+Completo y estable
+Funcional con ajustes
+Parcial
+Integración IA
+IA bien integrada
+Integración básica
+Uso superficial
+Lógica y decisiones
+Maneja reglas y excepciones
+Reglas limitadas
+Sin decisiones
+Registro
+Registro completo
+Registro parcial
+Incompleto
+Documentación
+Clara y técnica
+Comprensible
+Insuficiente

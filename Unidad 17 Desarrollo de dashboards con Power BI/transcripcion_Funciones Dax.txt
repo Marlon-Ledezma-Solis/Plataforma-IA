@@ -1,0 +1,554 @@
+Título del Video: Funciones Dax
+URL: https://www.youtube.com/watch?v=T3EAn6H_LJw
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Entonces vamos a continuar con la parte
+de funciones DAs, ¿verdad? Entonces para
+ello, bueno, comentarles que el tema
+propiamente de función de TAX, ¿verdad?
+Pues hay un libro que es como la guía
+definitiva de función de TAX, por si en
+algum momento les interesa y aquí eh
+pues lo que es
+en definiciones es imperable que
+comprendamos que una función tax es una
+función semejante a la de Excel pero en
+un modelo de datos, ¿verdad? Y tenemos
+dos eh maneras de estimar funciones. Uno
+es por medio de columnas calculadas, de
+modo que estaríamos propiamente
+calculando eh fila por fila, ¿verdad?
+Eso es más o menos como lo hacemos en
+Excel cuando estamos autorendo, ¿verdad?
+Ahí nosotros estamos ya propiamente
+haciendo un cálculo fila por fila. Lo
+otro son las medidas, que ya es un dato
+calculado cuyos insumos serán conjuntos
+de variables, ¿verdad? Entonces es algo
+así más general, más global, ¿verdad?
+Entonces esto es un tema super
+importante y eso nos vamos a enfocar en
+esos momentos. Entonces cuando es
+columna por columna, ¿verdad? Entonces
+eh usamos una columna, perdón, fila por
+fila, usamos una columna calculada para
+que lo vaya haciendo fila por fila, como
+si fuera eh propiamente eh un autor
+relleno en Excel y medidas cuando
+hacemos un dato calculado, ¿verdad? que
+son conjuntos de variables. Esa es la
+medida más general. Es como cuando
+calculamos el promedio o como cuando
+calculamos una suma de un rango,
+¿verdad? Eso es más o menos lo que
+estaríamos viendo a nivel de medida.
+Primero vamos entonces a utilizar un
+archivito aquí de
+eh de trabajo que está en la carpeta. Es
+se llama campos y medidas. Y lo que
+vamos a replicar esto que está atrás
+acá.
+Vamos a utilizar este archivo.
+Yo voy a abrirlo.
+Abrir un archivito en blanco.
+Lo voy a obtener desde Excel.
+Voy a ir a buscar dónde está esta parte
+de funciones DAX. Y hago el que dice
+campos y medidas.
+Vean que
+aquí tenemos un problema. Ve que no
+agarró la primer columna como
+encabezador, pero como esto es 1 2 3,
+entonces él lo ve como número. En estos
+casos tenemos que
+venirnos a formar datos.
+Entramos
+power query tenemos que darle usar la
+primera fila como encabezados para que
+tome este 1 2 3
+nombre de variables. Está un poco
+extraño, ¿verdad? Aquí viene tipo de
+producto que es un eh producto 1 2 3 4 5
+ver acá, ¿verdad? Entonces, esto que
+dice 1 2 3 en realidad eh son meses,
+¿ven? Entonces, eh, ¿cuánto se produjo
+en el ms uno? ¿Cuánto produjo en m dos?
+¿Cuánto en mes tres? A esto a veces
+sucede, ¿verdad?, que se ponen como
+columnas eh propiamente
+eh o como nombres de variables, pues
+números, ¿verdad? Pero aquí lo más
+adecuado hubiera sido inclusive lo
+podemos hacer nosotros, poner más bien
+aquí mes un ver ejemplo mes 3, etcétera,
+¿verdad? Pero en este caso pues lo vamos
+a dejar así porque el ejercicio lo trae
+así. al propio, ¿verdad? Para que
+entendamos que en ocasiones esto puede
+pasar y la gente puso años, por ejemplo,
+1990, 1991, como vimos en ejercicio de
+Power Per anterior. Entonces, eh estas
+cosas pueden pasar, no hay
+inconveniente, nada más tenemos que
+entrar aquí y hacer la modificación
+desde PowerP para que se logre entonces
+ajustar, ¿verdad?
+Muy bien, listo. Ya hecho esto,
+vamos ahora a proceder con el ejercicio.
+Vamos. Lo primero que vamos a hacer es
+hacer una medida que sume lo que se
+produjo en M1, 2 y 3, ¿verdad? Entonces,
+aquí en el Power
+B nos vamos a ir aquí en que estamos
+viendo la tabla como si fuera un Excel.
+Y lo que queremos es crear una columna
+aquí que sume el 1, el 2 y el 3. Por
+ejemplo, 17 + 10 + 28. Dado que lo
+queremos hacer fila por fila, o sea,
+queremos que sume este más este más este
+y que en la siguiente fila sume este más
+este más este y así sucesivamente.
+Entonces, lo que tenemos que hacer es
+una columna calculada porque queremos
+hacerlo e fila por fila, ¿verdad? Le voy
+a dar nueva columna y le vamos a poner
+un nombre en este caso nuestro total
+y le damos igual. Tenemos que escribir
+esto porque a diferencia de Excel no es
+que yo llego y le doy clic en el 17 más
+clic, no. Aquí hay que escribirlo porque
+estamos utilizando un modelo, estamos
+utilizando una herramienta más poderosa,
+más potente y normalmente cuando estamos
+trabajando con este tipo de herramientas
+pues hay que utilizar un poco más de eh
+código, escritura o demás. Entonces, no
+se preocupen, esto es algo relativamente
+sencillo, pero que tenemos que escogerlo
+y normalmente tenemos que primero hacer
+eh mención a la tabla, porque en este
+momento estamos trabajando con una sola
+tabla, pero llegará un momento en que
+vamos a trabajar, de hecho, en la
+siguiente parte de la clase, donde vamos
+a trabajar con varias tablas. Entonces,
+como vamos a trabajar con varias tablas,
+necesitamos eh primero que todo invocar
+algo así como el nombre y el apellido.
+Entonces, aquí como vamos a trabajar con
+varias tablas, necesitamos primero
+llamar campos y medidas uno B. Y ya con
+eso entonces se entendió que va a tomar
+el valor de campos y medias uno,
+¿verdad? Que en este 17, en este 17, en
+este 50 y demás, ¿verdad? y le puedo dar
+más y nuevamente campos y medias dos
+más
+campos y medidas tres
+y ya con eso después nos da enter. De
+igual manera, yo podría perfectamente
+apoyarme con inteligencia artificial y
+yo podría mandar un pantallazo de esta
+información o con sus encabezados no es
+que suficiente o esta parte de acá, si
+no quiero revelar información sensible o
+demás con todos los encabezados o con
+solo que vea los nombres de la variable,
+yo le puedo decir ayúdame a crear. Vamos
+a hacer un momento para que ustedes lo
+puedan ver.
+entrar aquí un momento en chat
+y le puedo enviar aquí un pantallazo de
+esto.
+puedo decir eh función ayúdame a crear
+una función lax
+se
+las columnas
+un dos y tres en una columna nueva. Es
+importante sí decirles si lo que
+queremos es hacer una columna nueva o
+una medida. Ahorita vamos a ver el tema
+de las medidas, ¿verdad? Y vean como él
+me dice, "Claro que sí, con mucho
+gusto." Y
+aquí me da una función das
+y me dice, "Si es una columna calculada,
+puedo usar esta, ¿verdad? Puedo usar
+esta." Entonces, yo lo voy a hacer aquí.
+Miren, voy a darle una columna
+y puedo pegar esto
+y me da exactamente el mismo valor. Aquí
+pues como fue un poco más compleja lo
+que lo que hizo, ¿verdad?,
+el Power BI, pero lo estáendo por una
+razón y es que esta función evita que la
+suma quede en blanco si alguna de las
+columnas viene vacío. Aquí, como ven,
+todos los datos tienen valores, pero él
+dice, bueno, si alguna columna viene
+vacía, vamos a utilizar esta función
+para que no eh para que no altere o para
+que eh permita que la suma se pueda
+realizar. Bien, entonces, pues fue
+interesante lo que eh Power B nos ayudó.
+Ahora, la otra opción que nos plantea es
+utilizarlo como medida, como medida,
+pero ya les vamos a explicar cuál es la
+diferencia entre columna y medida. De
+momento lo que queríamos hacer era hacer
+esta suma fila por fila. Por eso la
+opción de utilizar una medida eh perdón
+de utilizar una columna, una columna es
+lo más importante o lo más adecuado en
+este caso aquí. Bueno, voy a eliminar de
+momento esta que hizo eh que hicimos con
+inteligencia artificial. Estuvo bien,
+pero para nuestro caso queremos algo más
+sencillo, ¿verdad? Ahora sí vamos a
+hacer una medida.
+Aquí las medidas no las hago fila por
+fila. O sea, mi objetivo no es estar
+haciendo esto fila por fila. Cuando yo
+hago una medida es porque quiero hacer
+un cálculo más global a partir de un
+conjunto de datos. Por ejemplo, sumar
+todo lo que se produjo en el mes uno.
+¿Ven? Entonces ahí sí yo puedo venirme
+aquí y le doy nueva medida
+y puedo utilizar este término. De hecho,
+aquí ya están para que no tengamos que
+nosotros hacerlo. Eh, yo ya lo tengo
+listo. Pero bueno, hagamos esta primera
+nosotros. ¿Qué nombre le vamos a dar?
+Medida suma. Medida,
+medida suma.
+Le voy a dar igual. ¿Y qué va a hacer?
+Va a ser la suma. Sum. Es importante que
+es en inglés.
+Pero nuevamente, no se preocupe. Si en
+algún momento no saben qué función se
+puede utilizar, pueden perfectamente
+venir a Google y en Google escribir eh
+suma en BS, por ejemplo, y él ya les va
+a decir qué es la función Zum, ¿ven? O
+pues también podemos hacerlo desde
+inteligencia artificial diciéndole cómo
+cuál es la función eh sumucir
+y le va a decir cómo utilizarlo. Así que
+no se preocupen por eso. Entonces, ¿ven?
+Aquí yo estoy diciendo suma, o sea, yo
+quiero que haga una suma y le voy a
+decir de qué de qué columna, por
+ejemplo, de campo en medida sum. Yo
+podría hacerlo de varias columnas, en
+este caso solo quiero hacerlo en en la
+columna uno. Y ven que
+ya lo logré hacer. Se logra observar
+aquí, ¿ven que aquí es medida suma? ¿La
+ven? Pero no se muestra en la tabla
+porque es una medida general, no es una
+medida que está asociada a alguna fila
+en particular, es una medida general.
+Como es general, se calcula como medida,
+¿verdad? Y no va a aparecer propiamente
+en la tabla. Pero si yo
+por acá,
+ahí me lo hice en gráfico, ¿verdad? Si
+lo muestro en tarjeta, ahí me hizo la
+suma.
+Ya me hizo esta suma.
+Y parte de lo que también es en este
+caso es interesante, ya vamos a ver aquí
+más para abajo, es
+por qué hacemos esta diferencia. Porque
+esta diferencia es relevante, porque
+nosotros podríamos haber intentado hacer
+eso como una columna calculada. Como una
+columna calculada. Entonces, vean que si
+yo me hubiera venido acá y no le hubiese
+hecho esto como medida suma, sino que lo
+hubiese hecho como nueva columna
+y le voy a poner usamos el nombre zoom.
+Voy a ponerle ese nombre zoom
+porque no puedo ponerle el mismo
+el mismo nombre, pero que hubiese sido
+esta suma o suma.
+y yo hubiese hecho exactamente la misma
+función, o sea, sum campos y medidas
+uno, vean lo que sucede, me lo hace para
+todas las filas, lo cual no tiene
+sentido porque yo quería sumar toda esta
+columna uno, pero no quería que me
+salieran fila por fila el mismo valor.
+Esto no me aporta nada. En cambio, acá
+sí, porque aquí yo lo puedo usar para
+revisar alguna información, para
+analizarla, para tener el dato, ¿verdad?
+Y poder en este caso eh ver su
+comportamiento.
+Entonces, aquí está muy bien que quede
+como medida porque es algo general
+y eh realmente lo voy a utilizar más en
+este tipo de análisis de datos.
+En cambio, acá no me aporta nada. Es más
+relevante cuando hago una columna hacer
+una columna como esta, donde yo voy
+haciendo una operación fila por fila,
+¿verdad? Cuando yo hago una operación
+fila por fila, tiene mucho sentido
+hacerlo como columna, porque era como
+les digo, como sumar este más este más
+este y usar autoret. Eso es más o menos
+lo que estamos haciendo con columnas.
+calculadas, pero cuando trabajamos con
+medidas no tiene sentido, ¿verdad? En
+este caso hacerlo acá, ¿verdad? Sino las
+medidas en realidad son datos generales
+que nosotros tenemos.
+Muy bien. Ahora es interesante ver cómo
+las medidas también varían según su
+entorno,
+porque este 472 es la suma de el mes
+uno. Pero si yo vengo y hago una tablita
+por acá, hago una tablita por acá
+y le tiro, por ejemplo,
+tipo de producto
+y después le le tiro esta medida que
+hicimos de suma uno. Ah, bueno, aquí el
+tipo de producto en que me hizo una
+suma, pero voy a dar un resumir para que
+me lo haga por cada producto. ¿Ven?
+Entonces, vean como
+y este no era suma este era más bien
+medida suma.
+Vean acá.
+Entonces, yo voy a devolver acá y voy a
+quitar este sumo a uno porque ese no
+está ayudando en nada, ¿verdad?
+Voy a eliminarlo. Ya vi que fue hubo una
+metidita de patos porque
+hacer un cálculo general
+como una columna es inadecuado. Me
+termina generando entonces un valor fila
+por fila, que no es lo que yo estoy
+buscando, ¿verdad? En este caso es una
+medida general, ¿ven? Y aquí esta medida
+que como les digo, es una medida
+general,
+yo, ¿verdad?,
+podría también hacerla en una tablita y
+meterle tipo de producto. Entonces, vean
+qué bonito. Ahora que me sumo todo lo
+que se produjo en el mes uno para el
+producto uno, lo que se produjo en el
+mes uno para el producto dos, porque
+recordemos que medida suma lo que hace
+es sumar lo que se produjo en el mes
+entonces
+ya me está logrando hacer este mismo
+cálculo de los 472, pero inclusive poder
+dividirlo según el filtro
+específico que tenga la tabla, ¿verdad?
+Esto es algo muy relevante, ¿verdad?
+Ahora quiero que lo veamos con un
+ejemplo también muy interesante, que es,
+por ejemplo, calcular el porcentaje de
+buenas.
+Este porcentaje de buenas, si ustedes lo
+pueden observar aquí en el dashboard,
+yo tengo, ¿verdad? ¿Cuánto se produjo,
+verdad?
+Y de esas puedo ver cuántas quedaron en
+buen estado, porque algunos de estos
+productos quedan en mal estado. De estos
+55 que se produjeron, por ejemplo, en
+este día,
+bueno, en este periodo, los 3 meses,
+perdón, 53 quedaron en buen estado.
+Entonces, yo quisiera saber cuál es el
+porcentaje de buenos, o sea, dividir
+este 53 entre este 55, este 57 entre
+este 57, este 48 entre este 81.
+Entonces, como quiero irlo haciendo fila
+por fila, entonces, ¿qué voy a usar? Una
+columna calculada. Entonces, le voy a
+dar aquí en nueva columna y simplemente
+voy a utilizar esta función que, bueno,
+ya aquí eh la podemos observar que es
+porcentaje de buenas y es las buenas
+entre el total.
+Entonces, lo voy a escribir así,
+porcentajes buenos
+y entonces van a ser las buenas. Igual
+yo puedo escribir recordemos que tenemos
+que invocar primero a la columna.
+Entonces aquí doy buenas y dividido,
+pero también puedo ent escribir total,
+que él también ya me la busca por acá.
+Bueno, tres total y listo. Vean que al
+hacer esto, lo voy a poner en
+porcentaje. Ya me dice cuál es el
+porcentaje. Bueno, de cada
+interacción, ¿verdad?, que tuvimos por
+acá.
+Ahora
+yo tal vez quisiera
+tener un porcentaje total, o sea,
+¿cuántos fueron las buenas totales?
+Entonces, no podría decir, bueno, ¿y por
+qué no le saca un promedio a esto? Eso
+podría ser una opción, ¿verdad? Tratar
+de sacarle un promedio a esto. Pero si
+yo quisiera sacar el porcentaje de
+buenas totales, ¿qué debería de hacer?
+Debería de sumar todas las buenas
+y dividirlas entre todos total, ¿ven? O
+sea, yo sumo todas estasun
+buenas y lo divido entre todo el total.
+Eso tiene mucho sentido. Entonces, yo lo
+voy a agregar como una medida. Yo quiero
+una medida aquí que me da un porcentaje.
+Bueno, es global. Entonces, acá
+me voy a venir y le voy a dar nueva
+medida. Y aquí en la nueva medida le voy
+a dar porcentaje de buenas.
+Y que aquí entonces voy a hacer la suma
+de las buenas.
+y lo voy a dividir entre la suma
+del total.
+Entonces, ven, esto
+se parece a esto, ¿ven? Pero esto lo
+hace fila por fila. Estoy viendo las
+buenas entre el total para este para
+este registro. las buenas entre el total
+para este registro y así sucesivamente.
+En cambio, esta otra me suma todas las
+buenas de acá y las divide entre todo el
+total de acá. ¿Ven? Entonces,
+para comprender mejor lo que estamos
+haciendo, ¿verdad? Ah, bueno, y ya lo
+puedo agregar como una tarjetita. Voy a
+agregarlo aquí como una tarjeta. Lo voy
+a agregar
+y le voy a tirar el porcentaje de
+buenas.
+Y bueno, voy a poner en porcentaje
+también me gusta porcentaje, ¿ven? 70,30
+porcentaje gradual. Para entenderlo
+mejor, ¿verdad? La variable cuando lo
+hicimos como columna calculada, ¿ven? Él
+iba dividiendo fila por fila, ¿verdad?
+Vean este 96,39. Este 96,39, ¿qué fue?
+Este 53 divide entre este 55. Ven. Y
+este de aquí, este siempre va a dividir
+este 57 entre este 57. Ven, fue siempre
+fila por fila.
+En cambio, la medida este 70,39, ¿qué
+fue lo que hizo? Tomar toda esta columna
+y dividirlo entre toda esta columna. Ya
+es una álgebra más agregada, es como un
+álgebra más de matriz, o sea, es agarrar
+un conjunto, ¿verdad?, y operarlo,
+¿verdad? Entonces, estoy agarrando la
+suma de todo este conjunto y lo divido
+entre la suma de todo este conjunto.
+Entonces, en resumen,
+las columnas hacen cálculo valor por
+valor, fila por fila, ¿verdad? Es
+entonces un numerito, ¿verdad?, que yo
+voy operando fila por fila,
+mientras que las columnas lo que
+operamos son conjuntos de variables.
+Conjunto de variables. Muy bien.
+Y para finalizar, ¿verdad?,
+esta partecita de acá, eh quiero que
+veamos un temita muy interesante, esta
+medida que hay miles de vamos a hacer un
+ejemplo donde podemos hacer muchas
+medidas diferentes como aparecer en el
+en el tiempo, podemos sacar meses, años,
+podemos hacer operaciones más complejas
+eh que impliquen alguna suma,
+multiplicación, división o algún elevado
+o alguna raíz o cualquier cosa de ese
+tipo, todo eso se puede calcular con
+función del tax. Entonces, cualquier
+cosa que a ustedes se les ocurra,
+perfectamente lo puede calcular con
+función de tax y cualquier cosa que se
+hace en Excel hoy por hoy también se
+puede hacer con funciones de DAX. Acá yo
+solo quiero que ustedes vean algo muy
+interesante. Si yo hago otra tablita,
+¿verdad?
+Y hago lo mismo, lo tiro por tipo de
+producto y le voy a tirar esta medida,
+la medida, ¿ven? Recuerden que la medida
+de la cliente calculadorcita
+por tipo de producto y nuevamente aquí
+le voy a dar no resumir para que me
+tiren cada uno de los productos. Vean
+que ahora yo tengo un porcentaje de
+buenas por tipo de producto. ¿Ven esto
+que era una medida totalmente global?
+Yo puedo hacer que
+se ajuste para un filtro en particular.
+Entonces, eso es más o menos como que yo
+me viniera acá, escojo en tipo de
+producto uno, ¿ven? Y aquí ya tengo las
+buenas y el total para el tipo de
+producto uno. Entonces, ahora, ¿qué me
+está calculando? La suma de esto
+dividido entre esto. Leamos aquí en la
+gráfica, ¿ve? Para el tipo un este 86,39
+fue la suma de esto
+dividido entre esto.
+Y por ejemplo, para el tipo cuatro, para
+el tipo dos, ¿qué habase sido? es estas
+buenas, esto entre esto
+y para el tipo cuatro era un su valor,
+entonces es esto entre esto y para el
+tipo tres,
+para el tipo tres es todas estas buenas
+las sumo y las divido entre este top.
+Entonces, ¿ven como esa medida, verdad?
+Yo también la puedo, es moldeable, es
+adaptable, se va a ajustar a cada filtro
+que yo hago, ¿ven? Entonces, por
+ejemplo, si yo aquí inclusive le doy
+clic aquí en tipo de producto dos, vean
+que
+la medida se adaptó a ese filtro y ahora
+me está haciendo la misma operación del
+conjunto, pero ahora con los datos que
+yo le tengo filtrados. Entonces, eso es
+un elemento muy poderoso de las medidas
+que nos dan esa versatilidad. de hacer
+cálculos globales adaptándolle a ciertos
+filtros. Y si yo lo que quiero ya es
+hacer un cálculo
+fila por fila, entonces hago una columna
+calculada. Pero nuevamente si yo quiero
+son datos o cálculos generales que sean
+moldeables por filtros, la mejor opción
+son. Muy bien, ya con eso entonces
+estaríamos culminando este tema. hay un
+ejercicio completo donde hacemos pues
+cálculos mucho más detallados y
+repasamos eh a la parte de creación de
+gráficos, pero también ya le agregamos
+esta parte de medidas para que
+calculemos diferentes tipos de medidas
+en una base de datos de ventas de
+clientes. Entonces esto permite como
+amoldar o terminar de de
+ajustar adecuadamente estos
+conocimientos. Es un ejemplo bastante
+práctico, pero eso lo hacemos en la
+clase, ¿verdad? para que lo tengan ahí
+en consideración. De momento para
+efectos de resumen, la idea es que les
+quedara esta explicación. Entonces,
+ahora vamos a continuar con el tercer
+temita que es el tema de relaciones.

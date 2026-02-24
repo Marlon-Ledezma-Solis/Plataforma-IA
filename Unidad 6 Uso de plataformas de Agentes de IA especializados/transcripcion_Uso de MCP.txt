@@ -1,0 +1,395 @@
+Título del Video: Uso de MCP
+URL: https://www.youtube.com/watch?v=mX3enpPh8ac
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy buenas. A continuación vamos a
+proceder con la unidad número seis, que
+es uso de plataformas de agentes de IA
+especializados. Para ello vamos a
+trabajar dos conceptos muy importantes.
+El primero es el MCP. Es el protocolo
+que cambió la inteligencia artificial
+empresarial. Principalmente hay que
+entender qué es el MSP. En este caso es
+un estándar universal, es un eh
+protocolo eh es un modelo de protocolo
+de contexto que lo que nos permite es
+conectar, en este caso, los modelos de
+con sistemas empresariales. En este
+caso, entendámoslo con herramientas,
+¿verdad? Como hemos mencionado en el en
+las unidades anteriores, los agentes son
+modelos de inteligencia artificial
+que poseen herramientas, o sea, que
+tienen conectadas herramientas y eso les
+da la capacidad de ejecutar acciones.
+Antes teníamos modelos de inteligencia
+artificial muy capaces, pero lo que
+sucedía es que estaban en un chatbot y
+estaban comoados ahí. No podíamos, por
+decirlo de esa manera, hacer que
+trabajaran con nuestros sistemas, que
+ejecutaran ciertas acciones. Entonces,
+un ejemplo muy sencillo podía ser
+pedirle que nos ayudara con una
+presentación. Entonces, él podía tratar
+de darnos las ideas de la presentación,
+nos decía que formato
+clear, pero no nos hacía la
+presentación, no ejecutaba las acciones
+como tal, solo nos daba, en este caso,
+las respuestas a las eh solicitudes que
+nosotros le hiciéramos. Eso entonces
+mintió a la necesidad de poder
+evolucionar, que esta inteligencia
+artificial no solo se dedicara a
+responder, sino que la inteligencia
+artificial se encargara de realizar
+acciones. Y es ahí donde entonces ya
+estamos hablando de agentes cuando
+tienen la capacidad de ejecutar
+acciones. Pero para poder ejecutar
+acciones, ¿qué necesitan? tener
+herramientas, darles herramientas para
+que ellos ahora sí puedan proceder a
+ejecutar dichas acciones. Y esas
+herramientas puede ser conectarle
+las capacidades de Office, de
+documentos, de hojas de cálculo, de
+presentaciones, puede ser conectarse a
+un correo, puede ser conectarse a una
+carpeta compartida, puede ser conectarse
+a un CRM empresarial, puede ser
+conectarse a un sistema de reservas,
+todo eso le llamaremos entonces
+herramientas. Ahora, ¿cuál es el punto
+más importante de los MCPs? es que
+logren esa integración de un modo
+simplificado. Permiten ahora sí que
+podamos entonces la inteligencia
+artificial darle diversas herramientas,
+pero de un modo más automático,
+¿no? Tal vez podríamos entender como que
+simple es ah bueno, voy a meterle
+cualquier herramienta, o sea, pasa un
+proceso de configuración y demás, pero
+este proceso es mucho más simplificado.
+inclusive utiliza la misma inteligencia
+artificial para que ella logre
+determinar cómo conectarse a estas
+herramientas. Entonces, piénselo así
+como una especie de docking en el cual
+usted tiene múltiples entradas, cada una
+diferente. Entonces, imagínense lo que
+era conectar. Eh, cada herramienta había
+que hacer un desarrollo muy particular,
+pues dependiendo de sus características
+y eso entonces se convertía en algo
+complicado y también eh se convertía en
+un problema al momento de que hubiesen
+actualizaciones, porque si habían
+actualizaciones, entonces había que
+analizar nuevamente, se había que
+modificar algo el código y demás.
+Entonces, esto complicaba ese proceso.
+En cambio, eh por medio del uso del MCP,
+entonces ya tenemos nueva capacidad de
+conectarnos de un modo más simple. Ya
+misma inteligencia artificial sirve como
+un esquema de traductor que permite
+entonces eh tener las características
+propias del sistema en el que nos vamos
+a conectar y hacer los ajustes
+necesarios para que la inteligencia
+artificial se pueda conectar.
+Entonces, la necesidad del MCP nace en
+función de que era importante poder
+conectarse a las diferentes
+herramientas, pero sobre todo nace por
+el hecho de querer tener una integración
+que sea eficiente, que sea sencilla, que
+permita entonces ahora sí que las
+inteligencias artificiales se conecten,
+pero de un modo que sea lo más eficiente
+posible, lo más sencillo posible. Y fue
+ahí donde el MCP se constituye en un
+puente universal entre sistemas
+empresariales, que permite ahora sí
+poder eh llegar a las diferentes
+herramientas y de esa manera hacer que
+la inteligencia artificial las utilice.
+Bueno, ¿cómo funciona? No vamos a entrar
+en mucho detalle técnico, pero lo que
+sucede es que hay una arquitectura
+cliente servidor por detrás. Entonces,
+hay un cliente MCP que gestiona la
+conexión y un servidor MCP que es el que
+posee las herramientas o los datos
+disponibles. Entonces, hay nada más una
+consulta desde
+un agente de MCP que hace la consulta
+hacia un servidor de MCP. Hay unos
+manifiestos, Jason, que básicamente son
+los que solicitan, ¿verdad?, en este
+caso las herramientas o información
+necesaria.
+Y en este caso el servidor es el que
+también posee ya propiamente la
+información que debería de proporcionar.
+Ahora bien, esto es una comunicación
+estandarizada, que es es el punto más
+importante. Entonces, permite utilizar
+una arquitectura que sea sencilla para
+que eh tanto el cliente como el servidor
+puedan comunicarse adecuadamente.
+¿Cuáles son los beneficios claves del
+MCP? número que es una automatización
+inteligente porque la misma inteligencia
+artificial se encarga de crear ese tipo
+de conexiones, nos permite tener
+decisiones en tiempo real porque ya
+podemos conectarnos entonces a diversa
+información en tiempo real para la toma
+de decisiones. Después tenemos la
+reducción de costos porque al tener un
+estándar, ¿verdad? Entonces, eso nos
+reduce los tiempos y permite hacer esto
+de modo más eficiente y una libertad
+tecnológica para poder utilizar
+cualquier herramienta. En casos de usos
+eh reales, ¿verdad? Puede ser
+conectarnos a un CRM, a herramientas
+colaborativas, a herramientas de
+automatización o desarrollo, pues de un
+modo muy sencillo. Y ahora vamos a ver
+cómo usted eh vive esto propiamente en
+la práctica. Para ello vamos en primera
+instancia a utilizar Gem. Esta es la
+actividad número uno y vamos a ver
+cuáles conexiones ya están
+preestablecidas.
+Entonces, vamos a proceder a ingresar a
+internet y en internet vamos a buscar o
+entrar a Gemini.
+Acá en Geminite nos tenemos que ir a
+esta parte de configuración y aquí en la
+parte de configuración tenemos que irnos
+a aplicaciones conectadas y las que
+podemos observar pues en este caso de
+otras es de GitHub y CID. Pero si vemos
+de Google en este caso tenemos varias
+MCP que podríamos conectar. De hecho,
+con solo que activemos el Google
+Wordpace, se activan, digámoslo así,
+todas las herramientas del ecosistema de
+Google. Entonces, si no la tienen
+activo, la activa por acá. A veces sale
+algún tema de configuración propio de la
+cuenta. Lo podemos modificar por acá.
+Una vez que ya conectamos estas
+herramientas, nos podemos ir a un chat
+nuevo y aquí en este chat nuevo
+podríamos perfectamente nada más con
+podemos ya propiamente invocar alguna
+herramienta, por ejemplo, Gmail.
+Entonces, si escogemos Gmail, entonces
+ya con esto nos estaríamos conectando
+con nuestra herramienta de correo por
+medio de un MCP y podremos recibirle,
+por favor, hacer un resumen de los
+correos
+recibidos el día de aquí podíamos
+escoger si queríamos el modelo razonador
+o no, ¿verdad? Y eh aquí, como ven, ya
+se conectó al Wordspace. Este es el
+trabajo que estaba haciendo, ¿verdad? y
+ya me dice eh cuáles fueron en este caso
+los correos que recibí y un pequeño
+resumen
+de bueno, dice que ayer no recibo,
+¿verdad? pero que el miércoles 28 de
+enero recibiste los siguientes mensajes.
+Entonces, como ven, pues esa es la
+conexión que realiza. Ahora esta
+conexión con Gmail, honestamente, pues
+en muchas ocasiones no es tan eficiente
+porque si ustedes logran observar eh
+habla de algunos correítos, pero en
+realidad si entramos a mi bandeja, que
+es la que está aquí conectada, pues eh
+hemos recibido varios mensajes el 29 de
+enero, ¿ven? Pero son eh pero en este
+caso él no los está tomando, ¿verdad?
+nos ve como eh por rostro no tan
+relevantes, pero ven que por ejemplo
+viene a circular o la demás y esto pues
+también eh debería haberse contemplado.
+Igual aquí recibimos algunos correos que
+eh pues son eh notificaciones y demás,
+pero que eh en este caso sí debía de
+habérmelos indicado. Entonces, hay que
+tener cuidado con esta conexión MCP, que
+de momento no ha sido tan estable, pero
+una de las que sí es muy estable y
+funciona bastante bien es la del
+calendario. Aquí en la del calendario
+nosotros podríamos hacer lo siguiente.
+Dentro de los insumos de la clase de
+esta unidad,
+vamos a extraer aquí un momento el
+archivo. A poder ver que tenemos esto
+que dice eventos para calendario.
+Nosotros tomamos este archivo que dice
+eventos para calendario y lo tiramos
+para acá. Podríamos decirle Google
+calendar por favor agendar.
+Igual hay que tener cuidado con el
+archivo nada más para verificar que
+este correcto porque como ustedes ven
+fecha de
+2025. Entonces deberíamos de cambiarlo
+acá para que sea fecha de 2026 y
+podríamos unir pues aquí, no sé, febrero
+tal vez o marzo
+para poder hacer la prueba. Entonces ya
+aquí lo guardamos
+para acá ya lo cargamos y podemos decir
+por crear los siguientes
+eventos en calidad.
+Entonces ahí él se va a conectar. Vean
+que está otra vez haciendo la conexión
+y ahí ya puedo ver cómo se conectó.
+Ahora sí a mi calendario
+y le damos un chancito. Ya dice que ya
+los creó. Entonces, podemos revisar esto
+el 13 de marzo y el 18 de marzo. Aquí ya
+me voy a mi calendario, me voy a el 13
+de marzo.
+Para ver dice, es que dice que si
+quieres continuar y crear, perdón.
+Entonces tengo que decirle que es
+simple, o sea, él me hizo ahí una
+pequeña valoración para que yo pudiese
+revisar si estaba correcto
+y así ya me dijo eventos creados y aquí
+ya lo puedo ver el 13 de marzo y el 18
+de marzo.
+Entonces eh como ustedes logran ver es
+una herramienta bastante bastante
+funcional en estos elementos. Igual yo
+puedo utilizar eh
+conectarlo al Drive, ¿verdad? Y puedo
+conectarlo también eh perfectamente
+YouTube. Puedo conectarlo, ¿verdad? a
+diversas aplicaciones que en este caso
+podríamos utilizar, pero como ustedes
+ven, estas son eh aplicaciones sencillas
+que en este caso podríamos utilizar y
+que también inclusive lo podríamos hacer
+desde el celular donde entonces también
+en la aplicación de Gemini podríamos
+sacarle provecho en esa línea. Ahora
+vamos a ver propiamente lo que es est
+herramientas, pero en chart IPT. Acá voy
+a utilizar mi venta gratuita y les voy a
+enseñar aquí eh cuál es el proceso de
+configuración. Nes tenemos que venir
+acá, tenemos que darle aquí en
+configuración y aquí dice apps y aquí
+entonces yo puedo darle apps y aquí ya
+dice todas las apps en las cuales yo me
+podría conectar.
+Entonces, yo me podría conectar a todas
+estas
+acá. Bueno, esto lo desarrollamos con
+más detalle en el curso propiamente,
+¿verdad? Pero de momento voy a utilizar
+ya las conexiones que yo tengo. Voy a
+entrar ahora sí con otra cuenta. Es la
+que si ya tiene más detalle todo esto.
+Voy a entrar aquí en aplicaciones o
+apps. Y como ven, yo tengo conectado mi
+Gmail, mi Drawbox, etcétera. ¿Vale?
+Entonces acá voy a venirme
+y le puedo solicitar algo como buscar un
+libro. Ah, bueno, lo voy a conectar acá,
+¿verdad? En este caso, perdón. Eh, puedo
+conectar las herramientas que yo quiera.
+Voy a conectar en este caso mi Dropbox y
+le voy a pedir buscar en mi Dropbox en
+un libro llamado
+enometric
+de eh un autor llamado
+y le damos a buscar. Y entonces vean
+como él eh bueno, este es el modo de
+pensamiento, se conecta con la
+aplicación por medio de la herramienta
+MCP.
+Y ya aquí de una vez me dice que
+efectivamente lo encontró y le puedo dar
+click, le doy en abrir el enlace
+y efectivamente ya lo buscó, lo encontró
+y me lo trajo, ¿verdad? Entonces eso
+pues porque yo le pedí que lo buscara.
+Pero perfectamente yo podría eh pedirle
+que cree unas carpetas, podría decirle
+que transfiera ciertos archivos y eh
+realizar ciertas operaciones en mi
+Dropbox. Pero así eh como les digo, esto
+porque estoy conectando Dropbox, pero
+podría conectar el Teams, podría
+conectar el Gmail, podría conectar el
+correo de Outlook, podría conectar pues
+muchas herramientas que están ahí pues
+propiamente establecidas.
+Ahora bien,
+como ustedes ven, este es el ejemplo que
+estábamos haciendo. Y acá vamos entonces
+a ver lo que es en cloud.
+Acá en cloud, o sea, detener muchísimo,
+nada más comentarles que entonces acá en
+cloud eh nada más mencionar que eh pues
+de momento no no eh no vamos a entrar en
+mucho detalle. Esto se ve más a nivel de
+la lección, eh, pero indicar que en
+cloud muchas más opciones porque Cloud
+fue en este caso los creadores del MSP.
+Entonces, como fueron los creos de MSP,
+si ustedes ingresan en cloud y buscan,
+van a ver que hay muchas más
+herramientas que se pueden conectar y
+tiene algunas extensiones de escritorio
+que tienden a ser muy relevantes, por
+ejemplo, eh conexiones con Windows,
+manejo de eh PDFs,
+también
+este que está asociado al sistema
+operativo. Entonces, podemos crear
+carpetas, modificarlas, eh trasladar un
+archivo de otro lado, cambiarles
+extensiones, ¿verdad? Hacer cualquier
+operación que queramos hacer dentro de
+nuestro escritorio. Entonces, esto lo
+podríamos hacer con este tipo de mcpses
+de cloud. Y también esto pues tampoco lo
+vamos a ver en detalle, acá en esta
+página web está toda la información de
+cómo se puede construir un MCP
+personalizado, porque uno podría decir,
+"Ah, bueno, estuvo muy interesante y qué
+bonito esto MCP, pero ¿qué sucede si yo
+quiero conectarme con mi propio eh
+sistema o mi CM empresarias?" Bueno, en
+este caso se puede hacer, no va a estar,
+digamos, un conector preestablecido.
+Entonces, lo que hay que hacer es crear
+el MSP personalizado. Y aquí Cloud eh
+tiene todo un eh todo un tutorial de
+cómo realizarlo eh ya propiamente para
+un eh servicio personalizado. Muy bien,
+entonces ahora vamos a proceder a
+continuar en la siguiente parte con el
+segundo gran tema que es específicamente
+el de e
+el de uso de agentes. Yes.

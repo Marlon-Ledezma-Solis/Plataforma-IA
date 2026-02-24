@@ -1,0 +1,365 @@
+Título del Video: Construcción GPTs
+URL: https://youtu.be/44JFAufvo0g?si=ZijEyWQ6C_csQ-xz
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora vamos a continuar
+entonces con la siguiente actividad que
+sería hacer una automatización con un
+GPT que es algo similar a lo que vemos
+eh propiamente de las eh gemas, pero la
+diferencia en este caso es que lo vamos
+a hacer desde chat GPT. Es como entonces
+la alternativa que CH GPT nos presenta.
+Ahora acá es importante, voy a ingresar
+entonces a char GPT
+y es importante indicar que esta opción
+solo aparece, ¿verdad?, para crear GPTs
+en la versión paga. Si es una versión
+gratuita, no nos va a permitir crear los
+GPT. Vamos a poder observar GPTs,
+¿verdad?
+Pero y consumir GPTs que ya se habían
+hecho por parte de otras personas, pero
+no nos permite crear esos GPS. En
+cambio, acá sí nos permite crear si
+tenemos una licencia. Entonces, una vez
+que ingresamos a CH GPT, vamos a seguir
+el proceso que acá está indicado, que
+como ustedes van a poder observar, pues
+es un proceso que lo tenemos aquí
+detallado
+para que ustedes entonces lo puedan
+seguir con nosotros.
+Lo que tenemos que hacer primero es
+entrar acá a la parte GBT y explorar,
+¿verdad?, que fue lo que acabamos de
+hacer. Y entramos aquí al botoncito de
+crear y después van realizando el
+proceso tal cual eh se explica acá en
+las filinas, ¿verdad? Entonces, nos
+vamos a venir a crear aquí le vamos a
+dar botoncito de configurar
+y hay que entonces llenar este nombre,
+¿verdad?
+Y acá vamos a hacer entonces un un poco
+siguiendo la línea de los ejemplos que
+hemos hecho anteriormente, ¿verdad?
+Vamos a tratar ahora de que él nos ayude
+a eh crear informes ejecutivos.
+Entonces, eso es lo que le vamos a
+pedir. Este es el punto número cinco y
+acá en el punto número seis, ¿verdad? Es
+este de acá, es donde ya le vamos a dar
+la instrucción o en este caso, ¿verdad?
+Probablemente sería el PROM. Acá ya
+tenemos un prom que está bastante
+detallado, ¿verdad? Como ustedes lo
+pueden observar acá es un prom que sí
+busca. Entonces detallar con mucho
+cuidado, ¿verdad?, los
+el proceso, perdón, que en este caso
+tiene que desarrollar
+la inteligencia artificial. Entonces,
+como ustedes pueden observar, ya una vez
+que nosotros le damos ese bastante claro
+y detallado,
+entonces eh nosotros tendríamos que
+darle lo que se llama indicadores de
+conversión, que esos indicadores de
+conversión es eh básicamente qué nombre,
+qué abreviatura podemos generarle por
+acá, ¿verdad? En este caso, ¿ven? Este
+proyector es para que yo no tenga que
+escribir ni siquiera algo en específico,
+sino que yo le puedo decir esto es lo
+que necesito que haga en este caso el
+reporte y él ya entiende porque ya está
+el prom aquí preconfigurado. Como
+dijimos anteriormente, esa es la gran
+bondad de este proceso, que es que
+entonces los prom queden
+preconfigurados. Si nosotros ese PR que
+ustedes vieron ahí no fue fruto de la
+noche a la mañana, fue de empezar a
+intentar varias ocasiones, de probar
+diferentes elementos, de hacer eh
+propiamente que ya el el
+eh modelo corriera y nos empezara a ya
+dar los resultados que nosotros
+estábamos necesitando. Entonces, lo más
+difícil acá siempre va a estar en crear
+el prom que sea verdaderamente
+funcional. Entonces, para eso tenemos
+que pasar por varios momentos de prueba
+y error de estable. Entonces, planteando
+ya eh qué es lo que nosotros en este
+caso necesitamos y eh hacer varias
+pruebas donde podamos ya ver que
+efectivamente nos da los resultados
+deseados. Si efectivamente logramos ver
+que este eh que con este promiezan a
+recibir esos resultados esperados,
+entonces la ventaja es esa, que ya nos
+quedó ahí, ya quedó, por decirlo así,
+entrenado de un modo más específico y
+cada vez que lo requiramos, entonces
+podemos utilizar directamente, ¿verdad?
+Acá es importante indicar que en
+conocimiento yo también puedo cargar un
+archivo, ¿verdad? Y eso también lo puedo
+hacer en las gemas. Ahí pues no lo
+hicimos en el video anterior, pues por
+una cuestión de tiempo, pero nosotros
+inclusive eh acá también pues eh lo
+hacemos de un modo muy anaro para como
+sucede en las gemas. Entonces, si
+ustedes buscan en la gema, van a ver que
+hay en la parte que dice conocimiento y
+yo podría cargar archivos. Esto, por
+ejemplo, le podría cargar algunos
+informes para que él tenga referencia,
+para que él sepa más o menos cómo tiene
+que ser. O supongamos que más bien esta
+gema lo que yo quiero es que trabaje de
+modo específico con ciertos archivos y
+que siempre se encargue, qué sé yo, de
+atender dudas legales. Entonces, si yo
+quiero es que esta esta este GPT lo que
+me ayude sea a atender dudas legales,
+entonces yo en la base de conocimientos
+le agrego entonces diferentes leyes,
+normativas y reglamentos para que él
+pueda tenerlo como base de conocimiento
+para dar sus respuestas. Ahora bien,
+supongamos que eh lo que yo quiero no es
+que me atienda dudas legales, sino que
+eh me dé un informe o un reporte que
+esté alineado, no sé, a los lineamientos
+del Ministerio de Educación Pública o a
+los lineamientos eh del Ministerio de
+Justicia para algún proceso o que eh me
+ayude con un proceso eh a nivel de salud
+o demás y hay eh conjunto de pautas o
+patrones que hay que seguir. Entonces,
+yo podría cargarle esa información aquí
+en la base de conocimiento y de esa
+manera entonces ya ella podría ajustarse
+a esos lineamientos que yo le estoy
+indicando y así podría anunciar eh hacer
+que el GPT todavía sea más
+especializado. En este caso, pues no le
+vamos a dar ninguno en particular porque
+en realidad eh pues no hay eh algún
+reporte en especial que queramos o algún
+formato que queremos que se ajuste.
+bajar y vamos a ver entonces que podemos
+darle una recomendación de modelo aquí
+en el punto número nueve. Esto si yo
+quisiera, ¿verdad?, que utilice como
+algo particular, si no no hay ningún
+inconveniente, lo podemos dejar abierto
+para que el usuario lo pueda escoger. Y
+aquí están las funciones que en este
+caso eh puede buscar en internet, puede
+generar un lienzo, ¿verdad? o crear pues
+eh algún eh reporte resultado en
+específico, puede generar imágenes y
+también le podemos decir que interprete
+código y análisis de datos, ¿verdad?
+Creo que esto es un punto importante y
+aquí en acciones puedo crear una acción,
+pero esto sí es algo eh para darle pues
+una mayor funcionalidad para que se
+conecte a ciertas herramientas externas,
+pero en realidad de momento eh no es
+necesario y es algo pues que es un poco
+más complejo y que también ya no se está
+utilizando eh tanto, ¿verdad? eh a nivel
+de eh de automatización, porque ahora
+hay como unas herramientas que tienden a
+ser más funcionales, pero eh sies que si
+uno quiere pues puedes configurar una
+acción para obtener un resultado eh más
+especializado. De momento ya con esto
+ves que creamos la configuración
+respectiva y ya nada más nos bastaría en
+darle en crear. Con solo eso, pues nos
+vas a decir si queremos crearlo en de un
+modo público o de un modo más privado,
+¿verdad? Acá pues en este caso yo no lo
+no lo voy a crear porque yo ya lo tengo
+creado. Entonces vamos a la que ustedes
+ven aquí le puedo dar en crear y acá
+como ustedes ven, me va a aparecer.
+Entonces, yo voy a dar, no le voy a dar
+en creer. Si ustedes le dan en crear,
+eh, simplemente lo que van a ver es que
+nos permite consultar, nos consulta, en
+este caso, si queremos que sea eh
+privado o eh público. Público es para
+que cualquier persona lo pueda buscar
+acá, porque ustedes ven aquí donde dice
+expperar GPTs. Entonces, uno lo podría
+buscar y aquí en mid GPT van a estar los
+GPTs que nosotros tenemos. Como ustedes
+eh logran observar, yo en realidad ya
+tenía este GPT creado, ¿verdad? De
+hecho, lo tengo varias veces. Entonces
+voy a mir, inclusive si uno quisiera,
+pues puede eliminar este GPT
+y voy a eliminar este otro porque ya en
+realidad aquí tenía este por acá
+para no tenerlos, ¿verdad? Y aquí
+inclusive vean que voy a eliminar este
+también. Vean que también uno podría eh
+editarlo, ¿verdad? Si yo le doy aquí en
+esta fichita, ¿ven que ya tengo varias
+veces este este
+GPT, pero bueno, ahí donde puede
+eliminarlos o editarlos
+y aquí ven que yo eh puedo ya ingresar a
+GPT de modo específico. Ahora bien, esto
+es una forma de ingresar, pero si no yo
+lo voy a tener nuevamente acá. Siempre
+los voy a tener aquí eh relativamente
+listos para utilizarlos como una especie
+de acceso directo, ¿verdad? Entonces, yo
+también podría estar ahí. Y vean que
+aquí entonces, ¿qué es lo que vamos a
+hacer? La instrucción está hecha para
+que él entonces pueda recibir
+un conjunto de información que en este
+caso está en los insumos de la lección.
+Son estos dos reportes. Yo se lo voy a
+pasar en este caso a la gema.
+y le puedo dar aquí en la opción que
+dice report para que ya proceda a hacer
+el informe ejecutivo. Bien, entonces ya
+está preentrenado para que nos ayude a
+obtener el resultado concreto que
+necesitamos. Como ustedes ven, ya es un
+informe ejecutivo, entonces no tengo que
+detallarle todos estos elementos, sino
+que yo ya le configuré el PROM para que
+lo pueda utilizar. ¿Cuál es uno de los
+elementos importantes acá? es que eh al
+realizar varios varios procesos de de
+prueba y error, yo puedo ir afinando el
+GPT, yo puedo volverme a ir a editar
+este GPT, ¿verdad? Y ya con eso puedo
+también proceder a ajustar cualquier
+cambio que considere que sea necesario y
+así irlo afinando, afinando y afinando
+para que cada vez este GPT esté más
+especializado y logro de los resultados
+que yo requiera. Aquí es importante
+indicarle también que ustedes pueden
+escoger el modelo. Cuando ustedes le van
+a hacer la pregunta, recuerden que hay
+un modelo que es razonador, que fue
+parte de lo que hemos visto en unidades
+anteriores. Y hay un modelo pues más
+automático que eh es eh que él decide
+propiamente pues si usa un modelo u
+otro. Y este el modelo sin razonamiento
+que es el que hace respuestas más
+rápidas, ¿verdad? Normalmente nosotros
+recomendamos que se utilice para este
+tipo de trabajos que requieren un
+análisis más específico, el modelo
+thinking, que es ya un modelo razonador.
+Y también ven que pueden inclusive
+escoger modelos anteriores. Ahora pueden
+ver que ya me generé reporte, tal cual
+se lo solicité. Voy a guardar las
+descargas y vean acá como ya me generó
+un pequeño informe eclo. Como ustedes
+ven, es un informe bastante ejecutivo,
+no tiene eh pues digamos mucho detalle
+porque en realidad cuando eh se creó el
+prom, ¿verdad? Si ustedes logran
+observar es eh pues un prom bastante
+bastante concreto, ¿verdad? Acá si
+ustedes ven en realidad no me hizo esta
+parte de indicadores adicionales. Parece
+que eh sin querer eh yo tenía que
+compartirle
+los dos archivos y solo se me fue uno.
+Pero entonces vamos a volverlo a hacer
+por acá. Entonces voy a darle un nuevo
+chat. Aquí yo le puedo dar click nuevo
+chat. Ven que estoy otra vez en el
+Chrome, ¿verdad? Entonces yo voy a
+volverle a dar la información.
+Como les decía, uno puede escoger qué
+modelo sea thinking. Él normalmente por
+default lo va a intentar hacer con s. Y
+ahora sí están los dos archivos,
+disculpen antes que se fue sin uno,
+¿verdad? Y eso afectó momento el
+resultado, pero acá ya una vez que
+tenemos dos le podemos dar en reporte y
+va a obtener ambos resultados. Voy a
+parar un momento de relación para que
+ustedes entonces eh nada más vean el
+resultado final. Muy bien. Entonces acá
+ya podemos ver eh dónde generó el
+informe respectivo y eh yo puedo
+descargar pues en Word o en PDF,
+¿verdad? Y me da también los detalles
+más específicos. Es importante recordar
+que, como les mencionaba, es un informe
+ejecutivo y en la eh en el promo tal
+cual nosotros lo planteamos, pedimos que
+fuese de esa manera. Entonces, como
+ustedes ven, en realidad es un informe
+bastante bastante concreto y ejecutivo
+con los datos más relevantes, unos
+gráficos pues de los eh elementos eh más
+significativos, ¿verdad? y sumando pues
+los datos más específicos o relevantes
+de la información que le estoy
+solicitando. Entonces, como ven, ya
+logro ajustar adecuadamente lo
+solicitado. Ahora, para finalizar en
+esta parte, en la lección se ve con más
+detalle el hecho de que ya hay GPTs
+personalizados, ¿ven? Entonces, eh hay
+varias eh empresas e instituciones que
+han hecho varios GPTs y los han puesto
+públicos. Entonces, por ejemplo, si uno
+quisiera podría ir a este aer y uno
+podría entonces eh ya proceder a eh
+conversar propiamente con ese GPT
+personalizado. Entonces ya alkin se
+encargó de hacer toda la construcción
+específica de este GPT y yo podría
+entonces conversar específicamente con
+él para aprovechar su potencial. Por
+ejemplo, en este caso, este es un
+asistente de investigación, o sea, me
+ayuda a buscar entre diferentes fuentes,
+principalmente más eh eh académicas y
+más eh en este caso profesionales.
+Entonces, yo podría hacer alguna
+consulta y él se encargaría de buscarme
+información en esas eh fuentes más
+profesionales o académicas. ¿Ven?
+Entonces, esto ya fue una forma de poder
+utilizar GPTs que alguien en momento
+configuró, pues los abó de modo público
+para que los podamos explotar en la
+clase y en la presentación ustedes van a
+poder observarlo
+por acá
+varios eh GPTs existentes en el modo
+público y entonces acá nosotros les
+recomendamos varios de ellos.
+Entonces ustedes ahí van a poder ver a
+los diferentes GPTs que nosotros les
+recomendamos, pues cuáles son los
+resultados que en este caso podrían
+obtener y aprovechar dado que ya eh
+están públicos y están de acceso a que
+nosotros los podamos aprovechar.

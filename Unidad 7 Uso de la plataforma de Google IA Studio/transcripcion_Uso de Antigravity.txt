@@ -1,0 +1,409 @@
+Título del Video: Uso de Antigravity
+URL: https://www.youtube.com/watch?v=ZwAExZYwDJ4
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora vamos entonces a
+continuar con la unidad dos que es el
+uso de Google Antigravity. Entonces para
+ello, pues ya tenemos por acá, entonces
+tenemos que tener instalado Google
+Antigravity y entonces ahí eh vamos a
+tener a un ID que estaría eh trabajando
+con nosotros eh de la mano, ¿verdad?
+Aquí no voy a explicar cómo instalar
+antigravity, ¿verdad? más, porque eso lo
+haríamos propiamente en la sesión
+correspondiente. De momento, acá lo que
+les voy a mostrar es bueno, acá eh cómo
+iniciar con un proyecto desde cero.
+Aquí, bueno, si ya tienen una
+eh propiamente un proyecto en
+desarrollo, entonces lo que tenemos que
+hacer es en primera instancia cerrar ese
+proyecto.
+Entonces aquí le damos cerr espacio
+y ya nos abrió, digamos, un proyecto en
+celo. Lo que tenemos que hacer es crear
+un entorno de trabajo. Para ello vamos a
+usar como una carpeta. ¿Está bien?
+Entonces tenemos la parte de insumos y
+en la de insumos ven que dice eh
+carrusel, imágenes, info y catálogo.
+Entonces vamos a tomar estas tres, estas
+cuatro, las vamos a copiar y las vamos a
+crear en una carpeta aparte. Por
+ejemplo, aquí les puedo eh poner
+entonces desarrollo página web.
+Entonces, ustedes crean una carpeta
+donde ustedes quieran, le ponen el
+nombre que ustedes gusten y le cargan
+los insumos. Este es el punto
+fundamental del momento de trabajar con
+esta herramienta. Necesitamos tener una
+carpeta donde le vamos a dar los
+insumos. Entonces, ya entendiendo que
+tenemos esta carpeta creada, nos vamos a
+venir acá y le vamos a abrir Open
+Folder. Buscamos la carpetita y listo.
+Bueno, si usted se nada más dicen
+desarrollar página web, la escogen y ya
+con eso ven que aquí tienen que dar que
+ustedes conocen y dan fe de la
+información que está aquí, ¿verdad? Y
+que tienen los derechos para poder
+editarla.
+Acá ustedes tienen que loguearse con su
+cuenta en caso de que no esté, nada más
+se loguean. Aquí ven que yo
+perfectamente podría cambiar, podría
+cerrar la sesión y volver a iniciar.
+Esta es básicamente las misma sesión de
+Google, ¿verdad? Esta es una herramienta
+de Google, entonces se conecta con la
+sesión de Google. Y aquí vean que de
+este lado ya me abrió, por decirlo así,
+la carpeta con los diferentes elementos
+que ahí están incluidos. Y aquí es donde
+él va a proceder a trabajar. Y aquí es
+donde yo voy a chatear, donde yo voy a
+pedirle en este caso que proceda a
+ayudarnos a eh solucionar o a atender
+ciertos elementos. Para ello, yo tengo
+que darle un prom. Aquí en los insumos
+ustedes van a ver que dice prom creación
+de sitios web antigravity. Entonces
+ustedes pueden usar este prom que es
+general. Es un prom bastante general que
+yo tiendo a utilizar para el desarrollo
+de sitios web. En este caso lo único que
+tienen que tener es una carpeta tal cual
+la acabamos de hacer, una carpeta que
+tenga como esta acabamos de hacer
+desarrollo páginas web en carrusel, qué
+imágenes van a estar en el carrusel, en
+imágenes, cuáles son las imágenes de los
+productos y en info la información de la
+empresa y de contacto y un catálogo que
+este catálogo hay que meterlo aquí en
+info. Muy bien, ahora sí. Entonces, ya
+teniendo pues en info toda la
+información de la empresa catálogo
+correspondiente, en imágenes pues las
+imágenes de los productos y en carruel
+imágenes que queramos que estén en un
+carruel dentro de la página web.
+Entonces ahora sí puedo utilizar este
+prom que como les digo, pues está en la
+carpeta de insumos
+y dice promes sitios web de antigravity.
+general lo que va a decir es createe una
+página web tomando la información que
+está en la carpeta info, tomando en este
+caso el las imágenes de productos que
+están en la carpeta de imágenes,
+haciendo un carrusel con las imágenes
+que están ahí y también aquí dice qué
+secciones quiero que tenga, de qué
+manera y demás, ¿verdad? Entonces ya
+esto e es un prom que digamos yo en este
+caso les estaría suministrando para que
+ustedes lo puedan trabajar. es un prom y
+que pues se adapta a diferentes sitios,
+¿verdad? Entonces, ¿ven? Ahí ya quedó el
+prom listo. Aquí utilizamos la opción de
+planificación o planeamiento, ¿verdad?
+No, el modo rápido. Si fuese algo muy
+rápido y sencillo, pues podríamos usar
+el el el rápido, pero en realidad aquí
+queremos utilizar algo un poco más
+desarrollado. Podemos usar Gemini Pro
+Hight, que en este caso es su modelo más
+avanzado de Gemini. Y si no, pues
+podemos utilizar también los modelos de
+cloud o el eh modelo GPT open source.
+Entonces, cualquiera de estos son buenas
+alternativas. Yo les recomiendo
+principalmente utilizar Gemini Pro Hike
+y si no eh Cloud Sony 4.5, perdón, ous
+4.6. Este sería las recomendaciones,
+pero para desarrollos web el que da como
+una interfaz más bonita en primera
+instancia es Gemini 3 Pro. Es importante
+indicar que si están usando una versión
+eh gratuita, pues va a tener ciertos
+límites por día, ¿verdad? Para que lo
+tengan ahí en consideración. Pero
+también pueden estarse moviendo entre
+entre Gemini y Cloud para que si se
+desgastan los créditos de una puedan
+usar los créditos de la otra o utilizar
+el open source de eh de eh GPT. Entonces
+ahí tendrían también otros límites mucho
+más eh abiertos que les permitirían pues
+también si se quedaron sin créditos
+poder utilizarlos.
+Aquí le damos en general y vean que él
+va a empezar a trabajar. Vamos a pausar
+un momento aquí mientras él nos da los
+resultados.
+Acá ya podemos ver el resultado que nos
+generó. Entonces, como ustedes pueden
+ver, eh ya
+eh logra analizar, bueno, analizar los
+requerimientos y a partir de eso
+entonces me propone un plan de trabajo.
+Ustedes pueden ver, pues aquí eh está en
+inglés la información, pero eh
+básicamente lo que me está diciendo es
+con esto ya es ingeniería de
+especificaciones, ¿ven? Entonces, ya me
+está dando un detalle de los diferentes
+elementos que en este caso tendría que
+desarrollar. Estos son todos los paso a
+paso que tendría que hacer. Yo
+perfectamente le podría hacer algún
+comentario en algún punto, ¿ven? Yo
+podría aquí hacer un comentario, ¿ven? O
+podría venirme acá y ven que está es la
+opción de crear comentario. Entonces,
+ven, yo podría decirle, "Modifica esto
+de tal y tal manera, ajusta estos
+elementos." también podría venirme aquí
+al final y decir, "Agrega tal elemento
+adicional o por acá inclusive con eh con
+el chat que tenemos a este lado, yo
+también podría decirle, por favor,
+incluya eh una sección más en este punto
+o te faltan estas acciones." Entonces,
+yo puedo en este caso solicitar los
+cambios que yo quiera en ese paso a paso
+o puedo, como les digo, especificarle
+pasos adicionales que yo considero que
+son necesarios que ella proceda a
+realizar. Si yo estuviese de acuerdo con
+todo, ¿ven? Aquí yo puedo revisarlo,
+¿verdad? Eh, y entonces yo podría
+decirle, "¿Me parece bien? Procedamos."
+Y aquí ven que ya me va a decir que
+necesita correr, entonces tengo que
+darle en correr. Él me va a estar
+constantemente solicitando, ¿ven? Que
+corramos eh ciertos códigos
+y él va entonces a ir procedimiento.
+Va constantemente, ¿ven? a
+estarme planteando eh la necesidad de
+que yo le acepte
+eh ciertos cambios y que le permita
+correr también los códigos que él va a
+ir haciendo. ¿Ven? Entonces, ya él
+empieza aquí a analizar la información,
+ya empieza entonces a trabajar con las
+carpetas que tenemos por acá y a ir
+generando entonces la página web
+correspondiente.
+Acá es importante que vean un elemento,
+él me va a hacer un un plan de
+implementación y un eh recorrido del
+desarrollo del sitio web. Entonces, si
+ustedes ven igual yo este plan de
+implementación, por ejemplo, le puedo
+pedir que me lo dé en español.
+Ay, perdón, ahí quedó el error, pero
+bueno, ya quedó.
+Entonces, por acá le voy a poner,
+requiero el plan de implementación en
+español.
+Este plan de implementación ya es
+entonces el que me dice pues todos los
+detalles de lo que vamos a ir
+desarrollando.
+Vean que acá entonces ya me mostró.
+Entonces ya me dices un página eh un
+sitio web multipágina profesional
+interactivo, ¿verdad? Una marca de modo
+urbano sostenible, ¿verdad? Entonces ya
+está pues como todo el detalle de lo que
+me está planteando. Acceso al contenido,
+¿verdad? El archivo catálogo
+probablemente contiene descripciones
+talladas que no puedo leer directamente.
+Usaré las imágenes de productos
+encontradas. Por favor, indícame si hay
+descripciones específicas que deba
+incluir después la política de
+privacidad aquí. Entonces, yo podría
+decirle, ¿verdad?, e
+que por favor proceda a ingresar de otra
+manera o que e en este caso trate de
+hacer una lectura de este archivo,
+¿verdad? Yo podría perfectamente
+detallarle eso. La política de
+privacidades lo va a redactar. Aquí ya
+me dijo cuáles van a ser las páginas que
+va a crear. Yo puedo también aquí
+hacerle algún comentario si quisiera que
+cambie algo, ¿verdad? Aquí están los
+colores, el inicio, los servicios.
+Parece que este por ser PDF se le
+complica un poquito. Tal vez si lo damos
+en otro formato lo recibiría. Aquí están
+los contactos, el correo, ya puedo ver
+todo lo que él en este caso me está
+planteando y si hay algo que yo digo,
+"Bueno, no, esto no está bien, yo podría
+solicitar la revisión." De lo contrario,
+eh le puedo dar aquí eh acepto y hacer
+los ajustes. Acepto y proceder con el
+diseño
+de ciclo
+y también le voy a dar aquí en aceptar
+todo.
+Él me va normalmente estar pidiendo que
+acepte, ¿verdad? Entonces, ciertos
+cambios que permita que corra ciertos eh
+algoritmos, ¿verdad? Dependiendo
+entonces de los algoritmos que sea, me
+va a pedir que le dé correr. Entonces,
+yo le voy a wrong wrong wrong o en
+algunos momentos si hay cambios,
+entonces me va a pedir que acepte los
+cambios y con solo que yo vaya haciendo
+eso, entonces puedo ir viendo los
+ajustes que me va planteando. De hecho,
+vean que aquí él me está haciendo un
+resumen ejecutivo, además del plan de
+implementación. Después se me va a dar
+un recorrido de los ajustes que él ha
+hecho y podemos ver
+entonces cuáles fueron en este caso eh
+el diseño que él está planteando.
+Entonces, una página de inicio con una
+con una encabezada, una sección ero
+hero, una propuesta de valor, la
+identidad, la galería interactiva en la
+parte de nuestros servicios
+me incluyó un efecto lightbox, va a
+hacer clic en una imagen, esta se
+expande en una ventana modal para una
+mejor visualización, el tema del
+contacto, entonces clara, iconos
+visuales, sin formulario, la política de
+privacidad, eh la paleta de colores,
+¿ven? Entonces él ya me detalle todos
+los elementos que él va a ir haciendo.
+Ven que no genera de una vez el
+resultado de los códigos, sino que ya me
+permite que yo vaya controlando los
+diferentes elementos para hacerlo de un
+modo más profesional. Y aquí ustedes ven
+que ya él está e en este caso pidiéndome
+que le permita correr este código y ya
+estaría entonces generando eh los
+elementos finales.
+Vamos a pausar un momento para que eh
+proceda a continuar con el desarrollo
+del sitio.
+Y aquí podemos ver cómo ya eh terminó de
+generar. Me dice que ya generó
+adecuadamente todos estos eh códigos.
+Son estos que estamos viendo por acá.
+¿Ven? Todo esto es codificación. Si yo
+me voy a la carpeta,
+vaya a ver que ya creó todos estos
+códigos. Y esto porque lo hicimos con
+una página web. Yo podría haberle pedido
+que me hubiese ayudado a generar una
+plataforma para manejo de costos. le
+pude haber pedido que me ayudara a crear
+una plataforma para captación de cierta
+información, para proyecciones, para
+análisis de datos, o sea, puede ser
+cualquier tipo de desarrollo. En este
+caso nos fuimos a un desarrollo de
+páginas web por un tema pues de abarcar
+también ese nicho posible de
+automatización, de necesidades de
+automatización, pero en realidad con
+Google Antigaraity puede ser cualquier
+tipo de proyecto, cualquier tipo de
+proyecto que implique en este caso un
+desarrollo de programación lo podemos
+hacer de esta manera. Como les digo, un
+prom inicial, él me va a dar una lista
+de acciones que bueno, aquí yo no le le
+dije que me lo pusiera en español, pero
+también le puedo decir que me lo hubiese
+puesto en español. Después de eso, ya él
+empieza a desarrollar los códigos, me da
+un plan de implementación que en este
+caso yo tengo que revisar y si hay algo
+que quiero corregir, yo se lo puedo
+indicar y después ya me va a dar pues en
+este caso el resultado final que obtuvo.
+Y si hay algún cambio que yo quiero que
+haga lo puedo indicar acá o por medio
+del chat. En cualquier momento yo puedo
+estar interrumpiendo y solicitando que
+haga los ajustes que yo quiera.
+Entonces, una vez que ya terminó de
+hacer todo este proceso, ven que aquí en
+index, o sea, todas estas son las
+páginas que desarrolló. Yo si si yo si
+ustedes lo ven acá, yo podría entrar ya
+a index, que es la página principal. Y
+si ustedes ven, si yo entro a index,
+ven, ya creo la página. Lo creo con este
+estilo porque va muy de la mano. Ven. Y
+es ese carro es el que va en este caso
+eh variando. ¿Ven?
+Ahí está sobre nosotros la propuesta de
+valor, misión, visión, valores, entidad
+de características. ¿Ven? Todo está por
+acá. Nuestros servicios lo podemos ver
+por acá. Y vean que si yo me paro, dice
+luzes, bolsos. ¿Ven? Todo esto me lo
+logra ofrecer de un modo bastante
+bastante claro, los contactos, la
+política de privacidad, ¿ven? Todo está
+funcionando muy bien y eso pues un muy
+buen trabajo. Aquí está el Facebook,
+Instagram y además que podríamos
+perfectamente utilizar, ¿ven? Y con eso
+entonces ya me dio el desarrollo. Estos
+códigos que yo ya tengo por acá, yo los
+puedo ya subir a un Hostinger, a un Go
+Daddy o a cualquier eh eh host que
+quiera utilizar, por ejemplo, para
+desarrollo web. Con solo que yo lo
+cargue en la carpeta de public, ya
+estaría en este caso eh pudiendo
+publicar esa información en el dominio
+que yo tenga asignado. Eso pues se ve
+como a detalle en la lección como tal,
+pero como ustedes ven, el desarrollo de
+páginas web es bastante sencillo con
+estas herramientas y con un enfoque muy
+profesional. Igual si quisiéramos
+podríamos perfectamente hacer los
+ajustes que deseamos, ¿verdad? y empezar
+a a ya es cuestión de empezar a entrar
+con más detalle y más detalle en los
+elementos que quisiéramos ir mejorando,
+pero como ustedes ven ya con esto
+podemos hacer pues muy buenos resultados
+en el desarrollo de todo este tipo de
+funcionalidades. Así que eh de esta
+manera estaríamos cerrando esta esta
+sesión de eh desarrollo de B coding, de
+ingeniería de especificación con estos
+ejemplos sencillos. En las clases vamos
+a detallar mucho más y la idea es que eh
+ya con estas herramientas empecemos a
+probar diferentes eh tipos de proyectos,
+pero como pueden ver eh las herramientas
+nos ayudan mucho, son muy funcionales en
+poder ir desarrollando este tipo de de
+trabajos de un modo mucho más
+automatizado con el uso de inteligencia
+artificial. Muchas gracias. Yeah.

@@ -1,0 +1,7 @@
+Link de google Slice: https://drive.google.com/open?id=1q4Gp7_HfsZsw6UX_2qPdAcrGK6Rdakvmh5ErahLvD4k&usp=drive_copy
+
+Link de los tutoriales y los links con sus nombres:
+- Programación básica Python: Sin link
+- Carpintería para Minería de Datos: Sin link
+- Carpintería para Análisis de Ventas: Sin link
+- Automatización de Procesamiento de Archivos: Sin link

@@ -1,0 +1,420 @@
+Título del Video: 3 - Conceptos técnicos IA Generativa
+URL: https://youtu.be/YMgUQF1IIII
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, para continuar vamos a
+desarrollar algunos conceptos un poco
+más complejos o no más complejos, sino
+más técnicos. En este caso, vamos a
+hablar de la temperatura. La temperatura
+es un parámetro que indica que tan
+creativa es la inteligencia artificial
+al momento de dar respuestas. La
+temperatura baja, por ejemplo, desde el
+0,1
+0.4.
+eh hace que en este caso sea menos
+creativo al momento de la respuesta y
+por tanto tendremos de respuestas más
+estables, determinísticas y dados para
+calculos financieros de contarias que
+requieran precisión. En este caso, le
+estaríamos siendo inteligencia
+artificial para queamos que nos des la
+información tal cual está eh propiamente
+en la información que te suministramos o
+que hagas un cálculo medio exacto. Lo
+que estamos buscando es que esa
+exactitud sea lo máximo posible. Después
+una temperatura media entre 0,5 y 0.7
+hace un balance entre consistencia y
+variedad. Esto es bueno para la
+redacción de informes y de escenarios
+porque a veces necesitamos que la
+inteligencia artifencial también genere
+ella misma el contenido. Entonces,
+necesitamos darle cierto nivel de
+creatividad para que ella pueda
+generarlo. Entonces, cuando estamos en
+tareas de la temperatura media es
+adecuada porque entonces no va a tratar
+de ser muy eh apegada, ¿verdad?, hasta
+cierto punto en la información
+existente, pero también va a tener un
+nivel de creatividad para desarrollar
+tías. Entonces, si necesitamos mucha
+rectitud, temperatura baja, si ya lo que
+necesitamos es que sea un poco más
+creativo, podemos usar temperatura
+media. Y si necesitamos que sea muy
+creativo, entonces ahí ya le vamos a dar
+una temperatura alta entre 0.8 8 y
+bueno, esto entonces ya es muy ideal
+para cuando necesitamos que sea eh en
+este caso innovador, muy creativo,
+incorpore elementos novedosos. Ahí es
+donde la temperatura pues puede estar
+más alta para que en este caso logre
+suministrar eh contenido lo más eh nuevo
+posible, ¿verdad? Lo más creativo
+posible.
+Otro de los conceptos importantes es el
+embeding. Cuando hablamos de embeding,
+estamos hablando propiamente de la
+representación vectorial de palabras,
+frases, documentos en un espacio
+multidimensional. ¿Qué quiere decir eso?
+Dijimos que para que todo esto funcione
+hay que transformar las palabras en
+números. Bueno, ese proceso es lo que
+llamamos en BD. Entonces eso permite
+que, por ejemplo, conceptos como
+información sea acercano a IPC. Podría
+decir, bueno, información IPC no se
+parece mucho. Pero en realidad son
+palabras que sí tienen una relación a
+nivel teórico, porque a partir del IPC
+se obtiene la inquilación o lo que
+dijimos antes de gato y perro. Uno
+podría decir, son palabras que no se
+parecen casi en nada, pero tienen una
+gran similitud porque están asociados a
+animales domésticos.
+de compañía y que son de los más
+comunes. Entonces, ven, por eso estos
+elementos pasan por un proceso de
+embeding que se convierten en vectores
+numéricos y a partir de eso podemos ver
+cuál es ese nivel de asociación o de
+violación que en este caso tienen las
+diferentes palabras. Entonces, esto es
+un punto muy importante que ha logrado
+los avances que hoy por hoy tenemos en
+inteligencia artificial.
+Lo otro son los Transformers. que ya lo
+mencionamos anteriormente, ¿verdad? Esos
+Transformers justamente son los que
+logran eh transformar esas eh palabras
+en nombres, pero más que eso logran
+generar un nivel de asociación con eh un
+mecanismo matemático que fue el quien
+diseñó Google eh pues a finales de los
+años eh de 2010 a 2020, porque más o
+menos creo que en el año 2017 2018.
+Entonces los transformes vinieron en
+revolucionar porque generaron un módulo
+secuencial de autoatenón.
+Este autoaten es el que dice que busque
+las palabras más importantes del texto.
+Fíjense que tienen comer a partir del
+contexto existente cuáles son los
+elementos que que están en este caso,
+cuál es el patrón que tienen por detrás
+estas palabras, por qué están asociadas.
+A partir de eso determinan las
+siguientes palabras, ¿verdad?, que
+pueden estar asociadas a este tipo de
+contenido en función de lo que se
+solicita. ¿Ven? Entonces, esos
+mecanismos permiten generar estas
+atuaciones entre palabras y frases, de
+modo que analizando la inteligencia
+artificial comprende los textos porque
+comprende las palabras más importantes,
+comprende su asociación, comprende por
+qué eh ese texto se inscribió de la
+forma que se escribió y logra generar
+párrafos porque entonces ya logra
+comprender
+los patrones de las palabras, va a poder
+decir, "Bueno, si me preguntaron eh
+sobre tal enfermedad, entonces yo puedo
+responder estos términos porque son
+palabras muy asociadas a lo que me
+solicitar y puedo agregarles estas
+palabras de enlace para que tenga un
+sentido eh propiamente armonioso y
+generar un párrafo que guarde
+propiamente en un sentido lógico. ¿Ven?
+Eso es lo que por hoy se logra hacer y
+es muy común cuando escribimos a
+inteligencia artificial y él no responde
+eso por medio de estos esquemas de
+Transformers que están por detrás he
+trabajado.
+Y de ahí fue que nace propiamente la
+intigencia artificiativa. Gracias a todo
+este proceso que acabamos de mencionar,
+en el cual eh se toman los tokens, se
+tiene una ventana de contexto, eh se le
+da una temperatura y eh se utilizan los
+Transformers que están por detrás. Él ya
+logra a partir de todo eso
+generar contenido
+y ese contenido puede ser texto,
+imágenes, audio y código. Eso es lo que
+le llamamos el esquema multimodal. O
+sea, logra recibir cualquiera de estos
+elementos y logra generar cualquiera de
+estos elementos. Entonces, eso es muy
+interesante porque ya nos permite
+justamente avanzar en ese concepto que
+decíamos donde ya la inteligencia
+artificial logra generar tareas de un
+modo más autónomo y adaptativo.
+Entonces, nosotros podemos irlo gueando,
+por eso es adaptativo.
+Lo maravilloso de todo esto entonces es
+que él lo hace de modo autónomo, es
+decir, logra hacer las cosas con cierta
+independencia, ya no hay que estar tan
+encima de ella, ¿verdad? desarrollando
+cada cosa, pero también adaptativo. Y es
+adaptativo porque nosotros podemos ir
+ajustándola y modificáola para que logre
+resultados conforme que nosotros
+necesitamos. y tiene este concepto de
+inteligencia artificialidad generativa
+porque gracias a todos estos diferentes
+elementos que acabamos de explicar,
+entonces hay algoritmos que permiten que
+esto funcione tal cual lo conocemos
+hasta el día de hoy. Entonces, todas
+estas herramientas que hemos conocido
+como chat GPT, Gemini, Tipo
+de curso utilizan esa inteligencia tips
+generativa porque al fin y al cabo se
+encargan de generar contenido.
+Y vamos ahora a hablar para finalizar
+esta sección de algunos tipos de redes
+neuronales más específicas
+que por ejemplo son las redes
+convolucionales que son las que se
+encargan específicamente
+de lo que es el análisis de imágenes.
+Entonces, cuando estamos trabajando con
+imágenes eh para encontrar patrones y
+demás, las redes convolucionales eh son
+muy eficaces para eh trabajar gráficos,
+tablas, datos estructurados eh y
+diferentes patrones de imágenes,
+¿verdad? Entonces, esto es un tipo de
+red neuronal que queremos que ustedes
+conozcan, porque cuando trabajemos con
+ciertos eh tipos de contenidos, eso es
+lo que en el fondo vamos a estar
+utilizando. Entonces, si son imágenes,
+¿verdad? Eh, principalmente gráficos,
+patrones espaciales y demás, vamos a
+trabajar con redes convolucionadas.
+Después, cuando trabajamos con
+asociaciones, por ejemplo, las series de
+tiempo económicas, aquí yo voy a usar
+muchos ejemplos eh aplicados a la
+economía, al comercio, al mundo
+empresarial, porque pues por mi
+información yo voy mucho por este lado,
+pero eh en el fondo lo que quiero
+decirles es que estas redes recurrentes
+logran algo muy interesante y es que
+logran generar asociaciones entre las
+diferentes carros. Como tuvimos una red
+neuronal, veíamos que una capa de
+entrada, después iba otra capa que
+necesaba la información, después íbamos
+a otra capa que seguía siendo un
+análisis más profundo y después nos da
+un resultado. Bueno, las redes
+recurrentes permiten devolvernos,
+entonces eso permite que está hicimos un
+análisis aquí, lo pasa acá y si es
+necesario lo devuelve para hacer un
+reprocesamiento y así aprende de los
+análisis siguientes. Entonces, permite
+generar asociaciones
+más profundas entre las diferentes capas
+y logra de esa manera entonces
+antes de dar una respuesta, por ejemplo,
+analizar previamente lo que ya había
+trabajado. Y esto es un esquema muy
+importante, por ejemplo, modos
+razonadores porque entonces da un
+resultado y lo vuelve a analizar,
+¿verdad? Entonces, eso un análisis más
+profundo que hoy por hoy se logre
+gracias a estos esquemas de redes
+recurrentes.
+Muy bien, para ir finalizando en esta
+sección queremos hablar un poquito sobre
+lo que son las alucinaciones. Y las
+alucinaciones es ese fenómeno en el que
+los sistemas de inteligencia artificial
+generan información correct inventada o
+sin fundamento, presentándola como si
+fuera verdadera. ¿Y a qué se debe esto?
+a datos de entrenamiento completos,
+patrones estadísticos más interpretados,
+falta de conocimiento y ausencia de
+razonamiento causal. A veces también
+puede estar asociada la temperatura si
+le damos mucha creatividad y ya empieza
+a generar patrones en palabras, en
+números y demás que podrían tener mucho
+sentido, pero que son inventados.
+Entonces, a veces la respuesta que nos
+da uno dice, "Ah, entendido." Y yo lo yo
+le pregunté a la inteligencia
+artificial, me dijo esto y esto y esto.
+Pero nosotros tenemos siempre que
+corroborar esa información. La
+inteligencia puede empezar a hacer este
+tipo de asociaciones y generar
+respuestas que son falsas, que
+infinitamente fueron confusiones que él
+que en este caso la inteligencia
+artificial tuvo al momento de asociar
+textos o al momento de asociar
+información. Entonces, por eso es que,
+como decimos fielmente, la inteligencia
+artificial es nuestro asistente, es
+nuestro apoyo, pero siempre tenemos que
+estar revisando esa información, siempre
+tenemos que estar trabajando de la mano
+porque ella puede caer en este tipo de
+alucinaciones. Han habido casos muy
+sonados en el cual eh se generaron
+trabajos en el que ella prácticamente lo
+hizo de modo independiente y esos
+resultados no pasaron por un proceso de
+revisión humana y generaron eh grandes
+problemas. Entonces, esto es un punto
+muy
+y lo último que vamos a hablar un
+poquito es de lo que es aprendizaje por
+refuerzo, que por sus siglas en inglés
+es RL. Esto es super importante. Basa en
+la idea de un agente que realiza una
+acción, inteligencia artificial hace una
+acción
+y recibe una recompensa si lo hace bien
+y eso se va guardando con un esquema de
+aprendizaje. Entonces, cuando nosotros
+interactuamos con inteligencia
+artificial, aquí hay modelos más
+profundos que están por detrás, pero muy
+resumido, pensemos en cuando le enviamos
+un él no responde. Si nosotros le
+decimos está correcto, si lo
+calificamos, si en este caso lo vamos
+guiando, él logra ir mejorando su
+aprendizaje. Eso es básicamente la idea
+que está por detrás. Y para que eh tal
+vez lo veamos en un modo más eh
+aplicado, vamos a irnos un momento chatt
+y vamos a hacer este ejemplo que
+nuevamente estamos trabajando con chatpt
+en estas primeras sesiones porque es el
+tema o el modelo de inteligencia
+artificial más conocido, pero a lo largo
+del curso vamos a utilizar muchos
+esquemas y muchos modelos. Entonces,
+perdón, vamos a nuestro chat GPT. Vamos
+a abrir un nuevo chat y vamos a hacer la
+practiquita que nos dice acá. Vamos a
+enviarle primero este prom que ustedes
+ven por acá
+y luego voy a copiar. Lo tengo la
+presentación. Entonces, yo lo voy a
+copiar y le vamos a dar el prom que es
+bastante sencillo. Entonces, véanlo por
+acá. dice,
+"Crea una carta como fecha de hoy para
+solicitar que nos tomen en consideración
+en la feria de emprendedores." Pero
+vamos a hacer algo. Recordemos que
+nosotros le habíamos enviado un chat
+previo en el cual le habíamos hablado de
+que éramos una empresa de Catherine
+Service, ¿verdad? Llamada Comida y
+sueños y demás, ¿verdad? Entonces vamos
+a hacerlo sobre este mismo para que
+eh tome el contexto que ya le vimos acá.
+O sea, acuerden que hablamos de la
+ventana de contexto. Bueno, justamente
+como parte de la ventana de contexto va
+a poder agarrar esta información y
+comprender mejor a qué se dedica el
+negocio. Entonces, si nosotros le damos
+este prom sobre esta información que ya
+habíamos trabajado, entonces ven, él
+logra comprender o logra tomar en su
+ventana de contexto que la empresa se
+llama comida de sueños, a que se dedica
+y demás. Y como ustedes ven, en realidad
+la carta está bien. Si lo inizamos
+cumple con lo que nosotros estábamos
+buscando. Sin embargo,
+eh podríamos querer que sea más
+sintético, querríamos decirle, por
+ejemplo, quién es el que organiza lo que
+aquí dice, por ejemplo, comité
+organizador y nosotros queremos tal vez
+ser más específicos y también en
+contacto. Por ejemplo, ven que lo hago
+como términos generales. Entonces
+nosotros podríamos copiar este segundo
+front
+y pegárselo a la inteligencia.
+Y esto es lo que le llamamos aprendizaje
+por reforce. Hay aprendizajes son más
+técnicos donde hacemos un proceso de
+entrenamiento más detallado y demás,
+pero en términos generales como un
+primer acercamiento. Esto que estamos
+haciendo pues va en esa línea. La línea
+decir, "Okay, usted me dio esta
+respuesta, pero yo quiero en este caso
+que modifique esto, ¿verdad?
+y que de esa manera él comprenda mejor
+cuál es el resultado que yo busco.
+Porque a veces cuando generamos un
+primer prom y un resultado decimos, "Uy,
+no, esto no era lo que yo quería. Te
+inserticia no me comprende, ¿verdad? No,
+no estaban llegando a esos niveles que
+yo deseo." Pero esto e se logra ir
+mejorando gracias a ese prinaje por de
+inteligencia artificial. logra ir
+mejorando gracias a las indicaciones y
+ajustes que nosotros le demos. Si
+ustedes ven, ya esta respuesta se adapta
+perfectamente a lo que yo andaba
+buscando. Y si vemos un último prom
+podría ser decirle en Word. Ven que si
+yo le digo un Word, ven que interesante
+como
+con este con tan sencillo
+inteligencia artificial me genera un
+resultado propiamente en un documento de
+Word. Y de esta manera pasamos de que
+simplemente no responda cosas a que
+propiamente nos dé un resultado
+totalmente listo para utilizar. Ven que
+ya aquí la inteligencia artificial no
+solo nos responde cosas, no lo estamos
+utilizando como un Google con poder sino
+que lo estamos utilizando como una
+herramienta que si nosotros nos vamos a
+descargas
+nos ayuda a generar tareas
+como por ejemplo la creación de una
+carta de un modo mucho más eficiente y
+apoyado de estas nuevas tecnologías.
+Entonces,
+de esta manera cerramos este primer este
+tercer bloque y eh nos vamos ya al
+último bloque donde vamos a ver pues
+unos elementos adicionales un poquito
+más técnicos asociados al funcionamiento
+de inteligencia artificial.

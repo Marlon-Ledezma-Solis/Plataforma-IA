@@ -1,0 +1,147 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1qPqxYoN9IkcnCIoHcJseTRmhBnMjYQQpXEzpJHh241A/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Introducción a Power BI
+
+--- Diapositiva 3 ---
+Principales funciones
+EXCEL
+Manipulación de datos
+Cálculos
+Tablas dinámicas
+Gráficos y Gráficos dinámicos
+Plantillas y macros
+Macros
+POWER BI
+Manipulación de datos y BD
+Cálculos y funciones DAX
+Tablas y matrices
+Gráficos avanzados
+Sistemas Web
+
+--- Diapositiva 4 ---
+Secciones de Power BI
+Visualización
+
+
+Bases de datos
+
+
+Relaciones
+
+--- Diapositiva 5 ---
+Cargar datos
+
+--- Diapositiva 6 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 7 ---
+Manipulación de datos en Power Query
+
+--- Diapositiva 8 ---
+Cambiar origen de datos
+
+--- Diapositiva 9 ---
+Cambiar origen de datos
+
+--- Diapositiva 10 ---
+Quitar filas
+
+--- Diapositiva 11 ---
+Quitar columnas
+
+--- Diapositiva 12 ---
+Quitar
+ Vacíos
+
+--- Diapositiva 13 ---
+Quitar errores
+
+--- Diapositiva 14 ---
+Poner primera fila como encabezado
+
+--- Diapositiva 15 ---
+Cambiar formato
+
+--- Diapositiva 16 ---
+Reemplazar valores
+
+--- Diapositiva 17 ---
+Cambiar tipo de dato
+
+--- Diapositiva 18 ---
+Anexar bases de datos
+
+--- Diapositiva 19 ---
+Transponer
+
+--- Diapositiva 20 ---
+Anular dinamización de columnas convertir variables en categorías
+
+--- Diapositiva 21 ---
+Dinamización de columnas convertir categorías en variables
+
+--- Diapositiva 22 ---
+Dividir columnas
+
+--- Diapositiva 23 ---
+Diagnósticos
+
+--- Diapositiva 24 ---
+Diagnósticos
+
+--- Diapositiva 25 ---
+Diagnósticos
+
+--- Diapositiva 26 ---
+Cargar varios archivos de una carpeta (Extra)
+
+--- Diapositiva 27 ---
+Cargar varios archivos de una carpeta
+
+--- Diapositiva 28 ---
+Cargar varios archivos de una carpeta
+
+--- Diapositiva 29 ---
+Cargar varios archivos de una carpeta
+
+--- Diapositiva 30 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 31 ---
+Uso de Power Query con IA
+
+--- Diapositiva 32 ---
+Power Query
+
+--- Diapositiva 33 ---
+Power Query
+
+--- Diapositiva 34 ---
+Power Query
+
+--- Diapositiva 35 ---
+Power Query
+
+--- Diapositiva 36 ---
+Power Query 
+(GPT especializado)
+
+--- Diapositiva 37 ---
+https://chatgpt.com/g/g-6922f583dd6881919ba619308c72c337-limpieza-de-datos
+Power Query 
+(GPT especializado)
+
+--- Diapositiva 38 ---
+Power Query 
+(GPT especializado)
+
+--- Diapositiva 39 ---
+Power Query 
+(GPT especializado)
+
+--- Diapositiva 40 ---
+Muchas gracias

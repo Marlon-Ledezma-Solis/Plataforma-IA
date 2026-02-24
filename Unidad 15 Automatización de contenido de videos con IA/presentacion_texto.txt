@@ -1,0 +1,296 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1qptBiAQudl7aUPiWR0vGAvUMzWIPIIovAoDFEdIOeE8/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Introducción
+El video es el formato dominante en la era digital. Redes sociales, educación online, marketing y entretenimiento giran alrededor del contenido audiovisual.
+La Inteligencia Artificial permite:
+Crear videos desde texto
+Editar automáticamente grabaciones
+Generar avatares que hablan
+Convertir artículos en videos
+Automatizar subtítulos, música y efectos
+Hoy, crear videos ya no depende exclusivamente de cámaras y estudios: depende de ideas bien estructuradas.
+
+--- Diapositiva 3 ---
+Evolución del Video hasta la IA
+1
+1895
+Nace el cine con los hermanos Lumière.
+2
+1927
+Cine sonoro.
+3
+1950–2000
+Televisión masiva.
+4
+2005
+Surge YouTube y democratiza el video online.
+5
+2010–2020
+Explosión del video móvil con Instagram y TikTok.
+6
+2022–2026
+IA generativa crea y edita videos automáticamente.
+La revolución actual no es solo grabar… es automatizar.
+
+--- Diapositiva 4 ---
+¿Qué es la Automatización de Video con IA?
+Es el uso de algoritmos inteligentes para:
+Generar guiones automáticamente
+Convertir texto en video
+Crear locuciones con voz sintética
+Editar clips automáticamente
+Generar escenas desde descripciones
+La IA reduce horas de edición a minutos.
+
+--- Diapositiva 5 ---
+APLICACIONES DE IA PARA VIDEO
+
+--- Diapositiva 6 ---
+Categoría 1 – Text-to-Video
+Crear un video completo a partir de una descripción escrita.
+Ejemplo:
+"Una ciudad futurista al atardecer con autos voladores y luces neón."
+La IA genera:
+Escenas animadas
+Movimiento de cámara
+Iluminación dinámica
+Ideal para:
+Prototipos visuales
+Contenido creativo
+Marketing digital
+
+--- Diapositiva 7 ---
+Categoría 2 – Texto a Avatar (Presentadores Virtuales)
+Permite crear un presentador digital que habla tu guion.
+Aplicaciones:
+Cursos online
+Videos corporativos
+Atención al cliente
+Noticias automatizadas
+El avatar puede:
+Mover labios sincronizados
+Cambiar idioma
+Ajustar tono de voz
+
+--- Diapositiva 8 ---
+Categoría 3 – Edición Automática Inteligente
+La IA puede:
+Detectar silencios y eliminarlos
+Agregar subtítulos automáticos
+Recortar errores
+Añadir música según el tono
+Generar clips cortos para redes sociales
+Ideal para creadores de contenido y equipos de marketing.
+
+--- Diapositiva 9 ---
+Clips verticales con subtítulos dinámicos
+Categoría 4 – Automatización para Redes Sociales
+Un solo video largo puede convertirse automáticamente en:
+Reels
+Shorts
+TikToks
+La IA detecta los momentos más interesantes y los transforma en contenido viral.
+
+--- Diapositiva 10 ---
+HERRAMIENTAS DE IA PARA VIDEO
+
+--- Diapositiva 11 ---
+Pictory
+Convierte artículos o textos largos en videos automáticamente.
+Fortalezas:
+Texto a video
+Biblioteca de clips
+Subtítulos automáticos
+Plan gratuito limitado
+Ideal para:
+Blogs convertidos en video
+Contenido educativo rápido
+Transforma texto en video profesional
+
+--- Diapositiva 12 ---
+https://pictory.ai/
+
+--- Diapositiva 13 ---
+Edits o CapCut
+Editor móvil con IA avanzada
+Dos herramientas muy similares. Editor con funciones avanzadas de IA.
+Fortalezas:
+Subtítulos automáticos
+Eliminación de fondo
+Plantillas virales
+Recorte inteligente
+Ideal para:
+TikTok
+Reels
+Creadores móviles
+
+--- Diapositiva 14 ---
+CapCut - Google Play
+Edits - Google Play
+
+--- Diapositiva 15 ---
+Canva Video
+Integra generación de video con herramientas de diseño.
+Fortalezas:
+Texto a video básico
+Animaciones automáticas
+Avatares IA
+Plantillas listas para usar
+Ideal para:
+Emprendedores
+Marketing interno
+Diseño y video en una plataforma
+
+--- Diapositiva 16 ---
+https://www.canva.com/es_mx/editar-videos/ia/
+
+--- Diapositiva 17 ---
+Genera videos completos desde una instrucción escrita.
+Fortalezas:
+Generación automática de escenas
+Locución IA
+Plantillas temáticas
+Versión gratuita con marca de agua
+Ideal para:
+Videos promocionales
+Contenido educativo
+InVideo AI
+Generación automática completa
+
+--- Diapositiva 18 ---
+https://invideo.io/
+
+--- Diapositiva 19 ---
+Fortalezas:
+Avatares Hiperrealistas: Modelos humanos que gesticulan y parpadean de forma natural.
+Video Translation: Traduce videos de una persona hablando a otros idiomas, ajustando el movimiento de los labios (Lip-sync) automáticamente.
+Clonación de Voz: Permite usar tu propia voz o voces sintéticas con gran carga emocional.
+Ideal para:
+Capacitación Corporativa.
+Marketing Personalizado.
+Localización de Contenido.
+Crea videos con avatares fotorrealistas y clonación de voz a partir de texto.
+HeyGen
+Avatares fotorrealistas.
+
+--- Diapositiva 20 ---
+https://www.heygen.com/
+
+--- Diapositiva 21 ---
+HERRAMIENTAS EXTRA
+(Solo mencionadas)
+
+--- Diapositiva 22 ---
+Otras herramientas relevantes
+Runway
+Edición avanzada y generación de video
+Descript
+Edición por texto
+Lumen5
+Blog a video
+VEED.io
+Subtítulos automáticos
+FlexClip
+Editor versátil
+Animoto
+Videos rápidos
+Synthesia
+Avatares realistas
+
+--- Diapositiva 23 ---
+APLICACIONES PRÁCTICAS
+
+--- Diapositiva 24 ---
+Caso de Estudio: Automatización de Video Promocional con Inteligencia Artificial
+Contexto:
+Objetivos:
+Herramientas Propuestas
+Una pequeña empresa de formación digital necesita crear un video promocional para lanzar su nuevo curso online.
+Reducir costos de producción (sin estudio físico ni camarógrafo).
+Disminuir tiempo de producción.
+Generar un video profesional listo para redes sociales en menos de 24 horas.
+HeyGen / Synthesia → Generación de avatar con voz IA.
+ChatGPT / Gemini → Escritura del guion.
+CapCut / Edits → Edición final y subtítulos automáticos.
+
+--- Diapositiva 25 ---
+Caso de Estudio: Automatización de Video Promocional con Inteligencia Artificial
+Escritura del Guion
+Resultado
+Proceso de Producción con IA
+Se utilizó ChatGPT para:
+
+Definir el público objetivo.
+Redactar un guion persuasivo de 60 segundos.
+Ajustar tono profesional pero cercano.
+Guión estructurado con:
+Hook inicial
+Problema
+Solución
+Llamado a la acción
+Tiempo estimado: 20 minutos
+
+--- Diapositiva 26 ---
+Caso de Estudio: Automatización de Video Promocional con Inteligencia Artificial
+Generación del Avatar
+Resultado
+Proceso de Producción con IA
+Se utilizó HeyGen (alternativa: Synthesia u otro) para:
+
+Seleccionar avatar profesional.
+Elegir idioma y tono de voz.
+Subir el guion generado.
+Video base con presentador virtual en calidad HD.
+Tiempo estimado: 15–30 minutos
+
+--- Diapositiva 27 ---
+Caso de Estudio: Automatización de Video Promocional con Inteligencia Artificial
+4. Subtítulos Automáticos (Opcional si la plataforma no lo ofrece)
+Resultado
+Proceso de Producción con IA
+El video fue exportado y cargado en CapCut para:
+Generar subtítulos automáticos.
+Ajustar estilo visual (tipografía moderna y colores corporativos).
+Añadir música libre de derechos.
+Video optimizado para redes sociales (formato 9:16).
+Tiempo estimado: 20 minutos
+
+--- Diapositiva 28 ---
+Caso de Estudio: Automatización de Video Promocional con Inteligencia Artificial
+Exportación Inmediata
+Proceso de Producción con IA
+Preferiblemente que la resolución al exportar sean las siguientes, más no indispensable:
+
+Resolución 1080x1920 (Instagram / TikTok).
+Resolución 1920x1080 (YouTube).
+Tiempo total del caso: Aproximadamente 1 hora y 30 minutos
+
+--- Diapositiva 29 ---
+Ventajas de la Automatización
+Ahorro de tiempo
+Reducción de costos
+Producción masiva
+Personalización por idioma
+Escalabilidad
+
+--- Diapositiva 30 ---
+Desafíos y Ética
+Deepfakes
+Desinformación
+Derechos de autor
+Transparencia en uso de IA
+Sustitución parcial de roles técnicos
+La IA es una herramienta, no un reemplazo total del criterio humano.
+
+--- Diapositiva 31 ---
+Conclusión
+La automatización de video con IA no elimina la creatividad. La potencia.
+Quien domine estas herramientas:
+Producirá más
+En menos tiempo
+Con mayor impacto
+El futuro del contenido audiovisual ya comenzó.

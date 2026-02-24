@@ -1,0 +1,6 @@
+Link de google Slice: https://docs.google.com/presentation/d/174OLUvqn7-bHoIDvwYLqxt43NxgKGUnvEZhMQ2aNyrY/edit?usp=sharing
+
+Link de los tutoriales y los links con sus nombres:
+- Teoría RPA y procesos automatizables: https://www.youtube.com/watch?v=8tFHRkE4rtA
+- Crear Robot en Sikulix: https://www.youtube.com/watch?v=lL8FQlGEj1U
+- Crear Robot en Power Automate: https://www.youtube.com/watch?v=QioslAoCTp0

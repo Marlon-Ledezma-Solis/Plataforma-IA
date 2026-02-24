@@ -1,0 +1,484 @@
+Título del Video: Relaciones
+URL: https://www.youtube.com/watch?v=l_bLvM-L1nk
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, entonces ahora vamos a
+continuar con el temita de sistemas
+relacionales. Entonces vamos a hablar de
+relaciones. Acá pues vamos a describir
+mucho mejor este concepto en la lección.
+Acá de momento a modo resumen vamos a
+decir que es tener algo en común que las
+una, ¿verdad? O sea, hay dos tablas,
+tienen una variable en común que las
+está uniendo, que entonces comparten
+información promedio de esa variable,
+por ejemplo, un número de cédula.
+Entonces, tengo eh un número de cédula
+en una base de datos eh que tienen la
+información del cliente y por el otro
+lado tengo el número de cédula que tiene
+las transacciones del cliente. Entonces,
+con ese número de cédula yo puedo unir y
+saber cuál son los datos del cliente y
+cuáles son las eh ventas que se le han
+hecho a dicho cliente. ¿Ven? Eso es más
+o menos una relación en modo muy
+sencillo. Para trabajar esto vamos a
+utilizar la vista de relaciones.
+Recuerden que tenemos una vista de
+visualización donde hacemos las tablas y
+gráficos, una vista de bases de datos
+donde podemos ver las tablas como si
+estuviéramos en Excel y operar sobre
+ellas y una vista de relaciones,
+¿verdad? Acá entonces vamos a hablar un
+poquito de lo que es relaciones uno a
+varios. Es una relación donde
+esta esta variable está una sola vez acá
+por unidad y aquí está muchas veces,
+muchas veces. Por ejemplo, lo que
+hablamos, una tabla donde tenemos los
+datos del cliente, tenemos lo tenemos
+una sola vez. Cada cliente está aquí una
+sola vez. Digamos que este sea su ID
+cliente, ¿verdad? y tenemos cuál es su
+fecha de nacimiento, de dónde vive, eh
+cuál es su ocupación, su nivel de
+educación, etcétera. Esto es entonces
+una tabla con los datos eh propios del
+cliente, con los datos sociodemográficos
+del cliente. Y por acá tenemos los datos
+de ventas que se le han hecho los
+clientes. Entonces, Adan, por ejemplo,
+Alan, que Adaman, yo estaría aquí una
+sola vez.
+con mis datos personales, pero aquí
+estaría muchas veces porque aquí habría
+un registro que dice cuántas cuáles son
+sido las compras que yo he hecho.
+Entonces aquí en esta segunda tabla si
+debería de salir yo muchas veces,
+probablemente puede que tal vez salga
+una, pero en general muchos muchas veces
+el cliente va a aparecer acá porque va a
+aparecer una por cada compra que haya
+realizado. Esto es una relación de uno a
+muchos, donde en una tabo están los
+datos únicos una sola vez para esta
+variable, pero en esta aparece muchas
+veces
+porque fueron las compras que realizó,
+pero lo más importante de eso es que
+esta variable es esta misma
+y de esa manera yo puedo relacionar los
+datos del cliente
+con los datos de sus compras, ¿verdad?
+Ese es el punto más importante. Para
+trabajar este tema vamos
+a utilizar los insumos de la carpeta
+compartida y vamos a utilizar este
+archivo que dice sistema relacional uno
+a varios fres
+y tenemos que llegar a generar un
+resultado similar a este que es el
+sistema relacional. Aquí ya las tablas
+están precargadas porque no nos interesa
+tanto que sepan cargar las tablas. Ya
+eso lo hemos hecho en los demás
+ejercicios. Aquí el punto más importante
+es la sistemas de relaciones. Entonces,
+así es como va a tener que quedar este
+dashboard. Como ustedes ven, este es más
+eh alineado a las prácticas que yo les
+había comentado. Uno, dos gráficos como
+mucho, perdón, de dos a tres gráficos
+como mucho. En cada eh demasiado serían
+cuatro y en casos excepcionales,
+¿verdad? máximo cuatro, pero de dos a
+tres gráficos es lo más común. Y este
+que dice el pre es el previo, ese que
+vamos a utilizar como insumo para poder
+trabajar.
+Nuevamente este tema lo vamos a ver a
+modo de resumen, a modo de resumen,
+porque en la clase pues se va a ver en
+detalle. Aquí lo que vamos a hacer es
+hacer un resumen ejecutivo para tenerlo
+a nivel de video. Muy bien. Si nos vamos
+a la parte vista de relaciones, aquí
+nosotros vamos a poder ver las
+diferentes tablas y entonces yo tengo
+que empezar a ver qué tienen de relación
+entre ellas. Y uno de los puntos más
+importantes que tenemos aquí era lo que
+hablábamos en la tabla del cliente con
+la tabla de ventas. Entonces, yo puedo
+buscar,
+aquí está customer table y tengo la
+clave de cliente y la puedo relacionar
+con
+esta clave de cliente.
+Me dice que es una relación de uno a
+varios. me dice que si es una dirección
+única normalmente o esto es toda una
+parte pues técnica importante, pero acá
+en términos sencillos, buscando un
+resumen bastante ejecutivo, podemos
+decir que en la medida de lo posible
+traten de tenerlo en ambas vías. Cuando
+les dé error, cuando al momento de
+activarla les dice que hay dos caminos
+de relación, lo van a poner en única.
+Solo cuando les dé error de que dice que
+hay dos caminos de interacción entre
+tablas, lo van a poner en el término
+única. De lo contrario, siempre lo vamos
+a poner en ambas vías.
+Muy bien. Entonces, ya con esto hicimos
+esta relación y vean que ahora podemos
+hacer este grafiquito de acá.
+Podemos venirnos aquí a gráficos y aquí
+en gráficos podemos hacer este gráfico
+de barras, bueno, de columnas, perdón, y
+podemos tirar entonces ocupación.
+Y vean que aquí tenemos varias tablas.
+Entonces, ¿de dónde voy a acercar
+ocupación?
+de el
+la eh tabla de clientes. Entonces, puedo
+venir aquí, puedo buscar la ocupación
+en español, ¿verdad?, que es Spanish
+occupation
+y puedo tirar la variable suma de
+ventas. ¿Ven? Ya no va a estar aquí,
+sino que va a estar en
+la tabla de ventas. Y aquí yo puedo
+entonces buscar la variable
+de cantidad vendida. Entonces, vean lo
+bonito que estamos haciendo. O sea,
+logramos hacer un gráfico que está
+utilizando
+la ocupación de los clientes
+y la cantidad comprada. Vean que esto
+viene de una tabla y esto viene de otra
+tabla. Entonces nos logró cambiar
+totalmente el escenario. Antes solo
+trabajamos con una tabla y con eso
+teníamos que hacer gráficos, pero ahora
+no. Ahora podemos hacer gráficos con
+información de varias tablas y eso es
+muy poderoso, es sumamente poderoso. La
+ventaja es que estas tablas están
+ligadas por el ID cliente. Entonces con
+este ID cliente yo puedo ver la
+ocupación del cliente, me traigo para
+ese cliente, verad, cuánto compró y
+ahora sí, entonces ya yo puedo decir,
+"Ah, los profesionales compraron esto,
+los de obrero especializado compraron
+esto y así sucesivamente." ¿Ven?
+Entonces, eso es muy poderoso, ¿verdad?
+Lo otro que también eh podemos hacer es
+un grafiquito de líneas como este. Vean
+qué bonito este grafiquito de líneas.
+Puedo venir acá y puedo tirar
+ordere,
+¿verdad?
+Que si ustedes lo ven, de hecho, acá
+para tenemos también el tenemos
+el otro grafiquito, ¿verdad? donde este
+de
+el género, ¿verdad?, que lo voy a
+utilizar como leyenda, es lo que voy a
+sacar de acá. Lo demás es básicamente
+la fecha de la compra y la cantidad.
+Entonces vamos a construir ese gráfico.
+Vean que yo me vengo acá, voy a buscar
+la fecha de la compra en el eje X y
+puedo traerme entonces la cantidad
+eje Yagregarlo
+por 10. ¿Ven? Estas fueron las ventas
+en el tiempo, o sea, cómo evolucionaron
+las ventas. Pero si yo me vengo acá, yo
+podría agregarle como leyenda el género.
+Y ahora puedo ver la diferencia entre
+las compras de hombres y mujeres. ¿Ven?
+Esto no lo podía hacer
+solo con la información de ventas.
+Cuando yo lo logro asociar con la
+información de clientes gracias a esta
+relación que tenemos aquí, entonces yo
+ahora puedo
+propiamente ver el comportamiento de las
+ventas, pero ahora separando hombres y
+mujeres. Esto es realmente muy poderoso.
+A esto le vamos a llamar tipo clientes.
+Y eso que ustedes ven acá
+es básicamente la teoría que está detrás
+de esto, porque lo demás es pura
+práctica. Vean qué interesante lo que
+vamos a hacer. Yo puedo hacer varias
+relaciones de uno a varios. Por ejemplo,
+yo ya tenía la de
+eh datos de clientes con sus ventas,
+pero yo también puedo hacer una relación
+con la tabla geográfica.
+Esa tabla geográfica, si ustedes lo ven
+aquí,
+me muestra, digámoslo así, datos de las
+diferentes regiones, de las diferentes
+regiones. ¿Y por qué es importante acá?
+Porque si ustedes ven, yo podría ustedes
+dan clic a las relaciones, ustedes
+pueden ver que hay una variable que se
+llama ID o llave geográfica. Entonces,
+yo sé de qué a qué lugar o de qué lugar
+es cada cliente. Si yo logro asociar
+esos datos de de dónde es el cliente con
+información geográfica de ese lugar,
+entonces yo puedo ahora hacer, digámoslo
+así, un análisis más profundo porque
+puedo incluir ahora elementos
+geográficos. Entonces, esto es en el en
+el que ya tiene el resultado final. ¿Qué
+les parece si vamos ahora entonces a
+este que es el que estamos construyendo
+el pre y hacemos esa relación? ¿Cómo lo
+vamos a hacer? Entonces yo digo, ah, no.
+Entonces puede que haya una llave
+geográfica, esta de acá y tengo aquí
+esta llave. Entonces voy a voy a unirlos
+nada más voy a agarrar Geographic y lo
+voy a arrastrar y le voy a decir que sea
+en ambas. Y listo. Ya con eso acabo de
+hacer una relación también donde ya
+puedo tener al cliente y cuál fue su
+comportamiento de ventas y el cliente y
+puedo también asociarlo con su
+información geográfica. ¿De acuerdo?
+Entonces, eso sí hablo con
+características geográficas del lugar
+donde proviene, pero también así podemos
+hacer más relaciones. Por ejemplo,
+vean que acá si ustedes ven, aquí
+tenemos otros otras opciones porque aquí
+tengo el las características del
+producto, porque aquí yo tengo cuál
+producto compró. Vean acá,
+¿ven? Aquí yo tengo el producto que él
+compró, hay código del producto y aquí
+tengo también el código del producto. Y
+esto es porque aquí yo tengo el detalle
+de qué producto compró y aquí tengo las
+características de ese producto, cómo se
+llama ese producto, cuál es la cantidad
+asociada, ¿verdad? En dónde se vende,
+eh, cuál es la talla, etcétera,
+etcétera. ¿Ven? Entonces, ahora yo ya
+puedo relacionar
+lo que el cliente compró con las
+características de ese producto. Y si yo
+me vengo inclusive por acá, yo puedo
+hacer otra relación. Vean aquí en el que
+tiene el resultado final. Vea que el
+resultado final yo lo puedo desagregar
+por
+subcategoría de producto. Subcategoría
+de producto porque entonces ahí puedo
+tener un mayor detalle
+en subcategoría de producto. Yo puedo
+hacer esta relación porque si vemos lo
+que es su categoría de producto,
+entonces ya ahora sí me explica,
+digámoslo así, porque esta era la
+categoría de productos en términos
+generales, ¿verdad? Eran
+eh, perdón,
+era con esta relación con producto
+table.
+¿Ven? Yo ahí tenía los valores, ¿verdad?
+propiamente del producto, ¿verdad? Pero
+el producto tenía una subcategoría,
+¿verdad? Y esa subcategoría, si yo lo
+analizo,
+ya lo que me dice es con qué tipo de
+producto es, qué tipo de producto es, si
+es de montaña, si es e eh por ejemplo
+pedales, si son ruedas, o sea, ya me
+permite entonces tener un nivel de
+característica del producto eh más
+relevante. O sea, aquí ya tengo entonces
+una relación que me permite
+obtener un mayor detalle del producto, o
+sea, del tipo de producto que es,
+¿verdad? Porque aquí,
+como les digo, en esta de acá yo tengo
+efectivamente cuál es la talla, cuánto
+hay en stock, eh cuántos unidades se se
+tienen del producto, digamos, o se
+requieren del producto eh para tener
+pues en en en
+el estado actual, ¿verdad?, del estilo,
+ya es como características, por decirlo
+así, como del inventario. Y aquí, por el
+contrario, lo que tengo más bien es eh
+qué tipo de producto es, si es un
+producto de montaña, si es eh un
+producto eh de pedalos, porque esto es
+una base de datos de ventas de eh
+bicicletas. Entonces, por eso es que
+tiene estas características tan
+particulares, ¿ven? Y después aquí yo
+puedo hacer una eh
+una última relación que es todavía más
+general, que ella es si es bicicleta,
+componente o prenda, ¿ven? Entonces ya
+esto es
+una relación
+eh todavía más general. Entonces, en
+resumen, aquí tengo como los datos del
+inventario del producto, aquí tengo la
+subcategoría, o sea, un detalle,
+¿verdad?, de qué subtipo de producto es.
+Y aquí algo más era qué tipo de producto
+es, ¿verdad? En eh grandes en grandes
+categorías. Muy bien. Y vean que con eso
+pues aquí no voy a entrar tal vez en
+este detalle, pero yo puedo ya crear
+otros gráficos. ¿Y qué otros gráficos se
+podrían crear? Lo vamos a ver en el
+resultado final. Aquí en el resultado
+final les voy a mostrar los gráficos que
+podemos ver. Esto como vemos ya los
+hicimos y ya vemos que podemos hacer
+variables de diferentes tablas. Ahora
+vean aquí cómo yo puedo meter este
+filtro
+utilizando, ¿verdad?, el país.
+¿Ves esto lo tomé de la tabla geográfica
+y aquí
+yo logré entonces asociar la información
+de cuánto se vendió,
+¿verdad? Eso es lo que yo en este caso
+estoy viendo. Y puedo ver en qué
+provincia se vendió. Eso lo tomo de la
+tabla geográfica, ¿ven? Entonces, ahora
+tengo un gráfico donde tengo la cantidad
+que se vendió,
+¿verdad? Entonces, si yo me paro aquí,
+yo puedo ver de qué tabla viene. La
+cantidad que se vendió, que viene de la
+tabla de ventas,
+la puedo ver geográficamente en un
+gráfico espacial. Verlo aquí en gráfico
+eh de mapa, ¿verdad? Que cualquier cosa
+ve que es este grafiquito de acá de
+mapa.
+Y eh
+para ello uso la tabla geográfica que me
+dice pues el nombre de la provincia,
+¿verdad? Porque en la tabla de venta
+solo me dice el ID de esa provincia. En
+cambio, aquí yo ya puedo ver exactamente
+cuál es el estado de esa provincia
+y puedo
+hacer un gráfico que me diga cuánto es
+la diferencia
+dependiendo del estado marital, o sea,
+si es utero, casado, divorciado,
+etcétera. ¿Ven? Entonces logré unir las
+tres tablas en un mismo gráfico. E
+inclusive puedo usar filtros, por
+ejemplo, aquí
+de características geográficas para
+porque yo tenía el ID en en la en la
+tabla de ventas, yo tengo el ID de la
+de la ciudad del cliente, ¿verdad? Pero
+entonces ahora con ese ID de la ciudad
+yo ya puedo saber a qué provincia
+pertenece y a qué país pertenece.
+utilizando esta tabla geográfica.
+Entonces, esto me permite, por ejemplo,
+filtrar a Francia,
+¿verdad? O filtrar tal vez aquí a
+Canadá, ¿ven? y ver entonces cuánto
+fueron las ventas en Canadá
+por provincia
+y ver cuánto fueron de hombres y
+mujeres,
+aprovechando también la información
+de las características de XL. Entonces,
+¿ven qué interesante? En un gráfico como
+estos podemos relacionar tres tablas:
+las características geográficas, las
+características de venta y las
+características sociodemográficas o
+personales de cada cliente. Y el otro
+que tenemos por acá es relativamente
+parecido. ¿Ven? Puedo hacer filtros por
+país, puedo filtrar Australia, puedo
+filtrar Reino Unido, puedo filtrar
+Canadá, puedo filtrar Alemania. ¿Ven?
+utilizando este filtro geográfico y
+puedo hacer grafiquitos como este donde
+yo puedo ver las ventas. Bueno,
+utilizamos nuevamente la la tabla de
+ventas, pero ahora por
+categoría, por ese gran ese esa gran
+clasificación, ¿verdad? Dijimos que
+había una clasificación más grande y una
+más pequeñita. Esta es la clasificación
+más grande. Ver cuánto se vende por
+bicicleta, por accesorio, prenda. Vean
+que, por ejemplo,
+en realidad en la mayoría de países es
+muy similar. Solo en Canadá podemos ver
+que se vende un poquito más de
+accesorios. Se vende mucha bicicleta,
+pero se vende un poco más de accesorios.
+En Estados Unidos es menos, en Francia
+es menos, etcétera, ¿verdad?
+Y también yo podría perfectamente hacer
+algo parecido, pero con esta con este
+gráfico. Vean que en este gráfico tengo
+la subcategoría, que entonces es ya no
+la gran categoría,
+¿verdad? que es ese gran ese gran eh
+ese gran grupo, sino ya ver
+subcategorías, o sea, subgrupos de esa
+categoría y ver cuánto se vendió por
+cada subgrupo. V, entonces ya ahí estoy
+logrando asociar las ventas con su
+subcategoría. Entonces, por ejemplo, yo
+aquí si yo toco accesorios, veo cuáles
+son los accesorios, las subcategorías de
+accesorios que más se vendieron,
+¿verdad?
+Y eso también lo puedo asociar con
+características
+sociodemográficas o personales que yo
+puedo entonces utilizar también como
+filtros y hacer que entonces en esos
+análisis de datos podamos eh realizar
+análisis estadísticos o análisis de
+inteligencia de negocio con varias táas
+y eso nos da mucha riqueza porque
+entonces podemos explotar la información
+de cada una de esas tablas y de esa
+manera hacer cruces entre la información
+y sacarle más provecho al momento de
+analizar. Muy bien, con eso estaríamos
+entonces culminando con este temita de
+relaciones. Como ustedes venar
+las relaciones y después utilizar esas
+relaciones para los gráficos, porque eso
+ya me va a permitir ahora utilizar
+información de diferentes tablas y de
+esa manera poder cruzarles y analizar
+con mucho más detalle el eh la
+información o los datos que tenemos en
+nuestros archivos. Muchísimas gracias y
+esperamos que esta unidad haya sido de
+mucho provecho.

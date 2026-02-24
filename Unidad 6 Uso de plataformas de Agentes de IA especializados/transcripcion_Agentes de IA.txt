@@ -1,0 +1,595 @@
+Título del Video: Agentes de IA
+URL: https://www.youtube.com/watch?v=3vmSRyDk8sY
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, entonces ahora vamos a
+proceder con la segunda parte que son
+los agentes de inteligencia artificial.
+Acá entonces, como mencionábamos, ¿qué
+son agentes? Bueno, son propiamente más
+que chatbots, ¿verdad? los chatbotson y
+esos que entonces le enviáramos un prom
+y nos realizaba una respuesta, pero
+nosotros queríamos un poco más de
+autonomía inteligente, es decir, que
+terminaran generando acciones, que
+usaran herramientas que nosotros le
+íbamos a suministrar y que con esas
+herramientas procedieran a ejecutar
+acciones. Y eso es lo que eh genera lo
+que nosotros le llamaríamos la
+transformación empresarial, ¿verdad? que
+es cuando efectivamente podríamos lograr
+que los chatbots
+no solo en este caso eh se encarguen de
+darnos respuestas, sino que terminen
+ejecutando acciones.
+Hablando un poquito de la historia y
+evolución de los agentes, ya esto lo
+vimos un poco en unidades anteriores,
+pero para repasarlo llegamos de 2010 a
+2016 teníamos los chatbot básicos. En
+2017 entran los LLM gracias a la
+modificación desarrollada en los
+Transformers, ¿verdad? que dio un salto
+eh muy importante en lo que ya era los
+esquemas de modelos de inteligencia
+artificial y después entramos a 2021
+2023 cuando tuvimos una integración eh
+limitada. Ya empezábamos a hablar de la
+idea de que la inteligencia artificial
+ejecutara acciones, pero le costaba un
+poco, ¿verdad? Porque tenía que utilizar
+appis personalizadas y plugins que eran
+específicos. Entonces, eso pues era un
+poquito más complejo, pero fue
+justamente en noviembre eh de 2024
+cuando salen los MCP, sale este
+protocolo como tal y eh se generaliza en
+el año 2025. Entonces, eso justamente
+fue lo que permitió que se diera una
+expansión muy fuerte de los agentes en
+el año 2025. fue donde en el segundo
+trimestre 2025 ya empiezan a salir pues
+tres grandes eh agentes que son digamos
+los agentes más potentes que existen en
+este momento, tal cual lo es eh Jean
+Spark, que fue de los más que fue los
+primeros, Jean Spark y después Minimx,
+que entonces ya justamente eh permitían
+el desarrollo de eh capacidades
+agénticas, es decir, inteligencia
+artificial, ya desarrollando actividades
+y por otra parte teníamos lo que es el
+eh N8N, el cual eh en este caso es ya
+una herramienta de flujos muy conocida,
+bastante eh utilizada, pero eh la gran
+diferencia que en este caso no generó el
+N8N es que al poder conectarse con
+diferentes herramientas logró una
+expansión muy fuerte y su capacidad
+genética se vio muy reforzada, lo cual
+eh aumentó su utilización de un modo
+bastante importante.
+hasta convertirlo en un referente en la
+creación de agentes. Entonces pasamos de
+chatbots básicos, agentes de
+inteligencia artificial integrados con
+MCP. Entonces, ¿cómo los agentes usan el
+MCP para ser más inteligentes? acceso en
+tiempo real información, coordinación
+multiagente. Entonces, eso permite que
+entre los diferentes que puedan haber
+diferentes agentes y entre ellos poder
+conectarse. E inclusive hay eh podemos
+mencionar también el protocolo A2A de
+Google que también pues permite esto con
+con más facilidad y es lo que
+últimamente Google ha utilizado para
+poder utilizar capacidades
+multiagénticas, pero eh bueno, eso lo
+veremos en otra ocasión. eh lo que eh
+tiene que ver también con la modularidad
+extrema, ¿verdad? Ya podemos propiamente
+trabajar con muchas herramientas y eso
+que lo hace bastante eficiente.
+Entonces, ¿cuál es el impacto actual y
+futuro de los agentes de inteligencia
+artificial? Pues una automatización
+avanzada. ¿Se acuerdan lo que hablábamos
+en algún momento de que eh pues la
+incertidumbre es algo complejo con lo
+que tienen que luchar la inteligencia
+artificial? Pues en este caso eh podemos
+usar la inteligencia artificial para
+integrar un flujos de trabajo y hacer
+una automatización más avanzada, una
+experiencia mejorada, ¿verdad? Porque en
+este caso entonces los agentes van a
+poder tener herramientas para poder
+trabajar de mejor manera en ecosistemas
+colaborativos o que podemos integrar
+herramientas de cualquier tipo y un
+camino pues hacia la inteligencia
+artificial general donde ya la
+inteligencia artificial puede
+desarrollar más tareas de modo autónomo.
+¿Cuáles son los principales riesgos,
+desafíos y consideraciones? un tema de
+seguridad y privacidad, pero estamos
+dando acceso a diferentes herramientas y
+el control y supervisión porque entonces
+ellos desarrollan es actividades de un
+modo más autónomo. Entonces, eh, ¿cómo
+verificar queado tenemos que verificar
+que hagan las cosas adecuadamente
+y estándares abiertos para que
+efectivamente podamos utilizar todas las
+herramientas eh posibles y de esa manera
+eh propiciar el mayor bien común
+posible, ¿verdad? Y esto pues es el
+futuro eh conectado que esperaríamos,
+¿verdad? Agentes que actúan, soluciones
+seguras, una escalabilidad real con
+flexibilidad y un trabajo bíblo. En
+resumen, MSP es un estándar, ¿verdad?,
+que eh nos permite conectar herramientas
+a inteligencia artificial y eso es lo
+que ya nos permite dar pie a lo que
+llamamos los agentes, que en el fondo
+son modelos de inteligencia artificial
+con herramientas para ejecutar acciones.
+¿Cuál es la preparación estratégica?
+Bueno, adoptar estas tecnologías es
+clave para lograr dar pasos hacia una
+inteligencia artificial tomada SPETorio.
+Y ahora, ¿verdad? Vamos entonces a
+ponerlo en práctica. Lo primero que
+vamos a hacer es el uso de química dos.
+Bueno, ahora ya está química 2.5, pero
+digamos que es como un término, es el
+término como se le ha conocido, pero en
+realidad vamos a hablar de modelo Kimi
+para la generación. o utilización de
+capacidades agénticas. Vamos a
+mostrarles varios agentes que ustedes
+van a poder utilizar. Cal como
+comprenderán por efectos de la grabación
+para hacer eh pues un
+eh trabajo más eh resumido, pues no
+vamos a entrar en mucho detalle de eh
+ciertos elementos. Vamos a tratar
+simplemente de eh resumirlos y eh
+mencionarlos
+con eh ciertos niveles de generalidad
+para que los demás pues en este caso lo
+puedan utilizar. Examente. Muy bien,
+aquí ya entramos a Kimi, como ustedes
+ven aquí en Kimi es importante que nos
+lo guemos y demás, ¿verdad? Y aquí ya
+está el Kimi eh 2.5.
+Eh, como ustedes ven aquí eh podemos
+hacer eh muchas cosas, ¿verdad? Y estos
+son de hecho los eh
+multiagentes que pueden ver al lado
+derecho. Entonces yo lo ve aquí al lado
+derecho. Ven que ya aquí está en nuestro
+modo agente eh de sitios web. Entonces,
+si yo quiero crear un sitio web, este es
+como el agente que está más
+especializado en este tipo de
+creaciones. Si yo lo que quiero es crear
+documentos, ¿verdad?, con informes,
+escritos, imágenes, elementos, que en
+este caso ya algo que quiero es que
+proceda a hacer eh reacciones dentro de
+documentos. Entonces, Kimi es una muy
+buena opción por acá y también eh en el
+tema de eh creaciones eh de
+presentaciones es algo pues en lo que
+Kimy está bastante especializado. Eh acá
+eh como como podemos ver podemos hacerlo
+eh adaptativo o visual, ¿verdad? para
+que entonces proceda a realizar las
+presentaciones y también eh yo podría
+perfectamente pues incluir aquí eh los
+elementos que yo dese incorporar. eh
+también a nivel de hojas de cálculo
+también podría pedirle que nos ayude a
+trabajar con hojas de cálculo o en
+investigación profunda. Entonces, como
+ven, ya son capacidades agénticas
+específicas eh para lo que nosotros
+estemos necesitando. En este caso nos
+vamos a centrar un poco más nada más en
+la presentación
+y acá entonces vamos a darle este
+documento,
+¿verdad? Aquí igual y podría entonces
+haberlo cargado también por acá decir
+crear una presentación
+ecutiva
+informal
+sobre el documento
+y aquí pues entonces ya eh podemos
+determinar si queremos que sea eh
+adaptativo o visual. Yo aquí lo voy a
+hacer de momento visual por por un tema
+meramente de de rapidez, ¿verdad? Pero
+si no yo lo podría hacer adaptativo para
+que sea en este caso eh más dinámico,
+¿verdad? Pero lo voy a escoger de
+momento visual y le voy a pedir que sea
+de unas 26 a 30 páginas, ¿verdad? Como
+ven, es un eh contenido mucho más amplio
+del que podríamos tener con eh con Gama,
+que es una muy buena herramienta para la
+generación, pero que eh no resulta un
+poco eh corto, ¿verdad? a nivel de
+créditos en comparación a lo que tenemos
+acá en Kim. Es como una alternativa
+adicional. Eh, como ustedes ven aquí
+puedo escoger algún estilo en
+particular. Estos pues probable que son
+pues diferentes estilos un poco
+eh animados en en mucho. Creo que este
+de de Apple St parece que es una muy
+buena opción, sino el documental podría
+ser tal vez alguno o el blu print. Creo
+que para efectos eh tecnológicos resulta
+bastante
+acertado, ¿verdad? Y si no está este,
+que pensaría yo que sería el segundo
+estándar más formal que podríamos
+utilizar. En este caso podríamos dejarlo
+acá a que lo desarrolle. Y vamos a ver
+los resultados.
+Aquí nos dice que
+y pues ese estilo está el T visual está
+desarrollado nada más para el esquema
+pues más eh digámoslo así eh para el
+plan pago que ellos tienen. Entonces,
+que tenemos que escoger entre este otro
+tipo que es el adaptativo. Acá no nos
+preocupemos mucho, podemos escoger
+académico, creo que es un muy buen eh
+formato que podríamos utilizar y ya le
+podemos ahora sí dar general para que
+empiece a trabajar. Aquí vamos a pausar
+un momento para que eh vean el resultado
+final porque en realidad aquí no estamos
+haciendo nada adicional.
+Muy bien, aquí ya podemos ver la
+presentación que en este caso nos generó
+y podemos ver que es una presentación
+bastante buena con muy buenos
+resultados. Habrá que hacer ahí algunos
+ajustes a nivel eh del texto y demás,
+pero
+eh en realidad lo está logrando de un
+modo bastante bastante bueno. Entonces
+creo que es eh pues un trabajo bastante
+bastante interesante en este punto. Así
+que eh como ven es una herramienta que
+nos puede ayudar bastante en este tipo
+de acciones. Muy bien,
+ahora vamos a proceder a continuar con
+la siguiente
+actividad, perdón, en este caso sería la
+de utilizar eh James Spark. James Park
+fue entonces
+otra de la de los agentes, ¿verdad?, que
+ya podrían ayudarnos en cierto tipo de
+trabajos, ¿verdad? y que eh bueno, aquí
+de igual manera yo ya me conecté eh pero
+que consideramos que es muy relevante
+igual porque ustedes uno puede hacer eh
+trabajos en en igual en archivos de
+Excel, en documentos, eh puede ser
+desarrollador, eh puede ser en diseños,
+puede ser en imágenes, ¿verdad? Este
+está como bastante determinado en muchas
+cosas, pero lo que más nos gusta es el
+manejo que tiene los eh diferentes MCPs.
+Aquí si yo le doy elegir herramientas y
+le doy en añadir, entonces vean que uno
+puede pues añadirle su sitíamos
+utilizar. Tenemos más posibilidades de
+lo que eh teníamos propiamente con e los
+MCPs establecidos en chat GPT. en GN y
+demás, o sea, aquí tenemos una enorme
+capacidad de MCPs que podríamos
+conectarles. Entonces, por eso GPK
+constituye una una herramienta bastante
+bastante relevante en el uso de MCPs con
+sus capacidades agénticas. Acá de
+momento voy a hacerlo únicamente para eh
+para el tema de eh Gmail y entonces voy
+a
+plantearle la búsqueda. Le voy a
+solicitar que me ayude a buscar
+únicamente. Voy aquí a quitarle el blog
+sheets, slides, contactos, ¿verdad? Y me
+voy a centrar únicamente en Gmail para
+que ustedes vean la diferencia con
+respecto al MSP que ya habíamos
+trabajado de Gmail en Gmail. Acá le voy
+a decir eh por favor
+realizar un resumen
+de los correos recibidos
+en directo y se doy aquí en buscar eh,
+bueno, en ejecutar, perdón, y él empieza
+a trabajar. Mientras tanto,
+mientras él trabaja, quiero mostrarles
+eh un una solicitud que le había hecho
+previamente para que ustedes puedan ver
+los resultados finales.
+Bien, aquí entonces está digamos los
+chats que hemos estado teniendo con una
+herramienta. En este caso, eh yo le pedí
+un chat eh un correo muy específico. Le
+pedí eh que por favor buscara un correo
+que fue recibido recientemente sobre un
+tema asociado a una entrada que fue
+dañada por la lluvia. tuvo que ser
+reparada un resumen de dicho correo. Ah,
+procedió a revisar diferentes correos,
+incluso revisó los adjuntos asociados a
+esos correos y ya después entonces me
+dio el resumen respectivo. Después le
+decí que por favor me ayudara a darle
+una respuesta
+a ese correo y ya vean como
+efectivamente me terminó dando una
+respuesta que si yo quiero podría
+decirle, "Envía este borrador
+como correo de respuesta al doctor
+Quesada. V. Entonces, yo podría decirle
+esto y ya él eh propiamente se
+encargaría de enviarlo. Entonces, como
+ustedes ven, eh qué es lo muy
+interesante de esto que logra un
+análisis bastante completo de lo que son
+eh nuestras MCPs. Y por ejemplo, en el
+caso de Gmail, vean que interesante como
+perfectamente entonces él puede revisar
+con mucho más detalle nuestro correo,
+por ejemplo, en el caso ya propiamente
+de correo. Y vean también cómo eh pueden
+inclusive analizar los archivos asuntos
+que trabajan esos correos, lo cual es
+bastante relevante en este marco,
+¿verdad?
+Muy bien.
+Perdón, le dije crear por al final no le
+di enviar. Bueno, ya le ya procedió a
+enviar
+y también eh pues acá podríamos ya ver
+si eh terminó generando.
+Sí, creo que ya se envió, ¿verdad? Sí,
+creo ya se envió.
+Y aquí entonces podría irme.
+Ah, perdón, esa fue la reparación.
+Este es el resumen de correos.
+Y aquí vean cómo es. Eh, finalmente
+si me hizo un resumen pues de todos los
+diferentes eh correos que recibí,
+¿verdad?
+Con muchísimo más detalle.
+Bien, y bueno, me indicó pues que habían
+otros correos que no eran tan
+relevantes, ¿verdad? Como notificaciones
+bancarias, ¿verdad? también me indicó eh
+comunicaciones, las comunicaciones
+académicas, que eso sí para mí era muy
+importante, análisis y perspectivas,
+algunas alertas de inseguridad y algunas
+ofertas y promocionales, ¿ven? Entonces
+sí me hizo un resumen bastante eh bueno
+de la información que había recibido.
+Ahora vamos eh propiamente
+a seguir con manos que es la otra
+herramienta que tiende a ser muy
+relevante. Y aquí en manos entonces
+vamos a irnos para acá
+ingresar a manos
+de manera nos bamos en manos y demás,
+¿verdad?
+Y aquí en manos, eh vean que eh tenemos
+la posibilidad de conectarnos con eh
+también varios MCPs. Y si ustedes
+quieren, pues pueden ver que hay varias
+opciones, ¿verdad? Bastante bastante
+buenas que podríamos utilizar. Y también
+está ahora pues eh habilidades, que esto
+pues no vamos a entrar en ese detalle,
+pero es como la eh la siguiente era en
+funcionamiento de estos elementos,
+¿verdad? Aquí tenemos incluso la
+posibilidad de crear actas de la
+reunión, ¿verdad? También que podríamos
+hacer y eh podemos crear diapositivas,
+construir un sitio web, desarrollar apps
+que se parece mucho, digamos, a una
+interface chatt con la diferencia de que
+en este caso eh lo que le vamos a pedir
+a este tipo de herramientas es más el e
+desarrollo de resultados, de acciones,
+que en este caso vamos a hacer.
+le vamos a vamos a utilizar este prom
+que lo que va a pedirle es que eh nos
+ayude a generar una aplicación. Esto es
+para lo que usamos mucho el tema de
+estas capacidades agénticas. cuando yo
+ya quiero generar una aplicación como
+tal, una aplicación es una especie de
+sitio web en el cual entonces uno ya
+puede interactuar con las eh con
+herramientas específicas, o sea, yo le
+estoy pidiendo una aplicación en la cual
+yo pueda hacer esto, esto, esto y esto.
+Entonces, esas aplicaciones son sitios
+web en donde podemos eh propiamente
+ejecutar e ciertas acciones, ¿verdad?
+Aquí en este caso lo que yo quiero es
+que poder tener información de bolsa de
+valores para ciertas acciones y también
+eh poder hacer una especie de simulador
+de inversión y calcular posible
+rentabilidad. Entonces, aquí le puedo
+dar en enviar y acá eh
+ya podemos ver la aplicación
+tal cual
+eh la desarrolló. V. Entonces aquí vean
+que él eh logra generar una aplicación
+con una interface bastante interesante.
+Pero no solo eso, si yo le doy aquí en
+esperar mercado, vean cómo, ¿verdad?
+Aquí, bueno, la el color pues no fue el
+más adecuado, ¿verdad? Pero si ustedes
+ven me está dando cuál ha sido el
+crecimiento, ¿verdad? eh proyectado para
+estas aplicaciones en 2000 eh 26. Y aquí
+eh podemos ver un poquito eh pues los
+datos más relevantes de eh posibles
+acciones en las cuales se podrían
+invertir y el riesgo pues que en este
+caso está asociado, cuál es la
+capitalización de mercado y un poquito
+pues de e
+de los las actividades a las cuales se
+dedica. cada una de ellas, ¿verdad?
+Aquí, como ustedes ven, me dicen cuál es
+eh en este caso las recomendaciones que
+en este caso eh nos presentan, nos
+indica cuál es el nivel de riesgo y nos
+plantea también esta opción de simulador
+donde entonces uno puede darle una
+inversión inicial, ¿verdad? Y ya eh nos
+indica, ¿verdad?, un horizonte de tiempo
+aquí de 5 años podría decir, de 4 años o
+podría ser más grande de 10 años,
+¿verdad? Entonces, ¿cuánto podría ser la
+rentabilidad que en este caso podríamos
+tener, ¿verdad? Entonces, me dice que 5
+años, estos 5,000 podrían traducirse en
+cierto monto, ¿verdad? Eh, aquí, por
+ejemplo, h yo le le pido, ¿verdad?,
+¿Cuál es mi perfil de riesgo? Y si yo le
+digo, bueno, es conservador. Entonces,
+él me plantea que esta es una eh buena
+eh distribución del perfil si quiero
+algo más balanceado o si quiero algo más
+agresivo, entonces ya me plantea cuáles
+podrían ser y ya puedo ver los
+resultados respectivos, ¿verdad?
+y
+eh a nivel de riesgos, entonces también
+me da algunas informaciones generales de
+los riesgos que se pueden asumir. ¿Ves
+esto es lo que haría eh química dos,
+¿verdad? Eh, perdón, eh, manos, que como
+ustedes pueden ver eh lo que nos sirve
+es para ejecutar entonces eh acciones y
+en este caso una de las acciones más
+comunes que se utilizan con los agentes
+es el desarrollo de aplicaciones. Y en
+esa misma línea vamos a ir a nuestra
+última herramienta
+que ya propiamente sería Minimx, en
+donde yo podría decirle que
+nos ayude a desarrollar una
+investigación. Entonces yo me voy a
+venir aquí en Minimax
+y aquí en Minimax
+y voyar.
+Le doy aquí en Minimax agente.
+Cuando yo entré entro aquí a Minimx
+agente, ¿verdad? Yo ya aquí estoy. Y
+podemos ver, por ejemplo, este promo que
+le envié, ¿verdad?
+Aquí podemos ver un poquito el prom que
+yo le pedí. Le dije, es una
+investigación profunda. Le detallé
+exactamente qué es lo que yo quería.
+Como ven, aquí fui mucho más detallado
+en qué quería que hiciera a nivel de
+investigación y él empezó a hacer toda
+esa investigación. Llegan algunos
+momentos en que él me va a pedir que si
+estoy de acuerdo, que confirme, ¿verdad?
+Y eh que sea lo que quiero cambiar.
+Entonces, entramos en una especie de
+conversación pequeña entre eh la
+herramienta de nosotros y acá entonces
+ya podemos ver los resultados que uno
+generó. Ah, como ven aquí no lo generó,
+perdón, poder esto.
+Esta sí lo generó completamente.
+Y si yo le doy aquí en files, ¿ven? aquí
+en mi proceso pues me dio como la
+presentación que lo más eh eh gráfico
+que yo le pedí, pero si le doy archivos,
+que es realmente el que más me interesa,
+lo más importante son estos códigos que
+él terminó generando para la creación de
+gráficos. Eh, también
+eh este mar con un resumen, ¿verdad?, de
+los resultados más relevantes de la
+economía. Pero en realidad lo que más me
+interesa es esta opción que dice TOx,
+porque aquí es donde en realidad hizo un
+análisis muy detallado de diferentes eh
+temas y aquí no vamos a entrar en el
+detalle específico, pero fue un análisis
+eh que considero que fue muy relevante,
+que me alió bastante para efecto de lo
+que estaba buscando y que entonces eh
+realmente sí cumplió con las
+expectativas de lo que necesitábamos.
+Entonces, como ven, estos ya son otro
+tipo de inteligencias artificiales, no
+son eh propiamente como chatbina
+eh cloud o Win o más, ¿verdad? Que son
+herramientas eh que les llamamos chats
+de propósito general, sino que son
+agentes y como agentes entar de resolver
+eh en este caso diferentes eh tareas y e
+como pueden ver pues nos pueden ayudar
+en ciertos trabajos donde ocupamos un
+análisis, ¿verdad? donde utilicen
+herramientas un poco más específicas y
+que eh en este caso también ocupamos,
+por ejemplo, el desarrollo de una
+aplicación o el desarrollo de eh un
+documento o una presentación de cierta
+manera. Entonces, pues estas
+herramientas tienden a cobrar
+relevancia. Les llamamos herramientas
+todo el mundo porque con un PROM eh y
+con ciertas interacciones ya logran eh
+ciertos resultados. Pero esto no nos
+sirve para todo, nos sirve para, como
+les digo, tareas muy concretas y
+específicas donde un prom puede
+ayudarnos a dar un resultado eh bastante
+adecuado. Vamos a ver que eh pues en
+otros casos ya tendríamos que
+desarrollar agentes más específicos de
+nuestra parte, ya nosotros
+desarrollándolos, ¿no?, con un esquema
+todo uno, en donde trabajemos eh poco a
+poco con la inteligencia artificial,
+logrando los resultados que queramos.
+Eh, pero para eh lo que son ciertos
+trabajos donde necesitamos un resultado,
+todo uno bastante bastante eh
+eh adaptado a una aplicación o una
+presentación o un documento, a un
+trabajo concreto, esta puede ser eh una
+unas herramientas que nos pueden ayudar
+a lograr esos objetivos y con
+inteligencia artificial pues lograr
+simplificar mucho el proceso. Muchas
+gracias. M.

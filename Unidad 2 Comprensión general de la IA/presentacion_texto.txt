@@ -1,0 +1,326 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1xnrJUwxxTkkWQ5ysVDa_mrwMcW7uFaWFoYcg_BcMbfQ/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 3 ---
+La IA en Números
+
+--- Diapositiva 4 ---
+Ética y Riesgos
+
+--- Diapositiva 5 ---
+Educación Superior y Ética en IA
+
+--- Diapositiva 6 ---
+Sesgos y Discriminación Algorítmica
+
+--- Diapositiva 7 ---
+Privacidad y Vigilancia Masiva
+Recolección Masiva
+Datos personales capturados sin consentimiento claro o informado de usuarios
+Riesgo de Control
+Vigilancia omnipresente amenaza la autonomía individual y libertades fundamentales
+Marco Legal
+GDPR y CCPA buscan proteger derechos, aunque persisten desafíos de implementación global
+
+--- Diapositiva 8 ---
+Transparencia y Responsabilidad
+Cajas Negras
+Algoritmos funcionan como sistemas opacos difíciles de explicar o auditar (Burrell, 2016)
+Dilema de Responsabilidad
+¿Quién responde cuando la IA toma decisiones erróneas, injustas o causa daños?
+Gobernanza Necesaria
+Urgencia de políticas claras y supervisión humana efectiva en sistemas automatizados
+
+--- Diapositiva 9 ---
+La Opacidad Algorítmica
+Un desafío ético que demanda transparencia, explicabilidad y rendición de cuentas en cada decisión automatizada
+
+--- Diapositiva 10 ---
+Automatización y Empleo
+1
+Riesgo de Desplazamiento
+Pérdida potencial de empleos en sectores con tareas rutinarias y repetitivas
+2
+Debate Redistributivo
+Discusión sobre redistribución del trabajo, reducción de jornadas y renta básica universal
+3
+Nuevas Oportunidades
+Reentrenamiento profesional y creación de empleos especializados en ecosistema IA
+
+--- Diapositiva 11 ---
+Concentración de Poder Tecnológico
+1
+Pocas Corporaciones
+2
+Control del Mercado
+3
+Acceso Desigual Global
+El desarrollo de IA está dominado por un puñado de corporaciones globales, creando riesgo de monopolios tecnológicos (Amy Webb, 2019)
+Esta concentración genera desigualdad en el acceso a tecnología de vanguardia y limita la innovación diversa
+
+--- Diapositiva 12 ---
+Influencia Electoral
+IA puede manipular procesos democráticos y opinión pública
+Dignidad Humana
+Protección de valores fundamentales
+Igualdad de Género
+Garantizar equidad en sistemas IA
+Libertad de Expresión
+Balance entre moderación y censura
+Justicia Social
+Reducción de brechas digitales
+Impacto en Derechos Humanos y Democracia
+
+--- Diapositiva 13 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 14 ---
+Marcos Regulatorios
+
+--- Diapositiva 15 ---
+Recomendación sobre Ética de la IA de la UNESCO (2021)
+193
+Países Adoptantes
+Primer marco global de ética en IA con alcance verdaderamente universal
+5
+Principios Clave
+Dignidad humana, transparencia, equidad, supervisión y sostenibilidad
+11
+Ámbitos de Acción
+Gobernanza de datos, medio ambiente, género, educación, salud y más
+
+--- Diapositiva 16 ---
+Principios Éticos Fundamentales
+Transparencia
+Claridad total en uso, funcionamiento y decisiones de sistemas IA
+Responsabilidad
+Definir claramente quién responde por resultados y consecuencias
+Seguridad
+Protección contra daños físicos, digitales y psicológicos
+Imparcialidad
+Prevención activa de sesgos y discriminación algorítmica
+Privacidad
+Respeto absoluto y control sobre datos personales sensibles
+
+--- Diapositiva 17 ---
+Regulaciones Regionales y Nacionales
+GDPR en Europa
+Protección estricta de datos personales desde 2018, estableciendo el estándar global más riguroso para privacidad digital
+América Latina Emergente
+Leyes en desarrollo para IA responsable en Brasil, Argentina, Chile y México, adaptadas a contextos regionales
+Desafíos de Armonización
+Dificultad para crear normativas globales coherentes que respeten soberanía nacional y diferencias culturales
+
+--- Diapositiva 18 ---
+Objetivo de la Ley: La "Ley para la Promoción Responsable de la Inteligencia Artificial en Costa Rica" busca fomentar el uso ético y responsable de la inteligencia artificial (IA) en el país, priorizando principios como la dignidad humana, la igualdad y la transparencia. Se pretende impulsar el desarrollo tecnológico mientras se protegen los derechos de las personas frente a la innovación.
+
+Ventajas y Desventajas de la IA: Se destacan múltiples beneficios del uso de IA, como la automatización de procesos, mejora en la toma de decisiones y optimización de servicios públicos. Sin embargo, también se mencionan desventajas, incluyendo la falta de datos adecuados, el costo de implementación y posibles impactos negativos en el empleo y derechos humanos.
+
+Oportunidades y Riesgos: La IA puede mejorar rendimientos en sectores como agricultura y salud, pero también presenta riesgos como discriminación algorítmica y violaciones a la privacidad. Es crucial establecer regulaciones efectivas para mitigar estos riesgos mientras se aprovechan las oportunidades que ofrece la tecnología.
+
+Marco Jurídico: La ley se enmarca dentro de un contexto jurídico que incluye tratados internacionales y derechos humanos. Se menciona la necesidad de adaptar las políticas públicas para proteger los derechos afectados por el uso de IA, asegurando que estas tecnologías benefician a toda la sociedad.
+Tareas Pendientes: Se requiere que las instituciones pertinentes emitan criterios sobre el proyecto de ley antes del 1° de noviembre. Además, es fundamental que el Estado diseñe condiciones institucionales adecuadas para facilitar la adaptación gradual a las nuevas tecnologías por parte de los ciudadanos.
+Proyectos de Ley para Regular la IA en Costa Rica
+
+--- Diapositiva 19 ---
+Estrategia Nacional de Inteligencia Artificial
+Ejes temáticos
+Eje 1: Responsabilidad y ética en el desarrollo y uso de la Inteligencia Artificial
+Eje 2: Articulación territorial y nodos de desarrollo
+Eje 3: Infraestructura digital
+Eje 4: Gobierno Inteligente
+Eje 5: Capacitación y retención del conocimiento en IA
+Eje 6: Seguridad y privacidad de los datos y del uso de la IA
+Eje 7: Clima institucional, normativa y gobernanza colaborativa
+https://www.micitt.go.cr/gobierno_digital/inteligencia_artificial
+
+--- Diapositiva 20 ---
+Y ¿qué pasó con NVDIA?
+$4T
+Valoración de NVIDIA
+En julio 2025, NVIDIA alcanza los US$ 4 billones, consolidándose como la empresa más valiosa del mundo por capitalización.
+18%
+Recuperación
+El 27 de enero, NVIDIA logra restaurar parte de su valor (~US$ 3.6 billones) y poco después supera los US$ 4 billones, demostrando la resiliencia del gigante tecnológico.
+
+--- Diapositiva 21 ---
+Oportunidades
+
+--- Diapositiva 22 ---
+Innovación Responsable
+Confianza
+Empresas éticas ganan credibilidad del mercado
+Competitividad
+Ventaja comercial sostenible a largo plazo
+Auditorías
+Revisión algorítmica sistemática y rigurosa
+Participación
+Diseño co-creado con ciudadanos afectados
+Las organizaciones que integran principios éticos en el desarrollo de IA no solo mitigan riesgos, sino que construyen reputación sólida y liderazgo responsable
+
+--- Diapositiva 23 ---
+Detección más rápida y precisa de enfermedades, salvando vidas a través de análisis predictivo y medicina personalizada
+Diagnóstico Médico Avanzado
+Liberación de tareas repetitivas permitiendo que las personas se enfoquen en trabajo creativo y estratégico de mayor valor
+Automatización Inteligente
+Crecimiento económico impulsado por innovación, creación de mercados emergentes y optimización de recursos
+Nuevos Modelos de Negocio
+Oportunidades Transformadoras
+
+--- Diapositiva 24 ---
+El Auge Global de la IA Generativa en las Organizaciones
+65%
+Adopción Regular
+De organizaciones que ya utilizan IA generativa, duplicando cifras previas (McKinsey, 2024)
+42%
+Grandes Empresas
+Con IA en producción, mientras otro 40% está en fase experimental (IBM Global AI Adoption Index, 2024)
+109B
+Inversión USD
+Millones de dólares invertidos en IA durante 2024, impulsando el uso empresarial del 55% al 78% (Stanford AI Index, 2025)
+297B
+Proyección 2027
+Millones de dólares en software de IA globalmente, con la IA generativa creciendo del 8% al 35% del mercado (Gartner, 2023)
+
+--- Diapositiva 25 ---
+Impacto de la IA en el Mercado Laboral
+1
+Transformación de Empleos
+23% de los empleos mundiales cambiará significativamente antes de 2027 (Foro Económico Mundial, 2023)
+2
+Nuevas Oportunidades
+Creación de 69 millones de nuevos puestos ligados a tecnologías emergentes y IA
+3
+Automatización
+83 millones de empleos serán automatizados (Foro Económico Mundial, 2023), con 26-38% de trabajos en Latinoamérica potencialmente afectados (Banco Mundial, 2024)
+4
+Exposición en Costa Rica
+28,5% de trabajadores costarricenses podrían ver automatizadas más del 20% de sus tareas (OCDE, 2024)
+La IA generativa impactará hasta el 40% de las horas de trabajo en la economía global al automatizar tareas basadas en lenguaje (Accenture, 2023). Un experimento con 758 consultores mostró que quienes emplearon GPT-4 completaron 12,2% más tareas, 25,1% más rápido y con 40% mejor calidad (Dell'Acqua et al., 2023).
+
+--- Diapositiva 26 ---
+(Fernández, 2024, pág 23)
+
+--- Diapositiva 27 ---
+Aumento en la productividad
+Un experimento de campo con 758 consultores de Boston Consulting Group mostró que quienes emplearon GPT-4 completaron 12,2% más tareas, lo hicieron 25,1% más rápido y con 40% mejor calidad en comparación con el grupo de control (Dell’Acqua et al., 2023).
+Un ensayo de campo con 5 000 agentes de servicio al cliente demostró que un asistente conversacional con apoyo de IA generativa puede incrementar su desempeño 14% en promedio, (Brynjolfsson, Li & Raymond, 2023).
+
+--- Diapositiva 28 ---
+Mercados Financieros
+Trading Algorítmico
+Sistemas automatizados que ejecutan operaciones basadas en señales de mercado y análisis de patrones.
+Análisis de Informes
+Extracción de insights de reportes financieros, transcripciones de llamadas y comunicados oficiales.
+Sentimiento de Mercado
+Evaluación del clima inversor mediante análisis de noticias, redes sociales y comunicaciones corporativas.
+Gestión de Carteras
+Optimización de asignación de activos y rebalanceo automático según objetivos y restricciones.
+
+--- Diapositiva 29 ---
+Marketing y Demanda
+Segmentación Avanzada
+RFM (Recencia, Frecuencia, Monto) + embeddings de comportamiento
+Personalización
+Ofertas y comunicaciones adaptadas a perfiles individuales
+Análisis de Churn
+Predicción de abandono y estrategias de retención
+Optimización de Precios
+Elasticidad y mix óptimo para maximizar ingresos
+
+--- Diapositiva 30 ---
+Operaciones y Cadena de Suministro
+Aplicaciones de IA
+Pronóstico de demanda con alta granularidad
+Optimización de niveles de inventario
+Planificación de rutas y logística
+Gestión inteligente de compras
+Visión por Computadora
+Control de calidad automatizado
+Conteo de inventario en tiempo real
+Monitoreo de instalaciones
+
+--- Diapositiva 31 ---
+Costos y Energía
+Impacto Energético
+Centros de datos consumen más electricidad para entrenar  y ejecutar modelos de IA.
+Factores clave para mitigación:
+Mejoras en eficiencia computacional
+Transición a energías renovables
+Optimización de modelos
+Según estimaciones actuales, el beneficio económico neto
+
+ de la IA supera su costo climático, pero es crucial seguir
+
+ mejorando la eficiencia energética.
+
+--- Diapositiva 32 ---
+Conclusión: Hacia una IA Ética y Sostenible
+Herramienta Poderosa
+La IA ofrece potencial transformador sin precedentes, pero con riesgos reales que no podemos ignorar
+Ética y Regulación
+Marcos normativos indispensables para maximizar beneficios y minimizar daños sociales
+Colaboración Global
+Invitación urgente a todos los sectores: gobiernos, empresas, academia y sociedad civil
+
+--- Diapositiva 33 ---
+Benchmarks
+
+--- Diapositiva 34 ---
+Evaluación de los modelos de IA
+https://artificialanalysis.ai/
+https://lmarena.ai/
+
+--- Diapositiva 35 ---
+Evaluación de los modelos de IA
+https://artificialanalysis.ai/
+
+--- Diapositiva 36 ---
+Referencias
+Accenture. (2023). A new era of generative AI for everyone. https://www.accenture.com/content/dam/accenture/final/accenture-com/document/Accenture-A-New-Era-of-Generative-AI-for-Everyone.pdf
+Acemoglu, D., & Restrepo, P. (2022). Tasks, automation, and the rise in U.S. wage inequality. Econometrica, 90(5), 1973-2016. https://doi.org/10.3982/ECTA19234
+Brynjolfsson, E., Li, D., & Raymond, L. (2023). Generative AI at Work (NBER Working Paper No. 31161). National Bureau of Economic Research. https://www.nber.org/papers/w31161
+Columbus, L. (2024, 24 enero). Gartner predicts AI software will grow to $297 billion by 2027. Software Strategies Blog. https://softwarestrategiesblog.com/2024/01/24/gartner-predicts-ai-software-will-grow-to-297-billion-by-2027/
+CR Nova. (2025). Artificial intelligence on the rise: Latin American companies increase its use. https://crnova.com/artificial-intelligence-on-the-rise-latin-american-companies-increase-its-use/
+Dell’Acqua, F., McFowland III, E., Mollick, E., et al. (2023). Navigating the jagged technological frontier: Field experimental evidence of the effects of AI on knowledge worker productivity and quality (HBS Working Paper 24-013). Harvard Business School. https://www.hbs.edu/faculty/Pages/item.aspx?num=64700
+El País. (2025, junio 26). América Latina frente a la inteligencia artificial: ¿motor de productividad o generadora de desigualdad? https://elpais.com/america/termometro-social/2025-06-26/america-latina-frente-a-la-inteligencia-artificial-motor-de-productividad-o-generadora-de-desigualdad.html
+Fernández Aráuz, A. (2024). Impacto de la inteligencia artificial generativa en los trabajos costarricenses: El caso de los modelos grandes de lenguaje. Fundación Konrad Adenauer & Academia de Centroamérica.
+IBM. (2024, 10 enero). Data suggests growth in enterprise adoption of AI is due to widespread deployment by early adopters, but barriers keep 40% in the exploration and experimentation phases. IBM Newsroom. https://newsroom.ibm.com/2024-01-10-Data-Suggests-Growth-in-Enterprise-Adoption-of-AI
+International Labour Organization. (2025). Generative AI and jobs: A refined global index of occupational exposure (ILO Working Paper 140). https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure
+International Monetary Fund. (2024). Gen-AI: Artificial Intelligence and the Future of Work (Staff Discussion Note 24/01). IMF. https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI
+La Prensa Libre. (2024, octubre). Costa Rica lanza su primera política pública nacional en inteligencia artificial. https://www.laprensalibre.cr/estrategia-nacional-de-inteligencia-artificial-enia-2024-2027-en-costa-rica
+
+--- Diapositiva 37 ---
+Referencias
+McKinsey & Company. (2023). The economic potential of generative AI: The next productivity frontier. https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier
+McKinsey & Company. (2024). The state of AI in early 2024. https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-2024
+Microsoft / DuckerFrontier. (2023). The impact of AI on the labor market in Costa Rica. https://www.thecentralamericangroup.com/artificial-intelligence-in-costa-rica/
+OCDE. (2024). Job Creation and Local Economic Development 2024: Costa Rica – Country Notes. https://www.oecd.org/en/publications/job-creation-and-local-economic-development-2024-country-notes_ad2806c1-en/costa-rica_29857d58-en.html
+OCDE. (2024). Artificial intelligence and jobs: An urgent need to act. https://www.oecd.org/en/topics/policy-issues/future-of-work.html
+OCDE. (2024). Using AI in the workplace: Opportunities, risks and policy responses (AI Papers No. 112). https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/using-ai-in-the-workplace_02d6890a/73d417f9-en.pdf
+PricewaterhouseCoopers. (2025). The fearless future: 2025 Global AI Jobs Barometer. https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+PwC. (2025). AI Jobs Barometer 2025. https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+Rigobon, R., & Loaiza, I. (2025). The EPOCH of AI: Human-Machine Complementarities at Work (MIT Sloan Working Paper). Massachusetts Institute of Technology. https://mitsloan.mit.edu/press/new-mit-sloan-research-suggests-ai-more-likely-to-complement-not-replace-human-workers
+ServiceNow & Oxford Economics. (2024). Enterprise AI Maturity Index 2024. https://www.servicenow.com/workflow/hyperautomation-low-code/enterprise-ai-maturity-index-2024.html
+Stanford Institute for Human-Centered AI. (2025). AI Index report 2025. https://hai.stanford.edu/ai-index/2025-ai-index-report
+
+--- Diapositiva 38 ---
+Referencias
+
+World Economic Forum. (2023). The Future of Jobs Report 2023. https://www.weforum.org/publications/the-future-of-jobs-report-2023/
+CR Nova. (2025). Artificial intelligence on the rise: Latin American companies increase its use. https://crnova.com/artificial-intelligence-on-the-rise-latin-american-companies-increase-its-use/
+El País. (2025, junio 26). América Latina frente a la inteligencia artificial: ¿motor de productividad o generadora de desigualdad? https://elpais.com/america/termometro-social/2025-06-26/america-latina-frente-a-la-inteligencia-artificial-motor-de-productividad-o-generadora-de-desigualdad.html
+La Prensa Libre. (2024, octubre). Costa Rica lanza su primera política pública nacional en inteligencia artificial. https://www.laprensalibre.cr/estrategia-nacional-de-inteligencia-artificial-enia-2024-2027-en-costa-rica
+Microsoft / DuckerFrontier. (2023). The impact of AI on the labor market in Costa Rica. https://www.thecentralamericangroup.com/artificial-intelligence-in-costa-rica/
+MICITT. (2024). Estrategia Nacional de Inteligencia Artificial de Costa Rica 2024–2027. https://observatorioecuadordigital.mintel.gob.ec/wp-content/uploads/2024/10/Estrategia-Nacional-de-IA-Costa-Rica-.pdf
+OCDE. (2024). Job Creation and Local Economic Development 2024: Costa Rica – Country Notes. https://www.oecd.org/en/publications/job-creation-and-local-economic-development-2024-country-notes_ad2806c1-en/costa-rica_29857d58-en.html
+PwC. (2025). AI Jobs Barometer 2025. https://www.pwc.com/gx/en/issues/artificial-intelligence/ai-jobs-barometer.html
+ServiceNow. (2024). Enterprise AI Maturity Index. https://www.servicenow.com/latam/lpwhp/enterprise-ai-maturity-index-2024.html
+Tico Times. (2025, julio 5). Costa Rica leads AI adoption in small businesses across Latin America. https://ticotimes.net/2025/07/05/costa-rica-leads-ai-adoption-in-small-businesses-across-latin-america
+UCR – Vicerrectoría de Investigación. (2024). Resumen técnico de la Estrategia Nacional de Inteligencia Artificial (ENIA) 2024–2027. https://vinv.ucr.ac.cr/sites/default/files/files/RESUMEN%20FICHA%20T%C3%89CNICA%20ENIA%202024-2027.pdf
+World Bank. (2024). Generative AI and Jobs in Latin America and the Caribbean. https://www.worldbank.org/en/topic/poverty/publication/generative-ai-and-jobs-in-lac

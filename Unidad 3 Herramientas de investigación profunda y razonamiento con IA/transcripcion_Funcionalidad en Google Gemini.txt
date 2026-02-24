@@ -1,0 +1,339 @@
+Título del Video: Funcionalidad en Google Gemini
+URL: https://youtu.be/GZtsEPUzOvc
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora entonces lo que vamos a
+hacer es ver justamente estas tres
+funcionalidades, pero utilizándolas en
+Gil. Entonces son las mismas tres
+funcionalidades, pero ya digámoslo así
+trabajándolo en Google.
+Entonces vamos a proceder a ingresar
+propiamente en Gemini, ¿verdad? Que pues
+Gemini como tal e ingresamos, ¿verdad?
+Aquí ya estamos propiamente en Gemini. Y
+acá eh podemos entonces justamente darle
+el mismo prom, se lo pegamos y le vamos
+a activar la funcionalidad de búsqueda.
+Para ello normalmente usamos estas
+opciones de aquí en herramientas y uno
+puede activarlas, pero da la
+particularidad de que en el caso de
+Gemini ya la búsqueda está integrada de
+por defecto, entonces no es necesario
+hacerlo. Ya eh la búsqueda como tal va a
+estar aquí incorporada. Ahora, aquí en
+añadir archivos no podría añadir
+archivos propios y demás, ¿verdad? Pero
+en este caso nos estamos abocando al
+tema de la primera funcionalidad que es
+búsqueda y modelo razonador. Entonces,
+búsqueda en GN no es necesario, él
+automáticamente ya la tiene incorporada.
+Y aquí modelo razonador donde dice
+rápido, puede escoger este que dice
+razonamiento o el modelo que dice pro.
+En este caso, si escogemos razonamiento,
+igual acá estoy en una versión pro, voy
+a pasarme también una versión gratuita
+para que ustedes puedan ver que también
+funciona sin ningún inconveniente,
+¿verdad? Aquí ven que está la opción de
+razonamiento, ¿verdad? Con solo que le
+activemos esa función, entonces él
+ya va a proceder a
+realizar el análisis que le solicitamos,
+¿verdad?
+en que él busca y en internet está ya
+propiamente buscando la información en
+internet y nos va a proceder a dar una
+respuesta. Dura un poco más porque ven
+que aquí está haciendo un análisis, está
+haciendo un razonamiento porque le dimos
+un modelo razonador, si le hubiera dado
+un modelo rápido, él hubiera respondido
+más rápido, pero no hubiese realizado el
+análisis que estábamos en este caso
+solicitándole. ¿Ven? Aquí nos hizo la
+conclusión ejecutiva, ¿verdad? Y aquí
+nos está planteando ya propiamente
+los resultados, ¿verdad?, que él está
+logrando obtener. Y como ven, pues está
+atendiendo la solicitud que le
+planteamos y obteniendo los datos,
+quizás de un modo un poquito bastante un
+poco más concreto, ¿verdad? Eh, y
+entonces con conclusiones muy ejecutivas
+y directas, ¿verdad? Esa es la primer
+funcionalidad que entonces es búsqueda
+con razonamiento. Ahora vamos de igual
+manera
+a ingresar aquí a Yemini y vamos a
+activar la otra opción que es la de
+razonamiento profundura.
+Entonces acá control shift V y entro de
+las herramientas es el mismo prom. Pero
+vean que le damos ahora a activar la
+opción de búsqueda profunda. ¿Ven? Aquí
+estamos activando la opción de búsqueda
+profunda y eso hace entonces que ahora
+va a realizar una investigación más
+detallada, ¿verdad? Yo aquí le puedo
+detallar fuentes adicionales también si
+quiero que que use mi Gmail, el Drive,
+etcétera, pero si no, pues puedo
+utilizar la búsqueda directa por acá
+y también pues puedo adjuntarle mis
+propios archivos, pero en este caso
+quiero que lo haga únicamente internet y
+puedo escoger si quiero un modelo de
+razonamiento o un modelo rápido. Aquí
+voy a utilizar rápido meramente por
+cuestión de agilidad
+y le voy a dar en buscar.
+Pero me voy a enviar.
+Y aquí él ya va a hacerme un plan de
+investigación. Véanlo acá. Entonces, ya
+no me responde de una vez. No es que
+empieza de una vez a detallarme el
+resultado, sino que lo que hace es que
+me propone un plan de investigación de
+cómo eh atender la solicitud que le
+establecimos. Aquí yo puedo darle
+modificar plan y entonces solicitarle
+que haga algún ajuste en ese plan de
+investigación. Acá pues por cuestiones
+de tiempo no podemos entrar en el
+detalle, ver exactamente eh cuál es ese
+plan de investigación. en las clases
+pues sí se aborda con mucho más eh eh
+especificidad, pero acá de momento pues
+indicarles que si algo de este plan pues
+desean modificarlo, simplemente le dan
+acá modificar plan indican pues cuál es
+el eh el cambio que quieren hacer y si
+no si ya estuviesen de acuerdo le dan en
+empezar la investigación. Si ustedes
+modificar plan, él va a tirar otro plan.
+Y si ese plan ya ahora sí eh logra
+satisfacer lo que ustedes en este caso
+querían, ya le pueden dar en empezar la
+investigación y él va a empezar a
+hacerlo. Acá voy a pausarlo porque esta
+investigación pues eh dura un poquito,
+entonces le voy a dar en empezar la
+investigación
+y como logran observar, pues es una
+investigación que va a tardar su tiempo
+y demás. Entonces, pues lo que voy a
+hacer en realidad es que les voy a
+mostrar ya una investigación hecha,
+porque esto puede tardar eh varios
+minutos mientras hace esta investigación
+más detallada.
+Muy bien, en este caso, entonces vean
+aquí ya les muestro dónde finalizó la
+investigación, ¿verdad? Y me genera este
+informe que, como ustedes ven, es mucho
+más detallado
+de lo que en primera instancia me había
+hecho simplmente con la búsqueda y el
+modelo razonador. ¿Ven? aquí entonces ya
+logra pues hacer un informe pues mucho
+más detallado, el cual puedo
+perfectamente compartir y exportar.
+Puedo exportar a un documento de Google
+o puedo compartir pues con otros
+compañeros y también eh
+como ustedes ven me indica pues las
+diferentes fuentes que utilizo en este
+informe, ¿ven? Inclusive tiene un índice
+para que yo me pueda mover entre los
+diferentes elementos. De modo adicional,
+uno de los puntos eh fuertes de las
+investigaciones profundas de Google es
+que yo le puedo dar crear y con esto
+puedo crear, por ejemplo, tarjetas
+dinámicas, que fue como una especie de
+presentación. Puedo hacer también una
+infografía, que inclusive aquí yo puedo
+dar clic en infografía por cuestión de
+tiempo porque va a durar un rato
+haciéndolo. Yo ya lo tengo aquí listo.
+Vean que si yo le doy infografía, vean
+que lo que él va a generar es algo como
+esto.
+En que va a ser más como tipo
+infografía. Hemos visto que los
+resultados no son tan buenos en esta
+herramienta de infografía. Algunos
+valores como que no guarden consistencia
+con el documento y demás. Entonces, eh
+pues de momento eh
+está en estabilización, ¿no? No se lo
+recomendamos pues a al día de hoy como
+herramienta para poder eh sacar el
+máximo provecho. Creemos que todavía le
+falta un poco, pero el informe como tal,
+este que tira el sistema sí logra eh
+resultados bastante adecuados, ¿verdad?
+E
+otro de los eh tipos de creaciones que
+podemos hacer acá es el resumen de
+audio, el cual sí guarda más
+consistencia, es este que está por acá.
+Y si ustedes aquí le dan play, ¿verdad?
+Básicamente lo que va a hacer es como
+una especie de podcast en el cual van a
+poder escuchar como a los locutores que
+tratan de hacer un pequeño resumen del
+informe. Entonces, es una forma eh
+bastante interesante y buena de poder
+aprovechar eh también las
+funcionalidades que nos presenta esta
+investigación profunda para no solo
+tener el informe, sino tener un resumen
+de audio tipo podcast, donde podamos
+entonces eh tener un resumen de el
+análisis.
+Y por último
+vamos a utilizar los espacios de trabajo
+que en este caso
+en Google no están integrados
+propiamente, sino que tienen una
+herramienta específica que se llama
+Notebook LM. Entonces acá vamos a
+ingresar.
+Entonces, una vez que ingresamos a
+Notebook LM, igual eh nos damos aquí en
+probar, nos vamos a logar con nuestras
+cuentas de Google. específicas. Y
+entonces aquí pues nos muestran
+notebooks generales que se han hecho en
+algún momento, ¿verdad? Eh, por eh parte
+de
+diferentes organismos, pero en nuestro
+caso lo que nos interesa es hacer un
+espacio más específico, ¿verdad?
+Recordemos que estos espacios que en
+este caso, por ejemplo, en notebook LMS
+se llaman cuadernos, ¿verdad? lo que
+buscan es eso, que uno pueda entonces,
+tal y como vemos en perplexitizar sus
+propios archivos, ¿verdad? Y esto es eh
+bastante bastante interesante porque acá
+en primera instancia vean que él nos
+permite hacer una búsqueda. Nosotros si
+no tenemos pues alguna fuente en
+específica, podemos decirle un tema y
+que él busque en internet, ya sea pues
+en una búsqueda rápida o una búsqueda
+profunda. Entonces, ven que está como
+relativamente integrado por acá e
+inclusive también decirle que utilicen
+nuestro propio drive. Entonces, eso si
+no tuviéramos eh ya los archivos listos
+que queremos utilizar y queremos
+entonces aprovechar a que haga una
+búsqueda o una búsqueda profunda para
+obtener información relevante de
+fuentes. Aquí en este caso pues nosotros
+ya tenemos archivos, ¿verdad? Entonces
+vamos a cargarle esos archivos, ¿verdad?
+Que dimos como insumo en esta unidad.
+Entonces, ¿ven? Ahí ya le estamos
+cargando los archivos. Aquí le podemos
+poner el nombre que nosotros queramos,
+por ejemplo, análisis de Costa Rica
+y él carga estos documentos. Como les
+digo, eso es porque ya nosotros los
+teníamos y queríamos utilizar solo esos
+documentos. Pero eh si nosotros
+quisiéramos también que él nos ayude a
+buscar fuentes, lo podríamos hacer aquí
+eh y eh pues hacerlo en nuestra en
+internet, en nuestro drive y con una
+investigación rápida o una investigación
+profunda. Bien, y aquí nos hace un
+pequeño resumen, ¿verdad?, de qué se
+tratan estos documentos. Y también acá
+uno puede entonces ya chatear, así como
+lo hemos hablado anteriormente en
+perplexity, lo podemos hacer también
+acá. Simpleamente le escribo el prom que
+yo en este caso quiero analizar. Aquí ya
+lo teníamos, ¿verdad? y le puedo dar
+enviar
+y entonces él va con base en los
+documentos que le suministramos a
+realizar este análisis que le estamos
+solicitando. Como un extra queremos
+indicarles que aquí en el notebook lm
+está la opción del estudio. En este
+estudio podemos hacer un resumen en
+video, que es como una especie de
+presentación, un resumen en audio que es
+como un podcast antes, como mencionamos,
+un mapa mental que me permite en este
+caso e ver las diferentes asociaciones
+que hay entre los entre las palabras,
+puedo hacer diferentes informes, todo
+esto lo vamos en detalle en la clase,
+¿verdad? Pero aquí para efectos eh del
+video pues no vamos a poder entrar en
+todo este detalle, pero lo que quiero
+decirles es que nos permite también
+hacer tablas de datos, presentaciones.
+Ah, también es importante que aquí
+podemos subir archivos de Excel, incluso
+archivos pues con un tamaño eh
+relativamente grande. Entonces, nos
+permite hacer ese tipo de análisis de
+información. Entonces, ven que aquí
+tenemos muchas alternativas y como
+ustedes ven acá, él también pues logra
+darnos respuesta al prom que le
+solicitamos, al análisis específico que
+le pedimos que nos ayudara a hacer y
+vean cómo efectivamente nos atiende lo
+solicitado y nos dice exactamente,
+bueno, ¿qué sacó de cada documento, por
+ejemplo, esto sacó el informe política
+monetaria y esto nos dice inclusive en
+qué parte está, ¿verdad?
+Eh, y este pues también lo está tomando
+el informe de política monetaria, ¿ven?
+Y así entonces podemos ver todas las
+diferentes fuentes
+que está utilizando.
+Es importante indicar que parte eh de lo
+que hemos visto es que él puede pues
+irse en cierta fuente o en otra o demás.
+De igual manera, nosotros por medio de
+los prom podemos entonces solicitarle
+que modifique las fuentes que
+consideramos que en este caso debería de
+utilizar porque por ejemplo en esta está
+utilizando pues un poco de las
+diferentes fuentes, pero vemos que no ha
+usado mucho de la OCTI, entonces podemos
+pedirle en este caso que utilice eh poco
+más la fuente de la OCTE que estamos ahí
+estableciendo y ya él podría entonces
+hacer pues los cambios que nosotros
+dijistos. Pero ven, entonces como
+podemos apreciar
+eh por medio de este tipo de trabajo eh
+de estos cuadernos de trabajo, entonces
+podemos utilizar más nuestra eh propia
+información y por medio de estas
+herramientas de estudio adicional,
+entonces podemos sacarle más provecho
+para hacer eh ciertos esquemas,
+análisis, audios, presentaciones
+específicas que que querramos que logre
+aprovechar directamente de las fuentes
+que le hemos suministrado. Ahora vamos a
+ver cómo se puede trabajar con estas
+mismas funcionalidades, pero desde chat.

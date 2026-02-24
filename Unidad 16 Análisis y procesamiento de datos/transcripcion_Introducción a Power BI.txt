@@ -1,0 +1,225 @@
+Título del Video: Introducción a Power BI
+URL: https://www.youtube.com/watch?v=p9ze1HR6HOY
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy buenas. Vamos a proceder a trabajar
+ahorita en la unidad 16, que es la
+análisis y procesamiento de datos, para
+lo cual vamos a utilizar Power BI.
+Entonces, eh bueno, nuevamente en las
+lecciones se va a ver con detalle una
+presentación, ahí se va a abarcar pues
+todos los diferentes temas con muchísimo
+más detalle, vamos a ir paso a paso y
+demás, pero en estos eh videos pues
+tratamos de ser un poquito más
+ejecutivos, ¿verdad? Para que eh los
+estudiantes puedan tener un resumen del
+material acá. Entonces, por ello vamos a
+iniciar entrando a Power BI. Eh,
+nuevamente en las lecciones regulares
+vemos la instalación, entramos, ¿verdad?
+Ajustamos pues cualquier eh
+requerimiento que sea necesario. Acá
+pues asumiremos que los estudiantes ya
+tienen el Power BI instalado y vamos a
+proceder a darle aquí en informe blanco.
+Cuando le damos aquí en informe blanco,
+queremos que entiendan un poco cuál es
+la lógica del Power BI. El Power BI es
+una herramienta que en este caso nos va
+a servir para dos elementos
+fundamentales. En primera instancia para
+generar gráficos. ¿Ven? Todo esto que
+ustedes ven acá son diferentes tipos de
+gráficos. Entonces es un eh creador de
+interactivos muy eficiente, muy potente,
+que entonces simplifica mucho el proceso
+de análisis de datos. Entonces, todo lo
+que es análisis de datos
+se simplifica mucho con lo que es eh
+Power BI. Por el otro lado tenemos eh ya
+propiamente lo que es el manejo y
+manipulación de datos. Entonces acá
+vamos a cargar información, la cual pues
+también vamos a poder eh visualizar y
+esta información
+podemos también pasar a pasarla por un
+proceso de eh de depuración, de
+manipulación, de boieza, ¿verdad?
+Entonces, todo ese proceso pues eh se
+puede realizar también desde Power BI.
+Entonces, esto es uno de los de los
+puntos que eh consideramos que es muy
+muy importante, muy potente y que
+podríamos propiamente aprovechar. Ahora,
+eh dado este e esta pequeña
+introducción, queremos hablar algunas de
+las funcionalidades básicas de Power BI.
+Entonces, primero que todo, hablarles
+sobre su estructura. Entonces, está
+dividida de modo muy similar a cualquier
+aplicación ofimática. También recordar
+que su descarga es totalmente gratuita y
+su instalación lo que tiene algún costo
+en caso de que querramos es utilizar su
+interface web y su eh servicio web
+online. Eh, por lo demás, aquí lo que
+tenemos es vean que tenemos diferentes
+eh listas de opciones que le vamos a
+llamar, digamos, menús y estos eh
+diferentes eh menús, ¿verdad? eh que
+entonces en este caso es inicia insertar
+modelo, están divididos por bloques y eh
+y dentro de los bloques hay opciones,
+¿verdad? Esto muy similar a todos los
+demás paquetes ofimáticos. Eh, por su
+parte también tenemos tres secciones muy
+importantes que le vamos a llamar eh
+secciones de Power BI, que una es la
+parte de datos donde vamos a cargar la
+información y una vez que tengamos las
+bases de datos por acá, este es el lugar
+donde van a estar visibles. Por otra
+parte, tenemos las visualizaciones donde
+ustedes van a poder ver todas las
+diferentes visualizaciones que se pueden
+crear. Y una vez que uno escoge alguna
+visualización, por ejemplo, este gráfico
+o si desea crear, por ejemplo, una eh un
+gráfico de columnas como como este,
+entonces eh simplemente se escogen y
+después se habilitan estas opciones
+donde uno puede arrastrar y soltar los
+datos. Muy similar a cómo funcionan las
+tablas dinámicas y los gráficos
+dinámicos. Después eh tenemos por otra
+parte eh lo que es la sección de
+filtros, donde uno puede empezar a
+filtrar eh la información de acuerdo a
+ciertas variables y categorías
+correspondientes.
+Es importante también que cada sección
+pues puede tener subsecciones como por
+ejemplo filtros de este objeto visual,
+cuando uno quiere filtrar algo
+específico de un objeto visual por acá,
+filtros de esta página para que se
+filtre algo exclusivo de una página de
+Power BI o filtro de todas las páginas
+cuando quiero que se filtren todas las
+páginas, o sea, todo lo se filtre en
+todo el archivo que nosotros trabajemos.
+Después aquí tenemos las subsecciones,
+eh, por ejemplo, de lo que es e acá eh
+los elementos gráficos que antes les
+mencionaba, pero también está la sección
+de formato del objeto visual. Aquí es
+donde entonces se podrían cambiar,
+¿verdad?, e los elementos gráficos, eh,
+perdón, los elementos de formato de los
+gráficos, ¿verdad? Y después est el de
+análisis, que es donde hacemos un poco
+análisis un poco más especializados.
+Eso. Entonces son las secciones y
+subsecciones y después está las vistas.
+En este caso tenemos la vista gráfico,
+que es donde hacemos los gráficos y los
+dashpad. Tenemos la vista de datos donde
+se van a ver los datos una vez que estén
+cargados y la vista de modelos donde se
+van a ver los sistemas relacionales.
+También ahora está la vista DAX donde
+podemos eh generar la función de DAX de
+modo relativamente más sencillo y la
+función TMDL e donde nosotros podemos e
+digámoslo así programar un poco más el
+funcionamiento.
+Power BI no se podría no se podía hacer
+eh lo que es propiamente eh McR o
+programaciones, ¿verdad? Que eso pues eh
+era algo muy potente o es algo muy
+potente en Excel. Entonces uno decía,
+bueno, es que aquí en Power B no se
+puede no se puede hacer, ¿verdad? Pero
+en realidad si nosotros eh lo observamos
+por acá eh también ahora con esta
+función de TMDL perfectamente lo podemos
+hacer. Así que entonces ya tenemos esta
+nueva alternativa para poder eh
+trabajarlo.
+Muy bien. Entonces, eso a nivel de eh
+las vistas. Y por último eh tenemos algo
+muy importante que es aquí la parte que
+es transformar datos. Cuando entramos en
+esta sección de transformar datos nos
+habilita algo que llamamos el power
+query. Y el power query es donde
+entonces uno puede hacer más que todo
+manipulación de datos. es como el eh
+programa ya más especializado que está
+dentro de Power BI para el análisis o
+para la eh propiamente depuración de los
+datos. Entonces, ahora lo que vamos a
+hacer es proceder a cargar eh un
+archivo, ¿verdad? Y para ello vamos a
+utilizar
+la unidad 16, ¿verdad? Ahí en la unidad
+16 tenemos una carpeta de insumos y en
+esta carpeta de insumos entonces es
+donde vamos a poder trabajar en esta
+parte que se dice limpieza de datos y
+aquí es donde vamos a ir realizando el
+proceso de break. Para cargar datos esto
+es muy sencillo. Le damos aquí en
+obtener datos. Escogemos de cuál fuente
+queremos hacerlo. Por ejemplo, el libro
+de Excel. Y aquí entonces podemos eh
+ya propiamente entrar a la ubicación
+donde tenemos los datos y por ejemplo
+podríamos cargar esta del pip
+y escoger esta que dice PD y ya le
+podríamos dar en donde dice cargar o
+transformar datos. Transformar si
+necesitamos hacer algunos ajustes y
+cargar si ya queremos habilitarlo tal
+cual. Vamos a darle aquí en transformar
+datos y esto nos va a llevar a Power
+Query. Aquí en el Power Query es donde
+vamos a poder hacer toda manipulación de
+datos que querramos. Si nosotros eh en
+este caso le hubiéramos dado en lugar de
+transformar lo hubiéramos dado a cargar,
+entonces el de una vez nos hubiese
+cargado la base de datos
+correspondiente. Ya la podríamos ver acá
+con sus respectivas variables o
+podríamos verla aquí en la vista de
+datos.
+para ver exactamente la información.
+Y
+de modo muy preliminar, si nosotros
+quisiéramos, por ejemplo, en este
+gráfico de barras, podríamos agarrar la
+variable año que estaba por acá
+para que vean esta variable que column
+1.
+Si yo agarrase esta en el eje X y tirara
+por ejemplo pip en el eje Y, ¿ven? Nada
+más arrastrando y soltando. Ya puedo
+armar un gráfico de un modo muy
+sencillo. Esto lo vamos a ver con mucho
+más detalle en las siguientes unidades,
+de hecho, en la en la próxima unidad
+donde vamos ya a trabajar de modo más
+concreto en el desarrollo de gráficos.
+De momento esta es una introducción para
+que conozcan la herramienta en términos
+muy generales. Y ahora en el siguiente
+video pues vamos a entrar de lleno en
+esta parte de transformar datos para que
+conozcamos y comprendamos cómo es que se
+realiza la depuración y manipulación de
+datos utilizando la herramienta de Power
+Quad. M.

@@ -1,0 +1,308 @@
+Título del Video: 1. Teoría y Macros
+URL: https://youtu.be/OfOg5Gmgito?si=FgpRTmsUiNTWkR-n
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Entonces vamos a ver la unidad número
+cuatro, automatización de procesos en
+Microsoft Office con inteligencia
+artificial. Acá es importante hablar un
+poquito de los flujos de trabajo. ¿Qué
+es lo que buscan? Es la optimización y
+automatización de tareas.
+Los elementos fundamentales es que
+normalmente va a haber una entrada, van
+a haber actores que en este caso van a
+encargarse, son personas o sistemas que
+ejecutan tareas. Se hace un
+procesamiento, se utilizan un conjunto
+de herramientas y se obtiene un
+resultado de salida.
+Cuando se trabaja con eh
+automatizaciones, normalmente se está
+trabajando con un proceso y los procesos
+se tienden a mapear por medio de este
+tipo de estructuras de flujos, en los
+cuales vamos detallando cada uno de los
+pasos que se tienen que seguir al
+momento de trabajar alguna tarea.
+Algunos de los beneficios del mapeo del
+proceso es la visibilidad y comprensión,
+la identificación de ineficiencias, la
+estandarización y automatización y
+digitalización.
+Cuando se trabajaban este tipo de flujos
+de trabajo o eh procesos,
+normalmente se hacían procesos eh de
+automatización
+en los cuales detallábamos cada uno de
+los pasos que tenía que seguir el
+sistema. Entonces, teníamos que ser
+sumamente exhaustivos en detallar paso a
+paso cada cosa que tenía que hacer. Hoy
+por hoy nosotros logramos utilizar estes
+mismos eh flujos de trabajo, pero se le
+integra inteligencia artificial en
+diferentes partes del proceso con el fin
+de hacerlo de un modo más eficiente y
+poder sortear un poco lo que es la
+incertidumbre, porque la incertidumbre
+es en este es este conjunto de cosas eh
+que son difíciles en este momento de
+mapear porque tienen tanta eh diversidad
+que ese nivel de incertidumbre es el que
+hace que un proceso quizás no lo podamos
+automatizar al 100%. Entonces, un
+ejemplo sencillo es el manejo de un
+automóvil. Nosotros podríamos decir,
+"Bueno, manejar un automóvil puede ser
+sencillo. Yo le digo qué ruta se quiir y
+que él lo haga." Pero en el camino
+pueden pasar muchas cosas y ese nivel de
+incertidumbre, ese nivel de que apareció
+un hueco, que se metió un chiquito, que
+eh un camino cerrado, etcétera, es lo
+que él entonces eh le cuesta a la
+computadora poder eh sortear o poder en
+este caso eh sobrellevar de la mejor
+manera. Es ahí donde la inteligencia
+artificial por medio de modelos
+probabilísticos y ese nivel de análisis
+interno que tiene nos permite entonces
+hacer que la computadora pueda
+sobrellevar ese tipo de circunstancias.
+Ya en la parte propia del trabajo del
+día a día en la economía nacional, en la
+actividad productiva de Costa Rica, este
+tipo de e de flujos de trabajo se pueden
+utilizar en diversos ejemplos.
+Uno de los eh casos o elementos más
+importantes a tomar en consideración es
+cuáles son esos fundamentos de la
+automatización. Entonces, la
+automatización se define como el uso de
+tecnologías, como ya vimos, para
+ejecutar tareas o procesos. Y los
+fundamentos para realizar una adecuada
+automatización es que debe reducir la
+carga de trabajo manual, debe aumentar
+la velocidad en la ejecución y permite
+el escalado de las operaciones.
+¿Qué se puede automatizar? Bueno,
+básicamente lo que se automatiza son las
+tareas que son rutinarias, las tareas
+que impliquen o requieran la integración
+de información y aquellas que requieran,
+en este caso, reglas claras o que tengan
+reglas claras que podamos seguir. Ahora
+vamos a hacer un primer ejemplo de
+automatizaciones utilizando inteligencia
+artificial. La primera es realizar una
+macro
+en la cual le vamos a pedir que nos
+ayude a ejecutar cierto proceso.
+Para ello, entonces uno puede ingresar a
+Excel y en Excel entonces puede
+perfectamente grabar un proceso. Si yo
+me vengo aquí a Excel, voy a abrir Excel
+y hay que activar esta pestaña de
+programador. Este pestaña se activa aquí
+en herramientas o opciones
+y aquí nos vamos a personalizar cinta de
+opciones y tenemos que ver que esté
+activo la opción de desarrollador
+o programadora.
+Una vez hecho eso, si nos vamos aquí al
+programador, nosotros podemos darle
+donde dice grabar macro y al darle
+grabar macro, todos los procesos que
+nosotros vayamos haciendo se grabarían
+por cuestión de tiempo. Acá no vamos a
+hacer un ejemplo específico de eso
+durante la lección propia. Ahí si lo
+vamos a ejecutar, pero de momento la
+idea es que ustedes pues comprendan el
+funcionamiento de la grabación de
+macros, pero eh eh no se preocupen, en
+las lecciones se van a poder analizar
+con mucho más detalle.
+Ahora, lo que nosotros queremos es que
+ustedes comprendan que acá en el
+interior hay algo que se llama el Visual
+Basic. El Visual Basic es el entorno en
+el cual podemos programar
+dentro de las herramientas ofimáticas. Y
+es aquí donde programamos las famosas
+macros, que las macros no son más que
+scripts. Llamaremos scripts a esos
+programas donde vamos ya propiamente
+haciendo los comandos o por decirlo así
+desarrollando
+el código que en este caso la
+inteligencia artificial eh nos podría
+ayudar a a hacerlo. Y estos códigos lo
+que permiten es que la computadora pueda
+realizar ciertas tareas. Y si nosotros
+logramos entonces crear un buen código
+que ejecute cierta tarea, ya nosotros no
+tendríamos que estar haciendo esa tarea,
+sino que podríamos ejecutar el código y
+que de esa manera entonces la
+computadora lo pueda hacer, pueda
+ejecutar la tarea por su cuenta.
+Bueno, aquí se explica el procedimiento
+también. Acá se explica cómo se puede ya
+una vez que se crea la macro podemos
+ejecutarla, ¿verdad? Básicamente todas
+las macros que vamos a tener guardadas
+van a quedar ahí en la vista de
+programador, perdón, en la pestaña de
+programador, en la opción de macros. Ahí
+van a estar listadas las diferentes
+macros y ya podemos darle ejecutar a la
+que nosotros querramos. Pero en este
+caso, ¿verdad?, vamos ya propiamente a
+proceder a realizar esa automatización.
+Vamos a desarrollar una macro. Entonces,
+eh, por ejemplo, a utilizar este prom
+sencillo en alguna herramienta de
+inteligencia artificial
+a una herramienta de inteligencia
+artificial.
+Entonces, le podemos dar ese prom. Ese
+prom es sencillo. Recuerden que cuando
+pegamos a veces se pega ahí el como una
+imagen esto, ¿verdad? No se preocupen,
+simple llanamente lo quitamos.
+Y aquí podemos ir a buscar eh
+propiamente el archivo base, porque si
+ustedes ven, dice que eh tiene que
+manejar una estructura similar a la que
+le vamos a dar. Entonces, le vamos a dar
+una estructura de referencia.
+Va a ser esta que va a llamarse
+estructura esperada. Entonces, vamos a
+suministrársela.
+Y yo podría en este caso pedirle que nos
+haga la macro.
+Ahora bien, no vamos a desgastarnos
+mucho por acá porque en realidad la eh
+la instrucción está muy general.
+Entonces vamos a detenerlo
+y en realidad quiero que veamos
+el siguiente prom.
+Este prom que está por acá
+tiene mucho más detallado el proceso.
+Básicamente fuimos diciendo con detalle
+qué tenía que hacer acá. pues por
+cuestión de tiempo no nos vamos a poder
+detener en hacer eh pues o explicar todo
+ese detalle, pero acá nosotros le
+explicamos en detalle cuál es el proceso
+que tiene que hacer, muy muy detallado.
+Y entonces ahora sí, con este nivel de
+detalle
+si vamos eh propiamente a pedirle que
+nos ayude a crear en este caso esa
+macro.
+Aquí dice tomar los archivos de
+composición del pip. Entonces vamos a
+darle ese archivo que es, digamos, en
+este caso el archivo que siempre
+estaríamos utilizando como base.
+Y como ven,
+ya con este proceso detallado, le vamos
+a pedir que nos ayude a generar la
+macro. Inclusive le voy a quitar el modo
+de pensamiento para que lo haga pues un
+poco más rápido.
+Igual él al final lo habilitó porque
+considero que era necesario utilizar un
+modelo de razonamiento.
+Y acá él ya procede entonces a analizar.
+Acá vamos. Bueno, como ven, va a tardar
+un rato mientras logra generar el
+código. Vamos a pausar un momento la
+grabación para que entonces eh pues
+ahorremos este tiempo en el cual la
+inteligencia artificial está haciendo.
+Ah, bueno, ya aquí lo genero.
+logra entender cuál es la estructura del
+archivo, logra comprender cuáles son las
+cosas que tienen que pasar
+y ya empieza a darme el código exacto.
+¿Ven? Este ya es el código como tal que
+me está planteando. Yo lo voy a copiar
+y voy a abrir en este caso este archivo
+de composición del pip. ¿Ven? Entonces,
+yo ocupo que este esta información pase
+en un formato diferente a esta hoja dos.
+Entonces,
+lo que voy a hacer, voy a cerrar el
+libro uno que habíamos hablado antes.
+Voy a cerrar aquí el Visual Basic para
+hacerlo desde cero. Vean que si yo me
+voy a programador, le doy aquí en Visual
+Basic para insertar macro que entonces
+me ayudó a crear, le voy a dar aquí en
+donde dice insertar. Le doy módulo y le
+doy a dar pegar. Ven, entonces ya con
+esto él me ayudó a crear el código y
+ahora lo que le voy a dar es ejecutar
+y ya me dice que lo realizó
+adecuadamente
+y si ustedes logran observar
+efectivamente lo hizo del modo correcto.
+Entonces, este es el proceso que
+realizamos de modo sencillo para que al
+explicarle un proceso de inteligencia
+artificial, entonces él pueda hacer una
+programación, en este caso una macro en
+Excel, que me ayude a realizar ese
+proceso. Y si esto es algo que tenemos
+que hacer todos los meses pasando una
+información de un formato a otro,
+entonces por medio de estas macros de
+Excel eh podríamos perfectamente ir
+automatizando estos procesos. en la
+clase, pues vamos a explicar con más
+detalle pues otros ejemplos en esta
+misma línea. De momento, para efectos de
+resumen, lo que queríamos era recordar
+estos fundamentos teóricos, entender
+cómo le debemos de detallar por medio de
+un prom con mucha exactitud paso a paso
+qué es lo que tienen que hacer. Y es un
+paso, un proceso muy concreto, por eso
+es que lo podemos hacer de esa manera.
+Si son procesos que en este caso son muy
+muy eh eh complejos y y requieren algún
+nivel de análisis o demás, es mejor
+hacerlo por pasos. Pero cuando es algo
+muy concreto en el cual podemos
+detallarle con mucha exactitud que vaya
+haciendo paso por paso, podemos hacer o
+narrarle el proceso como hicimos en este
+prom y él va a poder generar la macrores
+respectiva. Igual esto pasa por un
+proceso de ajustes. Uno hace la primer
+promí
+va y va hasta que logra el resultado.
+Este prom que nosotros le dimos ya pasó
+por un proceso de revisión bastante
+detallado hasta que llegamos a lograr
+obtener este resultado. Y una vez que ya
+lo tenemos, ¿cuál es la ventaja? La
+próxima vez que lo requiramos, ya
+tenemos el código, ya tenemos la macro.
+Simplanamente cargamos la nueva
+información en la hoja uno, nos venimos
+a macros, le damos ejecutar y ya con eso
+nos generaría la eh la segunda hoja
+totalmente lista. Bueno, eso sería todo
+por el tema eh inicial de desarrollar
+macros sencillas. Ahora vamos a pasar en
+el siguiente video a el próximo tema, ya
+que va a estar más asociado al tema de
+actualización de datos de modo
+automático utilizando APIs. Yes.

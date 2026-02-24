@@ -1,0 +1,614 @@
+Título del Video: Uso de Power Query
+URL: https://www.youtube.com/watch?v=bAuDttqoMEY
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora entonces vamos a
+proceder a realizar el proceso desde el
+Power Query, ¿verdad? Como vimos
+anteriormente, lo voy a volver a
+repetir. Vamos a un libro de Excel.
+Nosotros podemos cargar cualquier hoja
+de ese libro de Excel que nosotros
+queramos. Por ejemplo, aquí este que se
+llama BD. Entonces, yo la puedo eh
+cargar, ¿verdad? Y eso ya
+automáticamente entonces me permite
+cargar acá los datos asociados. Ahora
+bien, ¿qué sucede en este punto? Bueno,
+que si por ejemplo yo llego y cambio la
+ubicación de esa de ese archivo,
+entonces esta posibilidad de acá se me o
+por la conexión que yo estoy haciendo
+con este set de datos se me estaría eh
+perdiendo. Entonces, yo podría venirme
+aquí a transformar y darle configuración
+de orígenes de datos. Y aquí entonces yo
+podría cambiar este este origen de datos
+y de esa manera entonces eh poder ya eh
+modificar el origen de estos datos. Voy
+a poner aquí en cambiar origen y busco
+dónde está ahora el archivo y ya con eso
+entonces le estaría cambiando el origen
+y eh de esa manera pues actualizando el
+B.
+Este es el primer elemento que nos
+gustaría en este caso contemplar. El
+segundo, ¿verdad?, propiamente ya tiene
+que ver con la transformación de datos
+como tal. Entonces, uno puede ingresar
+aquí a la opción de transformar datos,
+¿verdad? Y aquí en transformar datos,
+entonces también podemos cargar
+información. Por ejemplo, yo le podría
+dar libro de Excel, también podría
+cargar esta que dice tipo de cambio
+y podemos cargar esta que TC1, TC2,
+¿verdad?
+Intá
+entonces vamos a cargar estos y vean que
+aquí los datos no vienen e bien
+acomodados porque normalmente cuando uno
+piensa en una base de datos piensan algo
+como esto, ¿verdad? Aquí por ejemplo yo
+le puedo cambiar el nombre. Para cambiar
+el nombre una columna solo le doy doble
+clic y aquí por ejemplo tengo el año. Ya
+después entonces aquí tengo el pip como
+tal, ¿verdad?
+Y ya eh después las demás variables
+asociadas, ¿verdad? Eso es lo que
+estamos pensando como una base de datos,
+es decir, tiene varias columnas y la
+celda A1 constituye entonces la primer
+el primer registro y eh la primer fila
+se dedica a los encabezados y ya después
+de ahí eh siguen los registros. En
+cambio, en esta que estamos observando
+acá, eso no sucede. Si ustedes ven las
+primeras filas, en realidad no eh tienen
+eh los datos, sino que los datos
+empiezan aquí en consecutivo. Entonces,
+¿qué tenemos que hacer? Empezar a
+operar, ¿verdad? algunos ajustes en el
+en la eh pues propiamente en el archivo.
+Entonces, nos podemos parar aquí en la
+fila cuatro y le podemos dar a donde
+dice editor, perdón, en transformar y
+aquí en transformar le podemos dar, no,
+perdón, es en inicio, perdón. Ahí le
+damos donde dice quitar filas y le
+podemos decir quitar filas superiores,
+¿verdad? Y aquí yo le puedo decir
+cuántas filas quiero quitar. Igual yo
+podría quitar las fibras inferiores,
+podría decir cuántas he deseo quitar o
+demás. Eso lo podemos hacer. ¿Ven? Aquí
+yo le voy a dar que quite las primeras
+tres, ¿ven? Aquí en quitar filas,
+entonces podemos hasta quitar filas
+alternas, superiores, inferiores, filas
+en blanco, etcétera. Entonces, ven que
+aquí ya quité esas primeras tres filas.
+Lo otro
+que también puedo hacer es quitar
+columnas. Si ustedes ven aquí hay varias
+columnas que están en blanco que en
+realidad no eh debían de haberse
+cargado, pero tenían información en
+blanco. Yo puedo con shift venirme hasta
+acá y eh seleccionar todas esas columnas
+y darle clic derecho, quitar columnas.
+Entonces, de esa manera también podría
+eliminar esas columnas, ¿verdad? Lo otro
+que en este caso podemos realizar es
+quitar los eh vacíos. Por ejemplo, si
+nos paramos propiamente en esto que dice
+columna tres,
+yo puedo observar aquí en la columna
+tres
+que hay algunos valores nulos, o sea,
+que están en blanco más yo puedo hasta
+seleccionarlos para verlos. ¿Ven? Hay un
+nulo ahí. Si yo quisiera quitar ese
+nulo, ¿verdad? Eh, pues
+o lo deselecciono aquí, lo quito,
+¿verdad? Eso puede ser una opción o le
+doy quitar vacíos.
+Nada más que perdónemme, ¿ven que aquí
+eh por error primero los escogí y
+después los quité, ¿verdad? Voy a
+retroceder dos pasos. Voy a quitar este
+paso y voy a quitar este paso porque
+eran meramente intermedios. Entonces
+aquí con la X yo los puedo quitar
+aquí. Vean cómo yo eh puedo darle en
+quitar vacíos. Ahora sí todos están
+seleccionados. Y si le doy quitar
+vacíos, ya con eso logar esos vacíos o
+nulos, ¿verdad? Lo otro es que yo puedo
+quitar los errores, ¿ven? aquí en esta
+columna eh cinco que hay varios que
+tienen error, entonces yo podría quitar
+esas filas porque esos datos tienen
+errores, no siempre es lo más adecuado
+porque vean que si yo quito error quito
+toda la fila y tal vez hay valores en
+esa fila que para mí son importantes.
+Entonces quitar todos estos errores pues
+tal vez no necesariamente es lo mejor,
+pero si yo quisiera quitar esos errores,
+yo puedo darle aquí clic derecho y le
+doy quitar errores. Y vean cómo logro.
+Entonces, perdón, vamos a ver qué
+sucedió. Se quedó un tuxito pegado.
+Vamos a dar un momento.
+Y muy bien, ahí ya entonces podemos ver
+cómo quitó todos los errores, ¿verdad?
+Entonces, de esa manera quitamos todas
+las columnas que tenían errores, eh,
+todas las filas que tenían errores.
+Ahora sí, ¿ven que esta primera de acá
+en realidad es el nombre que deberían de
+tener las column eh las columnas,
+¿verdad? Es decir, es el nombre de las
+variables. Entonces, una vez que ya hice
+esta limpieza y logré que estos eh
+valores que están aquí sean los que
+están asociados al encabezado, yo puedo
+darle en esta opción que dice usar la
+primera fila como encabezado. Y en qué
+momento que hago eso, pues ya le dios
+valores, ¿verdad? Eh, lo otro es que
+podemos cambiarle el formato a los
+datos. Vean, por ejemplo, en este que
+dice tipo de cambio de compra, ¿verdad?
+Este está como número decimal. ¿Dónde
+puedo ver eso? Aquí en el menú de
+inicio, eh, perdón, en el menú de
+inicio, sí, perdón, menú de inicio, yo
+eh tengo diferentes opciones asociadas
+al eh a la al formato que tienen en este
+caso datos. Ustedes ven, este es un
+número eh decimal, lo cual está bien,
+eso está muy bien, pero digamos que yo
+quisiera pasarlo un número entero, por
+decir algo. Entonces, yo podría añirme
+acá y darle número entero y le doy
+sustituir la actual. Y en este caso ya
+sustituiría esa columna por una columna
+con números enteros. Si yo, por alguna
+razón en este caso, lo que quisiera
+fuera eh ya más bien tener eh la eh la
+columna con un número entero en otra
+columna, ¿verdad? Eso pues lo hubiera
+dado entonces agregar una columna,
+¿verdad? Ahora bien, eh lo otro que
+también podríamos hacer es reemplazar
+valores. Si por ejemplo hay aquí algún
+valor y yo quisiera cambiarlo, ¿verdad?
+Eh,
+por ejemplo, acá quisiera cambiar eh, no
+sé, abril por APR para que esté en
+inglés. Entonces, yo también
+perfectamente lo podría hacer.
+Simplenamente acá en transformar me
+vengo a donde dice eh reemplazar los
+valores y ya puedo decirle pues cuál es
+el valor que quiero, por ejemplo,
+a R y lo quiero cambiar por APR, por
+ejemplo, para ponerlo en inglés.
+Entonces aquí vean como ya él eh logró
+en este caso eh cambiar esto a APR.
+Entonces hizo esa sustitución. Después
+eh puedo cambiarle eh también el tipo,
+¿verdad? Yo podría perfectamente a esta
+fecha, ¿verdad? Eh venir acá y eh
+transformarle también eh por ejemplo a
+que esto se convierta en una fecha. Y
+vean como pues él lo logró hacer
+bastante bien, solo que estas me dieron
+errores. Si yo me vengo una hacia atrás
+es porque estas primeras tienen enero y
+enero desde eh como él está haciendo una
+conversión y estamos nuevamente el
+modelo por detrás trabaja con datos en
+inglés, entonces por eso n no lo logra
+comprender adecuadamente. Pero si yo
+también insertara, vean que aquí no
+estoy logrando mover entre pasos, yo
+puedo moverme entre los diferentes pasos
+que yo quiera. Si yo me coloco entonces
+en este paso de acá arriba y modifico
+esta fecha de acá y antes, perdón, de
+cambiarle el formato, que fue lo que
+hicimos acá, antes de hacer ese paso que
+es este que está aquí, yo me viniera y
+le doy reemplazar los valores. Entonces,
+efectivamente insertar y le digo,
+inserte enero o agarre enero y modifico
+por verdad, de January. Entonces, vean
+que efectivamente él si ya logra
+procesar todos esos datos adecuadamente
+y vean que esto es muy poderoso porque
+esto no tiene nada de formato de fecha,
+inclusive hasta es difícil inclusive un
+Excel no podría convertir la fecha eh de
+un modo sencillo, pero desde aquí desde
+el Power Qu lo está logrando hacer con
+eh mucha facilidad, ¿verdad?
+Eh, lo otro que también es importante es
+que yo puedo unir tablas. Por ejemplo,
+estas eh tres tablas tienen información
+del tipo de cambio, ¿ven? Entonces, yo
+podría venirme acá. Bueno, aquí vean que
+por cierto esta fecha también la podría
+convertir en fecha. Hagamos la
+conversión
+actual. Tenemos también hay un
+problemita con algunos por
+principalmente
+creo que es agosto.
+Vamos a hacer una sustitución también.
+Y entonces vamos a dar de reemplazar los
+valores, vamos a insertar el paso. Voy a
+sustituir hago
+y listo. Ya con eso cuando hace la
+conversión lo logra hacer adecuadamente.
+Y TC2 en este caso vean que ya está en
+fecha, entonces no tendría mayor
+inconveniente. Ahora, entonces estas
+tres tablas yo quisiera poder unirlas.
+Bueno, esta tiene aquí unos valores
+nulos, entonces yo quisiera pues limpiar
+esos valores nulos porque no me gustaría
+que estén. Entonces, tal y como
+aprendimos, podemos darle clic derecho y
+quitar e, perdón, en la pestaña le
+podríamos dar quitar vacíos.
+Dicho esto, entonces yo a mí me gustaría
+unir estas tres tablas y formar una
+sola, ¿verdad? Entonces, para hacer eso
+es una de las herramientas más poderosas
+que tenemos en PowerP y es unir varias
+tablas en una sola. Entonces, le podemos
+dar aquí en inicio y aquí en inicio dice
+anexar consultas. Si le doy en la
+pestañita de la par, dice anexar
+consultas para crear una nueva, o sea,
+para crear una eh tabla nueva. Eh, en
+este caso yo puedo crear eh dar tres o
+más tablas. Aquí puedo eh si ustedes
+ven, puedo eliminar, puedo agregar.
+Entonces, voy a agregar TS1, voy a
+agregar TC2 y voy a agregar TC3. Y de
+esa manera, cuando yo le doy en anexar,
+ella automáticamente
+une en una sola tabla
+todas las tablas anteriores. Si hay
+alguna columna que una tuviera y otra
+no, por ejemplo, DIF, dif1,
+no está ni en TC2 ni en TC3, entonces lo
+voy a poner como un rulo para las demás.
+Como tienen el mismo encabezado, tienen
+el mismo nombre de variable, entonces
+ella entiende que es la misma variable y
+las termina uniendo o las termina
+apilando hacia abajo, ¿verdad? Entonces,
+vean que esto es algo muy poderoso y muy
+bueno de esta herramienta de Power
+Query. Eh, después otro de los eh puntos
+que es bastante bastante eh potente y
+bueno acá es la opción de transponer.
+Para ello, pues vamos a utilizar esta eh
+tabla de acá. Si ustedes ven, trae el
+año y trae las variables, ¿verdad? En
+ocasiones en en el manejo de series de
+tiempo se tiende a eh que sea al revés,
+es decir, que venga la variable acá y
+que vengan los años. En realidad son dos
+opciones de hacerlo. Acá podemos hacer
+una copia de ese archivo o duplicarla.
+Y yo podría en este caso transponerla,
+¿verdad? Transpuesta.
+Y entonces yo podría venirme acá y eh
+seleccionar toda la tabla
+tabla como tal. Y aquí en transformar
+podría darle una opción que dice
+transponer. Y vean que en el momento en
+que le di en transponer
+se hizo ese cambio que habíamos
+conversado,
+en el cual ahora la variable está en
+la columna, en las columnas, ¿verdad?
+Entonces, vean qué interesante en
+relación con este. Entonces, vean acá
+como yo puedo ver entonces cuál fue el
+comportamiento de esta variable en el
+tiempo y eso es algo que a veces pues
+tiende a usarse, ¿verdad?, de una forma
+u otra. Entonces, transponer las tablas
+tiende a ser pues relativamente
+sencillo, pero eh si ustedes ven
+perdimos los encabezados y eso es un eh
+problema importante. Entonces, ¿qué
+podemos eh hacer acá? ¿Verdad? Bueno,
+podemos utilizar otra técnica un poquito
+diferente. Voy a duplicar y así de una
+vez eh les mostramos esta otra
+posibilidad que entonces eh podemos
+hacer eh lo siguiente. Yo puedo eh
+agarrar que no y seleccionar todas estas
+columnas que son variables, ¿verdad?
+Las selecciono todas y le puedo dar en
+esta opción que dice anular dinamización
+de columnas. El momento que hago eso,
+transformo todas esas columnas en filas.
+Es decir, desde un punto de vista
+estadístico es convertir eh todas esas
+variables en categorías. Entonces, ¿ven?
+Ahora yo puedo ver las categorías, puedo
+agarrar en este caso eh y filtrar, por
+ejemplo, o utilizar entonces eh filtros,
+¿verdad? Y si yo quiero solo ver el la
+variable G o si yo quiero ver eh
+solamente lo que es eh la variable de
+formación bruta de capital, por decirles
+es un ejemplo, entonces ven, yo lo puedo
+filtrar, ¿ven? Entonces ahora lo que
+antes eran columnas o eran variables,
+ahora se están convirtiendo en
+categorías y eso nos permite poder
+usarlas como filtros. Y eso pues en
+muchas ocasiones es interesante y se
+puede utilizar. La ventaja es esa, que
+puedo utilizar la variable la base de
+datos de esta forma, puedo usar la base
+de datos de esta forma o puedo usar la
+base de datos de esta forma, ¿verdad?
+Entonces, vean que eso nos da cierta
+versatilidad.
+También si yo quisiera voy a duplicar
+también esta tabla,
+yo podría operarlo ahora a inversa y
+entonces convertir estas categorías, por
+ejemplo, el año
+en variables. Entonces, yo podría
+venirme acá
+y
+podría entonces
+más bien eh convertir en columnas
+dinámicas. Aquí era anular la
+dinamización, ¿verdad? Esa es una opción
+que es más bien convertir las eh
+variables en categorías. Pero si yo
+más bien en lugar de esta opción
+escogiera la opción que dice columna
+dinámica, es la inversa, o sea, es
+convertir una categoría en variables.
+Véan acá yo puedo venir acá y puedo
+decirle cuál es la columna de valores.
+Bueno, es esta que dice valor. Esta es
+la eh estos son los verdaderos valores
+que deberían de tener las variables,
+porque entonces cuando yo pase año,
+¿verdad?, a columna. Entonces, eh vamos
+a tener ahora una columna en 1991, una
+columna en 1992 y así. Pero, ¿cuál es el
+valor que debería estar asociado a ese
+año? Bueno, los valores de eh las
+variables y esos valores están en esta
+columna que llamamos valor. Muy bien.
+Y si hacemos esto,
+vean que él ya logró hacer esa eh
+conversión. dejó esta columna que seguía
+aquí como atributo y 1991, 92, 93 y todo
+eso, ¿verdad? Que era eh pues por
+decirlo así el año, ¿verdad? Ahora me lo
+está poniendo como columnas, ¿verdad?
+Entonces, vean como ahora puedo tener
+una base de datos donde tengo los años y
+las variables, o puedo tener una base de
+datos donde tenga los años y el atributo
+como
+eh categorías y eso me ayuda para
+filtrarlo y manejarlo de cierta manera o
+podría tener la base de datos
+perfectamente como atributos y con los
+años como categorías. Entonces, eso me
+da pues mucha versatilidad.
+Muy bien. Y ahora para ir finalizando
+con estos temitas
+eh de lo que es el power query, ¿verdad?
+Porque pues esta es una herramienta muy
+poderosa y e pues aquí le podremos sacar
+mucho jugo. Vamos a ver nada más dos
+temitas adicionales para que ustedes lo
+puedan tener por acá. Una es aquí
+en archivo dice opciones y
+configuración. Si nos vamos aquí a la
+que dice opciones,
+podemos irnos a esta parte que dice
+diagnóstico
+y nosotros podemos darle acá en
+habilitar seguimiento
+y eh
+pues también aquí hay varios mecanismos
+de diagnóstico y de seguimiento,
+¿verdad? Pero si nosotros habilitáramos
+esto,
+quiero que vean,
+quiero que vean como ahora aquí en
+herramientas eh van a estar estas estos
+elementos, ¿verdad?, que dicen, por
+ejemplo, eh paso del diagnóstico.
+Entonces, ahí nos puede servir para
+hacer algún diagnóstico.
+Si uno quisiera, pues el analisa,
+digamos, pero esto es un poco más
+complejo, ¿verdad? eh las
+características de la variable y demás y
+hace pues un diagnóstico y si ya le doy
+aquí donde dice iniciar diagnóstico, va
+a empezar a analizar cuáles son valores
+extraños, eh cuáles son elementos que
+deberían de analizarse y revisarse en lo
+que tiene que ver con eh con el manejo
+de estos datos, ¿verdad? Para detectar
+principalmente valores extraños o
+atípicos. Eso es un esquema, ¿verdad?
+Pero en realidad eh creo que esto pues
+eh de momento no no es tan necesario. En
+realidad eh lo que me gustaría más que
+veamos es como en vista también nos
+aparecen estas opciones que dicen
+distribución de las columnas. Eso nos
+permite, por ejemplo,
+eh ver cuál es el comportamiento de
+estas columnas, ¿ven? Entonces, por
+ejemplo, yo me voy a ir aquí a TC1 y
+vean que yo puedo ver como un pequeño
+histograma, una pequeña distribución de
+frecuencias de esa de esa columna.
+También puedo darle el perfil de la
+columna y entonces ya el abajo a veces
+esto pues carga demasiado la la vista,
+¿verdad? Pero vean cómo me hace un
+recuento, me saca cuántos son únicos,
+cuántos son na, cuántos son ceros, cuál
+es el máximo, mínimo, el máximo, el
+promedio y la dirción para cada
+variable. Entonces, creo que este es un
+elemento que nos puede servir y también
+esta que dice calidad de las eh columnas
+para ver cuántos son errores, cuántos
+son vacíos y demás. Esto ya pues queda a
+gusto de cada uno, ¿verdad? Lo que
+nosotros queramos hacer, pero son
+elementos que podríamos o que es
+importante de conocer si quisiéramos
+pues en este caso revisar un poco los
+datos. Y lo último que queremos eh
+realizar es el uso de una columna de eh
+agrupar varias bases de datos en una
+sola, pero que vengan de archivos que no
+estén en un mismo archivo, sino que
+tengo una carpeta con varios archivos y
+los quiero hacer en uno solo. Vamos a
+ver justamente ese punto. Muy bien. Para
+realizar lo anterior, entonces vamos a
+utilizar igual la carpeta acá eh de
+insumos y va a haber una subcarpeta que
+se llama unir. Estos son básicamente
+bases de datos simuladas de ventas de
+varios meses.
+Entonces, ven, son varios meses ahí que
+estamos simulando. Entonces, lo primero
+que vamos a hacer es vamos a eliminar,
+¿verdad?, este encabezado.
+Ahí ustedes pueden verificar que lo que
+lo tenga, pero bueno, al fin y al cabo
+vamos a a ver, ¿verdad?, que todas eh
+tienen como una misma estructura. Est es
+las ventas de un mes, estas las ventas
+de otro mes y así se cierre. Entonces,
+acá
+y ahí entonces están los archivos. Ahora
+bien, nosotros podríamos venirnos aquí,
+¿verdad? Y vamos a hacerlo un un eh
+Power BI diferente, un Power BI nuevo.
+Vamos a darle aquí a este que dice
+informe en blanco.
+Y aquí en op datos vamos a darle la
+opción de más.
+Vamos a venirnos aquí a carpeta
+y vamos a ir a buscar la carpeta
+respectiva.
+Voy aquí a parar un momento esto para
+simplificar el proceso. Muy bien. Aquí
+entonces ya buscamos la carpeta. Es la
+que tiene los archivos que quiero unir.
+Lo voy a dar en aceptar
+y lo voy a dar en transformar datos.
+Bueno, hecho aquí está una opción que
+dice combinar y transformar de datos.
+Podemos darle ahí en esa opción
+porque va a unir todos los archivos de
+esta, ¿verdad? Pero e acá en todas
+quiero usar la que se llama datos,
+¿verdad? Que se llama datos. Y aquí
+yo quiero darle a aceptar,
+pero entonces quiero que vean lo que va
+a suceder por acá.
+Aquí al unir
+entonces él ah no logró unir
+adecuadamente el proceso porque había
+una columna encabezado al inicio,
+¿verdad? Y eso es justamente lo que se
+hace en este proceso. Si ustedes ven
+este proceso, todo eso que ustedes ven
+aquí arriba es el proceso de
+transformación que ella va a hacer.
+Entonces, como hay que hacerle a todos
+el mismo proceso, que es eliminarle
+la primera fila, entonces, vamos a hacer
+esta navegación.
+Me voy a meter aquí un poquito antes.
+Voy a eliminar
+en ese caso esa fila, ¿verdad? Entonces
+voy a venirme aquí. Voy a darle quitar
+filas y voy a darle quitar eh filas
+superiores, ¿verdad? Para en este caso
+quitar eso
+y ya después de aquí sí le voy a dar
+encabezados promovidos.
+Y aquí entonces van a ver que ya
+efectivamente este proceso se vino abajo
+porque
+como ustedes ven ya estos nombres no van
+a ser los mismos. ¿Ven? Estos nombres no
+van a ser los míos, no hay problema. Yo
+puedo quitar este último punto porque en
+realidad todo lo demás lo hizo bien.
+Vean que ahí está uniendo todas las
+las tablas en una sola. Y esto lo están
+haciendo porque todas las tablas tienen
+esa primer columna, ¿verdad? Si estas no
+hubieran traído, pues simplamente lo
+ajustamos. Y aquí habrá expresión nada
+más de darle el formato que nosotros
+queramos. Aquí le vamos a poner eh fecha
+y por lo demás está bien que sea así
+texto, texto y aquí podemos darle
+números y demás, pero en realidad ahí ya
+está el proceso establecido.
+Y como les digo, el principal problema
+se dio por el hecho de que los los e los
+archivos pues eh tenían esa primer
+columna, ¿verdad?, era diferente, pero
+sí eh bueno, esa primer fila que estaban
+generando problemas de verdad que hacía
+que no se no se viera bien, pero en
+realidad vean que eh logró ya unir todas
+las eh todas las ventas de los
+diferentes meses en un solo archivo.
+como recomendación. Aquí lo hicimos como
+mecanismo para que ustedes conocieran
+pues el el problema el que se podrían
+enfrentar, pero como recomendación
+podrían entonces modificar los archivos
+para que no tengan ese primer fila y no
+les genere tanto problema, sino que eh
+ya los tres archivos vengan más limpios
+desde el inicio, quitando, por decirlo
+de esa manera acá. Si ustedes quitaran
+esta primer fila de todos los archivos
+para que todas empiecen con un archivo
+verdaderamente adecuado, donde la celda
+A1 sea la que trae el primer encabezado,
+pues el proceso sería mucho más sencillo
+y no sería necesario hacer ese ajuste.
+Pero en dado caso si tienen que hacerlo
+simple llanamente modificando el proceso
+tal cual lo acabamos de hacer. Muchas
+gracias.

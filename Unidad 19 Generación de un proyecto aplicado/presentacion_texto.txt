@@ -1,0 +1,238 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1l1fxs45JUiDfQG-3fn113V79eNiegil7F5nsiDnbLvk/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+MÓDULO 6
+Proyecto Integrador Final
+Demostración articulada e integral de competencias mediante diseño e implementación de una solución aplicada basada en inteligencia artificial y automatización en contexto real o simulado.
+
+--- Diapositiva 3 ---
+Propósito del Proyecto Final
+Evidencia de Cierre
+Consolidación del proceso formativo completo
+Portafolio Profesional
+Producto demostrable de competencias
+Simulación Laboral
+Caso real de desempeño profesional
+Empleabilidad
+Evidencia concreta para inserción laboral
+
+--- Diapositiva 4 ---
+Integración de Módulos
+Módulo 2
+Automatización con IA y Office
+Módulo 3
+Automatizaciones programadas
+Módulo 4
+Contenido multimedia con IA
+Módulo 5
+Análisis y visualización de datos
+Módulo 6
+Proyecto integrador aplicado
+
+--- Diapositiva 5 ---
+Evolución del Aprendizaje Completo
+Módulo 2
+Automatización de tareas rutinarias con IA
+Módulo 3
+Lógica de flujos completos y decisiones
+Módulo 4
+Generación y automatización de contenido
+Módulo 5
+Análisis de datos y visualización
+Módulo 6
+Solución completa con decisiones técnicas propias
+
+--- Diapositiva 6 ---
+Enfoque del Proyecto
+1
+Problema Real o Realista
+Lugar de trabajo, emprendimiento propio, contexto simulado o sector específico
+2
+Solución Funcional
+No se busca perfección, sino coherencia y justificación de decisiones
+3
+Aplicación Práctica
+Atención al cliente, administración, educación, comercio, servicios o sector público
+
+--- Diapositiva 7 ---
+Requisitos Mínimos del Proyecto
+Tres Componentes
+Integrar IA generativa, automatización de procesos y programación o análisis de datos
+Problema Concreto
+Resolver situación claramente descrita y justificada
+Producto Demostrable
+Flujo, dashboard, bot, sistema automatizado o conjunto de archivos funcionales
+Evidencia y Documentación
+Funcionamiento comprobable con explicación clara y comprensible
+
+--- Diapositiva 8 ---
+Sectores de Aplicación Profesional
+Atención al Cliente
+Automatización de servicios y soporte
+Administración
+Optimización de procesos administrativos
+Educación
+Sistemas de seguimiento y tutorías
+Comercio
+Marketing y gestión de ventas
+Sector Público
+Servicios comunitarios y gestión
+
+--- Diapositiva 9 ---
+Banco de Ideas: Atención y Servicios
+Chatbot de Atención
+Con registro automático de consultas y clasificación inteligente
+Clasificador de Solicitudes
+Respuesta preliminar automatizada según tipo y prioridad
+Sistema de Escalamiento
+Asignación automática de casos según nivel de urgencia
+Dashboard de Desempeño
+Análisis de métricas de atención al cliente con KPIs
+
+--- Diapositiva 10 ---
+Banco de Ideas: Automatización Administrativa
+Reportes Periódicos
+Automatización de generación de informes en Office con macros
+Consolidación de Información
+Integración automática desde múltiples archivos y fuentes
+Validación de Datos
+Flujo de limpieza y verificación de datos administrativos
+Registro de Eventos
+Sistema automatizado de documentación de incidencias
+Generación de Documentos
+Creación automática de actas y documentos estandarizados
+
+--- Diapositiva 11 ---
+Banco de Ideas: Marketing y Contenido
+Generador de Contenidos
+Para redes sociales con calendario automático de publicaciones
+Respuestas Automáticas
+Sistema para mensajes comerciales con personalización
+Análisis de Sentimiento
+Evaluación de comentarios y feedback de clientes
+Campañas Automatizadas
+Gestión básica con reportes de resultados automáticos
+
+--- Diapositiva 12 ---
+Banco de Ideas: Análisis y Gestión
+Dashboard Operativo
+Panel con indicadores clave financieros u operativos
+Análisis de Eficiencia
+Evaluación de tiempos, costos y productividad
+Identificación de Cuellos de Botella
+Detección de puntos críticos en procesos
+
+--- Diapositiva 13 ---
+Banco de Ideas: Educación y Servicios Comunitarios
+Seguimiento de Estudiantes
+Sistema de monitoreo de participantes y progreso académico
+Chatbot Tutor
+Asistente académico automatizado para consultas frecuentes
+Retroalimentación Automatizada
+Sistema de evaluación y comentarios sobre tareas
+Análisis de Participación
+Dashboard de asistencia, participación y desempeño
+Materiales Educativos
+Generación de contenidos didácticos con IA
+
+--- Diapositiva 14 ---
+Entregables del Proyecto Final
+01
+Descripción del Problema
+Explicación clara del contexto y situación abordada
+02
+Solución Implementada
+Producto funcional con evidencia demostrable
+03
+Esquema del Flujo
+Explicación del funcionamiento y arquitectura
+04
+Resultados y Beneficios
+Impacto obtenido o esperado de la solución
+05
+Reflexión Final
+Aprendizajes, mejoras posibles y escalabilidad
+
+--- Diapositiva 15 ---
+Capacidades Consolidadas
+Integración Tecnológica
+Análisis de Problemas
+Pensamiento Sistémico
+Autonomía Tecnológica
+Comunicación Técnica
+Adaptabilidad Laboral
+
+--- Diapositiva 16 ---
+Valor para la Empleabilidad
+Demostración de Competencias
+El proyecto final evidencia capacidad para aplicar IA y automatización en contextos reales, resolver problemas operativos con tecnología y adaptarse a distintos sectores productivos.
+Funciones del Proyecto
+Evidencia de competencias laborales
+Producto de portafolio profesional
+Insumo para inserción o reconversión laboral
+
+--- Diapositiva 17 ---
+Criterios de Evaluación del Proyecto
+Integración de Contenidos
+Coherencia en la integración de herramientas y conocimientos del programa
+Funcionalidad
+Solución demostrable y operativa en contexto real o simulado
+Aplicabilidad
+Respuesta efectiva a un problema realista con impacto medible
+Claridad
+Explicación comprensible del proceso, decisiones y resultados
+Reflexión
+Valoración crítica del trabajo realizado y aprendizajes
+
+--- Diapositiva 18 ---
+Rúbrica del Proyecto Integrador Final
+Criterio
+Logro Alto
+Logro Medio
+Logro Básico
+Integración técnica
+Múltiples componentes coherentes
+Integra algunos componentes
+Integración limitada
+Funcionalidad
+Solución estable y demostrable
+Funciona parcialmente
+Funcionalidad limitada
+Aplicabilidad
+Resuelve problema real con impacto
+Problema relevante, impacto limitado
+Problema poco claro
+Documentación
+Clara, estructurada y profesional
+Comprensible
+Insuficiente
+Reflexión final
+Análisis profundo del aprendizaje
+Reflexión básica
+Reflexión superficial
+
+--- Diapositiva 19 ---
+Competencias Transversales Desarrolladas
+Técnicas
+Programación básica y lógica
+Uso de herramientas de automatización
+Análisis y visualización de datos
+Integración de sistemas con IA
+Profesionales
+Resolución de problemas complejos
+Pensamiento crítico y analítico
+Comunicación técnica efectiva
+Adaptabilidad y aprendizaje continuo
+
+--- Diapositiva 20 ---
+Conclusión: Tu Camino Profesional
+Este programa formativo te prepara para ser un profesional competente en automatización e inteligencia artificial, capaz de transformar procesos, analizar datos y crear soluciones innovadoras que generen valor real en cualquier organización.
+Competencias Adquiridas
+Dominio de herramientas de IA, automatización y análisis de datos
+Evidencia Profesional
+Portafolio de proyectos demostrables y aplicables
+Preparación Laboral
+Listo para insertarte o reconvertirte en el mercado laboral

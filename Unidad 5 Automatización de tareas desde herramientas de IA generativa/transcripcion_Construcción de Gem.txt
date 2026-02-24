@@ -1,0 +1,217 @@
+Título del Video: Construcción de Gem
+URL: https://youtu.be/QEa3jUXrth4?si=QlwDAzqo2jZE72-Z
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, entonces, tal y como habíamos
+conversado, entonces ya vamos a iniciar
+con el desarrollo de estos eh tipos de
+robots, digámoslo así, más pequeños, que
+en el fondo son redes neuronales que
+estamos entrenando para tareas
+específicas. Entonces, vamos a iniciar
+en primera instancia con eh Gemini, que
+en este caso estaríamos usando una gem o
+una gema. Recordar que al fin y al cabo,
+¿qué es lo que estamos haciendo acá? La
+idea es que cuando nosotros tenemos
+propiamente un prom y se lo enviamos
+inteligencia artificial, ella puede
+darnos un resultado que al fin y al cabo
+se ajuste a lo que nosotros estamos
+solicitando. ¿Cuál es el problema que
+nosotros estamos teniendo? Bueno, que al
+hacer esto, si nosotros quisiéramos
+volver a replicar el proceso, ¿qué
+tendríamos que hacer? Volver a buscar
+ese mismo prom, volvérselo a que la
+inteligencia artificial vuelva a
+resolver de la misma manera. Pero, ¿qué
+sucede si tenemos que hacer esto muchas
+veces? Es decir, ese mismo promo vamos a
+ejecutarlo varias veces en varias
+ocasiones. Entonces, si es así, lo que
+sucede es que nosotros estaríamos
+propiamente
+requiriendo tener algo de la medida
+posible que siempre nos dé eh o que
+siempre utilice el mismo PR. Ante esa
+lógica nacen las gemas y nacen los GPTs.
+¿Qué lo que buscan? es bueno. Si yo
+tengo que replicar varias veces el mismo
+promo, similar, entonces de estar
+guardando el prom y cada vez tenido que
+enviárselo a la inteligencia artificial,
+podemos hacer que esa inteligencia
+artificial se eh ajuste específicamente
+a ese prom y cada vez que necesite
+justamente ejecutarlo, yo nada más voy a
+ingresar y lo voy a correr y de esa
+manera estaría corriendo nuevamente el
+mismo proceso, es decir, el mismo prom y
+deberíamos de obtener resultados
+relativamente similares, no van a ser
+iguales. Y esto es un punto importante,
+no es que en este caso es un proceso
+determinístico, ¿no? Este es un proceso
+estocástico y un hay una red neuronal
+que está trabajando por detrás y como
+vemos en la parte teórica, cuando
+trabajamos con redes neuronales,
+entonces los resultados pueden ir
+variando porque tienen modelos
+probabilísticos por detrás. Entonces,
+dicho esto, lo que nosotros queremos
+ahora es montar una gema. Para ello,
+aquí hay un proceso específico que hay
+que ir desarrollando por cuestión de
+tiempo. Para efectos de la grabación no
+vamos a hacer todo ese detalle, sino que
+vamos a proceder a hacerlo desde la
+computadora. Acá en la computadora van a
+ver que podemos ingresar a Gemini y una
+vez que estamos en Gemini va a haber una
+sección que dice Gems. Acá le vamos a
+dar a Hems. Aquí aparecen otro tipo de
+gemas nuevas que ahora están saliendo,
+pero no se preocupen por esas gemas de
+laboratorio. Vamos de momento a
+enfocarnos en las gemas más sencillas y
+van a estar por acá. Le vamos a acá a
+dar acá donde dice nueva gema. Y aquí es
+donde vamos a realizar un proceso.
+Tenemos que darle un nombre, ¿verdad?
+Por ejemplo, acá podemos darle base de
+datos para factures. Le ponemos mucho
+nombre y le damos una descripción.
+Esta descripción es como un pequeño
+detalle de qué es en este caso de lo que
+se va a encargar de hacer este Entonces
+esta ejemplo que ustedes van a construir
+acá conmigo, básicamente lo que va a
+hacer es que va a tomar imágenes de
+facturas y esas imágenes de facturas las
+va a convertir en una base de datos, una
+base de datos estructural. Entonces, eso
+es lo que se van a cargar, recibir
+imágenes y a partir de eso entonces
+construir un pequeño archivo o hoja de
+cargo. Y aquí entonces ya va a eh
+proceder a a
+tenemos que darle el P que queremos que
+utilice cada vez que lo utilicemos. Por
+eso les decía que es como automatizar un
+prom siempre tienen que entonces correr
+un proceso o necesitan que artificial es
+yo con una tarea relativamente similar,
+¿verdad? donde ustedes siempre le
+mandarían el mismo prom. Entonces con
+esta gema ya ella automáticamente tiene
+ese proceso si uno la logra afinar
+adecuadamente, entonces hace este
+proceso varias veces y logra que el
+promede lo más afinado posible y vemos
+que los resultados tienen ser adecuados
+y consistentes, entonces esa gema, la
+una vez que la tenemos bien afinadita
+nos puede ayudar a que cada vez que
+necesitamos realizar este mismo proceso,
+por ejemplo, que nos convierta imágenes
+en una base de datos, en una base de
+datos de facturas, Entonces, ya no tengo
+que estar buscando el prom,
+escribiéndoselo, enviándoselo y demás,
+sino que voy a tener la gema guardada y
+nada más le voy a decir, toma las
+facturas, ahora sí dame la 11. Eso es
+justamente lo que estamos haciendo acá.
+Vean que yo le puedo dar un prom, que en
+este caso es un prom relativamente
+general, le puedo dar en este botoncito
+de acá para que nos ayude a restir las
+instrucciones. Eso nos permite entonces
+que si hay algo que podamos mejorar o
+ajustarlo, entonces lo podamos hacer.
+que yo le puedo dar clic aquí y entonces
+él se encarga de
+reajustarlo cada vez y entonces ya él
+nos ayuda con a hacer eh pues un promás
+profesional. Sin embargo, sin embargo, e
+lo que yo les recomiendo en estos casos
+es que el prom sea
+definido de una manera más profesional,
+pero que nosotros seamos quienes
+tratemos de detallar al máximo lo que
+necesitamos. Por eso aquí les estamos
+dando un prom que sí es bastante eh
+detallado y ese es el que vamos a
+utilizar por acá. Porque a veces la
+intigencia si la instrucción general que
+estamos dando es muy vaga, entonces lo
+que sucede es que eh no logra generarlo
+adecuadamente, no lo logra generar
+adecuadamente,
+entonces es mejor que nosotros leeremos
+un prom lo más detallado posible. Si
+nosotros le logramos dar un prom hecho
+por nosotros con todos los detalles
+específicos, probablemente va a dar
+mejores resultados que si nosotros ven,
+este promo es bastante detallado y yo
+aquí entonces ya podría simple y
+llanamente darle guardar. Aquí yo podría
+darle guardar
+y aquí inclusive podría darle compartir
+y se lo podría compartir a otras
+personas. Vamos a ver. Aquí yo ya tenía
+uno, ¿verdad? Y este pues es el que
+acabamos de creer. Voy a eliminarlo
+porque ya yo lo tenía. Entonces para no
+tenerlo duplicado.
+Y vamos a replicar el ejemplo
+que en este caso viene
+en la presentación
+porque para ello entonces ya nosotros
+podemos, ¿verdad?, Una vez que lo
+tenemos por acá, eh, a acceder, tal como
+pueden ver acá, va a estar en este,
+podemos acceder a él y ya nosotros
+podríamos darle las eh facturas que
+nosotros tengamos en la carpeta de
+insumos de la sesión de esta unidad.
+Ustedes van a a observar unas facturitas
+que tenemos aquí, que entonces nosotros
+podemos,
+¿verdad? son esas facturitas y podemos
+enviarles acá
+a la GM. Y ven que yo no le tuve que dar
+nada más. Yo podría decirle aquí procés
+alas o demás, pero inclusive como él ya
+tiene el prom muy claro y sabe que tiene
+que recibir esas facturas y procesarlas
+en una hoja de cálculo de Google Sheets,
+porque en este caso estamos trabajando
+en Google, entonces perdón este
+mensajito me sale por acá, pero vean que
+aquí ya él procedió a obtener los datos
+de estos factures, ¿ven? Y yo esto
+perfectamente lo podría exportar a una
+hoja de acá, ¿ven? pero me logró extraer
+a partir de estos factores
+la información respectiva.
+Entonces, ya estamos logrando
+automatizar este proceso en el cual yo
+todos los meses podría pedir una energía
+artificial que me ayude y que haga esto,
+pero con una gema, ¿verdad? Como estamos
+haciendo aquí, estamos automatizando
+ese proceso para yo no tener que hacerlo
+todas las veces, sino que ya tiene el
+prom configurado y yo entonces lo que le
+voy a decir es ejecutarlo, ¿vale?
+Entonces, eh nos da ese valor agregado
+para ir automatizando suceso. Ahora,
+pues vamos a seguir posteriormente
+realizando el otro eh el otro proceso de
+automatización, pero ahora con un GPT.
+M.

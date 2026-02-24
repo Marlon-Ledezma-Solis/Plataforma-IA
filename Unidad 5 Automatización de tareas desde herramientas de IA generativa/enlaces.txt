@@ -1,0 +1,6 @@
+Link de google Slice: https://docs.google.com/presentation/d/1RUuOp8QZQRqsUmRuGkwcs760u0Hv4agWCy4u4PTMEME/edit?usp=sharing
+
+Link de los tutoriales y los links con sus nombres:
+- Explicación Teórica: https://youtu.be/zhKHvOA-kbE?si=hh_KO3-83Q5gfzVr
+- Construcción de Gem: https://youtu.be/QEa3jUXrth4?si=QlwDAzqo2jZE72-Z
+- Construcción GPTs: https://youtu.be/44JFAufvo0g?si=ZijEyWQ6C_csQ-xz

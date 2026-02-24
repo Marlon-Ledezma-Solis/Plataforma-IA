@@ -1,0 +1,290 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/10fbUcDl2FuOG3H8I6YSjWoi-u2f4qPnXIgweqXhU2lU/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+3 funcionalidades que cambiaron la forma de trabajar con IA
+Búsqueda inteligente
+Acceso eficiente a información relevante
+Razonamiento avanzado
+Análisis profundo y toma de decisiones
+Espacios de trabajo integrados y productivos
+La convergencia de modelos de búsqueda, razonadores y espacios de trabajo colaborativos está transformando radicalmente cómo accedemos, procesamos y aplicamos el conocimiento en nuestro trabajo diario.
+Colaboración efectiva
+
+--- Diapositiva 3 ---
+Modelos de Búsqueda
+¿Por qué nacen?
+Características principales
+¿Cuándo utilizarlos?
+Ideales para consultas directas, búsqueda de documentos específicos y acceso rápido a información estructurada.
+Impacto: Democratizan el acceso a la información y mejoran significativamente la velocidad de recuperación de datos relevantes.
+
+--- Diapositiva 4 ---
+Búsqueda Profunda: Más Allá de las Palabras Clave
+Evolución de la búsqueda
+Los modelos de búsqueda simple se basan en coincidencias de palabras clave, mientras que la búsqueda profunda utiliza IA para comprender contexto, intenciones y relaciones complejas entre conceptos.
+01
+Análisis contextual
+Comprende el significado detrás de las consultas
+02
+Conexiones semánticas
+Identifica relaciones entre conceptos aparentemente diferentes
+03
+Personalización inteligente
+Adapta resultados según el perfil y historial del usuario
+Impacto transformador: Mejora dramáticamente la precisión y relevancia de los resultados, ahorrando tiempo valioso y proporcionando insights más profundos.
+
+--- Diapositiva 5 ---
+Modelos Razonadores: La Nueva Frontera de la IA
+Búsqueda
+Encuentra información relevante
+Análisis
+Examina y descompone datos complejos
+Síntesis
+Combina información para crear nuevos insights
+Explicación
+Comunica resultados de manera comprensible
+Capacidades avanzadas
+Resolución de problemas complejos multicapa
+Inferencias lógicas basadas en patrones
+Planificación estratégica y toma de decisiones
+Creatividad aplicada a desafíos específicos
+"Los modelos razonadores como ChatGPT avanzado no solo procesan información, sino que piensan, planifican y crean soluciones innovadoras para desafíos complejos."
+Beneficio clave: Apoyo integral en toma de decisiones estratégicas, educación personalizada y desarrollo de ideas revolucionarias.
+
+--- Diapositiva 6 ---
+Espacios de Trabajo Colaborativos con IA
+Proyectos en ChatGPT
+Entornos especializados para crear, probar y compartir conversaciones inteligentes. Permite desarrollar asistentes personalizados y automatizar tareas específicas.
+Spaces en Perplexity
+Plataformas dedicadas para explorar búsquedas profundas y personalizadas. Facilita la investigación colaborativa con contexto preservado.
+Notebooks en Google
+Integran código, datos y modelos de IA para experimentación avanzada. Permiten análisis completos con visualizaciones interactivas.
+Ventaja competitiva: Estos espacios facilitan la colaboración efectiva, experimentación controlada y aplicación práctica de IA en proyectos reales.
+
+--- Diapositiva 7 ---
+Caso Práctico: Potenciando tu Trabajo con IA
+Mayor productividad
+Incremento promedio en eficiencia operativa
+Análisis profundos
+Mejora en calidad de análisis y decisiones
+
+--- Diapositiva 8 ---
+Metodología de trabajo
+Funcionalidad por utilizar
+Herramientas de IA
+Utilizaremos cada una de las siguientes 3 funcionalidades, en cada una de las 3 herramientas de IA
+
+--- Diapositiva 9 ---
+Prompt Base que usaremos
+Realiza un análisis actualizado de la situación económica de Costa Rica y sus perspectivas para los próximos 12 a 18 meses.
+El análisis debe incluir:
+Crecimiento económico: evolución reciente del PIB y proyecciones.
+Inflación: niveles actuales, causas y expectativas.
+Tipo de cambio: comportamiento del colón respecto al dólar y factores que lo afectan.
+Empleo: tasa de desempleo, informalidad y evolución del mercado laboral.
+Sector externo: exportaciones, importaciones, turismo e inversión extranjera directa.
+Situación fiscal: ingresos, gasto, déficit, deuda pública y reformas fiscales relevantes.
+Riesgos y oportunidades: factores internos y externos que podrían afectar la economía (p. ej. precios internacionales, tasas globales, clima político, etc.).
+Escenarios futuros: plantea 3 escenarios (base, optimista, pesimista) con breves explicaciones de cada uno.
+Usa datos recientes (de fuentes como el BCCR, INEC, Ministerio de Hacienda, CEPAL o FMI) y preséntalos con claridad.
+Agrega una conclusión ejecutiva con 3 a 5 ideas clave que resuman el panorama general del país.
+
+--- Diapositiva 10 ---
+Actividad 1
+Utilice el Prompt Base en Perplexity, utilizando las siguientes funcionalidades:
+
+
+Herramienta de Búsqueda y Modelo Razonador
+ Investigación Profunda
+ Espacios de trabajo, utilizando los materiales
+
+Compare los resultados obtenidos.
+
+--- Diapositiva 11 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 12 ---
+Perplexity (Búsqueda y razonamiento)
+
+--- Diapositiva 13 ---
+Perplexity (Búsqueda y razonamiento)
+
+--- Diapositiva 14 ---
+Perplexity
+Activo investigación profunda
+Defino las fuentes a utilizar
+
+--- Diapositiva 15 ---
+Perplexity
+Investigación profunda
+
+--- Diapositiva 16 ---
+Espacio de trabajo (Perplexity)
+
+--- Diapositiva 17 ---
+Espacio de trabajo (Perplexity)
+
+--- Diapositiva 18 ---
+Espacio de trabajo (Perplexity)
+
+--- Diapositiva 19 ---
+Espacio de trabajo (Perplexity)
+Instrucción de sistema
+
+Eres un analista macro de Costa Rica. Prioriza los documentos subidos (BCCR, INEC, Hacienda, universidades, CEPAL/FMI/BM/OCDE).
+Responde con tablas/gráficos y siempre cita 3–5 fuentes clave con página/sección y fecha del dato.
+Si el usuario pide un periodo posterior al último documento, indícalo y, si procede, consulta BCCR/INEC/Hacienda/CEPAL/FMI/BM/OCDE; explica cualquier diferencia entre fuentes con una mini-tabla de reconciliación.
+Estándares: español CR; fechas AAAA-MM; unidades y si está desestacionalizado; año base para reales; tipo de cambio CRC/USD con fecha.
+Salida: Resumen ejecutivo, Análisis detallados, Cuadros, Gráficos, Análisis, Escenarios (base/optimista/pesimista), Citas.
+Evita inventar datos; si faltan, explica qué falta y cómo estimarlo.
+
+--- Diapositiva 20 ---
+Espacio de trabajo (Perplexity)
+
+--- Diapositiva 21 ---
+Perplexity (Noticias como extra)
+Texto
+
+XXXXXXXXXXXXXX
+Puedo obtener noticias
+Realizar preguntas sobre ellas
+
+--- Diapositiva 22 ---
+Actividad 2
+Utilice el Prompt Base en Gemini, utilizando las siguientes funcionalidades:
+
+
+Herramienta de Búsqueda y Modelo Razonador
+ Investigación Profunda
+ Espacios de trabajo, utilizando los materiales
+
+Compare los resultados obtenidos.
+
+--- Diapositiva 23 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 24 ---
+Gemini (Búsqueda y razonamiento)
+
+--- Diapositiva 25 ---
+Gemini (Investigación profunda)
+Podemos incluir también nuestros archivos para la búsqueda profunda
+
+--- Diapositiva 26 ---
+Texto
+
+XXXXXXXXXXXXXX
+Gemini (Investigación profunda)
+
+--- Diapositiva 27 ---
+Gemini (Investigación profunda)
+
+--- Diapositiva 28 ---
+NotebookLM
+
+--- Diapositiva 29 ---
+NotebookLM (Espacios de trabajo)
+
+--- Diapositiva 30 ---
+NotebookLM
+
+--- Diapositiva 31 ---
+NotebookLM
+
+--- Diapositiva 32 ---
+NotebookLM (Espacios de trabajo)
+
+--- Diapositiva 33 ---
+NotebookLM
+Si se escoge un concepto, NotebookLM procede a realizar un análisis específico
+
+--- Diapositiva 34 ---
+Gemini (Conexión a Suite Google como extra)
+
+--- Diapositiva 35 ---
+Texto
+
+XXXXXXXXXXXXXX
+Gemini (Conexión a teléfono)
+
+--- Diapositiva 36 ---
+Actividad 3
+Utilice el Prompt Base en ChatGPT, utilizando las siguientes funcionalidades:
+
+
+Herramienta de Búsqueda y Modelo Razonador
+ Investigación Profunda
+ Espacios de trabajo, utilizando los materiales
+
+Compare los resultados obtenidos.
+
+--- Diapositiva 37 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 38 ---
+ChatGPT (Búsqueda y Modelo Razonador)
+
+--- Diapositiva 39 ---
+ChatGPT (Investigación profunda)
+
+--- Diapositiva 40 ---
+ChatGPT
+Texto
+
+XXXXXXXXXXXXXX
+
+--- Diapositiva 41 ---
+Proyectos en Chat GPT
+
+--- Diapositiva 42 ---
+Proyectos en Chat GPT
+
+--- Diapositiva 43 ---
+Proyectos en Chat GPT
+
+--- Diapositiva 44 ---
+Proyectos en Chat GPT
+Instrucción de sistema
+
+Eres un analista macro de Costa Rica. Prioriza los documentos subidos (BCCR, INEC, Hacienda, universidades, CEPAL/FMI/BM/OCDE).
+Responde con tablas/gráficos y siempre cita 3–5 fuentes clave con página/sección y fecha del dato.
+Si el usuario pide un periodo posterior al último documento, indícalo y, si procede, consulta BCCR/INEC/Hacienda/CEPAL/FMI/BM/OCDE; explica cualquier diferencia entre fuentes con una mini-tabla de reconciliación.
+Estándares: español CR; fechas AAAA-MM; unidades y si está desestacionalizado; año base para reales; tipo de cambio CRC/USD con fecha.
+Salida: Resumen ejecutivo, Análisis detallados, Cuadros, Gráficos, Análisis, Escenarios (base/optimista/pesimista), Citas.
+Evita inventar datos; si faltan, explica qué falta y cómo estimarlo.
+
+--- Diapositiva 45 ---
+Añadir Chats al Proyecto como contexto
+
+--- Diapositiva 46 ---
+ChatGPT (Audio y video Extra)
+
+--- Diapositiva 47 ---
+Herramientas extra
+
+--- Diapositiva 48 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 49 ---
+Copilot
+
+--- Diapositiva 50 ---
+Copilot
+
+--- Diapositiva 51 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 52 ---
+Qwen
+
+--- Diapositiva 53 ---
+Qwen
+
+--- Diapositiva 54 ---
+Qwen
+Texto
+
+XXXXXXXXXXXXXX

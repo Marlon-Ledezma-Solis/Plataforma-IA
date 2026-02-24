@@ -1,0 +1,298 @@
+Título del Video: Vibe Coding e Ingeniería de Especificación
+URL: https://www.youtube.com/watch?v=LTm8FgcNHJc
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Vamos en esta unidad a trabajar el uso
+de plataforma de Google AI Studio. Para
+ello vamos a hablar, de hecho no vamos a
+limitarnos solo a Google E Studio, vamos
+también a utilizar a una de las nuevas
+herramientas y de las más potentes que
+existen en el tema de codificación que
+se llama antigravity. Acá vamos a hablar
+un primero primera instancia de lo que
+es el B coding. Es la forma simple de
+programar con inteligencia artificial.
+Básicamente eh eh
+el Vipe, ¿verdad? O o el término de Bip
+coding se hace alusión a una metodología
+que lo que busca es que nosotros podamos
+eh solicitarle la inteligencia
+artificial que nos ayude a programar.
+Nosotros le indicamos eh más o menos,
+¿verdad?, en términos lo más eh
+detallados posibles qué son los
+elementos que nosotros queremos que ella
+nos eh ayude a desarrollar. Y entonces a
+partir de eso, la inteligencia
+artificial empieza a desarrollar código
+que nos puede ayudar en nuestros eh de
+nuestro día a día. El término vibe se
+refiere a sensación, propósito, ¿verdad?
+Eh, sin la preocupación de la
+implementación técnica. En este caso
+es más que todo eh prueba y error, por
+decirlo de esa manera. Entonces, el by
+coding es, yo le solicito a la
+inteligencia artificial que me ayude a
+programar en algo, ella me genera el
+código, yo reviso a ver si hay algún
+error. Si hay algún error, entonces le
+solicito que me ayude a corregirla y así
+empezamos a tener varias iteraciones. y
+esa e
+codificación por
+por percepción o por
+interacción
+es lo que estaríamos llamando el Vipe
+Coil.
+¿Cómo funciona? Básicamente son cuatro
+pasos muy concretos. En primera
+instancia describe tu visión en lenguaje
+sencillo. O sea, en lenguaje natural, yo
+le digo, "Vea, me gustaría que hagamos
+esto y esto y esto, ¿verdad? O sea, le
+indicamos ya específicamente cuál es el
+resultado que deseamos obtener, cuál es
+en este caso el trabajo que estamos
+desarrollando. En el paso número dos, la
+inteligencia artificial genera el código
+de manera completa. Entonces, agarra a
+partir de esa instrucción y genera el
+código. Después entramos a un proceso de
+pruebas y ajustes iterativos. Entonces,
+yo ya pruebo el código que me dio,
+reviso a ver si funcionó. Si funcionó,
+entonces listo. Y si no, entonces por
+medio de igual manera de eh Chroms, yo
+le digo, "Bueno, en este necesito que
+modifiquemos esto, en este punto está
+dando este error." Y así sucesivamente
+empezamos a iterar, ¿verdad? En este
+caso empezamos a tener varias
+conversaciones en donde nosotros con
+aprendizaje por refuerzo, es decir, por
+medio de promas, le decimos, corrija
+esto, dio este error, vea esta situación
+y eso entonces ya constituye el ciclo
+del by coding, escalas y despliegues con
+asistencia porque cuando ya esté
+satisfecho, podríamos en este caso
+solicitar la inteligencia certificial
+que nos ayude a realizar los despliegues
+respectivos. ¿Cuáles son los principales
+beneficios? es un desarrollo muy rápido,
+eh la inteligencia artificial es muy
+eficiente en desarrollo de código y hay
+herramientas como cloud que están
+especializadas o tienen muy buenos
+rendimientos, lo mismo en GLM a nivel de
+eh lo que es eh open source. Entonces,
+hay como herramientas eh que están muy
+especializadas en el tema de
+codificación, entonces eh tienden a dar
+muy buenos resultados. hay una menor
+barrera de entrada porque en este caso
+no se necesita conocer mucho de
+programación, simplanamente empezar a
+realizar ese proceso de prueba y error.
+Ahora bien, si yo tengo conocimientos y
+tengo claridad de lo que quiero hacer,
+tengo orden, diseño y y estructura y
+lógica, eso va a hacer que el proceso de
+Bitcoin vaya más dirigido y sea más
+eficiente. Pero de igual manera, si no
+se tiene mucho conocimiento, también la
+inteligencia artificial nos puede ayudar
+y guiar, por lo cual hay una menor
+barrera de entrada. Después
+tenemos la iteración instantánea,
+¿verdad? En este caso vamos realizando
+eh cambios y mejoras con solo
+describirlos. Esa iteración es muy buena
+porque es esa prueba y error, prueba y
+error, prueba y error hasta que logremos
+obtener los resultados que estamos
+esperando. Y tenemos un enfoque
+principalmente centrado en la
+creatividad, ¿verdad? Que sea la
+creatividad la que marque el punto de
+partida de cómo hacer o no hacer código.
+Después, ¿cuáles son los retos y
+consideraciones importantes? Bueno, la
+supervisión humana es esencial porque
+como digo, va a haber mucho proceso de
+iteración de prueba y error. Entonces es
+muy importante esa participación humana.
+La creatividad humana es irreemplazable.
+Lo que determina qué se va a crear o no
+es la creatividad que nosotros tengamos
+como seres humanos y el enfoque híbrido.
+Entonces en este caso es el elemento
+esencial.
+En contraparte o más bien como una
+evolución tal vez digámoslo así más bien
+del by coding nació la ingeniería de
+especificación. es cómo trabajar con la
+guía paso a paso, ya no es eh
+propiamente le doy una idea y
+desarrolle, ¿verdad? Sino que aquí en
+ingeniería de especificación
+eh trabajamos más en qué se quiere
+hacer, que eso es muy parecido al
+barcoding. El asunto es que le
+detallamos más el cómo, en qué orden y
+con qué restricciones. ¿Ven? Eso
+entonces es lo que marca la diferencia
+en el by coding. Yo eh en este caso le
+estoy dando las ideas y la creatividad y
+él empieza a trabajar en ingeniería de
+especificación. Yo logro guiar más a
+detalle paso a paso lo que tiene que ir
+haciendo. Dentro de ingeniería de
+especificación hay otro tema que es
+ingeniería de características. es una
+etapa de la ingeniería de especificación
+que en este caso es el en este caso la
+ingeniería de especificación es el marco
+general que guía el proceso analítico,
+mientras que la ingeniería de
+características ya básicamente es en la
+eh parte de creación de variables.
+¿Qué es la ingeniería de especificación?
+Entonces, ese proceso descomponer un
+problema complejo en pasos claros,
+explícitos y secuenciales.
+Entonces, aquí pues ya está lo que es y
+no es, ¿verdad? Pero en este caso sí es
+importante dejar claro que la ingeniería
+de especificación lo que marca la gran
+diferencia es que e propiamente
+nos permite ir detallando paso a paso
+qué es lo que se tiene que hacer y eso
+nos ayuda a que la inteligencia
+artificial no falle tanto, ¿verdad?
+Porque a veces esas peticiones vagas que
+decimos, ¿verdad? es cuando le decimos,
+eh, haz un modelo con estos datos, por
+ejemplo. Entonces, la debe hacer
+múltiples supuestos, mezcla de etapas,
+no hay un orden claro. Entonces, eso
+hace que muchas veces la inteligencia
+artificial se pierda y nos dé resultado
+que no estamos esperando. En cambio,
+cuando le damos pasos específicos
+concretos, ella logra ir trabajando poco
+a poco e incluso utiliza sistemas
+multiagentes.
+sistemas multiagentes hacen que un
+agente se encargue de trabajar en un
+punto, otro se encargue de trabajar en
+otro y así sucesivamente.
+Eso hemos observado que logra mejorar
+resultados porque hace que la
+inteligencia artificial se logre ir
+especializando en diferentes elementos.
+Entonces, el principio central es pasos,
+no objetivos. Es decir, lo que ocupamos
+es que en este caso le vayamos
+detallando con claridad
+lo que hemos estado haciendo. Ahora
+bien, ¿qué se debe especificar siempre?
+el contexto, el objetivo de ser posible
+entradas. Si tenemos claridad de cuáles
+son los insumos que estamos dando, pasos
+explícitos, si nosotros conocemos
+exactamente cuáles son los que debería
+de seguir, es lo mejor y es lo que
+estamos tratando de que en este caso se
+haga, las restricciones para indicarle
+qué elementos tienen que tener en cuenta
+y la salida esperada, ¿verdad? O sea,
+cuál es el resultado final, no solo el
+objetivo, no solo que se quiere obtener,
+sino la forma del resultado y los
+detalles que debería de tener ese
+resultado.
+¿Cuál es la diferencia entre el by
+coding versus la ingeniería de
+especificación? Que, por ejemplo, en el
+by coding yo le puedo decir, "Hazme un
+modelo con estos datos." Entonces,
+termina siendo algo general y la
+inteligencia artificial tiene que tomar
+ciertos supuestos y demás. En cambio, en
+la ingeniería de especificación, yo le
+divido el problema en pasos y entonces
+yo voy controlando cada etapa, valido
+los resultados intermedios, logro
+enseñar y reencausar el proceso cuando
+sea necesario y esto reduce errores.
+Aquí la idea se vuelve una herramienta
+profesional que va trabajando paso a
+paso y de la mano conmigo. En el caso
+del coven es una exploración rápida sin
+tanto control, pero sirve muy bien
+cuando yo necesito obtener un resultado
+que es relativamente sencillo, que en
+este caso tal vez no tengo tanto
+conocimiento o cuando es una
+codificación que no debería de implicar
+muchísimos pasos, el Bcoden debería de
+funcionar bien. a veces puede generar
+resultados opacos, pero esto no quiere
+decir, y por eso vimos el by coding y la
+ingeniería de especificación en modo
+conjunto, porque eh no es, o sea,
+algunos resultados son opacos, a veces
+es difícil de corregir, hay poco
+aprendizaje. Estos son los elementos que
+que la ingeniería de especificación
+viene a eh en este caso a resolver, pero
+la del Bcoin es útil para explorar, no
+para aprender ni construir eh con mucho
+detalle, ¿verdad?
+Entonces, por eso es que tenemos en es
+eh que ver que el Bcoin tiende a ser
+como ese primer acercamiento para la
+creación de aplicaciones y de
+resultados. Eh, hay que entender las
+limitaciones que tiene y que tal vez
+vamos a pasar por muchos procesos de
+prueba y error. Y fue ahí después dóe
+nace ingeniería de especificación y
+estos son temas muy recientes. Estamos
+hablando del Bcoin e entre 2024 y 2025,
+ingeniería especificación y finales eh
+de 2025, ¿verdad? Entonces, por eso son
+temas muy recientes y y pues todavía
+están en mucho desarrollo, pero en
+términos resumidos es así. El B coding
+nos ayuda a hacer codificaciones
+sencillas por intuición, por instinto,
+¿verdad? Por órdenes generales que
+entonces queremos que vaya resolviendo y
+pasa por un proceso de prueba y error,
+prueba y error, hasta lograr obtener los
+resultados. En la ingeniería de
+especificación yo logro irle detallando
+con diferentes pasos lo que tiene que ir
+haciendo. Voy viendo los resultados
+intermedios, vamos trabajándolos, vamos
+revisándolos y de esa manera eh podemos
+ir obteniendo resultados más detallados,
+¿verdad?, que también van a pasar por un
+proceso de prueba y error, pero de un
+modo más controlado. Muy bien. Entonces,
+¿cuál sería, por ejemplo, un flujo de
+trabajo bien especificado? Bueno, la
+construcción, por ejemplo, de los datos,
+la validación de variables, diseño de
+características, ¿verdad? E la
+preparación final, el modelo como tal y
+la interpretación.
+Y aquí ahora vamos a utilizar ya a o a
+empezar con las partes prácticas donde
+vamos a usar Google AI Studio y vamos a
+usar Antigravet.

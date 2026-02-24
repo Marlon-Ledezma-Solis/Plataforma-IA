@@ -1,0 +1,179 @@
+Título del Video: Explicación teórica de Funcionalidades
+URL: https://youtu.be/Oe-FpJ-Ig78
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, vamos entonces a trabajar en
+la unidad tres de herramientas de
+investigación profunda y razonamiento
+con inteligencia artificial. En este
+punto es importante mencionar que
+existen tres funcionalidades que
+cambiaron la forma de trabajar con
+inteligencia artificial. En primera
+instancia, el tema de la búsqueda. Y
+aquí en la búsqueda podemos hablar de
+una búsqueda con acceso a internet,
+porque en primera instancia los modelos
+de inteligencia artificial no podían
+acceder a internet. Entonces, imagínense
+la cantidad de información que no podía
+en este caso estar procesando. Después
+tenemos el razonamiento avanzado, que
+entonces dijimos, bueno, ¿por qué estos
+modelos de inteligencia artificial antes
+de que empiecen a redactar o darnos una
+respuesta? Porque eso es algo que
+sucedía, ¿verdad? Los modelos de
+inteligencia artificial. Entonces, si
+recuerdan que empezaban de una vez a
+escribir. Es algo así como llegar y
+decir a una persona, bueno, eh, dígan
+los números de un al 10. Entonces, la
+persona empieza 1 2 3 4 5 6, ¿verdad? 7
+8 9 10. Eso eh digamos que tenía mucho
+sentido que la inteligencia artificial
+respondiera así de rápido, eh sin
+levantar, por decirlo así, como el lápiz
+de la hoja.
+Pero cuando les decimos eh problemas más
+complejos, como por ejemplo en el caso
+de una empresa, díganme cuáles son las
+principales necesidades y eh retos que
+en este momento encuentra la empresa.
+Entonces, si yo les doy el lápiz y el
+papel y tienen que escribir sin parar,
+eso pues hace que tal vez las eh
+relaciones que hagamos a nivel neuronal
+no sean las más adecuadas. Entonces, se
+pensó, bueno, ¿por qué no hacemos
+modelos de razonamiento que entonces
+piensen eh con más detalle antes de dar
+una respuesta? Y lo otro es la
+colaboración efectiva, que llegamos y
+dijimos, "Bueno, no hay posibilidad de
+usar nuestros propios documentos, de
+trabajar en conjunto con diferentes
+personas." Bueno, eso es justamente lo
+que se eh analizó con el tema de
+colaboración efectiva y hoy por hoy
+también es una de las grandes
+funcionalidades que cambiaron la forma
+de trabajar con los chatbot de propósito
+general. Entendamos chatbot de propósito
+general como Gemina, Cloud, Queen, eh,
+chat GPT, o sea, todos esos modelos que
+les llamamos chatbots.
+Muy bien, ahora vamos a empezar en
+primera instancia con los modelos de
+búsqueda. ¿Por qué nacen? Bueno,
+justamente por la necesidad de encontrar
+información relevante y sobre todo
+actualizada, que eso era algo que no
+podíamos hacer con los modelos
+anteriores. Acá las principales
+características es que utilizan
+algoritmos avanzados para indexar,
+clasificar y recuperar información de
+internet. ¿Cuándo lo utilizamos? Bueno,
+para consultas directas, búsquedas
+documentos, pero sobre todo cuando estoy
+buscando información eh novedosa que me
+gustaría o sea obtener de internet. Eh,
+muchas veces, ¿verdad? Eh, parte de la
+aplicación que teníamos era que decían,
+"Bueno, tenemos esta consulta. ¿Qué
+hacemos? ¿Lo buscamos en Google o le
+preguntamos a chat GPT? Eso sucedió en
+algún momento y dijimos, bueno, pues,
+¿por qué no podemos usar ambas cosas?
+¿Por qué no podemos buscar en internet
+con inteligencia artificial? Y eso es
+justamente lo que estos modelos vinieron
+a solucionar. Y en este mismo sentido
+nació lo que le llamamos la búsqueda
+profunda, es decir, más allá de las
+palabras claves. Entonces, empezamos a
+realizar búsquedas con mucho más
+análisis. Entonces permitieron estos
+modelos de búsqueda profunda ya no solo
+hacer una búsqueda específica en
+internet como si estuviéramos buscando
+en el navegador, sino que lo que estamos
+en este caso planteando es la
+posibilidad de poder hacer un análisis
+más detallado, realizar una mayor eh
+conexión semántica y análisis contextual
+de la información y de esa manera
+obtener resultados más completos.
+La otra gran revolución que les
+mencionaba es ya propiamente los modelos
+razonadores, que entonces lo que
+proceden a hacer es a incorporar
+capacidades avanzadas para que ellos
+antes de dar una respuesta proceda a
+buscar la información, analizarla,
+sintetizarla, explicarla y ya una vez
+que realizaron ese proceso de análisis
+previo, por decirlo de esa manera,
+entonces procedan a dar una respuesta.
+¿Cuál es el beneficio completo, verdad?
+es un apoyo integral en la toma de
+decisiones estratégicas, ¿verdad? Porque
+nos permite entonces que la inteligencia
+artificial logre tener un eh análisis
+previo antes de dar una respuesta.
+Y con respecto a los espacios de trabajo
+colaborativos con inteligencia
+artificial,
+¿qué estamos observando por acá? Bueno,
+un gran avance en el uso de nuestros
+propios documentos y en la posibilidad
+de trabajar en conjunto con otras
+personas. Entonces, acá lo vamos a ver
+en diferentes herramientas. Cada uno
+tiene pues su nombre particular
+dependiendo de la herramienta
+correspondiente, pero por ejemplo
+tenemos los proyectos en chat GPT,
+tenemos los espacios en Perplexity y los
+notebooks en Google. Todos ellos
+permiten entonces incorporar nuestros
+propios documentos, basarse en este caso
+en el conjunto de documentos que
+nosotros les demos para que sea esa su
+fuente primaria al momento de darnos
+respuesta y también nos permite entonces
+trabajar colaborativamente con otras
+personas para que ellos puedan apoyarnos
+en este proceso de eh análisis de
+información.
+Y de modo aplicado podemos ya hablar de
+cómo todas estas herramientas, estas
+tres herramientas que acabamos de
+analizar, lo que nos permiten es una
+automatización.
+Por ejemplo, en chat GPT nos permite una
+investigación en Perplexity o un
+análisis en Google Notebook. Es decir,
+en el fondo, todas estas herramientas lo
+que nos permiten es en estas tres
+herramientas, en estas tres eh chatbots
+de propósito general, entonces potenciar
+los resultados para que las respuestas
+que en este caso obtengamos de los
+chatbots sean de mejor calidad.
+Ahora entonces vamos a realizar la
+siguiente metodología de trabajo. Vamos
+en primera instancia a utilizar las tres
+funcionalidades que es herramienta de
+búsqueda de modelo razonador,
+la investigación profunda
+y los espacios de trabajo utilizando los
+materiales que nosotros le indiquemos.
+Esas son las tres funcionalidades que
+mencionamos y lo vamos a trabajar en
+tres herramientas. en Perplexity, en
+Gemini y en Chat P. Eso sería entonces
+el proceso que realizaremos a
+continuación.

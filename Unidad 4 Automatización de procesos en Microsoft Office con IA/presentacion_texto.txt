@@ -1,0 +1,246 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1KwgtBuYITtBoYcV7tyXsnZg6lbtgI4d2sr07dVSCrHY/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Dominando los Flujos de Trabajo: Optimización y Automatización
+En la gestión moderna, entender y optimizar los flujos de trabajo es crucial. Esta presentación explorará los fundamentos, componentes y la importancia de los flujos de trabajo en la automatización de procesos, sentando las bases para una mayor eficiencia y productividad en cualquier organización.
+
+--- Diapositiva 3 ---
+Fundamentos de los Flujos de Trabajo
+Un flujo de trabajo es una secuencia estructurada de pasos o tareas que se deben completar para lograr un resultado o un objetivo específico. Es la hoja de ruta que guía un proceso de principio a fin, asegurando coherencia y eficiencia en las operaciones.
+Cada flujo de trabajo, sin importar su complejidad, se compone de elementos clave que interactúan para transformar una entrada en una salida valiosa:
+Procesamiento
+Las acciones y transformaciones que ocurren a lo largo de las tareas.
+Salida
+El resultado final o el entregable del proceso.
+Entrada
+Las personas o sistemas que ejecutan las tareas.
+Actores
+El punto de inicio del flujo, puede  ser información, datos o un evento.
+Herramientas
+Los recursos tecnológicos o manuales utilizados.
+
+--- Diapositiva 4 ---
+Mapeo del Procesos
+
+--- Diapositiva 5 ---
+Mapeo del Procesos
+
+--- Diapositiva 6 ---
+Workflow con IA
+
+--- Diapositiva 7 ---
+Flujos de Trabajo en Economía
+La aplicación de flujos de trabajo es fundamental para la sistematización de procesos, especialmente en el ámbito económico, donde la eficiencia impacta directamente en la rentabilidad y la competitividad.
+Aprobación de Presupuestos
+Un flujo de trabajo común es el proceso de aprobación de presupuestos, que involucra a múltiples departamentos y niveles jerárquicos. Desde la solicitud inicial hasta la aprobación final, cada paso debe ser claro y rastreable para evitar retrasos y errores financieros.
+
+--- Diapositiva 8 ---
+Fundamentos de la Automatización
+La automatización se define como el uso de tecnologías y sistemas para ejecutar tareas o procesos con mínima o nula intervención humana. Implica la creación de secuencias de comandos o programas que replican acciones repetitivas, liberando así tiempo y recursos valiosos.
+Aumenta la velocidad de ejecución
+Reduce la carga de trabajo manual
+Permite el escalado de operaciones
+
+--- Diapositiva 9 ---
+¿Qué se Puede Automatizar?
+La versatilidad de la automatización permite aplicarla a una amplia gama de tareas. Identificar los procesos adecuados es clave para maximizar sus beneficios.
+Tareas rutinarias
+Tareas rutinarias con alta frecuencia, como la carga de datos en hojas de cálculo o sistemas, el envío de correos masivos personalizados, o la generación de informes periódicos.
+Reglas claras
+Operaciones basadas en lógica condicional o reglas predefinidas, por ejemplo, la conciliación contable de transacciones bancarias o la clasificación automática de documentos.
+Integración de información
+Actualización y sincronización de bases de datos, recopilación
+de datos de múltiples fuentes (APIs, web scraping) y consolidación de información para análisis. Un ejemplo claro sería la actualización diaria de bases de datos macroeconómicas.
+
+--- Diapositiva 10 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 11 ---
+Capítulo 1
+Caso Práctico
+Crear una base de datos estructurada en Excel, para series de tiempo sobre la composición del PIB, con los datos del Banco Central de Costa Rica , utilizando una ”Macros”.
+
+--- Diapositiva 12 ---
+Capítulo 1
+Caso Práctico
+
+--- Diapositiva 13 ---
+Caso Práctico
+
+--- Diapositiva 14 ---
+Capítulo 1
+Caso Práctico
+
+--- Diapositiva 15 ---
+Beneficios Fundamentales de la Automatización
+Eficiencia Operativa Maximizada
+La automatización minimiza los errores humanos y acelera la ejecución de tareas repetitivas, resultando en procesos más fluidos y rápidos.
+Reducción Sustancial de Costos
+Al optimizar el uso de recursos y reducir la necesidad de intervención manual, se logran ahorros significativos en costos operativos y laborales.
+Redirección hacia Valor Estratégico
+Libere a su equipo de las tareas mundanas para que se concentren en actividades de mayor valor añadido: innovación, estrategia y toma de decisiones críticas.
+
+--- Diapositiva 16 ---
+Caso Práctico
+Crear una base de datos estructurada en Excel, para series de tiempo sobre la composición del PIB, con los datos del Banco Central de Costa Rica, utilizando una ”Macros” programada con ayuda de IA.
+Prompt
+
+Actúa como analista de datos en excel y crea una macros utilizando Visual Basic para obtener los datos de la composición del PIB de la Hoja1 del documento adjunto y pasarlos a la Hoja2 de este, y de esta manera generar una base de datos estructurada para series de tiempo en la Hoja2 que mantenga la estructura esperada de la Hoja2.
+
+--- Diapositiva 17 ---
+Capítulo 1
+Caso Práctico
+Para situaciones cuando no estamos muy seguros del prompt que estamos creando, también podemos apoyarnos en al IA.
+
+--- Diapositiva 18 ---
+Caso Práctico
+Prompt mejorado con IA
+
+Por favor requiero que realices una macro en Excel para tomar los archivos de composición del PIB del BCCR (te lo adjunto como Excel) y los incluiría en la Hoja1, y con base en él extraer los componentes básicos del PIB en una BD de serie de tiempo como te incluyo en la Hoja2, debes incluir todos los elementos indicados en dicha hoja. Tomar en consideración que los años se incluyen como columnas e inician en 1991 (como se observa en el Excel adjunto) adicionalmente el G es el Gasto de consumo final del Gobierno General y el C es Gasto de consumo final de los hogares e ISFLSH, y la Inversión (I) es la suma de la formación bruta y variación de existencias. Es importante que al iniciar la macro se elimine la información previa (es decir a partir de la fila 2, eliminar esos datos) para que la base este vacía al momento de pasar la información. Necesito una macro simple para evitar un error de compilación. Básicamente lo que necesito es que te ajustes al archivo de Excel que te envíe. Ese archivo de Excel entonces dice exactamente cuáles son las columnas que hay que pasar. En el caso del PIB, lo que tienes que pasar es la información asociada a Producto Interno Bruto Precios de Mercado (fila 9). Los años empiezan a partir de la celda B5 y es desde 1991 en adelante. Entonces tienes que copiar esa información y trasladarla a la otra hoja. Con respecto a las otras variables, como te dije, el consumo es el gasto final de dos hogares, e ISFLSH, que está indicado en la fila 12. Y lo mismo con el tema del gasto final del gobierno general, que está en la fila 13, que es el gasto del gobierno, la inversión (I) es la suma de la formación bruta de capital y la variación de existencias, que están en la fila 14 y la 15. Las exportaciones están indicadas en la fila 16 y las importaciones en la fila 19. Entonces necesito que hagas ese proceso siempre para trasladar esa información. Es importante que se ajuste a la estructura del archivo que te di, y evitar el error de eliminar los encabezados.
+
+--- Diapositiva 19 ---
+Caso Práctico
+
+--- Diapositiva 20 ---
+Capítulo 1
+Caso Práctico
+
+--- Diapositiva 21 ---
+Capítulo 1
+Caso Práctico
+
+--- Diapositiva 22 ---
+Capítulo 1
+Caso Práctico
+
+--- Diapositiva 23 ---
+APIs e Inteligencia Artificial
+Conectando el software con el poder de la IA
+
+--- Diapositiva 24 ---
+¿Qué es una API?
+La Analogía del Camarero
+No necesitas saber cómo cocina el chef, solo
+necesitas que el camarero traiga lo que pediste.
+API (Application Programming Interface): Es un
+intermediario que permite que dos aplicaciones se comuniquen.
+Imagina un restaurante:
+•
+Tú (Cliente): Eres la aplicación que necesita datos.
+
+Cocina (Servidor): Es donde se preparan los datos/servicios.
+
+Camarero (API): Lleva tu pedido a la cocina y te trae la comida.
+
+--- Diapositiva 25 ---
+¿Cómo funcionan las APIs?
+1. Petición (Request)
+El cliente (tu app) envía una solicitud a
+través de la API. Por ejemplo: "Analiza esta imagen".
+2. Procesamiento
+La API lleva la solicitud al
+servidor/modelo de IA. El servidor procesa los datos (ej. detecta objetos).
+3. Respuesta (Response)
+La API devuelve el resultado al cliente,
+generalmente en formato JSON (datos estructurados).
+
+--- Diapositiva 26 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 27 ---
+Importar datos desde Power BI
+https://www.bccr.fi.cr/indicadores-economicos/suscripci%C3%B3n-a-indicadores
+
+--- Diapositiva 28 ---
+Importar datos desde Power BI
+
+--- Diapositiva 29 ---
+Importar datos desde Power BI
+
+--- Diapositiva 30 ---
+Importar datos desde Power BI
+
+--- Diapositiva 31 ---
+Importar datos desde Power BI
+
+--- Diapositiva 32 ---
+Importar datos desde Power BI
+
+--- Diapositiva 33 ---
+Importar datos desde Power BI
+
+--- Diapositiva 34 ---
+Importar datos desde Power BI
+
+--- Diapositiva 35 ---
+APIs en el Mundo de la IA
+Las APIs son el puente que conecta tu
+software con cerebros digitales gigantes.
+En lugar de construir tu propio modelo de IA desde cero (lo cual es costoso y difícil), utilizas una API para enviar datos a modelos entrenados por empresas como Google o OpenAI.
+
+Esto permite que una app simple tenga
+capacidades de visión, habla y razonamiento avanzado al instante.
+
+--- Diapositiva 36 ---
+Tipos de APIs de IA
+Visión Computacional
+
+Permiten a las aplicaciones "ver".
+Identifican objetos, leen texto (OCR) y detectan rostros en imágenes y videos.
+Procesamiento de Lenguaje (NLP)
+
+Permiten "entender" y generar texto. Se usan para chatbots, traducción automática, resúmenes y análisis de sentimientos.
+Voz y Audio
+
+Convierten voz a texto (transcripción) o texto a voz realista. Esenciales para asistentes virtuales.
+
+--- Diapositiva 37 ---
+Ejemplos Populares
+Google Cloud AI
+Ofrece APIs robustas como Vision AI para análisis de imágenes y Translation AI para traducción de idiomas en tiempo real con alta precisión.
+OpenAI API
+Proporciona acceso a modelos LLM como GPT-4 para generación de texto y razonamiento complejo, y DALL·E para generación de imágenes.
+
+--- Diapositiva 38 ---
+Beneficios de usar APIs de IA
+Escalabilidad: Puedes procesar 1 o 1 millón de solicitudes sin preocuparte por gestionar servidores físicos.
+
+Reducción de Costos: Pagas por uso en lugar de invertir millones en hardware y entrenamiento de modelos.
+
+Innovación Rápida: Permite a los desarrolladores integrar funciones de IA en sus desarrollos personales.
+
+Mantenimiento Cero: El proveedor de la API se encarga de actualizar y mejorar los modelos de IA.
+
+--- Diapositiva 39 ---
+El Futuro es Conectado
+Las APIs democratizan la Inteligencia Artificial. Ya no es necesario ser un gigante tecnológico para usar IA avanzada.
+
+Hoy, cualquier desarrollador puede conectar su idea al "cerebro" más potente del mundo con solo unas líneas de código.
+
+--- Diapositiva 40 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 41 ---
+Api Key OpenAI
+
+--- Diapositiva 42 ---
+Función personalizada con IA en Excel
+
+--- Diapositiva 43 ---
+Función personalizada con IA en Excel
+
+--- Diapositiva 44 ---
+Función personalizada con IA en Excel
+
+--- Diapositiva 45 ---
+Función personalizada con IA en Excel
+
+--- Diapositiva 46 ---
+Función personalizada con IA en Excel
+https://chatgpt.com/share/69230cca-0e94-8012-b20b-2441b2638d49
+
+--- Diapositiva 47 ---
+Función personalizada con IA en Excel

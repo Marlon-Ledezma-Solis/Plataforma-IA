@@ -1,0 +1,661 @@
+Título del Video: Gráficos, tablas y matrices
+URL: https://www.youtube.com/watch?v=GUxpVLTSaFk
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Vamos a iniciar con la unidad número 17
+que es desarrollo de dashboard con Power
+BI. Acá nuevamente recordar que pues
+vamos a hacer un resumen muy muy simple,
+¿verdad? De muy ejecutivo de el material
+asociado en las clases como tal, pues se
+desarrolla con mucha más amplitud,
+¿verdad? Y se hace pues todo un trabajo
+mucho más detallado en estos temas. En
+primera instancia, vamos a iniciar con
+la actividad número uno, que es la
+creación de dashboard. Eh, para ello,
+¿verdad? Entonces, vamos a iniciar con
+Power BI. Ya habamos tenido una pequeña
+introducción, habíamos eh visto un
+poquito que se podía hacer en Power BI y
+aquí ya estamos recordando un poquito lo
+que es la carga de datos. Para esto
+vamos a trabajar con los insumos de la
+unidad 17. Y aquí pues está gráficos y
+tablas y está este que se llama BD
+presión medios. Lo que queremos es
+replicar este archivo
+que se llama gráficos y tablas que
+podemos observar por acá.
+Y para ello vamos a utilizar la base que
+se llama consumo medio. Entonces
+vamos a
+eh proceder con la que adultos. Entonces
+vamos en primera instancia acá vamos a
+buscar un libro de Excel y pues entonces
+lo vamos a cargar
+de la ruta donde están los materiales de
+la lección y ahí vamos a cargar el
+archivo.
+Este archivo, si ustedes ven, vamos a
+utilizar este que es el de precio medio
+y tiene un formato adecuado, formato que
+llamamos formato de base de datos.
+Porque si abrimos el Excel como tal,
+podemos observar que
+eh la fila uno tiene los encabezados,
+que es lo más importante, ¿verdad? Que
+la fila uno tenga los encabezados y que
+en la celda A1, por decirlo de esta
+manera, empiece la información, o sea,
+empieza el primer encabezado y de ahí en
+adelante todos los demás. Y por tanto, a
+partir de la A2 tenemos registro de
+información.
+De esa manera podemos darle cargar de
+una vez. De lo contrario tendremos que
+darle transformar y modificar.
+Muy bien. Una vez que lo cargamos
+entonces podemos seguir la guía que
+tenemos por acá que es para que haya
+gráficos, tablas y matrices. Esto
+funciona como tablas dinámicas. Entonces
+es cuestión de alar la información. La
+información, ¿verdad?
+Y eh también si en algún momento
+queremos insertar una imagen, entonces
+aquí pues no está necesario hacerlo,
+pero si creemos insertar, le damos en
+insertar imagen.
+Entonces ven que aquí dice en el panel
+de formato en estilo, ¿verdad? Y aquí
+entonces ya en imagen podemos examinar y
+buscar la imagen respectiva.
+Muy bien. Pero en este caso no vamos a
+requerir imagen.
+Después podemos insertar texto como
+cuadro de texto.
+Le damos aquí insertar cuadro de texto y
+aquí le podemos agregar la información
+que en este caso pues vamos a copiar
+del
+gráfico ya terminado. Aquíamente tenemos
+los gráficos
+terminados para poder irnos guiando
+sobre qué hay que ir haciendo, ¿verdad?
+En este caso podemos copiar esta
+información.
+por acá y la pegamos, ¿verdad?
+Y
+un color de fondo este texto, ¿verdad?
+Entonces, nos venimos aquí y
+acá en general, ¿verdad? Podemos
+entreedades
+e efectos. Verá acá la parte de fondo y
+vamos a ver ahí un cubito que nos guste.
+Por ejemplo, este se parece al que
+estamos opuer
+gráficos. Ven que primer gráfico es un
+gráfico de líneas, ¿verdad? Y lo que
+necesitamos es entonces poner en el eje
+la fecha, eh como leyenda las empresas y
+como valores y las ventas, ¿verdad?
+Entonces vamos a proceder a realizarlo,
+¿verdad? Aquí le damos clic en un
+espacio en blanco y ya con eso aparece
+el gráfico, ¿verdad? Ahí es de grave.
+Les podemos ajustar el tamaño según
+manos, ¿vale?
+Y necesitamos aquí irando la
+información. Dijimos que vamos a tirar
+fecha en el eje X, ¿verdad? Y acá vamos
+a tirar en el eje o en valores las
+ventas
+las ventas. Ajá. Y después en la leyenda
+vamos a tirar la empresa.
+Vean que uno puede secundaria si
+quisiera.
+En este caso no se hablan de 80. Acá
+vean que estamos teniendo datos por ahí.
+Nosotros le damos a esta opcionita que
+está por acá. Pu bajar
+a
+los datos trimestrales.
+Después podemos pasar si no a datos
+mensuales, ¿verdad?
+Entonces,
+por acá ya tenemos este primer gráfico,
+¿verdad? Ahora podemos copiar gráficos y
+cambiarlos. Bueno, un punto importante
+es el título. Nosotros si queremos
+podemos darle clic acá y en esa
+pestañita de formato que no vamos a ver
+profundidad, pero en la clase pues se le
+va a dar eh más énfasis a esta parte. De
+momento nosotros mencionar que acá se
+pueden modificar pues todos los
+elementos asociados, ¿verdad?, al
+formato. Entonces, ¿ven? Se puede
+modificar la leyenda,
+se pueden modificar los valores del eje
+X, los valores del eje Y, las líneas,
+pueden modificar en principio cada una
+de ellas, los colores asociados, todos
+esos elementos pues se pueden modificar
+por acá, ¿verdad? Y eh pues en uno de
+ellos está el título, ¿verdad? Hay que a
+veces buscarlo, pero si no lo puedo
+buscarlo blanco, ¿verdad? Ven, aquí no
+apareció porque probablemente tiene otro
+nombre y es falta de la tilder, ¿verdad?
+De la tilder, ¿verdad? Entonces, ven,
+aquí nos puede decir, bueno, yo quiero
+que esté centrado, aquí lo puedo centrar
+y aquí le puedo cambiar el nombre,
+¿verdad? por 20 Venezuela.
+Pueres
+mensuales
+y aquí vamos a trabajar ahora creo con
+un número de abogados. Entonces vamos a
+copiar este yo puedo copiar. Puedo le
+darle clic derecho y le puedo dar acá
+en
+clic derecho y le puedo dar copia objeto
+y nada le doy control V para pegarlo.
+Una vez que lo pego, ¿verdad? Entonces,
+yo puedo cambiar aquí los valors. En
+este caso, yo ya no lo voy a hacer por
+ventas, esta no sería suma de ventas,
+sino que me voy a traer el dato de
+abonados.
+Ahí tengo ya los datos de abonados.
+Entonces, me voy a venir el título
+y aquí en general les voy a cambiar el
+título por
+dos por
+Muy bien.
+Ya tenemos ahora sí estos dos. En todo
+este proceso, como ustedes logran
+observar, pues la parte gráfica es
+fundamental y nosotros aquí podemos ir
+viendo cuáles son las variables que
+tenemos. Y esas variables pues podemos
+simplemente arrastrarlas, pero a veces
+uno desea ver esas variables, ¿verdad?
+Para eso es que hay tres, bueno, hay
+cinco vistas ahora, ¿verdad? Más
+importantes son estas tres que están
+marcadas. La primera es la vista
+informe, que es donde diseñamos los
+gráficos como tal. La vista tabla es
+donde podemos ver los datos o las eh la
+información como si estuviéramos en un
+Excel, ¿verdad?, donde podemos ver la
+base de datos. Y acá uno de los
+elementos más importantes es que
+podemos, ¿verdad? Visualizarlos y
+también
+podemos nosotros cambiarle el formato a
+estas a estas eh a esta información. Por
+ejemplo, yo puedo jugar aquí en fecha y
+yo puedo decir, "Mira, quiero que sea
+una fecha
+o por ejemplo puedo unirme a ventas y yo
+puedo decir, bueno, quiero que tenga el
+separador de de miles,
+¿verdad? Inclusive pues también lo puedo
+hacer para todos estos de miles. Por
+ejemplo, aquí en abonados me que ese
+número entero, eso está correcto,
+¿verdad?
+Aquí yo puedo hacer esto también con
+separador de miles.
+Eso también para tus decimales.
+Y así lo podemos hacer con cada uno de
+ellos, ¿verdad?
+Decimal. Si hubiera algún que es
+porcentaje lo podemos modificar acá y
+demás, ¿verdad? Entonces es un elemento
+muy importante que este trimestre vamos
+a empezarlo a fecha otra también.
+Y listo. Y aquí podemos pasar nuevamente
+a B.
+Ya con eso entonces podemos cambiarle el
+formato de celdas. Lo otro sería
+insertar tablas.
+Para insertar tablas
+utilizamos este objeto usablemos
+por acá.
+Vamos a subir
+cru
+y aquí ve que podemos poner empresas,
+ventas, tarifa.
+Tenemos para acá empresas
+datos, ventas, ¿verdad?
+En este caso tenemos por acá,
+nada más es cuestión de jalarlo, ¿ven?
+ya me saca la suma de las ventas
+y puedo también tirarle la variable
+tarifa.
+Bien, entonces aquí ya puedo ver cuál es
+las ventas, ¿verdad? Las mismas ventas
+que he tenido para cada empresa por cada
+tarifa. Bien, y esto ya entonces nos lo
+hace en una tipo tabla. Yo puedo cambiar
+el formato, ¿verdad? En esta opcioncita
+el medio, ¿verdad? Que hemos hablado por
+dicho un pincel, ¿verdad? Aquí podemos
+venir y
+acá en general en propiedades
+objeto visual
+para establecidos, pero los establecidos
+es que esto cambia mucho. Podemos
+cambiar aquí en filas alternas o filtras
+alternas con contraste que es la que
+estamos observando por ahí. En realidad
+uno puede escoger entre varios formatos
+que quiera, ¿verdad? Pero pues en este
+caso para eh tratar de hacerlo similar a
+como está en nuestro diseño, que estamos
+tratando de que quiera sería este,
+¿verdad?
+Muy bien. Acá vamos a hacer esta tablita
+un poquito más pequeño. Sí, vamos a esto
+más
+es Vamos a un poquito por acá.
+Y ahora sí, muy bien.
+Este, est, ya tenemos entonces cómo
+insertar una tabla. Ahí lo podemos ver
+perfectamente.
+Muy bien. Ahora lo que sigue
+es como insertar matrices. Las matrices,
+el otro objeto que está agarrado, ¿no?
+Entonces voy a hacer est
+matriz. Vamos a por acá.
+Y aquí en matrices, entonces vamos a
+tirar filas a la empresa
+en colores a tarifa
+y en el medio voy a tirar las ventas.
+Bien, entonces ya esto se parece más a
+las tablas dinámicas que estamos
+acostumbrados a hacer. Tiramos empresa
+en las filas, tendramos tarifa en las
+columnas y tiramos pues una variable, en
+este caso, por ejemplo, suma de ventas,
+nada más tiramos ventas y pues aquí hace
+la suma, ¿verdad?, de las combinaciones
+respectivas, ¿verdad?
+Pero también nosotros podríamos
+perfectamente hacer una modificación
+para que no sea la suma, sino por
+ejemplo, queremos venir acá y calcular
+el promedio o el mínimo o el máximo o
+podemos darle nuestros valores como y
+aquí le podríamos dar, vean, por
+ejemplo, porcentaje del total de la
+fila. Entonces, vean, vamos a mostrar
+porcentaje del total de fila. Entonces,
+la fila suma un 100%. V. Yo lo que
+quiero es ver de los clientes, por
+ejemplo, de CNFL
+2, ¿cuántos son residencial? El 19,04%.
+Esto, por ejemplo. Entonces, pues ese es
+un elemento bastante bastante importante
+por acá.
+Acá después podemos insertar,
+¿verdad? Si ustedes ven, aquí tenemos
+tarjeta y podemos poner el promedio de
+ventas en kw, ¿verdad? Entonces, veamos
+por acá si no logramos observar.
+Ah, bueno, perdón, estará bien el
+hacking. En realidad e tenemos dos
+tabletas, uno en ventas y otro en
+ventaje
+entonces
+vamos a
+a hacer aquí el poste. En realidad creo
+que puede quedar bien así. Vamos a verlo
+por acá. Sí, sí, creo que en este caso
+estaría bien. Eso indicar.
+Vamos a hacerlo en dos nada más para que
+vean eh un temita algo interesante. Voy
+a copiar este objeto visual.
+Vamos a copiar este objeto visual.
+Derecho. Copiar copiar el objeto visual.
+Vamos a pegarlo. Veradamos
+aquí en esta, pues se hizo bastante
+chiquitito, ¿verdad? Entonces vamos a
+explicar un poquito eso. Vamos a tener
+que hacer este más pequeña.
+Vamos a cortar esto.
+Esta vamos a hacer pequeñita.
+Y esta de acá vamos aar un
+normalmente cuando se hacen los no se
+hacen con tanto tanta información,
+¿verdad? Normalmente se hace máximo
+cuatro elementos visuales.
+Ahora, por cuestión de aprendizaje, pues
+estamos tratando de ustedes pueden
+utilizar varias, ¿verdad?
+Pero en realidad eh
+sean pues
+tantos objetos visuales. Eh, bueno,
+aquí digamos que ya tenemos las dos
+tables. Que est la vamos a dejar en suma
+normal.
+Vamos a mostrar aquí valor para que
+quede normal y podemos querer que se
+muestre en millones. Entonces, aquí
+podemos venir unos 100 valores.
+Vamos a
+voluma,
+perdón, aquí en volum específica dice
+mostrar unidades y le vamos a dar en
+millones. V. Entonces, ya el dato que
+nos va a mostrar va a estar en millones.
+Si a veces uno quisiera hacerlo pues
+para eh facilitar y que se vea un poco
+eh menos pesado.
+Muy bien, ahora estamos con la parte de
+las tarjetas. Entonces, ve en tarjetas
+me puedo venir y las tarjetitas son
+estas de acá. Entonces, yo me vengo,
+puedo tirar aquí ventas en valores y le
+puedo dar que me dé el promedio.
+Entonces, este es el promedio de ventas
+en billones, ¿verdad? Promedio de ventas
+es de 49,39
+billones por categoría, ¿verdad?
+Eso es más o menos lo que tenemos por
+ahí, que entonces es esos eh datos de
+promedio en millones, ¿verdad? Ahora
+vamos a hablar un poquito de los filtros
+porque Power BI, ¿verdad? Como ya vemos,
+podemos crear gráficos de un modo
+bastante sencillo, como ustedes vieron.
+Igual tablas y matrices es infinamente
+cuestión de ir arrastrando, soltando,
+¿verdad? Ir viendo un poco pues el
+comportamiento que va teniendo el
+gráfico, la tabla y modificar cualquier
+elemento que nosotros creamos. Ahora, la
+situación es que nosotros podemos usar
+filtros y los filtros son de las cosas
+más poderosas que tenemos aquí
+directamente en el Power BI. Eh, acá
+en filtros podemos en filtros desde la
+base de datos donde aquí pues nosotros
+podríamos filtrar algún mes, eh, podemos
+filtrar por ejemplo alguna empresa,
+quisiera, por ejemplo, aquí CNFL y no es
+que lo que filtremos acá va a filtrar
+los gráficos, pero si nos permite
+poder filtrar y hacerlo pues de un modo
+relativamente similar a como en Excel,
+podemos vamos a ordenar ascendente o
+descendentemente y demás. Entonces, pues
+todo eso se puede hacer desde
+esta parte de filtros de base de datos,
+pero también tenemos los filtros en
+gráficos. Entonces, nosotros podemos
+venirnos por acá
+y vamos
+a ver por acá, por ejemplo, el tipo de
+tarifa, ¿verdad? Entonces, perdón, vamos
+a venirnos
+secchita de acá y vamos a meterle los
+filtros. Este se llama segmentación de
+datos. Esto básicamente es el filtro y
+yo le puedo poner aquí tarifa. ¿Ven? Y
+entonces yo aquí puedo escoger una de
+las tarifas que está por acá
+y puedo entonces ver cómo se comporta.
+Con control. Puedo escoger varias.
+Entonces ahí pues
+puedo yo perfectamente
+compararlo, ¿verdad?
+Si yo no quisiera hacerlo con control y
+quisiera pues que fuera un poquito
+diferente, puedo unirme acá en el menú,
+le doy configuración de la segmentación
+y aquí es selección y yo puedo escoger
+si solo quiero que sea selección única,
+si quiero selección múltiple con
+control, que es lo que está en este
+momento, o que aparezca, por ejemplo, la
+opción de seleccionar todo para
+seleccionar todo, ¿verdad? Ya eso queda
+pues la decisión que nosotros querramos.
+Ese es un método de filtro, ¿verdad?
+Pero lo otro que también podemos tener
+son filtros de tiempo.
+Yo puedo venirme aquí, le doy clic en
+este espacio de acá, le doy donde dice
+segmentación,
+puedo venir acá y le tiro la fecha.
+En el momento que hago eso, vean que el
+filtro es diferente,
+es un filtro de tiempo.
+Est un poquito más pequeña acá.
+Y esta también vamos a hacer un poquito
+más pequeña,
+¿ven? Y entonces aquí yo puedo ir a
+cortando la serie todo lo que yo quiera,
+¿verdad? para ver en un periodo
+específico o puedo pues extenderle
+cuanto desee. La otra opción de filtro
+que nosotros tenemos por acá y vea que
+todos estos filtros que hacemos tanto en
+este en este de acá con este otro de acá
+eh son pues en este caso aplicables a
+todos cuadros y gráficos, ¿verdad? En el
+momento que que hacemos un cambio por
+acá o acá, entonces esto cambia pues
+todos estos elementos, ¿verdad?
+de modo conjunto
+y eh pues aquí en la parte superior
+nosotros podemos tirar este segmentador
+de datos y aquí eh podemos ahora también
+si ustedes ven tirar aho perdón aquí más
+bien puse tarifa y era más bien empresa
+entonces no hay problema lo cambiamos
+y aquí en este otro segmentador ahora sí
+más bien aquí donde vamos a tirar tarifa
+Y vamos a hacer un pequeño ajuste porque
+aquí en configuración de la segmentación
+yo puedo hacer que sea mosaico. Mosaico
+es para que sea más bien como en estilo
+horizontal, ¿verdad?
+Yo lo puedo hacer aquí así. Inclusive,
+pues lo pueden si quieren nada que
+en una línea y ven, ya puede quedar en
+esta parte de aquí arriba
+y así entonces nosotros podemos hacer
+las combinaciones que querramos. Como
+ustedes ven, esto es un dashboard muy
+cargado, ¿verdad? Quedó muy cargado con
+mucha información. Lo hicimos pues para
+que ustedes eh vean normalmente cómo
+eh se desarrolla diferentes tipos de
+gráficos, pero en realidad lo óptimo es
+que dejen unos dos
+tres, máximo cuatro eh objetos, ¿verdad?
+Para que entonces ustedes puedan eh
+analizar con más facilidad todo lo que
+es la información acá. Pues eh ¿qué es
+lo interesante de todo esto? Bueno, que
+podríamos escoger, por ejemplo, que es
+PH acá.
+Y ven como pues su comportamiento es
+relativamente parecido, como puedo ver
+el tema de los abonados en el tiempo,
+¿ven? Entonces ya me hace por decirlo
+así pues un trabajito más adelivo.
+Acá estos dos se quedaron como muy
+cargados aquí, ¿verdad? Eh, pero es para
+ver los millones y qué porcentaje
+presenta cada uno, ¿verdad? Pero en
+realidad aquí pues ya relativamente lo
+tengo. Entonces podría perfectamente
+quitar est millones
+y dejarme entonces nada más los
+porcentajes
+para hacer un poquito esa comparación
+y entonces pues eh puedo analizarlo con
+más facilidad. Ya me puedo bajar que
+hecho esta tarjetita por acá.
+Puedo dejar, ¿no? Sí, yo creo que sería
+mejor bajar por aquí
+y ya podría extender un poquito más esto
+para que se vea un poco menos cargado,
+¿verdad? Eh, lo otro que en este caso me
+gustaría mencionar es que también uno
+puede hacer filtros sobre todo
+el el dashboard, ¿verdad? ¿Qué le
+llamamos? Eh,
+¿qué le llamamos por acá? Bueno, ya
+vemos los filtros de tiempo, ¿verdad? Y
+el como les mencionaba, estos filtros es
+para que se puedan trabajar todo. Por
+ejemplo, yo puedo aquí filtrar media
+exensón A, media extensión B, eh puedo
+escoger industriaal,
+puedo escoger comos y servicios, todo
+está haciendo con control, ¿verdad? Y
+ven entonces como ya logro replicar pues
+este comportamiento y también bueno yo
+podría filtrar para que sea hasta el 11
+de octubre de 2017. Vengo por acá, puedo
+considerarle acá, me vengo por año, subo
+2017, entonces le doy aquí octubre y lo
+11 de octubre, por ejemplo, acá entonces
+ya con eso debo filtrar los datos. Bien,
+entonces esto lo que me sirve es eso,
+para poder filtrar todos los datos, para
+filtrar todos los eh gráficos y de esa
+manera, pues entonces
+eh poder ver o analizar la información
+con más detalle, ¿verdad? Pero también
+hay interacción entre los gráficos. Si
+por ejemplo yo escojo nada más aquí es
+pH no hay tensón a todo el gráfico
+cambia
+e todos los demás gráficos responden en
+este filtro que yo acabo de hacer. De
+hecho, yo aquí si me voy en formato
+editar interacciones, yo puedo escoger,
+¿ven? Yo escogí este, yo puedo escoger
+si alguno quiero que no se filtre y e
+inclusive van a ver dos tipos de
+filtros. Aquí pues no se logran
+observar, pero a veces cuando son
+gráficos eh circulares o demás, eso lo
+puedo más detalle en la lección. Hay dos
+formas de filtrar, uno es que se vea la
+partecita que representa o la otra es
+que se filtre todo el gráfico, o sea,
+que todo el gráfico cambie en función de
+lo que escogí o que
+eh se filtre. Es decir, que se muestre
+del total qué pedacito representa,
+¿verdad? Esos son como dos opciones que
+podríamos directamente utilizar, pero
+eso bueno, todo eso se modifica aquí en
+editar interacciones, ¿ven? Ven,
+entonces eso es lo bonito, que uno puede
+pues perfectamente ir seleccionando
+algunas líneas o usted dicen, "Uy, este
+dato me interesó." En el fondo, cuando
+filtramos este dato, ya nos estamos
+dejando solo general HEC y los datos que
+estamos viendo de abonados y de empresa
+solo general HEC. Bien, entonces esto
+pues esta este nivel de dinamismo,
+¿verdad?, que podemos observar en PowerB
+es muy poderoso. Lo otro, ¿verdad?, es
+que también podemos hacer pues estos
+gráficos grandes.
+Yo me puedo venir acá con este modo
+enfoque de acá, puedo entonces maximizar
+o reducir y eh también puedo darle clic
+derecho y puedo exportar esos datos,
+puedo destacar, quitar, etcétera, para
+hacer un cálculo visual, pero eso
+también pues es un poquito más complejo.
+De momento puedo mostrar como tabla y
+también puedo ver los datos respectivos,
+¿vale?
+Y ya vamos a entrar directamente al tema
+de función de TAX. Antes de eso, nada
+más les quiero mostrar por último lo que
+se llama la sección de filtros de acá.
+En esta sección de filtros, así como
+vemos que podemos hacer filtros acá,
+¿verdad? Con todos estos elementos, yo
+puedo hacer filtros directamente en esta
+sección de filtros. Puedo venirme acá y
+puedo decir para este objeto visual, ¿en
+qué filtro es de este objeto visual? yo
+puedo
+escoger de las variables que están
+incluidas en este objeto visual,
+¿verdad? Eh, si quiero en este caso
+filtrar alguna en particular e inclusive
+le puedo meter
+eh, por ejemplo, un filtro específico,
+por ejemplo, yo puedo aquí en tarifa y
+puedo decir que en general nada más.
+Entonces aquí aunque esté industrial,
+¿ven?
+yo marque otras. Ese tiene un filtro de
+general,
+entonces solo se va a mostrar las tarifa
+general y como no está seleccionada la
+general no va a aparecer, va a quedar en
+blanco. Esto pues es utilizado cuando en
+algún momento
+eh se quiere e
+ya hacer algún filtro específico en un
+gráfico, ¿verdad? O por ejemplo, si yo
+quiero ver un trimestre muy concreto en
+este gráfico, pues lo puedo hacer. O si
+quiero eliminar algún valor en
+específico de algún sistema o demás,
+entonces yo lo puedo hacer, ¿verdad? Eso
+es filtro de este objeto visual. Filtro
+de esta página es cuando en esta página
+yo quiero hacer un filtro general para
+todos, que no aparezca aquí nada de eso.
+Por ejemplo, en sistema, yo puedo aquí
+en filtros de esta página y en sistema
+puedo decir, yo solo quiero ver temas de
+distribución. Entonces, de esta página
+no se va a ver nada. de generación, que
+son como secciones o digámoslo así o e
+sectores
+de el de esta base de datos. Entonces
+como que yo dijera, yo quiero ver solo
+la juela en este gráfico, entonces
+filtro nada más a la juela. O por
+ejemplo en selecciones, yo quiero ver
+solo diputados en esta eh firmina y en
+esta otra quiero ver solo elecciones
+presidenciales. ¿Ven? Entonces, esto es
+para filtrar toda la página, o sea, de
+modo que todo lo que se observe en esta
+página sea única y exclusivamente de
+este sistema, pero en filtros de todas
+las páginas es para que en todas las
+páginas
+aplique algún filtro en particular.
+Entonces, yo aquí podría escoger y poner
+un filtro para todas las Entonces es
+otro elemento que también se podría
+utilizar en todas ellas. Bueno, ya con
+esto entonces hicimos un reso de lo que
+es esta parte de gráficos, que es como
+de las cosas más fuertes que tenemos a
+nivel de Power BI. Y ahora vamos a
+iniciar con el tema que les mencionaba,
+que es de función. M.

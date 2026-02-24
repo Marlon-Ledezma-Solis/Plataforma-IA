@@ -1,0 +1,485 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/19B_ZBT87Kfs76XrMjQZTdyuV1N2c0H0-P_Rs-H8YiuY/edit?usp=sharing
+
+--- Diapositiva 1 ---
+Unidad 1. Inducción e introducción al curso.
+Proyecto: Inteligencia artificial y automatización: Aplicaciones en distintos sectores.
+
+--- Diapositiva 2 ---
+Contenidos
+Inducción al curso, plataformas virtuales, expectativas y objetivos.
+¿Qué es la inteligencia artificial?, y su Evolución
+
+Definición
+Historia General
+Avances más recientes
+Conceptos claves
+
+--- Diapositiva 3 ---
+Estructura del programa:
+Inteligencia Artificial y Automatización
+
+--- Diapositiva 4 ---
+CONTEXTO GLOBAL
+La Revolución de la IA en el Mercado Laboral
+La adopción de inteligencia artificial se ha generalizado a escala mundial. El 65% de las organizaciones ya usa IA generativa de forma regular, prácticamente el doble en comparación con el periodo previo. Esta transformación está redefiniendo el panorama laboral global.
+Según el Foro Económico Mundial, el 23% de los empleos mundiales cambiará significativamente antes de 2027, con la creación de 69 millones de nuevos puestos ligados a tecnologías emergentes y la automatización de otros 83 millones.
+65%
+Organizaciones usando IA
+69M
+Nuevos empleos
+23%
+Empleos transformados
+
+--- Diapositiva 5 ---
+Productividad y Competitividad con IA
+La evidencia empírica demuestra que la IA generativa está elevando la productividad de manera significativa, especialmente entre trabajadores con menor experiencia. Los beneficios son medibles tanto en eficiencia como en calidad del trabajo.
+40% Mejora en Calidad
+Consultores usando GPT-4 completaron 12.2% más tareas, 25.1% más rápido y con 40% mejor calidad según estudio de Boston Consulting Group.
+14% Incremento en Desempeño
+Agentes de servicio al cliente con asistentes de IA generativa mejoraron su productividad 14% en promedio, acortando tiempos de respuesta.
+40% de Horas Laborales
+Los modelos de lenguaje podrían impactar hasta el 40% de todas las horas de trabajo en la economía global según Accenture.
+
+--- Diapositiva 6 ---
+Seis Módulos de Aprendizaje Progresivo
+1
+Módulo 1: Fundamentos de IA Generativa
+Semanas 1-3: Introducción a la IA, evolución, ética, herramientas de investigación profunda y razonamiento con IA.
+2
+Módulo 2: Automatización de Tareas
+Semanas 4-8: Automatización en Microsoft Office, GPTs personalizados, Gems de Google, agentes de IA (Manus, Genspark), Google AI Studio.
+3
+Módulo 3: Automatizaciones Programadas
+Semanas 9-15: Python básico, Sikulix para bots, uso de APIs de IA, desarrollo de agentes con N8N, Make y Manychat.
+4
+Módulo 4: Contenido Multimedia
+Semanas 16-17: Automatización de imágenes (OpenAI, ImageFX, Flux AI, Canva) y videos (WAN 2.1, VideoFX, FlexClip, Sedance).
+5
+Módulo 5: Análisis de Datos
+Semanas 18-21: Power Query para procesamiento eficiente, Power BI para dashboards y reportes de segmentación.
+6
+Módulo 6: Proyecto Integrador
+Semanas 22-23: Desarrollo de proyecto aplicado en contexto real o simulado, exposición final y evaluación.
+
+--- Diapositiva 7 ---
+Plataformas y tecnologías por utilizar
+
+--- Diapositiva 8 ---
+Sistema de evaluación
+
+--- Diapositiva 9 ---
+Competencias para el Futuro del Trabajo
+Generación de Contenido Automatizado
+Dominio de ChatGPT, Gemini, DeepSeek y agentes como Manus, Genspark, Minimax para automatizar tareas y generar contenido digital.
+Desarrollo de Automatizaciones
+Implementación de soluciones en Office, Google AI Studio, desarrollo de bots con Python y Sikulix, flujos con N8N y Make.
+Análisis y Visualización de Datos
+Uso de Power BI para analizar datos, crear dashboards y generar reportes que apoyen toma de decisiones estratégicas.
+Automatización Multimedia
+Creación de contenido visual y video con Canva, OpenAI, ImageFX, Flux AI, VideoFX y otras herramientas de IA.
+Proyectos Aplicados
+Capacidad para integrar IA y automatización en escenarios reales adaptables a comercio, servicios, educación y atención al cliente.
+Liderazgo en Transformación Digital
+Preparación para integrarse a equipos que usan IA estratégicamente o liderar procesos de mejora en su propio emprendimiento.
+
+--- Diapositiva 10 ---
+Oportunidadades Laborales emergentes en IA
+
+--- Diapositiva 11 ---
+Concepto y Evolución de la IA
+
+--- Diapositiva 12 ---
+Definición de IA
+Definición simple:
+Sistemas informáticos entrenados que se encargan de desarrollar diversas tareas y actividades de un modo más  autónomo y adaptativo.
+
+Ejemplos:
+Crear texto e imágenes
+Automatizar tareas
+Analizar datos
+Buscar clientes a partir de patrones
+Responder a clientes en chatbots
+
+--- Diapositiva 13 ---
+¿Cómo funciona la IA?
+Una red neuronal funciona como un cerebro muy simplificado. Está formada por nodos (o “neuronas”) que se conectan entre sí y procesan información.
+
+Los transformers convierten las palabras en números que representan su significado. Así pueden identificar relaciones y contextos entre ellas.
+
+--- Diapositiva 14 ---
+Historia y Evolución de la IA
+Orígenes (1950–1970)
+Turing y la Prueba de Turing; lógica y álgebra booleana.
+Primeros programas de juego y resolución de problemas.
+Paradigma simbólico: reglas, árboles de búsqueda.
+Esta etapa sentó las bases teóricas y filosóficas de lo que hoy conocemos como inteligencia artificial, estableciendo los primeros métodos para simular el razonamiento humano mediante reglas lógicas.
+
+--- Diapositiva 15 ---
+Sistemas Expertos y Primer Auge
+1970–1980s
+Sistemas Expertos
+MYCIN y XCON fueron ejemplos pioneros de sistemas basados en conocimiento codificado por humanos.
+Limitaciones
+Alto costo de mantenimiento y fragilidad ante casos no contemplados en las reglas predefinidas.
+Legado
+Establecieron la idea de capturar conocimiento experto en sistemas computacionales, un concepto que sigue vigente en la IA moderna.
+
+--- Diapositiva 16 ---
+Inviernos de la IA
+Períodos de expectativas infladas seguidos por recortes significativos de fondos para investigación en IA.
+Lección clave: Datos + cómputo + algoritmos deben madurar en conjunto para lograr avances significativos.
+Estos ciclos de auge y caída nos enseñaron que el progreso en IA requiere un equilibrio entre múltiples factores tecnológicos, no solo mejoras aisladas.
+
+--- Diapositiva 17 ---
+Machine Learning
+1990–2010
+Este período marcó una transición fundamental en el enfoque de la IA:
+De reglas programadas manualmente a aprendizaje desde datos (SVM, árboles de decisión, ensambles).
+Aparición de big data y cómputo paralelo que permitieron procesar volúmenes de información sin precedentes.
+Desarrollo de algoritmos capaces de encontrar patrones en datos complejos sin instrucciones explícitas.
+
+--- Diapositiva 18 ---
+Deep Learning
+2012–2019
+
+--- Diapositiva 19 ---
+La Era Transformer
+2017 → presente
+Revolución en el Procesamiento de Lenguaje
+El mecanismo de atención se convirtió en el núcleo de los Transformers, permitiendo:
+Procesamiento paralelo de secuencias completas
+Captura de dependencias a larga distancia en el texto
+Desarrollo de Modelos de Lenguaje a Gran Escala (LLM)
+Avances en multimodalidad (texto, imágenes, audio)
+
+--- Diapositiva 20 ---
+IA Generativa y Agentes
+2020 → presente
+Generación Creativa
+Modelos capaces de crear texto, código, imágenes, audio y video con calidad casi humana.
+Agentes Autónomos
+Sistemas que pueden llamar herramientas externas y actuar en múltiples pasos para resolver tareas complejas.
+Multimodalidad
+Integración de diferentes tipos de datos (texto, imagen, audio) en un mismo modelo.
+
+--- Diapositiva 21 ---
+La Evolución de la IA: Tendencias y Avances 2024-2025
+
+--- Diapositiva 22 ---
+Primer Trimestre 2024: Aumento de  de la IA
+1
+15 de febrero, 2024
+Google anuncia Gemini 1.5 Pro con una ventana de contexto revolucionaria de hasta 1 millón de tokens.
+2
+15 de febrero, 2024
+OpenAI revela Sora en versión preliminar, un generador de video basado en texto.
+3
+Marzo 2024
+Google despliega la versión beta de Deep Search permitiendo a los usuarios realizar investigaciones basadas en resultados web.
+
+--- Diapositiva 23 ---
+Segundo Trimestre 2024: La Consolidación Multimodal
+El 10 de abril, Google lanza NotebookLM, una herramienta revolucionaria que permite a los usuarios interactuar con sus propios documentos.
+El 13 de mayo, OpenAI responde con el lanzamiento oficial de GPT-4o, un modelo que integra capacidades de texto, voz y visión en tiempo real,.
+Durante la conferencia Google I/O 2024 (14 de mayo), se anuncia el acceso general a Gemini 1.5 Pro, pruebas de contexto de 2 millones de tokens y el impresionante agente multimodal Project Astra.
+Aparecen nuevos modelos de generación de video con IA
+
+--- Diapositiva 24 ---
+Tercer Trimestre 2024:
+El 12 de septiembre, OpenAI marca un hito histórico con el lanzamiento de o1-preview y o1-mini,.
+Vibe Coding: Un Nuevo Paradigma de Programación
+Nacimiento de los modelos razonadores
+Durante el tercer trimestre de 2024 surge y se populariza el término "vibe coding", un enfoque revolucionario impulsado por herramientas como:
+
+--- Diapositiva 25 ---
+Cuarto Trimestre 2024: La Maduración del Razonamiento
+1
+5 de diciembre, 2024
+OpenAI publica la versión completa del modelo o1 con capacidades de razonamiento ampliado, junto con el plan ChatGPT Pro, estableciendo un nuevo estándar en resolución de problemas complejos.
+2
+20 de diciembre, 2024
+OpenAI anuncia o3, sucesor de o1, como el nuevo estándar de razonamiento por cadena de pensamiento, llevando las capacidades de resolución de problemas a un nivel sin precedentes.
+3
+Noviembre 2024
+Anthropic lanza Claude 4 (Opus y Sonnet), con contextos de hasta ~200K tokens, mejor razonamiento y capacidades de codificación mejoradas, consolidando la competencia en el mercado de LLMs avanzados.
+4
+Noviembre 2024
+Se presenta MCP (Model Context Protocol), un estándar abierto para conectar modelos con herramientas externas, facilitando la interoperabilidad entre diferentes sistemas de IA.
+
+--- Diapositiva 26 ---
+El Terremoto Financiero de DeepSeek: Enero 2025
+Salida a producción de Operator de OpenAI
+La Caída Histórica de NVIDIA
+El 20 de enero de 2025, el lanzamiento de DeepSeek-R1, un modelo chino de razonamiento entrenado con aprendizaje por refuerzo y desarrollado por aproximadamente US$ 6 millones, desencadena un terremoto financiero:
+Caída del 17-18% en las acciones de NVIDIA
+Pérdida de US$ 600 mil millones en capitalización de mercado en un solo día
+Mayor caída diaria en la historia de la compañía
+
+--- Diapositiva 27 ---
+El Auge de los Agentes Autónomos: Q2 2025
+Aparece el modelo Minimax con su modo agente para desarrollo de tareas específicas
+Minimax
+Manus AI
+Agente general de Singapur-China lanzado el 6 de marzo, especializado en ejecución autonómica multipaso para tareas complejas.
+Fortalecimiento de n8n
+Se da una expansion de los agentes personalizados en plataformas como n8n y Make, con inclusion de MCP.
+Genspark
+En abril, Genspark Super Agent emerge como plataforma no-code que orquesta múltiples modelos para tareas complejas.
+La publicación de la guía "AI Agents Explained" de OpenAI cataliza una gran adopción de agentes en plataformas como n8n entre febrero y marzo, consolidando un nuevo paradigma en la automatización inteligente.
+
+--- Diapositiva 28 ---
+El Presente y Futuro Inmediato: Q3 2025
+Avances Técnicos Recientes
+xAI Grok-4 (9-10 julio): Modelo con herramientas integradas y búsqueda en tiempo real
+ChatGPT Agent (17 julio): Integración de Operator y Deep Research en un flujo conversacional unificado
+Veo 3 API (julio): Google permite acceso programático a su avanzado generador de video
+El context engineering se consolida como disciplina clave en la comunidad técnica, mientras que n8n reporta una creciente adopción de agentes en producción utilizando MCP.
+La tendencia actual apunta hacia una integración cada vez más profunda de la IA en todos los aspectos de la sociedad, con un enfoque particular en el desarrollo de agentes autónomos y tecnologías multimodales más sofisticadas.
+
+--- Diapositiva 29 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 30 ---
+Glosario Básico de Conceptos de Inteligencia Artificial (IA)
+
+--- Diapositiva 31 ---
+Aprendizaje Automático (Machine Learning)
+¿Qué es?
+Técnica que permite a las máquinas aprender de datos sin ser programadas explícitamente para cada tarea.
+Funcionamiento
+Utiliza algoritmos para identificar patrones en datos y hacer predicciones o tomar decisiones basadas en estos patrones.
+Aplicaciones
+Reconocimiento facial, detección de fraudes, filtros de spam, sistemas de recomendación y diagnósticos médicos.
+
+--- Diapositiva 32 ---
+Aprendizaje Profundo (Deep Learning) y Redes Neuronales
+Es un subcampo avanzado del aprendizaje automático que utiliza estructuras inspiradas en el cerebro humano:
+Redes con múltiples capas de neuronas artificiales
+Permite reconocimiento de patrones complejos
+Aprende características de alto nivel en los datos
+Posibilita avances en visión por computadora, traducción automática y reconocimiento de voz
+
+--- Diapositiva 33 ---
+Grandes Modelos de Lenguaje (LLM)
+Modelos de IA entrenados con cantidades masivas de texto que les permiten:
+Comprender contextos complejos
+Generar texto coherente y natural
+Responder preguntas de manera conversacional
+Traducir entre idiomas con alta precisión
+Resumir textos largos manteniendo ideas clave
+Ejemplos: GPT-4, Claude, Llama, Gemini, BERT, entre otros.
+
+--- Diapositiva 34 ---
+Token
+Unidad mínima con la que trabaja un LLM
+Coste y límites del modelo suelen medirse en tokens
+       (entrada + salida).
+Ejemplo: "economía" podría dividirse en los tokens "eco" y "nomía".
+Comprender los tokens es fundamental para optimizar costos y rendimiento al trabajar con modelos de lenguaje en aplicaciones económicas.
+
+--- Diapositiva 35 ---
+Prompt: La clave para interactuar con IA
+Definición
+Instrucción o pregunta específica que proporcionamos a un sistema de IA para obtener el resultado deseado.
+Ingeniería de Prompts
+Arte de diseñar instrucciones precisas que maximizan la calidad y relevancia de las respuestas de la IA.
+Resultados
+Un prompt bien diseñado puede transformar drásticamente la utilidad de los sistemas de IA generativa.
+Ejemplo de prompt básico: "Escribe un poema sobre el otoño en estilo haiku"
+Ejemplo de prompt avanzado: "Actúa como un médico especialista en cardiología y explica las diferencias entre angina e infarto en términos que un paciente de 70 años pueda entender fácilmente"
+
+--- Diapositiva 36 ---
+Prompt: La clave para interactuar con IA
+Son indicaciones que describen lo que el usuario desea obtener de la inteligencia artificial.
+
+Un buen Prompt puede hacer que la IA entienda mejor lo que necesitas y te dé respuestas más útiles.
+
+https://chatgpt.com/ 
+https://chatgpt.com/g/g-VrLCETHTX-crear-prompts
+
+--- Diapositiva 37 ---
+Ventana de Contexto
+Definición
+Máximo de tokens que el modelo considera a la vez durante el procesamiento.
+Importancia
+Ventanas más amplias permiten analizar informes largos, pero existe el riesgo de "lost in the middle" (olvido en medio).
+Prácticas Recomendadas
+Resúmenes jerárquicos, segmentación estratégica y referencias cruzadas para manejar documentos extensos.
+
+--- Diapositiva 38 ---
+Sección práctica
+Trabajaremos en primera instancia con ChatGPT:
+
+Haz una pregunta que le interese a la IA.
+
+Vamos a pedirle que nos haga una explicación acerca de la evolución de la IA.
+
+--- Diapositiva 39 ---
+Eres un asesor de marketing para una pyme llamada Comida y Sueños en Alajuela que se dedica a ofrecer catering service principalmente para eventos especiales. Redacta una campaña para promocionar los servicios de un modo atractivo y que logre impactar a las personas, haz énfasis en que nos adaptamos a diversos presupuestos y que lo que deseamos es ser sus aliados para que esos momentos especiales sean inolvidables, utiliza un tono amigable y cercano.
+Sección práctica
+Utiliza el siguiente prompt y analiza el resultado:
+
+--- Diapositiva 40 ---
+Temperatura (Sampling)
+Temperatura Baja (0.1-0.4)
+Respuestas deterministas y estables, ideales para cálculos financieros, análisis de riesgo y tareas que requieren precisión.
+Temperatura Media (0.5-0.7)
+Balance entre consistencia y variedad, adecuado para redacción de informes y análisis de escenarios.
+Temperatura Alta (0.8-1.0)
+Mayor creatividad y diversidad, útil para ideación, brainstorming y generación de hipótesis alternativas.
+
+--- Diapositiva 41 ---
+Embedding
+Representación vectorial de palabras, frases o documentos en un espacio multidimensional.
+Permite medir similitud semántica entre conceptos (ej.: "inflación" cercano a "IPC").
+Base para búsquedas semánticas en documentos económicos y financieros.
+Facilita la organización de grandes volúmenes de información textual por temas y conceptos relacionados.
+
+--- Diapositiva 42 ---
+Transformers
+Los Transformers revolucionaron el procesamiento de lenguaje con:
+Modelo secuencial con auto-atención que capta dependencias largas.
+Esta arquitectura es la base de los modelos más avanzados utilizados hoy, gracias a ellos, la IA entiende lo que le escribimos y responde en lenguaje natural de un modo parecido a un humano.
+De esta manera permiten generar asociaciones entre palabras frases y párrafos.
+Esto es lo que permite analizar textos, y generar párrafos
+
+--- Diapositiva 43 ---
+Inteligencia Artificial Generativa
+Sistemas de IA capaces de crear contenido completamente nuevo basándose en su entrenamiento previo:
+Texto
+Artículos, poemas, guiones, correos electrónicos personalizados
+Imágenes
+Ilustraciones, fotografías realistas, arte conceptual, diseños
+Audio
+Música, efectos sonoros, voces sintéticas, podcasts
+Código
+Programación, automatización, solución de errores
+
+--- Diapositiva 44 ---
+Eficiencia computacional y capacidad para detectar patrones espaciales en datos estructurados como tablas y gráficos.
+Redes Convolucionales (CNN)
+Funcionamiento
+Extracción jerárquica de patrones locales mediante filtros convolucionales.
+Aplicaciones en Economía
+Análisis de imágenes satelitales para estimación de oferta agrícola, monitoreo de inventarios y actividad económica.
+Ventajas
+
+--- Diapositiva 45 ---
+Redes Recurrentes
+RNN/LSTM/GRU
+Especializadas en procesar datos secuenciales:
+Mantienen un estado interno que funciona como "memoria" de elementos previos.
+LSTM y GRU resuelven el problema de desvanecimiento del gradiente en secuencias largas.
+Aunque menos utilizadas que los Transformers, siguen siendo valiosas para series de tiempo económicas y secuencias cortas.
+Eficientes en predicción de indicadores financieros y análisis de tendencias temporales.
+
+--- Diapositiva 46 ---
+Alucinaciones en IA Generativa
+¿Qué son?
+Fenómeno en el que los sistemas de IA generan información incorrecta, inventada o sin fundamento, presentándola como si fuera verdadera.
+Causas principales
+Datos de entrenamiento incompletos
+Patrones estadísticos mal interpretados
+Falta de conocimiento actualizado
+Ausencia de razonamiento causal
+Importante: Siempre verificar la información crítica proporcionada por sistemas de IA, especialmente en contextos profesionales, médicos o legales.
+
+--- Diapositiva 47 ---
+Aprendizaje por Refuerzo (RL)
+Agente
+Acción
+Recompensa
+Aprendizaje
+
+--- Diapositiva 48 ---
+Utiliza los siguientes prompts en una misma conversación, debes enviar uno, esperar respuesta y enviar el siguiente, y así sucesivamente:
+
+Prompt 1:
+Crear una carta con fecha de hoy para solicitar que nos tomen en consideración en la feria de emprendedores.
+
+Prompt 2:
+Ser más sintético, la organiza la Cámara de Industrias de Costa Rica en la Antigua Aduana del 10-12 del próximo mes, y en mi contacto, poner: Allan Quesada Rojas, dueño, allan@cys.com. 
+
+Prompt 3:
+En Word.
+Sección práctica
+
+--- Diapositiva 49 ---
+Modelos de Difusión
+Una clase de modelos generativos que:
+Generan datos mediante un proceso gradual de eliminación de ruido.
+Producen imágenes, audio y video de alta calidad.
+Útiles para síntesis de escenarios visuales (tiendas, logística) y contenido de marketing.
+Permiten visualizar proyecciones económicas y simular entornos para análisis de políticas.
+
+--- Diapositiva 50 ---
+Instrucción, Afinamiento y RAG/CAG
+Instruction-tuning
+Adapta modelos generales a seguir instrucciones específicas para tareas económicas.
+Fine-tuning
+Especialización en dominios específicos como análisis financiero o econometría.
+RAG vs CAG
+Retrieval-Augmented Generation (búsqueda + generación) vs Context-Augmented Generation (contexto íntegro). La elección depende del tamaño y calidad de la base documental.
+
+--- Diapositiva 51 ---
+Evaluación y "Razonamiento"
+Benchmarks Estándar
+MMLU: conocimiento multidisciplinario
+GSM8K: razonamiento matemático
+GPQA: preguntas científicas avanzadas
+Evaluaciones de código
+Técnicas de Razonamiento
+Cadena de pensamiento (CoT)
+Auto-verificación
+Consistencia entre múltiples ejecuciones
+
+--- Diapositiva 52 ---
+Mixture of Experts (MoE)
+Una arquitectura avanzada que optimiza recursos:
+Varios "expertos" (sub-redes) especializados en diferentes tipos de contenido.
+Un router que elige dinámicamente qué expertos activar para cada token.
+Beneficio principal: mayor capacidad efectiva con costo computacional similar por paso.
+Ideal para modelos económicos que deben manejar diversos tipos de datos (textuales, numéricos, temporales).
+
+--- Diapositiva 53 ---
+Dotar de Herramientas → Volver Agentes
+Function Calling
+Capacidad para invocar funciones externas desde el modelo
+Integración de Herramientas
+Bases de datos, Python/R, hojas de cálculo, APIs económicas
+Beneficios
+Acciones verificables y resultados reproducibles en análisis económicos
+
+--- Diapositiva 54 ---
+Planeador–Ejecutor y MCP
+Ingeniería de contexto
+Arquitectura para tareas complejas:
+Planeador: diseña estrategia general
+Ejecutor: implementa pasos específicos
+Ideal para análisis que requieren múltiples etapas
+Model Context Protocol (MCP)
+Estandariza el acceso a recursos:
+Formato unificado para fuentes de datos
+Interfaz consistente para herramientas
+Facilita la interoperabilidad entre componentes
+
+--- Diapositiva 55 ---
+IA
+Redes reuronales
+Tipos de RN
+Token
+Ventana de Contexto
+Temperatura
+Alucinaciones en IA
+Aprendizaje por refuerzo
+Agentes
+Benchmarks
+Transformers
+Fine Tuning, RAG y CAG
+Mixture of Experts (MoE)
+Defina en sus propias palabras estos conceptos:
+¿Cuáles de estos conceptos ya conocía?
+Sección práctica
+
+--- Diapositiva 56 ---
+Muchas gracias

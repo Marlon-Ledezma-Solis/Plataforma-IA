@@ -1,0 +1,384 @@
+Título del Video: Crear Robot en Sikulix
+URL: https://www.youtube.com/watch?v=lL8FQlGEj1U
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora entonces vamos a
+proceder a realizar el proceso en Culix
+para desarrollar el robot. Ya después de
+que entendimos pues la parte teórica en
+la cual pues ya vimos lo que es un RPA y
+también cómo por medio de programación
+podemos automatizar ciertos procesos que
+la herramienta debe realizar. Entonces,
+e en pocas palabras, cualquier proceso
+que nosotros como seres humanos
+podríamos hacer en la computadora,
+desplazándonos, moviéndonos, dando clic,
+escribiendo, haciendo control C, eh
+llevándolo a cierto lugar, todo eso lo
+podemos programar en la computadora y
+para eso esta herramienta es sumamente
+poderosa. Para eh poder ejecutar esto
+tenemos que utilizar código, pero es un
+código sers sencillo y muy intuitivo.
+Vamos a verlo ahorita en ejecución, pero
+lo que necesitamos es como replicar este
+procedimiento que está acá. Este
+procedimiento pasa, como ustedes ven,
+por un pequeño eh esquema inicial en el
+cual tenemos que cargar ciertas eh
+librerías que la librería son como
+programas adicionales que necesitamos
+que él pueda invocar para utilizarlos al
+momento del procesamiento de del robot.
+Y después eh acá lo que vamos a hacer es
+definir una pequeña función, le llamamos
+función a esas herramientas en las
+cuales eh le estamos programando una
+rutina eh muy sistemática, que en este
+caso pues va a ser propiamente ingresar
+a una dirección en internet. Entonces,
+esto, como ustedes ven, pues yo ya se
+los doy preestablecido. Eso en realidad
+es un eh un script muy sencillo que
+carga en este caso eh los paquetes
+necesarios y después genera esta eh
+pequeña función para ingresar a esta
+URL. De igual manera, nosotros podríamos
+pedirle la ayuda a chat GPT.
+Quiero otra herramienta de inteligencia
+artificial. En este caso, por ejemplo,
+nos podemos ir aquí a chat GPT. Bueno,
+yo le puse este mensaje relativamente
+sencillo. Dice, "Por favor, ayúdame a
+crear inicio del código en Culix para
+que abra una nueva ventana del navegador
+predeterminado." Esto es importante para
+que use el navegador predeterminado que
+tenga la computadora. Eso simplifica
+mucho el proceso. E ingrese a esta
+dirección. De ello me encargaría de
+indicar los clips que debe dar y el
+proceso siguiente. Por favor, generarlo
+el modo más sencillo posible. Y vean que
+me generó este código pequeñito,
+¿verdad? Que inclusive es diferente a
+este código que yo tengo por acá. Pero
+en realidad hace lo mismo, hace algo muy
+similar. Entonces, cualquiera de las dos
+opciones es posible. Entonces podemos
+darle acá. Y eh si nosotros vemos, pues
+básicamente hizo algo eh un poco
+diferente porque se está yendo más por
+este lado de de Java, ¿verdad? Pero en
+realidad eh en el fondo pues va a ser
+algo similar. Va a importar unas
+librerías, va a definir la URL a la que
+tiene que ingresar y después de ahí va a
+eh generar el proceso para ingresar a
+esa P. para poder e propiamente
+ejecutarlo. Va a ser muy sencillo. Yo
+puedo eh seleccionar todo el apartado y
+darle aquí en ejecutar y yo puedo ver
+como efectivamente me abrió la eh la
+ventana, ¿verdad? Y después de aquí,
+¿qué tenemos que hacer? Pues básicamente
+ir haciendo el proceso que la
+computadora tiene que realizar. Vean
+acá, básicamente,
+si ustedes ven, yo le estoy diciendo que
+ingrese a esta parte de transparencia
+institucional y que después eh de busque
+cierta página y le dé clic en cierto eh
+en cierto punto, ¿verdad? Entonces, en
+realidad eso es lo que vamos a hacer
+acá. Entonces, vean, ya ingresó el robot
+ingresaría acá. Y yo quiero entonces que
+en esta parte de transparencia le dé
+clic aquí en donde dice datos abiertos.
+Está eso es entonces lo que yo quisiera
+que ella realice. Entonces yo le voy a
+dar tomar la captura de pantalla y voy a
+definir en dónde quiero que aparezca. Es
+mejor que yo le dé relativamente un buen
+contexto, ¿ven? Para que él se ubique
+mejor. para que se ubique mejor.
+Entonces, si yo le marco nada más datos
+abiertos, él puede buscar cualquier
+lugar donde diga datos abiertos. En
+cambio, aquí él va a buscar en la parte
+donde más o menos diga transparencia y
+ven el punto de mira que está justamente
+ahí donde ese dato está abierto.
+Entonces ahí le voy a dar click. ¿Ven?
+Pero esa es la imagen, ¿verdad?
+Entonces, ¿qué voy a hacer? Yo voy a
+escribir click
+y entre paréntesis le voy a poner la
+imagen a la que yo le quiero que le dé
+clic. Eso es todo. Entonces, vean que si
+yo ejecuto esta línea,
+él lo que va a hacer es va a buscar,
+bueno, ahí le di ejecutar todo, perdón.
+Entonces, él va a llegar ahí y va a
+entrar directamente a datos abiertos.
+¿Ven?
+Porque sí, perdón, si le damos acá en
+ejecutar, él va a ejecutar todo. Pero si
+queremos ejecutar solo una línea,
+¿verdad? Nos paramos en la línea y aquí
+en donde dice ejecutar, le puedo decir
+nada más que ejecute la selección, lo
+que yo haya escogido, ¿verdad? Entonces,
+¿ven? Ya le di click ahí en
+en este
+en esta página. Entonces, recordemos que
+qué está haciendo el robot de momento
+está ingresando
+a esta página de presupuesto
+de la República.
+Igual estamos puros datos abiertos y
+demás porque es eh lo que en este caso
+podemos emplear, ¿verdad? Entonces, ya
+está entrando a esta página y aquí
+quiero que le dé clic en este botón de
+datos abiertos y eso fue entonces lo que
+le programé por acá, ¿verdad? Entonces
+le programé con este simple comando de
+click y le dije en qué imagen. Ya él
+está entendiendo que tiene que darle
+clic a esa imagen. Ahora bien, a veces
+dura un rato en ingresar, entonces hay
+un comando que si ustedes igual si
+ustedes tienen duda, ¿verdad?,
+de de cuáles igual pueden irse a
+intigencia y pueden preguntar comando
+para
+eh o necesito
+que espere un eh unos 5 segundos
+cómo hacerlo en Clix.
+Como esto es un programa estándar,
+¿verdad? Él me va a decir exactamente
+cuál es la función que en este caso
+podríamos utilizar. Por ejemplo, white
+5, ¿ven? White 5. Entonces, esto es muy
+fácil. Entonces, si yo uso esa función
+de white s, entonces que va a esperar 5
+segundos o pongámoslo tres, tal vez no
+dure tanto. Bueno, ahí nosotros
+decidiríamos qué. Y una vez que él hace
+esto,
+entonces quiere decir que le dio clic al
+botón de datos abiertos, entro aquí y va
+a esperar 5 segundos. Después vean que
+él tiene que desplazarse a la hoja dos.
+¿Ven? porque la información está en la
+hoja dos. Para desplazarse a la hoja
+dos, yo puedo tratar de que él se mueva
+hacia aquí abajo. Puedo eh ya
+propiamente decirle baje tantas eh
+unidades hacia abajo, etcétera, ¿verdad?
+Creo que una de las formas más fáciles
+es que busque este punto de acá y
+también me va a gustar para usar el
+comando type para que él venga y escriba
+dos y le dé enter. ¿Ven? Eso es un
+proceso muy sencillo en realidad.
+Entonces yo le voy a decir que
+le doy click, ¿verdad? En este caso
+click y yo le voy a decir en dónde tiene
+que darle click, ¿verdad? Entonces, ah,
+bueno, pero en este caso es me abrió
+tiene que ser en esta parte de acá, en
+esta página, ¿verdad? Entonces, le voy a
+dar click, le voy a decir tomar captura
+y ya le voy a guiar en que es en este de
+aquí. V
+ahora esta imagen puede que no tenga
+suficiente contexto, entonces le voy a
+dar un skape y voy a tratar de hacer una
+imagen un poquito más grande para que él
+tenga mejor contexto, siempre dejando el
+punto de mira
+ahí, ¿verdad? Donde sea bastante
+entendible. Ven, inclusive ahí se me
+salió un poquito que punto de mira tal
+vez no va a quedar tamban bien. Entonces
+otra vez le hago un skate, mejor le tomo
+una captura. es un poquito más centrado,
+¿verdad?
+Como ahí, ¿ven? Entonces, ya le estoy
+dando más contexto, estoy poniendo el
+punto de mira, entonces vas a ver
+exactamente que dar click y lo puedo
+probar, ¿verdad? Yo le puedo volver a
+seleccionar esta línea y le doy aquí en
+ejecutar y le doy a ejecutar la
+selección. Y vean como él va a proceder
+a darle clic ahí.
+Vamos a hacer el proceso desde cero para
+que en este caso lo podamos eh verificar
+bien.
+Voy a dar ejecutar. Entonces va a entrar
+en esta página. Voy a buscar donde dice
+datos abiertos.
+A dar clic. Va a esperar 5 segundos. 1 2
+3 4 5 y debería de ir a buscar allá
+donde dice un do. Pero ven, no están
+logrando eh seleccionar adecuadamente.
+Ah, sí, creo que por error me quedaron
+dos imágenes. Entonces, voy a dar aquí
+en tomar captura para volverlo a hacer
+porque por error, perdón, eh quedaron
+dos imágenes. Voy a ver si entonces ya
+ahora en esta ocasión el sí ya se logró
+ubicar adecuadamente. ¿Ven? Ahí quedó
+uno. Antes por error quedaron las dos.
+Entonces voy a darle aquí en ahí estoy
+en la línea 21. Voy a darle ejecutar y
+le voy a dar ejecutar selección. Y ahí
+veo que efectivamente él sí logró eh dar
+click, ¿verdad?
+Aquí le puse click, pero en realidad
+debería darle doble clic porque vean que
+si uno le da doble clic logra escribir
+con facilidad. Entonces aquí voy a usar
+otro comando que se llama doble click. Y
+si ustedes dicen, "Sí, yo no sé cómo
+sería ese comando." De igual manera.
+Entonces,
+doble clic.
+Cicol,
+¿ven? Me dice que es esta función. Doble
+click. Igual uno ya se acostumbra a
+estas funciones porque tienen a ser
+bastante sencillas, ¿verdad? La otra es
+type es para escribir. ¿Y qué voy a
+escribir? Bueno, en este caso voy a
+escribir un dos. Lo pongo en entre
+comillas para que tienen que digitarlo,
+¿verdad? Y vean que entonces lo que
+estoy eh proporcionando a la herramienta
+es que le dé doble clic acá y que
+escriba un dos. Pero, ¿qué tiene que
+hacer? Darle enter. Presionar enter.
+Igual entonces yo podría tener la duda
+de cómo es enter, ¿verdad?
+Entonces ya si seas GPT, seas en Rolo,
+cualquier inteligencia artificial que
+estoy programando en
+eh Ciculx, entonces ya él me va a guiar,
+¿verdad? Y me va a decir, "Ah, bueno, es
+este comando, ¿verdad?" Entonces va a
+ser todo pues muchísimo más sencillo.
+Entonces ya eh volviendo a realizar el
+proceso paso a paso, entonces lo que
+estamos haciendo es que entramos aquí,
+le damos doble clic, puse doc, le di
+enter, ¿verdad? Entonces ya llegué a
+este punto y aquí en este punto entonces
+puedo buscar exactamente qué información
+es la que quiero. Por ejemplo, digamos
+que sea de esta de 2025, quiero llevarme
+esta de egresos, este XLS. Entonces lo
+que quiero es que de clic aquí.
+Entonces, nuevamente voy a darle click.
+Decir que busquen click y aquí click.
+Entonces le voy a decir en dónde quiero
+que de click. Y ven que hasta puedo
+agarrar desde arriba para que ella
+entienda que tiene que ser como de las
+más recientes que hay. Y vean que aquí
+entonces ya ahí marco bien el punto de
+mira del XLS, ¿ven? porque entonces ya
+le estoy dando más contexto para que
+ellos se ubiquen más fácilmente en qué
+parte debería dar. Y si en algún momento
+dice datos 2026 puede que como le estoy
+dando tanto contexto, aunque cambie esa
+partecita, ella lo logre ubicar. Si por
+alguna razón eh no se logra ubicar,
+entonces tendríamos que volverle a dar
+esta imagencita. Entonces venimos cuando
+ya ha cambio de año y venimos y
+cambiamos esta imagen nada más. Todo lo
+demás del COD quedaría igual. Este sería
+lo único que cambiamos. ¿Ven? Entonces,
+aquí vamos a probarlo para yo lo voy a
+dar aquí en ejecutar y voy a dar en
+ejecutar eh selección para que lo
+podamos ver.
+Le dio click perfectamente y vean que al
+darle click hay que darle en open link.
+Entonces voy a darle directo. Muy
+sencillo.
+Igual voy a darle un wi para que espere
+unos dos segundos para que dure un rato,
+¿verdad? Y aquí en click le voy a dar en
+insertar eh en insertar imagen, no, en
+captura imagen. Y le voy a decir
+en este Ay no, perdón, tomé mal. En
+realidad creo que estoy tomando mucho
+contexto, no es tan necesario. Más bien
+podemos darle acá en donde dice open
+link.
+Le doy que le clic ahí. Igual nuevamente
+puedo dar ejecutar para ver que lo haga
+bien. Efectivamente le da click. logre
+hacerlo bien y ya aquí me va a tirar
+esta imagen. Ahí yo puedo escoger en
+dónde lo quiero guardar, ¿verdad? Pero
+digamos que en este caso quiero que sea
+nada más aquí en Alan, ¿verdad? Entonces
+no importa, yo nada más le voy a decir.
+Entonces, ahora sí de club
+y
+y aquí le voy a decir que busque a Alan
+simple, entonces le voy a eh tomar
+captura de pantalla, es decir, que quien
+dice Alan
+o principio pues yo podría decirle,
+bueno, venga aquí y escriba ruta,
+¿verdad? o inclusive eh pues yo también
+podría eh usar algún comando específico
+para que el archivo que se va a
+descargar se guarde en cierto lugar,
+pero en realidad eh van a ver que
+inclusive haciendo esta opción
+e lo logra hacer bastante bien. Va, me
+busca, le da click y después le puedo
+decir de click en guardar, que sería
+este de acá. Entonces, ahora le voy a
+tomar la pantalla
+y le voy a decir de clic aquí en
+guardar. Ah, mira, no le puse click. Voy
+a escribirlo adelante nada más. Click. Y
+ya con eso va a entender que se puede
+hacer ahí.
+Y listo. Ya con eso estaría el proceso
+listo para eh que lo probemos. Vamos a
+hacer la pruebita. Voy a cerrar por acá
+y vamos a correr el algoritmo desde
+cero. Le voy a dar en correr en ese
+momento abre el navegador, abre la
+dirección que le dije, espera 5
+segundos, se va a ir a datos abiertos.
+Ahí en datos abiertos va a buscar y va a
+escribir el segundo y va a buscar el
+archivo, le va a dar en descargar, me va
+a buscar en Alan y le va a dar guardar.
+Y ya con eso hizo todo el proceso. Ven
+aquí esto entonces él ya lo programe y
+va a poder hacerlo cuántas veces
+necesite, cuántas veces yo le pida que
+lo haga y lo corra y lo va a poder
+hacer. Y también pues en la sesión
+explico cómo poder automatizar un poco
+más para que lo haga periódicamente,
+también cómo se puede hacer un proceso
+más recursivo para que haga procesos más
+complejos, pero bueno, eso lo vemos en
+la sesión más detalle. De momento aquí
+es como para que tengan idea general de
+cómo hacer este tipo de robots.

@@ -1,0 +1,124 @@
+Título del Video: IA en Power Query
+URL: https://www.youtube.com/watch?v=3WKmBLl0Pow
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Para finalizar con este módulo, vamos a
+ver un cómo se puede utilizar
+inteligencia artificial para eh
+simplificar el proceso de limpieza de
+datos. Eh, para ello podemos usar un
+prom que está por acá. Este prom está
+bastante detallado, ¿verdad?, de cómo
+realizar un proceso de limpieza de datos
+para eh aprovechar ese prom que está,
+digamos eh automatizado bastante en
+estos elementos, pues eh se construyó un
+GPT. Entonces, digo, ya que tenemos en
+este caso un prom eh que ha estado más
+optimizado para el proceso de limpieza
+de datos, entonces se aprovechó para
+convertirlo en GPT, tal como hemos visto
+en sesiones anteriores. Eh, si ustedes
+revisan ese ese from, pues básicamente
+lo que le pide es que le envíen la
+información inicial
+de los datos
+y que le digamos analizar base la
+limpieza, ¿verdad? Entonces, ya él
+empieza a revisar el proceso. Lo primero
+que va a hacer es revisar los datos.
+Ya una vez que revisa los datos,
+va a sugerir entonces un conjunto de
+ajustes.
+Vamos a ver aquí un poquito el
+resultado.
+Ve que va a durar un rato mientras está
+pensando. Vamos a pausar un momento acá
+para que ustedes lo puedan ver. El
+proceso como tal.
+hace un primer contexto, analiza la
+información, hace un diagnóstico de cómo
+están los datos y me empieza a sugerir
+eh propiamente algunos cambios que
+podríamos hacer. Entonces, ya pueden
+analizar cada uno de estos y valorar si
+efectivamente quiere hacer los cambios
+que í están establecidos. Yo podría
+decirle, "Sí, haga el seis, el siete, el
+ocho, ¿verdad? En realidad, yo podría
+escoger cualquiera de los que considere
+más adecuados.
+Y
+en la siguiente fase, me vo por acá,
+me dice que cuáles eh realiza. Entonces,
+yo puedo ya empezar a revisar cada uno,
+pero por cuestión de tiempo no lo vamos
+a hacer, pero eh la idea es que uno
+puede revisar cada uno y decir, "Sí,
+haga la 13, la 12, la 11 en haga toda
+menos tal, ¿verdad? En realidad, eso
+pues va a ser eh ya una decisión que
+nosotros podemos tomar. Aquí yo les
+puedo decir, yo quiero todas, ¿verdad?
+Entonces, aquí me dice, claro, está
+bien, vamos a proceder con todas. Ahora,
+¿qué es necesario? que le eh que
+carguemos los datos al Power Query.
+Entonces, vamos a entrar aquí a Power
+Play y vamos a ver un informe en blanco
+y vamos a importar en este caso el
+archivo, ¿verdad?
+Que sería este datos sucios.
+Voy a agarrar el archivito y le voy a
+dar transformar datos.
+Aquí puedo ver que eh usa la primera
+fila como encabezado si quisiera y si no
+pues simpliamente así como la recibí, le
+puedo dar en editor avanzado y le puedo
+pasar este código. Este es el código que
+en este caso ya eh me está pidiendo el
+GPT para poder proceder a darme el
+código en M, que me ayudaría, o sea, me
+va a modificar este código en un código
+que haga todas las limpiezas que
+acabamos de analizar. Entonces, ya vimos
+todas las posibles limpiezas que
+deberíamos de hacer. me está diciendo,
+"Bueno, ahora sí, deme código que
+actualmente existe con esos datos y yo
+me voy a encargar de transformar ese
+código en un código verdaderamente
+funcional que le permita a usted revisar
+la limpieza de sus datos."
+Vamos a igual a darle un espacio para
+que genere. Ah, bueno, ya aquí procedió.
+me está indicando cuáles son las
+limpiezas que se van a realizar.
+Y bueno, aquí él va a analizar y me va a
+dar el código.
+Entonces, ya aquí está el código
+completo, que en este caso yo podría
+copiar y pegar y enviárselo directamente
+a Power BI. Entonces, vamos a proceder
+de esa manera. Bien, entonces ya aquí
+llegamos y le copiamos el código tal
+cual no lo generó, le damos en listo y
+vean como ya nos permitió generar una
+base de datos con eh pues todos los
+registros limpios y eh pues en perfecto
+estado para poder utilizarlos en nuestro
+dashboard. Aquí le podemos dar cer.
+Y ahora aquí ya tendríamos el set listo
+para trabajarlo. Y si lo vemos, pues
+también aquí ya estaría en una base de
+datos pues totalmente eh funcional para
+poder utilizarlo.
+Muy bien, ya con eso entonces estaríamos
+observando este esta unidad que está
+asociado pues a la parte de limpieza de
+datos con querer y también pues
+utilizando un poco de inteligencia
+artificial para desarrollar códigos que
+nos ayuden a hacer la limpieza de estos
+datos. M.

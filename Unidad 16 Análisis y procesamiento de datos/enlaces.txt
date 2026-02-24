@@ -1,0 +1,6 @@
+Link de google Slice: https://docs.google.com/presentation/d/1qPqxYoN9IkcnCIoHcJseTRmhBnMjYQQpXEzpJHh241A/edit?usp=sharing
+
+Link de los tutoriales y los links con sus nombres:
+- Introducción a Power BI: https://www.youtube.com/watch?v=p9ze1HR6HOY
+- Uso de Power Query: https://www.youtube.com/watch?v=bAuDttqoMEY
+- IA en Power Query: https://www.youtube.com/watch?v=3WKmBLl0Pow

@@ -1,0 +1,149 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1l4CfvXNRtgva36RyoaN6VxcwaJocE6G6u_M_h8ia1p0/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+MÓDULO 2
+Propósito del Ejercicio
+Escenario Real
+Reproducir situaciones laborales donde no se requiere programación avanzada
+IA Operativa
+Utilizar inteligencia artificial para operativizar tareas rutinarias
+Mejora Continua
+Aumentar eficiencia, reducir errores y estandarizar procesos administrativos
+
+--- Diapositiva 3 ---
+Unidades Integradas
+Unidades del Programa
+Unidad 4: Automatización de procesos en Microsoft Office con IA
+Unidad 5: Automatización desde herramientas de IA generativa
+Unidad 6: Uso de agentes de IA especializados
+Unidad 7: Plataforma Google AI Studio
+Contenidos Clave
+Programación básica de macros en Excel o Word (VBA)
+Generación y optimización de código con IA
+Automatización de tareas administrativas repetitivas
+Documentación técnica básica
+
+--- Diapositiva 4 ---
+Construcción sobre Aprendizajes Previos
+Módulo 1
+Comprensión de IA: alcances y limitaciones
+Inicio Módulo 2
+IA generativa como herramienta de apoyo operativo
+Ejercicio Integrador
+IA como asistente para programar y automatizar
+El énfasis está en interactuar con la IA para construir soluciones funcionales, no en memorizar sintaxis de programación.
+
+--- Diapositiva 5 ---
+Caso Práctico Propuesto
+Automatización de Procesos Administrativos con IA
+La persona participante seleccionará o simulará un proceso administrativo típico que incluya tareas como consolidación de información, limpieza de datos, generación de reportes, formateo estandarizado o registro automático de ejecuciones. Usará una Gema, un GPT o un asistente para que realice cierta parte del proceso de trabajo y otra parte debe ser desarrollada por medio de una macro en alguna de las herramientas ofimáticas, el objetivo es que alguna tarea que se desarrollaba de modo manual, ahora pueda automatizarse en este proceso.
+
+--- Diapositiva 6 ---
+Resultado Final Esperado
+1
+Archivo Funcional
+Gema, GPT, o Asitente y un archivo ofimático con al menos una macro operativa desarrollada con apoyo de IA
+2
+Documentación
+Descripción del proceso automatizado, momento de ejecución y problema resuelto
+3
+Evidencia de IA
+Prompts utilizados y ajustes realizados al código generado
+4
+Explicación Escrita
+Breve descripción del proceso y sus beneficios concretos
+
+--- Diapositiva 7 ---
+Paso 1: Identificación del Proceso
+Acciones Requeridas
+Identificar tarea rutinaria
+Describir proceso manual actual
+Identificar pasos repetitivos
+Detectar posibles errores humanos
+Resultado esperado: Descripción clara del problema y del proceso previo a la automatización.
+
+--- Diapositiva 8 ---
+Paso 2: Preparación del Archivo Base
+01
+Crear o Adaptar Archivo
+Preparar el archivo de Excel o Word necesario
+02
+Organizar Estructura
+Ordenar hojas, columnas y rangos correctamente
+03
+Verificar Funcionamiento
+Comprobar que el proceso manual funciona
+Se espera un archivo ordenado, consistente y listo para automatizar.
+
+--- Diapositiva 9 ---
+Paso 3: Creación de Gem, GPT o Asistente para resolver una parte del problema
+Formular Prompts
+Solicitar a la IA generación de macro en VBA con instrucciones claras
+Ajustar herramientas
+Incluir las herramientas y proceso necesario para generar adecuadamente la Gem, GPT o asistente
+Gem, GPT o Agente en funcionamiento
+Desarrollar la herramienta, para que pueda desarrollar la parte del proceso que le corresponde.
+
+--- Diapositiva 10 ---
+Paso 4: Generación de Macro con IA
+Formular Prompts
+Solicitar a la IA generación de macro en VBA con instrucciones claras
+Código Comentado
+Solicitar código con explicaciones y comentarios
+Incorporar Código
+Integrar el código en el editor VBA del archivo
+
+--- Diapositiva 11 ---
+Pasos 5-7: Pruebas e Integración
+1
+Paso 5: Pruebas y Ajustes
+Ejecutar las herramientas con datos reales, identificar errores y utilizar IA para optimizar
+2
+Paso 6: Integración al Flujo
+Incorporar macro al uso cotidiano mediante botón o evento automático
+3
+Paso 7: Documentación Final
+Documentar funcionamiento, explicar antes/después y validar impacto
+
+--- Diapositiva 12 ---
+Capacidades Desarrolladas
+Uso Funcional de IA
+Aplicar inteligencia artificial como asistente técnico efectivo
+Automatización Office
+Automatizar procesos administrativos en Office
+Lógica de Programación
+Comprensión básica de lógica y estructuras de código
+Mejora Continua
+Pensamiento orientado a eficiencia y optimización
+Documentación
+Capacidad de explicar soluciones técnicas claramente
+
+--- Diapositiva 13 ---
+Impacto en Empleabilidad
+Sectores Demandantes
+Puestos administrativos
+Call centers y centros de servicios
+Pymes y emprendimientos
+Áreas operativas y de soporte
+Competencias Demostradas
+Automatizar tareas rutinarias
+Utilizar IA para resolver problemas operativos
+Aportar mejoras concretas de productividad
+
+--- Diapositiva 14 ---
+Criterios de Evaluación
+Funcionalidad
+La macro ejecuta correctamente el proceso definido y produce resultados consistentes
+Uso de IA
+La inteligencia artificial se utilizó conscientemente para generar, comprender y mejorar código
+Calidad del Proceso
+La automatización representa una mejora real frente al proceso manual
+Documentación
+El Gem, GPT o asistente, archivo, macro y explicación son comprensibles
+ para terceros
+
+--- Diapositiva 15 ---
+Rúbrica de Evaluación - Módulo 2

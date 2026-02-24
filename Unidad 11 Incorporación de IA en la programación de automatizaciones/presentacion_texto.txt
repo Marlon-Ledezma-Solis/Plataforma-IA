@@ -1,0 +1,1088 @@
+Texto extraído de la presentación: https://drive.google.com/open?id=15D4uwKuz-prDefHPPQNot_yB4BNGJpRU1_aAGBubtAw&usp=drive_copy
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Procesamiento de archivos y análisis crediticio con IA
+
+--- Diapositiva 3 ---
+MÓDULO 1
+Arquitectura del Sistema
+01
+Watch Folder
+Detecta PDFs nuevos en inbox/
+02
+Conversión
+PDF → DOCX + logging
+03
+Análisis IA
+Extracción estructurada con JSON Schema
+04
+Embedding
+Representación semántica con text-embedding-3-large
+05
+PCA
+Reducción dimensional a 8 componentes
+06
+Scoring
+Cálculo explicable 1-100
+Estructura del Proyecto
+proyecto/
+  inbox/
+  out_docx/
+  processed_pdfs/
+  config/
+    routing.csv
+  app.py
+  docs.db
+  pca_model.joblib
+El sistema mantiene trazabilidad completa desde la entrada hasta el resultado final, permitiendo auditoría y reproducibilidad.
+
+--- Diapositiva 4 ---
+Configuración Inicial: Dependencias
+Instalación de Paquetes
+pip install watchdog pdf2docx openai scikit-learn joblib pandas numpy
+Variables de Entorno
+export OPENAI_API_KEY="..."
+export SMTP_HOST="smtp..."
+export SMTP_PORT="587"
+export SMTP_USER="..."
+export SMTP_PASS="..."
+export EMAIL_FROM="..."
+Componentes Clave
+watchdog: Monitoreo de carpetas en tiempo real
+pdf2docx: Conversión de documentos
+openai: API para análisis y embeddings
+scikit-learn: PCA y transformaciones
+joblib: Persistencia de modelos
+
+--- Diapositiva 5 ---
+Paso 1: Inicialización de Base de Datos
+Creamos dos tablas para trazabilidad completa: una para el pipeline de conversión/email y otra para el análisis de IA con embeddings y scoring.
+import sqlite3, json
+from datetime import datetime
+
+DB_PATH = "./docs.db"
+
+def init_db():
+ conn = sqlite3.connect(DB_PATH)
+ cur = conn.cursor()
+ 
+ # Tabla para log del pipeline
+ cur.execute("""
+ CREATE TABLE IF NOT EXISTS documents_log (
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ pdf_filename TEXT NOT NULL,
+ pdf_path TEXT NOT NULL,
+ docx_filename TEXT NOT NULL,
+ docx_path TEXT NOT NULL,
+ file_type TEXT NOT NULL,
+ created_at TEXT NOT NULL,
+ email_to TEXT NOT NULL,
+ status TEXT NOT NULL,
+ error_message TEXT
+ );
+ """)
+
+--- Diapositiva 6 ---
+Tabla de Análisis IA
+Esta tabla almacena el análisis completo: JSON estructurado, embedding como BLOB, componentes PCA, score final y metadata para auditoría.
+# Tabla para análisis IA
+    cur.execute("""
+    CREATE TABLE IF NOT EXISTS credit_ai_log (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        pdf_filename TEXT NOT NULL,
+        created_at TEXT NOT NULL,
+        analysis_json TEXT,
+        risk_summary TEXT,
+        embedding BLOB,
+        pca_components TEXT,
+        credit_score INTEGER,
+        score_json TEXT,
+        status TEXT NOT NULL,
+        error_message TEXT
+    );
+    """)
+    
+    conn.commit()
+    conn.close()
+El embedding se guarda como BLOB binario para eficiencia. Los componentes PCA se serializan como JSON para facilitar consultas posteriores.
+
+--- Diapositiva 7 ---
+Paso 2: Watcher de Carpeta
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+import os, time
+
+INBOX_DIR = "./inbox"
+
+class PdfHandler(FileSystemEventHandler):
+    def on_created(self, event):
+        if event.is_directory:
+            return
+        if not event.src_path.lower().endswith(".pdf"):
+            return
+        
+        # Esperar a que termine la copia
+        time.sleep(1.0)
+        
+        pdf_path = event.src_path
+        print("[+] PDF nuevo:", os.path.basename(pdf_path))
+        
+        # Pipeline completo:
+        # 1) Convertir/log/email
+        # 2) IA -> embedding -> PCA -> score
+Patrón de Automatización
+El FileSystemEventHandler detecta eventos de creación de archivos. Implementamos un delay de 1 segundo para asegurar que el archivo esté completamente copiado antes de procesarlo.
+Este patrón es productivo porque permite procesamiento en tiempo real sin polling constante, reduciendo uso de recursos.
+
+--- Diapositiva 8 ---
+Paso 3: Conversión PDF → DOCX
+from pdf2docx import Converter
+
+def pdf_to_docx(pdf_path, docx_path):
+    cv = Converter(pdf_path)
+    try:
+        cv.convert(docx_path, start=0, end=None)
+    finally:
+        cv.close()
+Función simple pero robusta que maneja la conversión completa del documento. El bloque try-finally asegura que el conversor se cierre correctamente incluso si hay errores.
+
+--- Diapositiva 9 ---
+ANÁLISIS IA
+Paso 4: IA como Analizador Estructurado
+Utilizamos Structured Outputs con JSON Schema para garantizar que el análisis de IA sea consistente, parseable y auditable. El PDF se sube directamente usando Files API.
+JSON Schema
+Output estable con llaves y tipos definidos
+PDF Directo
+Files API permite análisis sin conversión previa
+Sin Score Aún
+Análisis puro sin calificación prematura
+
+--- Diapositiva 10 ---
+Configuración del Analizador IA
+import os, json
+from openai import OpenAI
+
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+MODEL_ANALYSIS = "gpt-4o-mini"
+
+ANALYSIS_SCHEMA = {
+ "name": "credit_risk_analysis",
+ "schema": {
+ "type": "object",
+ "additionalProperties": False,
+ "properties": {
+ "applicant": {
+ "type": "object",
+ "properties": {
+ "name": {"type": ["string","null"]},
+ "age": {"type": ["integer","null"]},
+ "income_monthly_usd": {"type": ["number","null"]},
+ "monthly_debt_usd": {"type": ["number","null"]},
+ "dti": {"type": ["number","null"]}
+ },
+ "required": ["name","age","income_monthly_usd","monthly_debt_usd","dti"]
+ },
+
+--- Diapositiva 11 ---
+Historial Crediticio
+"credit_history": {
+                "type": "object",
+                "properties": {
+                    "open_accounts": {"type": ["integer","null"]},
+                    "utilization": {"type": ["number","null"]},
+                    "ontime_rate": {"type": ["number","null"]},
+                    "delinq_12m": {"type": ["integer","null"]},
+                    "delinq_24m": {"type": ["integer","null"]},
+                    "inquiries_6m": {"type": ["integer","null"]},
+                    "chargeoff": {"type": ["boolean","null"]},
+                    "bankruptcy": {"type": ["boolean","null"]}
+                },
+                "required": ["open_accounts","utilization","ontime_rate",
+                           "delinq_12m","delinq_24m","inquiries_6m",
+                           "chargeoff","bankruptcy"]
+            },
+Cada campo tiene tipo explícito y permite null para manejar información faltante sin romper el schema.
+
+--- Diapositiva 12 ---
+Resumen de Riesgo
+"risk_summary": {
+ "type": "object",
+ "properties": {
+ "summary_text": {"type": "string", "minLength": 50, "maxLength": 1200},
+ "strengths": {"type": "array", "items": {"type": "string"}, 
+ "minItems": 0, "maxItems": 8},
+ "risks": {"type": "array", "items": {"type": "string"}, 
+ "minItems": 0, "maxItems": 10},
+ "missing_info": {"type": "array", "items": {"type": "string"}, 
+ "minItems": 0, "maxItems": 8},
+ "evidence_quotes": {"type": "array", "items": {"type": "string"}, 
+ "minItems": 0, "maxItems": 6}
+ },
+ "required": ["summary_text","strengths","risks","missing_info","evidence_quotes"]
+ }
+ },
+ "required": ["applicant","credit_history","risk_summary"]
+ }
+}
+
+--- Diapositiva 13 ---
+Prompt del Sistema Analizador
+SYSTEM_ANALYZER = (
+    "Eres un analista de riesgo crediticio "
+    "en un entorno educativo. "
+    "NO emitas score aún. "
+    "Analiza implicaciones, sintetiza, "
+    "lista riesgos/fortalezas "
+    "y aporta evidencia textual breve. "
+    "Si falta información, listala. "
+    "No uses género/ocupación para "
+    "inferencias de riesgo."
+)
+Principios Éticos
+El prompt explícitamente prohíbe usar características protegidas (género, ocupación) para evitar sesgos discriminatorios en el análisis crediticio.
+Esto es fundamental en aplicaciones reales de IA en finanzas.
+
+--- Diapositiva 14 ---
+Funciones de Análisis IA
+def upload_pdf(pdf_path: str) -> str:
+ with open(pdf_path, "rb") as f:
+ file_obj = client.files.create(file=f, purpose="assistants")
+ return file_obj.id
+
+def llm_analyze_pdf(pdf_path: str) -> dict:
+ file_id = upload_pdf(pdf_path)
+ 
+ resp = client.responses.create(
+ model=MODEL_ANALYSIS,
+ input=[
+ {"role":"system","content":SYSTEM_ANALYZER},
+ {"role":"user","content":[
+ {"type":"input_file","file_id": file_id},
+ {"type":"input_text","text":
+ "Analiza este PDF de solicitud crediticia. "
+ "Extrae variables numéricas y produce un resumen analítico. "
+ "Devuelve SOLO el JSON del esquema."
+ }
+ ]}
+ ],
+ response_format={"type":"json_schema","json_schema": ANALYSIS_SCHEMA}
+ )
+ 
+ return json.loads(resp.output_text)
+
+--- Diapositiva 15 ---
+EMBEDDINGS
+Paso 5: Embedding Semántico
+Representación Conceptual
+El embedding NO es "bolsa de palabras"; es una representación conceptual del texto en espacio vectorial de 256 dimensiones.
+text-embedding-3-large es el modelo más capaz de OpenAI y permite reducir dimensiones sin perder propiedades conceptuales mediante el parámetro dimensions.
+
+--- Diapositiva 16 ---
+Implementación de Embeddings
+import numpy as np
+
+EMB_MODEL = "text-embedding-3-large"
+EMB_DIM = 256  # Vector compacto para eficiencia
+
+def embed_semantic(text: str) -> np.ndarray:
+    emb = client.embeddings.create(
+        model=EMB_MODEL,
+        input=text,
+        dimensions=EMB_DIM
+    )
+    return np.array(emb.data[0].embedding, dtype=np.float32)
+Usamos float32 en lugar de float64 para reducir el tamaño del BLOB en la base de datos sin pérdida significativa de precisión.
+Este embedding captura el significado semántico del resumen de riesgo, permitiendo comparaciones conceptuales entre solicitudes.
+
+--- Diapositiva 17 ---
+PCA
+Paso 6: Reducción Dimensional con PCA
+256 Dimensiones
+Embedding original completo
+PCA
+Reducción a 8 componentes principales
+Features Compactas
+Para scoring y visualización
+PCA transforma 256 dimensiones a 8 componentes que capturan la mayor varianza, facilitando el análisis y reduciendo ruido.
+
+--- Diapositiva 18 ---
+Implementación de PCA Adaptativo
+import sqlite3
+from sklearn.decomposition import PCA
+from joblib import dump, load
+
+PCA_PATH = "./pca_model.joblib"
+N_PCA = 8
+
+def ensure_pca_model(current_embedding: np.ndarray, 
+ min_samples_to_fit: int = 15):
+ # Si existe modelo, usarlo
+ if os.path.exists(PCA_PATH):
+ return load(PCA_PATH)
+ 
+ # Si no existe, intentar entrenar con históricos
+ conn = sqlite3.connect(DB_PATH)
+ cur = conn.cursor()
+ cur.execute("""SELECT embedding FROM credit_ai_log 
+ WHERE embedding IS NOT NULL AND status='ok'""")
+ rows = cur.fetchall()
+ conn.close()
+ 
+ vecs = []
+ for (blob,) in rows:
+ v = np.frombuffer(blob, dtype=np.float32)
+ if v.shape[0] == EMB_DIM:
+ vecs.append(v)
+
+--- Diapositiva 19 ---
+Entrenamiento Incremental de PCA
+# Incluir el embedding actual
+    vecs.append(current_embedding)
+    
+    if len(vecs) < min_samples_to_fit:
+        return None  # Aún no hay suficientes muestras
+    
+    # Entrenar PCA con todos los embeddings disponibles
+    X = np.vstack(vecs)
+    pca = PCA(n_components=N_PCA, random_state=42).fit(X)
+    
+    # Guardar modelo para uso futuro
+    dump(pca, PCA_PATH)
+    
+    return pca
+Este enfoque permite que el sistema comience a funcionar inmediatamente y mejore automáticamente a medida que procesa más documentos.
+
+--- Diapositiva 20 ---
+SCORING
+Paso 7: Scoring Explicable con IA
+Inputs para Scoring
+Métricas numéricas (DTI, utilización, morosidades)
+Componentes PCA del embedding semántico
+Resumen analítico con fortalezas y riesgos
+La IA combina datos cuantitativos con análisis cualitativo para producir un score explicable de 1-100.
+
+--- Diapositiva 21 ---
+Esquema de Scoring
+MODEL_SCORING = "gpt-4o-mini"
+
+SCORING_SCHEMA = {
+ "name": "credit_scoring_explainable",
+ "schema": {
+ "type": "object",
+ "additionalProperties": False,
+ "properties": {
+ "credit_score_1_100": {"type":"integer","minimum":1,"maximum":100},
+ "confidence_0_1": {"type":"number","minimum":0,"maximum":1},
+ "top_factors": {"type":"array","items":{"type":"string"},
+ "minItems":3,"maxItems":10},
+ "rationale": {"type":"string","minLength":80,"maxLength":1200},
+ "recommended_action": {"type":"string", 
+ "enum":["preaprobar (ejercicio)",
+ "revisar manualmente (ejercicio)",
+ "rechazar (ejercicio)"]}
+ },
+ "required": ["credit_score_1_100","confidence_0_1","top_factors",
+ "rationale","recommended_action"]
+ }
+}
+
+--- Diapositiva 22 ---
+Prompt del Sistema Scorer
+SYSTEM_SCORER = (
+    "Eres un analista de riesgo crediticio "
+    "en un entorno educativo. "
+    "Calcula score 1-100 usando SOLO "
+    "variables financieras y "
+    "comportamiento crediticio. "
+    "NO uses género/ocupación. "
+    "Debes basarte en (a) métricas y "
+    "(b) componentes PCA derivados de "
+    "un embedding semántico del resumen."
+)
+Transparencia Algorítmica
+El sistema exige explicación detallada (rationale) y lista los factores principales que influyen en el score.
+Esto permite auditoría y cumplimiento regulatorio.
+
+--- Diapositiva 23 ---
+Función de Scoring
+def llm_score(analysis_json: dict, pca_components: list) -> dict:
+ payload = {
+ "metrics": {
+ "income_monthly_usd": analysis_json["applicant"]["income_monthly_usd"],
+ "monthly_debt_usd": analysis_json["applicant"]["monthly_debt_usd"],
+ "dti": analysis_json["applicant"]["dti"],
+ "utilization": analysis_json["credit_history"]["utilization"],
+ "ontime_rate": analysis_json["credit_history"]["ontime_rate"],
+ "delinq_12m": analysis_json["credit_history"]["delinq_12m"],
+ "delinq_24m": analysis_json["credit_history"]["delinq_24m"],
+ "inquiries_6m": analysis_json["credit_history"]["inquiries_6m"],
+ "chargeoff": analysis_json["credit_history"]["chargeoff"],
+ "bankruptcy": analysis_json["credit_history"]["bankruptcy"],
+ },
+ "pca_components": pca_components,
+ "risk_summary_text": analysis_json["risk_summary"]["summary_text"],
+ "strengths": analysis_json["risk_summary"]["strengths"],
+ "risks": analysis_json["risk_summary"]["risks"],
+ "missing_info": analysis_json["risk_summary"]["missing_info"]
+ }
+
+--- Diapositiva 24 ---
+Llamada al Modelo de Scoring
+resp = client.responses.create(
+        model=MODEL_SCORING,
+        input=[
+            {"role":"system","content":SYSTEM_SCORER},
+            {"role":"user","content":
+                "Asigna score y explica. Devuelve SOLO JSON del esquema.\n"
+                + json.dumps(payload, ensure_ascii=False)
+            }
+        ],
+        response_format={"type":"json_schema","json_schema": SCORING_SCHEMA}
+    )
+    
+    return json.loads(resp.output_text)
+El payload combina métricas cuantitativas con componentes PCA y análisis cualitativo para un scoring holístico.
+
+--- Diapositiva 25 ---
+PERSISTENCIA
+Paso 8: Guardar en Base de Datos
+def db_insert_ai_log(pdf_filename, analysis_json, risk_summary, 
+ embedding_vec, pca_components, credit_score, 
+ score_json, status, error_message=None):
+ conn = sqlite3.connect(DB_PATH)
+ cur = conn.cursor()
+ 
+ emb_blob = None
+ if embedding_vec is not None:
+ emb_blob = embedding_vec.astype(np.float32).tobytes()
+ 
+ cur.execute("""
+ INSERT INTO credit_ai_log
+ (pdf_filename, created_at, analysis_json, risk_summary, 
+ embedding, pca_components, credit_score, score_json, 
+ status, error_message)
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+ """, (
+ pdf_filename,
+ datetime.utcnow().isoformat(),
+ json.dumps(analysis_json, ensure_ascii=False),
+ risk_summary,
+ emb_blob,
+ json.dumps(pca_components) if pca_components else None,
+ credit_score,
+ json.dumps(score_json) if score_json else None,
+ status,
+ error_message
+ ))
+ 
+ conn.commit()
+ conn.close()
+
+--- Diapositiva 26 ---
+ORQUESTACIÓN
+Paso 9: Pipeline Completo de Procesamiento
+IA calcula
+PCA transforma
+Embedding
+IA analiza
+PDF llega
+La función process_pdf_with_ai orquesta todo el pipeline, manejando casos donde PCA aún no está entrenado y guardando resultados parciales para entrenamiento futuro.
+
+--- Diapositiva 27 ---
+Implementación del Pipeline
+def process_pdf_with_ai(pdf_path: str):
+ pdf_filename = os.path.basename(pdf_path)
+ 
+ # A) IA analiza (sin score todavía)
+ analysis = llm_analyze_pdf(pdf_path)
+ summary_text = analysis["risk_summary"]["summary_text"]
+ 
+ # B) Embedding semántico del resumen
+ emb_vec = embed_semantic(summary_text)
+ 
+ # C) Intentar obtener/entrenar modelo PCA
+ pca = ensure_pca_model(emb_vec, min_samples_to_fit=15)
+ 
+ if pca is None:
+ # Guardar análisis + embedding para entrenar PCA después
+ db_insert_ai_log(pdf_filename, analysis, summary_text, 
+ emb_vec, None, None, None, "ok",
+ "PCA aún no entrenado (faltan muestras).")
+ return {"status":"ok_no_pca_yet", "pdf": pdf_filename}
+
+--- Diapositiva 28 ---
+Completar Pipeline con Scoring
+# D) Transformar con PCA
+    comps = pca.transform(emb_vec.reshape(1,-1))[0].tolist()
+    
+    # E) Calcular score con IA
+    score_json = llm_score(analysis, comps)
+    credit_score = int(score_json["credit_score_1_100"])
+    
+    # F) Guardar todo en BD
+    db_insert_ai_log(pdf_filename, analysis, summary_text, 
+                    emb_vec, comps, credit_score, score_json, "ok")
+    
+    return {"status":"ok", "pdf": pdf_filename, "score": credit_score}
+El sistema maneja gracefully el caso de PCA no entrenado, permitiendo arranque en frío y mejora progresiva.
+
+--- Diapositiva 29 ---
+INTEGRACIÓN
+Paso 10: Integración con Watcher
+import pandas as pd
+
+ROUTING_CSV = "./config/routing.csv"
+OUT_DIR = "./out_docx"
+PROCESSED_DIR = "./processed_pdfs"
+
+def load_routing():
+    df = pd.read_csv(ROUTING_CSV)
+    df["pdf_key"] = df["pdf_filename"]\
+        .astype(str).str.strip().str.lower()
+    return df.set_index("pdf_key")\
+        [["docx_filename","email_to"]]\
+        .to_dict(orient="index")
+
+routing = load_routing()
+Mapeo de Rutas
+El archivo routing.csv mapea cada PDF a su nombre DOCX de salida y destinatario de email, permitiendo configuración flexible sin cambiar código.
+
+--- Diapositiva 30 ---
+Handler Completo del Watcher
+class PdfHandler(FileSystemEventHandler):
+ def on_created(self, event):
+ if event.is_directory or not event.src_path.lower().endswith(".pdf"):
+ return
+ 
+ time.sleep(1.0)
+ pdf_path = event.src_path
+ pdf_filename = os.path.basename(pdf_path)
+ key = pdf_filename.strip().lower()
+ 
+ if key not in routing:
+ print("[!] Sin mapeo en routing.csv:", pdf_filename)
+ return
+ 
+ docx_filename = routing[key]["docx_filename"]
+ email_to = routing[key]["email_to"]
+ docx_path = os.path.join(OUT_DIR, docx_filename)
+ 
+ try:
+ # 1) Convertir a DOCX
+ pdf_to_docx(pdf_path, docx_path)
+
+--- Diapositiva 31 ---
+Procesamiento IA y Notificación
+# 2) IA + embedding + PCA + score
+ ai_result = process_pdf_with_ai(pdf_path)
+ 
+ # 3) Preparar email con score si existe
+ score_line = ""
+ if ai_result.get("score") is not None:
+ score_line = f"\nScore (ejercicio): {ai_result['score']}/100\n"
+ 
+ subject = f"Documento convertido: {docx_filename}"
+ body = (
+ f"Adjunto el documento convertido desde {pdf_filename}.\n"
+ f"Fecha UTC: {datetime.utcnow().isoformat()}\n"
+ f"{score_line}"
+ f"Nota: resultado simulado para fines educativos."
+ )
+ 
+ send_email_with_attachment(email_to, subject, body, docx_path)
+ 
+ # 4) Mover PDF a carpeta procesados
+ os.makedirs(PROCESSED_DIR, exist_ok=True)
+ os.replace(pdf_path, os.path.join(PROCESSED_DIR, pdf_filename))
+ 
+ print("[+] OK:", pdf_filename, ai_result)
+ 
+ except Exception as e:
+ print("[!] Error:", pdf_filename, str(e))
+
+--- Diapositiva 32 ---
+Función Main y Ejecución
+def main():
+    os.makedirs(INBOX_DIR, exist_ok=True)
+    os.makedirs(OUT_DIR, exist_ok=True)
+    os.makedirs(PROCESSED_DIR, exist_ok=True)
+    
+    init_db()
+    
+    observer = Observer()
+    observer.schedule(PdfHandler(), INBOX_DIR, recursive=False)
+    observer.start()
+    
+    print(f"Escuchando {INBOX_DIR} ... CTRL+C para salir")
+    
+    try:
+        while True:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
+
+if __name__ == "__main__":
+    main()
+El sistema queda en ejecución continua, procesando automáticamente cada PDF que llegue a la carpeta inbox.
+
+--- Diapositiva 33 ---
+Minería y Análisis de Datos con IA
+
+--- Diapositiva 34 ---
+Hipótesis Central
+Tesis
+La IA razona mejor cuando recibe "artefactos analíticos" (features + señales + contexto) en lugar de un dump de datos crudos.
+Por Qué Importa
+Reduce ruido y amplifica señal
+Más eficiente en tokens y tiempo
+Resultados más reproducibles y auditables
+Permite razonamiento de alto nivel
+
+--- Diapositiva 35 ---
+RECAPITULACIÓN
+Trabajo previo 1: Perfilado de Clientes
+RFM
+Recency, Frequency, Monetary
+Estabilidad
+Intervalos entre compras (avg, std)
+Embeddings
+Variables cualitativas → PCA
+Clustering
+KMeans + silhouette score
+Entrada: ventas_simuladas.csv + clientes_simulados.csv. Salida: df_clientes_cluster con métricas y segmento asignado.
+
+--- Diapositiva 36 ---
+Trabajo previo 2: Detección de Outliers
+Método Tukey (IQR)
+Banderas de transacciones "raras" basadas en comportamiento histórico:
+Por cliente: outliers de order_revenue y days_since_prev_purchase
+Por producto: outliers de quantity y unit_price
+Salida: tablas con banderas any_outlier_global para auditoría de transacciones sospechosas.
+
+--- Diapositiva 37 ---
+Trabajo previo 3: Análisis Temporal
+1
+Serie Mensual
+Revenue, órdenes, clientes, AOV
+2
+Variaciones
+MoM (mes anterior) y YoY (interanual)
+3
+Estacionalidad
+Factores multiplicativos por mes
+4
+Banderas
+Cambios importantes detectados
+Salidas: series_mensual_global.csv, series_mensual_por_cluster.csv, series_mensual_por_producto.csv
+
+--- Diapositiva 38 ---
+ROL DE LA IA
+IA como "Minero de Insights"
+Qué Hace Bien la IA
+Interpretar resultados (qué significa)
+Priorizar señales (qué importa más)
+Generar hipótesis (posibles causas)
+Proponer acciones (qué hacer después)
+Qué NO Hace
+La IA no reemplaza el cálculo estadístico. Los análisis RFM, outliers, MoM/YoY y estacionalidad deben calcularse con código determinístico.
+La IA interpreta, no calcula.
+
+--- Diapositiva 39 ---
+Enfoque A: IA con BD Cruda
+Ventajas
+Puede descubrir patrones inesperados
+Tiene granularidad total de transacciones
+Desventajas
+Mucho ruido, poca señal
+Costoso en tokens
+Fácil que se "pierda" en los datos
+Menos reproducible
+Interpretaciones vagas
+Cuándo Usar
+Exploración inicial cuando no sabes qué buscar, o cuando necesitas validar que no se perdió información en el preprocesamiento.
+
+--- Diapositiva 40 ---
+Enfoque B: IA con Artefactos Analíticos
+Ventajas
+Señales explícitas (clusters, outliers, banderas)
+Más rápido y barato
+Consistente y reproducible
+Fácil de auditar
+Desventajas
+Depende de tu ingeniería de features
+Puede heredar sesgos del preprocesamiento
+Mitigación
+Documentar decisiones de preprocesamiento y validar con enfoque híbrido cuando sea crítico.
+
+--- Diapositiva 41 ---
+Enfoque Híbrido Recomendado
+Artefactos Analíticos
+Entrada principal de señales resumidas.
+IA Interpreta y Prioriza
+Evalúa y ordena temas según impacto.
+Revisión de Datos
+Validar crudos cuando sea necesario.
+Generar Insights
+Producir recomendaciones accionables.
+El mejor enfoque combina ambos: IA razona principalmente sobre señales resumidas, pero puede revisar datos crudos cuando hace falta validar o explorar anomalías específicas.
+
+--- Diapositiva 42 ---
+PIPELINE
+Algoritmo: Insight Mining con IA
+01
+Preparar Artefactos
+Perfil por cluster, top outliers, banderas temporales
+02
+IA Produce Hallazgos
+JSON estructurado con evidencia y severidad
+03
+IA Genera Narrativa
+Resumen ejecutivo y hallazgos por tema
+04
+Validación y Trazabilidad
+Guardar prompts, inputs, outputs, timestamps
+
+--- Diapositiva 43 ---
+Capa 1: Preparar Artefactos
+import pandas as pd
+
+# Cargar outputs de secciones previas
+df_clients = pd.read_csv("rfm_por_cliente.csv")
+monthly = pd.read_csv("series_mensual_global.csv")
+monthly_c = pd.read_csv("series_mensual_por_cluster.csv")
+monthly_p = pd.read_csv("series_mensual_por_producto.csv")
+
+# Perfil por cluster
+cluster_profile = (
+ df_clients.groupby("cluster", as_index=False)
+ .agg(
+ n=("customer_id","count"),
+ recency=("recency_days","mean"),
+ freq=("frequency","mean"),
+ monetary=("monetary","mean"),
+ avg_gap=("avg_days_between","mean")
+ )
+ .sort_values("n", ascending=False)
+)
+
+--- Diapositiva 44 ---
+Extraer Top Banderas
+# Top meses con banderas globales
+top_flags_global = monthly[monthly.get("flag_revenue_any", False)].copy()
+top_flags_global = top_flags_global.sort_values("month").tail(12)
+
+# Top flags por cluster
+top_flags_cluster = monthly_c[monthly_c.get("flag_revenue_any", False)].copy()
+top_flags_cluster = (top_flags_cluster
+    .sort_values(["cluster","month"])
+    .groupby("cluster").tail(6))
+
+# Top flags por producto
+top_flags_product = monthly_p[monthly_p.get("flag_revenue_any", False)].copy()
+top_flags_product = (top_flags_product
+    .sort_values(["product","month"])
+    .groupby("product").tail(4))
+Seleccionamos solo las señales más relevantes para reducir ruido y enfocarnos en lo importante.
+
+--- Diapositiva 45 ---
+Construir Paquete de Artefactos
+artifacts = {
+    "cluster_profile": cluster_profile.to_dict(orient="records"),
+    "top_flags_global": top_flags_global.to_dict(orient="records"),
+    "top_flags_cluster": top_flags_cluster.to_dict(orient="records"),
+    "top_flags_product": top_flags_product.to_dict(orient="records"),
+}
+Para outliers, agrega un "top 20" por impacto (monto y precio). Si tienes sus_price_lines como dataframe, serializalo igual con .to_dict(orient="records").
+Este paquete compacto contiene todas las señales clave sin abrumar a la IA con datos crudos.
+
+--- Diapositiva 46 ---
+SCHEMA IA
+Capa 2: Schema de Hallazgos
+import json
+from openai import OpenAI
+
+client = OpenAI()
+
+INSIGHT_SCHEMA = {
+ "name": "insight_mining",
+ "schema": {
+ "type": "object",
+ "additionalProperties": False,
+ "properties": {
+ "executive_summary": {
+ "type":"array",
+ "items":{"type":"string"}, 
+ "minItems":3, 
+ "maxItems":8
+ },
+ "findings": {
+ "type":"array",
+ "items":{
+ "type":"object",
+ "additionalProperties": False,
+ "properties": {
+ "theme": {"type":"string", 
+ "enum":["clientes/segmentos","productos",
+ "temporal/estacionalidad","calidad/anomalias"]},
+
+--- Diapositiva 47 ---
+Schema de Findings (continuación)
+"finding": {"type":"string"},
+ "evidence": {"type":"array","items":{"type":"string"}, 
+ "minItems":1, "maxItems":6},
+ "impact_level": {"type":"string", 
+ "enum":["bajo","medio","alto"]},
+ "hypotheses": {"type":"array","items":{"type":"string"}, 
+ "minItems":1, "maxItems":5},
+ "recommended_actions": {"type":"array",
+ "items":{"type":"string"}, 
+ "minItems":1, "maxItems":6}
+ },
+ "required": ["theme","finding","evidence","impact_level",
+ "hypotheses","recommended_actions"]
+ },
+ "minItems": 4,
+ "maxItems": 12
+ },
+ "questions_for_next_lesson": {"type":"array",
+ "items":{"type":"string"}, "minItems":3, "maxItems":10}
+ },
+ "required": ["executive_summary","findings","questions_for_next_lesson"]
+ }
+}
+
+--- Diapositiva 48 ---
+Prompt del Sistema Analista
+SYSTEM_ANALYST = (
+    "Eres un analista de datos senior. "
+    "Tu trabajo es interpretar resultados "
+    "ya calculados (segmentación RFM+clusters, "
+    "outliers Tukey y series mensuales "
+    "MoM/YoY/estacionalidad). "
+    "No inventes números; usa SOLO la "
+    "evidencia provista. "
+    "Prioriza hallazgos accionables."
+)
+Principio Clave
+La IA NO calcula ni inventa datos. Solo interpreta, prioriza y genera hipótesis basadas en la evidencia proporcionada.
+
+--- Diapositiva 49 ---
+Función de Minería con Artefactos
+def ai_mine_insights_from_artifacts(artifacts: dict):
+    resp = client.responses.create(
+        model="gpt-4o-mini",
+        input=[
+            {"role":"system","content": SYSTEM_ANALYST},
+            {"role":"user","content":
+                "Analiza estos artefactos y entrega hallazgos "
+                "profundos y accionables.\n"
+                + json.dumps(artifacts, ensure_ascii=False)
+            }
+        ],
+        response_format={"type":"json_schema", "json_schema": INSIGHT_SCHEMA}
+    )
+    
+    return json.loads(resp.output_text)
+Esta función envía el paquete compacto de artefactos y recibe hallazgos estructurados con evidencia, hipótesis y acciones recomendadas.
+
+--- Diapositiva 50 ---
+Modo RAW: IA con Datos Crudos
+Limitaciones Prácticas
+Una BD cruda completa suele ser muy grande para enviar a la IA. Para clase, enseñamos el patrón correcto:
+Entregar una muestra (300-1000 filas)
+Pedirle que sugiera qué cálculos faltan
+Comparar contra modo FEATURED
+
+--- Diapositiva 51 ---
+Implementación Modo RAW
+def ai_mine_insights_from_raw(ventas_df: pd.DataFrame, n=800):
+ sample = ventas_df.sample(min(n, len(ventas_df)), 
+ random_state=42).to_dict(orient="records")
+ 
+ resp = client.responses.create(
+ model="gpt-4o-mini",
+ input=[
+ {"role":"system","content":
+ "Eres un analista de datos. Recibes transacciones en crudo. "
+ "Entrega hallazgos tentativos y, muy importante, lista qué "
+ "transformaciones/cálculos necesitas para un análisis profundo "
+ "(RFM, outliers, MoM/YoY, estacionalidad, etc.)."
+ },
+ {"role":"user","content":
+ "Transacciones (muestra):\n" 
+ + json.dumps(sample, ensure_ascii=False)
+ }
+ ],
+ response_format={"type":"json_schema", "json_schema": INSIGHT_SCHEMA}
+ )
+ 
+ return json.loads(resp.output_text)
+
+--- Diapositiva 52 ---
+COMPARACIÓN
+Ejercicio: RAW vs FEATURED
+Ejecutar RAW
+Con muestra de transacciones
+Ejecutar FEATURED
+Con artefactos Secciones 1-3
+Comparar
+Usando rúbrica de evaluación
+Este ejercicio demuestra empíricamente la diferencia entre ambos enfoques y justifica el esfuerzo de preprocesamiento.
+
+--- Diapositiva 53 ---
+Rúbrica de Evaluación
+Criterios (escala 1-5)
+Especificidad: ¿Habla con señales concretas (clusters, meses, productos)?
+Auditabilidad: ¿Incluye evidencia clara basada en datos entregados?
+Accionabilidad: ¿Propone acciones medibles?
+Cobertura: ¿Cubre clientes+productos+temporal+anomalías?
+Eficiencia: ¿Con menos datos logra mejores insights?
+RAW
+FEATURED
+
+--- Diapositiva 54 ---
+Resultados Esperados
+Modo RAW
+Más general y superficial
+Más conjeturas sin evidencia sólida
+Pide cálculos adicionales
+Menos específico en recomendaciones
+Puede perderse en detalles irrelevantes
+Modo FEATURED
+Más preciso y específico
+Evidencia clara y trazable
+Prioridades bien definidas
+Narrativa sólida y coherente
+Acciones concretas y medibles
+
+--- Diapositiva 55 ---
+ALGORITMO FINAL
+Insight Mining: Algoritmo Completo
+Algorithm: Insight Mining with AI (Structured Analytics First)
+
+1. Compute analytics:
+ - RFM + gaps + clustering
+ - Tukey outliers by client & product
+ - Monthly MoM/YoY + seasonal factors + flags
+
+2. Build artifacts:
+ - cluster_profile
+ - top_outliers
+ - top_flags_global/cluster/product
+
+3. AI Insight Mining (structured):
+ - findings JSON (theme, evidence, hypotheses, actions)
+
+4. AI Narrative (optional):
+ - executive report for humans
+
+5. Store everything:
+ - artifacts, prompts, output JSON (reproducible)
+
+--- Diapositiva 56 ---
+Capa 3: Generación de Narrativa
+def generate_executive_narrative(findings_json: dict):
+    resp = client.responses.create(
+        model="gpt-4o-mini",
+        input=[
+            {"role":"system","content":
+                "Eres un analista senior. "
+                "Convierte hallazgos estructurados "
+                "en narrativa ejecutiva clara."
+            },
+            {"role":"user","content":
+                "Genera reporte ejecutivo:\n"
+                + json.dumps(findings_json, 
+                           ensure_ascii=False)
+            }
+        ]
+    )
+    
+    return resp.output_text
+Propósito
+Transforma el JSON estructurado en texto legible para ejecutivos, manteniendo la trazabilidad a los hallazgos originales.
+
+--- Diapositiva 57 ---
+Capa 4: Trazabilidad y Reproducibilidad
+import json
+from datetime import datetime
+
+def save_analysis_run(artifacts, findings_json, narrative, version="1.0"):
+    timestamp = datetime.utcnow().isoformat()
+    
+    run_data = {
+        "timestamp": timestamp,
+        "pipeline_version": version,
+        "artifacts": artifacts,
+        "findings": findings_json,
+        "narrative": narrative,
+        "system_prompt": SYSTEM_ANALYST,
+        "schema": INSIGHT_SCHEMA
+    }
+    
+    filename = f"analysis_run_{timestamp.replace(':','-')}.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(run_data, f, ensure_ascii=False, indent=2)
+    
+    print(f"[+] Análisis guardado: {filename}")
+    return filename
+Guardar todo permite reproducir exactamente el análisis y auditar decisiones posteriores.
+
+--- Diapositiva 58 ---
+Ejemplo de Uso Completo
+# 1. Preparar artefactos
+artifacts = build_artifacts_from_csvs()
+
+# 2. Minería con IA (modo FEATURED)
+findings = ai_mine_insights_from_artifacts(artifacts)
+
+# 3. Generar narrativa ejecutiva
+narrative = generate_executive_narrative(findings)
+
+# 4. Guardar todo para trazabilidad
+run_file = save_analysis_run(artifacts, findings, narrative, version="1.0")
+
+# 5. Comparación con modo RAW (opcional)
+ventas_df = pd.read_csv("ventas_simuladas.csv")
+findings_raw = ai_mine_insights_from_raw(ventas_df, n=800)
+
+# 6. Evaluar con rúbrica
+scores_featured = evaluate_findings(findings, rubric)
+scores_raw = evaluate_findings(findings_raw, rubric)
+
+print(f"Featured: {scores_featured}")
+print(f"Raw: {scores_raw}")
+
+--- Diapositiva 59 ---
+Consideraciones de Producción
+Versionado
+Versiona tanto el código como los artefactos para reproducibilidad
+Validación
+Valida que los hallazgos de IA sean consistentes con los datos
+Monitoreo
+Monitorea calidad de outputs y costos de API
+Documentación
+Documenta decisiones de preprocesamiento y limitaciones
+
+--- Diapositiva 60 ---
+Extensiones Avanzadas
+Mejoras Posibles
+Multi-agente: Un agente por tema (clientes, productos, temporal)
+Iterativo: IA pide cálculos adicionales específicos
+Validación cruzada: Comparar hallazgos entre RAW y FEATURED
+Visualización automática: IA genera código de gráficos
+A/B testing: Comparar diferentes prompts y schemas
+
+--- Diapositiva 61 ---
+Conclusiones y Próximos Pasos
+Aprendizajes Clave
+Artefactos analíticos > datos crudos para IA. Structured Outputs garantiza consistencia. Trazabilidad es fundamental.
+Práctica Recomendada
+Implementa ambos módulos paso a paso. Compara resultados RAW vs FEATURED. Documenta todo el proceso.
+Recursos Adicionales
+OpenAI API docs, scikit-learn documentation, papers sobre explainable AI en finanzas.

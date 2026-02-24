@@ -1,0 +1,293 @@
+Título del Video: Funcionalidades en Perplexity
+URL: https://youtu.be/aeQDRGBFHy8
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Bien, entonces ahora tal y como
+mencionamos al finalizar el video
+anterior, lo que vamos a hacer es
+utilizar ya estas funcionalidades. Como
+vemos, básicamente son tres, ¿verdad?
+Una es buscar en internet y también
+utilizar modelos razonadores. La otra es
+hacer una investigación más profunda,
+entonces donde hace un análisis aún más
+detallado, buscando muchas, muchas
+fuentes, haciendo pues prácticamente una
+investigación completa en eh de
+información. eh que le estemos
+solicitando. Y lo otro es los espacios
+de trabajo en los cuales vamos a pedirle
+a la inteligencia artificial que termine
+utilizando nuestros archivos, o sea, que
+use nuestros archivos y que lo podamos
+hacer también de un modo colaborativo.
+Esas son las herramientas que vamos a
+hacer a lo o vamos a usar a lo largo de
+este módulo. Pero también es importante
+comprender que estas funcionalidades las
+podemos utilizar en diferentes chatbots
+de propósito general. En este caso vamos
+a utilizar Perplexity, Gemini y Chat
+GPT. Entonces, lo primero que vamos a
+hacer es irnos a Perplexity y usar estas
+herramientas, ver cómo se utilizan. Para
+ello vamos a utilizar este prom básico,
+no vamos pues a dar mucho detalle de qué
+es lo que se hace, pero básicamente es
+una investigación. Entonces, lo que
+estamos pidiendo es que nos ayude a
+hacer una investigación. En la clase
+pues se detalla mucho más estos
+elementos, pero a modo resumen, pues eso
+es lo que estaríamos haciendo. Y ahora,
+¿qué vamos a hacer? pues lo vamos a
+hacer directamente en perplexity. Acá en
+la presentación pues se explica como un
+poco más en detalle el proceso para
+efectos pues de hacer esto de un modo
+más resumido. Entonces yo me voy a ir
+directamente a la herramienta, ¿verdad?
+Entonces comentarles, bueno, aquí ya me
+fui a la herramienta, aquí ya ingresé
+y
+acá en la herramienta es importante
+mencionar que cuando uno ingresa es un
+chatbot, todos lucen muy parecidos, como
+ustedes ven, básicamente nos da la
+posibilidad de escribir el prom
+respectivo. Acá lo podemos eh pegar,
+puede ser con control V, control shift
+V. Normalmente yo recomiendo control
+shift V para que muestre nada más la
+información general. Y aquí ven que ya
+está activada la opción de búsqueda.
+Entonces, si nosotros queremos activar
+una opción de búsqueda, infinamente
+tenemos que activar esta función de acá.
+Y una vez que hacemos eso, nosotros
+podemos escoger de dónde queremos que
+busque. Y aquí nos da diferentes
+opciones. Las que normalmente usamos es
+en la web. Queremos que busque en
+internet, queremos que busque en sitios
+académicos y también en redes sociales.
+Eso es como el esquema que en este caso
+nuevamente pedimos en elementos de
+búsqueda. Y acá podemos escoger el
+modelo y es aquí donde podemos escoger
+modelos razonadores. Por ejemplo, estos
+que dicen Pro, estos que dicen Max,
+estos que dicen thinking. Todos estos
+elementos en el fondo son e modelos
+razonadores. Este modelo eh sonar es el
+propio Perplexity y también es un
+modeloador. Entonces, perfectamente
+podríamos utilizarlo o darle click acá
+en mejor para que él eh lo seleccione
+automáticamente de acuerdo a lo que le
+estamos solicitando. Hecho eso, vea que
+nosotros le podemos dar enviar y ya con
+eso él empieza a buscar en internet,
+¿ven? no me da la respuesta de una vez,
+sino que empieza a buscar en internet y
+como tiene un modelo razonador, va a
+analizar un poco la información antes de
+darme una respuesta y a partir de eso
+él hace una búsqueda entre diferentes
+elementos y empieza a contestar. Ven, de
+una vez me empieza a contestar y acá
+pues ya vamos a obtener el resultado de
+esa eh investigación que le estamos
+solicitando. Ahora, como ustedes ven, es
+una investigación más eh sencilla por el
+hecho de que no eh le estamos pidiendo
+todavía que haga un análisis tan
+exhaustivo, pero nos da una respuesta
+más adecuada que si solo le
+preguntáramos sin activar esas
+herramientas, porque aquí él tenía que
+buscar en internet, él tenía que en este
+caso analizar la información, entonces
+el uso de estas opciones tiende a ser
+bastante funcional.
+Y vean que también pues nos muestra las
+fuentes de dónde lo está tomando. Ahora
+bien,
+eso es si nosotros utilizamos
+el modelo razonador, pero voy a entrar
+ahora a perplexity nuevamente y en lugar
+de hacer la búsqueda y el modelo
+razonador voy a activarle esta otra
+opción que es la de búsqueda profunda,
+que es nuestra segunda funcionalidad. Si
+hacemos eso, ven que es un poco
+diferente. Igual le pego el prom y vean
+cómo entonces le pego el prom y ya
+cambio a esta opción de búsqueda
+profunda. Y en el momento en que hago
+eso,
+él tiene que hacer un análisis más
+detallado.
+Y aquí ven que ya no me responde
+tan rápido. Si gustan ahí lo podemos
+dejar momento para que ustedes lo puedan
+ver,
+pero van a poder observar que él de una
+vez no hace una respuesta, ¿verdad? Sino
+que procede a obtener la información y
+hace un análisis más detallado. De
+hecho, yo ya aquí había preparado
+una investigación profunda. ¿Ven? Ya
+esta es como la respuesta que él
+terminaría generando, porque como
+ustedes ven, pues él va a durar pues eh
+ciertos minutos. Porque este búsqueda
+profundidad es un análisis más detallado
+en comparación a lo que hacía eh con la
+otra funcionalidad que era búsqueda y
+razonamiento. Esta de búsqueda profunda.
+Entonces es un análisis un poco más
+detallado. De hecho, pueden ver aquí
+cómo me generó unos gráficos y cómo me
+generó, por decirlo así, algo más tipo
+informe. Vea que también me muestra de
+dónde está tomando la información, pero
+como lo pueden apreciar,
+pues terminó haciendo pues más
+eh informe eh un poco más específico de
+lo que obtuvimos con el esquema
+anterior. Bien, entonces
+esta funcionalidad
+ya nos permite entonces acceder a más
+información. y a un informe un poco más
+detallado si lo considerar algo
+necesario y también pues nos muestra las
+referencias respectivas. Entonces, esa
+es nuestra segunda funcionalidad, que es
+investigación profunda. Ahora vamos a
+usar una tercera funcionalidad,
+que es los espacios de trabajo.
+Entonces, cuando yo entro perplexity, ya
+no me voy a trabajar acá, sino que me
+voy a ir a esta que dice espacios de
+trabajo. Y aquí en espacio de trabajo,
+bueno, voy a voy a
+perdón, voy a eliminar
+en este caso
+eh alguno de estos espacios porque en
+realidad pues ya los lo había generado
+para efectos de la presentación, pero
+entonces vamos a hacerlo desde cero. Ya
+entré aquí a espacios y puedo
+simplemente darle aquí nos dice nuevo
+espacio. Le tengo que poner un long, por
+ejemplo. Entonces voy a decir análisis
+de Costa Rica.
+Y aquí recuerden que los espacios de
+trabajo, como vimos en el pack de
+teórica, la ventaja que eh nos presentan
+es que podemos usar nuestros propios
+archivos.
+Entonces
+yo puedo venir acá y le doy en archivos
+locales y puedo ir a buscar la
+información eh que quiera darle. Esta
+información se la dimos en un archivo
+comprimido. Ustedes tienen que
+descomprimir ese archivo. Y eh esta
+información que estamos usando como
+insumo de esta unidad, lo que plantea
+son conjunto de investigaciones,
+informes y análisis eh que eh se podría
+utilizar como insumo para este para esta
+investigación que le estamos planteando
+en inteligencia artificial. Entonces,
+aquí escogemos los diferentes archivos,
+se los damos, ¿verdad?
+Y ya ella entonces va a poder utilizar
+propiamente estos
+eh archivos que le dimos y las
+respuestas que nos va a dar van a estar
+en función de esa información. También
+le puedo activar para que use internet,
+¿verdad? Pero eh normalmente si quiero
+que solo usen los archivos que yo les
+suministré también lo puedo hacer. Vean
+por acá. Entonces, una vez que lo
+cargamos, ¿verdad? Ya aquí está el
+chatbot y aquí,
+eh, ¿ven que dice? Tiene cinco fuentes.
+Entonces, aquí le podemos agregar más
+archivos si quisiéramos. Podemos
+agregarle también enlaces como
+direcciones URL,
+pero también le puedo dar una
+instrucción. Yo aquí en las
+instrucciones puedo darle, digamos, una
+instrucción específica de cómo tiene que
+responder. Entonces le puedo decir usted
+siempre un tono formal, tiene que ser en
+tercera persona. Necesito también que eh
+sea basado en los documentos que le
+suministré. Necesitamos en este caso que
+eh muestre evidencia de dónde lo está
+extrayendo, que trate de ser muy
+riguroso, que eh cada vez que indique
+algo trate de e poder respaldarlo con
+datos. etcétera, ¿verdad? Estas son como
+instrucciones generales que si gustan
+pues le podríamos dar. También le
+podemos eh hacer alguna configuración de
+que fuentes podría utilizar. En este
+caso puedo decirle que no use internet y
+que secriba solamente a los datos que le
+suministre o podría activarle la opción
+de que use internet de juego
+complementario. Si en este caso pues
+vamos a dejar que no use internet,
+quiero que use únicamente los datos que
+yo les suministré. Y aquí le vamos a
+pegar el mismo prom. que hemos estado
+utilizando
+y le vamos a dar que proceda a darnos la
+respuesta. Y vean cómo entonces es el
+mismo prom está propiamente eh
+realizando un análisis eh similar. La
+diferencia es que en este caso se está
+circunscribiendo únicamente
+a los archivos que yo le sumestré.
+Inclusive me está diciendo exactamente
+de qué parte lo está tomando. ¿Ven?
+Entonces, ya me está diciendo
+propiamente
+de dónde lo está utilizando. Eh, y él
+procede igual a hacer el mismo análisis
+que le pedí, pero nuevamente ahora
+usando exclusivamente
+mi información, la información que yo le
+proporcion
+me dan por acá. Entonces, esto es un
+punto pues bastante relevante y eh
+bueno, no se los mencioné, pero estos
+espacios de trabajo tienen una gran
+ventaja.
+Voy
+a mostrárselo esta vez acá en la
+presentación
+que una vez que estamos en espacio de
+trabajo que aquí está la opción de
+agregar otros perfiles de eh compañeros
+que en este caso querramos que también
+utilicen el espacio de trabajo y que eh
+trabajemos de modo conjunto. Entonces,
+eso es también otra de las bondades que
+tiene este tipo de funcionalidades. Muy
+bien. Entonces, ya vimos cómo activarle
+estas eh funciones específicas. Como
+vieron, son tres, que es las que hemos
+estado aborcando a lo largo de esta
+unidad. Ya lo acabamos de hacer en este
+caso en Perplexity y en los siguientes
+videos vamos a hacerlo en Gemini y en
+Chat GPT. M.

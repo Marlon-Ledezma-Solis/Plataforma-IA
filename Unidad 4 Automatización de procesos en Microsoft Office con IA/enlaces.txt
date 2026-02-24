@@ -1,0 +1,6 @@
+Link de google Slice: https://docs.google.com/presentation/d/1KwgtBuYITtBoYcV7tyXsnZg6lbtgI4d2sr07dVSCrHY/edit?usp=sharing
+
+Link de los tutoriales y los links con sus nombres:
+- 1. Teoría y Macros: https://youtu.be/OfOg5Gmgito?si=FgpRTmsUiNTWkR-n
+- 2. Uso de API para automatizar información: https://youtu.be/0LvShmLBIN8?si=D4iApS9NparyVHa5
+- 3. API de IA en Excel: https://youtu.be/XMKDJTOxg20?si=Sd8XNSIUB2r7VGgv

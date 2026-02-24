@@ -1,0 +1,6 @@
+Link de google Slice: https://docs.google.com/presentation/d/1_2460QqvqVYU5XYb4bsHw7nGZxylAll-ATq69g7UE1E/edit?usp=sharing
+
+Link de los tutoriales y los links con sus nombres:
+- Teoría de automatización de procesos con IA: https://www.youtube.com/watch?v=1my9JuVjeRQ
+- Creación de flujos de trabajo con Make: Pendiente
+- Creación de chatbots con n8n: Pendiente

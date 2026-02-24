@@ -1,0 +1,366 @@
+Título del Video: 2 - Conceptos Básicos y primeros Prompts 2
+URL: https://youtu.be/u8MfgwqaiU4
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora para vamos a hablar de
+los conceptos básicos de la inteligencia
+artificial. Entonces, este primer video
+va a hablar un poquito eh sobre los
+conceptos más generales. En primera
+instancia vamos a hablar sobre el
+aprendizaje automático o machine
+learning. Como mencionamos
+anteriormente, elingció como un esquema
+que permite mates aprendedor de los
+datos sin ser programadas
+específicamente para cada tarea. Esto lo
+logran por medio de modelos matemáticos
+y estadísticos que a partir de
+probabilidades logran eh propiamente
+entender los cuatro de datos y hacer
+predicciones o tomar decisiones basadas
+en esos cuatrones. Y pues aquí entonces
+es donde ya empezamos a trabajar con
+reconocimiento facial, sección de f,
+filtro de spam para que a partir de
+información que está ahí logra
+comprender, ¿verdad?, cuál es eh la
+lógica o los patrones asociados a esta
+información y a partir de ello, pues
+entonces logra tomar decisiones o logra
+dar en este caso alguna predicción.
+Después está el aprendizaje profundo,
+que también lo mencionamos brevemente en
+lo estóico. El aprendizaje profundo o
+deep learning de redes neuronales es un
+subcampo avanzado en el cual se logran
+crear estas redes neuronales que ya
+mencionamos en el video anterior.
+Entonces, estas redes tienen múltiples
+capas. Esta, como mencionamos, cada uno
+de estos eh grupos de eh de neuronas
+constituyen capas y estas capas son las
+que permiten, en este caso establecer
+las relaciones entre la información.
+entre más capas tenga una renuris que es
+más profundo o que hace en este caso
+análisis más eh avanzado de la
+información, no necesariamente por que
+sea más profundado mejores resultados,
+va a depender mucho del contexto y el
+problema que se esté enfrentando, pero
+es importante indicar que esto aprende
+de características de alto nivel de los
+datos. Entonces hace un análisis de
+asociación mucho más profundo que lo que
+hacían propiamente con el machine
+learning. Y ya con esto posibilita
+avances emisión de computadora,
+traducción, reconocimiento de voz,
+predicciones más complejas, análisis de
+patrones que son en este caso diversos o
+con un nivel de complejidad importante.
+Entonces este esta modificación o esta
+evolución que se tuvo de los algoritmos
+tradicionales lo que logró posicionar
+gracias al avance informático porque
+estas redes de ordenadores existían
+desde hace muchos años pero gracias a el
+avance en la computación actual es que
+ocurre eh se logren los resultados
+muchísimo más eh avanzados que tenemos
+a partir de ahí. Ya. Entonces es que
+nacen los grandes módulos de lenguaje,
+pues LLM. Entonces son los módulos de
+inteligencia entrenados, pero con
+grandes cantidades de información.
+Entonces pensamos en las redes
+neuronales que ya hemos venido hablando
+en la semana anterior, pero que dan una
+gran cantidad de información de modo que
+logran aprender de eh conjuntos de datos
+masivos y de esa manera pues logren
+generar resultados con muchísima más
+precisión.
+Y ahora, antes de entrar al uso
+directamente del modo de dirección, es
+importante comprender también algunos
+conceptos muy básicos pero importantes.
+El primero es el término token. Token es
+la unidad mínima con la que trabaja en
+LLM.
+Podríamos decir que es como una palabra,
+pero en realidad es eh más que una
+palabra. es en este caso particiones de
+texto que utilizo en com unidades
+mínimas. Cuando hacemos esa conversión
+de textos, ¿verdad? Hay que convertirlos
+a unidades básicas y les llamamos
+tokens. A partir de esos tokens, que
+como les digo, podemos decir más o
+menos, es como la cantidad de palabras,
+pero ya vamos a ver que no
+necesariamente van a coincidir. Eh, esas
+eh tokens son los queamos como insumo a
+la influencia artificial y dependiendo
+de ellas van a estar los costes o los
+límites eh propiamente que eh tiene un
+modelo para recibir información y para
+proporcionar información. Comprender
+entonces los toques es fundamental para
+determinar cuánta información se puede
+brindar y cuánta información se puede
+recibir y cuál es el costo asociado
+propiamente
+a este tipo de eh uso de inteligencia
+artificial.
+Y antes ya, bueno, para profundizar un
+poquito en esta parte,
+voy a inversar aquí a Google y voy a
+poner
+y vean que puedo entrar a que de open
+head de los de chebt. Puedo utilizar
+cualquier otra que está por acá y yo le
+puedo dar un texto. Entonces, eh,
+por ejemplo, este texto de 4096
+caracteres, ¿verdad?
+Vamos a
+100 cares.
+Y aquí vean que hay un texto, ¿verdad?
+Si yo hazo este texto, si yo lo copio,
+puede ser cualquier texto en realidad y
+lo pego por acá.
+Vean que él justamente me dice que son
+334
+tokens de hay 138 características, pero
+a nivel de tokens son 334. Y ven él aquí
+no lo va a separar. Esto es un toque,
+esto es otro. ¿Ven que no necesariamente
+son palabras ven? Entonces él toma todo
+el texto y lo va dividiendo en tokens. Y
+estos tokens ahora vamos como los
+insumos que ya va a ir recibiendo en
+inteligencia artificial y a partir de la
+cual va a poder trabajar. Entonces,
+comprendiendo la anterior, la
+información que nosotros debemos
+propiamente la vayan ir dividiendo en
+esos tótems. Ahora
+es importante
+una vez que ya comprendimos que los
+tokens es lo que ella proponente va a
+procesar, hay otro término que es
+fundamental y es el término de prom. El
+prom es la instrucción o pregunta
+específica que le proporcionamos a un
+sistema de inteligencia y artificial
+para obtener un resultado. Por ejemplo,
+un básico podría ser que escriba un un
+poema sobre el otoño en estilo highgo.
+Y otro ejemplo un poco más avanzado es
+actuar con un médico especialista en
+cardiología y explica las diferencias
+entre angina e infarto en términos de un
+paciente de 30 años que un paciente de
+70 años pueda entender fácilmente. Estos
+son instrucciones, ¿verdad? Preguntas o
+solicitudes que nosotros le hacemos a la
+inteligencia artificial. Eso es
+propiamente un PR. Y entramos también a
+un concepto importante que es el
+ingeniería de proms, que es el arte de
+diseñar instrucciones precisas para
+maximizar la calidad de dar respuestas
+desde comercial. Entonces, un prom bien
+diseñado puede transformar drásticamente
+los resultados, o sea, mientras mejor
+sea el prom, mejor va a ser el resultado
+óptico. Para ello existe muchas formas
+de hacer promers. Aquí tenemos algunos
+de los esquemas más sencillos. Por
+ejemplo, defino la tarea, indica la
+acción y aclarar el objetivo. Entonces,
+eh necesito que desarrolles tal tarea.
+Para ello, realizan las siguientes
+acciones y el objetivo es este. Eso
+sería utilizar este esquema. Si vemos
+este RTF es actúa como, por ejemplo,
+tenemos antes un médico crea una
+explicación, ¿verdad?, sobre las
+diferencias entre esto y muéstralo como
+un texto que sea entendido, ¿verdad? Eso
+es eh pues las formas básicas de generar
+problems. En términos más sencillos, yo
+siempre digo que un Chrome puede verse
+con dos grandes eh puntos. El primero,
+en este caso sería el insumo
+hecho de la inteligencia artificial, o
+sea, información de do inteligencia
+artificial y el resultado que en este
+caso yo le solicito. Entonces yo le voy
+a dar un insumo y le voy a pedir un
+resultado y en el medio tengo que darle
+detalles.
+Tengo que detallar muy bien los insumos
+que le estoy dando y detallar muy bien
+los resultados que le voy a pedir.
+Entonces acá eh bueno, si ustedes entran
+a este enlace que aparece por acá hay un
+constructor de proms, esos cometes de
+unación donde ustedes van a poder
+entonces mejorar los proms que
+desarrollen. Mientras tanto queremos
+ingresar a chat GPT
+y aquí en chat GPT comprender que un
+pron es lo que le escribamos por acá.
+Esto que describamos es lo que CHGPT va
+a recibir como un P y a partir de eso
+nos va a dar respuestas.
+Ahora vamos a hacer algunos ejemplos,
+pero antes de ello queremos hablar de lo
+que es la ventana de contexto. La
+ventana de contexto es el máximo de
+tokens o la máxima cantidad de tokens
+que un modelo puede recibir.
+Entonces hay modelos, por ejemplo, como
+vemos en la historia, como el GM 1.5 Pro
+y el 2 y el 3 que tiene una ventana de
+contexto de 1 millón de tokens. Los
+modelos que existían antes de eso eran
+256,000
+token, o sea, Chon vino a cuadruplicar
+esa cantidad. Lo que quiere decir es que
+va a poder prácticamente recibir toda la
+saga de los del Señor de los Anillos y a
+partir de eso obtener respuestas. ¿Ven?
+Entonces, la ventana de contexto es lo
+máximo que yo le puedo dar. son nada de
+contexto muy grandes, pero cuando ya
+hablamos en un esquema más profesional,
+a veces vamos a tener que darle
+documentos y eso ya implica una gran
+cantidad de tokens. Entonces, es muy
+importante comprender cuánto es la
+máxima cantidad que podemos
+suministrarle para saber cuánto es lo
+máximo que él verdaderamente va a poder
+utilizar al momento de darnos una
+respuesta.
+Dicho lo anterior, vamos ahora sí a la
+sección práctica. En este caso vamos a
+poder preguntarle a la inteligencia
+artificial en una en un primer
+acercamiento, alguna pregunta que nos
+interese sobre la inteligencia, que nos
+interese que le proporcionemos a
+inteligencia artificial. Entonces, esta
+se las dejamos a cada uno de ustedes
+para que piensen en alguna pregunta que
+les gustaría hacerle y puedan simple y
+llanamente
+acá en chat GPT, que es el primer modo
+que vamos a utilizar, que ustedes le
+escriban la pregunta que quieran y vean
+la respuesta que él nos suministra.
+En segunda instancia vamos a pedirle que
+nos haga una explicación acerca de la
+evolución de inteligencia artificial.
+Entonces nos podemos venir acá decimos
+hacer una explicación
+sobre la evolución
+de la indulgencias de deseo
+y lo de aquí nada más dejarlo. Esto
+después vamos a ver qué significa. De
+momento nada le vamos a enviar por acá.
+Y vean como él propiamente nos hace
+algunos eh la evolución propiamente de
+inteligencia artificial. Como ustedes
+ven, él logra eh propiamente replicar
+muy bien lo que estuvimos hablando hace
+poco, ¿verdad? Sobre eh las diferentes
+etapas y evoluciones que ha tenido la
+inteligencia artificial. Ven que nos da
+un resumen bastante bastante bueno. Sin
+embargo, vean como en lo último no nos
+ha
+digámoslo así dado un detalle tan
+específico como el que vimos en la
+presentación. Y eso es parte de lo que
+sucede, que a veces estos algoritmos son
+entrenados con cierta información y es
+de la información más reciente no la
+logra proporcional o no la suministra
+con el detalle deos. Entonces hicimos
+este ejemplo
+de modo intencional. Confi que ustedes
+tengan que inteligencia artificial puede
+darnos excelentes resultados. Nosotros
+tenemos que guiarlos un poco más y
+tenemos que muchas eh veces suministrar
+un P con ciertas características para
+que pueda dar el resultado que nosotros
+en este caso deseamos y que en muchas
+ocasiones tal vez eh no va a tener el
+detalle que queremos. Por eso es
+importante una interacción humana.
+nosotros como humanos, entonces podamos
+complementar lo que la inteligencia
+artificial nos genera.
+Y por último vamos a darle un promado.
+Vean por acá dicen, "Eres un asesor de
+marketing. De estoy dando un rol para
+una empresa llamada para una PY llamada
+com suña, que se dedica a ofrecer cada
+trino, espalmente para especiales. Ya le
+estoy dando insumos para que ella
+entonces comprenda a qué nos estamos
+dedicando y estamos diciendo redapta una
+campaña para promocionar los servicios
+de un modo atractivo. Ven, esto es una
+campaña en este caso promocional y le
+estamos ya diciendo qué es lo que
+queremos que haga. ¿Ven? Este es el
+resultado. Aquí ya le dimos insumos
+y aquí en esto que le estoy indicando
+acá estoy diciendo cuál es el resultado
+que en este caso queremos.
+Pero vean que lo que sigue aquí para
+abajo ya son detalles, o sea, estoy
+diciendo que logre impactar a las
+personas, hacen fren que nos adaptamos a
+diversos presupuestos y lo que deseamos
+esos aliados para que esos momentos
+especiales sean inolvidables. Utiliza un
+tono amigable cercano. Ya todo estos son
+detalles que le estamos dando para que
+la inteligencia artificial nos dé un
+mejor resultado acá en este punto.
+Entonces vamos a copiar ese texto para
+que podamos ver el resultado que nos da.
+Entonces lo copiamos, abrimos un nuevo
+chat, que para abrir un nuevo chat
+simplemente le damos clic acá. Lo único
+que hacemos es eso, pegamos esto, se
+pega esta cosita acá que es como una
+imagen, no se preocupen. Y le podemos
+dar y vean que este programa es mucho
+más detallado.
+Y ya con esto efectivamente lo empieza a
+redactar los principales elementos
+para
+una campaña de publicidad. ¿Ven? Y aquí
+ya nos da un detalle bastante específico
+de lo que deseamos, pero nosotros
+inclusive podríamos profundizar más en
+esta parte, pero eso lo vamos a revisar
+más en las lecciones de momento a modo
+resumen. Esto es un promado.
+Este es un resultado que es bastante
+interesante. Vean qué bien cómo logra
+responder a lo que le indicamos. Y por
+medio de diferentes eh proms adicionales
+vamos a ir virando todos estos elementos
+para obtener una respuesta conforme lo
+que necesitemos.
+Oh.

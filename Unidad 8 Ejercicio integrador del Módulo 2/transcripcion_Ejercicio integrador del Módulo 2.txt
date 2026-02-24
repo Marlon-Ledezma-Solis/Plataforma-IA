@@ -1,0 +1,372 @@
+Título del Video: Ejercicio integrador del Módulo 2.
+URL: https://youtu.be/HcW25cn7-Jo
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Unidad 8o, desarrollo de un ejercicio
+integrador de los conocimientos del
+módulo 2.
+Bienvenidos a este primer video de la
+unidad 8o, donde daremos inicio a la
+culminación de nuestro aprendizaje en el
+módulo 2. El objetivo primordial es
+aplicar de forma práctica todo lo
+estudiado sobre inteligencia artificial
+y automatización.
+En el mundo actual, la IA no es solo una
+teoría, sino una herramienta de
+aplicación transversal en múltiples
+sectores económicos, desde el
+administrativo hasta el industrial. Este
+proyecto busca que el estudiante no solo
+comprenda la tecnología, sino que la
+integre como un aliado estratégico a su
+entorno laboral.
+Hablaremos de cómo la automatización
+deja de ser un proceso exclusivo de
+programadores para convertirse en una
+competencia esencial para cualquier
+profesional moderno.
+Propósito del ejercicio. Escenario real.
+Reproducir situaciones laborales donde
+no se requiere programación avanzada. I
+a operativa.
+Utilizar inteligencia artificial para
+operativizar tareas rutinarias.
+Mejora continua. Aumentar eficiencia.
+Reducir errores y estandarizar procesos
+administrativos.
+El corazón de este ejercicio es la
+aplicabilidad en el mundo real.
+Muchas veces se piensa que para
+automatizar necesitamos años de estudio
+en ciencias de la computación, pero este
+módulo demuestra que no se requiere
+programación avanzada para generar un
+impacto significativo.
+Nos enfocamos en la IA operativa. Eso
+significa usar la IA para que tome el
+mando de esas tareas rutinarias que
+consumen tiempo y energía.
+El resultado esperado es una mejora
+continua. tangible, procesos más
+rápidos, menos errores humanos y una
+estandarización que permita que
+cualquier miembro del equipo pueda
+ejecutar un proceso administrativo con
+la misma precisión.
+Unidades integradas. Unidades del
+programa Unidad 4, automatización de
+procesos en Microsoft Office con IA.
+Unidad cinco, automatización desde
+herramientas de IA generativa.
+Unidad 6, uso de agentes de IA
+especializados.
+Unidad siete, plataforma Google AI
+Studio.
+Contenidos clave, programación básica en
+macros en Excel o Word. Generación y
+automatización de código con IA.
+Automatización de tareas administrativas
+repetitivas.
+Documentación técnica básica.
+Este ejercicio integrador es el punto de
+encuentro de cuatro unidades
+fundamentales. Repasaremos desde la
+automatización en Office hasta el uso de
+herramientas de vanguardia como Google
+AI Studio. Los pilares técnicos que
+sostienen este proyecto incluyen el
+manejo básico de Visual Basic for
+application en Excel o Word. Sin
+embargo, el diferenciador aquí es que no
+escribiremos todo el código desde cero.
+Utilizaremos la IA para generar y
+optimizar ese código, haciendo que la
+tecnología trabaje para nosotros. Al
+finalizar, no solo tendremos una
+macrofuncional, sino también la
+documentación técnica necesaria para que
+nuestra solución sea profesional y
+escalable.
+Construcción sobre aprendizajes previos.
+Módulo 1. Inicio. Módulo comprensión de
+IA, alcances y limitaciones.
+Dos, IA generativa como herramienta de
+apoyo operativo.
+Tres, ejercicio integrador. Asistente
+para programar y automatizar.
+El énfasis está en interactuar con la
+guía para construir soluciones
+funcionales, no en memorizar sintaxis de
+programación.
+Es vital entender que no estamos
+aislados. Este camino comenzó con la
+comprensión de los alcances y
+limitaciones de la IA. Luego aprendimos
+a ver la IA generativa no como un
+juguete, sino como un apoyo operativo
+real. Ahora, en este tercer paso, nos
+convertimos en arquitectos de
+soluciones. Queremos dejar algo muy
+claro. El éxito de este proyecto no
+depende de su capacidad para memorizar
+líneas de código. El énfasis absoluto
+está en la interacción, en cómo usted
+como humano guía a la IA mediante
+instrucciones precisas para construir
+algo que funcione y resuelva un
+problema.
+Caso práctico propuesto,
+automatización de procesos
+administrativos con IA.
+La persona participante seleccionará o
+simulará un proceso administrativo
+típico que incluya tareas como
+consolidación de información, limpieza
+de datos, generación de reportes,
+formateo estandarizado o registro
+automático de ejecuciones.
+usará una gema, un GPT
+o un asistente para que realice cierta
+parte del proceso de trabajo.
+Otra parte debe ser desarrollada por
+medio de una macro en alguna de las
+herramientas ofimáticas.
+El objetivo es que alguna tarea que se
+desarrollaba en modo manual ahora pueda
+automatizarse en este proceso. En esta
+etapa, el estudiante toma el rol
+protagonista al elegir un proceso
+administrativo real. o simulado. Piense
+en esas tareas rutinarias. Pasa horas
+limpiando datos en Excel. Consolida
+reportes de diferentes fuentes cada
+lunes. Esos son los candidatos
+perfectos. La estrategia es híbrida.
+Utilizaremos una herramienta avanzada
+como un GPT o una gema de Google para
+una parte del flujo y completaremos esto
+con una macro de Office para la
+ejecución local. El fin último es
+transformar un proceso manual en un
+sistema automatizado eficiente.
+Resultados finales esperados. ¿Qué
+debemos entregar al final? No es solo un
+archivo, es un paquete de solución
+profesional. Primero, la parte técnica,
+el archivo de Word o Excel con su macro
+funcional. Segundo, la documentación que
+explica el qué, cuándo y por qué de su
+creación. Tercero y muy importante, la
+evidencia de cómo trabajó en la IA, qué
+instrucciones o prompts le dio y cómo
+corrigió el código cuando no era
+perfecto. Finalmente, una reflexión
+sobre los beneficios. ¿Cuánto tiempo
+ahorra? ¿Qué errores previene?
+Como vemos en pantalla, resultado final,
+un archivo funcional, gema, GPT o
+asistente y un archivo ofimático con al
+menos una macro operativa desarrollada
+con apoyo ya. Documentación evidencia
+guía y la explicación escrita. Paso uno,
+identificación del proceso. Acciones
+requeridas: identificar tarea rutinaria,
+describir proceso manual actual,
+identificar pasos repetitivos. Detectar
+posibles errores humanos. Antes de
+iniciar con el código debemos observar
+este paso es analítico. Debe mirar su
+día a día y encontrar esa tarea que se
+repite sin variaciones. Describa el
+proceso actual paso a paso, como si
+estuviera explicándoselo a alguien que
+no sabe nada del tema.
+Al desglosar los pasos repetitivos,
+podrá ver cómo es más probable que un
+humano se equivoque, ya sea por
+cansancio o distracción.
+Identificar esos puntos de fallo es
+clave para diseñar una automatización
+robusta.
+Paso dos, preparación del archivo base.
+Una automatización sobre un desastre
+solo creará un desastre más rápido. Por
+ello, en el paso dos vamos a enfocarnos
+en la higiene de datos. Necesitamos un
+archivo de Excel o Word perfectamente
+estructurado. Eso significa que las
+columnas deben tener nombres claros, las
+hojas deben estar organizadas y los
+rangos deben ser consistentes.
+Antes de aplicar la IA, realice el
+proceso de forma manual una última vez
+para asegurarse de que la lógica es
+sólida y el archivo está listo para ser
+entregado a la automatización. Como
+vemos en la diapositiva, en resumen del
+paso dos, la preparación de archivo
+base, uno, crear o adaptar, dos,
+organizar y estructurar, tres, verificar
+funcionamiento.
+Se espera un archivo ordenado,
+consistente y listo para automatizar.
+Paso tres, creación de GEM, GPT o
+asistente para resolver una parte del
+problema. Formular prompts. Solicitar a
+la IA generación del macro en VBA con
+instrucciones claras.
+Ajustar herramientas. Incluir las
+herramientas y procesos necesarios para
+generar adecuadamente la GEM, GPT o
+asistente.
+GEM, GPT o agente en funcionamiento.
+Desarrollar la herramienta para que
+pueda desarrollar la parte del proceso
+que le corresponde.
+Aquí es donde la IA entra en acción de
+forma creativa. En este paso
+configuraremos nuestra herramienta, ya
+sea una gema de Google o un GPT
+personalizado. La clave del éxito aquí
+es la formulación del prompt. No basta
+con decir, "Hazme una macro". Debemos
+ser específicos. Escribe una macro en
+VBA para Excel que tome los datos de la
+columna A, los limpie en espacios y los
+mueva a la columna B. Estamos
+construyendo un asistente especializado
+que entiende nuestra necesidad técnica y
+nos proporciona los bloques de
+construcción necesarios.
+Paso cuatro, generación de la macro.
+Formular pronts. Solicitar a la IA
+generación de macro en VBA con
+instrucciones claras. Código comentado.
+Solicitar código con explicaciones y
+comentarios.
+Incorporar código. Incorporar código.
+Integrar el código en el editor VBA del
+archivo.
+Una vez que el asistente está listo, le
+pedimos el código final. Un consejo
+vital es solicitar siempre código
+comentado. Esto significa que la IA debe
+explicar dentro del código qué hace cada
+línea. Esto es fundamental para nuestro
+aprendizaje y para futuras correcciones.
+Una vez obtenido, abriremos el editor de
+VBA en Office e integraremos este código
+en un nuevo módulo.
+Pasos 5 al S. Paso C.
+Pruebas y ajustes. Ejecutar las
+herramientas con datos reales.
+Identificar errores y utilizar IA para
+optimizar.
+Paso seis, integración al flujo.
+Incorporar macro al uso cotidiano
+mediante botón o evento automático.
+Paso siete, documentación final.
+documentar funcionamiento, explicar
+antes y después y validar impacto.
+La fase final del desarrollo es
+interactiva. El paso cinco consiste en
+probar la macro con datos reales. Si
+falla, que es normal al principio,
+usamos de nuevo la guía para que analice
+el error y nos dé una solución. En el
+paso seis hacemos que la herramienta sea
+fácil de usar. Tal vez agregando un
+botón en la cinta de opciones de Excel
+para que cualquier usuario la active con
+un clic. El paso siete, cierra el ciclo
+con la documentación. No se trata solo
+de escribir qué hace, sino de demostrar
+el valor, cuál es la situación antes y
+cuál es la mejora después de la
+automatización.
+Capacidades desarrolladas.
+Uso funcional de IA.
+Aplicar inteligencia artificial como
+asistente técnico efectivo.
+Automatización Office. Automatizar
+procesos administrativos en Office.
+Lógica de programación. Comprensión
+básica de lógica y estructuras de
+código. Mejora continua. Pensamiento
+orientado a eficiencia y optimización.
+Documentación.
+Capacidad de explicar soluciones
+técnicas. Claramente, al completar este
+proyecto habrán adquirido un conjunto de
+habilidades de alto valor. No solo
+habrán usado IA, sino que habrán
+aprendido a usarla como un asistente
+técnico de nivel profesional. Habrán
+dominado la automatización en el
+ecosistema Office, que sigue siendo el
+estándar en la mayoría de las empresas.
+Además, habrán desarrollado una
+comprensión de la lógica de
+programación. Aunque no sean
+programadores, ahora entienden cómo
+piensa una computadora. Sobre todo
+habrán cultivado una mentalidad de
+mejora continua, buscando siempre la
+forma más eficiente de hacer las cosas.
+Impacto en empleabilidad,
+sectores demandantes, puestos
+administrativos, call centers y centros
+de servicios, pymes y emprendimientos,
+áreas operativas y de soporte,
+competencias demostradas, automatizar
+tareas rutinarias, utilizar IA para
+resolver problemas operativos, aportar
+mejoras concretas de productividad.
+¿Por qué es tan importante este
+ejercicio para su carrera?
+Porque estas competencias son altamente
+demandadas en el mercado laboral actual.
+Desde grandes corporaciones hasta pymes
+y emprendimientos, todos buscan
+profesionales que puedan reducir costos
+y tiempos mediante la automatización. Al
+realizar este proyecto, usted está
+demostrando que tiene la capacidad de
+usar la IA para resolver problemas
+reales y que puede aportar mejoras
+concretas en la productividad de
+cualquier equipo. Usted deja de ser
+alguien que usa Excel para ser alguien
+que crea soluciones eficientes con IA.
+Criterios de evaluación.
+Para asegurar el éxito de su entrega,
+presten atención a esos cuatro pilares
+de evaluación. La funcionalidad es lo
+primero. Hace lo que se supone que debe
+hacer sin romperse. Luego evaluamos el
+uso consistente de la IA. Queremos ver
+cómo interactuaron ella para llegar al
+resultado.
+También miramos la calidad. Realmente es
+mejor este proceso automático que el
+manual. Y por último, la documentación.
+Su trabajo debe ser tan claro que un
+compañero de trabajo pueda entenderlo y
+usarlo sin necesidad de que usted esté
+presente. Finalizamos este recorrido
+revisando la rúbrica. Para alcanzar un
+logro alto, su herramienta debe ser
+estable. Su uso debe ser estratégico, no
+solo copiar y pegar.
+El beneficio para el proceso debe ser
+evidente y su documentación debe ser
+profesional. un logro medio o básico,
+sea cuando hay fallas en la ejecución o
+cuando el uso de la tecnología fue
+superficial.
+Los animo a apuntar a lo más alto
+utilizando todas las herramientas y
+conceptos que hemos visto. Mucho éxito
+en su ejercicio integrador.

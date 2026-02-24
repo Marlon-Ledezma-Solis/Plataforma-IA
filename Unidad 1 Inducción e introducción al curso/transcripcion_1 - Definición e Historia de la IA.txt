@@ -1,0 +1,466 @@
+Título del Video: 1 - Definición e Historia de la IA
+URL: https://youtu.be/eO8LPJTUhFc
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Hola, muy buenas. Vamos entonces eh a
+hacer un pequeño video sobre el concepto
+de evolución de la inteligencia
+artificial. En primera instancia es
+importante
+indicar la definición de la inteligencia
+artificial. En este caso podemos
+utilizar esta que está acá, que es un
+sistemas informáticos entrenados que se
+encargan de desarrollar diversas tareas
+y actividades de un modo más autónomo y
+adaptativo. Es importante en este caso
+dejar en claro que estos videos son
+resúmenes de la sesión, ¿verdad? No son
+propiamente la sesión como tal, sino que
+son resúmenes para poder repasar un poco
+sobre estos temas. A modo resumen, de
+igual manera en la sesión se aborre con
+mucho más detalle, tenemos por acá que
+la inteligencia artificial permite, en
+este caso, desarrollar tareas y
+actividades. Ese es el objetivo, que sea
+práctica, que sea en este caso una eh un
+sistema, una capacidad informática que
+nos permita propiamente realizar tareas.
+Y uno podría decir, bueno, por hoy las
+máquinas han desarrollado tareas de
+diferentes formas. En este caso, la gran
+diferencia está en que se busca que sea
+de un modo más autónomo y adaptativo, es
+decir, que las eh computadoras lo puedan
+hacer de un modo más independiente.
+Algunos ejemplos de ellos es crear
+texto, imágenes, automatizar tareas,
+analizar datos, buscar a clientes a
+partir de patrones y responder a
+clientes en chatbots. Y es importante
+también recalcar que aquí estamos
+hablando del entrenamiento. También este
+entrenamiento es de que permite que
+estas máquinas logren comprender el
+funcionamiento respectivo y a partir de
+eso logren desarrollar estas tareas de
+un modo más independiente.
+¿Y cómo lo logran hacer? Bueno, a partir
+de lo que llamamos una red neuronal, a a
+un modo de resumen, podemos hablar de
+red neuronal como un conjunto de capas.
+Tenemos una capa de entrada y una capa
+de salida. Nosotros le damos una
+información, por dentro hay capas
+internas que procesan esa información y
+nos dan un resultado. Cada uno de estos
+puntos que vemos acá les llamamos
+neuronas. ¿Y qué es lo que hacen? toman
+esta información, la empiezan a
+analizar, empiezan a buscar patrones,
+empiezan a buscar relaciones, empiezan a
+hacer propiamente que esta información
+eh tenga cierto sentido y cierta eh
+línea de análisis y a partir de eso nos
+dan un resultado final. Para ello, uno
+de los puntos más importantes han sido
+lo que llamamos los Transformers, que
+convierten las palabras en números y de
+esa manera logran obtener un significado
+matemático con el cual logran calcular
+estas relaciones, asociaciones y
+patrones. Un ejemplo para ilustrarlo
+anterior puede ser esta de acá, donde
+por ejemplo vemos como perro y datos se
+pueden vectorizar, se pueden en hacer un
+proceso de embeding en el cual se
+convierten en números. ¿ven? Y eh por su
+naturaleza, aunque semánticamente las
+palabras son diferentes, ustedes pueden
+ver, tienen un alto nivel de asociación.
+Esto, un espacio vectorial lo que está
+diciendo es que estas dos palabras
+tienen significados relativamente
+similares y por consiguiente entonces
+tienen un nivel de asociación. Por el
+contrario, la palabra luna no se acerca
+tanto a estas palabras porque está
+asociada a otro tipo de eh relaciones.
+Muy bien, ahora para complementar esta
+primer sección vamos a hacer una muy
+resumida historia de la inteligencia
+artificial. Como les mencionamos y
+queremos reiterar, este es un eh un
+proceso en el cual vamos a hacer un
+resumen en la sesión, pues efectivamente
+se aborda con mucho más detalle. En
+primera instancia tenemos acá lo que es
+la historia evolución de inteligencia
+artificial desde los años 50 a 70, que
+fue propiamente cuando inició eh todo
+este proceso. En primera instancia
+tenemos, por ejemplo, la prueba de
+Turín, entonces en la cual lo que se
+buscaba era eh propiamente determinar si
+la si lo que realizaban las máquinas
+podía ser comparable a lo que un humano
+en este caso podía responder. Entonces,
+la gros Turing era muy sencilla.
+Básicamente se basa en determinar si eh
+lo que dio una máquina al preguntarle a
+otras personas, por ejemplo, no se puede
+identificar con facilidad si fue una
+máquina o fue una persona. Y a partir de
+eso, entonces se vio que las máquinas
+podían eh propiamente hacer eh juegos,
+podían resolver problemas, podían eh en
+este caso eh por ejemplo tener las bases
+teóricas y filosóficas, ¿verdad?, de lo
+que hoy conocemos como inteligencia
+artificial, porque en estos años lo que
+se vio es que las máquinas siguiendo
+cierto proceso
+claramente establecido, pueden hacer
+acciones muy similares a otros humanos.
+Sin embargo, eh se observó que había
+cierta deficiencia porque las máquinas
+podían seguir un camino muy claramente
+planteado. Imagínos, por ejemplo,
+conducir un carro. Eh, si nosotros
+hablamos de conducir un carro, esto no
+lo podían hacer en aquellos años. ¿Por
+qué? Porque aunque se crearon los
+sistemas expertos, que ya eran grandes
+computadoras, que podían hacer múltiples
+tareas, una tarea como conducir un cargo
+podría ser claramente establecida.
+Podríamos decir, salga de este punto,
+iré a la derecha, camine 200 m, iré a la
+izquierda. Parecía que podía ser
+claramente desarrollada por una máquina
+siguiendo unos patrones. Sin embargo,
+¿qué sucede? Que en el camino hay
+huecos, en el camino hay tropiezos,
+puede salir una persona, puede pasar x o
+y circunstancias que le vamos a
+denominar incertidumbre. Entonces esa
+incertidumbre no la podían manejar estos
+sistemas, por esos podían hacer ese tipo
+de acciones. Lo mismo eh, por ejemplo,
+cuando hablamos de jugar a jedrez, ellos
+tenían, por ejemplo, la capacidad de
+jugar a jedrees porque eran un conjunto
+de patrones establecidos y tenían,
+digámoslo así, un escenario de
+prácticamente incertidumbre nula, porque
+una vez que había un paso, ellos podían
+entonces determinar las posibles
+acciones a seguir. Pero cuando hablamos,
+por ejemplo, en este caso de redactar un
+documento, de responder algún informe,
+de determinar
+unas posibles ventas, estamos hablando
+de un nivel de incertidumbre que en este
+caso estos equipos no lo podían
+resolver. Entonces, cuando trataban de
+entender las palabras de las personas,
+cuando trataban de responder, cuando
+trataban de obtener una estimación,
+cuando trataban de manejar un carro, ese
+sistema no lo podían hacer porque sin
+llanamente no tenían la capacidad de
+enfrentarse a escenarios en los cuales
+simpanamente había tanta incertidumbre
+que no se podía eh propiamente eh
+obtener una respuesta exacta.
+Por eso caemos propiamente en algo que
+le llamaríamos el invierno delá, donde a
+partir de estos años se vio que la
+inteligencia artificial estaba limitada
+por el hecho de no poder eh propiamente
+atender escenarios de incertidumbre que
+eran los más comunes. Entonces, ante
+esta situación la inteligencia
+artificial quedó un poco relegado. Fue
+hasta el año 1990 y entre este año y el
+2010 que se observó que al incluir la
+parte estadística se podía trabajar la
+parte de incertidumbre a partir de
+probabilidades. empezaron a nacer los
+sistemas, las máquinas de soporte
+vectorial, los árboles de decisión, las
+redes neuronales que marcaron en este
+caso un enfoque que podía, en este caso
+a partir de probabilidades determinar
+los eh planes de acción o los mecanismos
+que tenía que seguir la inteligencia
+artificial.
+Después, en el año 2012 nace el deep
+learning, que permite ya utilizar redes
+neuronales mucho más profundas, lo cual
+permitía tener múltiples capas y de esa
+manera sortear la incertidumbre con
+mucha mayor precisión y establecer
+relaciones que en este caso eran más
+complejas, que antes no se podían
+realizar. Entonces, ¿qué se sumó? por la
+capacidad estadística que permitía por
+medio de probabilidades manejar la
+incertidumbre y a eso se le deuma
+también la capacidad informática que
+permitió entonces desarrollar algoritmos
+cada vez más potentes.
+Y lo que vino ya propiamente a
+desencadenar todo este proceso fue la
+era de los Transformers que se dio a
+partir del año 2017 y hasta el día de
+hoy. Dos Transformers fueron una
+arquitectura diseñada por Google, en el
+cual se observó como los modelos
+anteriores funcionaba muy bien con
+números, pero con palabras no lo hacían
+tamban bien. Entonces, los Transformers
+permitieron transformar esas palabras
+en números por medio de un proceso, pero
+más que eso, lograron generar un proceso
+matemático
+que determinó relaciones entre palabras.
+Y eso era lo más importante. Entonces,
+cuando se hacía un texto para que la
+inteligencia artificial lo comprendiera
+muy bien, era muy difícil, pero con los
+Transformers
+se logró que este proceso matemático
+sacara un nivel de asociación muchísimo
+más adecuado del que se había hecho
+hasta el momento. Entonces se diseñó una
+arquitectura que pues tiene varias capas
+y demás que no vamos a entrar en detalle
+en este momento, pero permitió que a
+partir de esas asociaciones
+en un texto se pudiera comprender común
+cuáles eran las palabras más importantes
+y a partir de esas palabras más
+importantes, ¿cuál era el sentido o la
+asociación que tenían esas palabras y
+cómo se relacionaban con lo demás que
+traía el texto. Entonces, eso implicó un
+enorme cambio en la forma propiamente de
+trabajar con letras y eso se utilizo
+también para las respuestas. Entonces, a
+partir de un texto inicial, si la
+inteligencia artificial tenía que dar
+una respuesta, ya podía saber cuáles
+eran sus obras más importantes, entonces
+sobre qué tenía que referirse y cuáles
+eran palabras asociadas que en este caso
+eh podía contestar para que tuviera
+sentido en función de lo que se
+consultaba.
+Y de ahí posteriormente se dio un
+siguiente salto muy interesante que fue
+el que se dio en el año 2020 en el cual
+nació la Generativa y los agentes. Estos
+agentes en este caso básicamente son
+inteligencias artificiales porque eh ya
+a partir de este año 2020 empezaron a
+nacer los chatbots como por ejemplo chat
+GPT, pero los agentes eh nacen
+posteriormente
+con una gran idea y es que la
+inteligencia artificial no solo me
+conteste cosas, sino que haga cosas y
+para que haga cosas tiene que tener
+herramientas. Entonces, cuando una
+inteligencia le damos herramientas, le
+llamamos entes. Y esos agentes entonces
+permiten ahora sí desarrollar tareas y
+acciones, como decíamos en la
+definición, de un modo más autónomo y
+adaptativo.
+Y aquí vamos a ver un poquito para
+finalizar esta parte los las tendencias
+eh más fuertes que se han dado entre el
+año 2024 y 2025. En primera instancia,
+en el primer 24 se dio un aumento de la
+inteligencia artificial. vimos eh cómo
+empezaron a nacer eh algunos modelos
+propiamente de eh generación de video
+como lo fue Sora, como por ejemplo
+Gemine, que es el modelo de Google,
+permitió una ventana de contexto que
+ahora vamos a hablar que es esto de
+hasta 1 millón de tonques en su ISO que
+iniciar muchísimo más grande, mucho más
+grande de lo que existía en ese momento.
+Entonces, ya se vio que se podía
+trabajar con datos masivos y después se
+activó una versión beta de tip research
+por medio de Google, en el cual se da la
+posibilidad de que en las búsquedas ya
+se empezara a introducir el concepto de
+inteligencia artificial.
+Posteriormente, en el segundo trimestre
+se dio lo que le llamamos la
+consolidación multimodal. ¿Y qué quiere
+decir el mecanismo multimodal? Quiere
+decir que puede trabajar con texto,
+imágenes y videos.
+Esto era algo que antes no se podía. En
+primera instancia se podían usar
+números, después se podía usar textos y
+números, pero justamente en modelos
+separados. Después de la oportunidad de
+usar imágenes, pero a partir de segundo
+trimestre 24 los modelos de inteligencia
+artificial podían utilizar todo. Voy
+utilizar imágenes, videos, texto y
+responder en imágenes, video y textos.
+sin ningún problema. Eso es lo que
+llamamos un un modelo multimodal. Y aquí
+podemos hablar deos muy interesantes
+como lo que fue Notebook LM, que nació
+el 10 de abril como un mecanismo para
+poder utilizar nuestros eh propios
+documentos e interactuar con
+inteligencia artificial a partir de
+ellos. Después nació el modelo 4 el 13
+de mayo, que fue un modelo muchísimo más
+fuerte de lo que se eh había realizado
+hasta ese momento, porque ya integraba
+las capacidades de texto, voz y visión
+en tiempo real, lo que llamamos ya ese
+primer modelo multimodal. Y después Rway
+y BO2 eh nacen como modelos de
+generación de video mucho más
+consolidadas de lo que teníamos hasta el
+momento. Para el tercer trimestre
+nacieron los modelos razonadores y ese
+fue quizá el cambio más importante que
+se dio. El 12 de septiembre e Open tira
+eh en este caso cono histórico los
+modelos O1 review y O1 M, que son
+modelos que en este caso tienen la
+capacidad resonadora. Eso lo veremos con
+más detalle a lo largo del curso, pues
+son entonces modelos con mayor capacidad
+de analizar antes de dar una respuesta y
+después y con eso también hace el
+balcónic que es un nuevo paradigma de
+programación en el cual por medio
+inteligencia artificial y utilizando
+herramientas como las que estamos viendo
+en esta parte de aquí abajo, podemos
+perfectamente programar con ayuda de
+inteligencia artificial.
+En el cuarto trimestre se consolida esa
+idea de poder razonador y y después del
+lanzamiento de TGPT de dos modelos O1 y
+O1 preview, Cloud logró también generar
+su propio modelo y en noviembre de 2024
+se generan los modelos en perdón, el
+protocolo del modelo de contexto MSP, el
+cual viene a ser un estándar abierto que
+proyect sumamente utilizado para
+conectar herramientas. Entonces, ya con
+este protocolo se le logran dar
+herramientas a inteligencia artificial
+para que eh ya puedan utilizar
+diferentes e opciones que antes no
+podía. Y entonces ahora sí se consolida
+la idea de un e
+gente, ¿verdad?, el cual puede utilizar
+herramientas para resolver problemas.
+Esto es el 5 de diciembre se publica en
+modelo 1 y el 20 de diciembre 3, siendo
+un modelo muchísimo más potente y ha
+sido uno de los más grandes en el
+crecimiento de la frontera de
+inteligencia que ha alcanzado se había
+alcanzado hasta
+para finalizar
+en enero 2025 nace Deep Seek que fue un
+modelo open source totalmente abierto
+que implicó un gran cambio. ¿Por qué?
+porque era un móvil muchísimo más barato
+y entonces esto generó una gran sacudida
+a nivel global porque se observó que
+podía lograrse obtener una inteligencia
+artificial mucho más barata de lo que se
+conocía hasta el momento con el modelo
+Deepsic R1.
+Y en el segundo trimestre se dio el auge
+de los agentes. Después de los eh
+desarrollos de modelos razonadores, de
+eh también lo que eran los protocolos
+MCP, se observó que nacieron eh los
+modelos o dos e agentes Minimx, Man,
+que son en este caso los tres
+principales líderes a nivel mundial, que
+de hecho Manos fue adquirido en enero
+por el Meta. Entonces, eh justamente
+estas startup eh lograron crecer mucho
+porque permitieron tomar la inteligencia
+artificial, conectarle diferentes
+herramientas y ahora hacer que por medio
+de estos modelos y con las herramientas
+conectadas pudieran desarrollar muchas
+tareas que antes nos hacían. Antes de
+preguntábamos a CHGBT, nos contestaba,
+nos preguntábamos a otro modelo como
+Gemini y demás y nos contestaba, pero
+con estas herramientas ese quería tener
+certificad podía hacer más podía ya no
+solo contestar cosas sino hacer cosas y
+eso significó el gran cambio principal
+del año 2025 y junto a ellos se
+fortaleció una herramienta llamada N8N
+que al igual que Make es una herramienta
+muy poderosa para hacer
+automatizaciones.
+Entonces, todo este marco nos permitió
+que en el año 2025 mucho dolor fuerte y
+quizás de los momentos más importantes
+de este año fue propiamente el
+fortalecimiento de los agentes para que
+la inteligencia artificial no solo
+respondiera cosas, sino que hiciera
+cosas.
+Y podemos hablar que lo último que
+tenemos en estos últimos trimestres ya
+es la creación de un montón de
+herramientas de inteligencia artificial
+que han permitido ir mejorando la
+frontera de conocimiento y han permitido
+entonces que nazquen modelos cada vez
+más detallados, modelos que permiten
+enfocarse en programación, en creación
+de videos, que permiten también
+enfocarse en la creación de agentes, que
+permiten crearse en el desarrollo de
+aplicaciones.
+que permiten eh también trabajar algo
+que llamamos la ingeniería de contexto,
+que es una formadora malinada en en que
+es como el desarrollo de Bcoin, que
+dijimos que es una forma de programar
+diferente. Bueno, esta es la evolución
+de ese Bcoin, nació a finales de 2025 y
+está haciendo que la creación de código,
+digamos, una programación sea totalmente
+diferente y lo vamos a trabajar con más
+detalle a lo largo del curso. Muy bien,
+como solción práctica para finalizar
+este punto dejamos como e parte
+importante para que cada uno de nosotros
+lo resuelva. ¿Qué experiencia ha tenido
+con el activizado? Que nos cuente un
+poco cuáles son los cambios que más le
+han llamado la atención en esta historia
+que acabamos de conversar y qué
+conocimientos nuevos que quizás no
+conocían hoy por hoy se llevan a partir
+de esta pequeña introducción. Muchas
+gracias.

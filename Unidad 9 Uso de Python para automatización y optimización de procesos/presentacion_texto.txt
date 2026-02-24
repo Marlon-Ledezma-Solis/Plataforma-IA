@@ -1,0 +1,1231 @@
+Texto extraído de la presentación: https://drive.google.com/open?id=1q4Gp7_HfsZsw6UX_2qPdAcrGK6Rdakvmh5ErahLvD4k&usp=drive_copy
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Realiza los procesos indicados en las filminas de programación básica en Python para replicar los comandos y códigos ahí establecidos, de modo que se comprendan los fundamentos de la programación para Ciencia de Datos.
+Actividad 1: Uso de Python
+
+--- Diapositiva 3 ---
+PARTE 1
+Introducción a Python y sus Fundamentos Operativos
+Python es el lenguaje más utilizado en Ciencia de Datos por su simplicidad y poder. En esta sección exploraremos las diferentes formas de interactuar con Python y los conceptos fundamentales que necesitas dominar para trabajar con datos de manera efectiva.
+
+--- Diapositiva 4 ---
+¿Cómo se "usa" Python?
+Existen múltiples formas de interactuar con Python, cada una diseñada para diferentes propósitos y contextos de trabajo. Comprender estas opciones te permitirá elegir la herramienta adecuada según la tarea que necesites realizar.
+Consola Interactiva
+Ejecución línea por línea para pruebas rápidas
+Scripts (.py)
+Archivos con instrucciones secuenciales
+IDEs
+Entornos completos de desarrollo
+Notebooks
+Celdas interactivas para análisis
+
+--- Diapositiva 5 ---
+La Consola de Python
+Modo Interactivo
+La consola de Python ejecuta instrucciones una por una, proporcionando respuestas inmediatas. Es ideal para pruebas rápidas, aprendizaje y experimentación con código nuevo.
+2 + 3
+# Resultado: 5
+
+print("Hola, Ciencia de Datos")
+# Resultado: Hola, Ciencia de Datos
+Python responde inmediatamente a cada instrucción, permitiéndote experimentar y aprender de forma interactiva.
+
+--- Diapositiva 6 ---
+Scripts de Python
+Archivos .py
+Los scripts son archivos que contienen múltiples instrucciones que se ejecutan en orden secuencial, de arriba hacia abajo. Son fundamentales para automatizar procesos y crear programas completos.
+nombre = "Ana"
+edad = 30
+
+print("Nombre:", nombre)
+print("Edad:", edad)
+Este enfoque permite guardar tu trabajo, compartirlo con otros y ejecutarlo repetidamente sin necesidad de reescribir el código.
+
+--- Diapositiva 7 ---
+IDEs: Entornos de Desarrollo Integrado
+Un IDE es un entorno que facilita escribir código, ejecutarlo y detectar errores. Proporciona herramientas como autocompletado, depuración y gestión de proyectos.
+IDEs Populares
+VS Code - Ligero y extensible
+PyCharm - Completo y profesional
+Spyder - Orientado a ciencia de datos
+El IDE no cambia Python, solo facilita el trabajo y aumenta tu productividad.
+
+--- Diapositiva 8 ---
+Notebooks: Jupyter y Colab
+Los notebooks son entornos interactivos basados en celdas, extremadamente populares en Ciencia de Datos y Machine Learning. Permiten combinar código, visualizaciones y texto explicativo en un solo documento.
+x = 10
+x * 2
+# Resultado: 20
+Cada celda puede ejecutarse independientemente, facilitando la experimentación y el análisis exploratorio. Son ideales para documentar procesos analíticos y compartir resultados.
+
+--- Diapositiva 9 ---
+El Concepto Más Importante
+Variables
+Una variable es un nombre que apunta a un valor en memoria. Es el concepto fundamental de la programación y permite almacenar, manipular y reutilizar información.
+x = 5
+mensaje = "Hola mundo"
+Las variables actúan como contenedores etiquetados donde guardamos datos que necesitamos usar más adelante en nuestro código.
+
+--- Diapositiva 10 ---
+Tipos Básicos de Variables
+Python maneja diferentes tipos de datos, cada uno diseñado para representar información específica. Comprender estos tipos es fundamental para trabajar efectivamente con datos.
+1
+Números
+Enteros y decimales para cálculos
+2
+Texto
+Cadenas de caracteres (strings)
+3
+Booleanos
+Verdadero o falso para lógica
+4
+Listas
+Colecciones ordenadas de valores
+5
+Diccionarios
+Pares clave-valor estructurados
+
+--- Diapositiva 11 ---
+Números en Python
+Enteros (int)
+edad = 25
+cantidad = 100
+Números sin decimales, utilizados para conteos y operaciones exactas.
+Decimales (float)
+precio = 10.5
+temperatura = 36.6
+Números con punto decimal, esenciales para mediciones y cálculos precisos.
+
+--- Diapositiva 12 ---
+Texto (Strings)
+Los strings representan texto y se definen entre comillas. Son fundamentales para trabajar con datos categóricos, nombres, descripciones y cualquier información textual.
+nombre = "Carlos"
+pais = "Costa Rica"
+
+print(nombre)
+# Resultado: Carlos
+Python ofrece múltiples operaciones para manipular texto: concatenación, búsqueda, reemplazo y formateo.
+
+--- Diapositiva 13 ---
+Booleanos: Verdadero o Falso
+Los valores booleanos representan estados binarios: True (verdadero) o False (falso). Son la base de la lógica computacional y las decisiones en programación.
+es_mayor = True
+tiene_descuento = False
+Condiciones
+Evaluar si algo es cierto
+Reglas
+Definir comportamientos
+Decisiones
+Controlar el flujo del programa
+
+--- Diapositiva 14 ---
+Listas: Colecciones de Valores
+Las listas son colecciones ordenadas que pueden contener múltiples valores. Son fundamentales en Ciencia de Datos para almacenar conjuntos de observaciones.
+edades = [20, 25, 30, 35]
+
+# Acceder al primer elemento
+edades[0]
+# Resultado: 20
+Las listas permiten almacenar, acceder y modificar múltiples valores usando un solo nombre de variable. Los índices comienzan en 0.
+
+--- Diapositiva 15 ---
+Diccionarios: Clave-Valor
+Los diccionarios almacenan información en pares clave-valor, similar a una base de datos. Son ideales para representar entidades con múltiples atributos.
+persona = {
+    "nombre": "Ana",
+    "edad": 28,
+    "ciudad": "San José"
+}
+
+persona["edad"]
+# Resultado: 28
+Cada clave actúa como una etiqueta única que permite acceder rápidamente a su valor asociado.
+
+--- Diapositiva 16 ---
+PARTE 2
+Lógica Operativa de Python
+Control, funciones y operadores clave para Ciencia de Datos
+En esta sección exploraremos las estructuras de control que permiten crear programas inteligentes, funciones reutilizables y la gestión de archivos y directorios necesaria para proyectos reales.
+
+--- Diapositiva 17 ---
+Condicionales: if y else
+Los condicionales permiten ejecutar acciones solo cuando se cumple una condición específica. Son fundamentales para implementar reglas, validaciones, lógica de modelos y automatización.
+edad = 20
+
+if edad >= 18:
+    print("Es mayor de edad")
+else:
+    print("Es menor de edad")
+Las condicionales son la base de cualquier sistema que necesite tomar decisiones basadas en datos.
+
+--- Diapositiva 18 ---
+Bucles: Repetir Acciones
+Los bucles permiten repetir una acción sobre múltiples datos automáticamente. Son la base conceptual para procesar filas, aplicar reglas y automatizar tareas repetitivas.
+Bucle Básico
+edades = [18, 22, 30, 15]
+
+for edad in edades:
+    print(edad)
+Bucle con Lógica
+for edad in edades:
+ if edad >= 18:
+ print("Mayor:", edad)
+
+--- Diapositiva 19 ---
+Funciones: Lógica Reutilizable
+Mini-Máquinas Lógicas
+Una función es una mini-máquina lógica reutilizable que recibe datos, aplica lógica y devuelve un resultado. Las funciones permiten encapsular conocimiento y reutilizarlo múltiples veces.
+def cuadrado(x):
+ return x * x
+
+cuadrado(4)
+# Resultado: 16
+
+--- Diapositiva 20 ---
+Funciones con Lógica Condicional
+Las funciones pueden combinar múltiples conceptos: recibir parámetros, aplicar condicionales y devolver resultados diferentes según la lógica implementada.
+def clasificar_edad(edad):
+    if edad >= 18:
+        return "Adulto"
+    else:
+        return "Menor"
+
+clasificar_edad(15)
+# Resultado: "Menor"
+Este patrón es fundamental en Ciencia de Datos para crear transformaciones personalizadas y aplicarlas a conjuntos de datos completos.
+
+--- Diapositiva 21 ---
+Manejo de Carpetas y Directorios
+Organización de Proyectos Reales
+Python trabaja con carpetas (directorios), archivos de datos, scripts y resultados. Comprender cómo navegar y organizar estos elementos es esencial para proyectos profesionales.
+proyecto_datos/
+│
+├── datos/
+├── scripts/
+├── resultados/
+└── main.py
+Una estructura clara facilita la colaboración, reproducibilidad y mantenimiento del código.
+
+--- Diapositiva 22 ---
+Trabajar con Directorios
+Ver Directorio Actual
+import os
+
+os.getcwd()
+Muestra dónde está ubicado Python actualmente.
+Cambiar Directorio
+os.chdir(r'C:\Users\Usuario\Proyectos\Clase 1')
+
+os.getcwd()
+Navega a una carpeta específica.
+
+--- Diapositiva 23 ---
+Listar y Crear Carpetas
+Python permite automatizar la gestión de archivos y carpetas, fundamental para flujos de trabajo reproducibles.
+01
+Listar Archivos
+os.listdir()
+os.listdir("datos")
+02
+Crear Carpeta Simple
+os.mkdir("resultados")
+03
+Crear Estructura
+os.makedirs("salidas/modelos", exist_ok=True)
+Estas operaciones son clave para automatizar procesos y garantizar reproducibilidad en proyectos de datos.
+
+--- Diapositiva 24 ---
+Operadores Fundamentales
+Los operadores son símbolos que realizan operaciones sobre valores. No necesitas memorizarlos todos, pero sí reconocerlos al leer código. Son la base de cualquier cálculo o comparación.
+Aritméticos
++, -, *, /
+Comparación
+>, <, ==, !=
+Lógicos
+and, or, not
+Pertenencia
+in, not in
+
+--- Diapositiva 25 ---
+Operadores Aritméticos
+Realizan operaciones matemáticas básicas sobre números. Son fundamentales para cualquier cálculo en Ciencia de Datos.
+a = 10
+b = 3
+
+a + b # Suma: 13
+a - b # Resta: 7
+a * b # Multiplicación: 30
+a / b # División: 3.333...
+
+--- Diapositiva 26 ---
+Operadores de Comparación
+Comparan dos valores y devuelven True o False. Son esenciales para filtrar datos y crear condiciones.
+a = 10
+b = 3
+
+a > b   # Mayor que: True
+a < b   # Menor que: False
+a == b  # Igual a: False
+a != b  # Diferente de: True
+Estos operadores son la base de cualquier filtro o validación en análisis de datos.
+
+--- Diapositiva 27 ---
+Operadores Lógicos
+Combinan múltiples condiciones para crear lógica compleja. Permiten expresar reglas sofisticadas en una sola línea.
+a = 10
+b = 3
+
+a > 5 and b < 10  # Ambas verdaderas: True
+a > 5 or b > 10   # Al menos una verdadera: True
+not(a > 5)        # Negación: False
+Son fundamentales para crear filtros complejos en datasets y validar múltiples condiciones simultáneamente.
+
+--- Diapositiva 28 ---
+Operadores de Pertenencia
+Verifican si un elemento existe dentro de una colección. Son clave para revisar columnas y validar estructuras de datos.
+5 in [1, 3, 5, 7]
+# Resultado: True
+
+"edad" in persona
+# Verifica si existe la clave "edad"
+Estos operadores son especialmente útiles al trabajar con DataFrames de pandas para verificar la existencia de columnas o valores.
+
+--- Diapositiva 29 ---
+PARTE 3
+Entornos, Librerías y Primeros Modelos
+Ciencia de Datos con Python
+Exploraremos los conceptos estructurales que hacen posible la Ciencia de Datos moderna: entornos aislados, librerías especializadas y la construcción de modelos predictivos.
+
+--- Diapositiva 30 ---
+¿Qué es un Entorno en Python?
+Espacios Aislados
+Un entorno es un espacio aislado donde viven una versión específica de Python y sus librerías. No es un concepto técnico accesorio: es estructural para la Ciencia de Datos moderna.
+Si el entorno cambia, el resultado puede cambiar. Los entornos garantizan reproducibilidad.
+
+--- Diapositiva 31 ---
+¿Por Qué los Entornos Son Importantes?
+Desde la lógica de Ciencia de Datos, los entornos son fundamentales por razones prácticas y profesionales.
+Versiones Diferentes
+Los proyectos no usan las mismas versiones de librerías
+Reproducibilidad
+Los modelos deben producir los mismos resultados
+Colaboración
+La colaboración requiere consistencia entre equipos
+Código Generado por IA
+La IA genera código que depende de librerías concretas
+
+--- Diapositiva 32 ---
+Librerías: La Base Real de la Ciencia de Datos
+Una librería es un conjunto de funciones y clases que encapsulan conocimiento especializado. No reinventamos la rueda: usamos conocimiento validado por la comunidad.
+Leer Datos
+Limpiar Datos
+Analizar Datos
+Construir Modelos
+Visualizar Resultados
+
+--- Diapositiva 33 ---
+NumPy: Base Numérica
+NumPy proporciona operaciones matemáticas eficientes y es la base de muchas otras librerías en el ecosistema de Ciencia de Datos.
+import numpy as np
+
+x = np.array([1, 2, 3, 4])
+x.mean()
+# Resultado: 2.5
+NumPy permite trabajar con arrays multidimensionales y realizar cálculos vectorizados de forma extremadamente rápida.
+
+--- Diapositiva 34 ---
+Pandas: Datos en Forma de Tablas
+Pandas es la librería fundamental para manipulación de datos tabulares. Es el equivalente conceptual a tablas en Excel o Power BI, pero con capacidades mucho más potentes.
+import pandas as pd
+
+data = {
+    "edad": [20, 25, 30],
+    "ingreso": [500, 800, 1200]
+}
+
+df = pd.DataFrame(data)
+df
+Los DataFrames de pandas son la estructura central para análisis de datos en Python.
+
+--- Diapositiva 35 ---
+Matplotlib y Seaborn: Visualización
+Estas librerías permiten explorar datos visualmente, detectar patrones y validar supuestos. La visualización es fundamental en cada etapa del análisis.
+import matplotlib.pyplot as plt
+
+plt.scatter(df["edad"], df["ingreso"])
+plt.xlabel("Edad")
+plt.ylabel("Ingreso")
+plt.show()
+Una buena visualización puede revelar patrones que serían invisibles en tablas de números.
+
+--- Diapositiva 36 ---
+Scikit-learn: Machine Learning
+Scikit-learn es la librería estándar para Machine Learning clásico. Proporciona modelos listos para usar con una interfaz consistente y predecible.
+Modelos Listos
+Algoritmos implementados y optimizados
+Interfaz Consistente
+Todos los modelos funcionan igual
+Producción
+Listo para uso profesional
+
+--- Diapositiva 37 ---
+Errores en Python
+Cómo entenderlos y por qué son clave en Ciencia de Datos
+Tener errores no es fallar: es parte normal del proceso analítico. Aprender a leer y comprender errores es una habilidad fundamental que te hará más eficiente y efectivo.
+
+--- Diapositiva 38 ---
+¿Qué es un Error en Python?
+Un error ocurre cuando Python no puede ejecutar una instrucción. Puede ser porque no entiende la sintaxis, recibe datos incompatibles, o no encuentra algo que se le pidió.
+No Entiende
+Sintaxis incorrecta o ambigua
+No Puede Ejecutar
+Operación imposible o inválida
+Tipo Incompatible
+Datos del tipo incorrecto
+No Encuentra
+Variable o archivo inexistente
+
+--- Diapositiva 39 ---
+Cómo Leer un Mensaje de Error
+Los mensajes de error siguen una estructura predecible. Aprender a leerlos te ahorrará mucho tiempo y frustración.
+01
+Tipo de Error
+Identifica qué tipo de problema ocurrió
+02
+Línea del Error
+Dónde exactamente ocurrió el problema
+03
+Mensaje Explicativo
+Descripción de qué salió mal
+No entres en pánico al ver un error. Lee el mensaje cuidadosamente: Python te está diciendo exactamente qué necesita.
+
+--- Diapositiva 40 ---
+Actividad 2: Carpintería para Minería de Datos
+Realiza los procesos indicados en las filminas de Carpintería en Python para Minería de Datos para replicar los comandos y códigos ahí establecidos, de modo que se comprenda cómo utilizar la IA y Python para desarrollar código que permita realizar diversos cálculos que permitan servir de insumos fundamentales para el análisis de datos.
+
+--- Diapositiva 41 ---
+Uso de Python para automatizar procesos
+Un enfoque completo para entender el comportamiento de compra y crear grupos significativos de clientes
+
+--- Diapositiva 42 ---
+Carpintería en Python para Minería de Datos
+Pipeline completo: monitoreo, conversión, registro y envío automático
+
+--- Diapositiva 43 ---
+Embeddings Semánticos: Más Allá de One-Hot
+El Enfoque Tradicional
+One-hot encoding y TF-IDF tienen limitaciones:
+No capturan similitudes semánticas
+Generan alta dimensionalidad
+Pierden contexto entre variables
+Nuestro Enfoque
+Usamos transformers multilingües para:
+Construir texto estructurado del perfil
+Generar embeddings densos y significativos
+Reducir dimensiones con PCA
+
+--- Diapositiva 44 ---
+CÓDIGO
+Paso 1: Cargar y preparar datos
+import pandas as pd
+import numpy as np
+from sentence_transformers import SentenceTransformer
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+from sklearn.metrics import silhouette_score
+
+# Cargar datos
+ventas = pd.read_csv("ventas_simuladas.csv")
+clientes = pd.read_csv("clientes_simulados.csv")
+ventas["order_date"] = pd.to_datetime(ventas["order_date"])
+
+--- Diapositiva 45 ---
+# Crear una fila por orden (customer_id, order_id)
+orders = (
+ ventas.groupby(["customer_id", "order_id"], as_index=False)
+ .agg(
+ order_date=("order_date", "min"),
+ order_revenue=("revenue", "sum")
+ )
+ .sort_values(["customer_id", "order_date", "order_id"])
+)
+
+# Calcular días desde compra anterior
+orders["days_since_prev_purchase"] = (
+ orders.groupby("customer_id")["order_date"]
+ .diff()
+ .dt.days
+)
+CÓDIGO
+Paso 2: Agregar a Nivel Orden
+
+--- Diapositiva 46 ---
+as_of_date = orders["order_date"].max() + pd.Timedelta(days=1)
+
+rfm = (
+ orders.groupby("customer_id", as_index=False)
+ .agg(
+ recency_days=("order_date", lambda x: (as_of_date - x.max()).days),
+ frequency=("order_id", "nunique"),
+ monetary=("order_revenue", "sum"),
+ avg_days_between=("days_since_prev_purchase", "mean"),
+ std_days_between=("days_since_prev_purchase", "std"),
+ first_purchase=("order_date", "min"),
+ last_purchase=("order_date", "max"),
+ )
+)
+
+# Rellenar NaN para clientes con una sola compra
+rfm["avg_days_between"] = rfm["avg_days_between"].fillna(0)
+rfm["std_days_between"] = rfm["std_days_between"].fillna(0)
+Paso 3: Calcular RFM y Métricas de Gaps
+CÓDIGO
+
+--- Diapositiva 47 ---
+# Unir con perfil del cliente
+df = rfm.merge(clientes, on="customer_id", how="left")
+
+# Función para crear texto estructurado
+def build_profile_text(row):
+ gender = str(row["gender"])
+ occ = str(row["occupation"])
+ inc = float(row["income_monthly_usd"])
+ return f"Perfil cliente: género={gender}; ocupación={occ}; ingreso mensual aproximado={inc:.0f} USD."
+
+df["profile_text"] = df.apply(build_profile_text, axis=1)
+
+# Generar embeddings con modelo multilingüe
+model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+emb = model.encode(df["profile_text"].tolist(), normalize_embeddings=True)
+CÓDIGO
+Paso 4: Construir Embeddings Semánticos
+
+--- Diapositiva 48 ---
+# Reducir a 3 componentes principales
+pca = PCA(n_components=3, random_state=42)
+sem_pcs = pca.fit_transform(emb)
+
+for i in range(sem_pcs.shape[1]):
+    df[f"sem_pc{i+1}"] = sem_pcs[:, i]
+
+print("PCA varianza explicada:", pca.explained_variance_ratio_)
+print("Total:", pca.explained_variance_ratio_.sum())
+Los tres componentes principales capturan la esencia de las variables cualitativas en un espacio reducido, preservando la mayor varianza posible.
+CÓDIGO
+Paso 5: Reducción de Dimensiones con PCA
+
+--- Diapositiva 49 ---
+Dataset Final para Clustering
+Variables Seleccionadas
+RFM: recency_days, frequency, monetary
+Estabilidad: avg_days_between, std_days_between
+Demográficas: income_monthly_usd
+Semánticas: sem_pc1, sem_pc2, sem_pc3
+feature_cols = [
+ "recency_days", "frequency", "monetary",
+ "avg_days_between", "std_days_between",
+ "income_monthly_usd",
+ "sem_pc1", "sem_pc2", "sem_pc3"
+]
+
+X = df[feature_cols].replace([np.inf, -np.inf], np.nan).fillna(0)
+scaler = StandardScaler()
+Xs = scaler.fit_transform(X)
+
+--- Diapositiva 50 ---
+# Probar diferentes valores de k
+scores = []
+for k in range(2, 7):
+ km = KMeans(n_clusters=k, n_init=20, random_state=42)
+ labels = km.fit_predict(Xs)
+ s = silhouette_score(Xs, labels)
+ scores.append((k, s))
+
+best_k, best_s = max(scores, key=lambda t: t[1])
+print("Silhouette por k:", scores)
+print("Mejor k:", best_k, "| silhouette:", best_s)
+
+# Entrenar modelo final
+kmeans = KMeans(n_clusters=best_k, n_init=20, random_state=42)
+df["cluster"] = kmeans.fit_predict(Xs)
+CÓDIGO
+Paso 6: Clusterización con K-Means
+
+--- Diapositiva 51 ---
+Interpretación de Clusters
+cluster_profile = (
+    df.groupby("cluster")[feature_cols]
+    .mean()
+    .round(2)
+)
+print(cluster_profile)
+Análisis por Cluster
+Cada cluster representa un segmento de clientes con comportamiento similar. Analiza:
+Recency alta + baja frecuencia = clientes en riesgo
+Alta frecuencia + alto monetary = clientes VIP
+Baja recency + alta regularidad = clientes leales
+
+--- Diapositiva 52 ---
+Objetivo: Control de Calidad y Anomalías
+¿Qué Buscamos?
+Identificar transacciones que se desvían significativamente del patrón normal:
+Posibles errores de digitación
+Indicios de fraude
+Compras excepcionales legítimas
+Comportamientos inusuales del cliente
+Usamos un método robusto, explicable y que no asume normalidad: Tukey fences (IQR).
+
+--- Diapositiva 53 ---
+Concepto: Tukey Fences (IQR)
+El método de Tukey es robusto ante colas pesadas y no requiere que los datos sigan una distribución normal. Un valor es outlier si cae fuera de los límites calculados con el rango intercuartílico (IQR).
+
+--- Diapositiva 54 ---
+Dos Perspectivas de Análisis
+Parte A: Por Cliente
+Detectamos órdenes o gaps inusuales para ese cliente específico
+order_revenue: montos extraños
+days_since_prev_purchase: intervalos raros
+Parte B: Por Producto
+Detectamos líneas inusuales para ese producto específico
+quantity: cantidades atípicas
+unit_price: precios fuera de rango
+
+--- Diapositiva 55 ---
+Utilidades IQR: Funciones Base
+import pandas as pd
+import numpy as np
+
+def tukey_bounds(series: pd.Series, k: float = 1.5):
+ """Devuelve límites (low, high) por Tukey."""
+ s = series.dropna()
+ if len(s) < 6: # mínimo para estabilidad
+ return np.nan, np.nan
+ 
+ q1 = s.quantile(0.25)
+ q3 = s.quantile(0.75)
+ iqr = q3 - q1
+ low = q1 - k * iqr
+ high = q3 + k * iqr
+ return low, high
+
+def tukey_flag(series: pd.Series, k: float = 1.5):
+ low, high = tukey_bounds(series, k=k)
+ if np.isnan(low) or np.isnan(high):
+ return pd.Series(False, index=series.index), low, high
+ return (series < low) | (series > high), low, high
+
+--- Diapositiva 56 ---
+ventas = pd.read_csv("ventas_simuladas.csv")
+ventas["order_date"] = pd.to_datetime(ventas["order_date"])
+
+orders = (
+ ventas.groupby(["customer_id","order_id"], as_index=False)
+ .agg(
+ order_date=("order_date","min"),
+ order_revenue=("revenue","sum")
+ )
+ .sort_values(["customer_id","order_date","order_id"])
+)
+
+orders["days_since_prev_purchase"] = (
+ orders.groupby("customer_id")["order_date"].diff().dt.days
+)
+Parte A: Construir Orders con Gaps
+
+--- Diapositiva 57 ---
+def detect_customer_outliers(orders: pd.DataFrame, k: float = 1.5):
+ d = orders.copy()
+ 
+ def per_customer(g):
+ g = g.sort_values(["order_date","order_id"]).copy()
+ 
+ flag_rev, rev_low, rev_high = tukey_flag(g["order_revenue"], k=k)
+ flag_gap, gap_low, gap_high = tukey_flag(g["days_since_prev_purchase"], k=k)
+ 
+ g["outlier_order_revenue"] = flag_rev
+ g["rev_low"] = rev_low
+ g["rev_high"] = rev_high
+ g["outlier_gap_days"] = flag_gap
+ g["gap_low"] = gap_low
+ g["gap_high"] = gap_high
+ g["any_customer_outlier"] = g["outlier_order_revenue"] | g["outlier_gap_days"]
+ return g
+ 
+ return d.groupby("customer_id", group_keys=False).apply(per_customer)
+
+orders_out = detect_customer_outliers(orders, k=1.5)
+Detectar Outliers por Cliente
+
+--- Diapositiva 58 ---
+Reportes: Órdenes Raras por Monto
+# Top órdenes con montos inusuales
+top_weird_orders = (
+    orders_out[orders_out["outlier_order_revenue"]]
+    .sort_values("order_revenue", ascending=False)
+    .head(20)
+)
+
+print(top_weird_orders[[
+    "customer_id",
+    "order_id",
+    "order_date",
+    "order_revenue",
+    "rev_low",
+    "rev_high"
+]])
+Interpretación
+Estas órdenes tienen montos significativamente diferentes del patrón habitual del cliente. Pueden indicar:
+Compras excepcionales legítimas
+Errores de precio o cantidad
+Posible fraude
+
+--- Diapositiva 59 ---
+Reportes: Gaps Inusuales
+Análisis de Intervalos
+Los gaps (intervalos entre compras) inusuales revelan cambios en el comportamiento:
+Gaps muy largos: posible abandono o insatisfacción
+Gaps muy cortos: cambio en patrón de compra
+Irregularidad súbita: evento especial o problema
+top_weird_gaps = (
+ orders_out[orders_out["outlier_gap_days"]]
+ .sort_values("days_since_prev_purchase", 
+ ascending=False)
+ .head(20)
+)
+
+print(top_weird_gaps[[
+ "customer_id",
+ "order_id",
+ "order_date",
+ "days_since_prev_purchase",
+ "gap_low",
+ "gap_high"
+]])
+
+--- Diapositiva 60 ---
+def detect_product_outliers(ventas: pd.DataFrame,
+ product_col="product",
+ qty_col="quantity",
+ price_col="unit_price",
+ k: float = 1.5):
+ d = ventas.copy()
+ 
+ def per_product(g):
+ g = g.copy()
+ flag_qty, qty_low, qty_high = tukey_flag(g[qty_col], k=k)
+ flag_pr, pr_low, pr_high = tukey_flag(g[price_col], k=k)
+ 
+ g["outlier_qty_product"] = flag_qty
+ g["qty_low"] = qty_low
+ g["qty_high"] = qty_high
+ g["outlier_price_product"] = flag_pr
+ g["price_low"] = pr_low
+ g["price_high"] = pr_high
+ g["any_product_outlier"] = g["outlier_qty_product"] | g["outlier_price_product"]
+ return g
+ 
+ return d.groupby(product_col, group_keys=False).apply(per_product)
+
+ventas_out = detect_product_outliers(ventas, k=1.5)
+Parte B: Outliers por Producto
+
+--- Diapositiva 61 ---
+Análisis por Producto: Errores de Pricing
+prod_summary = (
+ ventas_out.groupby("product", as_index=False)
+ .agg(
+ lines=("product","size"),
+ outliers=("any_product_outlier","sum"),
+ price_outliers=("outlier_price_product","sum"),
+ qty_outliers=("outlier_qty_product","sum")
+ )
+)
+
+prod_summary["outlier_rate"] = (
+ prod_summary["outliers"] / prod_summary["lines"]
+)
+
+print(prod_summary.sort_values(
+ ["price_outliers","outlier_rate"], 
+ ascending=False
+).head(10))
+
+--- Diapositiva 62 ---
+Unificar Banderas: Vista Completa
+Unificar Banderas
+Outliers Producto
+Outliers Cliente
+Combinamos las banderas de cliente y producto en una sola tabla para tener una vista completa de cada transacción.
+
+--- Diapositiva 63 ---
+# Llevar flags de cliente a nivel línea
+order_flags = orders_out[[
+ "customer_id","order_id",
+ "outlier_order_revenue","outlier_gap_days","any_customer_outlier"
+]]
+
+ventas_out2 = ventas_out.merge(order_flags, 
+ on=["customer_id","order_id"], 
+ how="left")
+
+# Flag global: cualquier rareza
+ventas_out2["any_outlier_global"] = (
+ ventas_out2["any_product_outlier"].fillna(False) |
+ ventas_out2["any_customer_outlier"].fillna(False)
+)
+
+# Ver transacciones sospechosas
+ventas_out2[ventas_out2["any_outlier_global"]].head(15)
+Parte C: Integración de Banderas
+
+--- Diapositiva 64 ---
+Preparación: Integrar Clusters
+Requisito Previo
+Necesitas un dataframe con customer_id y cluster asignado del Módulo 1.
+Si ya lo tienes guardado, cárgalo. Si no, usa el resultado del clustering anterior.
+import pandas as pd
+import numpy as np
+
+ventas = pd.read_csv("ventas_simuladas.csv")
+ventas["order_date"] = pd.to_datetime(ventas["order_date"])
+ventas["month"] = ventas["order_date"].dt.to_period("M").dt.to_timestamp()
+ventas["line_revenue"] = ventas["quantity"] * ventas["unit_price"]
+
+# Cargar clusters
+# df_customers_cluster = pd.read_csv("clientes_con_cluster.csv")
+# O usar: df_customers_cluster = df[["customer_id","cluster"]].copy()
+
+--- Diapositiva 65 ---
+Serie Mensual Global: Agregación
+monthly = (
+    ventas.groupby("month", as_index=False)
+    .agg(
+        revenue=("line_revenue","sum"),
+        orders=("order_id","nunique"),
+        customers=("customer_id","nunique"),
+        units=("quantity","sum"),
+        avg_price=("unit_price","mean")
+    )
+    .sort_values("month")
+)
+
+monthly["aov"] = monthly["revenue"] / monthly["orders"]
+monthly.head()
+Creamos una serie temporal mensual con métricas clave: ingresos, órdenes, clientes únicos, unidades vendidas y precio promedio.
+
+--- Diapositiva 66 ---
+Variaciones MoM y YoY
+MoM (Month-over-Month)
+Cambio porcentual respecto al mes anterior. Detecta tendencias de corto plazo.
+YoY (Year-over-Year)
+Cambio porcentual respecto al mismo mes del año anterior. Elimina estacionalidad.
+def add_mom_yoy(df, value_cols, yoy_lag=12):
+ out = df.copy().sort_values("month")
+ for c in value_cols:
+ out[f"{c}_mom_pct"] = out[c].pct_change() * 100
+ out[f"{c}_yoy_pct"] = out[c].pct_change(yoy_lag) * 100
+ return out
+
+monthly = add_mom_yoy(monthly, value_cols=["revenue","orders","customers","aov"])
+
+--- Diapositiva 67 ---
+Factor Estacional: Concepto
+Definición
+Sm > 1: mes por encima del promedio
+Sm < 1: mes por debajo del promedio
+Interpretación
+El factor estacional cuantifica cuánto se desvía cada mes calendario del comportamiento promedio. Es multiplicativo y no asume normalidad.
+Por ejemplo, si diciembre tiene Sm = 1.5, significa que típicamente genera 50% más ingresos que el mes promedio.
+
+--- Diapositiva 68 ---
+Calcular Factores Estacionales
+monthly["month_of_year"] = monthly["month"].dt.month
+overall_mean = monthly["revenue"].mean()
+
+seasonal = (
+    monthly.groupby("month_of_year", as_index=False)
+    .agg(mean_revenue=("revenue","mean"))
+)
+
+seasonal["seasonal_factor"] = seasonal["mean_revenue"] / overall_mean
+seasonal.sort_values("month_of_year")
+Cada mes calendario obtiene un factor que indica su comportamiento típico relativo al promedio anual.
+
+--- Diapositiva 69 ---
+Indicador de Estacionalidad Marcada
+Coeficiente de Variación
+Como μ(Sm) ≈ 1, el CV mide directamente cuánto varían los meses entre sí.
+Reglas Didácticas
+CV > 0.10 → estacionalidad moderada
+CV > 0.20 → estacionalidad fuerte
+sf = seasonal["seasonal_factor"].values
+seasonality_cv = sf.std(ddof=1) / sf.mean()
+seasonality_range = sf.max() - sf.min()
+
+print("Estacionalidad - CV factores:", 
+ round(seasonality_cv, 3))
+print("Estacionalidad - rango (max-min):", 
+ round(seasonality_range, 3))
+
+--- Diapositiva 70 ---
+Banderas de Variaciones Importantes
+Opción A: Umbral Fijo
+Definir un porcentaje (ej: 25%) como límite para marcar variaciones significativas
+Opción B: Tukey (IQR)
+Usar el método robusto de la Sección 2 para detectar variaciones atípicas
+
+--- Diapositiva 71 ---
+Opción A: Banderas con Umbral Fijo
+def add_variation_flags(df, col, mom_thr=25, yoy_thr=25):
+ out = df.copy()
+ out[f"flag_{col}_mom"] = out[f"{col}_mom_pct"].abs() >= mom_thr
+ out[f"flag_{col}_yoy"] = out[f"{col}_yoy_pct"].abs() >= yoy_thr
+ out[f"flag_{col}_any"] = out[f"flag_{col}_mom"] | out[f"flag_{col}_yoy"]
+ return out
+
+monthly = add_variation_flags(monthly, "revenue", mom_thr=25, yoy_thr=25)
+
+monthly[monthly["flag_revenue_any"]][
+ ["month","revenue_mom_pct","revenue_yoy_pct","flag_revenue_any"]
+].tail(20)
+
+--- Diapositiva 72 ---
+def tukey_bounds(series, k=1.5):
+ s = series.dropna()
+ if len(s) < 8:
+ return np.nan, np.nan
+ q1, q3 = s.quantile(0.25), s.quantile(0.75)
+ iqr = q3 - q1
+ return q1 - k*iqr, q3 + k*iqr
+
+def add_tukey_flag(df, change_col, k=1.5):
+ out = df.copy()
+ low, high = tukey_bounds(out[change_col], k=k)
+ out[f"flag_{change_col}_tukey"] = False
+ if not (np.isnan(low) or np.isnan(high)):
+ out[f"flag_{change_col}_tukey"] = (out[change_col] < low) | (out[change_col] > high)
+ out[f"{change_col}_low"] = low
+ out[f"{change_col}_high"] = high
+ return out
+
+monthly = add_tukey_flag(monthly, "revenue_mom_pct", k=1.5)
+monthly = add_tukey_flag(monthly, "revenue_yoy_pct", k=1.5)
+Opción B: Banderas con Tukey
+
+--- Diapositiva 73 ---
+Análisis por Cluster: Integración
+Calcular MoM/YoY
+Series mensuales
+Unir ventas
+# Integrar clusters a ventas
+ventas_c = ventas.merge(df_customers_cluster, on="customer_id", how="left")
+Ahora podemos analizar cómo cada segmento de clientes se comporta a lo largo del tiempo.
+
+--- Diapositiva 74 ---
+Serie Mensual por Cluster
+def cluster_monthly_series(ventas_c):
+ cm = (
+ ventas_c.groupby(["cluster","month"], as_index=False)
+ .agg(revenue=("line_revenue","sum"),
+ orders=("order_id","nunique"),
+ customers=("customer_id","nunique"))
+ .sort_values(["cluster","month"])
+ )
+ 
+ cm = cm.groupby("cluster", group_keys=False).apply(
+ lambda g: add_mom_yoy(g, value_cols=["revenue","orders","customers"])
+ )
+ 
+ # Banderas por cluster
+ cm["flag_revenue_any"] = cm["revenue_mom_pct"].abs().ge(25) | cm["revenue_yoy_pct"].abs().ge(25)
+ return cm
+
+cluster_monthly = cluster_monthly_series(ventas_c)
+
+--- Diapositiva 75 ---
+Factores Estacionales por Cluster
+def seasonal_factors_by_group(df_group, group_col):
+    tmp = df_group.copy()
+    tmp["month_of_year"] = tmp["month"].dt.month
+    
+    g_mean = tmp.groupby(group_col)["revenue"].mean().rename("group_mean")
+    tmp = tmp.merge(g_mean, on=group_col, how="left")
+    
+    seas = (
+        tmp.groupby([group_col,"month_of_year"], as_index=False)
+        .agg(mean_revenue=("revenue","mean"),
+             group_mean=("group_mean","first"))
+    )
+    
+    seas["seasonal_factor"] = seas["mean_revenue"] / seas["group_mean"]
+    return seas
+
+cluster_seasonal = seasonal_factors_by_group(cluster_monthly, "cluster")
+Insight Clave
+Diferentes segmentos pueden tener patrones estacionales distintos. Por ejemplo:
+Clientes VIP compran más en Q4
+Clientes ocasionales en verano
+Clientes corporativos en Q1
+
+--- Diapositiva 76 ---
+Análisis por Producto
+Serie Mensual por Producto
+Aplicamos el mismo análisis a nivel producto para identificar:
+Productos con alta volatilidad
+Cambios en demanda por producto
+Patrones estacionales específicos
+Productos con variaciones anómalas
+Útil para planificación de inventario y estrategias de pricing.
+
+--- Diapositiva 77 ---
+def product_monthly_series(ventas):
+ pm = (
+ ventas.groupby(["product","month"], as_index=False)
+ .agg(revenue=("line_revenue","sum"),
+ units=("quantity","sum"),
+ avg_price=("unit_price","mean"))
+ .sort_values(["product","month"])
+ )
+ 
+ pm = pm.groupby("product", group_keys=False).apply(
+ lambda g: add_mom_yoy(g, value_cols=["revenue","units","avg_price"])
+ )
+ 
+ # Banderas (umbral más alto para productos)
+ pm["flag_revenue_any"] = pm["revenue_mom_pct"].abs().ge(30) | pm["revenue_yoy_pct"].abs().ge(30)
+ return pm
+
+product_monthly = product_monthly_series(ventas)
+Serie Mensual por Producto
+
+--- Diapositiva 78 ---
+Exportar Resultados para IA
+series_mensual_global.csv
+Serie temporal global con MoM/YoY, flags y estacionalidad
+series_mensual_por_cluster.csv
+Series por segmento de clientes con variaciones y banderas
+series_mensual_por_producto.csv
+Series por producto con MoM/YoY y detección de anomalías
+monthly.to_csv("series_mensual_global.csv", index=False)
+cluster_monthly.to_csv("series_mensual_por_cluster.csv", index=False)
+product_monthly.to_csv("series_mensual_por_producto.csv", index=False)
+
+--- Diapositiva 79 ---
+Realiza los procesos indicados en las filminas de Automatización de Procesamiento de Archivo para replicar los comandos y códigos ahí establecidos, de modo que se comprenda cómo utilizar la IA y Python para desarrollar código que permita manipular archivos de un modo eficiente y se logren procesar automáticamente.
+Actividad 3: Automatización de Procesamiento de Archivos
+
+--- Diapositiva 80 ---
+Automatización de Procesamiento de Archivos
+Pipeline completo: monitoreo, conversión, registro y envío automático
+
+--- Diapositiva 81 ---
+Arquitectura del Sistema
+Inbox
+Detección
+Convertir
+Registrar
+Enviar
+Un sistema automatizado que elimina el trabajo manual repetitivo y asegura trazabilidad completa de cada documento procesado.
+
+--- Diapositiva 82 ---
+Estructura de Carpetas del Proyecto
+proyecto/
+  inbox/              # PDFs nuevos
+  out_docx/           # DOCX convertidos
+  processed_pdfs/     # PDFs procesados
+  config/
+    routing.csv       # mapeo de documentos
+  app.py
+  docs.db             # se crea automáticamente
+Organización Clara
+Cada carpeta tiene un propósito específico:
+inbox/: punto de entrada para nuevos documentos
+out_docx/: almacena conversiones finales
+processed_pdfs/: archivo de PDFs ya procesados
+config/: configuración y reglas de routing
+
+--- Diapositiva 83 ---
+Archivo de Configuración: routing.csv
+Estructura del Mapeo
+Tres columnas esenciales que definen el comportamiento del sistema:
+pdf_filename
+Nombre del PDF entrante
+docx_filename
+Nombre del DOCX de salida
+email_to
+Destinatario del correo
+Ejemplo de routing.csv
+pdf_filename,docx_filename,email_to
+factura_001.pdf,FACTURA_001_CONVERTIDA.docx,contabilidad@empresa.com
+reporte_x.pdf,REPORTE_X.docx,archivo@empresa.com
+contrato_2024.pdf,CONTRATO_2024_FINAL.docx,legal@empresa.com
+Cada fila define una regla de procesamiento completa.
+
+--- Diapositiva 84 ---
+Base de Datos: Trazabilidad Completa
+Tabla documents_log
+Registro automático de cada documento procesado con:
+Nombres de archivos (PDF y DOCX)
+Rutas completas
+Timestamp de procesamiento
+Email destino
+Estado (converted, emailed, error)
+Mensajes de error si aplica
+Beneficios de la Trazabilidad
+La base de datos SQLite proporciona:
+Auditoría completa de operaciones
+Diagnóstico de errores
+Reportes de actividad
+Cumplimiento normativo
+Análisis de volumen y tiempos
+Todo sin configuración adicional - SQLite se crea automáticamente.
+
+--- Diapositiva 85 ---
+Dependencias del Sistema
+watchdog
+Monitorea cambios en el sistema de archivos en tiempo real
+pdf2docx
+Convierte PDFs a formato Word preservando formato
+python-docx
+Manipula documentos Word programáticamente
+smtplib + email
+Librerías estándar de Python para envío de correos
+pip install watchdog pdf2docx python-docx
+
+--- Diapositiva 86 ---
+Configuración e Inicialización
+import os
+import time
+import sqlite3
+import smtplib
+from datetime import datetime
+from email.message import EmailMessage
+import pandas as pd
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+from pdf2docx import Converter
+
+# Configuración de carpetas
+INBOX_DIR = "./inbox"
+OUT_DIR = "./out_docx"
+PROCESSED_DIR = "./processed_pdfs"
+DB_PATH = "./docs.db"
+ROUTING_CSV = "./config/routing.csv"
+
+# Configuración de email (variables de entorno)
+SMTP_HOST = os.getenv("SMTP_HOST", "")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "587"))
+SMTP_USER = os.getenv("SMTP_USER", "")
+SMTP_PASS = os.getenv("SMTP_PASS", "")
+EMAIL_FROM = os.getenv("EMAIL_FROM", SMTP_USER)
+
+--- Diapositiva 87 ---
+def init_db():
+ conn = sqlite3.connect(DB_PATH)
+ cur = conn.cursor()
+ cur.execute("""
+ CREATE TABLE IF NOT EXISTS documents_log (
+ id INTEGER PRIMARY KEY AUTOINCREMENT,
+ pdf_filename TEXT NOT NULL,
+ pdf_path TEXT NOT NULL,
+ docx_filename TEXT NOT NULL,
+ docx_path TEXT NOT NULL,
+ file_type TEXT NOT NULL,
+ created_at TEXT NOT NULL,
+ email_to TEXT NOT NULL,
+ status TEXT NOT NULL,
+ error_message TEXT
+ );
+ """)
+ conn.commit()
+ conn.close()
+
+def insert_log(pdf_filename, pdf_path, docx_filename, docx_path, 
+ email_to, status, error_message=None):
+ conn = sqlite3.connect(DB_PATH)
+ cur = conn.cursor()
+ cur.execute("""
+ INSERT INTO documents_log
+ (pdf_filename, pdf_path, docx_filename, docx_path, file_type, 
+ created_at, email_to, status, error_message)
+ VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+ """, (pdf_filename, pdf_path, docx_filename, docx_path, "pdf",
+ datetime.utcnow().isoformat(), email_to, status, error_message))
+ conn.commit()
+ conn.close()
+Funciones de Base de Datos
+
+--- Diapositiva 88 ---
+def load_routing():
+ """Carga el CSV de mapeo de documentos"""
+ if not os.path.exists(ROUTING_CSV):
+ raise FileNotFoundError(f"No existe {ROUTING_CSV}")
+ 
+ df = pd.read_csv(ROUTING_CSV)
+ required = {"pdf_filename", "docx_filename", "email_to"}
+ if not required.issubset(set(df.columns)):
+ raise ValueError(f"routing.csv debe tener columnas: {required}")
+ 
+ df["pdf_filename_norm"] = df["pdf_filename"].astype(str).str.strip().str.lower()
+ routing = df.set_index("pdf_filename_norm")[["docx_filename","email_to"]].to_dict(orient="index")
+ return routing
+
+def pdf_to_docx(pdf_path, docx_path):
+ """Convierte PDF a DOCX"""
+ cv = Converter(pdf_path)
+ try:
+ cv.convert(docx_path, start=0, end=None)
+ finally:
+ cv.close()
+Carga de Routing y Conversión PDF
+
+--- Diapositiva 89 ---
+def send_email_with_attachment(to_email: str, subject: str, 
+ body: str, attachment_path: str):
+ if not SMTP_HOST or not SMTP_USER or not SMTP_PASS or not EMAIL_FROM:
+ raise RuntimeError("Faltan variables de entorno SMTP.")
+ 
+ msg = EmailMessage()
+ msg["From"] = EMAIL_FROM
+ msg["To"] = to_email
+ msg["Subject"] = subject
+ msg.set_content(body)
+ 
+ filename = os.path.basename(attachment_path)
+ with open(attachment_path, "rb") as f:
+ data = f.read()
+ 
+ msg.add_attachment(
+ data,
+ maintype="application",
+ subtype="vnd.openxmlformats-officedocument.wordprocessingml.document",
+ filename=filename
+ )
+ 
+ with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+ server.starttls()
+ server.login(SMTP_USER, SMTP_PASS)
+ server.send_message(msg)
+Envío de Correo con Adjunto
+
+--- Diapositiva 90 ---
+Configuración de Variables de Entorno
+Windows (PowerShell)
+setx SMTP_HOST "smtp.gmail.com"
+setx SMTP_PORT "587"
+setx SMTP_USER "tu_correo@gmail.com"
+setx SMTP_PASS "tu_password"
+setx EMAIL_FROM "tu_correo@gmail.com"
+macOS / Linux
+export SMTP_HOST="smtp.gmail.com"
+export SMTP_PORT="587"
+export SMTP_USER="tu_correo@gmail.com"
+export SMTP_PASS="tu_password"
+export EMAIL_FROM="tu_correo@gmail.com"
+Gmail: Se recomienda usar App Password si tienes autenticación de dos factores. Para Microsoft 365, ajusta host y puerto según tu configuración SMTP.

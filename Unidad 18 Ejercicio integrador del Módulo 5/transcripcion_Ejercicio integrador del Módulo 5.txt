@@ -1,0 +1,298 @@
+Título del Video: Ejercicio integrador del Módulo 5.
+URL: https://youtu.be/umrhD6lbEIs
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Unidad 18, desarrollo de un ejercicio
+integrador de los conocimientos del
+módulo cinco.
+Bienvenidos a esta sesión de cierre. Hoy
+nos enfocaremos en la unidad 18, donde
+pondremos en práctica todo lo aprendido
+durante el módulo 5. El objetivo central
+es desarrollar un ejercicio integrador
+que no solo demuestre habilidades
+técnicas, sino que aplique conceptos de
+inteligencia artificial y automatización
+en contextos reales de diversos sectores
+económicos.
+En un mundo donde los datos se generan a
+cada segundo, la capacidad de
+automatizar su procesamiento no es un
+lujo, es una necesidad competitiva.
+En esta sesión veremos como la guía ya
+no es algo del futuro, sino una
+herramienta presente que potencia el
+análisis de datos para generar valor
+inmediato en las organizaciones.
+Módulo 5co. Análisis y visualización de
+datos. Ejercicio integrador.
+Desarrollo de casos completos de
+análisis de datos utilizando Power
+Query, Power BI e inteligencia
+artificial para la toma de decisiones.
+Análisis y visualización de datos. No se
+trata solo de hacer gráficos bonitos, se
+trata de construir un ecosistema de
+información. En este ejercicio
+integrador trabajaremos con la triada
+tecnológica que define el analista
+moderno. Power Query para la
+preparación,
+Power BI para la visualización y la
+inteligencia artificial para la
+interpretación avanzada.
+El enfoque de hoy es el desarrollo de
+casos completos. Eso significa que
+recorremos el camino completo del dato,
+desde que es una cifra desordenada en
+una tabla hasta que se convierte en una
+recomendación. estratégica que un
+director de empresa puede usar para
+tomar decisiones.
+Propósito del módulo cinco,
+transformación de datos. Convertir
+información cruda en visualizaciones
+claras y útiles para decisiones
+estratégicas. El propósito es convertir
+esa información cruda, es decir, datos
+que por sí solo no dicen nada, en
+visualizaciones que hablen por sí mismas
+para apoyar decisiones estratégicas.
+Herramientas integradas. Dominar Power
+Query para limpieza, Power B para
+visualizaciones
+e IA para interpretación. Buscamos el
+dominio técnico. No queremos que usen
+las herramientas por separado, sino de
+forma fluida.
+Comunicación efectiva. Presentar
+resultados de forma comprensible para
+usuarios no técnicos. Este es quizá el
+punto más crítico. Un analista que no
+sabe explicar sus hallazgos a alguien
+que no sabe de tecnología pierde el 50%
+de su impacto. Debemos presentar
+resultados de forma comprensible para
+usuarios no técnicos. Aprenderemos a
+traducir algoritmos y métricas a
+oportunidades de negocio.
+Herramientas del módulo 5: Power Query,
+importación, limpieza, transformación y
+validación de datos estructurados. es el
+motor de preparación. Aquí realizamos la
+importación, limpieza y validación de
+los datos estructurados. Si el dato
+entra mal, el resultado será malo. Power
+Query será nuestro filtro de calidad.
+Power BI, modelado de datos, columnas
+calculadas, medidas y construcción de
+dashboards interactivos. Power BI es el
+cerebro visual. Aquí ocurre el modelado
+donde creamos relaciones entre tablas,
+diseñamos columnas calculadas y medidas
+mediante lenguaje DAX y finalmente
+construimos esos dashboards interactivos
+que permiten al usuario, por así
+decirlo, jugar con la información.
+Inteligencia artificial, interpretación
+de resultados y comunicación de
+hallazgos de forma clara. La IA nos
+ayuda en la interpretación de los
+resultados. A veces los patrones no son
+evidentes a lo humano. La IA los detecta
+y nos ayuda a comunicar esos hallazgos
+de forma clara y directa.
+Articulación con módulos anteriores.
+Módulo dos y tres. Lógica de
+automatización aplicada al manejo de
+datos.
+Dimensión analítica.
+De ejecutar procesos a extraer
+información relevante.
+Consolidación.
+Uso de herramientas digitales para
+optimizar procesos.
+Este módulo no está aislado, es la
+culminación de un proceso de
+aprendizaje. En los módulos dos y tres
+aprendimos la lógica de automatización.
+Esa base es la que nos permite hoy
+manejar grandes volúmenes de datos sin
+esfuerzo manual. Hemos pasado de una
+etapa meramente operativa a una
+dimensión analítica. Ya no solo
+ejecutamos procesos, ahora extraemos
+información relevante. Es un salto
+mental de ser operario de datos hacer
+arquitectos de información. Al final lo
+que buscamos es la consolidación
+mediante el uso de herramientas
+digitales para optimizar cualquier
+proceso organizacional.
+Caso práctico, análisis de desempeño,
+análisis de servicio de atención o
+proceso operativo. Analizar conjuntos de
+datos de solicitudes de atención, casos
+operativos, registros de clientes o
+eventos administrativos para responder
+preguntas clave sobre volumen, motivos
+principales, tiempos de gestión y
+oportunidades de mejora. Se debe
+solicitar a la IA que ayude a generar
+una base de datos simulada con las
+condiciones necesarias para desarrollar
+el ejercicio de manera efectiva.
+Entremos en materia con nuestro caso
+práctico, un análisis de desempeño.
+Pueden elegir entre un análisis de
+servicio de atención al cliente o un
+proceso operativo interno. El objetivo
+es analizar datos de solicitudes,
+registros de clientes u eventos
+administrativos. Buscamos responder
+cuánto trabajo hay, por qué nos buscan
+cuánto tardamos. Un punto innovador aquí
+es que usaremos la IA para generar
+nuestra base de datos. Si no tienen
+datos reales a mano, le pediremos a la
+idea que simule un conjunto de datos
+coherentes y estructurado con todas las
+variables necesarias, fechas,
+categorías, tiempos. Esto para que
+nuestro ejercicio sea realista y
+efectivo.
+Preguntas clave del análisis.
+volumen. ¿Cuántos casos se gestionan en
+el periodo analizado?
+Necesitamos la cifra total de casos
+gestionados. Esto nos da el contexto de
+la carga de trabajo. Motivos
+principales. ¿Cuáles son las razones más
+frecuentes de contacto? Identificar las
+razones de contacto más frecuentes, por
+ejemplo, también es una si es una falla
+técnica, es una duda de facturación.
+Aquí aplicamos la regla de Pareto.
+Concentración. ¿Dónde se concentran los
+mayores tiempos o problemas? ¿Dónde
+están los cuellos de botella?
+Identificar qué áreas o tipos de datos
+consumen más tiempo es vital para la
+eficiencia.
+Oportunidades. ¿Qué oportunidades de
+mejora existen en el proceso?
+Finalmente, basándonos datos anteriores,
+¿qué podemos cambiar para mejorar? El
+análisis debe culminar en una propuesta
+de acción.
+Entregable del módulo 5. Archivo de
+Power BI con proceso de limpieza
+definido, medidas y visualizaciones
+funcionales. Este debe mostrar que
+pasaron por Power Query para limpiar los
+datos y que crearon medidas funcionales.
+Dashboards interactivo con indicadores
+clave y filtros para exploración de
+datos. No es una foto estática. Debe
+tener filtros e indicadores clave que
+permitan al usuario explorar la
+información de forma dinámica. Análisis
+escrito: principales hallazgos y
+posibles acciones de mejora. Un
+documento que resuma los hallazgos y
+proponga acciones concretas. Aquí es
+donde demostramos el pensamiento
+crítico. Evidencia de IA. Uso
+inteligencia artificial para análisis o
+redacción de conclusiones.
+Pasos del uno al cuatro. Preparación y
+limpieza. Paso uno, comprensión de
+datos. Revisar variables, identificar
+campos relevantes y comprender
+significado de registros. Antes de
+continuar con el software, se debe
+entender qué significan las columnas, es
+una fecha de apertura o de cierre y qué
+representa cada fila. Paso dos,
+importación. Cargar datos de Excel, CSV
+u otra fuente y verificar tipos de
+datos. Conectamos Power B a nuestro
+fuente y nos aseguramos de que los
+números se lean como números y las
+fechas como fechas. Paso tres, limpieza.
+Eliminar valores nulos, estandarizar
+categorías, corregir inconsistencias y
+crear columnas derivadas. Y creamos
+columnas nuevas si las necesitamos.
+Paso cuatro, medidas básicas. crear
+totales, promedios, conteos por
+categoría y verificar coherencia. Aquí
+empezamos con la estadística
+descriptiva. Sumas, promedios y conteos
+básicos para verificar que todo cuadre.
+Pasos del 5 al 7. Visualización e
+interpretación.
+Construcción de dashboard. Diseñar con
+KPIs, gráficos por categorías, periodo y
+segmentadores para filtrar.
+Diseñamos la interfaz. Usamos tarjetas
+para los KPIs más importantes, gráficos
+de barras para categorizar y líneas de
+tiempo para tendencias. No olviden los
+segmentadores para que el usuario filtre
+por región o fecha.
+Interpretación con IA. Utilizar IA para
+identificar patrones, redactar
+conclusiones y proponer mejoras.
+Tomamos nuestros datos y le pedimos a la
+IA, por ejemplo, ¿qué tendencias ves
+aquí que no esté notando? Usamos sus
+sugerencias para redactar conclusiones y
+proponer mejoras reales al proceso.
+Validación final. Probar filtros,
+verificar consistencia de indicadores y
+ajustar visualizaciones. Antes de
+entregar, probamos todo. Al hacer clic
+en un filtro se rompe el gráfico. Los
+números tienen sentido. Ajustamos los
+detalles visuales para que el dashboard
+sea impecable.
+Capacidades analíticas desarrolladas.
+Análisis y procesamiento.
+Ya saben cómo estructurar el caos de los
+datos.
+Transformar datos crudos en información
+estructurada y útil.
+Dominio de herramientas. Uso eficiente
+de Power Query, Power BI para análisis
+profesional.
+Pensamiento crítico. Capacidad de
+identificar patrones y extraer
+conclusiones fundamentadas.
+Comunicación clara. Presentar
+información compleja de forma
+comprensible para no técnicos.
+Sectores de aplicación. Análisis
+operativo. Evaluación de procesos y
+desempeño en organizaciones.
+Esto, por ejemplo, para evaluar si una
+planta de producción o un equipo de
+ventas está rindiendo lo esperado. Toma
+de decisiones.
+Soporte estratégico basado en evidencia
+de datos. Gestión administrativa,
+optimización de procesos administrativos
+con datos,
+organizaciones diversas, centros de
+servicios, pymes y sector público.
+Rúbrica de evaluación. Para finalizar,
+tengan presente la rúbrica con la que
+serán evaluados. Para alcanzar un logro
+alto, asegúrense que su limpieza de
+datos sea impecable, sus indicadores
+sean realmente relevantes para el
+negocio, el dashboard sea intuitivo y
+funcional, y sobre todo que su análisis
+ofrezca insights útiles que realmente
+aporten valor. A ver.

@@ -1,0 +1,382 @@
+Título del Video: Crear Robot en Power Automate
+URL: https://www.youtube.com/watch?v=QioslAoCTp0
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, ahora entonces vamos a
+proceder a realizar el flujo, pero desde
+un flujo similar, pero desde Power
+Automate. Entonces, para que tengamos
+ambas opciones. Entonces ahora lo que
+vamos a proceder es, bueno, a ingresar a
+Power Automate. Tenemos que tenerlo
+descargado. Todo eso, pues en este caso
+no lo vamos a a poder detallar en este
+video porque eh pues tenemos un espacio
+de tiempo mucho más limitado, pero la
+idea es tener en este caso instalado el
+la herramienta de Power Automate. Esta
+es una herramienta que también se
+encarga de hacer flujos de trabajo
+parecido que en Culix. Uno va poquito a
+poco haciendo el proceso con todo el
+detalle para que eh en este caso pues lo
+el computadora lo puede ir
+desarrollando, en este caso un robot que
+nosotros programemos. Ahora acá,
+¿verdad? Lo que tenemos que hacer es
+bueno, una vez que ya lo instalamos nos
+vamos aquí a donde dice nuevo flujo y le
+podemos dar un nombre. Entonces, por
+ejemplo, darle descargar mi informe a
+central de Costa Rica,
+que nuevamente estamos usando eh páginas
+oficiales que tienen información
+estadística relevante a nivel nacional,
+entonces que utilizamos como esquema
+para poder trabajar y aquí vamos a ir
+creando el flujo. Como ustedes ven,
+tenemos muchas opciones, entonces lo que
+tenemos que hacer es movernos entre
+todas estas opciones y e ir escogiendo
+la que nos interesa. Si a veces es
+muchas opciones si queremos buscar algo,
+por ejemplo, Chrome,
+entonces le podemos dar aquí iniciar
+nuevo Chrome y ya nos tira esta ventana.
+Entonces lo que hay que ir haciendo es
+ajustando cada una de las cositas de las
+ventanas. Entonces, como ustedes ven en
+el Culix es más como ir haciendo código,
+¿verdad? Y eh ir escogiendo con clic,
+doble clic, control C, control U,
+¿verdad? Ir haciendo el proceso. Eso es
+más o menos lo que se hace con Culix. Y
+en eh Power Automate es más, ir
+construyendo eh ventana por ventana las
+diferentes interfaces. Entonces, como
+ustedes ven, son dos alternativas. En
+realidad, ambas muy potentes, son más
+utilizadas para este tipo de
+situaciones. Y nuevamente las estamos
+utilizando en contextos en los cuales no
+podamos ingresar por un medio más
+automatizado, no podamos hacerlo por un
+medio de mayor escala informático, sino
+que necesitamos casi que hacerlo a mano.
+Pero en lugar de hacerlo a mano, ahora
+lo va a hacer, vamos a hacer a mano una
+vez y después de ahí el robot va a
+prender la el proceso para poder
+realizarlo en todas las demás ocasiones.
+Eso es más o menos lo que vamos a hacer
+también por acá. E acá entonces eh le
+vamos a dar nueva instancia y aquí le
+vamos a pegar la dirección URL. Entonces
+vamos, voy a abrir por acá la página del
+Banco Central,
+pero voy a irme a la home. Entonces,
+aquí está la de inicio
+y aquí le indicamos la
+eh la dirección y ya podemos entonces
+dar guardar cualquier cosa. Todo este
+proceso está eh indicado en la
+presentación, ¿verdad? Como ustedes ven
+aquí en la presentación, eh, se va
+haciendo el uno a uno del proceso,
+¿verdad? Entonces, ven aquí en Chrome,
+¿verdad? Y aquí escogemos la URL
+inicial, estado de la ventana. El paso
+número tres es guardar. Todo eso está en
+la presentación, pero como les digo, por
+temas de tiempo aquí pues lo hacemos en
+un modo más resumido para que puedan
+entonces acceder a la información acá.
+Entonces, como les digo, el estado de la
+ventana le van a dar maximizada.
+Y entonces acá eh ya le pueden dar en
+guardar. Entonces ya tenemos en este
+caso la el acceso, digamos, al Google
+Chrome y estaría entrando a esa Muy
+bien. Ahora entonces ya recuerden que
+estamos haciendo el proceso paso a paso
+muy parecido a como hicimos en Culix,
+¿verdad? Entonces hay que ir paso a paso
+diciéndolar aquí, haga clic acá,
+¿verdad? Entonces vean que aquí ocupamos
+eh puede ser que le dé click, ¿verdad?
+Eso es una opción, pero eh también hay
+una opción para que él pase el mouse por
+encima, ¿verdad? Entonces eh vamos a
+usar esa alternativa. Entonces vamos a
+pasarnos acá al Power Automate y acá.
+Entonces si ustedes ven, hay muchas
+opciones. Podemos automatizar muchos
+procesos, como ustedes ven, hay muchas
+eh opciones. Entonces eh eso hace que
+uno se enrede un poquito, ¿verdad? y se
+mueva y como que le cuesta un poco
+ubicarse, pero para eso también está
+aquí el buscador. Pero si no también
+como él está agrupado por pestañas,
+entonces yo puedo venir aquí a
+automatización del explorador, ¿ven? Y
+aquí entonces ya le puedo decir eh por
+ejemplo a
+en la opción desplazar el mouse sobre un
+elemento de la página web. V. Entonces
+aquí ya entonces estoy diciendo que lo
+haga con el navegador y aquí entra el
+elemento de la interfaz. Entonces yo
+tengo que decirle pues cuál elemento
+quiero que haga aquí. Entonces yo tengo
+que abrir nuevamente donde estamos
+trabajando y le voy a decir eh en esta
+opcionita de acá le voy a dar agregar
+elemento de la interfaz, ¿verdad?
+Entonces aquí está agregar elemento de
+la interface y uno se puede parar sobre
+el elemento, ¿verdad? Que uno quiera y
+ven que le hace control click. Entonces
+yo presiono control click y él ya
+entonces entendió dónde es que tienen
+que darle clic. Es algo así como en
+sulix cuando tomamos el pantallazo,
+¿verdad? Esto es parecido. Aquí es con
+control para irlo escogiendo, ¿verdad?
+Y aquí vamos a activar esta opcionita de
+mover el mouse para mantener el puntero.
+Aquí le vamos a dar en guardar. Y ya.
+Entonces, ¿qué está haciendo la
+herramienta en este momento? Está
+entrando a esta página y posicionándose
+aquí en sigo, ¿verdad? Ahora sí, después
+de que se posiciona aquí encima tiene
+que ir a este que dice informe mensual
+de coyuntura. Ese es un informe que se
+emite todos los meses sobre el estado
+actual del país. Entonces vamos a ahora,
+¿verdad? que que eso por poner un
+ejemplo, que estamos usando datos
+generales y que eh sean de acceso pues
+para todos, pero se podría hacer pues
+cualquier tipo de proceso en el cual
+necesitamos extraer alguna información o
+realizar algún ajuste específico.
+Entonces ahí pues ya lo podríamos hacer.
+Eh, acá vamos entonces una vez que eh se
+posicionó eh sobre el mouse, entonces
+vamos a darle eh clic acá y vamos a
+darle en informe mensual de coyuntura.
+Entonces ahí sí tiene que dar clic.
+Entonces vamos a utilizar esta opción
+que dice hacer clic en un vínculo,
+¿verdad? De una página web. Aquí igual
+hay que escoger el elemento, hay que
+venir a agregar elemento, hay que
+venirnos acá y nuevamente con control lo
+escogemos. Muy bien. Ya con eso entonces
+podemos guardar y va a ser hay que
+modificar algo, pues ahí lo modificamos,
+pero como ven, básicamente fue que le
+diera click. Pues vamos a irnos acá y ya
+le vamos a dar clic para verlo.
+Igual con Siculx fuimos probando paso a
+paso, ¿verdad? Uno también eh podría
+venirse al Power Automate y ejecutar,
+¿verdad?, en este caso esa línea desde
+aquí, ¿verdad? O podría pues en este
+caso hacer algún proceso, ¿verdad? Igual
+podríamos darle aquí en ejecutar para
+que haga todo, ¿verdad?
+eh por cuestión de tiempo, porque
+probablemente pues demorar un poquito
+más de de tiempo, eh vamos a no vamos a
+ir ejecutando como hicimos el Culix paso
+a paso, sino que vamos a tratar de hacer
+todo el flujo y y más que ya en Culix
+vimos entonces eh cómo él va haciendo
+paso a paso, ¿verdad? Entonces creo que
+aquí ya entendimos la lógica, entonces
+vamos a tratar de ir un poquito más
+rápido sin hacer ejecución paso a paso.
+Muy bien. Una vez que ya entramos aquí,
+uno le puede dar un white parecido como
+lo hacemos en Culix. Solo que aquí se
+llama esperar, ¿verdad? Y aquí le vamos
+a dar en esperar y le vamos a decir
+hasta que aparezca algo, ¿verdad?
+Entonces, yo le voy a dar aquí en
+agregar elemento y, por ejemplo, yo
+podría eh escoger esto de aquí. O sea,
+recordemos que estábamos en una página
+eh general, ¿verdad? y entramos a un
+submenú y cuando entramos a este submenú
+sale esto. Por ejemplo, yo podría
+escoger esto que diga informe mensual de
+coyuntura o que aparezca este
+encabezado. O sea, lo que le estoy dando
+a entender a la computadora es haga el
+proceso y espere un momento hasta que le
+aparezca por lo menos esta esta figura.
+¿Ven? Está encabezado arriba. Entonces,
+yo puedo con control, seleccionarlo
+y así. Entonces, eh yo podría ya
+decirlo, "Okay, espere hasta que
+aparezca ese
+encabezado. Después de que ya aparece
+ese encabezado,
+yo le podría decir, ahora sí, escoja año
+2025, que eso es parte de los elementos
+que hemos hablado cuando trabajamos con
+ese tipo de herramientas, pues a veces
+el el problema es que cambien los años o
+así, entonces ya hay que pues ajustar
+tal vez esa partecita donde escogimos
+para que eh vaya modificándose en el
+tiempo, ¿verdad? Pero igual ahí entonces
+yo le puedo dar hacer clic en el vínculo
+o en cualquier elemento, ¿verdad? Le voy
+a dar clic. Igual voy a venir aquí, voy
+a agregar un elemento y nuevamente con
+control puedo escoger este elemento de
+acá. Entonces, control y ya lo escogí y
+le doy entonces ven ahí ya hice ese
+proceso. Después de que nosotros le
+damos clic ahí, bueno, en realidad yo
+podría haber eh ahorrado eso de una vez
+decirle que me da aquí el de diciembre,
+porque si le doy clic aquí en realidad
+pues no hace mucho, pero bueno, ya que
+lo hicimos no importa. y le voy a decir
+que le dé clic aquí en este, el primero,
+¿verdad? Eh, yo podría escoger, entonces
+voy a irme aquí al Power Automate y eso
+es como ir escribiendo click tal cosa,
+¿verdad? Esto es muy parecido como a
+como hacíamos en Culks de ir escogiendo.
+Aquí es parecido nada más que vamos
+agarrando los elementos visuales. ¿Vo
+podría darle clic agarre solo este para
+que trate de agarrar el primero o que
+agarre todo este bloque en términos más
+amplios, ¿verdad? Entonces, yo puedo
+darle control, ¿verdad? Y entonces ahí
+ya le estoy diciendo que le dé y aquí
+puedo escoger si doble clic, si en el
+botón primario, secundario, etcétera,
+¿verdad?
+Entonces, vean que aquí va a dar clic
+acá en la sala teoría y después también
+le voy a pedir, pues voy a decir click
+en quién le dice descargar,
+pero también podría esperar un white,
+¿verdad? Podría esperar un white por
+aquello o darle un white por aquello de
+que dure un rato, ¿verdad? Entonces le
+voy a decir que contiene el elemento y
+aquí entonces le voy a decir cuando a
+usted le aparezca, no sé, el botón de
+descargar. Entonces le voy a decir
+cuando usted le aparezca botón de
+descargar. Entonces espere hasta que
+aparezca ese botoncito y
+también le vamos a dar
+hacer clic en un nuev, ¿verdad?
+Y aquí igual le puedo dar agregar
+elemento
+y ahora sí le puedo dar que le dé clic
+aquí, ¿verdad? Ya no es que espere, sino
+que le dé click. Ver, este era para que
+esperara hasta que apareciera el botón
+descargar. Y aquí es que le dé click
+directamente en el botón descargar,
+¿verdad?
+Y cuando
+le clic aquí en el botón descargar,
+ven que nos va a salir esta ventana.
+Entonces, aquí no puedo usar estas
+herramientas. Entonces, tengo que
+venirme hacia arriba y buscar una
+quetica.
+Ya más bien manejo del sistema.
+Vamos a ver este trabajo.
+Aquí está. Automatización
+de interfaz del usuario. Entonces,
+automatización de interfaz del usuario.
+Aquí, por ejemplo, yo podría extraer
+datos de la ventana, datos de una tabla,
+etcétera, ¿verdad? Pero también eh puedo
+usar este que dice hacer clic en un
+elemento de la interfaz
+eh del usuario, ¿verdad? Entonces, le
+voy a dar doble clic acá y aquí.
+Entonces, ahora sí puedo agregar donde
+quiero que ha click y aquí sería bueno
+igual puedo darle que escoja quién,
+¿verdad?
+que diga aquí en un control click
+y después ahora sí que clic en guardar
+también. Entonces voy a meter otro
+pasito acá
+donde también agrego un elemento
+y ya con eso entonces debería de hacer
+el proceso completo. Entonces ahora
+también lo podemos podemos ya proceder a
+probar.
+Voy a cerrar acá. y vamos a verlo en
+ejecución. Entonces vamos a darle
+ejecutar
+y ahí bueno. Entonces
+me abrió el archivo,
+entro al lugar donde tenía que entrar,
+busco obviamente en diciembre
+que se quedó pegadito un ratito. Ya
+encontró encontró donde decía descargar,
+le dio clic en descargar, le dio clic en
+Alan
+y le dio clic en guardar. Y ya con eso
+entonces desarrolló el proceso también
+el rocito de modo automatizado. Entonces
+ya ven que con eso tenemos la opción de
+hacerlo con e con cicul podemos hacerlo
+también e como acabamos de ver con Power
+Automate y así poder ir parametrizando
+cualquier eh trabajito que haya que
+tener que hacer, digámoslo así, mano,
+¿verdad? Como les digo, si son ya
+trabajos de automatización más
+complejos, eh, pero que tenemos la
+capacidad de meter eh maquinaria eh, ya
+propiamente de eh de herramientas
+informáticas que se encarguen de hacer
+el proceso por detrás, por decirlo así,
+a nivel de código específico lo podemos
+hacer y lo vamos a trabajar ya más
+directamente con Python. Pero cuando hay
+trabajos que por detrás no se le puede
+llegar, que hay que hacerlo
+prácticamente a mano, ¿verdad? Como
+decimos a mano, es donde entran este
+tipo de automatizaciones o robots que se
+encargan de hacer el proceso
+prácticamente grabando lo que nosotros
+hacemos, ¿verdad? Si nosotros logramos
+grabar un proceso que es lo
+suficientemente automatizable, entonces
+lo podemos hacer en estas dos
+herramientas y de esa manera pues
+automatizar y ahorrar tiempo en este
+tipo de procesos eh más eh más
+repetitivos. Y aquí pues eh simple ya
+después le damos guardar y ya con eso se
+guardaría. Entonces esos las dos
+herramientas para la creación de robots
+básicos y ahí podemos extenderlos y
+ampliarlos todo lo que queramos. Como
+ven, hay muchísimas posibilidades, tanto
+desde la parte de Sculix como desde la
+parte de Power Automate. Pero la idea es
+que viéramos un flujo sencillo de cómo
+se podía entonces ir programando poco a
+poco el proceso respectivo.

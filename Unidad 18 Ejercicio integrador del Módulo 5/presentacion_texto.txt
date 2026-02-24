@@ -1,0 +1,139 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/141rZKSY5pwkhpVD5s_a_IZt15PsSFz8xX8Or1R_Gjx0/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+MÓDULO 5
+Análisis y Visualización de Datos
+Ejercicio Integrador – Módulo 5: Desarrollo de casos completos de análisis de datos utilizando Power Query, Power BI e inteligencia artificial para la toma de decisiones.
+
+--- Diapositiva 3 ---
+Propósito del Módulo 5
+Transformación de Datos
+Convertir información cruda en visualizaciones claras y útiles para decisiones estratégicas
+Herramientas Integradas
+Dominar Power Query para limpieza, Power BI para visualización e IA para interpretación
+Comunicación Efectiva
+Presentar resultados de forma comprensible para usuarios no técnicos
+
+--- Diapositiva 4 ---
+Herramientas del Módulo 5
+Power Query
+Importación, limpieza, transformación y validación de datos estructurados
+Power BI
+Modelado de datos, columnas calculadas, medidas y construcción de dashboards interactivos
+Inteligencia Artificial
+Interpretación de resultados y comunicación de hallazgos de forma clara
+
+--- Diapositiva 5 ---
+Articulación con Módulos Anteriores
+1
+Módulos 2 y 3
+Lógica de automatización aplicada al manejo de datos
+2
+Consolidación
+Uso de herramientas digitales para optimizar procesos
+3
+Dimensión Analítica
+De ejecutar procesos a extraer información relevante
+
+--- Diapositiva 6 ---
+Caso Práctico: Análisis de Desempeño
+Análisis de Servicio de Atención o Proceso Operativo
+Analizar conjuntos de datos de solicitudes de atención, casos operativos, registros de clientes o eventos administrativos para responder preguntas clave sobre volumen, motivos principales, tiempos de gestión y oportunidades de mejora. Se debe solicitor a la IA, que ayude a generar una base de datos simulada, con las condicione necesarias para desarrollar el ejercicio de manera efectiva.
+
+--- Diapositiva 7 ---
+Preguntas Clave del Análisis
+Volumen
+¿Cuántos casos se gestionan en el periodo analizado?
+Motivos Principales
+¿Cuáles son las razones más frecuentes de contacto?
+Concentración
+¿Dónde se concentran los mayores tiempos o problemas?
+Oportunidades
+¿Qué oportunidades de mejora existen en el proceso?
+
+--- Diapositiva 8 ---
+Entregables del Módulo 5
+01
+Archivo Power BI
+Con proceso de limpieza definido, medidas y visualizaciones funcionales
+02
+Dashboard Interactivo
+Con indicadores clave y filtros para exploración de datos
+03
+Análisis Escrito
+Principales hallazgos y posibles acciones de mejora
+04
+Evidencia de IA
+Uso de inteligencia artificial para análisis o redacción de conclusiones
+
+--- Diapositiva 9 ---
+Pasos 1-4: Preparación y Limpieza
+Paso 1: Comprensión de Datos
+Revisar variables, identificar campos relevantes y comprender significado de registros
+Paso 2: Importación
+Cargar datos desde Excel, CSV u otra fuente y verificar tipos de datos
+Paso 3: Limpieza
+Eliminar valores nulos, estandarizar categorías, corregir inconsistencias y crear columnas derivadas
+Paso 4: Medidas Básicas
+Crear totales, promedios, conteos por categoría y verificar coherencia
+
+--- Diapositiva 10 ---
+Pasos 5-7: Visualización e Interpretación
+Construcción Dashboard
+Diseñar con KPIs, gráficos por categoría/periodo y segmentadores para filtrar
+Interpretación con IA
+Utilizar IA para identificar patrones, redactar conclusiones y proponer mejoras
+Validación Final
+Probar filtros, verificar consistencia de indicadores y ajustar visualizaciones
+
+--- Diapositiva 11 ---
+Capacidades Analíticas Desarrolladas
+Análisis y Procesamiento
+Transformar datos crudos en información estructurada y útil
+Dominio de Herramientas
+Uso eficiente de Power Query y Power BI para análisis profesional
+Pensamiento Crítico
+Capacidad de identificar patrones y extraer conclusiones fundamentadas
+Comunicación Clara
+Presentar información compleja de forma comprensible para no técnicos
+
+--- Diapositiva 12 ---
+Sectores de Aplicación
+Análisis Operativo
+Evaluación de procesos y desempeño en organizaciones
+Toma de Decisiones
+Soporte estratégico basado en evidencia de datos
+Gestión Administrativa
+Optimización de procesos administrativos con datos
+Organizaciones Diversas
+Centros de servicios, pymes y sector público
+
+--- Diapositiva 13 ---
+Rúbrica de Evaluación - Módulo 5
+Criterio
+Logro Alto
+Logro Medio
+Logro Básico
+Limpieza de datos
+Completa y consistente
+Adecuada con ajustes
+Incompleta
+Indicadores
+Correctos y relevantes
+Básicos
+Poco claros
+Dashboard
+Claro y funcional
+Comprensible
+Confuso
+Análisis
+Insights claros y útiles
+Análisis descriptivo
+Superficial
+Documentación
+Clara y estructurada
+Comprensible
+Insuficiente

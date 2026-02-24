@@ -1,0 +1,640 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1_2460QqvqVYU5XYb4bsHw7nGZxylAll-ATq69g7UE1E/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Mapeo del Procesos
+
+--- Diapositiva 3 ---
+Más allá de las reglas simples
+La automatización tradicional sigue reglas fijas (Si X, entonces Y). Al integrar IA, añadimos capacidad de razonamiento.
+El cambio de paradigma: Ya no solo movemos datos de un lugar a otro; ahora podemos analizarlos, entenderlos, resumirlos y generar contenido nuevo automáticamente.
+La Sinergia: IA + Automatización
+
+--- Diapositiva 4 ---
+Complementariedad: Una Sinergia Imparable
+La verdadera potencia emerge cuando la automatización y la IA trabajan juntas. La automatización proporciona la estructura y la eficiencia para ejecutar tareas, mientras que la IA añade la inteligencia necesaria para optimizar y mejorar esas tareas de forma continua.
+La Automatización
+Crea y gestiona los flujos de trabajo repetitivos, asegurando que las operaciones básicas se realicen de forma fluida y eficiente.
+La IA
+Analiza los datos generados por la automatización para identificar oportunidades de mejora, optimizar decisiones y prever resultados.
+
+--- Diapositiva 5 ---
+Diferencias Entre IA y Automatización
+Referencia: Poole & Mackworth (2023) Artificial Intelligence: Foundations of Computational Agents.
+Tareas
+estructuradas
+Adaptación
+dinámica
+Repetición
+predefinida
+Análisis de
+datos complejos
+Automatización
+Inteligencia Artificial
+
+--- Diapositiva 6 ---
+Workflow con IA
+
+--- Diapositiva 7 ---
+OpenAI (GPT)
+Generación de texto, análisis de sentimiento y resumen de información.
+Anthropic Claude
+Procesamiento de contexto amplio y razonamiento complejo.
+Midjourney / Nano Banana
+Creación automática de imágenes y activos visuales para marketing.
+Principales Integraciones de IA
+
+--- Diapositiva 8 ---
+Blog Automático
+Transforma ideas en artículos completos.
+Trigger: Nueva idea en Trello/Notion.
+IA Action: GPT-4 escribe el borrador y sugiere títulos.
+IA Action: Nano Banana genera la imagen de portada.
+Result: Borrador creado en WordPress.
+Caso 1: Generación de Contenido
+
+--- Diapositiva 9 ---
+Clasificación y Respuesta
+Reduce el tiempo de respuesta drásticamente.
+Trigger: Nuevo email de cliente.
+IA Action: Analizar sentimiento y clasificar (Urgente/Consulta/Queja).
+IA Action: Redactar borrador de respuesta basado en la base de conocimiento.
+Result: Borrador en Gmail o mensaje en Slack.
+Caso 2: Soporte Inteligente
+
+--- Diapositiva 10 ---
+De No Estructurado a Estructurado
+Convierte PDFs y documentos en bases de datos.
+Trigger: Archivo subido a Google Drive.
+IA Action: Vision AI o GPT-4o extrae campos clave (Fecha, Monto, Proveedor).
+Result: Nueva fila agregada a Excel o Airtable.
+Caso 3: Extracción de Datos
+
+--- Diapositiva 11 ---
+Actividad 1: Uso de Make
+Realiza los procesos indicados en las filminas de asociadas al tema de automatización con Make, de modo que se comprendan los fundamentos para desarrollar automatización de revision y respuesta de correos con Inteligencia Artificial.
+
+--- Diapositiva 12 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 13 ---
+La plataforma de automatización visual
+Make (anteriormente Integromat) te permite conectar aplicaciones y automatizar flujos de trabajo en una interfaz visual e intuitiva.
+Conecta miles de aplicaciones sin saber programar.
+Diseña flujos lógicos con un editor de "arrastrar y soltar".
+Escalable desde tareas simples hasta sistemas empresariales.
+¿Qué es Make?
+
+--- Diapositiva 14 ---
+Triggers (Disparadores)
+El evento que inicia el escenario. Puede ser recibir un correo, una nueva fila en Google Sheets, o un webhook programado.
+Modules (Módulos)
+Las acciones que ocurren después. Aquí es donde insertamos el módulo de IA para procesar la información recibida por el trigger.
+Conceptos Clave en Make
+
+--- Diapositiva 15 ---
+La Interfaz Visual
+Control Total
+La belleza de Make radica en su lienzo infinito. Puedes ver exactamente cómo fluyen los datos de un nodo a otro.
+Los filtros visuales permiten establecer condiciones lógicas (ej. "Continuar solo si el sentimiento es Negativo") sin escribir una sola línea de código complejo.
+
+--- Diapositiva 16 ---
+Human-in-the-loop: Para decisiones críticas, haz que la IA cree un borrador pero que un humano lo apruebe antes de enviar.
+Manejo de Errores: Configura rutas de error en Make para recibir alertas si la API de IA falla o se queda sin créditos.
+Contexto Claro: Al configurar los prompts en los módulos de IA, sé específico y proporciona ejemplos para obtener mejores resultados.
+Optimización de Tokens: No envíes textos innecesariamente largos a la IA para ahorrar costos de API.
+Mejores Prácticas
+
+--- Diapositiva 17 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 18 ---
+Desarrollo de Workflows con Make
+Desarrollar el siguiente Workflow:
+
+https://us2.make.com/public/shared-scenario/8EE1FaJKDkx/asistente-de-correos
+
+--- Diapositiva 19 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 20 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 21 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 22 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 23 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 24 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 25 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 26 ---
+Desarrollo de Workflows con Make
+Desarrollar el siguiente Workflow:
+
+https://us2.make.com/public/shared-scenario/8EE1FaJKDkx/asistente-de-correos
+
+--- Diapositiva 27 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 28 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 29 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 30 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 31 ---
+Desarrollo de Workflows con Make
+Desarrollar el siguiente Workflow:
+
+https://us2.make.com/public/shared-scenario/8EE1FaJKDkx/asistente-de-correos
+
+--- Diapositiva 32 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 33 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 34 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 35 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 36 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 37 ---
+Desarrollo de Workflows con Make
+
+--- Diapositiva 38 ---
+https://static.vecteezy.com/system/resources/thumbnails/011/438/504/small_2x/abstract-background-technology-style-white-low-poly-connection-with-nodes-global-data-blockchain-plexus-future-perspective-backdrop-illustration-vector.jpg
+Source: www.vecteezy.com
+https://static.vecteezy.com/system/resources/previews/071/483/244/non_2x/ai-brain-with-neural-network-inside-gear-and-orbit-rings-machine-learning-symbol-digital-cognition-data-processing-and-automation-system-for-research-and-technology-3d-illustration-png.png
+Source: www.vecteezy.com
+https://static.vecteezy.com/system/resources/thumbnails/008/627/742/small/blogger-creating-content-for-blog-tiny-woman-copywriter-writing-new-post-for-social-media-author-at-laptop-copywriting-and-blogging-concept-flat-illustration-isolated-on-white-background-vector.jpg
+Source: www.vecteezy.com
+https://static.vecteezy.com/system/resources/previews/059/288/705/non_2x/ai-chatbot-service-for-instant-chat-bot-customer-support-illustration-concept-user-experience-with-automated-responses-and-smart-assistance-vector.jpg
+Source: www.vecteezy.com
+https://www.altexsoft.com/media/2021/05/word-image-41.png
+Source: www.altexsoft.com
+https://cdn.prod.website-files.com/5f16d69f1760cdba99c3ce6e/6863ce3b0e27b81077cd2bfe_Cover.png
+Source: www.eleken.co
+Image Sources
+
+--- Diapositiva 39 ---
+Actividad 2: Uso de n8n
+Realiza los procesos indicados en las filminas de asociadas al tema de automatización con n8n, de modo que se comprendan los fundamentos para desarrollar un chatbot en Telegram para automatizar la atención al cliente con Inteligencia Artificial.
+
+--- Diapositiva 40 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 41 ---
+Bot Sencillo con Agente de IA en n8n Conectado a Telegram
+Aprende a construir un asistente inteligente que responde automáticamente en Telegram usando n8n y tecnología de IA avanzada.
+
+--- Diapositiva 42 ---
+FUNDAMENTOS
+El Modelo Mental de n8n
+Workflow como Grafo Dirigido
+Un workflow en n8n es un grafo donde los nodos representan funciones u operaciones, las conexiones indican dependencias de ejecución, y las ramas permiten decisiones, paralelismo o rutas alternativas.
+n8n no es una simple macro: es un orquestador de procesos. Cada nodo toma datos, los transforma o llama un servicio, y devuelve nuevos datos al siguiente nodo.
+
+--- Diapositiva 43 ---
+Items y JSON: La Unidad de Procesamiento
+¿Qué es un Item?
+La unidad básica de procesamiento en n8n. Cada item contiene típicamente JSON y opcionalmente datos binarios como archivos.
+Ejemplos Prácticos
+Un mensaje de Telegram = 1 item. 100 filas de una tabla = 100 items. Comprender esto evita errores comunes.
+$json en Acción
+Dentro de un nodo, $json se refiere al JSON del item actual que está pasando por ese nodo en ese momento.
+
+--- Diapositiva 44 ---
+Tipos de Conexiones en n8n
+Tipos de conexiones
+ai_languageModel
+Modelo de lenguaje
+ai_tool
+Herramientas externas
+ai_memory
+Memoria contextual
+AI
+Conexiones especializadas
+Main
+Flujo normal de datos
+Conexión Main
+La tubería estándar que conecta Trigger → Transformaciones → Requests → Respuesta en el flujo normal de trabajo.
+Conexiones Especiales de IA
+Cuando usas nodos LangChain/AI, aparecen conexiones especializadas: ai_languageModel conecta el modelo, ai_memory conecta memoria, y ai_tool conecta herramientas.
+
+--- Diapositiva 45 ---
+El AI Agent funciona como un cerebro que necesita tres componentes esenciales: un motor (modelo de lenguaje), un cuaderno (memoria para recordar contexto), y manos (herramientas para ejecutar acciones).
+Si conectas algo por main en vez de ai_*, el agente no lo verá. Las conexiones especializadas son fundamentales para que el sistema funcione correctamente.
+El Agente de IA: Cerebro, Cuaderno y Manos
+
+--- Diapositiva 46 ---
+Expresiones: El Pegamento de la Automatización
+¿Qué es una Expresión?
+Un pedazo de lógica dentro de un campo del nodo usando {{ ... }} que permite leer datos, generar textos dinámicos y calcular condiciones.
+Usos Principales
+Leer datos del item actual ($json)
+Referenciar datos de otros nodos
+Generar textos dinámicos
+Calcular fechas y condiciones
+
+--- Diapositiva 47 ---
+Referenciar Otros Nodos
+Patrón Típico
+{{ $('Telegram Trigger').item.json.message.chat.id }}
+Este código toma el output del nodo "Telegram Trigger", agarra el item actual, lee el JSON y extrae message.chat.id.
+Regla práctica: cuando estés perdido, abre la ejecución del nodo y copia la ruta exacta del JSON. Esto te ahorrará mucho tiempo de depuración.
+
+--- Diapositiva 48 ---
+Funciones Útiles en Expresiones
+{{$now}}
+Obtiene la fecha y hora actual del sistema
+{{$json}}
+Accede al item actual que está siendo procesado
+{{$env.VAR}}
+Lee variables de entorno, ideal para tokens y URLs sensibles
+Teoría de seguridad: Nunca hagas hardcode de tokens en nodos. Siempre usa variables de entorno o credenciales para información sensible.
+
+--- Diapositiva 49 ---
+CATEGORÍAS
+Familias de Nodos en n8n
+Triggers
+Inician el workflow: Telegram Trigger, Webhook, Schedule. Representan eventos del mundo real.
+Transformación
+Ordenan datos: Set, Edit Fields, Function, Merge. Normaliza temprano para no depender del formato.
+Control de Flujo
+Decisiones y rutas: IF, Switch, Filter, Loop. Evitan procesar cosas innecesarias.
+Integración
+Acciones externas: HTTP Request, Telegram, Gmail, Slack. Tocan sistemas externos.
+Ocurrió un error al generar esta imagen
+IA (LangChain)
+AI Agent, Chat Model, Memory, Tools. El agente es un conjunto de piezas conectadas.
+
+--- Diapositiva 50 ---
+Patrón de Diseño para Bots en Producción
+Acción
+IA
+Normalización
+Validación
+Entrada
+El Patrón Completo
+Entrada: Trigger que recibe el evento
+Validación: IF para verificar mensaje válido
+Normalización: Set para estructurar datos
+IA: Agent + Model + Memory + Tools
+Acción: Guardar lead, consultar, crear ticket
+Respuesta: Send Message al usuario
+Este patrón reduce errores, facilita mantenimiento y hace el flujo escalable.
+
+--- Diapositiva 51 ---
+Cómo Pensar la IA en Automatizaciones
+El modelo de lenguaje redacta y decide, pero no garantiza datos precisos. Para obtener precisión real, necesitas catálogos en bases de datos, herramientas (tools) para consultar fuentes reales, y validaciones antes y después del procesamiento.
+Un LLM no es un sistema de verdad absoluta: es un asistente que necesita estructura y reglas claras para funcionar correctamente en producción.
+
+--- Diapositiva 52 ---
+Prompt Engineering en Automatización
+Operacional
+Define claramente qué debe hacer el agente
+Restrictivo
+Especifica qué NO debe hacer
+Con Formato
+Indica cómo debe responder
+Escalamiento
+Define cuándo derivar a humano
+Ejemplo de regla fuerte: "Si el usuario pide contratar, solicite datos uno por uno, no en bloque."
+
+--- Diapositiva 53 ---
+Debugging y Trazabilidad
+Executions: El Microscopio
+Cada ejecución te permite ver el input/output de cada nodo, errores exactos y en qué nodo se rompió el flujo.
+Enseñanza clave: n8n se aprende mirando outputs. La mejor forma de entender cómo funciona es observar los datos en cada paso.
+
+--- Diapositiva 54 ---
+Errores Típicos por Categoría
+1
+Data Mapping
+Ruta JSON mal referenciada que resulta en undefined
+2
+Control de Flujo
+IF filtra demasiado y el agente nunca se ejecuta
+3
+Credenciales
+Token incorrecto o no asignado al nodo
+4
+Model/Tool Wiring
+Tool conectada por main en vez de ai_tool
+
+--- Diapositiva 55 ---
+Seguridad y Buenas Prácticas
+Credenciales vs Hardcode
+Credenciales: cifradas, reutilizables, rotables
+Hardcode: se filtra al exportar JSON, riesgo alto
+Variables de Entorno
+Útiles para base URLs, flags de entorno (DEV/PROD) y feature toggles.
+Exportar Workflows
+Siempre sanitiza nombres, IDs y tokens. Remueve datos de clientes y usa nombres ficticios consistentes.
+
+--- Diapositiva 56 ---
+PRÁCTICA
+Objetivo del Bot que Construiremos
+01
+Recibe mensajes por Telegram
+El bot escucha activamente los mensajes entrantes
+02
+AI Agent responde en español
+Respuestas breves, humanas, con ustedeo
+03
+Usa memoria para contexto
+Mantiene la conversación por chat ID
+04
+Devuelve respuesta a Telegram
+Envía el mensaje procesado al usuario
+
+--- Diapositiva 57 ---
+Arquitectura Mínima del Bot
+El flujo principal es: Telegram Trigger → AI Agent → Telegram Send Message
+Al agente se le conectan tres componentes esenciales: OpenAI Chat Model (el cerebro), Memory (el contexto), y Think (la planificación). Cada uno se conecta por puertos especializados de IA.
+
+--- Diapositiva 58 ---
+PASO 1
+Preparación: Crear el Bot en Telegram
+1
+Buscar BotFather
+En Telegram, busca y abre BotFather
+2
+Enviar /newbot
+Inicia el proceso de creación
+3
+Definir nombre y username
+Elige nombres únicos para tu bot
+4
+Copiar el token
+Guarda el token (ej. 123456:ABC-...)
+
+--- Diapositiva 59 ---
+Crear Credenciales en n8n
+Credencial Telegram
+En n8n: Credentials → New → Telegram API. Pega el token de BotFather. Guarda como "Telegram Demo".
+Credencial OpenAI
+Credentials → New → OpenAI. Pega tu API key. Guarda como "OpenAI Demo".
+Regla didáctica: Nunca pegues tokens dentro de nodos como texto. Siempre usa credenciales para mantener la seguridad.
+
+--- Diapositiva 60 ---
+Crear el Workflow y el Primer Nodo
+Paso 1: Crear Workflow
+Workflows → New
+Nombre: "Demo Telegram - Agente IA"
+Paso 2: Nodo Telegram Trigger
+Click Add node
+Buscar: Telegram Trigger
+Seleccionar credencial: Telegram Demo
+En "Updates", activar: Message (mensajes entrantes)
+
+--- Diapositiva 61 ---
+Prueba del Trigger
+Listen for Test Event
+En el nodo, activa "Listen for test event"
+Enviar Mensaje
+En Telegram, escribe "Hola" al bot
+Ver Output
+Vuelve a n8n y observa el resultado
+
+--- Diapositiva 62 ---
+Qué Observar en el Output del Trigger
+Datos Clave del Payload
+message.text: El texto que escribió el usuario
+message.chat.id: ID del chat (crucial para responder y memoria)
+message.from.first_name: Nombre del usuario
+message.from.username: Username de Telegram
+Punto importante: "Si entiendo el payload, puedo automatizar".
+Por Qué Importa
+Identificar correctamente estos campos te permite construir automatizaciones robustas y mantener contexto en las conversaciones.
+
+--- Diapositiva 63 ---
+NODO 2
+Añadir el AI Agent
+Conectar (main)
+Buscar AI Agent
+Añadir nodo
+Construcción del Agente
+Click en Add node
+Buscar: AI Agent (LangChain Agent)
+Conectar desde Telegram Trigger hacia AI Agent usando la conexión main → main
+Este nodo será el cerebro de tu bot, orquestando todas las respuestas inteligentes.
+
+--- Diapositiva 64 ---
+Configurar el Input del Agente
+En el campo "User message / Input text" del AI Agent, configura el contexto que recibirá:
+Nombre: {{ $json.message.from.first_name }}
+Usuario: {{ $json.message.from.username }}
+Mensaje: {{ $json.message.text }}
+ChatId: {{ $json.message.chat.id }}
+Fecha: {{ $now }}
+Por qué se hace así: Le damos contexto básico al agente, hacemos trazable el chat con chatId, y el agente responde mejor sabiendo quién escribe.
+
+--- Diapositiva 65 ---
+System Message: Las Reglas del Agente
+El System Message define la calidad del bot. Sin reglas claras, el agente improvisa. Aquí es donde estableces identidad, idioma, estilo, reglas de negocio y flujo de conversación.
+Este es el componente más importante para garantizar respuestas consistentes y profesionales.
+
+--- Diapositiva 66 ---
+Ejemplo de System Message
+Identidad: "Usted es Luna, asistente de ConectaVerde Telecom (empresa DEMO)."
+Idioma: "Siempre español costarricense, ustedeo."
+Estilo: Respuestas cortas, 1–2 emojis por párrafo, no decir "soy IA".
+Catálogo ficticio: 50 Mbps ₡18.900 | 120 Mbps ₡24.900 | 250 Mbps ₡34.900
+Flujo: Primero preguntar uso/velocidad, recomendar 1 plan + alternativa, si quiere contratar: pedir datos uno por uno.
+Regla obligatoria: "Use la tool Think antes de responder."
+
+--- Diapositiva 67 ---
+NODO 3
+Conectar el Modelo OpenAI
+OpenAI Chat Model
+Add node → buscar: OpenAI Chat Model
+Seleccionar credencial: OpenAI Demo
+Elegir modelo: gpt-4o-mini (económico y estable para clase)
+Conectar desde OpenAI Chat Model hacia AI Agent por ai_languageModel (no main)
+Qué Enseñar Aquí
+El agente no funciona sin un modelo conectado.
+Diferencia crucial: main es flujo de datos normal, ai_languageModel es el "cable especial" de IA.
+
+--- Diapositiva 68 ---
+NODO 4
+Agregar Memoria al Agente
+1
+Add Node
+Buscar: Memory Buffer Window
+2
+Configurar
+Session ID Type: custom key
+Session Key: {{ $json.message.chat.id }}
+Context window: 20
+3
+Conectar
+Memory → AI Agent por ai_memory
+
+--- Diapositiva 69 ---
+Por Qué la Memoria Necesita chat.id
+Explicación Didáctica
+La memoria necesita una "llave" estable para funcionar correctamente. El chat.id es perfecto porque es el mismo para toda esa conversación específica.
+Error común: Si el sessionKey cambia (por ejemplo, usar fecha), la memoria se "reinicia" y el bot olvida todo el contexto anterior.
+
+--- Diapositiva 70 ---
+NODO 5
+Agregar Think Tool
+Añadir Nodo
+Add node → buscar: Think Tool
+Conectar
+Think → AI Agent por ai_tool
+Qué Enseñar
+El Think ayuda al agente a planificar. No es para el usuario; es para "ordenar la respuesta".
+
+--- Diapositiva 71 ---
+NODO 6
+Enviar la Respuesta a Telegram
+Telegram Send Message
+Add node → buscar: Telegram
+Resource: Message
+Operation: Send Message
+Credencial: Telegram Demo
+Campos Clave
+Chat ID:{{ $('Telegram Trigger').item.json.message.chat.id }}
+Text:{{ $json.output }}
+
+--- Diapositiva 72 ---
+Explicación del Send Message
+Por Qué Estos Valores
+chat.id asegura que respondemos al chat correcto, evitando enviar mensajes a conversaciones equivocadas.
+$json.output es la salida típica del AI Agent, conteniendo la respuesta generada por el modelo de lenguaje.
+Conectar: AI Agent (main) → Telegram Send Message (main) para completar el flujo.
+
+--- Diapositiva 73 ---
+LABORATORIO
+Prueba Completa del Bot
+1
+Activar Workflow
+Asegúrate de que el workflow esté activo
+2
+Primera Interacción
+En Telegram: "Hola, ¿qué planes tienen?"
+3
+Observar Respuesta
+El agente responde y pregunta velocidad/uso
+4
+Especificar Necesidad
+"Busco 150 Mbps para teletrabajo"
+5
+Ver Recomendación
+Sugiere 120 y 250 como alternativa
+6
+Iniciar Contratación
+"Quiero contratar" → pide datos uno por uno
+
+--- Diapositiva 74 ---
+Flujo de Conversación Esperado
+El bot debe mantener una conversación natural, preguntando primero sobre necesidades, luego recomendando opciones específicas, y finalmente solicitando datos de contacto de forma secuencial (uno por uno, no todos a la vez).
+La memoria permite que el bot recuerde el contexto completo de la conversación, creando una experiencia fluida y profesional.
+
+--- Diapositiva 75 ---
+DEBUGGING
+Errores Típicos y Soluciones
+❌ No llega nada al Trigger
+Causas: Credencial Telegram incorrecta, token de BotFather mal copiado, o no está "listening" en test.
+❌ El agente responde raro o largo
+Causas: System message sin reglas claras, falta "respuestas cortas", o falta pedir datos uno por uno.
+❌ Memoria no funciona
+Causas: sessionKey mal puesto (debe ser chat.id), o se conectó memory por "main" en vez de "ai_memory".
+❌ Telegram Send Message falla
+Causas: chatId mal referenciado, o output del agente no está en $json.output (revisar panel output del nodo).
+
+--- Diapositiva 76 ---
+Depuración: Error de Data Mapping
+Síntoma
+Ves "undefined" en los outputs o el bot no responde correctamente.
+Causa Raíz
+Ruta JSON mal referenciada en las expresiones.
+Solución
+Abre la ejecución del nodo, copia la ruta exacta del JSON desde el panel de output, y pégala en tu expresión.
+
+--- Diapositiva 77 ---
+Depuración: Control de Flujo
+Problema Común
+El agente nunca se ejecuta aunque el Trigger funciona correctamente.
+Causa: Un nodo IF está filtrando demasiado, bloqueando el flujo antes de que llegue al agente.
+Solución: Revisa las condiciones del IF. Asegúrate de que no sean demasiado restrictivas. Prueba temporalmente sin el IF para confirmar que el agente funciona.
+
+--- Diapositiva 78 ---
+Depuración: Credenciales
+Verificar Token
+Confirma que el token de BotFather está correctamente copiado sin espacios extra
+Asignación Correcta
+Verifica que cada nodo tenga la credencial correctamente asignada
+Permisos API
+Asegúrate de que tu API key de OpenAI tenga créditos y permisos activos
+
+--- Diapositiva 79 ---
+Depuración: Model/Tool Wiring
+Conexión por main
+Herramientas conectadas incorrectamente; agente no las detecta
+Conexión por ai_tool
+Conexión especializada; flujo correcto y acceso a herramientas
+Error Frecuente
+Conectar herramientas o el modelo por la conexión "main" en lugar de las conexiones especializadas de IA.
+Impacto
+El agente no puede ver ni usar las herramientas conectadas incorrectamente.
+Solución
+Usa siempre ai_languageModel para el modelo, ai_memory para memoria, y ai_tool para herramientas.
+
+--- Diapositiva 80 ---
+Mejores Prácticas para Producción
+Antes de llevar tu bot a producción, implementa validaciones robustas, manejo de errores, logging de conversaciones, y límites de rate para evitar abusos. Considera también agregar un sistema de escalamiento a humanos para casos complejos.
+La seguridad debe ser prioritaria: nunca expongas tokens, usa variables de entorno, y sanitiza todas las entradas del usuario.
+
+--- Diapositiva 81 ---
+Extensiones Recomendadas
+IF para Filtrar Mensajes
+Agrega un nodo IF después del Trigger para filtrar mensajes sin texto o de usuarios bloqueados.
+Switch de Intención
+Implementa un Switch para detectar intenciones: cotización, contratar, soporte, o derivar a humano.
+Registro de Leads
+Conecta Google Sheets para guardar automáticamente los datos de contacto y seguimiento de conversaciones.
+
+--- Diapositiva 82 ---
+Escalando el Bot: Próximos Pasos
+Funcionalidades Avanzadas
+Integración con CRM para gestión de clientes
+Webhooks para notificaciones en tiempo real
+Analytics y métricas de conversación
+A/B testing de prompts y flujos
+Soporte multiidioma dinámico
+Consideraciones
+Cada extensión debe evaluarse según el caso de uso específico y los recursos disponibles. Prioriza las funcionalidades que agreguen más valor a tus usuarios.
+
+--- Diapositiva 83 ---
+Monitoreo y Optimización
+95%
+Tasa de Respuesta
+Meta de respuestas exitosas del bot
+3s
+Tiempo de Respuesta
+Objetivo de latencia promedio
+85%
+Satisfacción
+Meta de usuarios satisfechos
+Establece métricas claras y monitorea constantemente el desempeño de tu bot para identificar áreas de mejora.

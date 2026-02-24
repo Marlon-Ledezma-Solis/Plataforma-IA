@@ -1,0 +1,189 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/1rOyFSH0dB7pRUfeycNj5ASYhAyMWa40f4H3cBwOxYXA/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+Actividad 1: Creación de Dashboard
+Proceda a replicar el proceso establecido en las filminas asociadas al desarrollo de gráficos, tablas y matrices, de modo que se logre generar un archivo similar al denominado Gráficos y tablas.pbix que se encuentra en la carpeta de insumos de la unidad.
+
+--- Diapositiva 3 ---
+Desarrollo de gráficos, tablas y matrices
+
+--- Diapositiva 4 ---
+Cargar datos
+
+--- Diapositiva 5 ---
+Gráficos, tablas y matrices
+
+--- Diapositiva 6 ---
+Insertar imágenes
+
+--- Diapositiva 7 ---
+Insertar Texto
+
+--- Diapositiva 8 ---
+Insertar gráficos
+
+--- Diapositiva 9 ---
+Copiar gráficos y cambiarlos
+
+--- Diapositiva 10 ---
+Bases de datos
+
+--- Diapositiva 11 ---
+Cambiar formato a las variables
+Selecciona la variable en la sección de campos.
+En la pestaña modelado, en el bloque de formato se escoge el formato. deseado
+
+--- Diapositiva 12 ---
+Insertar tablas
+
+--- Diapositiva 13 ---
+Insertar matrices
+
+--- Diapositiva 14 ---
+Mostrar valores como
+Con esta opción se pudo haber escogido, promedio, suma, mínimo, etc.
+
+O también la medida porcentual.
+
+--- Diapositiva 15 ---
+Insertar tarjetas
+
+--- Diapositiva 16 ---
+Filtros en BD
+
+--- Diapositiva 17 ---
+Filtros en gráficos
+
+--- Diapositiva 18 ---
+Filtros en lista
+
+--- Diapositiva 19 ---
+Filtros de tiempo
+
+--- Diapositiva 20 ---
+Filtros para que los gráficos cambien
+
+--- Diapositiva 21 ---
+Interacción entre gráficos
+Al seleccionar un segmento de un gráfico se aplica un filtro por medio del cual los otros gráficos responden
+
+--- Diapositiva 22 ---
+Opciones de gráfico
+
+--- Diapositiva 23 ---
+Actividad 2: Funciones DAX
+Proceda a replicar el proceso establecido en las filminas asociadas a funciones DAX, de modo que se logre generar un archivo similar al denominado Campos y medidas.pbix que se encuentra en la carpeta de insumos de la unidad.
+
+--- Diapositiva 24 ---
+FUNCIONES DAX
+
+--- Diapositiva 25 ---
+Libro
+
+--- Diapositiva 26 ---
+Definiciones
+Es una función semejante a las de Excel, pero en un modelo de datos.
+Dato calculado fila por fila en una tabla.
+Dato calculado, cuyos insumos serán conjuntos variables
+
+--- Diapositiva 27 ---
+Hacer una columna
+.
+Total = 'Campos y medidas'[1]+'Campos y medidas'[2]+'Campos y medidas'[3]
+
+--- Diapositiva 28 ---
+Hacer una Medida
+.
+No aparece en la tabla, pues no es un cálculo fila por fila
+Pero si es un campo de la tabla
+MEDIDA SUMA = SUM('Campos y medidas'[1])
+Note que SUM es una función de agregación
+
+--- Diapositiva 29 ---
+Ejemplo de suma, diferencia entre columna y medida
+Columna calculada
+Medida
+Suma (campos y medidas del  mes 1) para cada tipo de producto
+
+--- Diapositiva 30 ---
+Ejemplo con porcentaje de buenas
+Columna calculada
+Medida
+Crea una columna nueva en la cual realiza el cálculo para cada fila.
+Realiza un cálculo general por ello usa agregaciones como suma para poder calcular
+En el fondo son similares sólo que columna es para cada fila y medida es general
+
+--- Diapositiva 31 ---
+Entendiendo mejor las columnas
+Columna calculada
+.
+
+--- Diapositiva 32 ---
+Entendiendo mejor las medidas
+Medida
+Para usar álgebra a nivel de variables y no de registros, se requiere usar funciones de agregación para traducir el vector es un escalar
+
+--- Diapositiva 33 ---
+Entendiendo mejor las medidas
+Medida
+.
+Para el tipo 1
+Para el tipo 4
+
+--- Diapositiva 34 ---
+Ejemplo completo de campos y medidas
+
+--- Diapositiva 35 ---
+Actividad 2: Relaciones en Power BI
+Proceda a replicar el proceso establecido en las filminas asociadas a Relaciones, de modo que se logre generar un archivo similar al denominado Sistema relacional 1 a 1 y varios a varios.pbix que se encuentra en la carpeta de insumos de la unidad.
+
+--- Diapositiva 36 ---
+Relaciones
+
+--- Diapositiva 37 ---
+Relaciones
+En bases de datos relacionales, una relación o vínculo entre dos o más entidades describe alguna interacción entre las mismas. Las relaciones evitan redundancia de datos guardados en las tablas.
+
+Fuente: https://es.slideshare.net/yahairafernandezsegura/relaciones-en-bases-de-datos-70535917
+
+Tener algo en común que las una.
+
+--- Diapositiva 38 ---
+Vista de relaciones
+Visualización
+
+
+Bases de datos
+
+
+Relaciones
+
+--- Diapositiva 39 ---
+Relaciones uno a varios
+
+--- Diapositiva 40 ---
+Relaciones uno a varios
+
+--- Diapositiva 41 ---
+Relaciones uno a varios
+
+--- Diapositiva 42 ---
+Relaciones uno a varios
+
+--- Diapositiva 43 ---
+Relaciones uno a varios
+
+--- Diapositiva 44 ---
+Relaciones uno a varios
+
+--- Diapositiva 45 ---
+Relaciones uno a varios
+
+--- Diapositiva 46 ---
+Relaciones uno a varios
+
+--- Diapositiva 47 ---
+Relaciones uno a varios

@@ -1,0 +1,283 @@
+Título del Video: Teoría RPA y procesos automatizables
+URL: https://www.youtube.com/watch?v=8tFHRkE4rtA
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Muy bien, entonces ahora vamos a
+proceder con la unidad número 10, que es
+la generación de bots básicos. Para ello
+vamos a ver un poquito de teoría, pues
+que está asociada con el tema de lo que
+es RPA, que es la automatización de eh
+procesos robóticos, que básicamente lo
+que nos plantea es la posibilidad de que
+podamos diseñar propiamente programas
+que se encarguen de eh realizar ciertos
+procesos de un modo más automatizado.
+Entonces, es como la creación de
+pequeños robots que se encargan de
+generar ciertas rutinas. Eso va más de
+la mano de la automatización más
+tradicional. Bueno, hablamos en algún
+momento que habían dos tipos de
+automatización, una que era la más
+histórica, la más antigua, que que
+detallando eh cada uno de los de los eh
+elementos del proceso con mucho detalle
+para que el robot pudiese encargarse de
+ir haciéndolo paso a paso, ¿verdad? Eso
+es eh la automatización más tradicional.
+Esa es la que en esta unidad queremos
+pues enfocarnos, ¿verdad? Por tanto,
+¿qué es lo que nosotros vamos a tener
+por acá? Bueno, vamos a tener eh dos
+tipos de opciones. Los flujos en la
+nube, ¿verdad? En los cuales estos están
+basados en app y se ejecutan en la nube,
+¿verdad? Y lo que tratamos es de
+conectarnos a ciertos elementos que eh
+podamos acceder eh por medio de una API
+a cierta información. Y después está los
+flows, que es donde nosotros estamos
+tratando de grabar, reproducir opciones
+que un usuario eh tendría que realizar.
+Nos vamos a enfocar principalmente en
+esto porque estos de acá los podemos
+automatizar de un modo más sencillo con
+inteligencia artificial. En cambio,
+estos de acá, nosotros tenemos que
+trabajar propiamente en elementos que
+desde un punto de vista eh computacional
+son un poco más complejos, porque eh
+prácticamente el humano es el único que
+puede desplazarse a cierta interface,
+dar clic acá, después dar clic en ese
+otro lado. son elementos que no están
+configurados por medio de un API, o sea,
+no hay una arquitectura que permita,
+digamos, entrar y extraer esos datos de
+un modo más eh masivo, ¿verdad? Sino que
+son datos prácticamente que hay que ir
+haciéndolo pasito a pasito, replicando
+lo que un humano haría. Esto es
+justamente lo que nos vamos a centrar en
+este punto de acá.
+Acá vamos entonces a hacer la actividad
+número uno, que es el uso de bots en
+Culix. Este va a ser el primer eh
+programa que vamos a utilizar aquí. En
+este caso, Culix es uno de los elementos
+e más utilizados por su interfaz tan
+sencilla y porque está hecho como para
+trabajar en cualquier escenario, o sea,
+es sumamente versátil y eh funciona de
+un modo muy muy sencillo. Lo que en este
+caso estaríamos necesitando propiamente
+es poder descargar una herramienta que
+incluso dentro de los materiales de las
+de la e de la unidad se le suministra y
+ahí simplmente tenemos que ir detallando
+el proceso paso a paso. Para ello vamos
+a ver que descargar la eh la herramienta
+pues lo pueden hacer desde esta acá.
+Luego pueden proceder aquí a ingresar
+para que ustedes lo puedan ver.
+Nos copian ese enlace y si no pues
+busquen en internet
+y ahí ya pues descargan para el sistema
+operativo que ustedes requieran. En este
+caso, por ejemplo, vean que aquí dice
+descargar el Java. Este, entonces ya lo
+podríamos descargar. Y una vez que
+nosotros descargamos, entonces
+perfectamente podemos ingresar al mismo.
+Como les mencionaba, dentro de la
+carpeta de insumos de la unidad,
+ustedes van a poder, si ustedes la
+descomprimen, van a ver esta esta
+herramienta. Vean que puede que eh se
+desactualice, entonces también es bueno
+estarla descargando cada cierto tiempo,
+pero si este de acá les abre, pues
+también pueden utilizar propiamente USB.
+Con solo que ustedes ya lo descarguen,
+es importante tener eh Java instalado,
+¿verdad? Eso es parte de los elementos
+que también les comentamos porque
+utiliza una tecnología llamada Jon, que
+es una combinación de Java comparto.
+Entonces, necesitan tener Java
+descargado, ¿verdad?
+Y aquí es importante entonces que entren
+a eh Google, le dan descargar Java y lo
+que necesitamos es el Java 8, ¿verdad?
+Porque hay gente que tiene Java 15, Java
+21, los Java pues funcionan diferente
+para diferentes aplicaciones. Entonces
+no quiere decir que eh porque tengan eh
+Java eh 8, ¿verdad? o Java 15 o demás
+sea el mismo Java, ¿no? En este caso lo
+que nosotros necesitamos es que sea
+específicamente el Java 8 porque es el
+que está dedicado propiamente a estos
+elementos de eh manejo de RPAs. Y es
+importante que descarguen el que dice
+fuera de línea, ¿verdad? Y aquí tienen
+que ver si es para 64 o 32 bits,
+¿verdad? Ya ahí tienen que revisar
+propiamente eh su computadora, ¿verdad?
+y ver las características
+de su equipo, ¿verdad? Por ejemplo, acá
+yo puedo ver que en mi caso, si yo
+ingreso a las características e
+información de mi sistema, ¿verdad? Yo
+efectivamente tengo eh un eh procesador
+de 74 bits. Entonces, ese es el que yo
+descargaría, ¿verdad? y lo tendrían que
+tener actualizado. Si ustedes ya tienen
+entonces el Java actualizado, entonces
+va a ser simplemente cuestión de abrir
+la entonces le dan doble clic y ahí ya
+van a tener. Entonces, yo ya trabajé
+pues varios script por acá, no se
+preocupen. En caso de ustedes
+probablemente les va a salir así en
+blanco, ¿verdad? Y esta es la interface
+que nosotros estaríamos utilizando. No
+se preocupen por este error. Como
+ustedes ven, estamos prácticamente en
+blanco. Es un error inicial que
+desaparece, pero en realidad no tiene
+ninguna repercusión. Muy bien, ahora sí
+vamos a proceder a ver eh los elementos
+asociados a el uso de la herramienta
+Culitx. Como ustedes pueden ver aquí
+nosotros podemos programar. Entonces,
+cuando nosotros programamos
+podemos utilizar diferentes comandos.
+Por ejemplo, podríamos pedir que nos
+escriba o que nos pegue, ¿verdad? Cierto
+texto, ¿verdad? Entonces, verad, es muy
+común que nosotros podamos decir e copie
+tal información y péguela, ¿verdad? o
+type es para escribir, o sea, que él
+escriba directamente algo, que el robot
+se encargue propiamente de escribirlo. O
+también tenemos teclada el uso de teclas
+especiales como enter, tabulador,
+este type C e control lo que quiere
+decir es control C, ver podrían hacer
+control V, control Z, control X,
+cualquiera de esos control que nosotros
+estamos acostumbrados a hacer, podemos
+enseñar al robot que lo haga por medio
+de estas teclas. Lo otro pues es el tema
+de navegación donde yo le puedo decir
+abra
+herramienta, e ingrese a tal ventana,
+cierre tal eh eh herramienta también.
+Entonces, eso pues perfectamente lo
+podemos hacer. Como ustedes ven, todo lo
+que podemos hacer nosotros como seres
+humanos al momento de manipular el
+equipo, pues también el robot lo puede
+hacer. Lo otro es el tema de
+coordenadas.
+Él va a trabajar en unas ventanas,
+¿verdad?, que tiene ciertas coordenadas,
+entonces yo le puedo decir de clic en
+este espacio, ¿verdad? Entonces él va a
+poder dar clic ahí o eh le puedo decir
+que mueva el teclado tantos eh tantas
+unidades hacia la derecha o hacia arriba
+o hacia abajo, ¿verdad? Entonces esos
+son elementos de navegación donde
+nosotros nos podemos desplazar. Y
+después está el de portapapeles,
+¿verdad? donde yo puedo extraer datos,
+puedo con un control A, con un control
+E, seleccionar todo, copiarlo, ¿verdad?
+Guardar esa información en una variable
+de sistema, ¿verdad? o en el
+portapapeles y también eh después podría
+pegarlo. Entonces, como ustedes ven,
+todo que uno podría hacer desde eh desde
+nuestra interfaz lo podríamos hacer de
+acá y también pues tenemos los popups,
+que son en este caso mensajes que
+podrían eh salir. Y aquí están pues un
+resumen, por ejemplo, de varias eh
+opciones que nosotros tendríamos para
+activar navegación desde el ratón o para
+el tema de búsqueda y espera, para que
+se encargue de buscar un un elemento,
+para que encuentre todas las
+coincidencias con respecto a una imagen,
+para que espere, ¿verdad?,
+hasta que aparezca cierta imagen o
+espere cierta cantidad de tiempo.
+Entonces, como ven, hay un montón de eh
+opciones que tenemos por acá, porque
+esto está construido, como les decía,
+una combinación de Java y Python,
+entonces tiene un lenguaje de
+programación muy robusto para poder
+utilizarlo. Ahora bien, ¿cuál es la gran
+ventaja de todo esto? Bueno, aquí les
+muestro algunos de los otros comandos,
+pero que quiero decirles con todo esto
+es que también nosotros podemos ir
+construyendo
+esas e
+eh ese procedimiento de la mano eh con
+la inteligencia artificial y también eh
+usando algunos comandos muy sencillos. Y
+eso es lo que vamos a hacer. Por
+ejemplo, acá vean eh en las opciones
+anteriores que teníamos por acá, vean lo
+fácil que es darle doble clic, clic
+derecho, darle click normal, ¿verdad?
+Entonces, estos son los elementos que
+más vamos a utilizar y lo otro es la
+parte gráfica, donde nosotros podemos
+empezar a hacer screenshot de decir,
+bueno, dale clic aquí y le hago un
+screenshot de dónde es que él debería de
+dar clic y en esa manera podemos ir ya
+construyendo
+procedimiento en donde yo puedo darte
+clic aquí. Eh, después espere 5
+segundos, pues presione enter, después
+dle clic aquí, después dele clic en esta
+otra. ¿Ven? Entonces es como ir
+construyendo el proceso de la mano con
+el programa. Ahora bien, la otra gran
+ventaja es que como esto en el fondo
+también tiene un código, un script que
+se está generando, también yo podría
+perfectamente pedirle a la inteligencia
+artificial que me ayude a generar el
+código. Entonces, yo le puedo decir más
+o menos cuál es el proceso que yo deseo
+realizar y la inteligencia artificial
+también me podría ayudar a generar ese
+código. Y bueno, ahora lo que vamos
+entonces a hacer es a proceder a hacer
+el ejemplo. Nada más termino diciendo es
+que cada imagen que nosotros estemos
+creando, sea más un espacio, cada
+recorte que hagamos para que él lo pueda
+utilizar y eh pues eso se va a almacenar
+todo en un espacio para que él pueda
+utilizar como insumo al momento de
+trabajarlo. Pero bueno, sin más que
+decir, vamos a iniciar ya con el
+proceso. Aquí estamos en la herramienta
+de Culix y vamos entonces a
+proceder a realizar el ejemplo. Como
+ustedes vieron, toda esta primer parte
+fue más como de teoría para que ustedes
+conocieran todo el procedimiento. Y
+ahora lo que vamos a hacer ya es a
+realizar el ejemplo como tal dentro de
+la herramienta.

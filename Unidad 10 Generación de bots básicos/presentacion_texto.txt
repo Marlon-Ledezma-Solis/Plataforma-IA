@@ -1,0 +1,262 @@
+Texto extraído de la presentación: https://docs.google.com/presentation/d/174OLUvqn7-bHoIDvwYLqxt43NxgKGUnvEZhMQ2aNyrY/edit?usp=sharing
+
+--- Diapositiva 1 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 2 ---
+¿Qué es RPA?
+Robotic Process Automotion
+RPA es una tecnología de software que facilita la creación, despliegue y gestión de robots de software ("bots") que emulan las acciones humanas interactuando con sistemas digitales y software.
+Business Processes (4)
+Imita acciones humanas (clics, tecleo).
+Opera sobre aplicaciones existentes.
+Automatiza tareas repetitivas y basadas en reglas.
+9	B
+Business Applications (5)
+
+--- Diapositiva 3 ---
+Características Clave
+Cloud Flows (Flujos de Nube}
+Automatización basada en APls que se ejecuta en la nube. Ideal para conectar aplicaciones modernas (ej. Cuando Ilega un email, guardar adjunto en SharePoint).
+Desktop Flows (RPA}
+Automatización de procesos robóticos para aplicaciones de escritorio o legacy que no tienen APls. Graba y reproduce acciones de la interfaz de usuario.
+
+--- Diapositiva 4 ---
+Actividad 1: Uso de bots en Sikulix
+Ingresa a la herramienta Sikulix y desarrolla un bot básico que realice lo siguiente:
+
+Siga el proceso indicado en las filminas asociadas al tema de Sikulix, de modo que el bot, pueda de modo autónomo, ingresar a internet a una página oficial, navegue por diversas secciones del sitio web hasta que localice la información respectiva y proceda a descargar un reporte de la información y lo almacene en un Excel local.
+
+--- Diapositiva 5 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 6 ---
+¿Cómo Funciono Sikulix?
+Sikulix automatiza todo lo que se ve en la pantalla. Utiliza reconocimiento de imágenes (OpenCV) para identificar elementos de la GUI y controlarlos.
+
+Enfoque Visual
+En Iugar de inspeccionar el código interno de la aplicación, Sikulix "mira" la pantalla como lo haría un humano.
+click( "boton  inicio .png" ) type( "Hola Mundo" )
+vait( "conf irmac ion . png" )
+
+--- Diapositiva 7 ---
+Sikulix
+https://raiman.github.io/SikuliX1/downloads.html
+
+--- Diapositiva 8 ---
+Sikulix
+
+--- Diapositiva 9 ---
+Sikulix
+
+--- Diapositiva 10 ---
+Sikulix
+
+--- Diapositiva 11 ---
+Sikulix
+
+--- Diapositiva 12 ---
+Sikulix
+
+--- Diapositiva 13 ---
+Sikulix
+
+--- Diapositiva 14 ---
+Sikulix
+
+--- Diapositiva 15 ---
+Sikulix (Ejemplo exportación de datos de MH)
+
+--- Diapositiva 16 ---
+Sikulix (Detalle de cada imagen)
+
+--- Diapositiva 17 ---
+Sikulix (Carpeta de insumos)
+
+--- Diapositiva 18 ---
+Sikulix (Manejo de Código directamente)
+
+--- Diapositiva 19 ---
+Sikulix (Manejo de Código directamente)
+
+--- Diapositiva 20 ---
+Sikulix (Manejo de Código directamente)
+# -*- coding: utf-8 -*-
+# Script SikuliX: descargar valores del Ministerio de Hacienda
+# Autor: Allan Quesada Rojas  |  Fecha: 08‑may‑2025
+
+from sikuli import *
+import gc
+# --- Abrir una URL en el navegador predeterminado (Windows) ---
+import subprocess
+
+def abrir_url_desde_cero(url):
+    # Usa el comando 'start' de Windows para abrir cualquier URL
+    subprocess.Popen(['cmd', '/c', 'start', '', url])
+
+# --- Uso ---
+abrir_url_desde_cero("https://www.hacienda.go.cr/Presupuesto.html")
+
+# Esperar unos segundos mientras abre
+wait(5)
+
+
+click("1753966291141.png") # Entrar a datos abiertos
+wait(10)
+
+click("1764706564526.png")
+type("2")
+type(Key.ENTER)
+
+click("1764706710567.png")
+
+--- Diapositiva 21 ---
+Computadora virtual
+
+--- Diapositiva 22 ---
+Computadora Virtual Box
+
+--- Diapositiva 23 ---
+Cómo instalar Virtual Box
+
+--- Diapositiva 24 ---
+Actividad 2: Uso de bots en Power Automate
+Ingresa a la herramienta Automate y desarrolla un bot básico que realice lo siguiente:
+
+Proceda a ingresar a una página web, analice el contenido existente y navegue en el sitio web hasta que encuentre la información requerida, posteriormente proceda a realizar la descarga de los datos de un modo automatizado, para lo cual debe realizar el proceso tal y como se detalla en las filminas asociadas al tema de Power Automate.
+
+--- Diapositiva 25 ---
+[Diapositiva en blanco o formato no reconocido]
+
+--- Diapositiva 26 ---
+Automatización de procesos con Power Automate
+Ejemplo
+Automatización para la descarga del Informe Mensual de Coyuntura Económica del Banco Central de Costa Rica.
+https://www.bccr.fi.cr/SitePages/Inicio.aspx
+
+--- Diapositiva 27 ---
+Microsoft Power Automote
+Power Automate es un servicio basado en la nube que permite crear flujos de trabajo automatizados entre tus aplicaciones y servicios favoritos.
+
+Es parte de la ”Power Platform” de Microsoft y destaca por su enfoque Low-Code / No-Code.
+
+Integración nativa con Microsoft 365. Cientos de conectores preconstruidos.
+
+Accesible para usuarios de negocio y desarrolladores.
+Connectors
+Al Builder
+Dataverse
+
+--- Diapositiva 28 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 29 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 30 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 31 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 32 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 33 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 34 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 35 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 36 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 37 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 38 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 39 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 40 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 41 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 42 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 43 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 44 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 45 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 46 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 47 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 48 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 49 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 50 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 51 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 52 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 53 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 54 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 55 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 56 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 57 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 58 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 59 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 60 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 61 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 62 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 63 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 64 ---
+Automatización de procesos con Power Automate
+
+--- Diapositiva 65 ---
+Automatización de procesos con Power Automate

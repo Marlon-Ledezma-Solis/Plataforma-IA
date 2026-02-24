@@ -1,0 +1,116 @@
+Título del Video: Estrategia, Negocios y el Fenómeno NVIDIA
+URL: https://youtu.be/OUBWEj3GaNs
+Idioma de Transcripción: Spanish (auto-generated) (Auto-generado: True)
+--------------------------------------------------
+
+Iniciamos este tercer video analizando
+el impacto sectorial.
+Estrategia nacional de IA, Costa Rica.
+Siete ejes temáticos.
+Costa Rica ha trazado una hoja de ruta
+ambiciosa llamada Enia. Estos siete ejes
+son la columna vertebral del desarrollo
+tecnológico del país. No se trata solo
+de comprar tecnología, sino de crear un
+talento humano capaz de liderar. El eje
+de gobierno inteligente busca que los
+trámites ciudadanos sean ágiles y
+predictivos, mientras que la cooperación
+internacional asegura que Costa Rica
+participe en los estándares globales. Es
+un enfoque integral que entiende que la
+IA requiere desde cables de fibra óptica
+hasta leyes éticas sólidas.
+Nvidia se convierte en la empresa más
+valiosa del mundo. Resiliencia
+financiera. El mercado hardware impulsa
+la infraestructura global de IA. Este es
+un hito histórico. En julio del 2025,
+Nvidia alcanzó una valoración de 4
+billones de dólares, superando a
+gigantes tradicionales.
+¿Por qué es importante? Porque Nvidia
+fabrica las GPUs, el cerebro donde se
+entrena la IA. Su éxito financiero es el
+termómetro de la industria. Si en Nvidia
+sube, es porque el mundo entero está
+invirtiendo en construir infraestructura
+de IA.
+Oportunidades de innovación responsable,
+confianza y competitividad, auditorías
+algorítmicas, participación ciudadana.
+¿Cómo diferenciarse en este mercado
+mediante la confianza? Las empresas que
+realizan auditorías algorítmicas
+voluntarias demuestran que no tienen que
+ocultar. La participación ciudadana en
+el diseño de herramientas públicas de IA
+asegura que la tecnología sirva al
+pueblo y no al revés. La innovación
+responsable no es un gasto, es una
+ventaja competitiva que genera lealtad a
+largo plazo en un mercado lleno de
+dudas.
+Oportunidades transformadoras.
+La verdadera transformación ocurre
+cuando la IA hace lo que nosotros no
+queremos o no podemos hacer. En las
+oficinas, la automatización inteligente
+elimina el papeleo tedioso, permitiendo
+que el trabajador se enfoque en la
+estrategia y la creatividad.
+Auge global de la IA generativa.
+Los números son vertiginosos. Podemos
+ver que el 65% de las empresas en 2024
+ya usaban la IA generativa como JGPT o
+cloud para sus operaciones diarias. La
+inversión de 109,000 millones de dólares
+en solo un año indica que ya no estamos
+en una fase de prueba, estamos en una
+fase de implementación masiva donde
+quien no se adapta corre el riesgo de
+volverse irrelevante.
+Si miramos hacia el futuro cercano, el
+mercado casi se triplicará en 3 años.
+Este crecimiento de 297,000 billones de
+se verá impulsado no solo por grandes
+empresas, sino por pequeñas startups que
+utilizan APIs de IA para crear
+soluciones locales. El gasto en IA se
+convertirá en una partida estándar en
+los presupuestos de cualquier negocio,
+igual que hoy lo que es el pago de la
+electricidad o internet.
+Impacto laboral. 23%
+de los empleos cambiarán.
+69 millones de empleos creados versus
+83,000ones eliminados. Neto, reducción
+de 14 millones de empleos, 2% del empleo
+actual.
+Debemos hablar de la realidad del empleo
+con honestidad. El foro económico
+mundial estima un cambio en casi una
+cuarta parte de los presupuestos
+actuales, aunque crearán 69 millones de
+errores nuevos especialistas en IA,
+ingenieros de datos, la pérdida de 83
+millones genera un déficit neto.
+Este balance de -14 millones es el gran
+reto de los gobiernos actuales. ¿Cómo
+gestionamos esa transición para que
+nadie se quede atrás?
+Exposición en Costa Rica. 28.6%
+de los trabajadores están en ocupaciones
+con alta exposición a la automatización.
+Finalizamos este video analizando el
+dato local. Costa Rica está ligeramente
+por encima del promedio de la OPTE en
+riesgo de automatización. Casi el 29% de
+nuestra fuerza laboral realiza tareas
+que la IA ya puede hacer o hará pronto.
+Esto no es una profecía de desempleo,
+sino un llamado a la acción para la
+educación técnica y profesional. Debemos
+movernos hacia ocupaciones de baja
+exposición que requieran empatía, juicio
+crítico y supervisión humana. Yeah.

@@ -1,0 +1,6 @@
+Link de google Slice: https://docs.google.com/presentation/d/1rOyFSH0dB7pRUfeycNj5ASYhAyMWa40f4H3cBwOxYXA/edit?usp=sharing
+
+Link de los tutoriales y los links con sus nombres:
+- Gráficos, tablas y matrices: https://www.youtube.com/watch?v=GUxpVLTSaFk
+- Funciones Dax: https://www.youtube.com/watch?v=T3EAn6H_LJw
+- Relaciones: https://www.youtube.com/watch?v=l_bLvM-L1nk
