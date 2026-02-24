@@ -242,6 +242,7 @@
             font-size: calc(24px * var(--font-size));
             font-weight: 700;
             background: linear-gradient(135deg, var(--p), var(--s), var(--a));
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent
         }
@@ -802,6 +803,7 @@
             font-size: calc(56px * var(--font-size));
             font-weight: 800;
             background: linear-gradient(135deg, var(--p), var(--s));
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent
         }
@@ -4752,156 +4754,127 @@
                         { icon: "✅", title: "Sistema de Evaluación", items: ["Ejercicios prácticos por módulo: 40%", "Proyecto final aplicado: 30%", "Participación y asistencia: 20%", "Actividades asincrónicas: 10%"] }
                     ]
                 },
-                summary: `< h3 >🤖 ¿Qué son los Agentes de IA ?</h3 >
-            <p>Los <strong>agentes de IA</strong> son sistemas autónomos que pueden planificar, ejecutar y completar tareas complejas de múltiples pasos sin supervisión constante. A diferencia de los chatbots tradicionales, los agentes pueden:</p>
+                summary: `<h3>🤖 El Protocolo MCP y los Agentes de IA</h3>
+            <p>La integración de la Inteligencia Artificial en el entorno empresarial ha dado un salto cualitativo con la llegada del <strong>Model Context Protocol (MCP)</strong> y el desarrollo de verdaderos <strong>Agentes de IA</strong> autónomos.</p>
             
-            <div class="example"><h4>💡 Características de los Agentes de IA</h4><ul>
-                <li><strong>Autonomía:</strong> Toman decisiones y ejecutan acciones por sí mismos</li>
-                <li><strong>Planificación:</strong> Descomponen tareas complejas en pasos manejables</li>
-                <li><strong>Uso de herramientas:</strong> Pueden navegar web, ejecutar código, usar APIs</li>
-                <li><strong>Memoria:</strong> Recuerdan contexto y aprenden de interacciones</li>
-                <li><strong>Iteración:</strong> Ajustan su enfoque basándose en resultados</li>
-            </ul></div>
-            
-            <h3>🌟 Manus: El Agente Autónomo Más Avanzado</h3>
-            <p><strong>Manus</strong> es un agente de IA desarrollado para ejecutar tareas complejas de forma autónoma:</p>
-            <div class="case"><h4>🔧 Capacidades de Manus</h4><ul>
-                <li><strong>Navegación web autónoma:</strong> Busca, lee y extrae información</li>
-                <li><strong>Ejecución de código:</strong> Escribe y ejecuta scripts en tiempo real</li>
-                <li><strong>Análisis de documentos:</strong> Procesa PDFs, imágenes, archivos</li>
-                <li><strong>Tareas de múltiples pasos:</strong> Investigación, comparativas, reportes</li>
-                <li><strong>Integración con APIs:</strong> Se conecta con servicios externos</li>
-            </ul></div>
-            
-            <h3>🔍 Genspark: Búsqueda Inteligente con Agentes</h3>
-            <p><strong>Genspark</strong> combina búsqueda avanzada con capacidades de agente:</p>
+            <h4>🔗 ¿Qué es MCP (Model Context Protocol)?</h4>
+            <p>Es un estándar abierto, creado por Anthropic, que funciona como el "USB-C para la IA". Permite conectar modelos de lenguaje con sistemas empresariales (CRM, calendarios, Slack) en tiempo real, eliminando la necesidad de integraciones personalizadas complejas y costosas.</p>
             <ul>
-                <li><strong>Sparkpages:</strong> Genera páginas completas con información investigada</li>
-                <li><strong>Múltiples fuentes:</strong> Triangula información automáticamente</li>
-                <li><strong>Visualización:</strong> Crea tablas, gráficos y resúmenes</li>
-                <li><strong>Actualización en tiempo real:</strong> Información siempre actualizada</li>
+                <li><strong>Arquitectura Cliente-Servidor:</strong> El host (aplicación IA) coordina con el Servidor MCP que expone las herramientas.</li>
+                <li><strong>Beneficios:</strong> Toma de decisiones en tiempo real, reducción de costos, libertad tecnológica y evitar el bloqueo del proveedor (vendor lock-in).</li>
             </ul>
             
-            <h3>🎭 Minimax: Agente Multimodal</h3>
-            <p><strong>Minimax</strong> destaca por sus capacidades multimodales:</p>
-            <div class="example"><h4>✨ Funciones de Minimax</h4><ul>
-                <li><strong>Video Understanding:</strong> Analiza y describe contenido de video</li>
-                <li><strong>Voice Cloning:</strong> Genera voces personalizadas</li>
-                <li><strong>Image Generation:</strong> Crea imágenes de alta calidad</li>
-                <li><strong>Music Generation:</strong> Compone música original</li>
+            <h4>🚀 Evolución hacia los Agentes de IA</h4>
+            <p>A diferencia de los chatbots tradicionales que solo responden, los <strong>agentes de IA</strong> son sistemas autónomos capaces de planificar, usar herramientas y ejecutar tareas de múltiples pasos de forma independiente.</p>
+            <div class="example"><h4>💡 Plataformas y Agentes Destacados</h4><ul>
+                <li><strong>Kimi K2:</strong> Excelente para la creación de presentaciones adaptativas y análisis visual de documentos.</li>
+                <li><strong>Genspark:</strong> Búsqueda inteligente que triangula información de múltiples fuentes y crea páginas completas (Sparkpages) en tiempo real.</li>
+                <li><strong>Manus:</strong> Agente autónomo especializado en la ejecución de tareas de múltiples pasos como investigación bursátil y visualización interactiva.</li>
+                <li><strong>Minimax:</strong> Destaca por sus altas capacidades multimodales (Video, Audio, Imagen) e investigación profunda.</li>
             </ul></div>
-            
-            <h3>🚀 Suna: Asistente de Código Abierto</h3>
-            <p><strong>Suna</strong> es un agente de código abierto con características únicas:</p>
-            <ul>
-                <li><strong>Código abierto:</strong> Puedes ver y modificar su funcionamiento</li>
-                <li><strong>Personalizable:</strong> Adapta el agente a tus necesidades</li>
-                <li><strong>Sin costos de API:</strong> Usa modelos locales o tu propia API</li>
-                <li><strong>Privacidad:</strong> Tus datos no salen de tu entorno</li>
-            </ul>
-            
-            <h3>🔬 Deepagent: Investigación Profunda</h3>
-            <p><strong>Deepagent</strong> se especializa en tareas de investigación y análisis:</p>
-            <div class="case"><h4>📊 Capacidades de Deepagent</h4><ul>
-                <li><strong>Investigación académica:</strong> Encuentra y resume papers</li>
-                <li><strong>Análisis de mercado:</strong> Investiga competidores y tendencias</li>
-                <li><strong>Due diligence:</strong> Investiga empresas y personas</li>
-                <li><strong>Reportes automáticos:</strong> Genera documentos estructurados</li>
-            </ul></div>
-            
-            <h3>📊 Comparativa de Agentes</h3>
-            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:12px">
-                <tr style="background:rgba(99,102,241,.2)"><th style="padding:8px;text-align:left">Agente</th><th style="padding:8px">Fortaleza</th><th style="padding:8px">Mejor para</th></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Manus</td><td style="padding:8px">Autonomía total</td><td style="padding:8px">Tareas complejas</td></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Genspark</td><td style="padding:8px">Investigación</td><td style="padding:8px">Búsqueda y análisis</td></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Minimax</td><td style="padding:8px">Multimodal</td><td style="padding:8px">Audio/Video/Imagen</td></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Suna</td><td style="padding:8px">Open source</td><td style="padding:8px">Personalización</td></tr>
-                <tr><td style="padding:8px">Deepagent</td><td style="padding:8px">Profundidad</td><td style="padding:8px">Research intensivo</td></tr>
-            </table>
             
             <div class="bib"><h3>📚 Bibliografía</h3>
-                <p>Manus AI. (2024). <em>Documentation</em>. https://manus.ai/docs</p>
-                <p>Genspark. (2024). <em>Platform Guide</em>. https://genspark.ai</p>
-                <p>Anthropic. (2024). <em>Computer Use Agents</em>. https://anthropic.com</p>
+                <p>Anthropic. (2024). <em>Model Context Protocol (MCP)</em>. https://modelcontextprotocol.io/</p>
+                <p>Google. (2024). <em>Genspark & AI Search capabilities</em>. https://genspark.ai/</p>
+                <p>Manus. (2025). <em>Autonomous Agents for Complex Tasks</em>. https://manus.ai/</p>
             </div>`,
-                videos: `< h4 class="tool-category" >🤖 Agentes de IA - Introducción</h4 >
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">¿Qué son los Agentes de IA?</div><div class="tool-desc">Introducción completa al concepto de agentes autónomos</div><a href="https://www.youtube.com/results?search_query=agentes+ia+que+son+explicacion+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔄</div><div class="tool-name">Agentes vs Chatbots</div><div class="tool-desc">Diferencias clave entre chatbots y agentes de IA</div><a href="https://www.youtube.com/results?search_query=diferencia+agentes+ia+chatbots" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">⚡</div><div class="tool-name">Futuro de los Agentes</div><div class="tool-desc">Hacia dónde van los agentes de IA en 2024-2025</div><a href="https://www.youtube.com/results?search_query=futuro+agentes+ia+2024+2025" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🛠️</div><div class="tool-name">Crear tu propio Agente</div><div class="tool-desc">Cómo construir un agente de IA desde cero</div><a href="https://www.youtube.com/results?search_query=crear+agente+ia+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🌟 Manus y Genspark</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">Manus AI Tutorial</div><div class="tool-desc">Guía completa para usar Manus</div><a href="https://www.youtube.com/results?search_query=manus+ai+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔍</div><div class="tool-name">Genspark Tutorial</div><div class="tool-desc">Aprende a usar Genspark para investigación</div><a href="https://www.youtube.com/results?search_query=genspark+ai+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Sparkpages Genspark</div><div class="tool-desc">Cómo crear Sparkpages con información completa</div><a href="https://www.youtube.com/results?search_query=genspark+sparkpages+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🆚</div><div class="tool-name">Manus vs ChatGPT</div><div class="tool-desc">Comparativa entre Manus y ChatGPT</div><a href="https://www.youtube.com/results?search_query=manus+vs+chatgpt+comparativa" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🎭 Otros Agentes Especializados</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🎵</div><div class="tool-name">Minimax Tutorial</div><div class="tool-desc">Capacidades multimodales de Minimax</div><a href="https://www.youtube.com/results?search_query=minimax+ai+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔓</div><div class="tool-name">Suna AI Open Source</div><div class="tool-desc">El agente de código abierto</div><a href="https://www.youtube.com/results?search_query=suna+ai+open+source+agent" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔬</div><div class="tool-name">Deepagent Research</div><div class="tool-desc">Agente especializado en investigación</div><a href="https://www.youtube.com/results?search_query=deep+agent+ai+research" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">💻</div><div class="tool-name">Claude Computer Use</div><div class="tool-desc">El agente de Anthropic que usa tu computadora</div><a href="https://www.youtube.com/results?search_query=claude+computer+use+anthropic+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
+                videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos educativos sobre el uso de plataformas de Agentes de IA especializados y MCP. Haz clic en cualquier enlace para ver resultados de búsqueda en YouTube.</p>
+            <h4 class="tool-category">🤖 Model Context Protocol y Agentes</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card">
+                    <div class="tool-icon">🔗</div>
+                    <div class="tool-name">MCP Explicado</div>
+                    <div class="tool-desc">Qué es el Model Context Protocol y cómo cambia la IA</div>
+                    <a href="https://www.youtube.com/results?search_query=que+es+mcp+model+context+protocol+ia" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🚀</div>
+                    <div class="tool-name">Agentes Autónomos 2024</div>
+                    <div class="tool-desc">La revolución de los agentes que ejecutan tareas por ti</div>
+                    <a href="https://www.youtube.com/results?search_query=agentes+ia+autonomos+2024+explicacion" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">📚</div>
+                    <div class="tool-name">Agente Kimi AI</div>
+                    <div class="tool-desc">Tutorial del asistente Kimi K2 y sus capacidades en análisis</div>
+                    <a href="https://www.youtube.com/results?search_query=tutorial+kimi+ai+agente" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🔍</div>
+                    <div class="tool-name">Genspark AI Search</div>
+                    <div class="tool-desc">Búsqueda avanzada e inteligente usando Genspark</div>
+                    <a href="https://www.youtube.com/results?search_query=genspark+inteligencia+artificial+search" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">⚡</div>
+                    <div class="tool-name">Manus AI Tutorial</div>
+                    <div class="tool-desc">Aprende a ejecutar tareas complejas con el agente Manus</div>
+                    <a href="https://www.youtube.com/results?search_query=manus+ai+tutorial" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🎭</div>
+                    <div class="tool-name">Minimax Multimodal</div>
+                    <div class="tool-desc">Investigación y creación multimodal con Minimax</div>
+                    <a href="https://www.youtube.com/results?search_query=minimax+agente+multimodal+ia" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
             </div>`,
-                tools: `< p style = "font-size:13px;color:var(--gr);margin-bottom:20px" > Plataformas de agentes de IA para automatización de tareas complejas.</p >
-            <h4 class="tool-category">🤖 Agentes Principales</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">Manus AI</div><div class="tool-desc">Agente autónomo para tareas complejas</div><a href="https://manus.ai" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔍</div><div class="tool-name">Genspark</div><div class="tool-desc">Búsqueda inteligente con agentes</div><a href="https://genspark.ai" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🎭</div><div class="tool-name">Minimax</div><div class="tool-desc">Agente multimodal (video, audio, imagen)</div><a href="https://minimax.chat" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔬</div><div class="tool-name">Deepagent</div><div class="tool-desc">Investigación profunda automatizada</div><a href="https://deepagent.ai" target="_blank" class="tool-link">Abrir →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🔓 Agentes Open Source</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🚀</div><div class="tool-name">Suna AI</div><div class="tool-desc">Agente de código abierto personalizable</div><a href="https://github.com/suna-ai" target="_blank" class="tool-link">Ver →</a></div>
-                <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">AutoGPT</div><div class="tool-desc">Agente autónomo basado en GPT</div><a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank" class="tool-link">Ver →</a></div>
-                <div class="tool-card"><div class="tool-icon">👶</div><div class="tool-name">BabyAGI</div><div class="tool-desc">Framework de agentes simplificado</div><a href="https://github.com/yoheinakajima/babyagi" target="_blank" class="tool-link">Ver →</a></div>
-                <div class="tool-card"><div class="tool-icon">🦜</div><div class="tool-name">LangChain Agents</div><div class="tool-desc">Framework para crear agentes</div><a href="https://langchain.com" target="_blank" class="tool-link">Abrir →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">💼 Agentes Empresariales</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">💻</div><div class="tool-name">Claude Computer Use</div><div class="tool-desc">Agente de Anthropic que controla tu PC</div><a href="https://claude.ai" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔷</div><div class="tool-name">Microsoft Agents</div><div class="tool-desc">Agentes en el ecosistema Microsoft</div><a href="https://www.microsoft.com/copilot" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🌐</div><div class="tool-name">Google AI Agents</div><div class="tool-desc">Agentes de Google Cloud</div><a href="https://cloud.google.com/ai" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Salesforce Agents</div><div class="tool-desc">Agentes para CRM y ventas</div><a href="https://salesforce.com/agentforce" target="_blank" class="tool-link">Abrir →</a></div>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 6</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
+                    <a href="https://www.youtube.com/watch?v=mX3enpPh8ac" target="_blank" style="text-decoration:none;color:inherit;">
+                        <img src="https://img.youtube.com/vi/mX3enpPh8ac/hqdefault.jpg" alt="Uso de MCP" style="width:100%;height:160px;object-fit:cover;" />
+                            <div style="padding:12px;">
+                                <div style="font-weight:600;margin-bottom:4px;color:var(--wh)">🔗 Uso de MCP</div>
+                                <div style="font-size:12px;color:var(--gr)">El Protocolo que Cambió la IA Empresarial. Aprende a conectar IA con tus herramientas.</div>
+                            </div>
+                    </a>
+                </div>
+                <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
+                    <a href="https://www.youtube.com/watch?v=3vmSRyDk8sY" target="_blank" style="text-decoration:none;color:inherit;">
+                        <img src="https://img.youtube.com/vi/3vmSRyDk8sY/hqdefault.jpg" alt="Agentes de IA" style="width:100%;height:160px;object-fit:cover;" />
+                            <div style="padding:12px;">
+                                <div style="font-weight:600;margin-bottom:4px;color:var(--wh)">🤖 Agentes de IA</div>
+                                <div style="font-size:12px;color:var(--gr)">Plataformas de Agentes de IA Especializados (Kimi, Genspark, Manus, Minimax).</div>
+                            </div>
+                    </a>
+                </div>
             </div>`,
-                activities: `< h3 >📝 Actividades Asincrónicas - Unidad 6</h3 >
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+            <div class="presentation-container" style="position:relative; width:100%; padding-top:56.25%;">
+                <iframe src="https://docs.google.com/presentation/d/1hP9bFL8LhqGn_9i_QGXyEo0DiM1QNCaH8BuGQoppA7c/embed?rm=minimal" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allowfullscreen></iframe>
+            </div>`,
+                activities: `<h3>📝 Actividades Asincrónicas - Unidad 6</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🤖 Actividad 1: Explorar Manus AI (50 min)</h4>
-                <p style="margin-bottom:12px">Experimenta con el agente Manus para una tarea compleja:</p>
+                <h4 style="color:var(--p);margin-bottom:12px">🔗 Actividad 1: Uso de MCP en Gemini/ChatGPT (45 min)</h4>
+                <p style="margin-bottom:12px">Aprende a conectar la inteligencia artificial con tus herramientas cotidianas usando MCP:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Accede a Manus AI y familiarízate con la interfaz</li>
-                    <li>Define una tarea de investigación compleja (ej: comparar 5 herramientas de IA para tu trabajo)</li>
-                    <li>Observa cómo el agente planifica y ejecuta los pasos</li>
-                    <li>Documenta el proceso: qué hizo bien, qué falló, tiempo total</li>
-                    <li>Compara el resultado con lo que habrías hecho manualmente</li>
+                    <li>Ingresa a Gemini o ChatGPT y accede a la sección de configuración de aplicaciones/MCPs integrados.</li>
+                    <li>Conecta una herramienta de tu ecosistema de trabajo (por ejemplo, Google Calendar, Gmail, o Google Drive).</li>
+                    <li>Utiliza un prompt específico que le pida a la IA interactuar con tu herramienta (ej. "Resume mis correos de ayer" o "Crea dos eventos en mi calendario para la próxima semana").</li>
+                    <li>Observa la autonomía y la integración proporcionada por la conexión MCP.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Documento con la tarea, proceso observado y análisis</p>
+                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Captura de pantalla de la respuesta o de la acción completada y una breve reseña de su efectividad.</p>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🔍 Actividad 2: Crear Sparkpage en Genspark (40 min)</h4>
-                <p style="margin-bottom:12px">Usa Genspark para generar una página de investigación:</p>
+                <h4 style="color:var(--g);margin-bottom:12px">🤖 Actividad 2: Creación Autónoma de Presentaciones con Kimi K2 (40 min)</h4>
+                <p style="margin-bottom:12px">Delega la creación de contenido a un agente de IA especializado:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Elige un tema relevante para tu área profesional</li>
-                    <li>Usa Genspark para crear una Sparkpage completa</li>
-                    <li>Analiza las fuentes que utilizó y verifica su precisión</li>
-                    <li>Compara la calidad con una búsqueda tradicional en Google</li>
+                    <li>Accede a la plataforma Kimi (Kimi 2.5) e ingresa al modo agente para presentaciones o documentos.</li>
+                    <li>Suministra un texto, artículo de investigación, o el documento proporcionado en el material de la unidad y pídele que cree una presentación formal y estructurada en formato visual.</li>
+                    <li>Interactúa con Kimi para refinar las diapositivas y personalizar el estilo gráfico.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Enlace a la Sparkpage + análisis de calidad</p>
+                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Enlace al resultado generado por Kimi o archivo exportado de la presentación.</p>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📊 Actividad 3: Comparativa de Agentes (45 min)</h4>
-                <p style="margin-bottom:12px">Compara diferentes agentes de IA:</p>
+                <h4 style="color:var(--w);margin-bottom:12px">📊 Actividad 3: Creación de Simuladores y Aplicaciones con Manus (60 min)</h4>
+                <p style="margin-bottom:12px">Observa cómo un agente de IA puede ir desde un simple prompt hasta desarrollar una app funcional interactiva:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Elige una misma tarea para probar en 3 agentes diferentes</li>
-                    <li>Ejecuta la tarea en: Manus, Genspark y otro de tu elección</li>
-                    <li>Evalúa: velocidad, precisión, facilidad de uso, costo</li>
-                    <li>Crea una tabla comparativa con puntuaciones</li>
-                    <li>Recomienda cuál usar para diferentes tipos de tareas</li>
+                    <li>Ingresa a la plataforma Manus y utiliza un prompt de alto nivel solicitando una herramienta (ej. análisis bursátil, un panel interactivo o un simulador de inversiones).</li>
+                    <li>Instruye a Manus para que incluya datos en tiempo real de rentabilidad, riesgo y gráficos.</li>
+                    <li>Evalúa el desarrollo multi-paso autónomo del agente hasta completar la aplicación.</li>
+                    <li>Interactúa con los controles, cajas de texto y simuladores generados en la interfaz de usuario.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Tabla comparativa + recomendaciones por caso de uso</p>
+                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Captura de pantalla de la aplicación desarrollada y una breve comparación frente a hacerlo manualmente.</p>
             </div>`,
                 quiz: [
                     { q: "¿Qué diferencia principal tienen los agentes de IA respecto a los chatbots?", o: ["Son más baratos", "Pueden ejecutar tareas autónomas de múltiples pasos", "Solo responden en inglés", "Requieren programación"], c: 1 },
@@ -4935,156 +4908,117 @@
                         { icon: "✅", title: "Sistema de Evaluación", items: ["Ejercicios prácticos por módulo: 40%", "Proyecto final aplicado: 30%", "Participación y asistencia: 20%", "Actividades asincrónicas: 10%"] }
                     ]
                 },
-                summary: `< h3 >🔬 ¿Qué es Google AI Studio ?</h3 >
-            <p><strong>Google AI Studio</strong> es la plataforma gratuita de Google para experimentar con modelos de IA Gemini. Permite crear, probar y optimizar prompts antes de integrarlos en aplicaciones.</p>
+                summary: `<h3>⚡ Vibe Coding e Ingeniería de Especificación</h3>
+            <p>La inteligencia artificial ha revolucionado la programación. El <strong>Vibe Coding</strong> (término acuñado por Andrej Karpathy) es una metodología de desarrollo asistida donde describes en lenguaje natural qué quieres crear ("la vibra" o esencia) y la IA genera el código automáticamente. Sin embargo, para resultados profesionales y escalables, se requiere la <strong>Ingeniería de Especificación</strong>.</p>
             
-            <div class="example"><h4>💡 Características Principales</h4><ul>
-                <li><strong>Acceso gratuito:</strong> Sin costo para experimentación y desarrollo</li>
-                <li><strong>Modelos Gemini:</strong> Acceso a los últimos modelos de Google</li>
-                <li><strong>Multimodal:</strong> Procesa texto, imágenes, audio y video</li>
-                <li><strong>Exportación:</strong> Genera código para integrar en aplicaciones</li>
-                <li><strong>Prompt Gallery:</strong> Ejemplos listos para usar y aprender</li>
-            </ul></div>
-            
-            <h3>🤖 Modelos Gemini Disponibles</h3>
-            <p>Google ofrece diferentes versiones de Gemini optimizadas para distintos casos:</p>
-            <div class="case"><h4>📊 Comparativa de Modelos</h4>
-            <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:12px">
-                <tr style="background:rgba(99,102,241,.2)"><th style="padding:8px;text-align:left">Modelo</th><th style="padding:8px">Velocidad</th><th style="padding:8px">Capacidad</th><th style="padding:8px">Mejor para</th></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Gemini 1.5 Flash</td><td style="padding:8px">⚡ Muy rápido</td><td style="padding:8px">1M tokens</td><td style="padding:8px">Tareas rápidas, alto volumen</td></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Gemini 1.5 Pro</td><td style="padding:8px">🚀 Rápido</td><td style="padding:8px">2M tokens</td><td style="padding:8px">Tareas complejas, análisis</td></tr>
-                <tr><td style="padding:8px">Gemini Ultra</td><td style="padding:8px">🎯 Moderado</td><td style="padding:8px">Máximo</td><td style="padding:8px">Razonamiento avanzado</td></tr>
-            </table></div>
-            
-            <h3>📝 Tipos de Prompts en AI Studio</h3>
-            <p>Google AI Studio ofrece tres modos de trabajo:</p>
+            <div class="example"><h4>💡 ¿Qué es la Ingeniería de Especificación?</h4>
+            <p>Es el proceso de descomponer problemas complejos en pasos claros, explícitos y secuenciales para la IA. La clave es dar <strong>pasos, no objetivos vagos</strong>. Todo buen prompt debe incluir:</p>
             <ul>
-                <li><strong>Freeform Prompt:</strong> Entrada libre de texto, ideal para experimentar</li>
-                <li><strong>Structured Prompt:</strong> Define instrucciones + ejemplos de entrada/salida</li>
-                <li><strong>Chat Prompt:</strong> Conversaciones de múltiples turnos</li>
-            </ul>
-            
-            <h3>⚙️ Parámetros de Configuración</h3>
-            <p>Ajusta el comportamiento del modelo con estos parámetros:</p>
-            <div class="example"><h4>🎛️ Parámetros Clave</h4><ul>
-                <li><strong>Temperatura (0-2):</strong> Controla creatividad. Bajo = preciso, Alto = creativo</li>
-                <li><strong>Top-P (0-1):</strong> Nucleus sampling, controla diversidad de respuestas</li>
-                <li><strong>Top-K (1-40):</strong> Limita tokens considerados en cada paso</li>
-                <li><strong>Max Output Tokens:</strong> Longitud máxima de la respuesta</li>
-                <li><strong>Stop Sequences:</strong> Palabras que detienen la generación</li>
+                <li><strong>Contexto:</strong> Tipo de problema y qué representan los datos.</li>
+                <li><strong>Objetivo:</strong> Qué se quiere obtener.</li>
+                <li><strong>Entradas:</strong> Variables/insumos disponibles.</li>
+                <li><strong>Pasos Explícitos:</strong> Secuencia ordenada de acciones.</li>
+                <li><strong>Restricciones:</strong> Límites, formatos o herramientas a usar.</li>
+                <li><strong>Salida Esperada:</strong> Forma del resultado final (artifacts, diffs, etc.).</li>
             </ul></div>
             
-            <h3>🎨 Capacidades Multimodales</h3>
-            <p>Gemini puede procesar múltiples tipos de contenido:</p>
-            <div class="case"><h4>📁 Tipos de Entrada Soportados</h4><ul>
-                <li><strong>Texto:</strong> Prompts, documentos, código</li>
-                <li><strong>Imágenes:</strong> Análisis, descripción, OCR</li>
-                <li><strong>Audio:</strong> Transcripción, análisis de contenido</li>
-                <li><strong>Video:</strong> Resumen, extracción de información</li>
-                <li><strong>PDFs:</strong> Análisis de documentos completos</li>
-            </ul></div>
+            <h3>🔬 Google AI Studio: Tu Laboratorio de Prompts</h3>
+            <p><strong>Google AI Studio</strong> es un "playground" interactivo para experimentar y refinar instrucciones con los modelos Gemini (texto, imagen, audio y video). Permite aplicar la ingeniería de especificación, probar distintos parámetros (temperatura, top-k) y exportar resultados a código utilizando flujos como <em>Freeform</em>, <em>Structured</em> o <em>Chat Prompt</em>.</p>
             
-            <h3>💻 Code Execution</h3>
-            <p>Una función poderosa que permite a Gemini ejecutar código Python:</p>
-            <ul>
-                <li><strong>Cálculos matemáticos:</strong> Operaciones precisas sin alucinaciones</li>
-                <li><strong>Análisis de datos:</strong> Procesa y visualiza información</li>
-                <li><strong>Generación de gráficos:</strong> Crea visualizaciones automáticas</li>
-                <li><strong>Manipulación de archivos:</strong> Lee y procesa datos</li>
-            </ul>
-            
-            <h3>🚀 Exportar a Código</h3>
-            <p>Una vez optimizado tu prompt, puedes exportarlo como código:</p>
-            <div class="example"><h4>📤 Opciones de Exportación</h4><ul>
-                <li><strong>Python:</strong> Usando la librería google-generativeai</li>
-                <li><strong>JavaScript:</strong> Para aplicaciones web</li>
-                <li><strong>cURL:</strong> Para integración con cualquier lenguaje</li>
-                <li><strong>API Key:</strong> Genera claves para tu aplicación</li>
-            </ul></div>
+            <h3>🚀 IDEs Agent-First (Antigravity)</h3>
+            <p>Herramientas como <strong>Antigravity</strong> no son solo un chat; son entornos (IDE) orientados a agentes donde la IA planifica, codifica y verifica. El agente actúa sobre tu proyecto manipulando el <strong>Editor</strong>, la <strong>Terminal</strong> y el <strong>Browser</strong>.</p>
+            <div class="case"><h4>⚙️ El Ciclo de Trabajo Agent-First</h4>
+            <p>Trabajamos bajo el modelo <strong>Review-driven development</strong> (revisión humana constante):</p>
+            <ol>
+                <li><strong>Prompt Maestro:</strong> Define objetivo, restricciones e insumos (ej. carpetas <code>/info</code> y <code>/imagenes</code>).</li>
+                <li><strong>Artifacts de Planeación:</strong> El agente genera un <em>Task List</em> y un <em>Implementation Plan</em> para tu aprobación.</li>
+                <li><strong>Code Diffs:</strong> Revisión y aceptación de cambios al código.</li>
+                <li><strong>Verificación y Walkthrough:</strong> Pruebas automáticas en el navegador y documentación final.</li>
+            </ol></div>
             
             <div class="bib"><h3>📚 Bibliografía</h3>
-                <p>Google. (2024). <em>Google AI Studio Documentation</em>. https://ai.google.dev/docs</p>
-                <p>Google. (2024). <em>Gemini API Guide</em>. https://ai.google.dev/gemini-api</p>
-                <p>Google. (2024). <em>Prompt Design Guidelines</em>. https://ai.google.dev/docs/prompt_best_practices</p>
+                <p>Google. (2025). <em>Google AI Studio Documentation</em></p>
+                <p>Karpathy, A. (2025). <em>Vibe Coding Paradigm</em></p>
             </div>`,
-                videos: `< h4 class="tool-category" >🔬 Introducción a Google AI Studio</h4 >
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">Google AI Studio Tutorial</div><div class="tool-desc">Guía completa para comenzar con AI Studio</div><a href="https://www.youtube.com/results?search_query=google+ai+studio+tutorial+español+2024" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">Modelos Gemini Explicados</div><div class="tool-desc">Diferencias entre Gemini Flash, Pro y Ultra</div><a href="https://www.youtube.com/results?search_query=gemini+flash+pro+ultra+diferencias+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📝</div><div class="tool-name">Prompt Engineering en AI Studio</div><div class="tool-desc">Cómo crear prompts efectivos en la plataforma</div><a href="https://www.youtube.com/results?search_query=prompt+engineering+google+ai+studio" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">⚙️</div><div class="tool-name">Parámetros Avanzados</div><div class="tool-desc">Temperatura, top-p, top-k explicados</div><a href="https://www.youtube.com/results?search_query=temperatura+top+p+top+k+ia+explicacion" target="_blank" class="tool-link">Ver en YouTube →</a></div>
+                videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos educativos sobre Vibe Coding, Google AI Studio y el uso de IDEs Agent-First. Haz clic en cualquier enlace para buscar en YouTube.</p>
+            <h4 class="tool-category">🧠 Vibe Coding e Ingeniería de Prompts</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card">
+                    <div class="tool-icon">⚡</div>
+                    <div class="tool-name">Vibe Coding</div>
+                    <div class="tool-desc">Andrej Karpathy y la programación en lenguaje natural</div>
+                    <a href="https://www.youtube.com/results?search_query=vibe+coding+andrej+karpathy+ia" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">✍️</div>
+                    <div class="tool-name">Ingeniería de Especificación</div>
+                    <div class="tool-desc">Cómo estructurar prompts complejos paso a paso</div>
+                    <a href="https://www.youtube.com/results?search_query=ingenieria+de+prompts+especificacion+paso+a+paso" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🎨 Capacidades Multimodales</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🖼️</div><div class="tool-name">Análisis de Imágenes</div><div class="tool-desc">Usar Gemini para analizar imágenes</div><a href="https://www.youtube.com/results?search_query=gemini+analisis+imagenes+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🎬</div><div class="tool-name">Análisis de Video</div><div class="tool-desc">Procesar videos con Gemini</div><a href="https://www.youtube.com/results?search_query=gemini+video+analysis+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🎵</div><div class="tool-name">Procesamiento de Audio</div><div class="tool-desc">Transcripción y análisis de audio</div><a href="https://www.youtube.com/results?search_query=gemini+audio+transcription+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📄</div><div class="tool-name">Análisis de PDFs</div><div class="tool-desc">Procesar documentos largos con Gemini</div><a href="https://www.youtube.com/results?search_query=gemini+pdf+analysis+documents" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">💻 Desarrollo y APIs</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🐍</div><div class="tool-name">Gemini API Python</div><div class="tool-desc">Integrar Gemini en aplicaciones Python</div><a href="https://www.youtube.com/results?search_query=gemini+api+python+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">💻</div><div class="tool-name">Code Execution</div><div class="tool-desc">Ejecutar código Python en Gemini</div><a href="https://www.youtube.com/results?search_query=gemini+code+execution+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔑</div><div class="tool-name">API Keys y Autenticación</div><div class="tool-desc">Configurar acceso a la API de Gemini</div><a href="https://www.youtube.com/results?search_query=google+ai+api+key+configurar" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Prompt Gallery</div><div class="tool-desc">Explora ejemplos listos para usar</div><a href="https://www.youtube.com/results?search_query=google+ai+studio+prompt+gallery" target="_blank" class="tool-link">Ver en YouTube →</a></div>
+            
+            <h4 class="tool-category" style="margin-top:30px">🔬 Google AI Studio y Agent-First IDEs</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card">
+                    <div class="tool-icon">🌟</div>
+                    <div class="tool-name">Google AI Studio Tutorial</div>
+                    <div class="tool-desc">Experimentación y refino de instrucciones en Gemini</div>
+                    <a href="https://www.youtube.com/results?search_query=google+ai+studio+tutorial+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🚀</div>
+                    <div class="tool-name">IDE Agent-First</div>
+                    <div class="tool-desc">Codificación asistida por agentes autónomos</div>
+                    <a href="https://www.youtube.com/results?search_query=ide+agent+first+ai+coding" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
             </div>`,
-                tools: `< p style = "font-size:13px;color:var(--gr);margin-bottom:20px" > Herramientas y recursos de Google AI Studio y el ecosistema Gemini.</p >
-            <h4 class="tool-category">🔬 Plataforma Principal</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">Google AI Studio</div><div class="tool-desc">Plataforma principal para experimentar con Gemini</div><a href="https://aistudio.google.com" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Prompt Gallery</div><div class="tool-desc">Galería de prompts listos para usar</div><a href="https://aistudio.google.com/prompts" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">📖</div><div class="tool-name">Documentación</div><div class="tool-desc">Guías y referencias técnicas</div><a href="https://ai.google.dev/docs" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔑</div><div class="tool-name">API Keys</div><div class="tool-desc">Genera claves de API para tus proyectos</div><a href="https://aistudio.google.com/apikey" target="_blank" class="tool-link">Abrir →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🤖 Productos Gemini</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">✨</div><div class="tool-name">Gemini (Chat)</div><div class="tool-desc">Interfaz conversacional de Gemini</div><a href="https://gemini.google.com" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">💎</div><div class="tool-name">Gemini Advanced</div><div class="tool-desc">Versión premium con más capacidades</div><a href="https://one.google.com/gemini" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">📓</div><div class="tool-name">NotebookLM</div><div class="tool-desc">Investigación con documentos propios</div><a href="https://notebooklm.google.com" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔍</div><div class="tool-name">AI Overviews</div><div class="tool-desc">IA en la búsqueda de Google</div><a href="https://www.google.com" target="_blank" class="tool-link">Abrir →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">💻 Desarrollo</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🐍</div><div class="tool-name">Python SDK</div><div class="tool-desc">Librería oficial google-generativeai</div><a href="https://pypi.org/project/google-generativeai/" target="_blank" class="tool-link">Ver →</a></div>
-                <div class="tool-card"><div class="tool-icon">📓</div><div class="tool-name">Google Colab</div><div class="tool-desc">Notebooks para experimentar con código</div><a href="https://colab.research.google.com" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">☁️</div><div class="tool-name">Vertex AI</div><div class="tool-desc">IA empresarial en Google Cloud</div><a href="https://cloud.google.com/vertex-ai" target="_blank" class="tool-link">Ver →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔧</div><div class="tool-name">AI Test Kitchen</div><div class="tool-desc">Experimenta con nuevas funciones de IA</div><a href="https://aitestkitchen.withgoogle.com" target="_blank" class="tool-link">Abrir →</a></div>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 7</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
+                    <a href="https://www.youtube.com/watch?v=LTm8FgcNHJc" target="_blank" style="text-decoration:none;color:inherit;">
+                        <img src="https://img.youtube.com/vi/LTm8FgcNHJc/hqdefault.jpg" alt="Vibe Coding e Ingeniería de Especificación" style="width:100%;height:160px;object-fit:cover;" />
+                            <div style="padding:12px;">
+                                <div style="font-weight:600;margin-bottom:4px;color:var(--wh)">⚡ Vibe Coding e Ingeniería</div>
+                                <div style="font-size:12px;color:var(--gr)">Conceptos clave sobre diseño de prompts estructurados y programación en lenguaje natural.</div>
+                            </div>
+                    </a>
+                </div>
+                <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
+                    <a href="https://www.youtube.com/watch?v=ZwAExZYwDJ4" target="_blank" style="text-decoration:none;color:inherit;">
+                        <img src="https://img.youtube.com/vi/ZwAExZYwDJ4/hqdefault.jpg" alt="Uso de IDE Agent-First" style="width:100%;height:160px;object-fit:cover;" />
+                            <div style="padding:12px;">
+                                <div style="font-weight:600;margin-bottom:4px;color:var(--wh)">🚀 IDE Agent-First</div>
+                                <div style="font-size:12px;color:var(--gr)">Tutorial práctico de uso de agentes autónomos para desarrollar un sitio web iterativamente.</div>
+                            </div>
+                    </a>
+                </div>
             </div>`,
-                activities: `< h3 >📝 Actividades Asincrónicas - Unidad 7</h3 >
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+            <div class="presentation-container" style="position:relative; width:100%; padding-top:56.25%;">
+                <iframe src="https://docs.google.com/presentation/d/12vL8DCfr60RSXlZvefE9hU6kNCcIua9UymDV4Xz6QAI/embed?rm=minimal" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allowfullscreen></iframe>
+            </div>`,
+                activities: `<h3>📝 Actividades Asincrónicas - Unidad 7</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🔬 Actividad 1: Explorar Google AI Studio (50 min)</h4>
-                <p style="margin-bottom:12px">Familiarízate con la plataforma y sus funcionalidades:</p>
+                <h4 style="color:var(--p);margin-bottom:12px">🔬 Actividad 1: Laboratorio en Google AI Studio (45 min)</h4>
+                <p style="margin-bottom:12px">Utiliza AI Studio para estructurar un prompt de diseño web mediante Ingeniería de Especificación:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Accede a Google AI Studio con tu cuenta de Google</li>
-                    <li>Explora la Prompt Gallery y prueba al menos 5 prompts diferentes</li>
-                    <li>Crea un prompt Freeform para una tarea de tu área laboral</li>
-                    <li>Experimenta con diferentes valores de temperatura (0.1, 0.5, 1.0)</li>
-                    <li>Documenta cómo cambian las respuestas con cada configuración</li>
+                    <li>Accede a Google AI Studio y abre un <em>Structured Prompt</em>.</li>
+                    <li>Define el Contexto y Objetivo (Ej. Crear un brief para una web corporativa).</li>
+                    <li>Solicita desglosar la respuesta en tres pasos explícitos: 1) Sitemap, 2) Wireframe textual, 3) HTML/CSS mínimo.</li>
+                    <li>Interactúa de forma iterativa y refina las respuestas del modelo.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Documento con capturas y análisis de las diferencias observadas</p>
+                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Captura del prompt estructurado generado y el HTML/CSS resultante propuesto por el modelo.</p>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🎨 Actividad 2: Análisis Multimodal (45 min)</h4>
-                <p style="margin-bottom:12px">Prueba las capacidades multimodales de Gemini:</p>
+                <h4 style="color:var(--g);margin-bottom:12px">🚀 Actividad 2: Flujo Completo con IDE Agent-First (60 min)</h4>
+                <p style="margin-bottom:12px">Adopta el rol de <em>Product Owner</em> y orquesta a un Agente de IA para programar por ti:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Sube una imagen y pide a Gemini que la analice y describa</li>
-                    <li>Sube un PDF de un documento de trabajo y extrae información clave</li>
-                    <li>Si tienes audio/video, prueba la transcripción y análisis</li>
-                    <li>Compara la precisión con otras herramientas que hayas usado</li>
+                    <li>Abre el entorno guiado por agentes (Antigravity u otro equivalente habilitado) con tu workspace limpio.</li>
+                    <li>Crea una carpeta <code style="background:rgba(255,255,255,.1);padding:2px 4px;border-radius:4px">/info</code> y añade un archivo de texto con la descripción de tu empresa.</li>
+                    <li>Ejecuta el "Prompt Maestro" requiriendo generación de <em>Task List</em> y <em>Implementation Plan</em> antes de codificar.</li>
+                    <li>Aprueba los Diffs de código y revisa el resultado web final iterando si es necesario.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Informe de capacidades multimodales con ejemplos de cada tipo</p>
-            </div>
-            <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">💻 Actividad 3: Crear un Prompt Estructurado (40 min)</h4>
-                <p style="margin-bottom:12px">Diseña un prompt profesional con ejemplos:</p>
-                <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Elige una tarea repetitiva de tu trabajo que podrías automatizar</li>
-                    <li>Crea un Structured Prompt con instrucciones claras</li>
-                    <li>Agrega al menos 3 ejemplos de entrada/salida esperada</li>
-                    <li>Prueba con 5 nuevas entradas y evalúa los resultados</li>
-                    <li>Exporta el código Python del prompt</li>
-                </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Prompt estructurado + código exportado + evaluación de resultados</p>
+                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Captura del "Artifact: Task List" generado por el agente y enlace/pantalla de la web funcional.</p>
             </div>`,
                 quiz: [
                     { q: "¿Qué es Google AI Studio?", o: ["Una red social", "Plataforma para experimentar con modelos Gemini", "Un editor de video", "Un servicio de almacenamiento"], c: 1 },
@@ -5121,186 +5055,100 @@
                 summary: `< h3 >🔗 Ejercicio Integrador del Módulo 2</h3 >
             <p>Este ejercicio integrador te permite demostrar los conocimientos adquiridos durante las semanas 4-7, combinando las diferentes herramientas de IA para automatización en un proyecto práctico.</p>
             
+            <h4>🎯 Propósito del Ejercicio</h4>
+            <p>Reproducir situaciones laborales donde no se requiere programación avanzada, utilizando la IA de forma operativa para automatizar tareas rutinarias. El objetivo es lograr una <strong>mejora continua</strong>: aumentar eficiencia, reducir errores y estandarizar procesos administrativos.</p>
+            
             <div class="example"><h4>💡 Herramientas del Módulo 2 a Integrar</h4><ul>
-                <li><strong>Unidad 4:</strong> Microsoft Office + IA (Copilot, Excel, Word, PowerPoint)</li>
-                <li><strong>Unidad 5:</strong> GPTs personalizados y Google Gems</li>
-                <li><strong>Unidad 6:</strong> Agentes de IA (Manus, Genspark, Minimax)</li>
-                <li><strong>Unidad 7:</strong> Google AI Studio y modelos Gemini</li>
+                <li><strong>Unidad 4:</strong> Automatización de procesos en Microsoft Office con IA</li>
+                <li><strong>Unidad 5:</strong> Automatización desde herramientas de IA generativa</li>
+                <li><strong>Unidad 6:</strong> Uso de agentes de IA especializados</li>
+                <li><strong>Unidad 7:</strong> Plataforma Google AI Studio</li>
             </ul></div>
             
-            <h3>📋 Estructura del Proyecto Integrador</h3>
+            <h3>📋 Caso Práctico Propuesto</h3>
+            <p>Seleccionar o simular un proceso administrativo típico (consolidación de información, limpieza de datos, generación de reportes). Usar una Gema, un GPT o un asistente para realizar parte del proceso, y desarrollar otra parte mediante una macro en herramientas ofimáticas.</p>
+            
             <div class="case"><h4>📊 Fases del Proyecto</h4>
-            <p><strong>Fase 1 - Identificación (1 hora):</strong></p>
-            <ul>
-                <li>Identificar un proceso repetitivo en tu trabajo o vida personal</li>
-                <li>Analizar los pasos actuales y tiempo invertido</li>
-                <li>Definir objetivos de mejora medibles</li>
-            </ul>
-            <p style="margin-top:12px"><strong>Fase 2 - Diseño (1.5 horas):</strong></p>
-            <ul>
-                <li>Seleccionar las herramientas más apropiadas</li>
-                <li>Diseñar el flujo de trabajo automatizado</li>
-                <li>Crear un diagrama del proceso</li>
-            </ul>
-            <p style="margin-top:12px"><strong>Fase 3 - Implementación (2.5 horas):</strong></p>
-            <ul>
-                <li>Configurar cada herramienta seleccionada</li>
-                <li>Conectar los componentes del flujo</li>
-                <li>Probar y ajustar la solución</li>
-            </ul>
-            <p style="margin-top:12px"><strong>Fase 4 - Documentación (1 hora):</strong></p>
-            <ul>
-                <li>Documentar el proceso y configuraciones</li>
-                <li>Medir resultados vs línea base</li>
-                <li>Preparar presentación de resultados</li>
-            </ul>
+            <p><strong>Paso 1 - Identificación:</strong> Identificar tarea rutinaria, describir proceso manual, detectar posibles errores humanos.</p>
+            <p style="margin-top:12px"><strong>Paso 2 - Preparación del Archivo Base:</strong> Crear o adaptar el archivo de Office, organizar estructura y verificar funcionamiento manual.</p>
+            <p style="margin-top:12px"><strong>Paso 3 y 4 - Asistente y Generación de Macro:</strong> Formular prompts claros a la IA, solicitar código comentado en VBA e integrarlo en el editor del archivo.</p>
+            <p style="margin-top:12px"><strong>Pasos 5 al 7 - Pruebas e Integración:</strong> Ejecutar con datos reales, identificar errores, optimizar con IA, incorporar al uso cotidiano y documentar el funcionamiento final.</p>
             </div>
             
-            <h3>💼 Ideas de Proyectos Integradores</h3>
-            <div class="example"><h4>🌟 Ejemplos por Área</h4>
-            <p><strong>Ventas/Marketing:</strong></p>
-            <ul>
-                <li>Sistema de generación de propuestas con GPT + Word + Excel</li>
-                <li>Investigación de competencia con agentes + AI Studio</li>
-                <li>Generador de contenido para redes con múltiples IAs</li>
-            </ul>
-            <p style="margin-top:12px"><strong>Administración:</strong></p>
-            <ul>
-                <li>Procesamiento automático de correos con GPT + Excel</li>
-                <li>Generación de reportes con Copilot + agentes de investigación</li>
-                <li>Sistema de FAQ automatizado con GPT personalizado</li>
-            </ul>
-            <p style="margin-top:12px"><strong>Educación:</strong></p>
-            <ul>
-                <li>Generador de material didáctico con múltiples herramientas</li>
-                <li>Tutor virtual con GPT + AI Studio</li>
-                <li>Sistema de evaluación automatizada</li>
-            </ul>
-            </div>
-            
-            <h3>📊 Matriz de Selección de Herramientas</h3>
-            <table style="width:100%;border-collapse:collapse;margin:16px 0;font-size:12px">
-                <tr style="background:rgba(99,102,241,.2)"><th style="padding:8px;text-align:left">Necesidad</th><th style="padding:8px">Herramienta Recomendada</th></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Documentos/Hojas de cálculo</td><td style="padding:8px">Copilot + Office</td></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Asistente especializado</td><td style="padding:8px">GPT personalizado / Gem</td></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Investigación compleja</td><td style="padding:8px">Agentes (Manus, Genspark)</td></tr>
-                <tr style="border-bottom:1px solid rgba(255,255,255,.1)"><td style="padding:8px">Análisis multimodal</td><td style="padding:8px">Google AI Studio</td></tr>
-                <tr><td style="padding:8px">Contenido multimedia</td><td style="padding:8px">Minimax + DALL-E</td></tr>
-            </table>
-            
-            <h3>📝 Rúbrica de Evaluación</h3>
-            <div class="case"><h4>✅ Criterios Detallados</h4>
-            <p><strong>Integración de Herramientas (30%):</strong></p>
-            <ul>
-                <li>Usa mínimo 3 herramientas diferentes del módulo</li>
-                <li>Las herramientas se complementan efectivamente</li>
-                <li>Justifica la selección de cada herramienta</li>
-            </ul>
-            <p style="margin-top:12px"><strong>Funcionalidad (25%):</strong></p>
-            <ul>
-                <li>La solución funciona correctamente</li>
-                <li>Resuelve el problema identificado</li>
-                <li>Demuestra ahorro de tiempo/mejora de calidad</li>
-            </ul>
-            <p style="margin-top:12px"><strong>Documentación (25%):</strong></p>
-            <ul>
-                <li>Proceso claro y replicable</li>
-                <li>Incluye capturas y ejemplos</li>
-                <li>Presenta métricas de mejora</li>
-            </ul>
-            <p style="margin-top:12px"><strong>Creatividad (20%):</strong></p>
-            <ul>
-                <li>Solución innovadora al problema</li>
-                <li>Uso creativo de las herramientas</li>
-                <li>Potencial de escalabilidad</li>
-            </ul>
-            </div>
-            
-            <div class="bib"><h3>📚 Recursos de Apoyo</h3>
-                <p>Revisa los materiales de las Unidades 4-7 para refrescar conceptos</p>
-                <p>Consulta la documentación oficial de cada herramienta</p>
-                <p>Usa el simulador de esta unidad para resolver dudas</p>
+            <div class="bib"><h3>📚 Resultados Finales Esperados</h3>
+                <ol>
+                    <li>Archivo funcional con la macro operativa.</li>
+                    <li>Documentación del proceso.</li>
+                    <li>Evidencia del uso de IA (prompts y ajustes).</li>
+                    <li>Explicación escrita de los beneficios.</li>
+                </ol>
             </div>`,
-                videos: `< h4 class="tool-category" >🔗 Integración de Herramientas de IA</h4 >
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🔄</div><div class="tool-name">Integrar Múltiples IAs</div><div class="tool-desc">Cómo combinar ChatGPT, Gemini y otras IAs</div><a href="https://www.youtube.com/results?search_query=integrar+chatgpt+gemini+multiples+ia" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Flujos de Trabajo con IA</div><div class="tool-desc">Diseñar procesos automatizados con IA</div><a href="https://www.youtube.com/results?search_query=flujos+trabajo+automatizados+ia" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">💼</div><div class="tool-name">Casos de Uso Empresariales</div><div class="tool-desc">Ejemplos reales de automatización con IA</div><a href="https://www.youtube.com/results?search_query=casos+uso+empresariales+ia+automatizacion" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📈</div><div class="tool-name">Medir ROI de IA</div><div class="tool-desc">Cómo medir el impacto de la automatización</div><a href="https://www.youtube.com/results?search_query=medir+roi+inteligencia+artificial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🛠️ Tutoriales de Herramientas</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🔷</div><div class="tool-name">Copilot Avanzado</div><div class="tool-desc">Funciones avanzadas de Microsoft Copilot</div><a href="https://www.youtube.com/results?search_query=microsoft+copilot+avanzado+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">GPTs Profesionales</div><div class="tool-desc">Crear GPTs de nivel empresarial</div><a href="https://www.youtube.com/results?search_query=gpts+personalizados+empresariales" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">Agentes Productividad</div><div class="tool-desc">Usar agentes para máxima productividad</div><a href="https://www.youtube.com/results?search_query=agentes+ia+productividad+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔬</div><div class="tool-name">AI Studio Pro</div><div class="tool-desc">Técnicas avanzadas en Google AI Studio</div><a href="https://www.youtube.com/results?search_query=google+ai+studio+avanzado+pro" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">📋 Documentación y Presentación</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">📝</div><div class="tool-name">Documentar Proyectos IA</div><div class="tool-desc">Mejores prácticas de documentación</div><a href="https://www.youtube.com/results?search_query=documentar+proyectos+ia+mejores+practicas" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🎯</div><div class="tool-name">Presentaciones Efectivas</div><div class="tool-desc">Cómo presentar proyectos tecnológicos</div><a href="https://www.youtube.com/results?search_query=presentar+proyectos+tecnologia+efectivo" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Diagramas de Flujo</div><div class="tool-desc">Crear diagramas de procesos automatizados</div><a href="https://www.youtube.com/results?search_query=crear+diagramas+flujo+procesos+automatizacion" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">✅</div><div class="tool-name">Métricas de Éxito</div><div class="tool-desc">Definir y medir KPIs de automatización</div><a href="https://www.youtube.com/results?search_query=metricas+kpi+automatizacion+ia" target="_blank" class="tool-link">Ver en YouTube →</a></div>
+                videos: `< p style = "font-size:13px;color:var(--gr);margin-bottom:20px" > Videos recomendados sobre cómo integrar IA con herramientas ofimáticas y automatización básica.</p >
+            <h4 class="tool-category">🔗 Integración y Automatización</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card">
+                    <div class="tool-icon">📈</div>
+                    <div class="tool-name">Macros con IA</div>
+                    <div class="tool-desc">Cómo crear macros en Excel usando ChatGPT o Gemini</div>
+                    <a href="https://www.youtube.com/results?search_query=crear+macros+excel+con+inteligencia+artificial" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🤖</div>
+                    <div class="tool-name">Asistentes Personalizados</div>
+                    <div class="tool-desc">Creación de GPTs o Gems para tareas específicas</div>
+                    <a href="https://www.youtube.com/results?search_query=crear+asistente+gpt+gem+automatizacion" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">⚙️</div>
+                    <div class="tool-name">Automatización Office</div>
+                    <div class="tool-desc">Ejemplos de automatización de procesos administrativos</div>
+                    <a href="https://www.youtube.com/results?search_query=automatizar+procesos+administrativos+office+ia" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
             </div>`,
-                tools: `< p style = "font-size:13px;color:var(--gr);margin-bottom:20px" > Todas las herramientas del Módulo 2 para tu proyecto integrador.</p >
-            <h4 class="tool-category">🔷 Microsoft Office + IA</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🔷</div><div class="tool-name">Microsoft Copilot</div><div class="tool-desc">IA integrada en Office 365</div><a href="https://copilot.microsoft.com" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Excel Online</div><div class="tool-desc">Hojas de cálculo con IA</div><a href="https://www.office.com/launch/excel" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">📝</div><div class="tool-name">Word Online</div><div class="tool-desc">Documentos con asistencia IA</div><a href="https://www.office.com/launch/word" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🎯</div><div class="tool-name">PowerPoint Online</div><div class="tool-desc">Presentaciones inteligentes</div><a href="https://www.office.com/launch/powerpoint" target="_blank" class="tool-link">Abrir →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🤖 GPTs y Asistentes</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🔧</div><div class="tool-name">GPT Builder</div><div class="tool-desc">Crear GPTs personalizados</div><a href="https://chat.openai.com/gpts/editor" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">💎</div><div class="tool-name">Google Gems</div><div class="tool-desc">Asistentes de Gemini</div><a href="https://gemini.google.com" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🏪</div><div class="tool-name">GPT Store</div><div class="tool-desc">Explorar GPTs públicos</div><a href="https://chat.openai.com/gpts" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">💬</div><div class="tool-name">ChatGPT</div><div class="tool-desc">Chat con GPT-4</div><a href="https://chat.openai.com" target="_blank" class="tool-link">Abrir →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🌟 Agentes y AI Studio</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">Manus AI</div><div class="tool-desc">Agente autónomo</div><a href="https://manus.ai" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔍</div><div class="tool-name">Genspark</div><div class="tool-desc">Búsqueda con agentes</div><a href="https://genspark.ai" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔬</div><div class="tool-name">Google AI Studio</div><div class="tool-desc">Experimentar con Gemini</div><a href="https://aistudio.google.com" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">🎭</div><div class="tool-name">Minimax</div><div class="tool-desc">IA multimodal</div><a href="https://minimax.chat" target="_blank" class="tool-link">Abrir →</a></div>
+                tutorials: `< h4 class="tool-category" >🎬 Videos Tutoriales Específicos - Unidad 8</h4 >
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
+                    <a href="https://youtu.be/HcW25cn7-Jo" target="_blank" style="text-decoration:none;color:inherit;">
+                        <img src="https://img.youtube.com/vi/HcW25cn7-Jo/hqdefault.jpg" alt="Ejercicio integrador del Módulo 2" style="width:100%;height:160px;object-fit:cover;" />
+                        <div style="padding:12px;">
+                            <div style="font-weight:600;margin-bottom:4px;color:var(--wh)">🎯 Ejercicio integrador del Módulo 2</div>
+                            <div style="font-size:12px;color:var(--gr)">Aplicación práctica de la inteligencia artificial y automatización en procesos administrativos reales.</div>
+                        </div>
+                    </a>
+                </div>
+            </div>`,
+                tools: `< h4 class="tool-category" >📊 Presentación de la Unidad</h4 >
+            <div class="presentation-container" style="position:relative; width:100%; padding-top:56.25%;">
+                <iframe src="https://docs.google.com/presentation/d/1l4CfvXNRtgva36RyoaN6VxcwaJocE6G6u_M_h8ia1p0/embed?rm=minimal" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allowfullscreen></iframe>
             </div>`,
                 activities: `< h3 >📝 Proyecto Integrador - Módulo 2</h3 >
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🎯 Fase 1: Identificación del Problema (60 min)</h4>
-                <p style="margin-bottom:12px">Define el proceso que vas a automatizar:</p>
+                <h4 style="color:var(--p);margin-bottom:12px">🎯 Fase 1: Identificación y Preparación</h4>
+                <p style="margin-bottom:12px">Sienta las bases para tu automatización:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Identifica 3 procesos repetitivos en tu trabajo o vida personal</li>
-                    <li>Evalúa cada uno: tiempo actual, frecuencia, potencial de mejora</li>
-                    <li>Selecciona el que tenga mayor impacto potencial</li>
-                    <li>Documenta el proceso actual paso a paso</li>
-                    <li>Define métricas de éxito (tiempo ahorrado, errores reducidos, etc.)</li>
+                    <li>Identifica una tarea rutinaria administrativa (consolidación, limpieza, reportes).</li>
+                    <li>Describe el proceso manual actual paso a paso.</li>
+                    <li>Prepara el archivo base de Excel o Word de forma estructurada y ordenada.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Documento con análisis del proceso seleccionado</p>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🛠️ Fase 2: Diseño e Implementación (120 min)</h4>
-                <p style="margin-bottom:12px">Diseña y construye tu solución:</p>
+                <h4 style="color:var(--g);margin-bottom:12px">🤖 Fase 2: Creación de Asistente y Macro</h4>
+                <p style="margin-bottom:12px">Usa la IA como tu apoyo operativo:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Selecciona mínimo 3 herramientas del Módulo 2</li>
-                    <li>Diseña el flujo de trabajo (diagrama recomendado)</li>
-                    <li>Configura cada herramienta según el diseño</li>
-                    <li>Conecta los componentes (si aplica)</li>
-                    <li>Prueba el flujo completo con casos reales</li>
-                    <li>Ajusta según resultados de pruebas</li>
+                    <li>Crea un GPT, Gem o asistente y formúlale prompts específicos.</li>
+                    <li>Solicita a la IA generar una macro en VBA con el código comentado.</li>
+                    <li>Integra este código dentro del editor VBA del archivo Office.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Solución funcional + diagrama de flujo</p>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📊 Fase 3: Documentación y Presentación (60 min)</h4>
-                <p style="margin-bottom:12px">Documenta y presenta tus resultados:</p>
+                <h4 style="color:var(--w);margin-bottom:12px">📊 Fase 3: Pruebas, Integración y Documentación</h4>
+                <p style="margin-bottom:12px">Asegura la calidad y presenta resultados:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Crea documentación del proceso (puede ser con IA)</li>
-                    <li>Incluye capturas de pantalla de cada herramienta</li>
-                    <li>Compara métricas: antes vs después</li>
-                    <li>Lista lecciones aprendidas y recomendaciones</li>
-                    <li>Prepara presentación de 5-7 minutos</li>
+                    <li>Ejecuta la automatización con datos reales y corrige errores con ayuda de la IA.</li>
+                    <li>Incorpora la macro al flujo cotidiano (ej. un botón en la cinta de opciones).</li>
+                    <li>Documenta el funcionamiento, capturas de pantalla de los prompts, el estado inicial vs final y la explicación escrita del ahorro en tiempo.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Documentación completa + presentación</p>
+                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Archivo funcional con macro, documentación del proceso, evidencia de uso de IA y explicación de impactos.</p>
             </div>`,
                 quiz: [
                     { q: "¿Cuántas herramientas mínimo debes usar en el proyecto integrador?", o: ["1", "2", "3", "5"], c: 2 },
@@ -5334,174 +5182,87 @@
                         { icon: "✅", title: "Sistema de Evaluación", items: ["Ejercicios prácticos por módulo: 40%", "Proyecto final aplicado: 30%", "Participación y asistencia: 20%", "Actividades asincrónicas: 10%"] }
                     ]
                 },
-                summary: `< h3 >🐍 ¿Por qué Python para Automatización ?</h3 >
-            <p><strong>Python</strong> es el lenguaje de programación más popular para automatización y análisis de datos gracias a su sintaxis simple y su enorme ecosistema de librerías.</p>
+                summary: `<h3>🐍 Uso de Python para Automatización y Optimización de Procesos</h3>
+            <p><strong>Python</strong> es el lenguaje más utilizado en Ciencia de Datos por su simplicidad y poder. En esta unidad exploraremos las diferentes formas de interactuar con Python y los conceptos fundamentales que necesitas dominar para trabajar con datos de manera efectiva.</p>
             
-            <div class="example"><h4>💡 Ventajas de Python</h4><ul>
-                <li><strong>Fácil de aprender:</strong> Sintaxis clara y legible, ideal para principiantes</li>
-                <li><strong>Versátil:</strong> Automatización, datos, IA, web, scripts</li>
-                <li><strong>Comunidad enorme:</strong> Miles de librerías y recursos gratuitos</li>
-                <li><strong>Integración con IA:</strong> OpenAI, Google AI, todas tienen SDKs en Python</li>
-                <li><strong>Gratuito:</strong> Open source, sin costos de licencia</li>
+            <div class="example"><h4>💡 Conceptos Fundamentales</h4><ul>
+                <li><strong>Fundamentos:</strong> Variables, Tipos de datos, Condicionales, y Bucles.</li>
+                <li><strong>Entornos y Librerías:</strong> Uso de environments aislados y librerías clave como NumPy, Pandas, Matplotlib, y Scikit-learn.</li>
+                <li><strong>Manejo de Carpetas:</strong> Organización de proyectos reales interactuando con el sistema operativo (OS).</li>
             </ul></div>
             
-            <h3>🔧 Configuración del Entorno</h3>
-            <p>Para comenzar con Python necesitas:</p>
-            <div class="case"><h4>📋 Instalación Básica</h4><ul>
-                <li><strong>Python 3.x:</strong> Descarga desde python.org</li>
-                <li><strong>VS Code:</strong> Editor recomendado (gratuito)</li>
-                <li><strong>Google Colab:</strong> Alternativa en la nube (no requiere instalación)</li>
-                <li><strong>pip:</strong> Gestor de paquetes (viene con Python)</li>
-            </ul></div>
+            <h3>🔨 Carpintería para Minería de Datos</h3>
+            <p>Más allá de lo básico, aprenderemos a realizar <strong>embeddings semánticos</strong> usando transformers multilingües, aplicar reducción de dimensiones con <strong>PCA</strong>, y agrupar comportamientos con <strong>K-Means</strong>. Adicionalmente, implementaremos métodos robustos como <strong>Tukey Fences (IQR)</strong> para detección de anomalías.</p>
             
-            <h3>📝 Sintaxis Básica de Python</h3>
-            <div class="example"><h4>🔤 Variables y Tipos de Datos</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-# Variables
-nombre = "María"      # String (texto)
-edad = 25            # Integer (entero)
-precio = 19.99       # Float (decimal)
-activo = True        # Boolean (verdadero/falso)
-
-# Listas
-frutas = ["manzana", "banana", "naranja"]
-
-# Diccionarios
-persona = {"nombre": "Juan", "edad": 30}
-            </pre></div>
-            
-            <h3>🔄 Estructuras de Control</h3>
-            <div class="case"><h4>⚡ Condicionales y Bucles</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-# Condicional if
-if edad >= 18:
-    print("Es mayor de edad")
-else:
-    print("Es menor de edad")
-
-# Bucle for
-for fruta in frutas:
-    print(fruta)
-
-# Bucle while
-contador = 0
-while contador < 5:
-    print(contador)
-    contador += 1
-            </pre></div>
-            
-            <h3>📊 Introducción a Pandas</h3>
-            <p><strong>Pandas</strong> es la librería principal para manipular datos en Python:</p>
-            <div class="example"><h4>📈 Operaciones Básicas con Pandas</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-import pandas as pd
-
-# Leer archivo Excel
-df = pd.read_excel("datos.xlsx")
-
-# Ver primeras filas
-print(df.head())
-
-# Filtrar datos
-ventas_altas = df[df["ventas"] > 1000]
-
-# Guardar resultado
-ventas_altas.to_excel("resultado.xlsx")
-            </pre></div>
-            
-            <h3>🤖 Python + IA con ChatGPT</h3>
-            <p>Una de las mejores formas de aprender Python es usando IA:</p>
-            <ul>
-                <li><strong>Genera código:</strong> Describe lo que necesitas y ChatGPT lo escribe</li>
-                <li><strong>Explica errores:</strong> Copia el error y pide explicación</li>
-                <li><strong>Mejora código:</strong> Pide optimizaciones y buenas prácticas</li>
-                <li><strong>Aprende conceptos:</strong> Pide ejemplos y explicaciones</li>
-            </ul>
-            
-            <div class="bib"><h3>📚 Bibliografía</h3>
-                <p>Python Software Foundation. (2024). <em>Python Documentation</em>. https://docs.python.org</p>
-                <p>Pandas. (2024). <em>Pandas User Guide</em>. https://pandas.pydata.org/docs</p>
-                <p>Real Python. (2024). <em>Python Tutorials</em>. https://realpython.com</p>
+            <h3>⚙️ Automatización de Archivos</h3>
+            <div class="case"><h4>🔄 Pipeline de Procesamiento</h4>
+            <p>Construiremos un sistema automatizado que elimina el trabajo manual repetitivo:</p>
+            <ol>
+                <li><strong>Detección:</strong> Uso de <code>watchdog</code> para monitorear PDFs nuevos en una carpeta (Inbox).</li>
+                <li><strong>Conversión:</strong> Transformación automática de PDF a DOCX con preservación de formato.</li>
+                <li><strong>Registro:</strong> Base de datos (SQLite) para asegurar la trazabilidad y auditoría completa de cada documento procesado.</li>
+                <li><strong>Envío Automático:</strong> Despacho automático por correo (<code>smtplib</code>) a destinatarios específicos configurados en un CSV (Routing).</li>
+            </ol></div>`,
+                videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos educativos sobre programación en Python y manejo de datos.</p>
+            <h4 class="tool-category">🐍 Fundamentos de Python</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card">
+                    <div class="tool-icon">🎯</div>
+                    <div class="tool-name">Python desde Cero</div>
+                    <div class="tool-desc">Curso completo de Python para principiantes</div>
+                    <a href="https://www.youtube.com/results?search_query=python+desde+cero+español+2024+principiantes" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">📈</div>
+                    <div class="tool-name">Pandas Tutorial</div>
+                    <div class="tool-desc">Manipulación de datos tabulares con Pandas</div>
+                    <a href="https://www.youtube.com/results?search_query=pandas+python+tutorial+español+principiantes" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🔄</div>
+                    <div class="tool-name">Automatizar Archivos</div>
+                    <div class="tool-desc">Procesar archivos PDF y correos de forma masiva</div>
+                    <a href="https://www.youtube.com/results?search_query=python+automatizar+archivos+carpetas" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
             </div>`,
-                videos: `< h4 class="tool-category" >🐍 Fundamentos de Python</h4 >
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🎯</div><div class="tool-name">Python desde Cero</div><div class="tool-desc">Curso completo de Python para principiantes</div><a href="https://www.youtube.com/results?search_query=python+desde+cero+español+2024+principiantes" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">💻</div><div class="tool-name">Instalar Python</div><div class="tool-desc">Configurar Python y VS Code paso a paso</div><a href="https://www.youtube.com/results?search_query=instalar+python+vscode+windows+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📝</div><div class="tool-name">Variables y Tipos</div><div class="tool-desc">Tipos de datos en Python explicados</div><a href="https://www.youtube.com/results?search_query=python+variables+tipos+datos+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔄</div><div class="tool-name">Bucles y Condicionales</div><div class="tool-desc">Estructuras de control en Python</div><a href="https://www.youtube.com/results?search_query=python+if+for+while+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">📊 Python para Datos</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">📈</div><div class="tool-name">Pandas Tutorial</div><div class="tool-desc">Manipulación de datos con Pandas</div><a href="https://www.youtube.com/results?search_query=pandas+python+tutorial+español+principiantes" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📁</div><div class="tool-name">Leer Excel con Python</div><div class="tool-desc">Automatizar hojas de cálculo</div><a href="https://www.youtube.com/results?search_query=python+leer+excel+pandas+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔄</div><div class="tool-name">Automatizar Archivos</div><div class="tool-desc">Procesar múltiples archivos automáticamente</div><a href="https://www.youtube.com/results?search_query=python+automatizar+archivos+carpetas" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Gráficos con Python</div><div class="tool-desc">Visualización de datos con matplotlib</div><a href="https://www.youtube.com/results?search_query=python+graficos+matplotlib+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🤖 Python + IA</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">Python con ChatGPT</div><div class="tool-desc">Aprender Python usando IA</div><a href="https://www.youtube.com/results?search_query=aprender+python+chatgpt+ia" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔗</div><div class="tool-name">API de OpenAI</div><div class="tool-desc">Conectar Python con ChatGPT</div><a href="https://www.youtube.com/results?search_query=python+openai+api+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">☁️</div><div class="tool-name">Google Colab</div><div class="tool-desc">Python en la nube gratis</div><a href="https://www.youtube.com/results?search_query=google+colab+tutorial+español+python" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🐞</div><div class="tool-name">Depurar con IA</div><div class="tool-desc">Resolver errores de código con ChatGPT</div><a href="https://www.youtube.com/results?search_query=depurar+codigo+python+chatgpt" target="_blank" class="tool-link">Ver en YouTube →</a></div>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 9</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <p style="font-size:13px;color:var(--gr);padding:10px;"><em>Esta unidad cuenta con módulos de lectura interactivos sin videotutoriales específicos programados.</em></p>
             </div>`,
-                tools: `< p style = "font-size:13px;color:var(--gr);margin-bottom:20px" > Herramientas para programar en Python y automatizar tareas.</p >
-            <h4 class="tool-category">💻 Entornos de Desarrollo</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🐍</div><div class="tool-name">Python.org</div><div class="tool-desc">Descarga oficial de Python</div><a href="https://www.python.org/downloads/" target="_blank" class="tool-link">Descargar →</a></div>
-                <div class="tool-card"><div class="tool-icon">💻</div><div class="tool-name">VS Code</div><div class="tool-desc">Editor de código gratuito</div><a href="https://code.visualstudio.com" target="_blank" class="tool-link">Descargar →</a></div>
-                <div class="tool-card"><div class="tool-icon">☁️</div><div class="tool-name">Google Colab</div><div class="tool-desc">Python en la nube, sin instalación</div><a href="https://colab.research.google.com" target="_blank" class="tool-link">Abrir →</a></div>
-                <div class="tool-card"><div class="tool-icon">📓</div><div class="tool-name">Jupyter Notebook</div><div class="tool-desc">Notebooks interactivos</div><a href="https://jupyter.org" target="_blank" class="tool-link">Ver →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">📚 Librerías Esenciales</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Pandas</div><div class="tool-desc">Manipulación de datos</div><a href="https://pandas.pydata.org" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">📈</div><div class="tool-name">Matplotlib</div><div class="tool-desc">Gráficos y visualización</div><a href="https://matplotlib.org" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">📁</div><div class="tool-name">Openpyxl</div><div class="tool-desc">Leer/escribir Excel</div><a href="https://openpyxl.readthedocs.io" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">OpenAI Python</div><div class="tool-desc">SDK de ChatGPT para Python</div><a href="https://platform.openai.com/docs/libraries/python" target="_blank" class="tool-link">Documentación →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">📖 Recursos de Aprendizaje</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">📖</div><div class="tool-name">Real Python</div><div class="tool-desc">Tutoriales de alta calidad</div><a href="https://realpython.com" target="_blank" class="tool-link">Visitar →</a></div>
-                <div class="tool-card"><div class="tool-icon">🎮</div><div class="tool-name">Codecademy</div><div class="tool-desc">Curso interactivo de Python</div><a href="https://www.codecademy.com/learn/learn-python-3" target="_blank" class="tool-link">Visitar →</a></div>
-                <div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">W3Schools</div><div class="tool-desc">Referencia rápida de Python</div><a href="https://www.w3schools.com/python/" target="_blank" class="tool-link">Visitar →</a></div>
-                <div class="tool-card"><div class="tool-icon">💬</div><div class="tool-name">Stack Overflow</div><div class="tool-desc">Comunidad para resolver dudas</div><a href="https://stackoverflow.com/questions/tagged/python" target="_blank" class="tool-link">Visitar →</a></div>
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+            <div class="presentation-container" style="position:relative; width:100%; padding-top:56.25%;">
+                <iframe src="https://drive.google.com/file/d/1q4Gp7_HfsZsw6UX_2qPdAcrGK6Rdakvmh5ErahLvD4k/preview" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allowfullscreen></iframe>
             </div>`,
-                activities: `< h3 >📝 Actividades Asincrónicas - Unidad 9</h3 >
+                activities: `<h3>📝 Actividades Asincrónicas - Unidad 9</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">💻 Actividad 1: Configurar Entorno (45 min)</h4>
-                <p style="margin-bottom:12px">Prepara tu entorno de desarrollo Python:</p>
+                <h4 style="color:var(--p);margin-bottom:12px">💻 Actividad 1: Uso de Python</h4>
+                <p style="margin-bottom:12px">Familiarízate con los fundamentos de la programación:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Instala Python 3.x desde python.org (o usa Google Colab)</li>
-                    <li>Instala VS Code y la extensión de Python</li>
-                    <li>Crea un archivo "hola.py" y escribe: print("Hola Mundo")</li>
-                    <li>Ejecuta el archivo y verifica que funcione</li>
-                    <li>Instala pandas con: pip install pandas</li>
+                    <li>Revisa las filminas de programación básica e interactúa con los distintos entornos (consola, scripts, IDEs o Notebooks).</li>
+                    <li>Declara variables usando diferentes tipos de datos (números, strings, booleanos y listas).</li>
+                    <li>Crea estructuras lógicas utilizando condicionales <code>if/else</code> y bucles iterativos <code>for/while</code>.</li>
+                    <li>Prueba la ejecución de las funciones desarrolladas.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Captura de pantalla del código ejecutándose</p>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">📝 Actividad 2: Variables y Estructuras (50 min)</h4>
-                <p style="margin-bottom:12px">Practica los fundamentos de Python:</p>
+                <h4 style="color:var(--g);margin-bottom:12px">⛏️ Actividad 2: Carpintería para Minería de Datos</h4>
+                <p style="margin-bottom:12px">Desarrolla conocimiento analítico en segmentación y anomalías:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Crea variables de cada tipo: string, int, float, boolean, lista</li>
-                    <li>Escribe un programa que pida el nombre y edad del usuario</li>
-                    <li>Usa un if para determinar si es mayor de edad</li>
-                    <li>Crea un bucle for que imprima los números del 1 al 10</li>
-                    <li>Usa ChatGPT para explicar cualquier error que encuentres</li>
+                    <li>Aplica código en Python empleando <code>pandas</code> para procesamiento y agrupamiento de los datos de RFM de clientes.</li>
+                    <li>Utiliza las librerías <code>SentenceTransformer</code> y <code>PCA</code> para crear embeddings semánticos a partir de las descripciones y reducir su dimensionalidad.</li>
+                    <li>Aplica el algoritmo <strong>K-Means</strong> e interpreta los clusters (grupos) resultantes en el set de datos.</li>
+                    <li>Implementa las funciones <em>Tukey Fences (IQR)</em> programadas en el material para detectar transacciones inusuales (outliers) a nivel cliente y producto.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Archivo .py con todos los ejercicios</p>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📊 Actividad 3: Tu Primer Script con Pandas (50 min)</h4>
-                <p style="margin-bottom:12px">Crea un script que procese datos:</p>
+                <h4 style="color:var(--w);margin-bottom:12px">🔄 Actividad 3: Automatización de Procesamiento de Archivos</h4>
+                <p style="margin-bottom:12px">Replica el flujo automatizado end-to-end de documentos:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Crea un archivo Excel con datos de ejemplo (ventas, productos, etc.)</li>
-                    <li>Escribe un script que lea el archivo con pandas</li>
-                    <li>Aplica un filtro a los datos (ej: ventas > 100)</li>
-                    <li>Calcula estadísticas básicas (suma, promedio)</li>
-                    <li>Guarda el resultado en un nuevo archivo Excel</li>
+                    <li>Diseña la estructura de carpetas (inbox, out_docx, processed_pdfs) y parametriza tu archivo de ruteo CSV.</li>
+                    <li>Usa <code>watchdog</code> para percibir cambios de un nuevo archivo introducido a tu carpeta de entrada.</li>
+                    <li>Convierte el archivo automáticamente empleando <code>pdf2docx</code> y guarda cada evento e información relacionada en tu base de datos auditable <code>SQLite</code>.</li>
+                    <li>Ejecuta el bloque provisto con <code>smtplib</code> para despachar por correo el resultado de la transformación al destinatario parametrizado.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Script .py + archivos Excel (original y resultado)</p>
             </div>`,
                 quiz: [
                     { q: "¿Qué tipo de dato es 'Hola Mundo' en Python?", o: ["Integer", "Float", "String", "Boolean"], c: 2 },
@@ -5522,262 +5283,108 @@ ventas_altas.to_excel("resultado.xlsx")
                 simResponses: { "python": "<strong>Python</strong> es un lenguaje de programación versátil, fácil de aprender y muy usado en automatización, análisis de datos e IA.", "variable": "Una <strong>variable</strong> almacena datos en memoria. En Python: nombre = 'valor'. No necesitas declarar el tipo.", "pandas": "<strong>Pandas</strong> es la librería principal para manipular datos. Usa DataFrames (tablas) para leer, filtrar y analizar datos fácilmente.", "bucle": "Los <strong>bucles</strong> repiten código: 'for' para un número conocido de veces, 'while' mientras se cumpla una condición.", "funcion": "Una <strong>función</strong> es código reutilizable. Se define con 'def nombre():' y se llama con 'nombre()'.", "error": "Para <strong>resolver errores</strong>: 1) Lee el mensaje de error, 2) Busca la línea indicada, 3) Copia el error a ChatGPT para explicación.", "default": "Soy el asistente de la Unidad 9. Pregúntame sobre Python, variables, pandas, bucles, funciones o cómo resolver errores." }
             },
             10: {
-                title: "Unidad 10: Python Avanzado para Automatización",
-                subtitle: "Funciones avanzadas, manejo de archivos y conexión con APIs de IA",
-                breadcrumb: "Módulo 3 <span>›</span> Programación",
+                title: "Unidad 10: Generación de Bots Básicos",
+                subtitle: "Automatización de procesos robóticos con SikuliX y Power Automate",
+                breadcrumb: "Módulo 3 <span>›</span> Automatización",
                 plan: {
                     grid: [
-                        { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Dominar funciones con parámetros y valores de retorno", "Implementar manejo robusto de errores con try/except", "Automatizar procesamiento de múltiples archivos", "Conectar con APIs REST usando requests", "Integrar APIs de IA (OpenAI, Google) en scripts"] },
-                        { icon: "💡", title: "Competencias a Desarrollar", items: ["Diseño de funciones reutilizables y modulares", "Manejo de excepciones y errores comunes", "Manipulación de archivos y directorios con os/glob", "Consumo de APIs REST con autenticación", "Procesamiento de respuestas JSON"] },
+                        { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Comprender qué es RPA y sus fundamentos", "Diferenciar entre Cloud Flows y Desktop Flows", "Aprender a grabar flujos y procesos visuales", "Utilizar SikuliX mediante reconocimiento de imágenes", "Dominar Power Automate Desktop para interfaces gráficas"] },
+                        { icon: "💡", title: "Competencias a Desarrollar", items: ["Diseño lógico de pasos de automatización", "Manejo de selectores UI y reconocimiento de imágenes", "Gestión y extracción de archivos automatizada", "Pruebas de flujos robóticos", "Toma de decisiones analíticas sobre qué herramientas usar"] },
                         { icon: "⏱️", title: "Distribución del Tiempo", items: ["Semana 10 del programa", "Sesiones sincrónicas: 6 horas", "Trabajo asincrónico: 1 hora", "Dedicación semanal total: 7 horas"] },
-                        { icon: "📚", title: "Ubicación en el Programa", items: ["Módulo 3: Automatizaciones Programadas", "Unidad 10 - Continuación de Python", "Prerequisito: Unidad 9 (Python básico)", "Siguiente: Unidad 11 (SikuliX)"] },
-                        { icon: "📝", title: "Contenidos de Esta Unidad", items: ["Funciones con *args y **kwargs", "try/except/finally para errores", "Módulos os, glob y shutil", "Librería requests para APIs", "Conexión con OpenAI y Google APIs"] },
-                        { icon: "✅", title: "Sistema de Evaluación", items: ["Ejercicios prácticos por módulo: 40%", "Proyecto final aplicado: 30%", "Participación y asistencia: 20%", "Actividades asincrónicas: 10%"] }
+                        { icon: "📚", title: "Ubicación en el Programa", items: ["Módulo 3: Automatizaciones Programadas", "Unidad 10 - RPA Básico", "Prerequisito: Unidad 9 (Programación)", "Siguiente: Unidad 11 (Bases de datos)"] },
+                        { icon: "📝", title: "Contenidos de Esta Unidad", items: ["Introducción a Robotic Process Automation", "Cloud flows vs Desktop flows", "Programación visual con SikuliX", "Flujos Low-Code en Power Automate", "Ejemplos prácticos en portales oficiales"] },
+                        { icon: "✅", title: "Sistema de Evaluación", items: ["Ejercicios prácticos de RPA: 40%", "Proyecto final aplicado: 30%", "Participación y asistencia: 20%", "Actividades asincrónicas: 10%"] }
                     ]
                 },
-                summary: `< h3 >🔧 Funciones Avanzadas en Python</h3 >
-            <p>Las <strong>funciones</strong> son bloques de código reutilizable que permiten organizar programas de manera modular y eficiente.</p>
+                summary: `<h3>🤖 Introducción a RPA (Robotic Process Automation)</h3>
+            <p><strong>RPA</strong> es una tecnología de software que facilita la creación, despliegue y gestión de robots de software ("bots") que emulan las acciones humanas interactuando con sistemas digitales y software.</p>
             
-            <div class="example"><h4>📝 Funciones con Parámetros y Retorno</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-# Función básica con parámetros
-def calcular_descuento(precio, porcentaje=10):
-    """Calcula el precio con descuento aplicado."""
-    descuento = precio * (porcentaje / 100)
-    precio_final = precio - descuento
-    return precio_final, descuento
-
-# Uso de la función
-final, desc = calcular_descuento(1000, 15)
-print(f"Precio final: \${final}, Ahorro: \${desc}")
-# Salida: Precio final: $850.0, Ahorro: $150.0</pre></div>
+            <div class="example"><h4>💡 Características Clave de RPA</h4><ul>
+                <li><strong>Imita acciones humanas:</strong> Clics, tecleo, navegación web y lectura de pantalla.</li>
+                <li><strong>Opera sobre aplicaciones existentes:</strong> No requiere modificar los sistemas actuales, interactúa mediante la interfaz de usuario (UI).</li>
+                <li><strong>Automatiza tareas:</strong> Ideal para procesos repetitivos, basados en reglas y de alto volumen.</li>
+            </ul></div>
             
-            <div class="case"><h4>🔀 Funciones con *args y **kwargs</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-# *args: múltiples argumentos posicionales
-def sumar_todos(*numeros):
-    return sum(numeros)
+            <h3>☁️ Cloud Flows vs Desktop Flows</h3>
+            <p>Existen dos enfoques principales para la automatización, dependiendo de las capacidades del sistema a interactuar:</p>
+            <div class="case"><h4>🔄 Tipos de Automatización</h4><ul>
+                <li><strong>Cloud Flows (Flujos de Nube):</strong> Automatización basada en APIs que se ejecuta en la nube. Ideal para conectar aplicaciones modernas (ej. Cuando llega un email, guardar adjunto en SharePoint o enviar mensaje).</li>
+                <li><strong>Desktop Flows (RPA):</strong> Automatización de procesos robóticos para aplicaciones de escritorio o sistemas "legacy" que no tienen APIs. Graba y reproduce acciones directamente sobre la interfaz de usuario de la computadora. En este módulo nos enfocaremos en estos.</li>
+            </ul></div>
 
-print(sumar_todos(1, 2, 3, 4, 5))  # 15
-
-# **kwargs: argumentos con nombre
-def crear_perfil(**datos):
-    for clave, valor in datos.items():
-        print(f"{clave}: {valor}")
-
-crear_perfil(nombre="Ana", edad=28, ciudad="San José")</pre></div>
-            
-            <h3>⚠️ Manejo de Errores con try/except</h3>
-            <p>El manejo de errores evita que tu programa se detenga inesperadamente y permite recuperarse de situaciones problemáticas.</p>
-            
-            <div class="example"><h4>🛡️ Estructura Completa de Manejo de Errores</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-def dividir_seguro(a, b):
-    try:
-        resultado = a / b
-    except ZeroDivisionError:
-        print("Error: No se puede dividir por cero")
-        return None
-    except TypeError:
-        print("Error: Los valores deben ser números")
-        return None
-    else:
-        print("División exitosa")
-        return resultado
-    finally:
-        print("Operación completada")
-
-# Ejemplos de uso
-dividir_seguro(10, 2)   # Éxito: 5.0
-dividir_seguro(10, 0)   # Error: división por cero
-dividir_seguro("a", 2)  # Error: tipo incorrecto</pre></div>
-            
-            <h3>📁 Automatización de Archivos</h3>
-            <p>Python ofrece módulos poderosos para trabajar con el sistema de archivos:</p>
-            
-            <div class="case"><h4>🗂️ Módulo os - Operaciones Básicas</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-import os
-
-# Obtener directorio actual
-print(os.getcwd())
-
-# Listar archivos en una carpeta
-archivos = os.listdir("./datos")
-
-# Crear carpetas (incluso anidadas)
-os.makedirs("./reportes/2024/enero", exist_ok=True)
-
-# Verificar si existe archivo o carpeta
-if os.path.exists("config.json"):
-    print("El archivo existe")
-
-# Construir rutas de forma segura (funciona en cualquier SO)
-ruta = os.path.join("datos", "ventas", "enero.xlsx")
-print(ruta)  # datos/ventas/enero.xlsx</pre></div>
-            
-            <div class="example"><h4>🔍 Módulo glob - Buscar Archivos por Patrón</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-import glob
-
-# Encontrar todos los archivos Excel
-archivos_excel = glob.glob("datos/*.xlsx")
-
-# Buscar recursivamente en subcarpetas
-todos_csv = glob.glob("**/*.csv", recursive=True)
-
-# Procesar cada archivo encontrado
-for archivo in archivos_excel:
-    print(f"Procesando: {archivo}")
-    # Aquí iría la lógica de procesamiento</pre></div>
-            
-            <h3>🌐 Consumo de APIs con Requests</h3>
-            <p>La librería <strong>requests</strong> permite conectar tu código Python con servicios web y APIs.</p>
-            
-            <div class="case"><h4>📡 Peticiones GET y POST</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-import requests
-
-# GET: Obtener datos
-response = requests.get("https://api.ejemplo.com/datos")
-if response.status_code == 200:
-    datos = response.json()
-    print(datos)
-
-# POST: Enviar datos
-payload = {"nombre": "Juan", "email": "juan@email.com"}
-headers = {"Content-Type": "application/json"}
-response = requests.post(
-    "https://api.ejemplo.com/usuarios",
-    json=payload,
-    headers=headers
-)
-print(response.json())</pre></div>
-            
-            <h3>🤖 Conexión con APIs de IA</h3>
-            
-            <div class="example"><h4>💬 OpenAI API - ChatGPT desde Python</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-from openai import OpenAI
-import os
-
-# Configurar cliente (API key desde variable de entorno)
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
-# Hacer una consulta a ChatGPT
-response = client.chat.completions.create(
-    model="gpt-3.5-turbo",
-    messages=[
-        {"role": "system", "content": "Eres un asistente útil."},
-        {"role": "user", "content": "Resume en 3 puntos qué es Python"}
-    ],
-    temperature=0.7,
-    max_tokens=200
-)
-
-# Obtener la respuesta
-respuesta = response.choices[0].message.content
-print(respuesta)</pre></div>
-            
-            <div class="case"><h4>✨ Google Gemini API</h4>
-            <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px;overflow-x:auto">
-import google.generativeai as genai
-import os
-
-# Configurar API
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-
-# Crear modelo
-model = genai.GenerativeModel('gemini-pro')
-
-# Generar contenido
-response = model.generate_content("Explica qué es la automatización")
-print(response.text)</pre></div>
-            
-            <div class="bib"><h3>📚 Bibliografía y Recursos</h3>
-                <p>Python Software Foundation. (2024). <em>os — Miscellaneous operating system interfaces</em>. https://docs.python.org/3/library/os.html</p>
-                <p>Requests. (2024). <em>Requests: HTTP for Humans</em>. https://requests.readthedocs.io</p>
-                <p>OpenAI. (2024). <em>API Reference</em>. https://platform.openai.com/docs</p>
-                <p>Google. (2024). <em>Gemini API Documentation</em>. https://ai.google.dev/docs</p>
+            <h3>🔍 Herramientas RPA: SikuliX y Power Automate</h3>
+            <p>Aprenderemos a utilizar dos herramientas distintas pero complementarias para resolver problemas en la interfaz gráfica donde no tenemos acceso a APIs:</p>
+            <ul>
+                <li><strong>SikuliX:</strong> Automatiza todo lo que se ve en la pantalla. Utiliza técnicas de <strong>Reconocimiento de Imágenes (OpenCV)</strong> para identificar elementos de la interfaz y controlarlos mediante scripts o comandos visuales de forma intuitiva, emulando clics e interacciones de teclado.</li>
+                <li><strong>Power Automate (Desktop):</strong> Una herramienta robusta de Microsoft bajo el enfoque de <strong>Low-Code / No-Code</strong> que se encarga de hacer flujos de trabajo permitiendo controlar diversas interfaces emulando clics y capturando selectores lógicos del sistema o de la web en lugar de imágenes puras.</li>
+            </ul>`,
+                videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos introductorios sobre automatización robótica de procesos.</p>
+            <h4 class="tool-category">🤖 Conceptos de RPA</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card">
+                    <div class="tool-icon">💡</div>
+                    <div class="tool-name">¿Qué es RPA?</div>
+                    <div class="tool-desc">Introducción a la Automatización Robótica de Procesos</div>
+                    <a href="https://www.youtube.com/results?search_query=que+es+rpa+robotic+process+automation+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">👁️</div>
+                    <div class="tool-name">SikuliX Tutorial</div>
+                    <div class="tool-desc">Automatización por reconocimiento de imágenes</div>
+                    <a href="https://www.youtube.com/results?search_query=sikulix+tutorial+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">⚡</div>
+                    <div class="tool-name">Power Automate Desktop</div>
+                    <div class="tool-desc">Primeros pasos creando flujos de escritorio</div>
+                    <a href="https://www.youtube.com/results?search_query=power+automate+desktop+tutorial+español+desde+cero" target="_blank" class="tool-link">Buscar en YouTube →</a>
+                </div>
             </div>`,
-                videos: `< h4 class="tool-category" >🔧 Funciones Avanzadas</h4 >
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">⚡</div><div class="tool-name">Funciones en Python</div><div class="tool-desc">Parámetros, retorno y buenas prácticas</div><a href="https://www.youtube.com/results?search_query=python+funciones+avanzadas+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔀</div><div class="tool-name">*args y **kwargs</div><div class="tool-desc">Argumentos flexibles en funciones</div><a href="https://www.youtube.com/results?search_query=python+args+kwargs+explicacion" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📦</div><div class="tool-name">Funciones Lambda</div><div class="tool-desc">Funciones anónimas en una línea</div><a href="https://www.youtube.com/results?search_query=python+lambda+funciones+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🎯</div><div class="tool-name">Decoradores Python</div><div class="tool-desc">Modificar comportamiento de funciones</div><a href="https://www.youtube.com/results?search_query=python+decoradores+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🛡️ Manejo de Errores</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">⚠️</div><div class="tool-name">Try/Except Completo</div><div class="tool-desc">Manejo robusto de excepciones</div><a href="https://www.youtube.com/results?search_query=python+try+except+finally+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔍</div><div class="tool-name">Tipos de Excepciones</div><div class="tool-desc">Errores comunes y cómo manejarlos</div><a href="https://www.youtube.com/results?search_query=python+excepciones+tipos+errores" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">📝</div><div class="tool-name">Crear Excepciones</div><div class="tool-desc">Excepciones personalizadas</div><a href="https://www.youtube.com/results?search_query=python+crear+excepciones+propias" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🐛</div><div class="tool-name">Debugging Python</div><div class="tool-desc">Encontrar y corregir errores</div><a href="https://www.youtube.com/results?search_query=python+debugging+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">📁 Archivos y APIs</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🗂️</div><div class="tool-name">Módulo OS</div><div class="tool-desc">Operaciones con sistema de archivos</div><a href="https://www.youtube.com/results?search_query=python+os+module+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔎</div><div class="tool-name">Glob y Pathlib</div><div class="tool-desc">Buscar archivos por patrones</div><a href="https://www.youtube.com/results?search_query=python+glob+pathlib+archivos" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🌐</div><div class="tool-name">Requests Tutorial</div><div class="tool-desc">Consumir APIs REST</div><a href="https://www.youtube.com/results?search_query=python+requests+api+tutorial+español" target="_blank" class="tool-link">Ver en YouTube →</a></div>
-                <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">OpenAI API Python</div><div class="tool-desc">Integrar ChatGPT en tus scripts</div><a href="https://www.youtube.com/results?search_query=openai+api+python+chatgpt+tutorial" target="_blank" class="tool-link">Ver en YouTube →</a></div>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 10</h4>
+            <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+                <div class="tool-card">
+                    <div class="tool-icon">🎥</div>
+                    <div class="tool-name">Teoría RPA y Procesos</div>
+                    <div class="tool-desc">Fundamentos sobre procesos automatizables</div>
+                    <a href="https://www.youtube.com/watch?v=8tFHRkE4rtA" target="_blank" class="tool-link">Ver en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🎥</div>
+                    <div class="tool-name">Crear Robot en Sikulix</div>
+                    <div class="tool-desc">Construcción práctica de un bot</div>
+                    <a href="https://www.youtube.com/watch?v=lL8FQlGEj1U" target="_blank" class="tool-link">Ver en YouTube →</a>
+                </div>
+                <div class="tool-card">
+                    <div class="tool-icon">🎥</div>
+                    <div class="tool-name">Robot en Power Automate</div>
+                    <div class="tool-desc">Flujo de escritorio para descarga de datos</div>
+                    <a href="https://www.youtube.com/watch?v=QioslAoCTp0" target="_blank" class="tool-link">Ver en YouTube →</a>
+                </div>
             </div>`,
-                tools: `< h4 class="tool-category" >📚 Librerías de Python</h4 >
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">📁</div><div class="tool-name">os</div><div class="tool-desc">Operaciones del sistema operativo</div><a href="https://docs.python.org/3/library/os.html" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔍</div><div class="tool-name">glob</div><div class="tool-desc">Buscar archivos por patrón</div><a href="https://docs.python.org/3/library/glob.html" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">📂</div><div class="tool-name">shutil</div><div class="tool-desc">Copiar, mover y eliminar archivos</div><a href="https://docs.python.org/3/library/shutil.html" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">🛤️</div><div class="tool-name">pathlib</div><div class="tool-desc">Rutas orientadas a objetos</div><a href="https://docs.python.org/3/library/pathlib.html" target="_blank" class="tool-link">Documentación →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🌐 APIs y Conexiones</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">🔗</div><div class="tool-name">Requests</div><div class="tool-desc">HTTP para humanos</div><a href="https://requests.readthedocs.io" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">JSON</div><div class="tool-desc">Procesar datos JSON</div><a href="https://docs.python.org/3/library/json.html" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔐</div><div class="tool-name">python-dotenv</div><div class="tool-desc">Variables de entorno seguras</div><a href="https://pypi.org/project/python-dotenv/" target="_blank" class="tool-link">PyPI →</a></div>
-                <div class="tool-card"><div class="tool-icon">⏰</div><div class="tool-name">schedule</div><div class="tool-desc">Programar tareas en Python</div><a href="https://schedule.readthedocs.io" target="_blank" class="tool-link">Documentación →</a></div>
-            </div>
-            <h4 class="tool-category" style="margin-top:30px">🤖 APIs de Inteligencia Artificial</h4>
-            <div class="tools-grid">
-                <div class="tool-card"><div class="tool-icon">💬</div><div class="tool-name">OpenAI Python</div><div class="tool-desc">SDK oficial de OpenAI</div><a href="https://platform.openai.com/docs/libraries/python-library" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">✨</div><div class="tool-name">Google Generative AI</div><div class="tool-desc">SDK de Gemini para Python</div><a href="https://ai.google.dev/tutorials/python_quickstart" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">🔮</div><div class="tool-name">Anthropic Python</div><div class="tool-desc">SDK de Claude</div><a href="https://docs.anthropic.com/claude/reference/client-sdks" target="_blank" class="tool-link">Documentación →</a></div>
-                <div class="tool-card"><div class="tool-icon">🤗</div><div class="tool-name">Hugging Face</div><div class="tool-desc">Miles de modelos de IA</div><a href="https://huggingface.co/docs" target="_blank" class="tool-link">Documentación →</a></div>
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+            <div class="presentation-container" style="position:relative; width:100%; padding-top:56.25%;">
+                <iframe src="https://docs.google.com/presentation/d/174OLUvqn7-bHoIDvwYLqxt43NxgKGUnvEZhMQ2aNyrY/preview" style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" allowfullscreen></iframe>
             </div>`,
-                activities: `< h3 >📝 Actividades - Unidad 10</h3 >
+                activities: `<h3>📝 Actividades Asincrónicas - Unidad 10</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🔧 Actividad 1: Funciones y Manejo de Errores (50 min)</h4>
-                <p style="margin-bottom:12px">Crea un módulo de funciones utilitarias con manejo robusto de errores:</p>
+                <h4 style="color:var(--p);margin-bottom:12px">👁️ Actividad 1: Uso de bots en Sikulix</h4>
+                <p style="margin-bottom:12px">Desarrolla un bot usando reconocimiento de imágenes:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Crea una función <code>leer_archivo(ruta)</code> que lea un archivo y maneje FileNotFoundError</li>
-                    <li>Crea una función <code>convertir_numero(texto)</code> que convierta texto a número manejando ValueError</li>
-                    <li>Crea una función <code>dividir(a, b)</code> que maneje ZeroDivisionError y TypeError</li>
-                    <li>Usa <code>finally</code> para registrar cada operación en un log</li>
-                    <li>Prueba cada función con entradas válidas e inválidas</li>
+                    <li>Instala <strong>Java 8</strong> y configura la herramienta <strong>SikuliX</strong>.</li>
+                    <li>Observa cómo la interfaz gráfica captura secciones de la pantalla y comandos precisos como <code>click()</code>, <code>type()</code> o <code>wait()</code>.</li>
+                    <li>Sigue el proceso indicado en el tutorial para ingresar a una página oficial (ej. Ministerio de Hacienda).</li>
+                    <li>Programa las acciones para que navegue por el sitio web hasta localizar un reporte específico de datos abiertos, lo descargue y lo guarde en local.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Archivo .py con las funciones y pruebas</p>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">📁 Actividad 2: Automatización de Archivos (50 min)</h4>
-                <p style="margin-bottom:12px">Crea un script que organice archivos automáticamente:</p>
+                <h4 style="color:var(--g);margin-bottom:12px">⚡ Actividad 2: Uso de bots en Power Automate</h4>
+                <p style="margin-bottom:12px">Desarrolla flujos capturando elementos de interfaz web (UI):</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Usa <code>glob</code> para encontrar todos los archivos en una carpeta</li>
-                    <li>Clasifica los archivos por extensión (imágenes, documentos, datos)</li>
-                    <li>Usa <code>os.makedirs()</code> para crear carpetas de destino</li>
-                    <li>Usa <code>shutil.move()</code> para mover cada archivo a su carpeta</li>
-                    <li>Genera un reporte de archivos movidos</li>
+                    <li>Abre un <strong>Nuevo flujo</strong> en <em>Power Automate Desktop</em>.</li>
+                    <li>Inicia una nueva instancia de <strong>Chrome (o Edge)</strong> suministrando una URL (ej. Banco Central).</li>
+                    <li>Usa la grabadora de elementos UI (control+click) o acciones predefinidas (ej. <em>Desplazar el ratón</em> y <em>Hacer clic en vínculo</em>).</li>
+                    <li>Parametriza el clic en el "Informe Mensual de Coyuntura" logrando que navegue y guarde automáticamente con la herramienta bajo un enfoque drag&drop.</li>
                 </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Script organizador_archivos.py funcional</p>
-            </div>
-            <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">🤖 Actividad 3: Conexión con API de IA (45 min)</h4>
-                <p style="margin-bottom:12px">Crea un script que use una API de IA para procesar texto:</p>
-                <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
-                    <li>Configura una API key de OpenAI o Google (usa variable de entorno)</li>
-                    <li>Crea una función que envíe un prompt y retorne la respuesta</li>
-                    <li>Implementa manejo de errores para problemas de conexión</li>
-                    <li>Lee un archivo de texto y envíalo para que la IA lo resuma</li>
-                    <li>Guarda el resumen en un nuevo archivo</li>
-                </ol>
-                <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Script resumidor_ia.py con archivo .env de ejemplo</p>
             </div>`,
                 quiz: [
                     { q: "¿Qué palabra clave define una función en Python?", o: ["function", "func", "def", "define"], c: 2 },
