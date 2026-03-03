@@ -1,0 +1,98 @@
+﻿REPORTE DE AUDITORÍA DE ARCHIVOS
+===============================
+
+1. Unidad 1 Inducción e introducción al curso
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 4 | Encontradas 4
+    ✔️ Completas
+
+2. Unidad 2 Comprensión general de la IA
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 4 | Encontradas 4
+    ✔️ Completas
+
+3. Unidad 3 Herramientas de investigación profunda y razonamiento con IA
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 4 | Encontradas 4
+    ✔️ Completas
+
+4. Unidad 4 Automatización de procesos en Microsoft Office con IA
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 3 | Encontradas 3
+    ✔️ Completas
+
+5. Unidad 5 Automatización de tareas desde herramientas de IA generativa
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 3 | Encontradas 3
+    ✔️ Completas
+
+6. Unidad 6 Uso de plataformas de Agentes de IA especializados
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 2 | Encontradas 2
+    ✔️ Completas
+
+7. Unidad 7 Uso de la plataforma de Google IA Studio
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 3 | Encontradas 2
+    ❌ Faltan 1 archivo(s) de transcripción.
+
+8. Unidad 8 Ejercicio integrador del Módulo 2
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 1 | Encontradas 1
+    ✔️ Completas
+
+9. Unidad 9 Uso de Python para automatización y optimización de procesos
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 4 | Encontradas 0
+    ❌ Faltan 4 archivo(s) de transcripción.
+
+10. Unidad 10 Generación de bots básicos
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 3 | Encontradas 3
+    ✔️ Completas
+
+11. Unidad 11 Incorporación de IA en la programación de automatizaciones
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 2 | Encontradas 0
+    ❌ Faltan 2 archivo(s) de transcripción.
+
+12. Unidad 12 Desarrollo de agentes y automatizaciones
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 3 | Encontradas 1
+    ❌ Faltan 2 archivo(s) de transcripción.
+
+13. Unidad 13 Ejercicio integrador del Módulo 3
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 1 | Encontradas 1
+    ✔️ Completas
+
+14. Unidad 14 Automatización y reconocimiento de imágenes
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 4 | Encontradas 0
+    ❌ Faltan 4 archivo(s) de transcripción.
+
+15. Unidad 15 Automatización de contenido de videos con IA
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 3 | Encontradas 0
+    ❌ Faltan 3 archivo(s) de transcripción.
+
+16. Unidad 16 Análisis y procesamiento de datos
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 3 | Encontradas 3
+    ✔️ Completas
+
+17. Unidad 17 Desarrollo de dashboards con Power BI
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 3 | Encontradas 3
+    ✔️ Completas
+
+18. Unidad 18 Ejercicio integrador del Módulo 5
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 1 | Encontradas 1
+    ✔️ Completas
+
+19. Unidad 19 Generación de un proyecto aplicado
+  - Presentación TXT: ✔️ PRESENTE
+  - Transcripciones de Video: Se esperan 1 | Encontradas 0
+    ❌ Faltan 1 archivo(s) de transcripción.
+

@@ -1,0 +1,3290 @@
+Kind: captions
+Language: es
+
+Bien, ahora vamos a proceder con la
+
+Bien, ahora vamos a proceder con la
+
+Bien, ahora vamos a proceder con la
+segunda actividad que es el uso de N8N.
+
+segunda actividad que es el uso de N8N.
+
+segunda actividad que es el uso de N8N.
+Entonces vamos a irnos a internet y ahí
+
+Entonces vamos a irnos a internet y ahí
+
+Entonces vamos a irnos a internet y ahí
+vamos a utilizar N8N. Yo voy a usarlo en
+
+vamos a utilizar N8N. Yo voy a usarlo en
+
+vamos a utilizar N8N. Yo voy a usarlo en
+un servidor propio. Este es un modelo
+
+un servidor propio. Este es un modelo
+
+un servidor propio. Este es un modelo
+open source, entonces yo lo tengo
+
+open source, entonces yo lo tengo
+
+open source, entonces yo lo tengo
+propiamente en
+
+propiamente en
+
+propiamente en
+un servidor propio. Entonces voy a
+
+un servidor propio. Entonces voy a
+
+un servidor propio. Entonces voy a
+utilizarlo
+
+utilizarlo
+
+utilizarlo
+para crear un igual cuando ingresamos a
+
+para crear un igual cuando ingresamos a
+
+para crear un igual cuando ingresamos a
+N8N, ¿verdad? E podemos verlo aquí en
+
+N8N, ¿verdad? E podemos verlo aquí en
+
+N8N, ¿verdad? E podemos verlo aquí en
+home.
+
+home.
+
+home.
+Es esto que estamos observando por acá.
+
+Es esto que estamos observando por acá.
+
+Es esto que estamos observando por acá.
+Y eh van a salir las diferentes flujos
+
+Y eh van a salir las diferentes flujos
+
+Y eh van a salir las diferentes flujos
+de trabajo
+
+que tenemos ya desarrollados, ¿verdad?
+
+que tenemos ya desarrollados, ¿verdad?
+
+que tenemos ya desarrollados, ¿verdad?
+Entonces
+
+Entonces
+
+Entonces
+acá le podemos dar en crear flujo de
+
+acá le podemos dar en crear flujo de
+
+acá le podemos dar en crear flujo de
+trabajo y ya con eso eh perfectamente
+
+trabajo y ya con eso eh perfectamente
+
+trabajo y ya con eso eh perfectamente
+podríamos eh trabajar. Ahora bien, es
+
+podríamos eh trabajar. Ahora bien, es
+
+podríamos eh trabajar. Ahora bien, es
+importante mencionar que también
+
+importante mencionar que también
+
+importante mencionar que también
+nosotros podemos importar flujos de
+
+nosotros podemos importar flujos de
+
+nosotros podemos importar flujos de
+trabajo y esto es un elemento bastante
+
+trabajo y esto es un elemento bastante
+
+trabajo y esto es un elemento bastante
+bastante importante. De hecho, en la
+
+bastante importante. De hecho, en la
+
+bastante importante. De hecho, en la
+unidad, en los insumos de la unidad,
+
+unidad, en los insumos de la unidad,
+
+unidad, en los insumos de la unidad,
+si ustedes ingresan por acá, dice demo
+
+si ustedes ingresan por acá, dice demo
+
+si ustedes ingresan por acá, dice demo
+agente sintético DN8.
+
+agente sintético DN8.
+
+agente sintético DN8.
+Entonces ustedes podrían perfectamente
+
+Entonces ustedes podrían perfectamente
+
+Entonces ustedes podrían perfectamente
+venir por acá y le podrían dar importar
+
+venir por acá y le podrían dar importar
+
+venir por acá y le podrían dar importar
+desde archivo
+
+desde archivo
+
+desde archivo
+y podrían cargarlo y al momento de
+
+y podrían cargarlo y al momento de
+
+y podrían cargarlo y al momento de
+abrirlo ya van a poder ver el flujo
+
+abrirlo ya van a poder ver el flujo
+
+abrirlo ya van a poder ver el flujo
+desarrollado.
+
+desarrollado.
+
+desarrollado.
+Acá
+
+Acá
+
+Acá
+eh yo ya tenía este por acá. Entonces
+
+voy a eliminar uno de los dos para que
+
+voy a eliminar uno de los dos para que
+
+voy a eliminar uno de los dos para que
+no me quede en este caso duplicado.
+
+no me quede en este caso duplicado.
+
+no me quede en este caso duplicado.
+Y por acá entonces ya está un poquito lo
+
+Y por acá entonces ya está un poquito lo
+
+Y por acá entonces ya está un poquito lo
+que vamos a trabajar. Para que tengan la
+
+que vamos a trabajar. Para que tengan la
+
+que vamos a trabajar. Para que tengan la
+idea es un agente que lo que queremos es
+
+idea es un agente que lo que queremos es
+
+idea es un agente que lo que queremos es
+incluir ya elementos de inteligencia
+
+incluir ya elementos de inteligencia
+
+incluir ya elementos de inteligencia
+artificial. Por eso es que tenemos a un
+
+artificial. Por eso es que tenemos a un
+
+artificial. Por eso es que tenemos a un
+agente. Como ustedes vieron, el otro era
+
+agente. Como ustedes vieron, el otro era
+
+agente. Como ustedes vieron, el otro era
+más un flujo, ¿verdad? Muy específico,
+
+más un flujo, ¿verdad? Muy específico,
+
+más un flujo, ¿verdad? Muy específico,
+donde íbamos incluyendo inteligencia
+
+donde íbamos incluyendo inteligencia
+
+donde íbamos incluyendo inteligencia
+artificial. Y en el fondo, pues eh
+
+artificial. Y en el fondo, pues eh
+
+artificial. Y en el fondo, pues eh
+es, ¿verdad?, eh herramientas de
+
+es, ¿verdad?, eh herramientas de
+
+es, ¿verdad?, eh herramientas de
+inteligencia artificial que nos van
+
+inteligencia artificial que nos van
+
+inteligencia artificial que nos van
+ayudando a solucionar ciertos problemas
+
+ayudando a solucionar ciertos problemas
+
+ayudando a solucionar ciertos problemas
+de flujo de trabajo. ¿Cuál es la
+
+de flujo de trabajo. ¿Cuál es la
+
+de flujo de trabajo. ¿Cuál es la
+diferencia por acá? La diferencia que
+
+diferencia por acá? La diferencia que
+
+diferencia por acá? La diferencia que
+estamos teniendo es que acá vamos a
+
+estamos teniendo es que acá vamos a
+
+estamos teniendo es que acá vamos a
+incluirle un agente y le vamos a incluir
+
+incluirle un agente y le vamos a incluir
+
+incluirle un agente y le vamos a incluir
+la inteligencia artificial a ese agente
+
+la inteligencia artificial a ese agente
+
+la inteligencia artificial a ese agente
+para que el agente entonces pueda tomar
+
+para que el agente entonces pueda tomar
+
+para que el agente entonces pueda tomar
+ciertas decisiones. Entonces, digamos
+
+ciertas decisiones. Entonces, digamos
+
+ciertas decisiones. Entonces, digamos
+que va operando en una lógica
+
+que va operando en una lógica
+
+que va operando en una lógica
+relativamente similar a lo que vimos en
+
+relativamente similar a lo que vimos en
+
+relativamente similar a lo que vimos en
+Make, pero es eh diferente por el hecho
+
+Make, pero es eh diferente por el hecho
+
+Make, pero es eh diferente por el hecho
+de que ya e digamos es un poco más
+
+de que ya e digamos es un poco más
+
+de que ya e digamos es un poco más
+avanzado. Estamos utilizando un agente
+
+avanzado. Estamos utilizando un agente
+
+avanzado. Estamos utilizando un agente
+que va a ser como un robot. Podemos
+
+que va a ser como un robot. Podemos
+
+que va a ser como un robot. Podemos
+verlo de esa manera y ese robot entonces
+
+verlo de esa manera y ese robot entonces
+
+verlo de esa manera y ese robot entonces
+le vamos a ir agregando herramientas
+
+le vamos a ir agregando herramientas
+
+le vamos a ir agregando herramientas
+para que él pueda trabajar. Entonces la
+
+para que él pueda trabajar. Entonces la
+
+para que él pueda trabajar. Entonces la
+inteligencia artificial va a ser una de
+
+inteligencia artificial va a ser una de
+
+inteligencia artificial va a ser una de
+sus herramientas. Va a poder utilizar la
+
+sus herramientas. Va a poder utilizar la
+
+sus herramientas. Va a poder utilizar la
+inteligencia artificial y también va a
+
+inteligencia artificial y también va a
+
+inteligencia artificial y también va a
+poder utilizar bases de datos, va a
+
+poder utilizar bases de datos, va a
+
+poder utilizar bases de datos, va a
+utilizar modelos de pensamiento, va a
+
+utilizar modelos de pensamiento, va a
+
+utilizar modelos de pensamiento, va a
+poder utilizar herramientas de un montón
+
+poder utilizar herramientas de un montón
+
+poder utilizar herramientas de un montón
+de eh opciones que tiene disponible.
+
+de eh opciones que tiene disponible.
+
+de eh opciones que tiene disponible.
+Como este es un primer acercamiento con
+
+Como este es un primer acercamiento con
+
+Como este es un primer acercamiento con
+N8N, vamos a hacer un ejemplo sencillo
+
+N8N, vamos a hacer un ejemplo sencillo
+
+N8N, vamos a hacer un ejemplo sencillo
+en el curso como tal, ya en las clases
+
+en el curso como tal, ya en las clases
+
+en el curso como tal, ya en las clases
+eh propias del curso, vamos a ver
+
+eh propias del curso, vamos a ver
+
+eh propias del curso, vamos a ver
+ejemplos más avanzados y vamos entonces
+
+ejemplos más avanzados y vamos entonces
+
+ejemplos más avanzados y vamos entonces
+a ir refinando aún más esta herramienta,
+
+a ir refinando aún más esta herramienta,
+
+a ir refinando aún más esta herramienta,
+el uso de esta herramienta. De momento
+
+el uso de esta herramienta. De momento
+
+el uso de esta herramienta. De momento
+vamos a partir de un ejemplo sencillo
+
+vamos a partir de un ejemplo sencillo
+
+vamos a partir de un ejemplo sencillo
+que es llega un un mensaje en Telegram,
+
+que es llega un un mensaje en Telegram,
+
+que es llega un un mensaje en Telegram,
+vamos a hacer un chatbot de asistencia
+
+vamos a hacer un chatbot de asistencia
+
+vamos a hacer un chatbot de asistencia
+al cliente. Entonces va a recibir un
+
+al cliente. Entonces va a recibir un
+
+al cliente. Entonces va a recibir un
+mensaje en Telegram. En este caso, el
+
+mensaje en Telegram. En este caso, el
+
+mensaje en Telegram. En este caso, el
+agente de inteligencia artificial va a
+
+agente de inteligencia artificial va a
+
+agente de inteligencia artificial va a
+tomar ese mensaje con la inteligencia
+
+tomar ese mensaje con la inteligencia
+
+tomar ese mensaje con la inteligencia
+artificial, con memoria y con
+
+artificial, con memoria y con
+
+artificial, con memoria y con
+pensamiento. Va a darle una respuesta
+
+pensamiento. Va a darle una respuesta
+
+pensamiento. Va a darle una respuesta
+y o va a, en este caso, a generar una
+
+y o va a, en este caso, a generar una
+
+y o va a, en este caso, a generar una
+respuesta y posteriormente la va a
+
+respuesta y posteriormente la va a
+
+respuesta y posteriormente la va a
+enviar utilizando también Telegram. En
+
+enviar utilizando también Telegram. En
+
+enviar utilizando también Telegram. En
+términos prácticos va a llegar un
+
+términos prácticos va a llegar un
+
+términos prácticos va a llegar un
+mensaje a Telegram, el chatbot va a
+
+mensaje a Telegram, el chatbot va a
+
+mensaje a Telegram, el chatbot va a
+analizar, va a generar una respuesta y
+
+analizar, va a generar una respuesta y
+
+analizar, va a generar una respuesta y
+después va a responder. Entonces, este
+
+después va a responder. Entonces, este
+
+después va a responder. Entonces, este
+es el flujo regular y eh común de los
+
+es el flujo regular y eh común de los
+
+es el flujo regular y eh común de los
+chatbots de asistencia a eh a clientes.
+
+chatbots de asistencia a eh a clientes.
+
+chatbots de asistencia a eh a clientes.
+Entonces, vamos a desarrollarlo desde
+
+Entonces, vamos a desarrollarlo desde
+
+Entonces, vamos a desarrollarlo desde
+cero. De momento yo voy a abrir la
+
+cero. De momento yo voy a abrir la
+
+cero. De momento yo voy a abrir la
+ventanita por acá y voy a volver a abrir
+
+ventanita por acá y voy a volver a abrir
+
+ventanita por acá y voy a volver a abrir
+otra ventana de N8N porque la idea es
+
+otra ventana de N8N porque la idea es
+
+otra ventana de N8N porque la idea es
+tener esta por acá para irnos guiando y
+
+tener esta por acá para irnos guiando y
+
+tener esta por acá para irnos guiando y
+por el otro lado generar una ventana
+
+por el otro lado generar una ventana
+
+por el otro lado generar una ventana
+desde cero. Vamos aquí a crear workflow
+
+y muy parecido a lo que vimos en make,
+
+y muy parecido a lo que vimos en make,
+
+y muy parecido a lo que vimos en make,
+es necesario eh ya propiamente iniciar
+
+es necesario eh ya propiamente iniciar
+
+es necesario eh ya propiamente iniciar
+con el primer paso.
+
+con el primer paso.
+
+con el primer paso.
+Acá
+
+Acá
+
+Acá
+vamos entonces a determinar cuál va a
+
+vamos entonces a determinar cuál va a
+
+vamos entonces a determinar cuál va a
+ser el trigger,
+
+ser el trigger,
+
+ser el trigger,
+pero es importante antes de eso
+
+pero es importante antes de eso
+
+pero es importante antes de eso
+eh crear
+
+eh crear
+
+eh crear
+en este caso el bot de Telegram.
+
+en este caso el bot de Telegram.
+
+en este caso el bot de Telegram.
+Entonces tenemos que ir nuestra Telegram
+
+y aquí en Telegram
+
+y aquí en Telegram
+
+y aquí en Telegram
+tenemos que buscar a Bot Father.
+
+tenemos que buscar a Bot Father.
+
+tenemos que buscar a Bot Father.
+Bot Father es un eh creador de bots, es
+
+Bot Father es un eh creador de bots, es
+
+Bot Father es un eh creador de bots, es
+el creador de bots de
+
+el creador de bots de
+
+el creador de bots de
+eh Telegram. Entonces, el que nos va a
+
+eh Telegram. Entonces, el que nos va a
+
+eh Telegram. Entonces, el que nos va a
+permitir, nos va a ayudar a crear estos
+
+permitir, nos va a ayudar a crear estos
+
+permitir, nos va a ayudar a crear estos
+bots en Telegram. Acá simplmente
+
+bots en Telegram. Acá simplmente
+
+bots en Telegram. Acá simplmente
+buscamos aquí en bot, en bot father y le
+
+buscamos aquí en bot, en bot father y le
+
+buscamos aquí en bot, en bot father y le
+vamos a escribir la palabra esta slash
+
+vamos a escribir la palabra esta slash
+
+vamos a escribir la palabra esta slash
+start. No lo voy a hacer porque pues ya
+
+start. No lo voy a hacer porque pues ya
+
+start. No lo voy a hacer porque pues ya
+aquí en este caso lo tenemos, ¿verdad?
+
+aquí en este caso lo tenemos, ¿verdad?
+
+aquí en este caso lo tenemos, ¿verdad?
+Pero bueno,
+
+Pero bueno,
+
+Pero bueno,
+vamos a a desarrollar el proceso mejor
+
+vamos a a desarrollar el proceso mejor
+
+vamos a a desarrollar el proceso mejor
+con todo el detalle para que ustedes lo
+
+con todo el detalle para que ustedes lo
+
+con todo el detalle para que ustedes lo
+puedan ver. Entonces ahí le van a dar,
+
+puedan ver. Entonces ahí le van a dar,
+
+puedan ver. Entonces ahí le van a dar,
+perdón, aquí quedó en buscar emojis.
+
+perdón, aquí quedó en buscar emojis.
+
+perdón, aquí quedó en buscar emojis.
+Le voy a dar start
+
+y ven que entonces ya él me da las
+
+y ven que entonces ya él me da las
+
+y ven que entonces ya él me da las
+diferentes opciones, ¿verdad?
+
+diferentes opciones, ¿verdad?
+
+diferentes opciones, ¿verdad?
+Acá, tal y como ustedes lo logran
+
+Acá, tal y como ustedes lo logran
+
+Acá, tal y como ustedes lo logran
+observar,
+
+observar,
+
+observar,
+después de darle start, ¿qué tenemos que
+
+después de darle start, ¿qué tenemos que
+
+después de darle start, ¿qué tenemos que
+darle?
+
+darle?
+
+darle?
+New bot, que es esta opcionita que está
+
+New bot, que es esta opcionita que está
+
+New bot, que es esta opcionita que está
+por acá,
+
+por acá,
+
+por acá,
+new bot.
+
+new bot.
+
+new bot.
+Entonces, damos slash y le vamos a poner
+
+Entonces, damos slash y le vamos a poner
+
+Entonces, damos slash y le vamos a poner
+new bot. Entonces, para crear un nuevo
+
+new bot. Entonces, para crear un nuevo
+
+new bot. Entonces, para crear un nuevo
+bot
+
+bot
+
+bot
+tenemos que darle un nombre.
+
+tenemos que darle un nombre.
+
+tenemos que darle un nombre.
+Como ustedes ven,
+
+Como ustedes ven,
+
+Como ustedes ven,
+ya yo he usado
+
+ya yo he usado
+
+ya yo he usado
+Maris, ¿verdad?
+
+Maris, ¿verdad?
+
+Maris, ¿verdad?
+Y en este caso voy a ponerle este
+
+Y en este caso voy a ponerle este
+
+Y en este caso voy a ponerle este
+nombre, tiene que ser un nombre único.
+
+En primera instancia puede que nos
+
+En primera instancia puede que nos
+
+En primera instancia puede que nos
+cambie un poquito el nombre, entonces no
+
+cambie un poquito el nombre, entonces no
+
+cambie un poquito el nombre, entonces no
+se preocupen ustedes. Ahí, por ejemplo,
+
+se preocupen ustedes. Ahí, por ejemplo,
+
+se preocupen ustedes. Ahí, por ejemplo,
+nos está sugiriendo que usemos, por
+
+nos está sugiriendo que usemos, por
+
+nos está sugiriendo que usemos, por
+ejemplo, un guón bajo. Entonces, ustedes
+
+ejemplo, un guón bajo. Entonces, ustedes
+
+ejemplo, un guón bajo. Entonces, ustedes
+nada más le dan ahí sugerido y listo.
+
+nada más le dan ahí sugerido y listo.
+
+nada más le dan ahí sugerido y listo.
+Ya con eso hemos creado el bots.
+
+Ya con eso hemos creado el bots.
+
+Ya con eso hemos creado el bots.
+Entonces, vean que nos da un token
+
+y eh también pues nos da una descripción
+
+y eh también pues nos da una descripción
+
+y eh también pues nos da una descripción
+este token. Pues después yo tengo que
+
+este token. Pues después yo tengo que
+
+este token. Pues después yo tengo que
+proceder a eliminarlo, ¿verdad? Para que
+
+proceder a eliminarlo, ¿verdad? Para que
+
+proceder a eliminarlo, ¿verdad? Para que
+ustedes en este caso vean cómo es el
+
+ustedes en este caso vean cómo es el
+
+ustedes en este caso vean cómo es el
+proceso, pero tenemos que eliminarlo.
+
+proceso, pero tenemos que eliminarlo.
+
+proceso, pero tenemos que eliminarlo.
+Muy bien, ahora sí ya nos vamos a venir
+
+Muy bien, ahora sí ya nos vamos a venir
+
+Muy bien, ahora sí ya nos vamos a venir
+acá
+
+acá
+
+acá
+y tenemos que
+
+y tenemos que
+
+y tenemos que
+buscar, por ejemplo, a Telegram. Igual
+
+buscar, por ejemplo, a Telegram. Igual
+
+buscar, por ejemplo, a Telegram. Igual
+veen que podemos agregar
+
+veen que podemos agregar
+
+veen que podemos agregar
+inclusive desde WhatsApp, desde
+
+inclusive desde WhatsApp, desde
+
+inclusive desde WhatsApp, desde
+WhatsApp, desde eh, por ejemplo,
+
+WhatsApp, desde eh, por ejemplo,
+
+WhatsApp, desde eh, por ejemplo,
+Facebook, eh podemos hacerlo también
+
+Facebook, eh podemos hacerlo también
+
+Facebook, eh podemos hacerlo también
+desde Instagram,
+
+desde Instagram,
+
+desde Instagram,
+¿verdad? Entonces, en realidad tenemos
+
+¿verdad? Entonces, en realidad tenemos
+
+¿verdad? Entonces, en realidad tenemos
+muchísimas opciones aquí, inclusive
+
+muchísimas opciones aquí, inclusive
+
+muchísimas opciones aquí, inclusive
+también podrían ser temas de Gmail o de
+
+también podrían ser temas de Gmail o de
+
+también podrían ser temas de Gmail o de
+Microsoft Outlook, ¿verdad? Entonces,
+
+Microsoft Outlook, ¿verdad? Entonces,
+
+Microsoft Outlook, ¿verdad? Entonces,
+tenemos muchas opciones. En este caso en
+
+tenemos muchas opciones. En este caso en
+
+tenemos muchas opciones. En este caso en
+concreto que estamos trabajando, vamos a
+
+concreto que estamos trabajando, vamos a
+
+concreto que estamos trabajando, vamos a
+utilizar Telegram.
+
+utilizar Telegram.
+
+utilizar Telegram.
+Y aquí en Telegram,
+
+Y aquí en Telegram,
+
+Y aquí en Telegram,
+vean que también
+
+vean que también
+
+vean que también
+podemos ver cuál es el eh trigger que
+
+podemos ver cuál es el eh trigger que
+
+podemos ver cuál es el eh trigger que
+estamos utilizando. Y como ustedes ven,
+
+estamos utilizando. Y como ustedes ven,
+
+estamos utilizando. Y como ustedes ven,
+es un updates
+
+es un updates
+
+es un updates
+message.
+
+message.
+
+message.
+Si yo le doy click
+
+Si yo le doy click
+
+Si yo le doy click
+clic acá, ¿verdad? puedo ver exactamente
+
+clic acá, ¿verdad? puedo ver exactamente
+
+clic acá, ¿verdad? puedo ver exactamente
+cuál es el ah en este caso el eh el
+
+cuál es el ah en este caso el eh el
+
+cuál es el ah en este caso el eh el
+trigger que estamos utilizando. Entonces
+
+trigger que estamos utilizando. Entonces
+
+trigger que estamos utilizando. Entonces
+nos vamos a venir por acá,
+
+nos vamos a venir por acá,
+
+nos vamos a venir por acá,
+perdón, a la automatización
+
+perdón, a la automatización
+
+perdón, a la automatización
+y le damos
+
+entonces en la opcionita que teníamos
+
+entonces en la opcionita que teníamos
+
+entonces en la opcionita que teníamos
+por acá, perdón, que sería
+
+por acá, perdón, que sería
+
+por acá, perdón, que sería
+message. Entonces vamos a
+
+message. Entonces vamos a
+
+message. Entonces vamos a
+message.
+
+message.
+
+message.
+Y acá,
+
+ah, bueno, aquí nos sale on message, que
+
+ah, bueno, aquí nos sale on message, que
+
+ah, bueno, aquí nos sale on message, que
+es el equivalente
+
+acá. Entonces, tenemos que escoger la
+
+acá. Entonces, tenemos que escoger la
+
+acá. Entonces, tenemos que escoger la
+cuenta Telegram. Yo aquí ya tengo dos
+
+cuenta Telegram. Yo aquí ya tengo dos
+
+cuenta Telegram. Yo aquí ya tengo dos
+configuradas, pero igual le podemos dar
+
+configuradas, pero igual le podemos dar
+
+configuradas, pero igual le podemos dar
+aquí en crear nueva credencial
+
+aquí en crear nueva credencial
+
+aquí en crear nueva credencial
+para que ustedes puedan ver.
+
+para que ustedes puedan ver.
+
+para que ustedes puedan ver.
+Aquí le podemos cambiar el nombre.
+
+Aquí le podemos cambiar el nombre.
+
+Aquí le podemos cambiar el nombre.
+Entonces voy a poner Telegram
+
+para recordarme cuál es. Y le tenemos
+
+para recordarme cuál es. Y le tenemos
+
+para recordarme cuál es. Y le tenemos
+que pegar el access token,
+
+que pegar el access token,
+
+que pegar el access token,
+que es como el AP key, ¿verdad?, que ya
+
+que es como el AP key, ¿verdad?, que ya
+
+que es como el AP key, ¿verdad?, que ya
+hemos visto en otras en otros módulos.
+
+hemos visto en otras en otros módulos.
+
+hemos visto en otras en otros módulos.
+Y con eso ya le puedo dar en save. Y él
+
+Y con eso ya le puedo dar en save. Y él
+
+Y con eso ya le puedo dar en save. Y él
+me dice, "Okay, todo funcionó
+
+me dice, "Okay, todo funcionó
+
+me dice, "Okay, todo funcionó
+perfectamente. Entonces, ya está.
+
+perfectamente. Entonces, ya está.
+
+perfectamente. Entonces, ya está.
+funcionando de modo correcto
+
+funcionando de modo correcto
+
+funcionando de modo correcto
+y listo. Ya con eso
+
+y listo. Ya con eso
+
+y listo. Ya con eso
+él por dentro pues hace toda la
+
+él por dentro pues hace toda la
+
+él por dentro pues hace toda la
+configuración que sea necesario, pero
+
+configuración que sea necesario, pero
+
+configuración que sea necesario, pero
+aquí él ya está eh propiamente
+
+aquí él ya está eh propiamente
+
+aquí él ya está eh propiamente
+configurado, solo teníamos que hacerle
+
+configurado, solo teníamos que hacerle
+
+configurado, solo teníamos que hacerle
+el canal de ingreso. Ahora vamos
+
+el canal de ingreso. Ahora vamos
+
+el canal de ingreso. Ahora vamos
+entonces al siguiente paso y el
+
+entonces al siguiente paso y el
+
+entonces al siguiente paso y el
+siguiente paso ahora sí es construir un
+
+siguiente paso ahora sí es construir un
+
+siguiente paso ahora sí es construir un
+agente de Vean que yo puedo hacer un
+
+agente de Vean que yo puedo hacer un
+
+agente de Vean que yo puedo hacer un
+flow, puedo también hacer un switch,
+
+flow, puedo también hacer un switch,
+
+flow, puedo también hacer un switch,
+¿verdad? Puedo hacer un filtro, puedo
+
+¿verdad? Puedo hacer un filtro, puedo
+
+¿verdad? Puedo hacer un filtro, puedo
+hacer cualquier cantidad de cosas. Aquí
+
+hacer cualquier cantidad de cosas. Aquí
+
+hacer cualquier cantidad de cosas. Aquí
+hay una gran cantidad, por ejemplo,
+
+hay una gran cantidad, por ejemplo,
+
+hay una gran cantidad, por ejemplo,
+inclusive puedo utilizar esta opción de
+
+inclusive puedo utilizar esta opción de
+
+inclusive puedo utilizar esta opción de
+revisión humana, que es algo
+
+revisión humana, que es algo
+
+revisión humana, que es algo
+relativamente nuevo, que es muy fuerte,
+
+relativamente nuevo, que es muy fuerte,
+
+relativamente nuevo, que es muy fuerte,
+muy potente, para que entonces eh la
+
+muy potente, para que entonces eh la
+
+muy potente, para que entonces eh la
+gente no responda o o no ejecute ciertas
+
+gente no responda o o no ejecute ciertas
+
+gente no responda o o no ejecute ciertas
+acciones sin que primero haya sido eh
+
+acciones sin que primero haya sido eh
+
+acciones sin que primero haya sido eh
+revisado por un humano.
+
+revisado por un humano.
+
+revisado por un humano.
+También inclusive podemos agregarle
+
+También inclusive podemos agregarle
+
+También inclusive podemos agregarle
+código, crear tablas de datos, podemos
+
+código, crear tablas de datos, podemos
+
+código, crear tablas de datos, podemos
+conectarnos a otras APIs, podemos hacer
+
+conectarnos a otras APIs, podemos hacer
+
+conectarnos a otras APIs, podemos hacer
+lecturas de web hooks, o sea, podemos
+
+lecturas de web hooks, o sea, podemos
+
+lecturas de web hooks, o sea, podemos
+hacer formularios, o sea, aquí tenemos
+
+hacer formularios, o sea, aquí tenemos
+
+hacer formularios, o sea, aquí tenemos
+cualquier cantidad de cosas. Podemos
+
+cualquier cantidad de cosas. Podemos
+
+cualquier cantidad de cosas. Podemos
+darle un white para que no responda
+
+darle un white para que no responda
+
+darle un white para que no responda
+inmediatamente, sino que espere cierta
+
+inmediatamente, sino que espere cierta
+
+inmediatamente, sino que espere cierta
+cantidad de segundos. O sea, es
+
+cantidad de segundos. O sea, es
+
+cantidad de segundos. O sea, es
+muchísimas las opciones que tenemos y
+
+muchísimas las opciones que tenemos y
+
+muchísimas las opciones que tenemos y
+como les digo, de muchísimas
+
+como les digo, de muchísimas
+
+como les digo, de muchísimas
+herramientas, ¿verdad? desde hasta eh
+
+herramientas, ¿verdad? desde hasta eh
+
+herramientas, ¿verdad? desde hasta eh
+por ejemplo temas de a table para
+
+por ejemplo temas de a table para
+
+por ejemplo temas de a table para
+conectar una base de datos. Eh podemos
+
+conectar una base de datos. Eh podemos
+
+conectar una base de datos. Eh podemos
+eh conectarnos con modelos de Gemini,
+
+eh conectarnos con modelos de Gemini,
+
+eh conectarnos con modelos de Gemini,
+¿verdad? Podemos conectarnos con modelos
+
+¿verdad? Podemos conectarnos con modelos
+
+¿verdad? Podemos conectarnos con modelos
+de chat GPT o AI, podemos conectarnos
+
+de chat GPT o AI, podemos conectarnos
+
+de chat GPT o AI, podemos conectarnos
+con elementos gráficos. E en realidad es
+
+con elementos gráficos. E en realidad es
+
+con elementos gráficos. E en realidad es
+tanta tanta la opciones, podemos hacer
+
+tanta tanta la opciones, podemos hacer
+
+tanta tanta la opciones, podemos hacer
+manipulación, filtro y conversión de
+
+manipulación, filtro y conversión de
+
+manipulación, filtro y conversión de
+datos, podemos hacer conexiones SQL y
+
+datos, podemos hacer conexiones SQL y
+
+datos, podemos hacer conexiones SQL y
+hacer consultas a bases, o sea, tenemos
+
+hacer consultas a bases, o sea, tenemos
+
+hacer consultas a bases, o sea, tenemos
+muchísimas opciones que claramente pues
+
+muchísimas opciones que claramente pues
+
+muchísimas opciones que claramente pues
+no podemos abarcarlas todas en este
+
+no podemos abarcarlas todas en este
+
+no podemos abarcarlas todas en este
+curso que lo que busca es generar una
+
+curso que lo que busca es generar una
+
+curso que lo que busca es generar una
+introducción. En las lecciones como tal,
+
+introducción. En las lecciones como tal,
+
+introducción. En las lecciones como tal,
+pues vamos a abarcar un poquito más,
+
+pues vamos a abarcar un poquito más,
+
+pues vamos a abarcar un poquito más,
+pero en para efectos de este video, la
+
+pero en para efectos de este video, la
+
+pero en para efectos de este video, la
+idea es como que ustedes tuvieran pues
+
+idea es como que ustedes tuvieran pues
+
+idea es como que ustedes tuvieran pues
+las ideas más generales. Muy bien.
+
+las ideas más generales. Muy bien.
+
+las ideas más generales. Muy bien.
+Ahora, entonces aquí como lo que
+
+Ahora, entonces aquí como lo que
+
+Ahora, entonces aquí como lo que
+queremos es construir un agente de
+
+queremos es construir un agente de
+
+queremos es construir un agente de
+inteligencia artificial, ¿ven que
+
+inteligencia artificial, ¿ven que
+
+inteligencia artificial, ¿ven que
+incluso podemos
+
+incluso podemos
+
+incluso podemos
+utilizar muchas opciones acá, ¿verdad?
+
+utilizar muchas opciones acá, ¿verdad?
+
+utilizar muchas opciones acá, ¿verdad?
+Pero nos vamos a ir a la opción más
+
+Pero nos vamos a ir a la opción más
+
+Pero nos vamos a ir a la opción más
+típica que es la de agentes de IA. Y
+
+típica que es la de agentes de IA. Y
+
+típica que es la de agentes de IA. Y
+aquí entonces yo tengo ya que construir
+
+aquí entonces yo tengo ya que construir
+
+aquí entonces yo tengo ya que construir
+eh propiamente el agente de
+
+eh propiamente el agente de
+
+eh propiamente el agente de
+la ventaja es que prácticamente esto lo
+
+la ventaja es que prácticamente esto lo
+
+la ventaja es que prácticamente esto lo
+hace por default, entonces no me tengo
+
+hace por default, entonces no me tengo
+
+hace por default, entonces no me tengo
+que preocupar mucho. En realidad aquí si
+
+que preocupar mucho. En realidad aquí si
+
+que preocupar mucho. En realidad aquí si
+ustedes eh logran observar es un pro
+
+ustedes eh logran observar es un pro
+
+ustedes eh logran observar es un pro
+sencillo donde él va a cargar el nodo
+
+sencillo donde él va a cargar el nodo
+
+sencillo donde él va a cargar el nodo
+del input que venga del chat previo.
+
+del input que venga del chat previo.
+
+del input que venga del chat previo.
+Entonces, ven que aquí yo ni siquiera
+
+Entonces, ven que aquí yo ni siquiera
+
+Entonces, ven que aquí yo ni siquiera
+tengo, a diferencia de lo que us make,
+
+tengo, a diferencia de lo que us make,
+
+tengo, a diferencia de lo que us make,
+que empezar a configurar eso. Como
+
+que empezar a configurar eso. Como
+
+que empezar a configurar eso. Como
+ustedes ven acá, es un poquito más
+
+ustedes ven acá, es un poquito más
+
+ustedes ven acá, es un poquito más
+desarrollado porque yo puedo empezar a
+
+desarrollado porque yo puedo empezar a
+
+desarrollado porque yo puedo empezar a
+inclusive poner un modelo eh como de
+
+inclusive poner un modelo eh como de
+
+inclusive poner un modelo eh como de
+fback en caso de que eh suceda algo y
+
+fback en caso de que eh suceda algo y
+
+fback en caso de que eh suceda algo y
+necesite que entre otro modelo o demás.
+
+necesite que entre otro modelo o demás.
+
+necesite que entre otro modelo o demás.
+Entonces, vean que yo aquí perfectamente
+
+Entonces, vean que yo aquí perfectamente
+
+Entonces, vean que yo aquí perfectamente
+podría configurar eh opciones un poquito
+
+podría configurar eh opciones un poquito
+
+podría configurar eh opciones un poquito
+más avanzadas, pero eso es si yo
+
+más avanzadas, pero eso es si yo
+
+más avanzadas, pero eso es si yo
+quisiera hacerlo. De lo contrario, la
+
+quisiera hacerlo. De lo contrario, la
+
+quisiera hacerlo. De lo contrario, la
+misma herramienta con solo que yo cierre
+
+misma herramienta con solo que yo cierre
+
+misma herramienta con solo que yo cierre
+aquí ya generó lo que tenía que generar,
+
+aquí ya generó lo que tenía que generar,
+
+aquí ya generó lo que tenía que generar,
+ya hizo la conexión previa que tenía que
+
+ya hizo la conexión previa que tenía que
+
+ya hizo la conexión previa que tenía que
+hacer. ¿Ven? Entonces es muy sencillo.
+
+hacer. ¿Ven? Entonces es muy sencillo.
+
+hacer. ¿Ven? Entonces es muy sencillo.
+Entonces si uno quiere, pues uno puede
+
+Entonces si uno quiere, pues uno puede
+
+Entonces si uno quiere, pues uno puede
+eh
+
+eh
+
+eh
+especificar algunas cosas más, pero en
+
+especificar algunas cosas más, pero en
+
+especificar algunas cosas más, pero en
+realidad
+
+realidad
+
+realidad
+como ustedes pueden observar, muchas
+
+como ustedes pueden observar, muchas
+
+como ustedes pueden observar, muchas
+cosas él los hace ya
+
+cosas él los hace ya
+
+cosas él los hace ya
+predeterminadamente.
+
+predeterminadamente.
+
+predeterminadamente.
+Después aquí nada más es agregarle el
+
+Después aquí nada más es agregarle el
+
+Después aquí nada más es agregarle el
+modelo y ven, ya me da muchas opciones
+
+modelo y ven, ya me da muchas opciones
+
+modelo y ven, ya me da muchas opciones
+aquí para que yo me pueda conectar.
+
+aquí para que yo me pueda conectar.
+
+aquí para que yo me pueda conectar.
+Por ejemplo, vamos a hacerlo con un
+
+Por ejemplo, vamos a hacerlo con un
+
+Por ejemplo, vamos a hacerlo con un
+modelo de Open AI
+
+modelo de Open AI
+
+modelo de Open AI
+y sucede lo mismo. Me dice, "Bueno, ¿a
+
+y sucede lo mismo. Me dice, "Bueno, ¿a
+
+y sucede lo mismo. Me dice, "Bueno, ¿a
+qué cuenta se va a conectar? Si ya tengo
+
+qué cuenta se va a conectar? Si ya tengo
+
+qué cuenta se va a conectar? Si ya tengo
+las credenciales y si no le doy crear
+
+las credenciales y si no le doy crear
+
+las credenciales y si no le doy crear
+una nueva credencial.
+
+una nueva credencial.
+
+una nueva credencial.
+Puedo utilizar esta que por ejemplo ya
+
+Puedo utilizar esta que por ejemplo ya
+
+Puedo utilizar esta que por ejemplo ya
+vemos aquí de cómo sacarlo de las API
+
+vemos aquí de cómo sacarlo de las API
+
+vemos aquí de cómo sacarlo de las API
+Kids de Open AI, que ya hemos visto en
+
+Kids de Open AI, que ya hemos visto en
+
+Kids de Open AI, que ya hemos visto en
+en sesiones previas.
+
+en sesiones previas.
+
+en sesiones previas.
+igual nada más lo creo por acá,
+
+igual nada más lo creo por acá,
+
+igual nada más lo creo por acá,
+le doy una organización si quisiera,
+
+le doy una organización si quisiera,
+
+le doy una organización si quisiera,
+¿verdad? Si fuera algo opcional
+
+y listo. Igual aquí le puedo cambiar el
+
+y listo. Igual aquí le puedo cambiar el
+
+y listo. Igual aquí le puedo cambiar el
+nombre. Entonces también le puedo poner
+
+nombre. Entonces también le puedo poner
+
+nombre. Entonces también le puedo poner
+chat GPT
+
+y entonces clase, ¿verdad? Prueba,
+
+y entonces clase, ¿verdad? Prueba,
+
+y entonces clase, ¿verdad? Prueba,
+prueba clase.
+
+prueba clase.
+
+prueba clase.
+V, entonces ya le di la key listo. Y
+
+V, entonces ya le di la key listo. Y
+
+V, entonces ya le di la key listo. Y
+aquí nada más le doy en guardar. ¿Ven?
+
+aquí nada más le doy en guardar. ¿Ven?
+
+aquí nada más le doy en guardar. ¿Ven?
+Todo fluye bastante de un modo bastante
+
+Todo fluye bastante de un modo bastante
+
+Todo fluye bastante de un modo bastante
+bastante sencillo, ¿verdad? Aquí escojo
+
+bastante sencillo, ¿verdad? Aquí escojo
+
+bastante sencillo, ¿verdad? Aquí escojo
+el modelo muy parecido a lo que vimos
+
+el modelo muy parecido a lo que vimos
+
+el modelo muy parecido a lo que vimos
+anteriormente con
+
+anteriormente con
+
+anteriormente con
+eh
+
+eh
+
+eh
+con Make, pero inclusive tengo más
+
+con Make, pero inclusive tengo más
+
+con Make, pero inclusive tengo más
+opciones porque también tengo opciones
+
+opciones porque también tengo opciones
+
+opciones porque también tengo opciones
+de conversión de audio por si llegan
+
+de conversión de audio por si llegan
+
+de conversión de audio por si llegan
+audios a Telegram. Entonces, ¿cómo puedo
+
+audios a Telegram. Entonces, ¿cómo puedo
+
+audios a Telegram. Entonces, ¿cómo puedo
+hacer para hacer la conversión de audio?
+
+hacer para hacer la conversión de audio?
+
+hacer para hacer la conversión de audio?
+Eso es algo que eh también podemos
+
+Eso es algo que eh también podemos
+
+Eso es algo que eh también podemos
+trabajar, ¿verdad? Pero para efecto de
+
+trabajar, ¿verdad? Pero para efecto de
+
+trabajar, ¿verdad? Pero para efecto de
+este video, ¿no? Pero en la clase como
+
+este video, ¿no? Pero en la clase como
+
+este video, ¿no? Pero en la clase como
+tal lo vamos a ver con un poquito más de
+
+tal lo vamos a ver con un poquito más de
+
+tal lo vamos a ver con un poquito más de
+de detalle.
+
+de detalle.
+
+de detalle.
+Y ven qué sencillo, ya con eso le di el
+
+Y ven qué sencillo, ya con eso le di el
+
+Y ven qué sencillo, ya con eso le di el
+modelo de inteligencia,
+
+modelo de inteligencia,
+
+modelo de inteligencia,
+le puedo agregar una memoria
+
+le puedo agregar una memoria
+
+le puedo agregar una memoria
+y esto es muy interesante, ¿verdad? para
+
+y esto es muy interesante, ¿verdad? para
+
+y esto es muy interesante, ¿verdad? para
+que él entonces eh pueda
+
+que él entonces eh pueda
+
+que él entonces eh pueda
+recordar cuáles han sido las
+
+recordar cuáles han sido las
+
+recordar cuáles han sido las
+conversaciones que ha tenido
+
+conversaciones que ha tenido
+
+conversaciones que ha tenido
+previamente. ¿Ven? Muy muy poderoso.
+
+previamente. ¿Ven? Muy muy poderoso.
+
+previamente. ¿Ven? Muy muy poderoso.
+Esto es bastante poderoso. Voy aquí a
+
+Esto es bastante poderoso. Voy aquí a
+
+Esto es bastante poderoso. Voy aquí a
+centrarlo. Aquí uno lo puede centrar
+
+centrarlo. Aquí uno lo puede centrar
+
+centrarlo. Aquí uno lo puede centrar
+para más facilidad. Igual ahí uno puede
+
+para más facilidad. Igual ahí uno puede
+
+para más facilidad. Igual ahí uno puede
+hacer zoom para arriba o para abajo para
+
+hacer zoom para arriba o para abajo para
+
+hacer zoom para arriba o para abajo para
+ir viendo marco, ¿verdad?
+
+ir viendo marco, ¿verdad?
+
+ir viendo marco, ¿verdad?
+Y eh
+
+Y eh
+
+Y eh
+acá pues nuevamente lo podemos centrar
+
+acá pues nuevamente lo podemos centrar
+
+acá pues nuevamente lo podemos centrar
+para irnos organizando con más
+
+para irnos organizando con más
+
+para irnos organizando con más
+facilidad. Entonces, ven, ya aquí le
+
+facilidad. Entonces, ven, ya aquí le
+
+facilidad. Entonces, ven, ya aquí le
+conecté el modelo de inteligencia
+
+conecté el modelo de inteligencia
+
+conecté el modelo de inteligencia
+artificial. Aquí le puedo conectar la
+
+artificial. Aquí le puedo conectar la
+
+artificial. Aquí le puedo conectar la
+memoria y eh puedo utilizar inclusive
+
+memoria y eh puedo utilizar inclusive
+
+memoria y eh puedo utilizar inclusive
+bases de datos para tener memorias más
+
+bases de datos para tener memorias más
+
+bases de datos para tener memorias más
+completas, como una memoria en
+
+completas, como una memoria en
+
+completas, como una memoria en
+Postgress, en en Redis o en SAT.
+
+Postgress, en en Redis o en SAT.
+
+Postgress, en en Redis o en SAT.
+Pero en este caso también podemos dar
+
+Pero en este caso también podemos dar
+
+Pero en este caso también podemos dar
+pues una memoria sencilla del sistema,
+
+pues una memoria sencilla del sistema,
+
+pues una memoria sencilla del sistema,
+¿verdad? en donde eh pues ella va a
+
+¿verdad? en donde eh pues ella va a
+
+¿verdad? en donde eh pues ella va a
+poder ya propiamente conectarse
+
+poder ya propiamente conectarse
+
+poder ya propiamente conectarse
+acá, ¿verdad? Eso es una opción que
+
+acá, ¿verdad? Eso es una opción que
+
+acá, ¿verdad? Eso es una opción que
+podríamos darle o inclusive pues podemos
+
+podríamos darle o inclusive pues podemos
+
+podríamos darle o inclusive pues podemos
+darle una memoria eh simple. Vamos a ver
+
+darle una memoria eh simple. Vamos a ver
+
+darle una memoria eh simple. Vamos a ver
+inclusive cómo hacer ese proceso.
+
+En este caso, vean que ya no me sale
+
+En este caso, vean que ya no me sale
+
+En este caso, vean que ya no me sale
+dentro de las opciones eh predefinidas.
+
+dentro de las opciones eh predefinidas.
+
+dentro de las opciones eh predefinidas.
+Yo aquí podría perfectamente, como les
+
+Yo aquí podría perfectamente, como les
+
+Yo aquí podría perfectamente, como les
+mencionaba, tomar cualquiera de ellas.
+
+mencionaba, tomar cualquiera de ellas.
+
+mencionaba, tomar cualquiera de ellas.
+por ejemplo, la de Postgres que más
+
+por ejemplo, la de Postgres que más
+
+por ejemplo, la de Postgres que más
+utilizadas, pero tengo que conectarme a
+
+utilizadas, pero tengo que conectarme a
+
+utilizadas, pero tengo que conectarme a
+un eh en este caso una cuenta de
+
+un eh en este caso una cuenta de
+
+un eh en este caso una cuenta de
+Postgress, muy parecido a lo que hemos
+
+Postgress, muy parecido a lo que hemos
+
+Postgress, muy parecido a lo que hemos
+visto con Gmail, lo que hemos visto eh
+
+visto con Gmail, lo que hemos visto eh
+
+visto con Gmail, lo que hemos visto eh
+también con e las demás herramientas. Ya
+
+también con e las demás herramientas. Ya
+
+también con e las demás herramientas. Ya
+tendría que venir aquí eh traerme cuál
+
+tendría que venir aquí eh traerme cuál
+
+tendría que venir aquí eh traerme cuál
+es el host, el usuario, ¿verdad? Tengo
+
+es el host, el usuario, ¿verdad? Tengo
+
+es el host, el usuario, ¿verdad? Tengo
+que traerme como esos datos para poder
+
+que traerme como esos datos para poder
+
+que traerme como esos datos para poder
+utilizar una de Postgress, ¿verdad? En
+
+utilizar una de Postgress, ¿verdad? En
+
+utilizar una de Postgress, ¿verdad? En
+este caso, para no entrar en esas
+
+este caso, para no entrar en esas
+
+este caso, para no entrar en esas
+complicaciones técnicas y hacerlo lo más
+
+complicaciones técnicas y hacerlo lo más
+
+complicaciones técnicas y hacerlo lo más
+sencillo posible, podemos venirnos al
+
+sencillo posible, podemos venirnos al
+
+sencillo posible, podemos venirnos al
+que habíamos cargado, ¿verdad? Podemos
+
+que habíamos cargado, ¿verdad? Podemos
+
+que habíamos cargado, ¿verdad? Podemos
+copiar este eh nodo, nos lo traemos para
+
+copiar este eh nodo, nos lo traemos para
+
+copiar este eh nodo, nos lo traemos para
+acá y hacemos un pequeño truco para
+
+acá y hacemos un pequeño truco para
+
+acá y hacemos un pequeño truco para
+tenerlo por aquí como memoria simple. Es
+
+tenerlo por aquí como memoria simple. Es
+
+tenerlo por aquí como memoria simple. Es
+una esquema de memoria muy sencillo. Y
+
+una esquema de memoria muy sencillo. Y
+
+una esquema de memoria muy sencillo. Y
+lo conectamos. V aquí simplemente
+
+lo conectamos. V aquí simplemente
+
+lo conectamos. V aquí simplemente
+conectamos y lo que tenemos que decirle
+
+conectamos y lo que tenemos que decirle
+
+conectamos y lo que tenemos que decirle
+nada más es para el chat eh ID búsquenme
+
+nada más es para el chat eh ID búsquenme
+
+nada más es para el chat eh ID búsquenme
+los últimos 20 eh mensajes para tenerlos
+
+los últimos 20 eh mensajes para tenerlos
+
+los últimos 20 eh mensajes para tenerlos
+como memoria y listo. Ya con eso
+
+como memoria y listo. Ya con eso
+
+como memoria y listo. Ya con eso
+tendríamos el eh módulo de memoria
+
+tendríamos el eh módulo de memoria
+
+tendríamos el eh módulo de memoria
+integrado. Después podemos agregarle en
+
+integrado. Después podemos agregarle en
+
+integrado. Después podemos agregarle en
+el modo de pensamiento, que simple es
+
+el modo de pensamiento, que simple es
+
+el modo de pensamiento, que simple es
+con un tool. Y aquí vean que yo le puedo
+
+con un tool. Y aquí vean que yo le puedo
+
+con un tool. Y aquí vean que yo le puedo
+agregar cualquier cantidad de
+
+agregar cualquier cantidad de
+
+agregar cualquier cantidad de
+herramientas.
+
+herramientas.
+
+herramientas.
+Eh, aquí me tiran nada más como las
+
+Eh, aquí me tiran nada más como las
+
+Eh, aquí me tiran nada más como las
+predefinidas, pero aquí yo podría
+
+predefinidas, pero aquí yo podría
+
+predefinidas, pero aquí yo podría
+inclusive decirle, "Conéctese a un
+
+inclusive decirle, "Conéctese a un
+
+inclusive decirle, "Conéctese a un
+correo y envíelo. Eh, conéctese a una
+
+correo y envíelo. Eh, conéctese a una
+
+correo y envíelo. Eh, conéctese a una
+herramienta de Gemini." eh podría
+
+herramienta de Gemini." eh podría
+
+herramienta de Gemini." eh podría
+decirle conéctese a cualquier
+
+decirle conéctese a cualquier
+
+decirle conéctese a cualquier
+herramienta. Acá nada más por cuestión
+
+herramienta. Acá nada más por cuestión
+
+herramienta. Acá nada más por cuestión
+eh
+
+eh
+
+eh
+de seguir el ejemplo que hemos estado
+
+de seguir el ejemplo que hemos estado
+
+de seguir el ejemplo que hemos estado
+trabajando, le voy a dar aquí en til
+
+trabajando, le voy a dar aquí en til
+
+trabajando, le voy a dar aquí en til
+tools y yo ya le procedo a dar como un
+
+tools y yo ya le procedo a dar como un
+
+tools y yo ya le procedo a dar como un
+prom de razonamiento. Entonces, lo que
+
+prom de razonamiento. Entonces, lo que
+
+prom de razonamiento. Entonces, lo que
+le estamos diciendo es
+
+le estamos diciendo es
+
+le estamos diciendo es
+que antes de responder
+
+que antes de responder
+
+que antes de responder
+proceda a pensar un poco la respuesta
+
+proceda a pensar un poco la respuesta
+
+proceda a pensar un poco la respuesta
+antes de responder. No siempre es
+
+antes de responder. No siempre es
+
+antes de responder. No siempre es
+necesario, no es obligatorio. Aquí como
+
+necesario, no es obligatorio. Aquí como
+
+necesario, no es obligatorio. Aquí como
+ustedes ven lo que hicimos para reiterar
+
+ustedes ven lo que hicimos para reiterar
+
+ustedes ven lo que hicimos para reiterar
+nada más entré. Este es el workflow que
+
+nada más entré. Este es el workflow que
+
+nada más entré. Este es el workflow que
+está como e como plantilla que cargamos
+
+está como e como plantilla que cargamos
+
+está como e como plantilla que cargamos
+ahorita, ¿verdad? Previamente y que está
+
+ahorita, ¿verdad? Previamente y que está
+
+ahorita, ¿verdad? Previamente y que está
+en los insumos. Podemos darle doble clic
+
+en los insumos. Podemos darle doble clic
+
+en los insumos. Podemos darle doble clic
+aquí.
+
+aquí.
+
+aquí.
+en el módulo de pensamiento y copiamos
+
+en el módulo de pensamiento y copiamos
+
+en el módulo de pensamiento y copiamos
+este program. Una vez que lo copiamos,
+
+este program. Una vez que lo copiamos,
+
+este program. Una vez que lo copiamos,
+nos venimos para acá y lo pegamos. Este
+
+nos venimos para acá y lo pegamos. Este
+
+nos venimos para acá y lo pegamos. Este
+es un prom para que entonces él tenga
+
+es un prom para que entonces él tenga
+
+es un prom para que entonces él tenga
+una capa de pensamiento antes de
+
+una capa de pensamiento antes de
+
+una capa de pensamiento antes de
+responder. No es necesario tenerlo
+
+responder. No es necesario tenerlo
+
+responder. No es necesario tenerlo
+siempre, no es que siempre es necesario
+
+siempre, no es que siempre es necesario
+
+siempre, no es que siempre es necesario
+que tenga esta capa de pensamiento,
+
+que tenga esta capa de pensamiento,
+
+que tenga esta capa de pensamiento,
+¿verdad? Pero eh tiende a ser una muy
+
+¿verdad? Pero eh tiende a ser una muy
+
+¿verdad? Pero eh tiende a ser una muy
+buena alternativa. Ahora bien, ya aquí
+
+buena alternativa. Ahora bien, ya aquí
+
+buena alternativa. Ahora bien, ya aquí
+le agregamos el modulo de inteligencia
+
+le agregamos el modulo de inteligencia
+
+le agregamos el modulo de inteligencia
+artificial, le agregamos la memoria, le
+
+artificial, le agregamos la memoria, le
+
+artificial, le agregamos la memoria, le
+agregamos pensamiento. Yo podría
+
+agregamos pensamiento. Yo podría
+
+agregamos pensamiento. Yo podría
+agregarle una base de datos, por
+
+agregarle una base de datos, por
+
+agregarle una base de datos, por
+ejemplo, en table o inclusive pues
+
+ejemplo, en table o inclusive pues
+
+ejemplo, en table o inclusive pues
+también en Postgress, ¿verdad? O demás
+
+también en Postgress, ¿verdad? O demás
+
+también en Postgress, ¿verdad? O demás
+para que él vaya guardando información.
+
+para que él vaya guardando información.
+
+para que él vaya guardando información.
+Podría inclusive tratar de incluir
+
+Podría inclusive tratar de incluir
+
+Podría inclusive tratar de incluir
+elementos, ¿verdad?, para también
+
+elementos, ¿verdad?, para también
+
+elementos, ¿verdad?, para también
+conectarlo con Excel. O sea, hay muchas
+
+conectarlo con Excel. O sea, hay muchas
+
+conectarlo con Excel. O sea, hay muchas
+opciones que podríamos utilizar acá que
+
+opciones que podríamos utilizar acá que
+
+opciones que podríamos utilizar acá que
+de momento, como les digo, no las vamos
+
+de momento, como les digo, no las vamos
+
+de momento, como les digo, no las vamos
+a ver, pero quiero que quede claro que
+
+a ver, pero quiero que quede claro que
+
+a ver, pero quiero que quede claro que
+están esas posibilidades. Acá lo que
+
+están esas posibilidades. Acá lo que
+
+están esas posibilidades. Acá lo que
+ocupamos ahora nada más es a
+
+ocupamos ahora nada más es a
+
+ocupamos ahora nada más es a
+afinar el agente porque ya le dimos
+
+afinar el agente porque ya le dimos
+
+afinar el agente porque ya le dimos
+todas esas herramientas, pero nos faltó
+
+todas esas herramientas, pero nos faltó
+
+todas esas herramientas, pero nos faltó
+darle propiamente
+
+darle propiamente
+
+darle propiamente
+el prom del sistema, ¿verdad? Entonces,
+
+el prom del sistema, ¿verdad? Entonces,
+
+el prom del sistema, ¿verdad? Entonces,
+vean acá si nosotros entramos, voy a
+
+vean acá si nosotros entramos, voy a
+
+vean acá si nosotros entramos, voy a
+cerrar por acá a la gente. Vean que
+
+cerrar por acá a la gente. Vean que
+
+cerrar por acá a la gente. Vean que
+nosotros le dimos un conjunto de insumos
+
+nosotros le dimos un conjunto de insumos
+
+nosotros le dimos un conjunto de insumos
+y después le dimos el system prom,
+
+y después le dimos el system prom,
+
+y después le dimos el system prom,
+¿verdad? O el prom de sistema que él
+
+¿verdad? O el prom de sistema que él
+
+¿verdad? O el prom de sistema que él
+debería en este caso de seguir. Para
+
+debería en este caso de seguir. Para
+
+debería en este caso de seguir. Para
+activar eso
+
+activar eso
+
+activar eso
+tenemos que venirnos por acá y modificar
+
+tenemos que venirnos por acá y modificar
+
+tenemos que venirnos por acá y modificar
+esta opción de acá.
+
+esta opción de acá.
+
+esta opción de acá.
+y decirlo igual, definir posteriormente.
+
+y decirlo igual, definir posteriormente.
+
+y decirlo igual, definir posteriormente.
+Y ahora sí, aquí le voy a dar el prompt.
+
+Y ahora sí, aquí le voy a dar el prompt.
+
+Y ahora sí, aquí le voy a dar el prompt.
+Pero en este prompt, como les digo, yo
+
+Pero en este prompt, como les digo, yo
+
+Pero en este prompt, como les digo, yo
+normalmente lo que hago es que le doy
+
+normalmente lo que hago es que le doy
+
+normalmente lo que hago es que le doy
+insumo. Estos insumos vienen de los
+
+insumo. Estos insumos vienen de los
+
+insumo. Estos insumos vienen de los
+nodos previos, ¿ven? Pero ustedes me van
+
+nodos previos, ¿ven? Pero ustedes me van
+
+nodos previos, ¿ven? Pero ustedes me van
+a decir, "Y pero aquí no aparece en la
+
+a decir, "Y pero aquí no aparece en la
+
+a decir, "Y pero aquí no aparece en la
+lista de variables como sucedía en MX."
+
+lista de variables como sucedía en MX."
+
+lista de variables como sucedía en MX."
+Sí es porque tenemos que darle ejecución
+
+Sí es porque tenemos que darle ejecución
+
+Sí es porque tenemos que darle ejecución
+de nodos previos. ¿Ven? Entonces él está
+
+de nodos previos. ¿Ven? Entonces él está
+
+de nodos previos. ¿Ven? Entonces él está
+ahorita esperando que yo le responda.
+
+ahorita esperando que yo le responda.
+
+ahorita esperando que yo le responda.
+Ver. Entonces voy a
+
+Ver. Entonces voy a
+
+Ver. Entonces voy a
+venirme por acá y voy a escribirle
+
+venirme por acá y voy a escribirle
+
+venirme por acá y voy a escribirle
+porque él necesita tener los insumos
+
+porque él necesita tener los insumos
+
+porque él necesita tener los insumos
+para poder trabajarlo, ¿verdad?
+
+para poder trabajarlo, ¿verdad?
+
+para poder trabajarlo, ¿verdad?
+Entonces, ¿ven? Ya cuando hice esta
+
+Entonces, ¿ven? Ya cuando hice esta
+
+Entonces, ¿ven? Ya cuando hice esta
+primera prueba, porque ya él logró
+
+primera prueba, porque ya él logró
+
+primera prueba, porque ya él logró
+cargar las variables, ¿ven? Entonces,
+
+cargar las variables, ¿ven? Entonces,
+
+cargar las variables, ¿ven? Entonces,
+por ejemplo, aquí eh dice
+
+por ejemplo, aquí eh dice
+
+por ejemplo, aquí eh dice
+from username.
+
+from username.
+
+from username.
+Este es eh este que estamos viendo por
+
+Este es eh este que estamos viendo por
+
+Este es eh este que estamos viendo por
+acá. ¿Ven? Si ustedes lo ven,
+
+acá. ¿Ven? Si ustedes lo ven,
+
+acá. ¿Ven? Si ustedes lo ven,
+podría quitarle aquí en usuario
+
+y entonces es el username. Entonces en
+
+y entonces es el username. Entonces en
+
+y entonces es el username. Entonces en
+from
+
+from
+
+from
+yo podría traerme, digamos, en este caso
+
+yo podría traerme, digamos, en este caso
+
+yo podría traerme, digamos, en este caso
+el first name o el username, ¿verdad?
+
+el first name o el username, ¿verdad?
+
+el first name o el username, ¿verdad?
+Ah, bueno, perdón, ahí es el nombre que
+
+Ah, bueno, perdón, ahí es el nombre que
+
+Ah, bueno, perdón, ahí es el nombre que
+está aquí abrir. Más bien que tengo que
+
+está aquí abrir. Más bien que tengo que
+
+está aquí abrir. Más bien que tengo que
+traerme es el usuario.
+
+Bien, entonces vamos a jalar este que
+
+Bien, entonces vamos a jalar este que
+
+Bien, entonces vamos a jalar este que
+está acá from ID, porque eso fue algo
+
+está acá from ID, porque eso fue algo
+
+está acá from ID, porque eso fue algo
+que cambió de hecho hace poco en lo que
+
+que cambió de hecho hace poco en lo que
+
+que cambió de hecho hace poco en lo que
+es ah jalando y soltando, ¿verdad? ¿Qué
+
+es ah jalando y soltando, ¿verdad? ¿Qué
+
+es ah jalando y soltando, ¿verdad? ¿Qué
+cambió de
+
+cambió de
+
+cambió de
+Telegram? que antes había un usuario,
+
+Telegram? que antes había un usuario,
+
+Telegram? que antes había un usuario,
+¿verdad? Un nombre de usuario. Ahora
+
+¿verdad? Un nombre de usuario. Ahora
+
+¿verdad? Un nombre de usuario. Ahora
+pues ya es un front ID que es como
+
+pues ya es un front ID que es como
+
+pues ya es un front ID que es como
+digamos el ID del usuario. Después aquí
+
+digamos el ID del usuario. Después aquí
+
+digamos el ID del usuario. Después aquí
+en el mensaje si ustedes ven este que
+
+en el mensaje si ustedes ven este que
+
+en el mensaje si ustedes ven este que
+está acá.
+
+está acá.
+
+está acá.
+es de este chat, es este texture
+
+es de este chat, es este texture
+
+es de este chat, es este texture
+que está por acá
+
+y e
+
+y e
+
+y e
+después el chat ID, que entonces acá lo
+
+después el chat ID, que entonces acá lo
+
+después el chat ID, que entonces acá lo
+podemos extraer ID
+
+podemos extraer ID
+
+podemos extraer ID
+y eh la fecha la sacamos, pero más bien
+
+y eh la fecha la sacamos, pero más bien
+
+y eh la fecha la sacamos, pero más bien
+de estas variables y contextos que dicen
+
+de estas variables y contextos que dicen
+
+de estas variables y contextos que dicen
+aquí abajo. Entonces, ¿ven? Aquí yo
+
+aquí abajo. Entonces, ¿ven? Aquí yo
+
+aquí abajo. Entonces, ¿ven? Aquí yo
+puedo sacar la fecha, ¿verdad? O incluso
+
+puedo sacar la fecha, ¿verdad? O incluso
+
+puedo sacar la fecha, ¿verdad? O incluso
+la fecha y hora usando now. ¿Ven? Todos
+
+la fecha y hora usando now. ¿Ven? Todos
+
+la fecha y hora usando now. ¿Ven? Todos
+estos son como insumos que le estamos
+
+estos son como insumos que le estamos
+
+estos son como insumos que le estamos
+dando a la herramienta, ¿verdad? Y
+
+dando a la herramienta, ¿verdad? Y
+
+dando a la herramienta, ¿verdad? Y
+después aquí abajo es donde le vamos a
+
+después aquí abajo es donde le vamos a
+
+después aquí abajo es donde le vamos a
+agregar el mensaje de sistema.
+
+agregar el mensaje de sistema.
+
+agregar el mensaje de sistema.
+Y aquí si es donde le vamos a dar, acá
+
+Y aquí si es donde le vamos a dar, acá
+
+Y aquí si es donde le vamos a dar, acá
+toda la identidad de tono y todos los
+
+toda la identidad de tono y todos los
+
+toda la identidad de tono y todos los
+elementos, ¿verdad?
+
+elementos, ¿verdad?
+
+elementos, ¿verdad?
+para que proceda a responder.
+
+para que proceda a responder.
+
+para que proceda a responder.
+Entonces, le dimos para acá
+
+Entonces, le dimos para acá
+
+Entonces, le dimos para acá
+y le damos pues toda la información.
+
+y le damos pues toda la información.
+
+y le damos pues toda la información.
+Vean que aquí yo le estoy dando todo el
+
+Vean que aquí yo le estoy dando todo el
+
+Vean que aquí yo le estoy dando todo el
+detalle del e
+
+detalle del e
+
+detalle del e
+del negocio, ¿verdad? todo lo que tienen
+
+del negocio, ¿verdad? todo lo que tienen
+
+del negocio, ¿verdad? todo lo que tienen
+que hacer para responder. Este es el
+
+que hacer para responder. Este es el
+
+que hacer para responder. Este es el
+punto más importante del desarrollo de
+
+punto más importante del desarrollo de
+
+punto más importante del desarrollo de
+estos agentes, donde yo en este promo.
+
+estos agentes, donde yo en este promo.
+
+estos agentes, donde yo en este promo.
+Muy bien. Aquí estamos haciendo un
+
+Muy bien. Aquí estamos haciendo un
+
+Muy bien. Aquí estamos haciendo un
+ejemplo muy sencillo. Vean, incluso el
+
+ejemplo muy sencillo. Vean, incluso el
+
+ejemplo muy sencillo. Vean, incluso el
+output que me que ya él me está dando
+
+output que me que ya él me está dando
+
+output que me que ya él me está dando
+por acá. Hola, Alan, ¿qué puedo ayudarte
+
+por acá. Hola, Alan, ¿qué puedo ayudarte
+
+por acá. Hola, Alan, ¿qué puedo ayudarte
+hoy? Si quieres información sobre
+
+hoy? Si quieres información sobre
+
+hoy? Si quieres información sobre
+nuestros servicios o planes, solo
+
+nuestros servicios o planes, solo
+
+nuestros servicios o planes, solo
+este system prom es el que yo tengo que
+
+este system prom es el que yo tengo que
+
+este system prom es el que yo tengo que
+tener muy bien detallado para este
+
+tener muy bien detallado para este
+
+tener muy bien detallado para este
+ejercicio. Fue un ejercicio muy
+
+ejercicio. Fue un ejercicio muy
+
+ejercicio. Fue un ejercicio muy
+sencillo, pues entonces no estamos
+
+sencillo, pues entonces no estamos
+
+sencillo, pues entonces no estamos
+detallándolo tantísimo, pero cuando ya
+
+detallándolo tantísimo, pero cuando ya
+
+detallándolo tantísimo, pero cuando ya
+trabajamos en el desarrollo de agentes,
+
+trabajamos en el desarrollo de agentes,
+
+trabajamos en el desarrollo de agentes,
+este es el PROM que tiene que quedar
+
+este es el PROM que tiene que quedar
+
+este es el PROM que tiene que quedar
+totalmente entrenado, que tenga muy
+
+totalmente entrenado, que tenga muy
+
+totalmente entrenado, que tenga muy
+clarito qué tiene que hacer ante cada
+
+clarito qué tiene que hacer ante cada
+
+clarito qué tiene que hacer ante cada
+situación al cual se enfrente. Entonces,
+
+situación al cual se enfrente. Entonces,
+
+situación al cual se enfrente. Entonces,
+vean que este es un elemento bastante
+
+vean que este es un elemento bastante
+
+vean que este es un elemento bastante
+bastante importante y que tenemos que ir
+
+bastante importante y que tenemos que ir
+
+bastante importante y que tenemos que ir
+afinando. ¿Y cómo se afina? Con prueba y
+
+afinando. ¿Y cómo se afina? Con prueba y
+
+afinando. ¿Y cómo se afina? Con prueba y
+error, ¿verdad? Vamos a ir probando. Ya
+
+error, ¿verdad? Vamos a ir probando. Ya
+
+error, ¿verdad? Vamos a ir probando. Ya
+aquí le dimos este eh prom. Ya lo
+
+aquí le dimos este eh prom. Ya lo
+
+aquí le dimos este eh prom. Ya lo
+podemos cerrar y guardar.
+
+podemos cerrar y guardar.
+
+podemos cerrar y guardar.
+Y yo en este caso pues ya podría empezar
+
+Y yo en este caso pues ya podría empezar
+
+Y yo en este caso pues ya podría empezar
+a probarlo, ¿verdad? Aquí
+
+a probarlo, ¿verdad? Aquí
+
+a probarlo, ¿verdad? Aquí
+eh vamos a agregar nada más el último
+
+eh vamos a agregar nada más el último
+
+eh vamos a agregar nada más el último
+puntito que nos falta, que es el de
+
+puntito que nos falta, que es el de
+
+puntito que nos falta, que es el de
+salida, que en este caso sería con
+
+salida, que en este caso sería con
+
+salida, que en este caso sería con
+Telegram, pero más bien sería de en vivo
+
+Telegram, pero más bien sería de en vivo
+
+Telegram, pero más bien sería de en vivo
+de mensaje, ¿no?
+
+de mensaje, ¿no?
+
+de mensaje, ¿no?
+Entonces vamos a darle
+
+en
+
+aquí puede ser en este caso en en vivo
+
+aquí puede ser en este caso en en vivo
+
+aquí puede ser en este caso en en vivo
+de mensaje. Vean que inclusive si lo
+
+de mensaje. Vean que inclusive si lo
+
+de mensaje. Vean que inclusive si lo
+detallamos por acá
+
+detallamos por acá
+
+detallamos por acá
+el nodo
+
+el nodo
+
+el nodo
+pues es de send message. Voy a entrar
+
+pues es de send message. Voy a entrar
+
+pues es de send message. Voy a entrar
+acá.
+
+acá.
+
+acá.
+Y ya le podemos dar envío de un mensaje
+
+Y ya le podemos dar envío de un mensaje
+
+Y ya le podemos dar envío de un mensaje
+texto.
+
+texto.
+
+texto.
+Ya nos conectamos acá, ¿verdad?
+
+Ya nos conectamos acá, ¿verdad?
+
+Ya nos conectamos acá, ¿verdad?
+Y eh tenemos que igual a qué a qué
+
+Y eh tenemos que igual a qué a qué
+
+Y eh tenemos que igual a qué a qué
+Telegram se va a conectar. Entonces es
+
+Telegram se va a conectar. Entonces es
+
+Telegram se va a conectar. Entonces es
+al Telegram que ya acabamos de hacer, o
+
+al Telegram que ya acabamos de hacer, o
+
+al Telegram que ya acabamos de hacer, o
+sea, es al bot que acabamos de trabajar.
+
+sea, es al bot que acabamos de trabajar.
+
+sea, es al bot que acabamos de trabajar.
+El recurso en este caso va a ser un
+
+El recurso en este caso va a ser un
+
+El recurso en este caso va a ser un
+mensaje, ¿verdad?
+
+mensaje, ¿verdad?
+
+mensaje, ¿verdad?
+La operación va a ser que envíe un
+
+La operación va a ser que envíe un
+
+La operación va a ser que envíe un
+mensaje. Vean que por aquí lo tenemos,
+
+mensaje. Vean que por aquí lo tenemos,
+
+mensaje. Vean que por aquí lo tenemos,
+¿verdad?
+
+¿verdad?
+
+¿verdad?
+El chat ID, este lo deberíamos de traer
+
+El chat ID, este lo deberíamos de traer
+
+El chat ID, este lo deberíamos de traer
+desde
+
+desde
+
+desde
+el Telegram eh trigger, ¿verdad? Que
+
+el Telegram eh trigger, ¿verdad? Que
+
+el Telegram eh trigger, ¿verdad? Que
+teníamos por acá.
+
+teníamos por acá.
+
+teníamos por acá.
+Este trigger es el chat ID, que es este
+
+Este trigger es el chat ID, que es este
+
+Este trigger es el chat ID, que es este
+de acá.
+
+Ya nada más lo cargamos. El texto de
+
+Ya nada más lo cargamos. El texto de
+
+Ya nada más lo cargamos. El texto de
+respuesta, ahora sí tiene que ser el de
+
+respuesta, ahora sí tiene que ser el de
+
+respuesta, ahora sí tiene que ser el de
+la gente, ¿verdad? Entonces va a ser
+
+la gente, ¿verdad? Entonces va a ser
+
+la gente, ¿verdad? Entonces va a ser
+este output de acá.
+
+Y eh pues lo demás en realidad es
+
+Y eh pues lo demás en realidad es
+
+Y eh pues lo demás en realidad es
+adicional si quisiéramos.
+
+adicional si quisiéramos.
+
+adicional si quisiéramos.
+Y ya con eso entonces tendríamos todo el
+
+Y ya con eso entonces tendríamos todo el
+
+Y ya con eso entonces tendríamos todo el
+proceso. Acá yo ya le puedo dar en
+
+proceso. Acá yo ya le puedo dar en
+
+proceso. Acá yo ya le puedo dar en
+probar.
+
+probar.
+
+probar.
+Le doy en probar y ahorita está abierto.
+
+Le doy en probar y ahorita está abierto.
+
+Le doy en probar y ahorita está abierto.
+Entonces yo ya me puedo venir aquí y le
+
+Entonces yo ya me puedo venir aquí y le
+
+Entonces yo ya me puedo venir aquí y le
+puedo escribir hola. Y en ese momento
+
+puedo escribir hola. Y en ese momento
+
+puedo escribir hola. Y en ese momento
+vean que ya de una vez me respondió
+
+vean que ya de una vez me respondió
+
+vean que ya de una vez me respondió
+porque él ya hizo todo este proceso.
+
+porque él ya hizo todo este proceso.
+
+porque él ya hizo todo este proceso.
+Aquí voy a cambiarle el nombre para
+
+Aquí voy a cambiarle el nombre para
+
+Aquí voy a cambiarle el nombre para
+prueba
+
+prueba
+
+prueba
+class, ¿verdad? Y para que ya quede en
+
+class, ¿verdad? Y para que ya quede en
+
+class, ¿verdad? Y para que ya quede en
+operativo este chatbot, les tengo quedar
+
+operativo este chatbot, les tengo quedar
+
+operativo este chatbot, les tengo quedar
+aquí en publicar, ¿verdad? Pero cuando
+
+aquí en publicar, ¿verdad? Pero cuando
+
+aquí en publicar, ¿verdad? Pero cuando
+una vez que yo ya vea que todo esté
+
+una vez que yo ya vea que todo esté
+
+una vez que yo ya vea que todo esté
+funcionando bien, porque yo le puedo
+
+funcionando bien, porque yo le puedo
+
+funcionando bien, porque yo le puedo
+volver a dar probar, ¿verdad? y decirle,
+
+volver a dar probar, ¿verdad? y decirle,
+
+volver a dar probar, ¿verdad? y decirle,
+"Sí, dime qué planes
+
+tiene."
+
+¿Ven? Y ya ahí entonces él debería de
+
+¿Ven? Y ya ahí entonces él debería de
+
+¿Ven? Y ya ahí entonces él debería de
+responderme. ¿Qué problema fue? Que
+
+responderme. ¿Qué problema fue? Que
+
+responderme. ¿Qué problema fue? Que
+tenemos un inconveniente
+
+tenemos un inconveniente
+
+tenemos un inconveniente
+ahí. Ya, ahora sí ya lo procesa. ¿Ven?
+
+ahí. Ya, ahora sí ya lo procesa. ¿Ven?
+
+ahí. Ya, ahora sí ya lo procesa. ¿Ven?
+Yo puedo ver cuál fue el proceso que él
+
+Yo puedo ver cuál fue el proceso que él
+
+Yo puedo ver cuál fue el proceso que él
+siguió y ya me respondió, ¿verdad? Y
+
+siguió y ya me respondió, ¿verdad? Y
+
+siguió y ya me respondió, ¿verdad? Y
+aquí está inclusive la respuesta que me
+
+aquí está inclusive la respuesta que me
+
+aquí está inclusive la respuesta que me
+dio. Claro, Alan. Y aquí de hecho son
+
+dio. Claro, Alan. Y aquí de hecho son
+
+dio. Claro, Alan. Y aquí de hecho son
+mismos que están. Claro, Alan tiene
+
+mismos que están. Claro, Alan tiene
+
+mismos que están. Claro, Alan tiene
+nuestros paneles de internet y son
+
+nuestros paneles de internet y son
+
+nuestros paneles de internet y son
+estos. Bien, entonces ya él eh procede a
+
+estos. Bien, entonces ya él eh procede a
+
+estos. Bien, entonces ya él eh procede a
+responder adecuadamente. Ya
+
+responder adecuadamente. Ya
+
+responder adecuadamente. Ya
+perfectamente yo podría darlo en
+
+perfectamente yo podría darlo en
+
+perfectamente yo podría darlo en
+publicar y ya eso haría que entonces él
+
+publicar y ya eso haría que entonces él
+
+publicar y ya eso haría que entonces él
+esté operando en tiempo real, ¿verdad?
+
+esté operando en tiempo real, ¿verdad?
+
+esté operando en tiempo real, ¿verdad?
+Acá eh es importante indicar también que
+
+Acá eh es importante indicar también que
+
+Acá eh es importante indicar también que
+si ustedes van este es la parte de
+
+si ustedes van este es la parte de
+
+si ustedes van este es la parte de
+editor, pero si ustedes le dan aquí en
+
+editor, pero si ustedes le dan aquí en
+
+editor, pero si ustedes le dan aquí en
+ejecuciones, ustedes van a poder ver las
+
+ejecuciones, ustedes van a poder ver las
+
+ejecuciones, ustedes van a poder ver las
+ejecuciones que ha tenido durante el
+
+ejecuciones que ha tenido durante el
+
+ejecuciones que ha tenido durante el
+día. Y si uno quisiera ver esta
+
+día. Y si uno quisiera ver esta
+
+día. Y si uno quisiera ver esta
+ejecución, ¿ven? Ya puede ver, llegó el
+
+ejecución, ¿ven? Ya puede ver, llegó el
+
+ejecución, ¿ven? Ya puede ver, llegó el
+mensaje. Es más, si yo le doy clic aquí,
+
+mensaje. Es más, si yo le doy clic aquí,
+
+mensaje. Es más, si yo le doy clic aquí,
+doble clic, puedo ver exactamente cuál
+
+doble clic, puedo ver exactamente cuál
+
+doble clic, puedo ver exactamente cuál
+fue el mensaje que llegó. ¿Ven? Pues sí,
+
+fue el mensaje que llegó. ¿Ven? Pues sí,
+
+fue el mensaje que llegó. ¿Ven? Pues sí,
+dime qué planes tienes, ¿verdad? Y de
+
+dime qué planes tienes, ¿verdad? Y de
+
+dime qué planes tienes, ¿verdad? Y de
+quién vino, ¿verdad? De cuál ID y todos
+
+quién vino, ¿verdad? De cuál ID y todos
+
+quién vino, ¿verdad? De cuál ID y todos
+los detalles, ¿verdad? Puedo ver cómo
+
+los detalles, ¿verdad? Puedo ver cómo
+
+los detalles, ¿verdad? Puedo ver cómo
+reaccionó, ¿verdad? En este caso el
+
+reaccionó, ¿verdad? En este caso el
+
+reaccionó, ¿verdad? En este caso el
+agente le puedo dar doble clic y puedo
+
+agente le puedo dar doble clic y puedo
+
+agente le puedo dar doble clic y puedo
+ver. Ah, sí, vea, recibió esta
+
+ver. Ah, sí, vea, recibió esta
+
+ver. Ah, sí, vea, recibió esta
+información, lo tomó aquí y esta fue la
+
+información, lo tomó aquí y esta fue la
+
+información, lo tomó aquí y esta fue la
+respuesta que generó, ¿verdad?
+
+respuesta que generó, ¿verdad?
+
+respuesta que generó, ¿verdad?
+Aquí puedo ver exactamente qué fue lo
+
+Aquí puedo ver exactamente qué fue lo
+
+Aquí puedo ver exactamente qué fue lo
+que él trabajó, cuál fue la memoria que
+
+que él trabajó, cuál fue la memoria que
+
+que él trabajó, cuál fue la memoria que
+tuvo y aquí la respuesta que al final
+
+tuvo y aquí la respuesta que al final
+
+tuvo y aquí la respuesta que al final
+generó. Quiero decir click. Entonces, ya
+
+generó. Quiero decir click. Entonces, ya
+
+generó. Quiero decir click. Entonces, ya
+me dice a quién le está enviando la
+
+me dice a quién le está enviando la
+
+me dice a quién le está enviando la
+respuesta y cuál fue la respuesta que
+
+respuesta y cuál fue la respuesta que
+
+respuesta y cuál fue la respuesta que
+generó. Si hubiera un error, entonces él
+
+generó. Si hubiera un error, entonces él
+
+generó. Si hubiera un error, entonces él
+me lo marcaría por acá para que yo pueda
+
+me lo marcaría por acá para que yo pueda
+
+me lo marcaría por acá para que yo pueda
+entrar y ver dónde está el error. Y por
+
+entrar y ver dónde está el error. Y por
+
+entrar y ver dónde está el error. Y por
+ejemplo, acá en lugar de darme la
+
+ejemplo, acá en lugar de darme la
+
+ejemplo, acá en lugar de darme la
+output, me daría el mensaje de error y
+
+output, me daría el mensaje de error y
+
+output, me daría el mensaje de error y
+yo inclusive hasta se lo puedo compartir
+
+yo inclusive hasta se lo puedo compartir
+
+yo inclusive hasta se lo puedo compartir
+a una inteligencia artificial para que
+
+a una inteligencia artificial para que
+
+a una inteligencia artificial para que
+me ayude a descifrarlo, pero en la
+
+me ayude a descifrarlo, pero en la
+
+me ayude a descifrarlo, pero en la
+medida de lo posible son mensajes
+
+medida de lo posible son mensajes
+
+medida de lo posible son mensajes
+bastante claros, entonces uno puede
+
+bastante claros, entonces uno puede
+
+bastante claros, entonces uno puede
+empezar a determinar en dónde está el
+
+empezar a determinar en dónde está el
+
+empezar a determinar en dónde está el
+inconveniente. Muy bien, ya con eso
+
+inconveniente. Muy bien, ya con eso
+
+inconveniente. Muy bien, ya con eso
+entonces creamos un chatbot básico eh
+
+entonces creamos un chatbot básico eh
+
+entonces creamos un chatbot básico eh
+que responde acá en Telegram y
+
+que responde acá en Telegram y
+
+que responde acá en Telegram y
+utilizando entonces la herramienta N8N y
+
+utilizando entonces la herramienta N8N y
+
+utilizando entonces la herramienta N8N y
+pues como ustedes vieron pues eh resulta
+
+pues como ustedes vieron pues eh resulta
+
+pues como ustedes vieron pues eh resulta
+bastante sencillo. Esto es lo más
+
+bastante sencillo. Esto es lo más
+
+bastante sencillo. Esto es lo más
+básico, digamos, a nivel de generación
+
+básico, digamos, a nivel de generación
+
+básico, digamos, a nivel de generación
+que podríamos hacer acá. La idea es que
+
+que podríamos hacer acá. La idea es que
+
+que podríamos hacer acá. La idea es que
+a partir de eso pues vayamos refinando
+
+a partir de eso pues vayamos refinando
+
+a partir de eso pues vayamos refinando
+un poco más este tipo de agentes con
+
+un poco más este tipo de agentes con
+
+un poco más este tipo de agentes con
+inteligencia artificial. Muchas gracias.
+
+inteligencia artificial. Muchas gracias.
+
+inteligencia artificial. Muchas gracias.
+M.

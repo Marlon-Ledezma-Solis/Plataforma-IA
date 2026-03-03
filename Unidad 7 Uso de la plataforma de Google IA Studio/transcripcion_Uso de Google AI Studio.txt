@@ -1,0 +1,1804 @@
+Kind: captions
+Language: es
+
+Muy bien, ahora vamos a trabajar con
+
+Muy bien, ahora vamos a trabajar con
+
+Muy bien, ahora vamos a trabajar con
+Google AI Studio. Entonces, lo primero
+
+Google AI Studio. Entonces, lo primero
+
+Google AI Studio. Entonces, lo primero
+que vamos a hacer es ingresar a la
+
+que vamos a hacer es ingresar a la
+
+que vamos a hacer es ingresar a la
+plataforma.
+
+plataforma.
+
+plataforma.
+Para ello, entonces vamos a ingresar
+
+Para ello, entonces vamos a ingresar
+
+Para ello, entonces vamos a ingresar
+aquí a Google AI Studio. Voy a venirme
+
+aquí a Google AI Studio. Voy a venirme
+
+aquí a Google AI Studio. Voy a venirme
+al Home. Acá en el Home tenemos varias
+
+al Home. Acá en el Home tenemos varias
+
+al Home. Acá en el Home tenemos varias
+opciones. Una es la construcción de
+
+opciones. Una es la construcción de
+
+opciones. Una es la construcción de
+apps, que es en este caso en el que nos
+
+apps, que es en este caso en el que nos
+
+apps, que es en este caso en el que nos
+vamos a centrar más y la otra está la
+
+vamos a centrar más y la otra está la
+
+vamos a centrar más y la otra está la
+parte chat con modelos. Si nos vamos a
+
+parte chat con modelos. Si nos vamos a
+
+parte chat con modelos. Si nos vamos a
+la parte chat con modelos, esto es como
+
+la parte chat con modelos, esto es como
+
+la parte chat con modelos, esto es como
+un chatbot convencional. La diferencia
+
+un chatbot convencional. La diferencia
+
+un chatbot convencional. La diferencia
+es que tiene unas herramientas un
+
+es que tiene unas herramientas un
+
+es que tiene unas herramientas un
+poquito más avanzadas y tiene también
+
+poquito más avanzadas y tiene también
+
+poquito más avanzadas y tiene también
+unas configuración de sistema más
+
+unas configuración de sistema más
+
+unas configuración de sistema más
+profunda. Esto no lo permite eh de modo
+
+profunda. Esto no lo permite eh de modo
+
+profunda. Esto no lo permite eh de modo
+que le demos un estilo más profesional a
+
+que le demos un estilo más profesional a
+
+que le demos un estilo más profesional a
+este chatbot. Entonces, si en algún
+
+este chatbot. Entonces, si en algún
+
+este chatbot. Entonces, si en algún
+momento ocupamos eh realizar algunas
+
+momento ocupamos eh realizar algunas
+
+momento ocupamos eh realizar algunas
+búsquedas un poco más eh profesionales,
+
+búsquedas un poco más eh profesionales,
+
+búsquedas un poco más eh profesionales,
+más específicas, necesitamos configurar
+
+más específicas, necesitamos configurar
+
+más específicas, necesitamos configurar
+algunos de los parámetros de respuesta
+
+algunos de los parámetros de respuesta
+
+algunos de los parámetros de respuesta
+del modelo. Entonces, lo podemos hacer
+
+del modelo. Entonces, lo podemos hacer
+
+del modelo. Entonces, lo podemos hacer
+desde este chatbot y también pues aquí
+
+desde este chatbot y también pues aquí
+
+desde este chatbot y también pues aquí
+podemos incluir la parte de generación
+
+podemos incluir la parte de generación
+
+podemos incluir la parte de generación
+de imágenes con nano banana. Eso lo
+
+de imágenes con nano banana. Eso lo
+
+de imágenes con nano banana. Eso lo
+vamos a ver con más detalle más
+
+vamos a ver con más detalle más
+
+vamos a ver con más detalle más
+adelante, pero ya en los modelos más
+
+adelante, pero ya en los modelos más
+
+adelante, pero ya en los modelos más
+comerciales. Pero si queremos algo más
+
+comerciales. Pero si queremos algo más
+
+comerciales. Pero si queremos algo más
+profesional o más este especificar
+
+profesional o más este especificar
+
+profesional o más este especificar
+ciertos parámetros, podemos hacerlo
+
+ciertos parámetros, podemos hacerlo
+
+ciertos parámetros, podemos hacerlo
+desde acá. También, por ejemplo, el
+
+desde acá. También, por ejemplo, el
+
+desde acá. También, por ejemplo, el
+texto a conversación, ¿verdad? Convierte
+
+texto a conversación, ¿verdad? Convierte
+
+texto a conversación, ¿verdad? Convierte
+texto en speech. Esto también es un
+
+texto en speech. Esto también es un
+
+texto en speech. Esto también es un
+elemento que podemos eh trabajarlo por
+
+elemento que podemos eh trabajarlo por
+
+elemento que podemos eh trabajarlo por
+acá. También apemos aquí la parte de
+
+acá. También apemos aquí la parte de
+
+acá. También apemos aquí la parte de
+construcción de chatbots y demás, pero
+
+construcción de chatbots y demás, pero
+
+construcción de chatbots y demás, pero
+eso bueno, lo vamos a hacer ahora en la
+
+eso bueno, lo vamos a hacer ahora en la
+
+eso bueno, lo vamos a hacer ahora en la
+construcción de apps, también en la
+
+construcción de apps, también en la
+
+construcción de apps, también en la
+generación de videos, lo podemos hacer
+
+generación de videos, lo podemos hacer
+
+generación de videos, lo podemos hacer
+por acá. Entonces, ven, tenemos varias
+
+por acá. Entonces, ven, tenemos varias
+
+por acá. Entonces, ven, tenemos varias
+opciones y de hecho tenemos esta que se
+
+opciones y de hecho tenemos esta que se
+
+opciones y de hecho tenemos esta que se
+llama Real Tin, que es una opción pues
+
+llama Real Tin, que es una opción pues
+
+llama Real Tin, que es una opción pues
+eh que todavía le falta mucho por
+
+eh que todavía le falta mucho por
+
+eh que todavía le falta mucho por
+mejorar, pero eh que pues es un primer
+
+mejorar, pero eh que pues es un primer
+
+mejorar, pero eh que pues es un primer
+acercamiento interesante hacia esta
+
+acercamiento interesante hacia esta
+
+acercamiento interesante hacia esta
+opción tener videollamadas con
+
+opción tener videollamadas con
+
+opción tener videollamadas con
+inteligencia artificial. En mi caso, yo
+
+inteligencia artificial. En mi caso, yo
+
+inteligencia artificial. En mi caso, yo
+no puedo hacer videollamadas eh con
+
+no puedo hacer videollamadas eh con
+
+no puedo hacer videollamadas eh con
+inteligencia artificial por el hecho de
+
+inteligencia artificial por el hecho de
+
+inteligencia artificial por el hecho de
+que estoy grabando, pero vamos a simular
+
+que estoy grabando, pero vamos a simular
+
+que estoy grabando, pero vamos a simular
+una nada más que eh no va a ser tan
+
+una nada más que eh no va a ser tan
+
+una nada más que eh no va a ser tan
+funcional por el hecho de que no me va a
+
+funcional por el hecho de que no me va a
+
+funcional por el hecho de que no me va a
+poder escuchar. Voy a darle aquí en
+
+poder escuchar. Voy a darle aquí en
+
+poder escuchar. Voy a darle aquí en
+compartir pantalla y le voy a compartir,
+
+compartir pantalla y le voy a compartir,
+
+compartir pantalla y le voy a compartir,
+por ejemplo, esta pestaña de Chrome
+
+y voy a cerrar acá.
+
+y voy a cerrar acá.
+
+y voy a cerrar acá.
+Entonces, acá ella ya está viendo mi
+
+Entonces, acá ella ya está viendo mi
+
+Entonces, acá ella ya está viendo mi
+pantalla. Entonces le voy a decir,
+
+pantalla. Entonces le voy a decir,
+
+pantalla. Entonces le voy a decir,
+puedes ver primero entonces hola Gemine,
+
+puedes ver primero entonces hola Gemine,
+
+puedes ver primero entonces hola Gemine,
+si estuviéramos en videollamada ya me va
+
+si estuviéramos en videollamada ya me va
+
+si estuviéramos en videollamada ya me va
+a poder contestar en tiempo real.
+
+a poder contestar en tiempo real.
+
+a poder contestar en tiempo real.
+Hola, ¿en qué puedo ayudarte hoy con tu
+
+Hola, ¿en qué puedo ayudarte hoy con tu
+
+Hola, ¿en qué puedo ayudarte hoy con tu
+cabedo?
+
+cabedo?
+
+cabedo?
+Ya me dijo con mi correo porque ya lo
+
+Ya me dijo con mi correo porque ya lo
+
+Ya me dijo con mi correo porque ya lo
+analizó. ¿Puedes decirme cuántos
+
+analizó. ¿Puedes decirme cuántos
+
+analizó. ¿Puedes decirme cuántos
+correos sin leer tengo en la principal?
+
+correos sin leer tengo en la principal?
+
+correos sin leer tengo en la principal?
+En la vista actual veo un número que
+
+En la vista actual veo un número que
+
+En la vista actual veo un número que
+indique la cantidad de correo sin leer
+
+indique la cantidad de correo sin leer
+
+indique la cantidad de correo sin leer
+en la carpeta principal, a diferencia de
+
+en la carpeta principal, a diferencia de
+
+en la carpeta principal, a diferencia de
+promociones, promociones o
+
+promociones, promociones o
+
+promociones, promociones o
+notificaciones. 10.
+
+notificaciones. 10.
+
+notificaciones. 10.
+Ah, okay. Y le voy a decir y en
+
+Ah, okay. Y le voy a decir y en
+
+Ah, okay. Y le voy a decir y en
+recibidos.
+
+En recibidos tienes 68 correos sin lea.
+
+En recibidos tienes 68 correos sin lea.
+
+En recibidos tienes 68 correos sin lea.
+¿Podrías
+
+ayudarme a determinar
+
+ayudarme a determinar
+
+ayudarme a determinar
+cómo ver esos correos sin leer?
+
+Y entonces él me va guiando paso a paso.
+
+Y entonces él me va guiando paso a paso.
+
+Y entonces él me va guiando paso a paso.
+Claro, para ver esos correos solo tienes
+
+Claro, para ver esos correos solo tienes
+
+Claro, para ver esos correos solo tienes
+que hacer clic en la etiqueta recibidos
+
+que hacer clic en la etiqueta recibidos
+
+que hacer clic en la etiqueta recibidos
+en la barra lateral izquierda. Ahí
+
+en la barra lateral izquierda. Ahí
+
+en la barra lateral izquierda. Ahí
+estarán todos.
+
+Pero quiero ver solo los que están leer
+
+entendido. Puedes usar la barra de
+
+entendido. Puedes usar la barra de
+
+entendido. Puedes usar la barra de
+búsqueda en la parte superior y escribir
+
+búsqueda en la parte superior y escribir
+
+búsqueda en la parte superior y escribir
+es es un red. Eso mostrará todos los
+
+es es un red. Eso mostrará todos los
+
+es es un red. Eso mostrará todos los
+correos sin leer.
+
+correos sin leer.
+
+correos sin leer.
+Yo puedo usar este de acá.
+
+y voy a hacer un error, digamos, por
+
+y voy a hacer un error, digamos, por
+
+y voy a hacer un error, digamos, por
+ejemplo, acá,
+
+por ejemplo, le voy a dar así
+
+y voy decir así como lo hice, ¿verdad?
+
+y voy decir así como lo hice, ¿verdad?
+
+y voy decir así como lo hice, ¿verdad?
+No es correcta. El comando de búsqueda
+
+No es correcta. El comando de búsqueda
+
+No es correcta. El comando de búsqueda
+es es on red o label on red. Intenta
+
+es es on red o label on red. Intenta
+
+es es on red o label on red. Intenta
+escribir eso en la barra.
+
+escribir eso en la barra.
+
+escribir eso en la barra.
+viendo y yo ya ahí en este caso puedo ir
+
+viendo y yo ya ahí en este caso puedo ir
+
+viendo y yo ya ahí en este caso puedo ir
+revisando el proceso con ella. Entonces,
+
+revisando el proceso con ella. Entonces,
+
+revisando el proceso con ella. Entonces,
+como ustedes ven, es como como tener una
+
+como ustedes ven, es como como tener una
+
+como ustedes ven, es como como tener una
+videollamada y como les digo, cuando
+
+videollamada y como les digo, cuando
+
+videollamada y como les digo, cuando
+puedo usar el audios todavía mejor acá.
+
+puedo usar el audios todavía mejor acá.
+
+puedo usar el audios todavía mejor acá.
+Entonces, en este caso yo esto me sirve
+
+Entonces, en este caso yo esto me sirve
+
+Entonces, en este caso yo esto me sirve
+mucho cuando necesito a veces hacer una
+
+mucho cuando necesito a veces hacer una
+
+mucho cuando necesito a veces hacer una
+configuración. Entonces yo le digo, ¿qué
+
+configuración. Entonces yo le digo, ¿qué
+
+configuración. Entonces yo le digo, ¿qué
+tengo que hacer para activar el mensaje
+
+tengo que hacer para activar el mensaje
+
+tengo que hacer para activar el mensaje
+de vacaciones? Eh, si estoy en Facebook,
+
+de vacaciones? Eh, si estoy en Facebook,
+
+de vacaciones? Eh, si estoy en Facebook,
+¿cómo puedo hacer para eliminar una
+
+¿cómo puedo hacer para eliminar una
+
+¿cómo puedo hacer para eliminar una
+cuenta?
+
+cuenta?
+
+cuenta?
+¿Cómo puedo hacer para e
+
+¿Cómo puedo hacer para e
+
+¿Cómo puedo hacer para e
+cómo puedo hacer para que entonces me
+
+cómo puedo hacer para que entonces me
+
+cómo puedo hacer para que entonces me
+ayude a e a crear una página tal cosa?
+
+ayude a e a crear una página tal cosa?
+
+ayude a e a crear una página tal cosa?
+¿Ve? Entonces, ya en esta videollamada y
+
+¿Ve? Entonces, ya en esta videollamada y
+
+¿Ve? Entonces, ya en esta videollamada y
+no solo en mi navegador, ¿verdad? Lo
+
+no solo en mi navegador, ¿verdad? Lo
+
+no solo en mi navegador, ¿verdad? Lo
+podría hacer desde mi computadora. Yo
+
+podría hacer desde mi computadora. Yo
+
+podría hacer desde mi computadora. Yo
+ahí le compartí solo la pestaña del
+
+ahí le compartí solo la pestaña del
+
+ahí le compartí solo la pestaña del
+navegador, pero si ustedes ven cuando
+
+navegador, pero si ustedes ven cuando
+
+navegador, pero si ustedes ven cuando
+compartimos, ¿verdad? yo puedo
+
+compartimos, ¿verdad? yo puedo
+
+compartimos, ¿verdad? yo puedo
+compartirle inclusive toda mi
+
+compartirle inclusive toda mi
+
+compartirle inclusive toda mi
+computadora, mi pantalla completa.
+
+computadora, mi pantalla completa.
+
+computadora, mi pantalla completa.
+Entonces, le puedo decir que me ayude en
+
+Entonces, le puedo decir que me ayude en
+
+Entonces, le puedo decir que me ayude en
+Word a ver en dónde está tal opción o
+
+Word a ver en dónde está tal opción o
+
+Word a ver en dónde está tal opción o
+cómo hacer tal y tal proceso, cómo hacer
+
+cómo hacer tal y tal proceso, cómo hacer
+
+cómo hacer tal y tal proceso, cómo hacer
+esto en Excel, etcétera, etcétera. Todo
+
+esto en Excel, etcétera, etcétera. Todo
+
+esto en Excel, etcétera, etcétera. Todo
+eso lo podemos hacer con esta
+
+eso lo podemos hacer con esta
+
+eso lo podemos hacer con esta
+herramienta. Pero bueno, eso es en
+
+herramienta. Pero bueno, eso es en
+
+herramienta. Pero bueno, eso es en
+términos generales para que vean esas
+
+términos generales para que vean esas
+
+términos generales para que vean esas
+funcionalidades que son un poco
+
+funcionalidades que son un poco
+
+funcionalidades que son un poco
+diferentes a las que ya estamos
+
+diferentes a las que ya estamos
+
+diferentes a las que ya estamos
+acostumbrados, pero nos vamos a ir un
+
+acostumbrados, pero nos vamos a ir un
+
+acostumbrados, pero nos vamos a ir un
+poquito más a la parte de build, que es
+
+poquito más a la parte de build, que es
+
+poquito más a la parte de build, que es
+el constructor. En este constructor
+
+el constructor. En este constructor
+
+el constructor. En este constructor
+es donde yo puedo propiamente crear
+
+es donde yo puedo propiamente crear
+
+es donde yo puedo propiamente crear
+herramientas de inteligencia artificial.
+
+herramientas de inteligencia artificial.
+
+herramientas de inteligencia artificial.
+en la parte
+
+en la parte
+
+en la parte
+de de la carpeta de insumos de la
+
+de de la carpeta de insumos de la
+
+de de la carpeta de insumos de la
+unidad.
+
+unidad.
+
+unidad.
+Si ustedes logran observar por acá,
+
+Si ustedes logran observar por acá,
+
+Si ustedes logran observar por acá,
+nosotros les pusimos un prom
+
+nosotros les pusimos un prom
+
+nosotros les pusimos un prom
+para Google AI Studio
+
+aquí. Entonces, yo le puedo enviar este
+
+aquí. Entonces, yo le puedo enviar este
+
+aquí. Entonces, yo le puedo enviar este
+primer Chrom porque vamos a crear una
+
+primer Chrom porque vamos a crear una
+
+primer Chrom porque vamos a crear una
+página web. Entonces, van a ver qué
+
+página web. Entonces, van a ver qué
+
+página web. Entonces, van a ver qué
+sencillo es crear una página web con
+
+sencillo es crear una página web con
+
+sencillo es crear una página web con
+Google AI Studio. Entonces, me voy a
+
+Google AI Studio. Entonces, me voy a
+
+Google AI Studio. Entonces, me voy a
+venir aquí a Google A Studio, le pego,
+
+venir aquí a Google A Studio, le pego,
+
+venir aquí a Google A Studio, le pego,
+¿verdad?, el primer prom y le voy a dar
+
+¿verdad?, el primer prom y le voy a dar
+
+¿verdad?, el primer prom y le voy a dar
+en construir.
+
+Ahí él empieza a trabajar y entonces él
+
+Ahí él empieza a trabajar y entonces él
+
+Ahí él empieza a trabajar y entonces él
+me crea, digamos, en este caso, en
+
+me crea, digamos, en este caso, en
+
+me crea, digamos, en este caso, en
+primera instancia, el boceto de lo que
+
+primera instancia, el boceto de lo que
+
+primera instancia, el boceto de lo que
+va a ser la aplicación. Y vean que aquí
+
+va a ser la aplicación. Y vean que aquí
+
+va a ser la aplicación. Y vean que aquí
+yo le puedo agregar elementos, como por
+
+yo le puedo agregar elementos, como por
+
+yo le puedo agregar elementos, como por
+ejemplo le puedo conectar este chatbot.
+
+ejemplo le puedo conectar este chatbot.
+
+ejemplo le puedo conectar este chatbot.
+Eso lo vamos a hacer al final. Entonces
+
+Eso lo vamos a hacer al final. Entonces
+
+Eso lo vamos a hacer al final. Entonces
+vamos a ver cómo lo podemos trabajar.
+
+Ahí pasó un momento el sistemita,
+
+Ahí pasó un momento el sistemita,
+
+Ahí pasó un momento el sistemita,
+¿verdad? Para que ustedes eh vieran el
+
+¿verdad? Para que ustedes eh vieran el
+
+¿verdad? Para que ustedes eh vieran el
+resultado. ¿Ven? Aquí yo le di home,
+
+resultado. ¿Ven? Aquí yo le di home,
+
+resultado. ¿Ven? Aquí yo le di home,
+servicios y contacto. ¿Ven? Entonces ya
+
+servicios y contacto. ¿Ven? Entonces ya
+
+servicios y contacto. ¿Ven? Entonces ya
+con esto logró generar la página web.
+
+con esto logró generar la página web.
+
+con esto logró generar la página web.
+Inclusive yo podría hasta implementar
+
+Inclusive yo podría hasta implementar
+
+Inclusive yo podría hasta implementar
+esa app eh y ya de una vez sería
+
+esa app eh y ya de una vez sería
+
+esa app eh y ya de una vez sería
+publicado en los e ya propiamente en los
+
+publicado en los e ya propiamente en los
+
+publicado en los e ya propiamente en los
+servicios de Google. Entonces, yo
+
+servicios de Google. Entonces, yo
+
+servicios de Google. Entonces, yo
+tendría que ahí hacer una conexión o
+
+tendría que ahí hacer una conexión o
+
+tendría que ahí hacer una conexión o
+permitir en este caso, que Google eh me
+
+permitir en este caso, que Google eh me
+
+permitir en este caso, que Google eh me
+ayude a implementar esto, ¿verdad? me
+
+ayude a implementar esto, ¿verdad? me
+
+ayude a implementar esto, ¿verdad? me
+quedaría implementado esta aplicación
+
+quedaría implementado esta aplicación
+
+quedaría implementado esta aplicación
+como en los servidores de Google eh
+
+como en los servidores de Google eh
+
+como en los servidores de Google eh
+propiamente y pues tendría ahí su costo
+
+propiamente y pues tendría ahí su costo
+
+propiamente y pues tendría ahí su costo
+específico, pero si no yo también podría
+
+específico, pero si no yo también podría
+
+específico, pero si no yo también podría
+darle descargar la app y me va a
+
+darle descargar la app y me va a
+
+darle descargar la app y me va a
+descargar todo el archivo, ¿verdad? Eh,
+
+descargar todo el archivo, ¿verdad? Eh,
+
+descargar todo el archivo, ¿verdad? Eh,
+asociado a esta a este desarrollo,
+
+asociado a esta a este desarrollo,
+
+asociado a esta a este desarrollo,
+¿verdad? Y entonces ya tendría todo el
+
+¿verdad? Y entonces ya tendría todo el
+
+¿verdad? Y entonces ya tendría todo el
+código asociado y yo podría
+
+código asociado y yo podría
+
+código asociado y yo podría
+implementarlo en mi servidor o en el
+
+implementarlo en mi servidor o en el
+
+implementarlo en mi servidor o en el
+servidor de mi empresa o demás, ¿verdad?
+
+servidor de mi empresa o demás, ¿verdad?
+
+servidor de mi empresa o demás, ¿verdad?
+Entonces, vean qué fácil fue generar en
+
+Entonces, vean qué fácil fue generar en
+
+Entonces, vean qué fácil fue generar en
+este caso el resultado. Ven aquí yo en
+
+este caso el resultado. Ven aquí yo en
+
+este caso el resultado. Ven aquí yo en
+código puedo ver el código que ella
+
+código puedo ver el código que ella
+
+código puedo ver el código que ella
+generó y puedo ver en preview
+
+generó y puedo ver en preview
+
+generó y puedo ver en preview
+puedo ver en este caso la página que cre
+
+puedo ver en este caso la página que cre
+
+puedo ver en este caso la página que cre
+totalmente funcional, ¿verdad? Ahora
+
+totalmente funcional, ¿verdad? Ahora
+
+totalmente funcional, ¿verdad? Ahora
+bien, aquí le pedimos también a perdón
+
+bien, aquí le pedimos también a perdón
+
+bien, aquí le pedimos también a perdón
+se cerró acá,
+
+se cerró acá,
+
+se cerró acá,
+perdón, aquí en la carpeta de insumos.
+
+perdón, aquí en la carpeta de insumos.
+
+perdón, aquí en la carpeta de insumos.
+Tenemos
+
+Tenemos
+
+Tenemos
+un segundo prom que es donde ya le
+
+un segundo prom que es donde ya le
+
+un segundo prom que es donde ya le
+podemos decir
+
+que queremos como que detalle un poquito
+
+que queremos como que detalle un poquito
+
+que queremos como que detalle un poquito
+más aquí. Básicamente el primer prom fue
+
+más aquí. Básicamente el primer prom fue
+
+más aquí. Básicamente el primer prom fue
+como crea el cascarón, ¿verdad? Y si yo
+
+como crea el cascarón, ¿verdad? Y si yo
+
+como crea el cascarón, ¿verdad? Y si yo
+tuviera ya los datos propios de la
+
+tuviera ya los datos propios de la
+
+tuviera ya los datos propios de la
+empresa, yo se los puedo ir dando acá,
+
+empresa, yo se los puedo ir dando acá,
+
+empresa, yo se los puedo ir dando acá,
+¿ven? Entonces, yo ya le puedo decir,
+
+¿ven? Entonces, yo ya le puedo decir,
+
+¿ven? Entonces, yo ya le puedo decir,
+bueno, ponga el tema de imágenes es
+
+bueno, ponga el tema de imágenes es
+
+bueno, ponga el tema de imágenes es
+complicadísimo, por eso vamos a buscar
+
+complicadísimo, por eso vamos a buscar
+
+complicadísimo, por eso vamos a buscar
+una opción, otra opción que es mejor,
+
+una opción, otra opción que es mejor,
+
+una opción, otra opción que es mejor,
+¿verdad? Pero ven que aquí, por ejemplo,
+
+¿verdad? Pero ven que aquí, por ejemplo,
+
+¿verdad? Pero ven que aquí, por ejemplo,
+en servicios yo le podría decir, eh,
+
+en servicios yo le podría decir, eh,
+
+en servicios yo le podría decir, eh,
+cambia este tema en esta parte, modifica
+
+cambia este tema en esta parte, modifica
+
+cambia este tema en esta parte, modifica
+esto, ¿verdad? Esto modifícalo en tal y
+
+esto, ¿verdad? Esto modifícalo en tal y
+
+esto, ¿verdad? Esto modifícalo en tal y
+tal tema, ¿verdad? O en la página de
+
+tal tema, ¿verdad? O en la página de
+
+tal tema, ¿verdad? O en la página de
+Facebook, guíalo a tal página, en la de
+
+Facebook, guíalo a tal página, en la de
+
+Facebook, guíalo a tal página, en la de
+Instagram, a tal página, en contacto, en
+
+Instagram, a tal página, en contacto, en
+
+Instagram, a tal página, en contacto, en
+correo, ponga este correo y es su
+
+correo, ponga este correo y es su
+
+correo, ponga este correo y es su
+excesivamente. ¿Ven? Yo podría
+
+excesivamente. ¿Ven? Yo podría
+
+excesivamente. ¿Ven? Yo podría
+perfectamente hacer eso. En este caso,
+
+perfectamente hacer eso. En este caso,
+
+perfectamente hacer eso. En este caso,
+¿ven que le voy a a pedir que haga estos
+
+¿ven que le voy a a pedir que haga estos
+
+¿ven que le voy a a pedir que haga estos
+ajustes que están viendo por acá, que
+
+ajustes que están viendo por acá, que
+
+ajustes que están viendo por acá, que
+básicamente es que
+
+modifique, digamos, un poquito las
+
+modifique, digamos, un poquito las
+
+modifique, digamos, un poquito las
+secciones, incluya una de beneficios de
+
+secciones, incluya una de beneficios de
+
+secciones, incluya una de beneficios de
+prueba social, de llamado de acción,
+
+prueba social, de llamado de acción,
+
+prueba social, de llamado de acción,
+¿verdad?
+
+Bien, aquí le hicimos un pequeño ajuste.
+
+Bien, aquí le hicimos un pequeño ajuste.
+
+Bien, aquí le hicimos un pequeño ajuste.
+De hecho, modifiqué un poco el PROM para
+
+De hecho, modifiqué un poco el PROM para
+
+De hecho, modifiqué un poco el PROM para
+que quedara más sencillo. Lo voy a
+
+que quedara más sencillo. Lo voy a
+
+que quedara más sencillo. Lo voy a
+mostrar por acá para que lo vean.
+
+mostrar por acá para que lo vean.
+
+mostrar por acá para que lo vean.
+Entonces, ¿ven? Aquí ya le doy el
+
+Entonces, ¿ven? Aquí ya le doy el
+
+Entonces, ¿ven? Aquí ya le doy el
+detalle de básicamente qué es lo que
+
+detalle de básicamente qué es lo que
+
+detalle de básicamente qué es lo que
+queremos en una página, en otra página
+
+queremos en una página, en otra página
+
+queremos en una página, en otra página
+que quiero que haga, en otra página que
+
+que quiero que haga, en otra página que
+
+que quiero que haga, en otra página que
+quiero que haga, ¿verdad? Y un poco de
+
+quiero que haga, ¿verdad? Y un poco de
+
+quiero que haga, ¿verdad? Y un poco de
+los estilos paleta de colores, ¿verdad?
+
+los estilos paleta de colores, ¿verdad?
+
+los estilos paleta de colores, ¿verdad?
+si no tuviese, entonces ahí pues eh lo
+
+si no tuviese, entonces ahí pues eh lo
+
+si no tuviese, entonces ahí pues eh lo
+dejo en blanco, pero de ser posible pues
+
+dejo en blanco, pero de ser posible pues
+
+dejo en blanco, pero de ser posible pues
+lo indico y
+
+lo indico y
+
+lo indico y
+eh también si ya tengo eh datos de redes
+
+eh también si ya tengo eh datos de redes
+
+eh también si ya tengo eh datos de redes
+sociales o demás las podría agregar,
+
+sociales o demás las podría agregar,
+
+sociales o demás las podría agregar,
+¿verdad? Yo puedo agregar aquí
+
+¿verdad? Yo puedo agregar aquí
+
+¿verdad? Yo puedo agregar aquí
+directamente para que lo tome en
+
+directamente para que lo tome en
+
+directamente para que lo tome en
+consideración. ¿Bien? Entonces es un
+
+consideración. ¿Bien? Entonces es un
+
+consideración. ¿Bien? Entonces es un
+prom eh pues bastante sencillo. Aquí
+
+prom eh pues bastante sencillo. Aquí
+
+prom eh pues bastante sencillo. Aquí
+pues es cuestión eh eh de especificar a
+
+pues es cuestión eh eh de especificar a
+
+pues es cuestión eh eh de especificar a
+qué se dedica la empresa, eh cuáles son
+
+qué se dedica la empresa, eh cuáles son
+
+qué se dedica la empresa, eh cuáles son
+las secciones de las páginas que yo
+
+las secciones de las páginas que yo
+
+las secciones de las páginas que yo
+quiero, ¿verdad? Y un poquito del
+
+quiero, ¿verdad? Y un poquito del
+
+quiero, ¿verdad? Y un poquito del
+diseño. Entonces, como ustedes ven, son
+
+diseño. Entonces, como ustedes ven, son
+
+diseño. Entonces, como ustedes ven, son
+prom bastante sencillos que se lo damos
+
+prom bastante sencillos que se lo damos
+
+prom bastante sencillos que se lo damos
+a la eh a la inteligencia artificial. Y
+
+a la eh a la inteligencia artificial. Y
+
+a la eh a la inteligencia artificial. Y
+ven, ya aquí nos termina creando
+
+ven, ya aquí nos termina creando
+
+ven, ya aquí nos termina creando
+una página web bastante detallada. Vean,
+
+una página web bastante detallada. Vean,
+
+una página web bastante detallada. Vean,
+aquí esto en inicio en servicios. Vean,
+
+aquí esto en inicio en servicios. Vean,
+
+aquí esto en inicio en servicios. Vean,
+aquí me lo hace bastante bastante bonito
+
+aquí me lo hace bastante bastante bonito
+
+aquí me lo hace bastante bastante bonito
+en nosotros. ¿Ven? Aquí me muestra
+
+en nosotros. ¿Ven? Aquí me muestra
+
+en nosotros. ¿Ven? Aquí me muestra
+los eh eh diferentes elementos. ¿Ven?
+
+los eh eh diferentes elementos. ¿Ven?
+
+los eh eh diferentes elementos. ¿Ven?
+Aquí me permite inclusive pues
+
+Aquí me permite inclusive pues
+
+Aquí me permite inclusive pues
+información. Aquí estos números son
+
+información. Aquí estos números son
+
+información. Aquí estos números son
+inventados. Yo perfectamente podría
+
+inventados. Yo perfectamente podría
+
+inventados. Yo perfectamente podría
+decirle, "En este WhatsApp ponga este
+
+decirle, "En este WhatsApp ponga este
+
+decirle, "En este WhatsApp ponga este
+número, en este email ponga este otro y
+
+número, en este email ponga este otro y
+
+número, en este email ponga este otro y
+en ubicación tal. Eh, esto es aquí para
+
+en ubicación tal. Eh, esto es aquí para
+
+en ubicación tal. Eh, esto es aquí para
+que la gente envíe un mensaje, ¿verdad?
+
+que la gente envíe un mensaje, ¿verdad?
+
+que la gente envíe un mensaje, ¿verdad?
+y cotizar ahora pues también lo lleva a
+
+y cotizar ahora pues también lo lleva a
+
+y cotizar ahora pues también lo lleva a
+esa misma página de contacto.
+
+Entonces, ven que termina generando pues
+
+Entonces, ven que termina generando pues
+
+Entonces, ven que termina generando pues
+una página bastante completa y yo puedo
+
+una página bastante completa y yo puedo
+
+una página bastante completa y yo puedo
+incluirle pues acá un elemento adicional
+
+incluirle pues acá un elemento adicional
+
+incluirle pues acá un elemento adicional
+que es
+
+agrega un chatbots, ¿verdad?
+
+agrega un chatbots, ¿verdad?
+
+agrega un chatbots, ¿verdad?
+O inclusive aquí le dije en index y
+
+O inclusive aquí le dije en index y
+
+O inclusive aquí le dije en index y
+demás. puedo inclusive ser más más
+
+demás. puedo inclusive ser más más
+
+demás. puedo inclusive ser más más
+práctico y decirle nada más porque una
+
+práctico y decirle nada más porque una
+
+práctico y decirle nada más porque una
+forma más simple y segura conectar un
+
+forma más simple y segura conectar un
+
+forma más simple y segura conectar un
+chatbot de
+
+chatbot de
+
+chatbot de
+y aquí entonces le voy a dar enviar
+
+y vean que aquí él ya empieza a
+
+y vean que aquí él ya empieza a
+
+y vean que aquí él ya empieza a
+trabajar.
+
+trabajar.
+
+trabajar.
+Vamos a pasar un momento para que
+
+Vamos a pasar un momento para que
+
+Vamos a pasar un momento para que
+trabaje y apenas entonces resuelva ya se
+
+trabaje y apenas entonces resuelva ya se
+
+trabaje y apenas entonces resuelva ya se
+lo logro mostrar.
+
+lo logro mostrar.
+
+lo logro mostrar.
+Perfecto. Ahí después de un rato de
+
+Perfecto. Ahí después de un rato de
+
+Perfecto. Ahí después de un rato de
+trabajar, entonces ya eh terminó. Vea la
+
+trabajar, entonces ya eh terminó. Vea la
+
+trabajar, entonces ya eh terminó. Vea la
+marca. Entonces ya me me dijo cómo lo
+
+marca. Entonces ya me me dijo cómo lo
+
+marca. Entonces ya me me dijo cómo lo
+agregó, ¿verdad? Entonces en el sitio es
+
+agregó, ¿verdad? Entonces en el sitio es
+
+agregó, ¿verdad? Entonces en el sitio es
+la mejor democratización de producto y
+
+la mejor democratización de producto y
+
+la mejor democratización de producto y
+ya me dice, "Bueno, vamos a hacer un
+
+ya me dice, "Bueno, vamos a hacer un
+
+ya me dice, "Bueno, vamos a hacer un
+botón flotante en la esquina inferior
+
+botón flotante en la esquina inferior
+
+botón flotante en la esquina inferior
+derecha con un icono robot. Al hacer
+
+derecha con un icono robot. Al hacer
+
+derecha con un icono robot. Al hacer
+clip se despiega una ventana de chat,
+
+clip se despiega una ventana de chat,
+
+clip se despiega una ventana de chat,
+¿verdad? Usaremos el modelo Gemini 3
+
+¿verdad? Usaremos el modelo Gemini 3
+
+¿verdad? Usaremos el modelo Gemini 3
+Flash por ser el más rápido y eficiente
+
+Flash por ser el más rápido y eficiente
+
+Flash por ser el más rápido y eficiente
+para integraciones en chatbot en tiempo
+
+para integraciones en chatbot en tiempo
+
+para integraciones en chatbot en tiempo
+real. El contexto, le haremos
+
+real. El contexto, le haremos
+
+real. El contexto, le haremos
+instrucciones precisas y la seguridad.
+
+instrucciones precisas y la seguridad.
+
+instrucciones precisas y la seguridad.
+El SDK consumirá, ¿verdad? En este caso
+
+El SDK consumirá, ¿verdad? En este caso
+
+El SDK consumirá, ¿verdad? En este caso
+este este ambiente de acá, eh un entorno
+
+este este ambiente de acá, eh un entorno
+
+este este ambiente de acá, eh un entorno
+de producción estricto y usarías una
+
+de producción estricto y usarías una
+
+de producción estricto y usarías una
+proxy un edge function para para ocultar
+
+proxy un edge function para para ocultar
+
+proxy un edge function para para ocultar
+la case, pero eh para esta
+
+la case, pero eh para esta
+
+la case, pero eh para esta
+implementación frontend eh el uso de
+
+implementación frontend eh el uso de
+
+implementación frontend eh el uso de
+variables de entorno es es el estándar
+
+variables de entorno es es el estándar
+
+variables de entorno es es el estándar
+seguro y ya lo integra. Entonces aquí
+
+seguro y ya lo integra. Entonces aquí
+
+seguro y ya lo integra. Entonces aquí
+vean que eh yo puedo, si ustedes notan
+
+vean que eh yo puedo, si ustedes notan
+
+vean que eh yo puedo, si ustedes notan
+ya se agregó un chatbot aquí. Vean qué
+
+ya se agregó un chatbot aquí. Vean qué
+
+ya se agregó un chatbot aquí. Vean qué
+sencillo lo agregó. Yo puedo escribirle
+
+sencillo lo agregó. Yo puedo escribirle
+
+sencillo lo agregó. Yo puedo escribirle
+hola
+
+y vean como él procede entonces a
+
+y vean como él procede entonces a
+
+y vean como él procede entonces a
+contestarme. V. Perfecto. Entonces yo le
+
+contestarme. V. Perfecto. Entonces yo le
+
+contestarme. V. Perfecto. Entonces yo le
+puedo decir dónde están ubicados.
+
+V y no da el mejor resultado. Ven que eh
+
+V y no da el mejor resultado. Ven que eh
+
+V y no da el mejor resultado. Ven que eh
+tiene tiende a dar demasiada información
+
+tiene tiende a dar demasiada información
+
+tiene tiende a dar demasiada información
+y no está tan optimizado, pero es una
+
+y no está tan optimizado, pero es una
+
+y no está tan optimizado, pero es una
+forma sencilla de integrar en este caso
+
+forma sencilla de integrar en este caso
+
+forma sencilla de integrar en este caso
+un chatbot. Y como ustedes ven, pues la
+
+un chatbot. Y como ustedes ven, pues la
+
+un chatbot. Y como ustedes ven, pues la
+página web en realidad es bastante
+
+página web en realidad es bastante
+
+página web en realidad es bastante
+interesante. Creo que la terminó armando
+
+interesante. Creo que la terminó armando
+
+interesante. Creo que la terminó armando
+de un modo eh bastante bonito. Y eh
+
+de un modo eh bastante bonito. Y eh
+
+de un modo eh bastante bonito. Y eh
+acá si yo ya quisiera implementarlo, le
+
+acá si yo ya quisiera implementarlo, le
+
+acá si yo ya quisiera implementarlo, le
+doy aquí en implementar app y ya con eso
+
+doy aquí en implementar app y ya con eso
+
+doy aquí en implementar app y ya con eso
+se logra publicar. Eso es un esquema.
+
+se logra publicar. Eso es un esquema.
+
+se logra publicar. Eso es un esquema.
+Ahora sí, si se implementa, se va a
+
+Ahora sí, si se implementa, se va a
+
+Ahora sí, si se implementa, se va a
+implementar en Google y bueno, tendría
+
+implementar en Google y bueno, tendría
+
+implementar en Google y bueno, tendría
+los costos asociados al uso del sistema
+
+los costos asociados al uso del sistema
+
+los costos asociados al uso del sistema
+de Google. Y lo más óptimo en este caso
+
+de Google. Y lo más óptimo en este caso
+
+de Google. Y lo más óptimo en este caso
+ya es que ustedes le implementen una API
+
+ya es que ustedes le implementen una API
+
+ya es que ustedes le implementen una API
+key de Google, ¿verdad? Entonces ustedes
+
+key de Google, ¿verdad? Entonces ustedes
+
+key de Google, ¿verdad? Entonces ustedes
+tendrían que ir buscar la AP key de
+
+tendrían que ir buscar la AP key de
+
+tendrían que ir buscar la AP key de
+Google y aquí en el código que se
+
+Google y aquí en el código que se
+
+Google y aquí en el código que se
+genera, ¿verdad? En este caso ustedes
+
+genera, ¿verdad? En este caso ustedes
+
+genera, ¿verdad? En este caso ustedes
+tendrían que incluirle, ¿verdad? por
+
+tendrían que incluirle, ¿verdad? por
+
+tendrían que incluirle, ¿verdad? por
+ejemplo, en la parte del chatbot, ya en
+
+ejemplo, en la parte del chatbot, ya en
+
+ejemplo, en la parte del chatbot, ya en
+en este caso ustedes tendrían que eh
+
+en este caso ustedes tendrían que eh
+
+en este caso ustedes tendrían que eh
+indicarle que tome su propia AP key,
+
+indicarle que tome su propia AP key,
+
+indicarle que tome su propia AP key,
+porque si ustedes se regresan
+
+porque si ustedes se regresan
+
+porque si ustedes se regresan
+acá,
+
+acá,
+
+acá,
+aquí hay una forma de conseguir una AP
+
+aquí hay una forma de conseguir una AP
+
+aquí hay una forma de conseguir una AP
+key, ¿verdad? No lo vamos a hacer en
+
+key, ¿verdad? No lo vamos a hacer en
+
+key, ¿verdad? No lo vamos a hacer en
+este caso, ¿verdad? por temas de tiempo,
+
+este caso, ¿verdad? por temas de tiempo,
+
+este caso, ¿verdad? por temas de tiempo,
+pero ustedes pueden eh crearle una API
+
+pero ustedes pueden eh crearle una API
+
+pero ustedes pueden eh crearle una API
+Key y entonces eh en esta solución que
+
+Key y entonces eh en esta solución que
+
+Key y entonces eh en esta solución que
+él termina trabajando acá, él se va a
+
+él termina trabajando acá, él se va a
+
+él termina trabajando acá, él se va a
+integrar directamente a esa AP key.
+
+integrar directamente a esa AP key.
+
+integrar directamente a esa AP key.
+Entonces el chatbot va a estar
+
+Entonces el chatbot va a estar
+
+Entonces el chatbot va a estar
+consumiendo esa AP key directamente.
+
+consumiendo esa AP key directamente.
+
+consumiendo esa AP key directamente.
+Entonces eso es una gran ventaja.
+
+Entonces eso es una gran ventaja.
+
+Entonces eso es una gran ventaja.
+Entonces, para que lo tengamos ahí en
+
+Entonces, para que lo tengamos ahí en
+
+Entonces, para que lo tengamos ahí en
+consideración, igual pues acá, como
+
+consideración, igual pues acá, como
+
+consideración, igual pues acá, como
+mencionábamos antes, tenemos opciones un
+
+mencionábamos antes, tenemos opciones un
+
+mencionábamos antes, tenemos opciones un
+poco más especiales y si quisiéramos
+
+poco más especiales y si quisiéramos
+
+poco más especiales y si quisiéramos
+pues las podríamos modificar, pero como
+
+pues las podríamos modificar, pero como
+
+pues las podríamos modificar, pero como
+les digo, básicamente esos serían los
+
+les digo, básicamente esos serían los
+
+les digo, básicamente esos serían los
+elementos. Ah, otra forma de agregar la
+
+elementos. Ah, otra forma de agregar la
+
+elementos. Ah, otra forma de agregar la
+API key es eh darle aquí, ¿verdad?
+
+API key es eh darle aquí, ¿verdad?
+
+API key es eh darle aquí, ¿verdad?
+porque allá tengo la API key de que yo
+
+porque allá tengo la API key de que yo
+
+porque allá tengo la API key de que yo
+podría en este caso obtener. Y si yo
+
+podría en este caso obtener. Y si yo
+
+podría en este caso obtener. Y si yo
+quisiera pues acá eh yo podría, no lo
+
+quisiera pues acá eh yo podría, no lo
+
+quisiera pues acá eh yo podría, no lo
+voy a mostrar acá porque es información
+
+voy a mostrar acá porque es información
+
+voy a mostrar acá porque es información
+eh privada, pero ahí yo ya podría en
+
+eh privada, pero ahí yo ya podría en
+
+eh privada, pero ahí yo ya podría en
+este caso también agregarle la API key
+
+este caso también agregarle la API key
+
+este caso también agregarle la API key
+desde acá para que este chatbot entonces
+
+desde acá para que este chatbot entonces
+
+desde acá para que este chatbot entonces
+se conecte a mi API key funcione,
+
+se conecte a mi API key funcione,
+
+se conecte a mi API key funcione,
+digamos, en tiempo real. Entonces, como
+
+digamos, en tiempo real. Entonces, como
+
+digamos, en tiempo real. Entonces, como
+ustedes ven, así de sencillo, usando by
+
+ustedes ven, así de sencillo, usando by
+
+ustedes ven, así de sencillo, usando by
+coding, podemos generar estos resultados
+
+coding, podemos generar estos resultados
+
+coding, podemos generar estos resultados
+y podríamos implementarlos e inclusive
+
+y podríamos implementarlos e inclusive
+
+y podríamos implementarlos e inclusive
+incluir elementos de inteligencia
+
+incluir elementos de inteligencia
+
+incluir elementos de inteligencia
+artificial donde Google Estudios muy
+
+artificial donde Google Estudios muy
+
+artificial donde Google Estudios muy
+potente, ¿verdad?, para para incorporar
+
+potente, ¿verdad?, para para incorporar
+
+potente, ¿verdad?, para para incorporar
+estos elementos porque lo hace de un
+
+estos elementos porque lo hace de un
+
+estos elementos porque lo hace de un
+modo muy sencillo desde adentro y
+
+modo muy sencillo desde adentro y
+
+modo muy sencillo desde adentro y
+después nada más le incluimos la app
+
+después nada más le incluimos la app
+
+después nada más le incluimos la app
+aquí por acá y ya lo podríamos
+
+aquí por acá y ya lo podríamos
+
+aquí por acá y ya lo podríamos
+implementar, pero nuevamente en este
+
+implementar, pero nuevamente en este
+
+implementar, pero nuevamente en este
+caso quedaría en el servidor de de
+
+caso quedaría en el servidor de de
+
+caso quedaría en el servidor de de
+Google, tendría pues eh cierto costo
+
+Google, tendría pues eh cierto costo
+
+Google, tendría pues eh cierto costo
+asociado, pero sería una forma fácil
+
+asociado, pero sería una forma fácil
+
+asociado, pero sería una forma fácil
+también de implementarlo.
+
+también de implementarlo.
+
+también de implementarlo.
+Ahora vamos a continuar en el siguiente
+
+Ahora vamos a continuar en el siguiente
+
+Ahora vamos a continuar en el siguiente
+video con el desarrollo de Antigravity.

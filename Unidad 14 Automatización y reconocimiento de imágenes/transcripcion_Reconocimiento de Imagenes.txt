@@ -1,0 +1,1000 @@
+Kind: captions
+Language: es
+
+Bienvenidos a esta sesión sobre la
+
+Bienvenidos a esta sesión sobre la
+
+Bienvenidos a esta sesión sobre la
+unidad 14. Hoy exploraremos cómo la
+
+unidad 14. Hoy exploraremos cómo la
+
+unidad 14. Hoy exploraremos cómo la
+inteligencia artificial no solo está
+
+inteligencia artificial no solo está
+
+inteligencia artificial no solo está
+procesando datos, sino transformando la
+
+procesando datos, sino transformando la
+
+procesando datos, sino transformando la
+forma en que interactuamos con lo
+
+forma en que interactuamos con lo
+
+forma en que interactuamos con lo
+visual.
+
+visual.
+
+visual.
+La automatización y el reconocimiento de
+
+La automatización y el reconocimiento de
+
+La automatización y el reconocimiento de
+imágenes ya no son ciencia ficción, son
+
+imágenes ya no son ciencia ficción, son
+
+imágenes ya no son ciencia ficción, son
+herramientas críticas aplicadas en
+
+herramientas críticas aplicadas en
+
+herramientas críticas aplicadas en
+sectores que van desde la medicina hasta
+
+sectores que van desde la medicina hasta
+
+sectores que van desde la medicina hasta
+el diseño gráfico.
+
+el diseño gráfico.
+
+el diseño gráfico.
+Fundamentos y posibilidades.
+
+Fundamentos y posibilidades.
+
+Fundamentos y posibilidades.
+En este primer capítulo centremos las
+
+En este primer capítulo centremos las
+
+En este primer capítulo centremos las
+bases. No podemos hablar de crear
+
+bases. No podemos hablar de crear
+
+bases. No podemos hablar de crear
+imágenes sin entender la tecnología que
+
+imágenes sin entender la tecnología que
+
+imágenes sin entender la tecnología que
+hay detrás. Analizaremos los fundamentos
+
+hay detrás. Analizaremos los fundamentos
+
+hay detrás. Analizaremos los fundamentos
+que permiten que algoritmos complejos
+
+que permiten que algoritmos complejos
+
+que permiten que algoritmos complejos
+simulen la visión humana y las infinitas
+
+simulen la visión humana y las infinitas
+
+simulen la visión humana y las infinitas
+posibilidades que esto abre para la
+
+posibilidades que esto abre para la
+
+posibilidades que esto abre para la
+productividad y la creatividad moderna.
+
+productividad y la creatividad moderna.
+
+productividad y la creatividad moderna.
+¿Por qué la imagen es el nuevo lenguaje
+
+¿Por qué la imagen es el nuevo lenguaje
+
+¿Por qué la imagen es el nuevo lenguaje
+de la IA? La imagen se ha convertido en
+
+de la IA? La imagen se ha convertido en
+
+de la IA? La imagen se ha convertido en
+el medio de comunicación más poderoso de
+
+el medio de comunicación más poderoso de
+
+el medio de comunicación más poderoso de
+la era digital. Mientras que el texto
+
+la era digital. Mientras que el texto
+
+la era digital. Mientras que el texto
+fue el primer dominio conquistado por la
+
+fue el primer dominio conquistado por la
+
+fue el primer dominio conquistado por la
+IA, las imágenes representan un lenguaje
+
+IA, las imágenes representan un lenguaje
+
+IA, las imágenes representan un lenguaje
+universal que trasciende barreras
+
+universal que trasciende barreras
+
+universal que trasciende barreras
+idiomáticas y culturales. La
+
+idiomáticas y culturales. La
+
+idiomáticas y culturales. La
+inteligencia artificial ha aprendido a
+
+inteligencia artificial ha aprendido a
+
+inteligencia artificial ha aprendido a
+ver el mundo como lo hacemos nosotros,
+
+ver el mundo como lo hacemos nosotros,
+
+ver el mundo como lo hacemos nosotros,
+interpretando formas, colores, contextos
+
+interpretando formas, colores, contextos
+
+interpretando formas, colores, contextos
+y emociones.
+
+y emociones.
+
+y emociones.
+Esta capacidad no solo replica la visión
+
+Esta capacidad no solo replica la visión
+
+Esta capacidad no solo replica la visión
+humana, sino que la aplica permitiendo
+
+humana, sino que la aplica permitiendo
+
+humana, sino que la aplica permitiendo
+crear, transformar y analizar contenido
+
+crear, transformar y analizar contenido
+
+crear, transformar y analizar contenido
+visual a una escala y velocidad sin
+
+visual a una escala y velocidad sin
+
+visual a una escala y velocidad sin
+precedentes.
+
+precedentes.
+
+precedentes.
+Hoy cualquier profesional puede
+
+Hoy cualquier profesional puede
+
+Hoy cualquier profesional puede
+materializar ideas visuales complejas
+
+materializar ideas visuales complejas
+
+materializar ideas visuales complejas
+simplemente describiéndolas con
+
+simplemente describiéndolas con
+
+simplemente describiéndolas con
+palabras. ¿Te has preguntado por qué la
+
+palabras. ¿Te has preguntado por qué la
+
+palabras. ¿Te has preguntado por qué la
+IA se volcó a lo visual? El texto fue
+
+IA se volcó a lo visual? El texto fue
+
+IA se volcó a lo visual? El texto fue
+solo al inicio, pero la imagen es un
+
+solo al inicio, pero la imagen es un
+
+solo al inicio, pero la imagen es un
+lenguaje universal que no necesita
+
+lenguaje universal que no necesita
+
+lenguaje universal que no necesita
+traducción. La IA ahora interpreta
+
+traducción. La IA ahora interpreta
+
+traducción. La IA ahora interpreta
+formas y emociones aplicando nuestra
+
+formas y emociones aplicando nuestra
+
+formas y emociones aplicando nuestra
+visión natural. Como dato adicional,
+
+visión natural. Como dato adicional,
+
+visión natural. Como dato adicional,
+esto se debe al procesamiento
+
+esto se debe al procesamiento
+
+esto se debe al procesamiento
+multimodal, donde la IA conecta
+
+multimodal, donde la IA conecta
+
+multimodal, donde la IA conecta
+conceptos textuales con representaciones
+
+conceptos textuales con representaciones
+
+conceptos textuales con representaciones
+visuales, permitiendo que hoy con solo
+
+visuales, permitiendo que hoy con solo
+
+visuales, permitiendo que hoy con solo
+una descripción cualquier persona pueda
+
+una descripción cualquier persona pueda
+
+una descripción cualquier persona pueda
+ser un creador visual.
+
+ser un creador visual.
+
+ser un creador visual.
+La revolución de la imagen.
+
+La revolución de la imagen.
+
+La revolución de la imagen.
+Para entender dónde estamos, miremos
+
+Para entender dónde estamos, miremos
+
+Para entender dónde estamos, miremos
+atrás. Todo comenzó en 1839
+
+atrás. Todo comenzó en 1839
+
+atrás. Todo comenzó en 1839
+con el daguero tipo. La primera vez que
+
+con el daguero tipo. La primera vez que
+
+con el daguero tipo. La primera vez que
+la humanidad capturó la realidad sin un
+
+la humanidad capturó la realidad sin un
+
+la humanidad capturó la realidad sin un
+pincel. Desde el cine hasta la explosión
+
+pincel. Desde el cine hasta la explosión
+
+pincel. Desde el cine hasta la explosión
+de las redes sociales en 2010 hemos
+
+de las redes sociales en 2010 hemos
+
+de las redes sociales en 2010 hemos
+pasado de ser espectadores a ser
+
+pasado de ser espectadores a ser
+
+pasado de ser espectadores a ser
+generadores constantes de contenido
+
+generadores constantes de contenido
+
+generadores constantes de contenido
+visual digital. Esta evolución preparó
+
+visual digital. Esta evolución preparó
+
+visual digital. Esta evolución preparó
+el entorno y los datos para el
+
+el entorno y los datos para el
+
+el entorno y los datos para el
+entrenamiento de las IAS actuales.
+
+entrenamiento de las IAS actuales.
+
+entrenamiento de las IAS actuales.
+La revolución de la imagen del inicio al
+
+La revolución de la imagen del inicio al
+
+La revolución de la imagen del inicio al
+día de hoy con IA.
+
+día de hoy con IA.
+
+día de hoy con IA.
+El verdadero salto ocurrió hace poco.
+
+El verdadero salto ocurrió hace poco.
+
+El verdadero salto ocurrió hace poco.
+Entre 2012 y 2018 la IA aprendió a
+
+Entre 2012 y 2018 la IA aprendió a
+
+Entre 2012 y 2018 la IA aprendió a
+reconocer objetos, pero en 2021 con Dali
+
+reconocer objetos, pero en 2021 con Dali
+
+reconocer objetos, pero en 2021 con Dali
+aprendió a imaginar. Hoy en pleno
+
+aprendió a imaginar. Hoy en pleno
+
+aprendió a imaginar. Hoy en pleno
+modelos como Journey han democratizado
+
+modelos como Journey han democratizado
+
+modelos como Journey han democratizado
+el diseño, permitiendo transformaciones
+
+el diseño, permitiendo transformaciones
+
+el diseño, permitiendo transformaciones
+que antes tomaban días en cuestiones de
+
+que antes tomaban días en cuestiones de
+
+que antes tomaban días en cuestiones de
+segundos. Ya no solo editamos la
+
+segundos. Ya no solo editamos la
+
+segundos. Ya no solo editamos la
+realidad, la estamos cocreando con la
+
+realidad, la estamos cocreando con la
+
+realidad, la estamos cocreando con la
+máquina.
+
+De píxeles a vectores, entendimiento
+
+De píxeles a vectores, entendimiento
+
+De píxeles a vectores, entendimiento
+semántico.
+
+semántico.
+
+semántico.
+¿Cómo ve una IA?
+
+¿Cómo ve una IA?
+
+¿Cómo ve una IA?
+No ve colores, ve números, procesa
+
+No ve colores, ve números, procesa
+
+No ve colores, ve números, procesa
+píxeles para hallar patrones y luego los
+
+píxeles para hallar patrones y luego los
+
+píxeles para hallar patrones y luego los
+convierte en vectores multidimensionales
+
+convierte en vectores multidimensionales
+
+convierte en vectores multidimensionales
+en un espacio matemático.
+
+en un espacio matemático.
+
+en un espacio matemático.
+Pero el secreto es la comprensión
+
+Pero el secreto es la comprensión
+
+Pero el secreto es la comprensión
+semántica. La IA sabe que un perro es un
+
+semántica. La IA sabe que un perro es un
+
+semántica. La IA sabe que un perro es un
+ser vivo y que ciertos estilos como el
+
+ser vivo y que ciertos estilos como el
+
+ser vivo y que ciertos estilos como el
+Bauhouse tienen reglas geométricas
+
+Bauhouse tienen reglas geométricas
+
+Bauhouse tienen reglas geométricas
+específicas. Es la unión de la
+
+específicas. Es la unión de la
+
+específicas. Es la unión de la
+matemática pura con la interpretación
+
+matemática pura con la interpretación
+
+matemática pura con la interpretación
+cultural humana.
+
+cultural humana.
+
+cultural humana.
+Categoría 1, de texto a imagen. La
+
+Categoría 1, de texto a imagen. La
+
+Categoría 1, de texto a imagen. La
+primera gran herramienta es el texto a
+
+primera gran herramienta es el texto a
+
+primera gran herramienta es el texto a
+imagen. Gracias a los modelos de
+
+imagen. Gracias a los modelos de
+
+imagen. Gracias a los modelos de
+difusión, la IA toma un liencio lleno de
+
+difusión, la IA toma un liencio lleno de
+
+difusión, la IA toma un liencio lleno de
+ruidos o estática y paso a paso lo
+
+ruidos o estática y paso a paso lo
+
+ruidos o estática y paso a paso lo
+refina hasta que emerge una imagen
+
+refina hasta que emerge una imagen
+
+refina hasta que emerge una imagen
+nítida basada en una descripción.
+
+nítida basada en una descripción.
+
+nítida basada en una descripción.
+Categoría 2, imagen a imagen.
+
+Categoría 2, imagen a imagen.
+
+Categoría 2, imagen a imagen.
+No empezamos de cero. Usamos una imagen
+
+No empezamos de cero. Usamos una imagen
+
+No empezamos de cero. Usamos una imagen
+base como simple y la guía lo convierte
+
+base como simple y la guía lo convierte
+
+base como simple y la guía lo convierte
+en un render arquitectónico
+
+en un render arquitectónico
+
+en un render arquitectónico
+hiperrealista. También podemos cambiar
+
+hiperrealista. También podemos cambiar
+
+hiperrealista. También podemos cambiar
+el estilo artístico o incluso el clima
+
+el estilo artístico o incluso el clima
+
+el estilo artístico o incluso el clima
+de una foto pasando de un día soleado a
+
+de una foto pasando de un día soleado a
+
+de una foto pasando de un día soleado a
+uno lluvioso sin perder la estructura
+
+uno lluvioso sin perder la estructura
+
+uno lluvioso sin perder la estructura
+original.
+
+original.
+
+original.
+Categoría 3,caling.
+
+Categoría 3,caling.
+
+Categoría 3,caling.
+El abscaling con es la solución. A
+
+El abscaling con es la solución. A
+
+El abscaling con es la solución. A
+diferencia de los métodos antiguos que
+
+diferencia de los métodos antiguos que
+
+diferencia de los métodos antiguos que
+solo estiraban la imagen o en el que se
+
+solo estiraban la imagen o en el que se
+
+solo estiraban la imagen o en el que se
+debía ir retocando píxel por píxel para
+
+debía ir retocando píxel por píxel para
+
+debía ir retocando píxel por píxel para
+restaurar una foto, la IA actúa con
+
+restaurar una foto, la IA actúa con
+
+restaurar una foto, la IA actúa con
+precisión, prediciendo qué texturas o
+
+precisión, prediciendo qué texturas o
+
+precisión, prediciendo qué texturas o
+poros de la piel deberían estar ahí.
+
+poros de la piel deberían estar ahí.
+
+poros de la piel deberían estar ahí.
+Básicamente reconstruye la información
+
+Básicamente reconstruye la información
+
+Básicamente reconstruye la información
+que se había perdido o que nunca estuvo
+
+que se había perdido o que nunca estuvo
+
+que se había perdido o que nunca estuvo
+en el archivo digital original.
+
+en el archivo digital original.
+
+en el archivo digital original.
+Categoría 4: in painting. El inainting
+
+Categoría 4: in painting. El inainting
+
+Categoría 4: in painting. El inainting
+es como magia para la edición.
+
+es como magia para la edición.
+
+es como magia para la edición.
+Alguien o algo sale en el fondo de la
+
+Alguien o algo sale en el fondo de la
+
+Alguien o algo sale en el fondo de la
+fotografía y no deseamos que esté ahí.
+
+fotografía y no deseamos que esté ahí.
+
+fotografía y no deseamos que esté ahí.
+La lo puede borrar y rellenar con el
+
+La lo puede borrar y rellenar con el
+
+La lo puede borrar y rellenar con el
+fondo de forma invisible, pero esto
+
+fondo de forma invisible, pero esto
+
+fondo de forma invisible, pero esto
+inclusive va más allá, ya que permite
+
+inclusive va más allá, ya que permite
+
+inclusive va más allá, ya que permite
+sustituir objetos o reparar fotos
+
+sustituir objetos o reparar fotos
+
+sustituir objetos o reparar fotos
+antiguas dañadas, devolviéndoles su
+
+antiguas dañadas, devolviéndoles su
+
+antiguas dañadas, devolviéndoles su
+esplendor original al predecir las
+
+esplendor original al predecir las
+
+esplendor original al predecir las
+partes que estaban faltantes.
+
+Dentro de él podemos encontrar la
+
+Dentro de él podemos encontrar la
+
+Dentro de él podemos encontrar la
+eliminación inteligente que es remover
+
+eliminación inteligente que es remover
+
+eliminación inteligente que es remover
+personas o imperfecciones mientras la IA
+
+personas o imperfecciones mientras la IA
+
+personas o imperfecciones mientras la IA
+reconstruye el fondo de manera
+
+reconstruye el fondo de manera
+
+reconstruye el fondo de manera
+coherente. También la sustitución
+
+coherente. También la sustitución
+
+coherente. También la sustitución
+contextual, el cual consiste en cambiar
+
+contextual, el cual consiste en cambiar
+
+contextual, el cual consiste en cambiar
+el color de un producto o intercambiar
+
+el color de un producto o intercambiar
+
+el color de un producto o intercambiar
+algún objeto manteniendo la iluminación
+
+algún objeto manteniendo la iluminación
+
+algún objeto manteniendo la iluminación
+y la perspectiva original. Restauración
+
+y la perspectiva original. Restauración
+
+y la perspectiva original. Restauración
+de daños. Reparar fotografías antiguas
+
+de daños. Reparar fotografías antiguas
+
+de daños. Reparar fotografías antiguas
+con rasgaduras o secciones faltantes.
+
+con rasgaduras o secciones faltantes.
+
+con rasgaduras o secciones faltantes.
+Categoría Cinco, out painting. Antes
+
+Categoría Cinco, out painting. Antes
+
+Categoría Cinco, out painting. Antes
+solo podíamos imaginar con extender una
+
+solo podíamos imaginar con extender una
+
+solo podíamos imaginar con extender una
+fotografía en cualquier dirección,
+
+fotografía en cualquier dirección,
+
+fotografía en cualquier dirección,
+revelando que había más allá de los
+
+revelando que había más allá de los
+
+revelando que había más allá de los
+bordes del encuadro original. Inclusive
+
+bordes del encuadro original. Inclusive
+
+bordes del encuadro original. Inclusive
+muchas veces se debían hacer montajes,
+
+muchas veces se debían hacer montajes,
+
+muchas veces se debían hacer montajes,
+los cuales se utilizaran referencias o
+
+los cuales se utilizaran referencias o
+
+los cuales se utilizaran referencias o
+elementos de otras fotografías para
+
+elementos de otras fotografías para
+
+elementos de otras fotografías para
+poder rellenar esos espacios intentando
+
+poder rellenar esos espacios intentando
+
+poder rellenar esos espacios intentando
+recrearlo lo más realista posible. Pero
+
+recrearlo lo más realista posible. Pero
+
+recrearlo lo más realista posible. Pero
+ahora con el outpainting se puede hacer
+
+ahora con el outpainting se puede hacer
+
+ahora con el outpainting se puede hacer
+exactamente eso de una manera más rápida
+
+exactamente eso de una manera más rápida
+
+exactamente eso de una manera más rápida
+y coherente, ya que genera contenido
+
+y coherente, ya que genera contenido
+
+y coherente, ya que genera contenido
+nuevo que se integra perfectamente con
+
+nuevo que se integra perfectamente con
+
+nuevo que se integra perfectamente con
+la imagen que ya tenemos. Esta
+
+la imagen que ya tenemos. Esta
+
+la imagen que ya tenemos. Esta
+tecnología comprende la perspectiva, la
+
+tecnología comprende la perspectiva, la
+
+tecnología comprende la perspectiva, la
+iluminación y el estilo de la imagen
+
+iluminación y el estilo de la imagen
+
+iluminación y el estilo de la imagen
+original y continúa la escena de manera
+
+original y continúa la escena de manera
+
+original y continúa la escena de manera
+coherente.
+
+coherente.
+
+coherente.
+Categoría 6.
+
+Categoría 6.
+
+Categoría 6.
+Como la IA ve y clasifica objetos, el
+
+Como la IA ve y clasifica objetos, el
+
+Como la IA ve y clasifica objetos, el
+reconocimiento de imágenes es la
+
+reconocimiento de imágenes es la
+
+reconocimiento de imágenes es la
+capacidad fundamental que permite las
+
+capacidad fundamental que permite las
+
+capacidad fundamental que permite las
+máquinas interpretar el contenido visual
+
+máquinas interpretar el contenido visual
+
+máquinas interpretar el contenido visual
+a través de redes neuronales
+
+a través de redes neuronales
+
+a través de redes neuronales
+convolucionales.
+
+convolucionales.
+
+convolucionales.
+Laya identifica, clasifica y etiqueta
+
+Laya identifica, clasifica y etiqueta
+
+Laya identifica, clasifica y etiqueta
+objetos, personas, escenas y conceptos
+
+objetos, personas, escenas y conceptos
+
+objetos, personas, escenas y conceptos
+abstractos.
+
+abstractos.
+
+abstractos.
+Detección de objetos. Identifica y
+
+Detección de objetos. Identifica y
+
+Detección de objetos. Identifica y
+localiza múltiples elementos. Análisis
+
+localiza múltiples elementos. Análisis
+
+localiza múltiples elementos. Análisis
+facial. Reconoce rostros y detecta
+
+facial. Reconoce rostros y detecta
+
+facial. Reconoce rostros y detecta
+emociones. Etiquetado semántico. Genera
+
+emociones. Etiquetado semántico. Genera
+
+emociones. Etiquetado semántico. Genera
+descripciones textuales completas.
+
+descripciones textuales completas.
+
+descripciones textuales completas.
+Moderación de contenido. Detecta
+
+Moderación de contenido. Detecta
+
+Moderación de contenido. Detecta
+contenido inapropiado de manera
+
+contenido inapropiado de manera
+
+contenido inapropiado de manera
+automatizada.
+
+Impacto de la automatización.
+
+Impacto de la automatización.
+
+Impacto de la automatización.
+La automatización mediante IA está
+
+La automatización mediante IA está
+
+La automatización mediante IA está
+redefiniendo radicalmente los flujos de
+
+redefiniendo radicalmente los flujos de
+
+redefiniendo radicalmente los flujos de
+trabajo creativo. Lo que antes tomaba
+
+trabajo creativo. Lo que antes tomaba
+
+trabajo creativo. Lo que antes tomaba
+horas o días, ahora se completa en
+
+horas o días, ahora se completa en
+
+horas o días, ahora se completa en
+minutos, permitiendo a los profesionales
+
+minutos, permitiendo a los profesionales
+
+minutos, permitiendo a los profesionales
+enfocarse en la estrategia y la visión
+
+enfocarse en la estrategia y la visión
+
+enfocarse en la estrategia y la visión
+creativa en lugar de tareas técnicas
+
+creativa en lugar de tareas técnicas
+
+creativa en lugar de tareas técnicas
+repetitivas.
+
+repetitivas.
+
+repetitivas.
+Cambio de paradigma. Los diseñadores ya
+
+Cambio de paradigma. Los diseñadores ya
+
+Cambio de paradigma. Los diseñadores ya
+no son ejecutores del pxel por píxel,
+
+no son ejecutores del pxel por píxel,
+
+no son ejecutores del pxel por píxel,
+sino directores creativos que orquestan
+
+sino directores creativos que orquestan
+
+sino directores creativos que orquestan
+herramientas inteligentes. La IA maneja
+
+herramientas inteligentes. La IA maneja
+
+herramientas inteligentes. La IA maneja
+la producción mientras los humanos
+
+la producción mientras los humanos
+
+la producción mientras los humanos
+aportan juicio, contexto cultural y
+
+aportan juicio, contexto cultural y
+
+aportan juicio, contexto cultural y
+visión estratégica.
+
+visión estratégica.
+
+visión estratégica.
+Concluimos con el impacto real, el
+
+Concluimos con el impacto real, el
+
+Concluimos con el impacto real, el
+tiempo. Estamos ante un cambio de
+
+tiempo. Estamos ante un cambio de
+
+tiempo. Estamos ante un cambio de
+paradigma donde el diseñador deja de ser
+
+paradigma donde el diseñador deja de ser
+
+paradigma donde el diseñador deja de ser
+un operario de píxel para convertirse en
+
+un operario de píxel para convertirse en
+
+un operario de píxel para convertirse en
+un director creativo. La guía se encarga
+
+un director creativo. La guía se encarga
+
+un director creativo. La guía se encarga
+de la ejecución técnica pesada, mientras
+
+de la ejecución técnica pesada, mientras
+
+de la ejecución técnica pesada, mientras
+que nosotros aportamos lo que ninguna
+
+que nosotros aportamos lo que ninguna
+
+que nosotros aportamos lo que ninguna
+máquina tiene: juicio crítico, contexto
+
+máquina tiene: juicio crítico, contexto
+
+máquina tiene: juicio crítico, contexto
+cultural y visión estratégica.

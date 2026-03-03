@@ -1,0 +1,719 @@
+Kind: captions
+Language: es
+
+Muy buenas. Vamos a trabajar en este
+
+Muy buenas. Vamos a trabajar en este
+
+Muy buenas. Vamos a trabajar en este
+momento en la unidad número 12,
+
+momento en la unidad número 12,
+
+momento en la unidad número 12,
+desarrollo de agentes y
+
+desarrollo de agentes y
+
+desarrollo de agentes y
+automatizaciones.
+
+automatizaciones.
+
+automatizaciones.
+En primera instancia tenemos que hablar
+
+En primera instancia tenemos que hablar
+
+En primera instancia tenemos que hablar
+un poquito de lo que es el mapeo de
+
+un poquito de lo que es el mapeo de
+
+un poquito de lo que es el mapeo de
+procesos, porque normalmente todo lo que
+
+procesos, porque normalmente todo lo que
+
+procesos, porque normalmente todo lo que
+es la parte de creación de flujos de
+
+es la parte de creación de flujos de
+
+es la parte de creación de flujos de
+trabajo en diferentes herramientas que
+
+trabajo en diferentes herramientas que
+
+trabajo en diferentes herramientas que
+existen, en este caso vamos a hablar de
+
+existen, en este caso vamos a hablar de
+
+existen, en este caso vamos a hablar de
+N8N y de Make, estas eh herramientas se
+
+N8N y de Make, estas eh herramientas se
+
+N8N y de Make, estas eh herramientas se
+basan en la teoría de procesos, en donde
+
+basan en la teoría de procesos, en donde
+
+basan en la teoría de procesos, en donde
+uno va determinando diferentes fases y
+
+uno va determinando diferentes fases y
+
+uno va determinando diferentes fases y
+procesos que tienen que llevar una
+
+procesos que tienen que llevar una
+
+procesos que tienen que llevar una
+acción en específico.
+
+acción en específico.
+
+acción en específico.
+Acá es donde entra la IA que refuerza la
+
+Acá es donde entra la IA que refuerza la
+
+Acá es donde entra la IA que refuerza la
+automatización, porque en los diagramas
+
+automatización, porque en los diagramas
+
+automatización, porque en los diagramas
+de procesos que vimos anteriormente, hay
+
+de procesos que vimos anteriormente, hay
+
+de procesos que vimos anteriormente, hay
+que ir detallando paso a paso cada cosa
+
+que ir detallando paso a paso cada cosa
+
+que ir detallando paso a paso cada cosa
+que se va desarrollando, cada fase, cada
+
+que se va desarrollando, cada fase, cada
+
+que se va desarrollando, cada fase, cada
+punto, cada proceso específico que se
+
+punto, cada proceso específico que se
+
+punto, cada proceso específico que se
+está en este caso gestionando. Es por
+
+está en este caso gestionando. Es por
+
+está en este caso gestionando. Es por
+esa razón que la automatización en
+
+esa razón que la automatización en
+
+esa razón que la automatización en
+conjunto con la inteligencia artificial
+
+conjunto con la inteligencia artificial
+
+conjunto con la inteligencia artificial
+tiende a ser un elemento muy poderoso,
+
+tiende a ser un elemento muy poderoso,
+
+tiende a ser un elemento muy poderoso,
+porque ya previamente, antes de que
+
+porque ya previamente, antes de que
+
+porque ya previamente, antes de que
+existiese la inteligencia artificial, ya
+
+existiese la inteligencia artificial, ya
+
+existiese la inteligencia artificial, ya
+la automatización existía y nos permitía
+
+la automatización existía y nos permitía
+
+la automatización existía y nos permitía
+ir haciendo paso a paso cada uno de los
+
+ir haciendo paso a paso cada uno de los
+
+ir haciendo paso a paso cada uno de los
+eh diferentes tareas o acciones que
+
+eh diferentes tareas o acciones que
+
+eh diferentes tareas o acciones que
+tenía que ir desarrollando, más o menos
+
+tenía que ir desarrollando, más o menos
+
+tenía que ir desarrollando, más o menos
+como cuando vimos el desarrollo de bots
+
+como cuando vimos el desarrollo de bots
+
+como cuando vimos el desarrollo de bots
+básicos con eh Power Automade y con
+
+básicos con eh Power Automade y con
+
+básicos con eh Power Automade y con
+Ciculak, es decir, teníamos que con
+
+Ciculak, es decir, teníamos que con
+
+Ciculak, es decir, teníamos que con
+mucha claridad ir detallando paso a paso
+
+mucha claridad ir detallando paso a paso
+
+mucha claridad ir detallando paso a paso
+lo que se tenía que ir haciendo. La
+
+lo que se tenía que ir haciendo. La
+
+lo que se tenía que ir haciendo. La
+inteligencia artificial viene a reforzar
+
+inteligencia artificial viene a reforzar
+
+inteligencia artificial viene a reforzar
+esa lógica. dice, "Bueno, sí, en un
+
+esa lógica. dice, "Bueno, sí, en un
+
+esa lógica. dice, "Bueno, sí, en un
+proceso podemos ir diciendo paso a paso
+
+proceso podemos ir diciendo paso a paso
+
+proceso podemos ir diciendo paso a paso
+que hay que ir haciendo, pero la
+
+que hay que ir haciendo, pero la
+
+que hay que ir haciendo, pero la
+inteligencia artificial podría venir a
+
+inteligencia artificial podría venir a
+
+inteligencia artificial podría venir a
+aportarle inteligencia, podría venir a
+
+aportarle inteligencia, podría venir a
+
+aportarle inteligencia, podría venir a
+aportarle análisis, podría venir a
+
+aportarle análisis, podría venir a
+
+aportarle análisis, podría venir a
+luchar con la incertidumbre, de modo que
+
+luchar con la incertidumbre, de modo que
+
+luchar con la incertidumbre, de modo que
+la inteligencia artificial pudiera
+
+la inteligencia artificial pudiera
+
+la inteligencia artificial pudiera
+analizar con más claridad cuáles son los
+
+analizar con más claridad cuáles son los
+
+analizar con más claridad cuáles son los
+pasos a seguir y a partir de eso
+
+pasos a seguir y a partir de eso
+
+pasos a seguir y a partir de eso
+entonces no tener que detallarle con
+
+entonces no tener que detallarle con
+
+entonces no tener que detallarle con
+punto y señas cada posible escenario,
+
+punto y señas cada posible escenario,
+
+punto y señas cada posible escenario,
+sino incluirle inteligencia artificial
+
+sino incluirle inteligencia artificial
+
+sino incluirle inteligencia artificial
+para que el sistema de un modo más
+
+para que el sistema de un modo más
+
+para que el sistema de un modo más
+autónomo pueda tomar decisiones en
+
+autónomo pueda tomar decisiones en
+
+autónomo pueda tomar decisiones en
+ciertos escenarios. De esa manera
+
+ciertos escenarios. De esa manera
+
+ciertos escenarios. De esa manera
+tenemos por un lado la automatización
+
+tenemos por un lado la automatización
+
+tenemos por un lado la automatización
+acá que es tareas estructuradas y
+
+acá que es tareas estructuradas y
+
+acá que es tareas estructuradas y
+repetición predefinida, pero le podemos
+
+repetición predefinida, pero le podemos
+
+repetición predefinida, pero le podemos
+ahora agregar inteligencia artificial
+
+ahora agregar inteligencia artificial
+
+ahora agregar inteligencia artificial
+donde hacemos adaptación dinámica y
+
+donde hacemos adaptación dinámica y
+
+donde hacemos adaptación dinámica y
+análisis de datos complejos. De esa
+
+análisis de datos complejos. De esa
+
+análisis de datos complejos. De esa
+manera podemos entonces automatizar,
+
+manera podemos entonces automatizar,
+
+manera podemos entonces automatizar,
+pero ahora con un mayor nivel de
+
+pero ahora con un mayor nivel de
+
+pero ahora con un mayor nivel de
+capacidad, con un mayor nivel de
+
+capacidad, con un mayor nivel de
+
+capacidad, con un mayor nivel de
+adaptación.
+
+adaptación.
+
+adaptación.
+Esto es un ejemplo, de hecho, va a ser
+
+Esto es un ejemplo, de hecho, va a ser
+
+Esto es un ejemplo, de hecho, va a ser
+el que vamos a trabajar en el próximo
+
+el que vamos a trabajar en el próximo
+
+el que vamos a trabajar en el próximo
+video, en el cual van a poder ustedes
+
+video, en el cual van a poder ustedes
+
+video, en el cual van a poder ustedes
+observar cómo podemos hacer un asistente
+
+observar cómo podemos hacer un asistente
+
+observar cómo podemos hacer un asistente
+que se encargue de atender nuestro
+
+que se encargue de atender nuestro
+
+que se encargue de atender nuestro
+correo electrónico. Entonces, vamos a
+
+correo electrónico. Entonces, vamos a
+
+correo electrónico. Entonces, vamos a
+realizar el proceso y lo vamos a
+
+realizar el proceso y lo vamos a
+
+realizar el proceso y lo vamos a
+detallar. Ven que tenemos muy detallado
+
+detallar. Ven que tenemos muy detallado
+
+detallar. Ven que tenemos muy detallado
+el proceso, pero en diferentes secciones
+
+el proceso, pero en diferentes secciones
+
+el proceso, pero en diferentes secciones
+de ese proceso le vamos a introducir
+
+de ese proceso le vamos a introducir
+
+de ese proceso le vamos a introducir
+inteligencia artificial para que esa
+
+inteligencia artificial para que esa
+
+inteligencia artificial para que esa
+inteligencia artificial se encargue
+
+inteligencia artificial se encargue
+
+inteligencia artificial se encargue
+propiamente de resolver ciertos eh
+
+propiamente de resolver ciertos eh
+
+propiamente de resolver ciertos eh
+partes del proceso y de esa manera lo
+
+partes del proceso y de esa manera lo
+
+partes del proceso y de esa manera lo
+puedo hacer de un modo más inteligente y
+
+puedo hacer de un modo más inteligente y
+
+puedo hacer de un modo más inteligente y
+con mayor capacidad analítica. Algunas
+
+con mayor capacidad analítica. Algunas
+
+con mayor capacidad analítica. Algunas
+de las opciones principales de
+
+de las opciones principales de
+
+de las opciones principales de
+integraciones de inteligencia artificial
+
+integraciones de inteligencia artificial
+
+integraciones de inteligencia artificial
+es Open AI de Chat GPT, Antropic o
+
+es Open AI de Chat GPT, Antropic o
+
+es Open AI de Chat GPT, Antropic o
+Mourning o Nano Banana que son
+
+Mourning o Nano Banana que son
+
+Mourning o Nano Banana que son
+integraciones de herramientas de
+
+integraciones de herramientas de
+
+integraciones de herramientas de
+imágenes. Entonces todas estas
+
+imágenes. Entonces todas estas
+
+imágenes. Entonces todas estas
+herramientas, ya sea Cloud, Open AI,
+
+herramientas, ya sea Cloud, Open AI,
+
+herramientas, ya sea Cloud, Open AI,
+Gemini, inclusive muchas de las las
+
+Gemini, inclusive muchas de las las
+
+Gemini, inclusive muchas de las las
+demás herramientas que existen
+
+demás herramientas que existen
+
+demás herramientas que existen
+en este momento pueden ser integradas en
+
+en este momento pueden ser integradas en
+
+en este momento pueden ser integradas en
+los flujos de trabajo correspondientes.
+
+los flujos de trabajo correspondientes.
+
+los flujos de trabajo correspondientes.
+Y ahora vamos entonces, por ejemplo, a
+
+Y ahora vamos entonces, por ejemplo, a
+
+Y ahora vamos entonces, por ejemplo, a
+pensar en un caso uno, ¿verdad?, de
+
+pensar en un caso uno, ¿verdad?, de
+
+pensar en un caso uno, ¿verdad?, de
+generación de contenido, un posible caso
+
+generación de contenido, un posible caso
+
+generación de contenido, un posible caso
+que podría en este caso utilizarse y es
+
+que podría en este caso utilizarse y es
+
+que podría en este caso utilizarse y es
+que eh se genera contenido
+
+que eh se genera contenido
+
+que eh se genera contenido
+automáticamente. Entonces, hay una nueva
+
+automáticamente. Entonces, hay una nueva
+
+automáticamente. Entonces, hay una nueva
+idea, ya puede ser en tr o en o en
+
+idea, ya puede ser en tr o en o en
+
+idea, ya puede ser en tr o en o en
+cualquier herramienta que digamos eh
+
+cualquier herramienta que digamos eh
+
+cualquier herramienta que digamos eh
+podemos tener de interacción y de
+
+podemos tener de interacción y de
+
+podemos tener de interacción y de
+trabajo en equipo. Ahí entonces se
+
+trabajo en equipo. Ahí entonces se
+
+trabajo en equipo. Ahí entonces se
+presenta una nueva idea. En ese momento
+
+presenta una nueva idea. En ese momento
+
+presenta una nueva idea. En ese momento
+se dispara un evento que permite que
+
+se dispara un evento que permite que
+
+se dispara un evento que permite que
+entonces la inteligencia artificial
+
+entonces la inteligencia artificial
+
+entonces la inteligencia artificial
+entre y proceda a generar algún una
+
+entre y proceda a generar algún una
+
+entre y proceda a generar algún una
+especie de contenido de títulos y
+
+especie de contenido de títulos y
+
+especie de contenido de títulos y
+después eh nos encargamos ya que con ese
+
+después eh nos encargamos ya que con ese
+
+después eh nos encargamos ya que con ese
+texto, ¿verdad?, que se creó con
+
+texto, ¿verdad?, que se creó con
+
+texto, ¿verdad?, que se creó con
+inteligencia artificial se genere
+
+inteligencia artificial se genere
+
+inteligencia artificial se genere
+también una imagen que puede utilizarse
+
+también una imagen que puede utilizarse
+
+también una imagen que puede utilizarse
+de portada, ¿verdad?,
+
+de portada, ¿verdad?,
+
+de portada, ¿verdad?,
+para ese eh bloc o para ese contenido
+
+para ese eh bloc o para ese contenido
+
+para ese eh bloc o para ese contenido
+que acabamos de generar y después ya
+
+que acabamos de generar y después ya
+
+que acabamos de generar y después ya
+podemos crear ese contenido en
+
+podemos crear ese contenido en
+
+podemos crear ese contenido en
+WordPress, que es un diseñador de
+
+WordPress, que es un diseñador de
+
+WordPress, que es un diseñador de
+páginas web. Entonces, vean que de esa
+
+páginas web. Entonces, vean que de esa
+
+páginas web. Entonces, vean que de esa
+manera se podría perfectamente generar
+
+manera se podría perfectamente generar
+
+manera se podría perfectamente generar
+ese tipo de contenidos. Otro caso en el
+
+ese tipo de contenidos. Otro caso en el
+
+ese tipo de contenidos. Otro caso en el
+cual se utiliza mucha inteligencia
+
+cual se utiliza mucha inteligencia
+
+cual se utiliza mucha inteligencia
+artificial es en el soporte inteligente,
+
+artificial es en el soporte inteligente,
+
+artificial es en el soporte inteligente,
+donde por ejemplo puede llegar un nuevo
+
+donde por ejemplo puede llegar un nuevo
+
+donde por ejemplo puede llegar un nuevo
+correo. A partir de ese correo se
+
+correo. A partir de ese correo se
+
+correo. A partir de ese correo se
+analiza cuál es el contenido que está
+
+analiza cuál es el contenido que está
+
+analiza cuál es el contenido que está
+internamente, se redacta un correo de
+
+internamente, se redacta un correo de
+
+internamente, se redacta un correo de
+respuesta y se envía eso. Lo que vamos a
+
+respuesta y se envía eso. Lo que vamos a
+
+respuesta y se envía eso. Lo que vamos a
+hacer en el siguiente ejemplo. Y tenemos
+
+hacer en el siguiente ejemplo. Y tenemos
+
+hacer en el siguiente ejemplo. Y tenemos
+otro tipo de trabajo que puede ser la
+
+otro tipo de trabajo que puede ser la
+
+otro tipo de trabajo que puede ser la
+extracción de datos, donde eh llegan,
+
+extracción de datos, donde eh llegan,
+
+extracción de datos, donde eh llegan,
+digamos, archivos eh de información. esa
+
+digamos, archivos eh de información. esa
+
+digamos, archivos eh de información. esa
+información entonces la extraemos, la
+
+información entonces la extraemos, la
+
+información entonces la extraemos, la
+analizamos y la procesamos en una base
+
+analizamos y la procesamos en una base
+
+analizamos y la procesamos en una base
+de datos para poder aprovecharla en
+
+de datos para poder aprovecharla en
+
+de datos para poder aprovecharla en
+análisis específicos. Eso también lo
+
+análisis específicos. Eso también lo
+
+análisis específicos. Eso también lo
+vamos a, bueno, eso ya se trabajó más
+
+vamos a, bueno, eso ya se trabajó más
+
+vamos a, bueno, eso ya se trabajó más
+bien en el tema de eh automatización de
+
+bien en el tema de eh automatización de
+
+bien en el tema de eh automatización de
+procesos con Python. Entonces, eso es
+
+procesos con Python. Entonces, eso es
+
+procesos con Python. Entonces, eso es
+para que hagamos un flujo estructurado.
+
+para que hagamos un flujo estructurado.
+
+para que hagamos un flujo estructurado.
+Ya también vimos cómo incluir
+
+Ya también vimos cómo incluir
+
+Ya también vimos cómo incluir
+inteligencia artificial en estos puntos.
+
+inteligencia artificial en estos puntos.
+
+inteligencia artificial en estos puntos.
+Y ahora vamos entonces en el siguiente
+
+Y ahora vamos entonces en el siguiente
+
+Y ahora vamos entonces en el siguiente
+video a proceder a utilizar la
+
+video a proceder a utilizar la
+
+video a proceder a utilizar la
+herramienta Make para que ustedes en
+
+herramienta Make para que ustedes en
+
+herramienta Make para que ustedes en
+este caso ya puedan propiamente
+
+este caso ya puedan propiamente
+
+este caso ya puedan propiamente
+ver el desarrollo de procesos con
+
+ver el desarrollo de procesos con
+
+ver el desarrollo de procesos con
+inteligencia artificial. M.

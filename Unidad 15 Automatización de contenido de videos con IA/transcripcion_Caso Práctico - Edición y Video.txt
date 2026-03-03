@@ -1,0 +1,1309 @@
+Kind: captions
+Language: es
+
+En este video exploraremos cómo la
+
+En este video exploraremos cómo la
+
+En este video exploraremos cómo la
+inteligencia artificial ha dejado de ser
+
+inteligencia artificial ha dejado de ser
+
+inteligencia artificial ha dejado de ser
+una teoría para convertirse en una
+
+una teoría para convertirse en una
+
+una teoría para convertirse en una
+herramienta cotida. La automatización no
+
+herramienta cotida. La automatización no
+
+herramienta cotida. La automatización no
+solo se trata de robots, sino de
+
+solo se trata de robots, sino de
+
+solo se trata de robots, sino de
+optimizar procesos creativos que antes
+
+optimizar procesos creativos que antes
+
+optimizar procesos creativos que antes
+tomaban semanas. Veremos cómo estas
+
+tomaban semanas. Veremos cómo estas
+
+tomaban semanas. Veremos cómo estas
+aplicaciones prácticas están
+
+aplicaciones prácticas están
+
+aplicaciones prácticas están
+transformando la industria del marketing
+
+transformando la industria del marketing
+
+transformando la industria del marketing
+y la educación digital. Esto con un caso
+
+y la educación digital. Esto con un caso
+
+y la educación digital. Esto con un caso
+de estudio.
+
+de estudio.
+
+de estudio.
+Iniciaremos el video comentando las
+
+Iniciaremos el video comentando las
+
+Iniciaremos el video comentando las
+instrucciones del caso. Posteriormente
+
+instrucciones del caso. Posteriormente
+
+instrucciones del caso. Posteriormente
+la resolución paso a paso.
+
+la resolución paso a paso.
+
+la resolución paso a paso.
+Caso de estudio. Automatización de video
+
+Caso de estudio. Automatización de video
+
+Caso de estudio. Automatización de video
+promocional. Contexto del caso. Una
+
+promocional. Contexto del caso. Una
+
+promocional. Contexto del caso. Una
+pequeña empresa de formación digital
+
+pequeña empresa de formación digital
+
+pequeña empresa de formación digital
+necesita crear un video promocional para
+
+necesita crear un video promocional para
+
+necesita crear un video promocional para
+lanzar su nuevo curso online. Objetivos:
+
+lanzar su nuevo curso online. Objetivos:
+
+lanzar su nuevo curso online. Objetivos:
+reducir costos de producción. sin
+
+reducir costos de producción. sin
+
+reducir costos de producción. sin
+estudio físico ni camarógrafos.
+
+estudio físico ni camarógrafos.
+
+estudio físico ni camarógrafos.
+Disminuir tiempo de producción y generar
+
+Disminuir tiempo de producción y generar
+
+Disminuir tiempo de producción y generar
+un video profesional listo para redes
+
+un video profesional listo para redes
+
+un video profesional listo para redes
+sociales en menos de 24 horas.
+
+sociales en menos de 24 horas.
+
+sociales en menos de 24 horas.
+Herramientas propuestas:
+
+Herramientas propuestas:
+
+Herramientas propuestas:
+o sintesia para crear el avatar, Chagipt
+
+o sintesia para crear el avatar, Chagipt
+
+o sintesia para crear el avatar, Chagipt
+o Gemini para crear el guion y capcot o
+
+o Gemini para crear el guion y capcot o
+
+o Gemini para crear el guion y capcot o
+edits para la edición.
+
+edits para la edición.
+
+edits para la edición.
+Escritura del guion. Se utilizará ya GPT
+
+Escritura del guion. Se utilizará ya GPT
+
+Escritura del guion. Se utilizará ya GPT
+o Gemy para definir el público objetivo,
+
+o Gemy para definir el público objetivo,
+
+o Gemy para definir el público objetivo,
+redactar un guion persuasivo de 60
+
+redactar un guion persuasivo de 60
+
+redactar un guion persuasivo de 60
+segundos y ajustar un tono profesional
+
+segundos y ajustar un tono profesional
+
+segundos y ajustar un tono profesional
+pero cercano. Resultado, un guion
+
+pero cercano. Resultado, un guion
+
+pero cercano. Resultado, un guion
+estructurado con hook inicial, problema
+
+estructurado con hook inicial, problema
+
+estructurado con hook inicial, problema
+solución y llamado a la acción. Tiempo
+
+solución y llamado a la acción. Tiempo
+
+solución y llamado a la acción. Tiempo
+estimado 20 minutos. En este caso se nos
+
+estimado 20 minutos. En este caso se nos
+
+estimado 20 minutos. En este caso se nos
+menciona que una pequeña empresa de
+
+menciona que una pequeña empresa de
+
+menciona que una pequeña empresa de
+formación digital necesita crear un
+
+formación digital necesita crear un
+
+formación digital necesita crear un
+video, por lo cual será una lección
+
+video, por lo cual será una lección
+
+video, por lo cual será una lección
+libre de cada participante, el
+
+libre de cada participante, el
+
+libre de cada participante, el
+emprendimiento o negocio del cual deseen
+
+emprendimiento o negocio del cual deseen
+
+emprendimiento o negocio del cual deseen
+generar el video.
+
+generar el video.
+
+generar el video.
+Generación del avatar virtual. Se
+
+Generación del avatar virtual. Se
+
+Generación del avatar virtual. Se
+utilizará
+
+utilizará
+
+utilizará
+para seleccionar un avatar profesional,
+
+para seleccionar un avatar profesional,
+
+para seleccionar un avatar profesional,
+elegir idioma y tono de voz y también se
+
+elegir idioma y tono de voz y también se
+
+elegir idioma y tono de voz y también se
+subirá el guion generado. Resultado,
+
+subirá el guion generado. Resultado,
+
+subirá el guion generado. Resultado,
+video base con presentación virtual en
+
+video base con presentación virtual en
+
+video base con presentación virtual en
+calidad HD. Tiempo estimado de 15 a 30
+
+calidad HD. Tiempo estimado de 15 a 30
+
+calidad HD. Tiempo estimado de 15 a 30
+minutos.
+
+minutos.
+
+minutos.
+Subtítulos automáticos. Este paso será
+
+Subtítulos automáticos. Este paso será
+
+Subtítulos automáticos. Este paso será
+opcional en el caso de que la
+
+opcional en el caso de que la
+
+opcional en el caso de que la
+herramienta utilizada para generar el
+
+herramienta utilizada para generar el
+
+herramienta utilizada para generar el
+avatar no genere los subtítulos
+
+avatar no genere los subtítulos
+
+avatar no genere los subtítulos
+automáticos. En el caso de que no se
+
+automáticos. En el caso de que no se
+
+automáticos. En el caso de que no se
+generen los subtítulos, se exportará el
+
+generen los subtítulos, se exportará el
+
+generen los subtítulos, se exportará el
+video y se cargará a la herramienta de
+
+video y se cargará a la herramienta de
+
+video y se cargará a la herramienta de
+Capcode o de Edits. Esto para generar
+
+Capcode o de Edits. Esto para generar
+
+Capcode o de Edits. Esto para generar
+subtítulos automáticos, ajustar estilo
+
+subtítulos automáticos, ajustar estilo
+
+subtítulos automáticos, ajustar estilo
+visual como la tipografía que está
+
+visual como la tipografía que está
+
+visual como la tipografía que está
+moderna y los colores se enan los
+
+moderna y los colores se enan los
+
+moderna y los colores se enan los
+corporativos. También agregar música
+
+corporativos. También agregar música
+
+corporativos. También agregar música
+libre de derechos.
+
+libre de derechos.
+
+libre de derechos.
+Resultado, un video optimizado para
+
+Resultado, un video optimizado para
+
+Resultado, un video optimizado para
+redes sociales formato 9x16.
+
+Y el último punto será la exportación y
+
+Y el último punto será la exportación y
+
+Y el último punto será la exportación y
+formato, lo cual será la exportación
+
+formato, lo cual será la exportación
+
+formato, lo cual será la exportación
+inmediata, preferiblemente que la
+
+inmediata, preferiblemente que la
+
+inmediata, preferiblemente que la
+resolución al exportar sea la siguiente:
+
+resolución al exportar sea la siguiente:
+
+resolución al exportar sea la siguiente:
+1080* 10920 en el caso de Instagram o
+
+1080* 10920 en el caso de Instagram o
+
+1080* 10920 en el caso de Instagram o
+TikTok o 1020 por 1080 en el caso de que
+
+TikTok o 1020 por 1080 en el caso de que
+
+TikTok o 1020 por 1080 en el caso de que
+sea para la plataforma de YouTube. En el
+
+sea para la plataforma de YouTube. En el
+
+sea para la plataforma de YouTube. En el
+caso de que sea la primera vez que
+
+caso de que sea la primera vez que
+
+caso de que sea la primera vez que
+genera un video con inteligencia
+
+genera un video con inteligencia
+
+genera un video con inteligencia
+artificial, se estima que el tiempo
+
+artificial, se estima que el tiempo
+
+artificial, se estima que el tiempo
+promedio para realizar esta actividad
+
+promedio para realizar esta actividad
+
+promedio para realizar esta actividad
+sea aproximadamente 1 hora y 30 minutos.
+
+Muy bien, una vez que ya hemos visto la
+
+Muy bien, una vez que ya hemos visto la
+
+Muy bien, una vez que ya hemos visto la
+generalidad del caso, vamos a verlo por
+
+generalidad del caso, vamos a verlo por
+
+generalidad del caso, vamos a verlo por
+partes.
+
+partes.
+
+partes.
+Volveremos al contexto. En este caso se
+
+Volveremos al contexto. En este caso se
+
+Volveremos al contexto. En este caso se
+presenta que es una pequeña empresa de
+
+presenta que es una pequeña empresa de
+
+presenta que es una pequeña empresa de
+formación digital. En este caso queda
+
+formación digital. En este caso queda
+
+formación digital. En este caso queda
+abierto para que el participante pueda
+
+abierto para que el participante pueda
+
+abierto para que el participante pueda
+escoger realizar el video de cualquier
+
+escoger realizar el video de cualquier
+
+escoger realizar el video de cualquier
+emprendimiento o negocio, teniendo en
+
+emprendimiento o negocio, teniendo en
+
+emprendimiento o negocio, teniendo en
+cuenta los objetivos y las herramientas
+
+cuenta los objetivos y las herramientas
+
+cuenta los objetivos y las herramientas
+propuestas.
+
+Para el paso uno vamos a realizar el
+
+Para el paso uno vamos a realizar el
+
+Para el paso uno vamos a realizar el
+guion, por lo cual tomaremos en cuenta
+
+guion, por lo cual tomaremos en cuenta
+
+guion, por lo cual tomaremos en cuenta
+estos puntos y también lo que debe
+
+estos puntos y también lo que debe
+
+estos puntos y también lo que debe
+contener el guion.
+
+contener el guion.
+
+contener el guion.
+Primeramente llevaremos esta información
+
+Primeramente llevaremos esta información
+
+Primeramente llevaremos esta información
+a Gemini y la desglosaremos con la
+
+a Gemini y la desglosaremos con la
+
+a Gemini y la desglosaremos con la
+información de nuestro emprendimiento.
+
+Como hemos visto en unidades anteriores,
+
+Como hemos visto en unidades anteriores,
+
+Como hemos visto en unidades anteriores,
+la generación del prompt es muy
+
+la generación del prompt es muy
+
+la generación del prompt es muy
+importante. En este caso es libre el
+
+importante. En este caso es libre el
+
+importante. En este caso es libre el
+prom que ustedes vayan a utilizar.
+
+prom que ustedes vayan a utilizar.
+
+prom que ustedes vayan a utilizar.
+Se recomienda que pongan el nombre del
+
+Se recomienda que pongan el nombre del
+
+Se recomienda que pongan el nombre del
+negocio, el público objetivo, la misión
+
+negocio, el público objetivo, la misión
+
+negocio, el público objetivo, la misión
+del negocio y el evento del anuncio, si
+
+del negocio y el evento del anuncio, si
+
+del negocio y el evento del anuncio, si
+es para una fecha específica o de alguna
+
+es para una fecha específica o de alguna
+
+es para una fecha específica o de alguna
+promoción o demás para que él pueda
+
+promoción o demás para que él pueda
+
+promoción o demás para que él pueda
+generar el guion.
+
+generar el guion.
+
+generar el guion.
+Adicionalmente los requerimientos con
+
+Adicionalmente los requerimientos con
+
+Adicionalmente los requerimientos con
+los que debe de contar el guion.
+
+los que debe de contar el guion.
+
+los que debe de contar el guion.
+Para este efecto, utilizaremos también
+
+Para este efecto, utilizaremos también
+
+Para este efecto, utilizaremos también
+estos puntos clave que se nos indican.
+
+Muy bien, una vez que se ha generado el
+
+Muy bien, una vez que se ha generado el
+
+Muy bien, una vez que se ha generado el
+y lo vamos a copiar y lo llevaremos a
+
+y lo vamos a copiar y lo llevaremos a
+
+y lo vamos a copiar y lo llevaremos a
+Eigen.
+
+Eigen.
+
+Eigen.
+En este caso, este proceso puede demorar
+
+En este caso, este proceso puede demorar
+
+En este caso, este proceso puede demorar
+un poco más si no tenemos cuenta, porque
+
+un poco más si no tenemos cuenta, porque
+
+un poco más si no tenemos cuenta, porque
+debemos realizar el registro.
+
+debemos realizar el registro.
+
+debemos realizar el registro.
+Para efectos de este video resumen, ya
+
+Para efectos de este video resumen, ya
+
+Para efectos de este video resumen, ya
+tenemos cuenta y vamos a generar el
+
+tenemos cuenta y vamos a generar el
+
+tenemos cuenta y vamos a generar el
+video.
+
+En la página de vamos a seleccionar la
+
+En la página de vamos a seleccionar la
+
+En la página de vamos a seleccionar la
+opción que dice avatar
+
+opción que dice avatar
+
+opción que dice avatar
+y a pesar de que vemos que se encuentra
+
+y a pesar de que vemos que se encuentra
+
+y a pesar de que vemos que se encuentra
+en inglés, podemos poner la instrucción
+
+en inglés, podemos poner la instrucción
+
+en inglés, podemos poner la instrucción
+en español. igualmente realizará el
+
+en español. igualmente realizará el
+
+en español. igualmente realizará el
+video. En este caso, aquí en el avatar
+
+video. En este caso, aquí en el avatar
+
+video. En este caso, aquí en el avatar
+podemos seleccionar de una vez
+
+los avatar que ya nos ofrecen creados o
+
+los avatar que ya nos ofrecen creados o
+
+los avatar que ya nos ofrecen creados o
+podemos
+
+podemos
+
+podemos
+dejar que se haga un avatar
+
+dejar que se haga un avatar
+
+dejar que se haga un avatar
+automáticamente según lo que pongamos de
+
+automáticamente según lo que pongamos de
+
+automáticamente según lo que pongamos de
+descripción de idea. Podemos usar voz de
+
+descripción de idea. Podemos usar voz de
+
+descripción de idea. Podemos usar voz de
+agregar un audio. Podemos poner una idea
+
+agregar un audio. Podemos poner una idea
+
+agregar un audio. Podemos poner una idea
+de prompt,
+
+de prompt,
+
+de prompt,
+otras opciones
+
+como el tiempo.
+
+como el tiempo.
+
+como el tiempo.
+También podemos agregar el formato. En
+
+También podemos agregar el formato. En
+
+También podemos agregar el formato. En
+este caso vamos a poner landscape o
+
+este caso vamos a poner landscape o
+
+este caso vamos a poner landscape o
+portrait.
+
+Agregamos nuestro guion.
+
+Tenemos dos opciones, chat o generar.
+
+Tenemos dos opciones, chat o generar.
+
+Tenemos dos opciones, chat o generar.
+Vamos a dejarlo en generar
+
+Vamos a dejarlo en generar
+
+Vamos a dejarlo en generar
+y enviamos la información.
+
+Vamos a dejar que se analice la
+
+Vamos a dejar que se analice la
+
+Vamos a dejar que se analice la
+información que hemos enviado.
+
+Muy bien, después de una pausa, ya que
+
+Muy bien, después de una pausa, ya que
+
+Muy bien, después de una pausa, ya que
+este proceso puede demorar,
+
+este proceso puede demorar,
+
+este proceso puede demorar,
+continuamos
+
+continuamos
+
+continuamos
+y podemos ver en el panel a la derecha
+
+y podemos ver en el panel a la derecha
+
+y podemos ver en el panel a la derecha
+de Vision Board el contenido que se ha
+
+de Vision Board el contenido que se ha
+
+de Vision Board el contenido que se ha
+ido generando.
+
+ido generando.
+
+ido generando.
+para el video, tanto el avatar, videos,
+
+para el video, tanto el avatar, videos,
+
+para el video, tanto el avatar, videos,
+las voces, contenido multimedia y otros
+
+las voces, contenido multimedia y otros
+
+las voces, contenido multimedia y otros
+elementos gráficos. Ese es el proceso
+
+elementos gráficos. Ese es el proceso
+
+elementos gráficos. Ese es el proceso
+que puede tomar tiempo.
+
+que puede tomar tiempo.
+
+que puede tomar tiempo.
+Aquí se está generando el video y vamos
+
+Aquí se está generando el video y vamos
+
+Aquí se está generando el video y vamos
+a continuar esperando.
+
+Se ha terminado de generar el video, por
+
+Se ha terminado de generar el video, por
+
+Se ha terminado de generar el video, por
+lo cual lo vamos a poder visualizar.
+
+lo cual lo vamos a poder visualizar.
+
+lo cual lo vamos a poder visualizar.
+Podemos ver que tiene subtítulos. Aquí
+
+Podemos ver que tiene subtítulos. Aquí
+
+Podemos ver que tiene subtítulos. Aquí
+tenemos la opción para descargar y la
+
+tenemos la opción para descargar y la
+
+tenemos la opción para descargar y la
+opción para compartir. También si
+
+opción para compartir. También si
+
+opción para compartir. También si
+quisiéramos hacer algún ajuste lo
+
+quisiéramos hacer algún ajuste lo
+
+quisiéramos hacer algún ajuste lo
+podremos hacer aquí en el panel a la
+
+podremos hacer aquí en el panel a la
+
+podremos hacer aquí en el panel a la
+izquierda no tenemos el espacio para el
+
+izquierda no tenemos el espacio para el
+
+izquierda no tenemos el espacio para el
+prompt
+
+prompt
+
+prompt
+o si nos gusta.
+
+o si nos gusta.
+
+o si nos gusta.
+Vamos a visualizarlo.
+
+Vamos a visualizarlo.
+
+Vamos a visualizarlo.
+El amor de mamá es puro, fresco y
+
+El amor de mamá es puro, fresco y
+
+El amor de mamá es puro, fresco y
+siempre nos hace sentir en casa. Pero a
+
+siempre nos hace sentir en casa. Pero a
+
+siempre nos hace sentir en casa. Pero a
+la hora de buscar un regalo para ella,
+
+la hora de buscar un regalo para ella,
+
+la hora de buscar un regalo para ella,
+¿por qué conformarnos con algo sintético
+
+¿por qué conformarnos con algo sintético
+
+¿por qué conformarnos con algo sintético
+y común? Sabemos que quieres darle lo
+
+y común? Sabemos que quieres darle lo
+
+y común? Sabemos que quieres darle lo
+mejor. Prendas de alta calidad que
+
+mejor. Prendas de alta calidad que
+
+mejor. Prendas de alta calidad que
+cuiden su piel y duren años. Sin
+
+cuiden su piel y duren años. Sin
+
+cuiden su piel y duren años. Sin
+embargo, a veces el precio parece
+
+embargo, a veces el precio parece
+
+embargo, a veces el precio parece
+inalcanzable o terminamos comprando ropa
+
+inalcanzable o terminamos comprando ropa
+
+inalcanzable o terminamos comprando ropa
+que daña el planeta. En Mars Style
+
+que daña el planeta. En Mars Style
+
+que daña el planeta. En Mars Style
+cambiamos las reglas, creamos moda con
+
+cambiamos las reglas, creamos moda con
+
+cambiamos las reglas, creamos moda con
+propósito. Nuestra colección del día de
+
+propósito. Nuestra colección del día de
+
+propósito. Nuestra colección del día de
+las madres está confeccionada
+
+las madres está confeccionada
+
+las madres está confeccionada
+exclusivamente con fibras naturales,
+
+exclusivamente con fibras naturales,
+
+exclusivamente con fibras naturales,
+ropa fresca, elegante y consciente con
+
+ropa fresca, elegante y consciente con
+
+ropa fresca, elegante y consciente con
+el medio ambiente a un precio que se
+
+el medio ambiente a un precio que se
+
+el medio ambiente a un precio que se
+adapta a ti. Este año regala bienestar.
+
+adapta a ti. Este año regala bienestar.
+
+adapta a ti. Este año regala bienestar.
+Visítanos en nuestra tienda o
+
+Visítanos en nuestra tienda o
+
+Visítanos en nuestra tienda o
+contáctanos por redes sociales. Estamos
+
+contáctanos por redes sociales. Estamos
+
+contáctanos por redes sociales. Estamos
+listos para ayudarte a encontrar el
+
+listos para ayudarte a encontrar el
+
+listos para ayudarte a encontrar el
+regalo ideal para mamá. Mars Style, moda
+
+regalo ideal para mamá. Mars Style, moda
+
+regalo ideal para mamá. Mars Style, moda
+natural, estilo que respira contigo.
+
+natural, estilo que respira contigo.
+
+natural, estilo que respira contigo.
+Feliz día a todas las mamás.
+
+Feliz día a todas las mamás.
+
+Feliz día a todas las mamás.
+También podemos seleccionar hacer un
+
+También podemos seleccionar hacer un
+
+También podemos seleccionar hacer un
+ajuste
+
+ajuste
+
+ajuste
+y sí
+
+y sí
+
+y sí
+podemos seleccionar el estilo de los
+
+podemos seleccionar el estilo de los
+
+podemos seleccionar el estilo de los
+subtítulos. Por eso les comentaba que si
+
+subtítulos. Por eso les comentaba que si
+
+subtítulos. Por eso les comentaba que si
+eh la herramienta que ustedes utilizan
+
+eh la herramienta que ustedes utilizan
+
+eh la herramienta que ustedes utilizan
+ya genera automáticamente los
+
+ya genera automáticamente los
+
+ya genera automáticamente los
+subtítulos, no es necesario utilizar
+
+subtítulos, no es necesario utilizar
+
+subtítulos, no es necesario utilizar
+Capcode o eh edits,
+
+Capcode o eh edits,
+
+Capcode o eh edits,
+porque ya lo tendrán por acá. Si
+
+porque ya lo tendrán por acá. Si
+
+porque ya lo tendrán por acá. Si
+quisieran hacer algún ajuste del texto,
+
+quisieran hacer algún ajuste del texto,
+
+quisieran hacer algún ajuste del texto,
+de la voz de audio, de alguna de las
+
+de la voz de audio, de alguna de las
+
+de la voz de audio, de alguna de las
+imágenes que aparecen en el video,
+
+imágenes que aparecen en el video,
+
+imágenes que aparecen en el video,
+solamente seleccionan esta opción que se
+
+solamente seleccionan esta opción que se
+
+solamente seleccionan esta opción que se
+activa aquí abajo, que se llama Edit in
+
+activa aquí abajo, que se llama Edit in
+
+activa aquí abajo, que se llama Edit in
+I Studio
+
+I Studio
+
+I Studio
+y van a poder realizar ciertos ajustes
+
+y van a poder realizar ciertos ajustes
+
+y van a poder realizar ciertos ajustes
+más específicos. Por ejemplo, al final
+
+más específicos. Por ejemplo, al final
+
+más específicos. Por ejemplo, al final
+viene la información de las redes
+
+viene la información de las redes
+
+viene la información de las redes
+sociales. Si el video genera una
+
+sociales. Si el video genera una
+
+sociales. Si el video genera una
+información que no es la de nuestro
+
+información que no es la de nuestro
+
+información que no es la de nuestro
+negocio, la podremos cambiar
+
+negocio, la podremos cambiar
+
+negocio, la podremos cambiar
+posteriormente o inclusive si queremos
+
+posteriormente o inclusive si queremos
+
+posteriormente o inclusive si queremos
+agregar alguna escena,
+
+agregar alguna escena,
+
+agregar alguna escena,
+cambiar la voz, el avatar, en el caso de
+
+cambiar la voz, el avatar, en el caso de
+
+cambiar la voz, el avatar, en el caso de
+que a lo mejor no sea
+
+que a lo mejor no sea
+
+que a lo mejor no sea
+similar a lo que estamos buscando.
+
+similar a lo que estamos buscando.
+
+similar a lo que estamos buscando.
+Si queremos agregar zoom en general,
+
+Si queremos agregar zoom en general,
+
+Si queremos agregar zoom en general,
+podemos hacer varios cambios por acá en
+
+podemos hacer varios cambios por acá en
+
+podemos hacer varios cambios por acá en
+el texto.
+
+En este caso aquí unas redes sociales.
+
+En este caso aquí unas redes sociales.
+
+En este caso aquí unas redes sociales.
+Vamos editar el texto y podemos poner el
+
+Vamos editar el texto y podemos poner el
+
+Vamos editar el texto y podemos poner el
+de nuestro emprendimiento.
+
+de nuestro emprendimiento.
+
+de nuestro emprendimiento.
+otros elementos que podemos explorar.
+
+otros elementos que podemos explorar.
+
+otros elementos que podemos explorar.
+Si quieren cambiar también la vista del
+
+Si quieren cambiar también la vista del
+
+Si quieren cambiar también la vista del
+video, lo pueden hacer, pero no va a
+
+video, lo pueden hacer, pero no va a
+
+video, lo pueden hacer, pero no va a
+quedar ajustado automáticamente.
+
+quedar ajustado automáticamente.
+
+quedar ajustado automáticamente.
+Al finalizar todos los ajustes
+
+Al finalizar todos los ajustes
+
+Al finalizar todos los ajustes
+necesarios,
+
+necesarios,
+
+necesarios,
+podemos exportar el video.
+
+En este caso, el video se guardará con
+
+En este caso, el video se guardará con
+
+En este caso, el video se guardará con
+una marca de agua. en el caso que
+
+una marca de agua. en el caso que
+
+una marca de agua. en el caso que
+tengamos la versión gratuita
+
+y lo descargamos.
+
+Video o caption.
+
+Video o caption.
+
+Video o caption.
+En este caso queremos el video
+
+y listo, lo hemos descargado.
+
+Volviendo a la presentación,
+
+Volviendo a la presentación,
+
+Volviendo a la presentación,
+ventajas de la automatización, ahorro de
+
+ventajas de la automatización, ahorro de
+
+ventajas de la automatización, ahorro de
+tiempo, reducción de costos, producción
+
+tiempo, reducción de costos, producción
+
+tiempo, reducción de costos, producción
+masiva, personalización por idioma y
+
+masiva, personalización por idioma y
+
+masiva, personalización por idioma y
+escalabilidad.
+
+escalabilidad.
+
+escalabilidad.
+La mayor ventaja es la escalabilidad.
+
+La mayor ventaja es la escalabilidad.
+
+La mayor ventaja es la escalabilidad.
+Con un solo guion base puedes usar la
+
+Con un solo guion base puedes usar la
+
+Con un solo guion base puedes usar la
+para traducir y doblar el video a 20
+
+para traducir y doblar el video a 20
+
+para traducir y doblar el video a 20
+idiomas diferentes en minutos,
+
+idiomas diferentes en minutos,
+
+idiomas diferentes en minutos,
+permitiendo que su curso online llegue a
+
+permitiendo que su curso online llegue a
+
+permitiendo que su curso online llegue a
+una audiencia global sin gastar en
+
+una audiencia global sin gastar en
+
+una audiencia global sin gastar en
+traductores o nuevos rodajes.
+
+Desafíos y ética.
+
+Desafíos y ética.
+
+Desafíos y ética.
+No todo es tecnología.
+
+No todo es tecnología.
+
+No todo es tecnología.
+La responsabilidad es clave. Debemos ser
+
+La responsabilidad es clave. Debemos ser
+
+La responsabilidad es clave. Debemos ser
+transparentes y etiquetar el contenido
+
+transparentes y etiquetar el contenido
+
+transparentes y etiquetar el contenido
+generado con inteligencia artificial.
+
+generado con inteligencia artificial.
+
+generado con inteligencia artificial.
+Esto para evitar la desinformación.
+
+Esto para evitar la desinformación.
+
+Esto para evitar la desinformación.
+Aunque la IA puede editar y presentar,
+
+Aunque la IA puede editar y presentar,
+
+Aunque la IA puede editar y presentar,
+el criterio humano es el que decide si
+
+el criterio humano es el que decide si
+
+el criterio humano es el que decide si
+el mensaje es ético, veraz y aporta
+
+el mensaje es ético, veraz y aporta
+
+el mensaje es ético, veraz y aporta
+valor real a la sociedad.
+
+valor real a la sociedad.
+
+valor real a la sociedad.
+Conclusión,
+
+Conclusión,
+
+Conclusión,
+la automatización de video con IA no
+
+la automatización de video con IA no
+
+la automatización de video con IA no
+elimina la creatividad, la potencia.
+
+elimina la creatividad, la potencia.
+
+elimina la creatividad, la potencia.
+Quien domine esta herramienta producirá
+
+Quien domine esta herramienta producirá
+
+Quien domine esta herramienta producirá
+más en menos tiempo y con mayor impacto.
+
+más en menos tiempo y con mayor impacto.
+
+más en menos tiempo y con mayor impacto.
+El futuro del contenido audiovisual ya
+
+El futuro del contenido audiovisual ya
+
+El futuro del contenido audiovisual ya
+comenzó. Cerramos este proceso
+
+comenzó. Cerramos este proceso
+
+comenzó. Cerramos este proceso
+entendiendo que la IA es el copiloto del
+
+entendiendo que la IA es el copiloto del
+
+entendiendo que la IA es el copiloto del
+creativo.
+
+creativo.
+
+creativo.
+Al delegar las tareas repetitivas y
+
+Al delegar las tareas repetitivas y
+
+Al delegar las tareas repetitivas y
+técnicas a las máquinas, los creadores
+
+técnicas a las máquinas, los creadores
+
+técnicas a las máquinas, los creadores
+pueden enfocarse en lo más importante,
+
+pueden enfocarse en lo más importante,
+
+pueden enfocarse en lo más importante,
+la estrategia y la idea original.
+
+la estrategia y la idea original.
+
+la estrategia y la idea original.
+Dominar estas herramientas hoy ya no es
+
+Dominar estas herramientas hoy ya no es
+
+Dominar estas herramientas hoy ya no es
+opcional, es el estándar para la nueva
+
+opcional, es el estándar para la nueva
+
+opcional, es el estándar para la nueva
+era digital.

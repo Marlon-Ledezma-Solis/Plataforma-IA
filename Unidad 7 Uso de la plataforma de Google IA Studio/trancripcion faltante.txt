@@ -1,0 +1,734 @@
+0:10
+al Home. Acá en el Home tenemos varias
+0:13
+opciones. Una es la construcción de
+0:15
+apps, que es en este caso en el que nos
+0:16
+vamos a centrar más y la otra está la
+0:19
+parte chat con modelos. Si nos vamos a
+0:21
+la parte chat con modelos, esto es como
+0:23
+un chatbot convencional. La diferencia
+0:26
+es que tiene unas herramientas un
+0:28
+poquito más avanzadas y tiene también
+0:30
+unas configuración de sistema más
+0:33
+profunda. Esto no lo permite eh de modo
+0:37
+que le demos un estilo más profesional a
+0:40
+este chatbot. Entonces, si en algún
+0:43
+momento ocupamos eh realizar algunas
+0:45
+búsquedas un poco más eh profesionales,
+0:47
+más específicas, necesitamos configurar
+0:49
+algunos de los parámetros de respuesta
+0:51
+del modelo. Entonces, lo podemos hacer
+0:53
+desde este chatbot y también pues aquí
+0:56
+podemos incluir la parte de generación
+0:58
+de imágenes con nano banana. Eso lo
+0:59
+vamos a ver con más detalle más
+1:01
+adelante, pero ya en los modelos más
+1:03
+comerciales. Pero si queremos algo más
+1:05
+profesional o más este especificar
+1:08
+ciertos parámetros, podemos hacerlo
+1:10
+desde acá. También, por ejemplo, el
+1:12
+texto a conversación, ¿verdad? Convierte
+1:15
+texto en speech. Esto también es un
+1:17
+elemento que podemos eh trabajarlo por
+1:19
+acá. También apemos aquí la parte de
+1:21
+construcción de chatbots y demás, pero
+1:23
+eso bueno, lo vamos a hacer ahora en la
+1:25
+construcción de apps, también en la
+1:26
+generación de videos, lo podemos hacer
+1:28
+por acá. Entonces, ven, tenemos varias
+1:30
+opciones y de hecho tenemos esta que se
+1:32
+llama Real Tin, que es una opción pues
+1:35
+eh que todavía le falta mucho por
+1:38
+mejorar, pero eh que pues es un primer
+1:41
+acercamiento interesante hacia esta
+1:44
+opción tener videollamadas con
+1:45
+inteligencia artificial. En mi caso, yo
+1:47
+no puedo hacer videollamadas eh con
+1:50
+inteligencia artificial por el hecho de
+1:52
+que estoy grabando, pero vamos a simular
+1:54
+una nada más que eh no va a ser tan
+1:56
+funcional por el hecho de que no me va a
+1:57
+poder escuchar. Voy a darle aquí en
+1:58
+compartir pantalla y le voy a compartir,
+2:01
+por ejemplo, esta pestaña de Chrome
+2:08
+y voy a cerrar acá.
+2:12
+Entonces, acá ella ya está viendo mi
+2:14
+pantalla. Entonces le voy a decir,
+2:19
+puedes ver primero entonces hola Gemine,
+2:23
+si estuviéramos en videollamada ya me va
+2:26
+a poder contestar en tiempo real.
+2:28
+Hola, ¿en qué puedo ayudarte hoy con tu
+2:30
+cabedo?
+2:33
+Ya me dijo con mi correo porque ya lo
+2:34
+analizó. ¿Puedes decirme cuántos
+2:41
+correos sin leer tengo en la principal?
+2:48
+En la vista actual veo un número que
+2:50
+indique la cantidad de correo sin leer
+2:52
+en la carpeta principal, a diferencia de
+2:54
+promociones, promociones o
+2:57
+notificaciones. 10.
+2:59
+Ah, okay. Y le voy a decir y en
+3:01
+recibidos.
+3:07
+En recibidos tienes 68 correos sin lea.
+3:12
+¿Podrías
+3:16
+ayudarme a determinar
+3:19
+cómo ver esos correos sin leer?
+3:25
+Y entonces él me va guiando paso a paso.
+3:28
+Claro, para ver esos correos solo tienes
+3:30
+que hacer clic en la etiqueta recibidos
+3:33
+en la barra lateral izquierda. Ahí
+3:35
+estarán todos.
+3:39
+Pero quiero ver solo los que están leer
+3:48
+entendido. Puedes usar la barra de
+3:50
+búsqueda en la parte superior y escribir
+3:52
+es es un red. Eso mostrará todos los
+3:56
+correos sin leer.
+3:58
+Yo puedo usar este de acá.
+4:09
+y voy a hacer un error, digamos, por
+4:10
+ejemplo, acá,
+4:14
+por ejemplo, le voy a dar así
+4:19
+y voy decir así como lo hice, ¿verdad?
+4:24
+No es correcta. El comando de búsqueda
+4:26
+es es on red o label on red. Intenta
+4:31
+escribir eso en la barra.
+4:34
+viendo y yo ya ahí en este caso puedo ir
+4:36
+revisando el proceso con ella. Entonces,
+4:38
+como ustedes ven, es como como tener una
+4:40
+videollamada y como les digo, cuando
+4:42
+puedo usar el audios todavía mejor acá.
+4:44
+Entonces, en este caso yo esto me sirve
+4:46
+mucho cuando necesito a veces hacer una
+4:48
+configuración. Entonces yo le digo, ¿qué
+4:49
+tengo que hacer para activar el mensaje
+4:52
+de vacaciones? Eh, si estoy en Facebook,
+4:54
+¿cómo puedo hacer para eliminar una
+4:56
+cuenta?
+4:57
+¿Cómo puedo hacer para e
+5:02
+cómo puedo hacer para que entonces me
+5:04
+ayude a e a crear una página tal cosa?
+5:09
+¿Ve? Entonces, ya en esta videollamada y
+5:11
+no solo en mi navegador, ¿verdad? Lo
+5:13
+podría hacer desde mi computadora. Yo
+5:15
+ahí le compartí solo la pestaña del
+5:17
+navegador, pero si ustedes ven cuando
+5:19
+compartimos, ¿verdad? yo puedo
+5:21
+compartirle inclusive toda mi
+5:23
+computadora, mi pantalla completa.
+5:25
+Entonces, le puedo decir que me ayude en
+5:26
+Word a ver en dónde está tal opción o
+5:28
+cómo hacer tal y tal proceso, cómo hacer
+5:30
+esto en Excel, etcétera, etcétera. Todo
+5:32
+eso lo podemos hacer con esta
+5:34
+herramienta. Pero bueno, eso es en
+5:35
+términos generales para que vean esas
+5:37
+funcionalidades que son un poco
+5:38
+diferentes a las que ya estamos
+5:40
+acostumbrados, pero nos vamos a ir un
+5:42
+poquito más a la parte de build, que es
+5:44
+el constructor. En este constructor
+5:47
+es donde yo puedo propiamente crear
+5:50
+herramientas de inteligencia artificial.
+5:53
+en la parte
+5:55
+de de la carpeta de insumos de la
+5:57
+unidad.
+5:59
+Si ustedes logran observar por acá,
+6:01
+nosotros les pusimos un prom
+6:06
+para Google AI Studio
+6:13
+aquí. Entonces, yo le puedo enviar este
+6:15
+primer Chrom porque vamos a crear una
+6:17
+página web. Entonces, van a ver qué
+6:18
+sencillo es crear una página web con
+6:20
+Google AI Studio. Entonces, me voy a
+6:22
+venir aquí a Google A Studio, le pego,
+6:25
+¿verdad?, el primer prom y le voy a dar
+6:28
+en construir.
+6:33
+Ahí él empieza a trabajar y entonces él
+6:36
+me crea, digamos, en este caso, en
+6:37
+primera instancia, el boceto de lo que
+6:40
+va a ser la aplicación. Y vean que aquí
+6:43
+yo le puedo agregar elementos, como por
+6:47
+ejemplo le puedo conectar este chatbot.
+6:51
+Eso lo vamos a hacer al final. Entonces
+6:52
+vamos a ver cómo lo podemos trabajar.
+7:01
+Ahí pasó un momento el sistemita,
+7:04
+¿verdad? Para que ustedes eh vieran el
+7:06
+resultado. ¿Ven? Aquí yo le di home,
+7:09
+servicios y contacto. ¿Ven? Entonces ya
+7:12
+con esto logró generar la página web.
+7:15
+Inclusive yo podría hasta implementar
+7:17
+esa app eh y ya de una vez sería
+7:20
+publicado en los e ya propiamente en los
+7:24
+servicios de Google. Entonces, yo
+7:25
+tendría que ahí hacer una conexión o
+7:27
+permitir en este caso, que Google eh me
+7:30
+ayude a implementar esto, ¿verdad? me
+7:32
+quedaría implementado esta aplicación
+7:34
+como en los servidores de Google eh
+7:36
+propiamente y pues tendría ahí su costo
+7:38
+específico, pero si no yo también podría
+7:40
+darle descargar la app y me va a
+7:42
+descargar todo el archivo, ¿verdad? Eh,
+7:45
+asociado a esta a este desarrollo,
+7:47
+¿verdad? Y entonces ya tendría todo el
+7:49
+código asociado y yo podría
+7:50
+implementarlo en mi servidor o en el
+7:52
+servidor de mi empresa o demás, ¿verdad?
+7:54
+Entonces, vean qué fácil fue generar en
+7:56
+este caso el resultado. Ven aquí yo en
+8:00
+código puedo ver el código que ella
+8:01
+generó y puedo ver en preview
+8:04
+puedo ver en este caso la página que cre
+8:09
+totalmente funcional, ¿verdad? Ahora
+8:11
+bien, aquí le pedimos también a perdón
+8:15
+se cerró acá,
+8:18
+perdón, aquí en la carpeta de insumos.
+8:22
+Tenemos
+8:24
+un segundo prom que es donde ya le
+8:26
+podemos decir
+8:33
+que queremos como que detalle un poquito
+8:35
+más aquí. Básicamente el primer prom fue
+8:37
+como crea el cascarón, ¿verdad? Y si yo
+8:39
+tuviera ya los datos propios de la
+8:41
+empresa, yo se los puedo ir dando acá,
+8:42
+¿ven? Entonces, yo ya le puedo decir,
+8:45
+bueno, ponga el tema de imágenes es
+8:48
+complicadísimo, por eso vamos a buscar
+8:49
+una opción, otra opción que es mejor,
+8:51
+¿verdad? Pero ven que aquí, por ejemplo,
+8:53
+en servicios yo le podría decir, eh,
+8:55
+cambia este tema en esta parte, modifica
+8:58
+esto, ¿verdad? Esto modifícalo en tal y
+9:01
+tal tema, ¿verdad? O en la página de
+9:03
+Facebook, guíalo a tal página, en la de
+9:06
+Instagram, a tal página, en contacto, en
+9:09
+correo, ponga este correo y es su
+9:11
+excesivamente. ¿Ven? Yo podría
+9:12
+perfectamente hacer eso. En este caso,
+9:14
+¿ven que le voy a a pedir que haga estos
+9:18
+ajustes que están viendo por acá, que
+9:20
+básicamente es que
+9:26
+modifique, digamos, un poquito las
+9:28
+secciones, incluya una de beneficios de
+9:31
+prueba social, de llamado de acción,
+9:33
+¿verdad?
+9:44
+Bien, aquí le hicimos un pequeño ajuste.
+9:46
+De hecho, modifiqué un poco el PROM para
+9:47
+que quedara más sencillo. Lo voy a
+9:49
+mostrar por acá para que lo vean.
+9:53
+Entonces, ¿ven? Aquí ya le doy el
+9:55
+detalle de básicamente qué es lo que
+9:57
+queremos en una página, en otra página
+9:59
+que quiero que haga, en otra página que
+10:01
+quiero que haga, ¿verdad? Y un poco de
+10:03
+los estilos paleta de colores, ¿verdad?
+10:06
+si no tuviese, entonces ahí pues eh lo
+10:09
+dejo en blanco, pero de ser posible pues
+10:10
+lo indico y
+10:13
+eh también si ya tengo eh datos de redes
+10:16
+sociales o demás las podría agregar,
+10:19
+¿verdad? Yo puedo agregar aquí
+10:20
+directamente para que lo tome en
+10:22
+consideración. ¿Bien? Entonces es un
+10:24
+prom eh pues bastante sencillo. Aquí
+10:28
+pues es cuestión eh eh de especificar a
+10:32
+qué se dedica la empresa, eh cuáles son
+10:35
+las secciones de las páginas que yo
+10:36
+quiero, ¿verdad? Y un poquito del
+10:38
+diseño. Entonces, como ustedes ven, son
+10:40
+prom bastante sencillos que se lo damos
+10:43
+a la eh a la inteligencia artificial. Y
+10:46
+ven, ya aquí nos termina creando
+10:50
+una página web bastante detallada. Vean,
+10:54
+aquí esto en inicio en servicios. Vean,
+10:56
+aquí me lo hace bastante bastante bonito
+10:59
+en nosotros. ¿Ven? Aquí me muestra
+11:05
+los eh eh diferentes elementos. ¿Ven?
+11:10
+Aquí me permite inclusive pues
+11:12
+información. Aquí estos números son
+11:14
+inventados. Yo perfectamente podría
+11:15
+decirle, "En este WhatsApp ponga este
+11:17
+número, en este email ponga este otro y
+11:20
+en ubicación tal. Eh, esto es aquí para
+11:23
+que la gente envíe un mensaje, ¿verdad?
+11:25
+y cotizar ahora pues también lo lleva a
+11:28
+esa misma página de contacto.
+11:33
+Entonces, ven que termina generando pues
+11:35
+una página bastante completa y yo puedo
+11:39
+incluirle pues acá un elemento adicional
+11:41
+que es
+11:44
+agrega un chatbots, ¿verdad?
+11:48
+O inclusive aquí le dije en index y
+11:50
+demás. puedo inclusive ser más más
+11:53
+práctico y decirle nada más porque una
+11:55
+forma más simple y segura conectar un
+11:57
+chatbot de
+11:59
+y aquí entonces le voy a dar enviar
+12:06
+y vean que aquí él ya empieza a
+12:08
+trabajar.
+12:11
+Vamos a pasar un momento para que
+12:13
+trabaje y apenas entonces resuelva ya se
+12:15
+lo logro mostrar.
+12:17
+Perfecto. Ahí después de un rato de
+12:18
+trabajar, entonces ya eh terminó. Vea la
+12:21
+marca. Entonces ya me me dijo cómo lo
+12:23
+agregó, ¿verdad? Entonces en el sitio es
+12:27
+la mejor democratización de producto y
+12:29
+ya me dice, "Bueno, vamos a hacer un
+12:30
+botón flotante en la esquina inferior
+12:32
+derecha con un icono robot. Al hacer
+12:35
+clip se despiega una ventana de chat,
+12:37
+¿verdad? Usaremos el modelo Gemini 3
+12:38
+Flash por ser el más rápido y eficiente
+12:40
+para integraciones en chatbot en tiempo
+12:42
+real. El contexto, le haremos
+12:44
+instrucciones precisas y la seguridad.
+12:46
+El SDK consumirá, ¿verdad? En este caso
+12:49
+este este ambiente de acá, eh un entorno
+12:52
+de producción estricto y usarías una
+12:54
+proxy un edge function para para ocultar
+12:57
+la case, pero eh para esta
+12:59
+implementación frontend eh el uso de
+13:01
+variables de entorno es es el estándar
+13:03
+seguro y ya lo integra. Entonces aquí
+13:06
+vean que eh yo puedo, si ustedes notan
+13:10
+ya se agregó un chatbot aquí. Vean qué
+13:12
+sencillo lo agregó. Yo puedo escribirle
+13:15
+hola
+13:18
+y vean como él procede entonces a
+13:20
+contestarme. V. Perfecto. Entonces yo le
+13:23
+puedo decir dónde están ubicados.
+13:35
+V y no da el mejor resultado. Ven que eh
+13:38
+tiene tiende a dar demasiada información
+13:40
+y no está tan optimizado, pero es una
+13:42
+forma sencilla de integrar en este caso
+13:45
+un chatbot. Y como ustedes ven, pues la
+13:47
+página web en realidad es bastante
+13:49
+interesante. Creo que la terminó armando
+13:52
+de un modo eh bastante bonito. Y eh
+13:57
+acá si yo ya quisiera implementarlo, le
+13:59
+doy aquí en implementar app y ya con eso
+14:01
+se logra publicar. Eso es un esquema.
+14:04
+Ahora sí, si se implementa, se va a
+14:06
+implementar en Google y bueno, tendría
+14:07
+los costos asociados al uso del sistema
+14:09
+de Google. Y lo más óptimo en este caso
+14:12
+ya es que ustedes le implementen una API
+14:15
+key de Google, ¿verdad? Entonces ustedes
+14:18
+tendrían que ir buscar la AP key de
+14:20
+Google y aquí en el código que se
+14:23
+genera, ¿verdad? En este caso ustedes
+14:26
+tendrían que incluirle, ¿verdad? por
+14:28
+ejemplo, en la parte del chatbot, ya en
+14:31
+en este caso ustedes tendrían que eh
+14:34
+indicarle que tome su propia AP key,
+14:37
+porque si ustedes se regresan
+14:40
+acá,
+14:41
+aquí hay una forma de conseguir una AP
+14:43
+key, ¿verdad? No lo vamos a hacer en
+14:45
+este caso, ¿verdad? por temas de tiempo,
+14:47
+pero ustedes pueden eh crearle una API
+14:50
+Key y entonces eh en esta solución que
+14:54
+él termina trabajando acá, él se va a
+14:56
+integrar directamente a esa AP key.
+14:59
+Entonces el chatbot va a estar
+15:00
+consumiendo esa AP key directamente.
+15:03
+Entonces eso es una gran ventaja.
+15:06
+Entonces, para que lo tengamos ahí en
+15:08
+consideración, igual pues acá, como
+15:10
+mencionábamos antes, tenemos opciones un
+15:12
+poco más especiales y si quisiéramos
+15:14
+pues las podríamos modificar, pero como
+15:16
+les digo, básicamente esos serían los
+15:18
+elementos. Ah, otra forma de agregar la
+15:20
+API key es eh darle aquí, ¿verdad?
+15:23
+porque allá tengo la API key de que yo
+15:26
+podría en este caso obtener. Y si yo
+15:27
+quisiera pues acá eh yo podría, no lo
+15:30
+voy a mostrar acá porque es información
+15:32
+eh privada, pero ahí yo ya podría en
+15:35
+este caso también agregarle la API key
+15:37
+desde acá para que este chatbot entonces
+15:40
+se conecte a mi API key funcione,
+15:42
+digamos, en tiempo real. Entonces, como
+15:45
+ustedes ven, así de sencillo, usando by
+15:47
+coding, podemos generar estos resultados
+15:50
+y podríamos implementarlos e inclusive
+15:52
+incluir elementos de inteligencia
+15:53
+artificial donde Google Estudios muy
+15:56
+potente, ¿verdad?, para para incorporar
+15:58
+estos elementos porque lo hace de un
+15:59
+modo muy sencillo desde adentro y
+16:01
+después nada más le incluimos la app
+16:03
+aquí por acá y ya lo podríamos
+16:05
+implementar, pero nuevamente en este
+16:07
+caso quedaría en el servidor de de
+16:08
+Google, tendría pues eh cierto costo
+16:10
+asociado, pero sería una forma fácil
+16:12
+también de implementarlo.
+16:15
+Ahora vamos a continuar en el siguiente
+16:17
+video con el desarrollo de Antigravity.

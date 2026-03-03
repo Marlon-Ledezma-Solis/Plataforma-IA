@@ -1,0 +1,4348 @@
+Kind: captions
+Language: es
+
+Muy bien, ahora en este segundo video
+
+Muy bien, ahora en este segundo video
+
+Muy bien, ahora en este segundo video
+vamos a proceder a utilizar la
+
+vamos a proceder a utilizar la
+
+vamos a proceder a utilizar la
+herramienta Make para crear una
+
+herramienta Make para crear una
+
+herramienta Make para crear una
+automatización en este caso de correos
+
+automatización en este caso de correos
+
+automatización en este caso de correos
+con el uso de inteligencia artificial.
+
+con el uso de inteligencia artificial.
+
+con el uso de inteligencia artificial.
+Entonces vamos a proceder a ir
+
+Entonces vamos a proceder a ir
+
+Entonces vamos a proceder a ir
+propiamente a la herramienta Makear
+
+Internet en Google y vamos a poner aquí
+
+Internet en Google y vamos a poner aquí
+
+Internet en Google y vamos a poner aquí
+arriba o acá, ¿verdad? Vamos a poner
+
+arriba o acá, ¿verdad? Vamos a poner
+
+arriba o acá, ¿verdad? Vamos a poner
+make y aquí en make vamos a ingresar en
+
+make y aquí en make vamos a ingresar en
+
+make y aquí en make vamos a ingresar en
+Start for free y tenemos que loguearnos,
+
+Start for free y tenemos que loguearnos,
+
+Start for free y tenemos que loguearnos,
+¿verdad? Aquí pues por cuestión de eh
+
+¿verdad? Aquí pues por cuestión de eh
+
+¿verdad? Aquí pues por cuestión de eh
+tiempo no vamos a hacer un logueo
+
+tiempo no vamos a hacer un logueo
+
+tiempo no vamos a hacer un logueo
+específico. Igual nos podemos loguear
+
+específico. Igual nos podemos loguear
+
+específico. Igual nos podemos loguear
+con nuestras herramientas en nuestra
+
+con nuestras herramientas en nuestra
+
+con nuestras herramientas en nuestra
+cuenta de Google. Y entonces acá ya
+
+cuenta de Google. Y entonces acá ya
+
+cuenta de Google. Y entonces acá ya
+podemos ingresar a Me. Cuando entramos a
+
+podemos ingresar a Me. Cuando entramos a
+
+podemos ingresar a Me. Cuando entramos a
+Make vamos a tener varias herramientas
+
+Make vamos a tener varias herramientas
+
+Make vamos a tener varias herramientas
+por acá, como ustedes pueden observar, y
+
+por acá, como ustedes pueden observar, y
+
+por acá, como ustedes pueden observar, y
+eh varias de ellas nos permiten
+
+eh varias de ellas nos permiten
+
+eh varias de ellas nos permiten
+conexiones MSP que tienden a ser muy
+
+conexiones MSP que tienden a ser muy
+
+conexiones MSP que tienden a ser muy
+importantes, construcción de web hoops,
+
+importantes, construcción de web hoops,
+
+importantes, construcción de web hoops,
+que también son elementos eh muy
+
+que también son elementos eh muy
+
+que también son elementos eh muy
+importantes en el desarrollo de
+
+importantes en el desarrollo de
+
+importantes en el desarrollo de
+automatizaciones. Pero de momento vamos
+
+automatizaciones. Pero de momento vamos
+
+automatizaciones. Pero de momento vamos
+a ir a escenarios. Aquí en escenarios
+
+a ir a escenarios. Aquí en escenarios
+
+a ir a escenarios. Aquí en escenarios
+vamos a darle en crear escenarios. De
+
+vamos a darle en crear escenarios. De
+
+vamos a darle en crear escenarios. De
+hecho de que vamos a replicar es este
+
+hecho de que vamos a replicar es este
+
+hecho de que vamos a replicar es este
+escenario que está por acá. Entonces,
+
+escenario que está por acá. Entonces,
+
+escenario que está por acá. Entonces,
+vamos a ir replicando este proceso. Para
+
+vamos a ir replicando este proceso. Para
+
+vamos a ir replicando este proceso. Para
+ello, entonces nos vamos a venir aquí a
+
+ello, entonces nos vamos a venir aquí a
+
+ello, entonces nos vamos a venir aquí a
+escenarios y le vamos a crear escenario.
+
+Acá nos va a pedir un disparador. El
+
+Acá nos va a pedir un disparador. El
+
+Acá nos va a pedir un disparador. El
+disparador va a ser el evento que en
+
+disparador va a ser el evento que en
+
+disparador va a ser el evento que en
+este caso abra la automatización, o sea,
+
+este caso abra la automatización, o sea,
+
+este caso abra la automatización, o sea,
+lo que haga o detoneación
+
+lo que haga o detoneación
+
+lo que haga o detoneación
+inicie. Aquí le vamos a dar en Gmail. Y
+
+inicie. Aquí le vamos a dar en Gmail. Y
+
+inicie. Aquí le vamos a dar en Gmail. Y
+aquí en Gmail vamos a escoger la opción
+
+aquí en Gmail vamos a escoger la opción
+
+aquí en Gmail vamos a escoger la opción
+propiamente de eh de recibir en este
+
+propiamente de eh de recibir en este
+
+propiamente de eh de recibir en este
+caso un email, ¿verdad? Que en este caso
+
+caso un email, ¿verdad? Que en este caso
+
+caso un email, ¿verdad? Que en este caso
+sería esta opción de acá. Y aquí tenemos
+
+sería esta opción de acá. Y aquí tenemos
+
+sería esta opción de acá. Y aquí tenemos
+que conectar nuestra cuenta de Gmail. Es
+
+que conectar nuestra cuenta de Gmail. Es
+
+que conectar nuestra cuenta de Gmail. Es
+importante indicar que yo aquí ya la
+
+importante indicar que yo aquí ya la
+
+importante indicar que yo aquí ya la
+tengo, ¿verdad? por cuestión de rapidez,
+
+tengo, ¿verdad? por cuestión de rapidez,
+
+tengo, ¿verdad? por cuestión de rapidez,
+pero ustedes le pueden dar aquí en AT,
+
+pero ustedes le pueden dar aquí en AT,
+
+pero ustedes le pueden dar aquí en AT,
+le dan aquí en conectarse con Google y
+
+le dan aquí en conectarse con Google y
+
+le dan aquí en conectarse con Google y
+ya con eso van a poder conectarse con su
+
+ya con eso van a poder conectarse con su
+
+ya con eso van a poder conectarse con su
+cuenta de Gmail para que él logre
+
+cuenta de Gmail para que él logre
+
+cuenta de Gmail para que él logre
+entonces en este caso observar los
+
+entonces en este caso observar los
+
+entonces en este caso observar los
+correos que están ingresando. Acá es
+
+correos que están ingresando. Acá es
+
+correos que están ingresando. Acá es
+importante que indiquemos el límite,
+
+importante que indiquemos el límite,
+
+importante que indiquemos el límite,
+¿verdad?,
+
+¿verdad?,
+
+¿verdad?,
+eh de eh de correos que se podrían
+
+eh de eh de correos que se podrían
+
+eh de eh de correos que se podrían
+recibir. En este caso, pues se puede
+
+recibir. En este caso, pues se puede
+
+recibir. En este caso, pues se puede
+dejar en 10, en 15, ¿verdad? Ustedes ahí
+
+dejar en 10, en 15, ¿verdad? Ustedes ahí
+
+dejar en 10, en 15, ¿verdad? Ustedes ahí
+ya podrían decidir la cantidad que
+
+ya podrían decidir la cantidad que
+
+ya podrían decidir la cantidad que
+ustedes consideran que eh podrían
+
+ustedes consideran que eh podrían
+
+ustedes consideran que eh podrían
+recibir. Si ven, es el máximo número de
+
+recibir. Si ven, es el máximo número de
+
+recibir. Si ven, es el máximo número de
+resultados que va a regresar durante el
+
+resultados que va a regresar durante el
+
+resultados que va a regresar durante el
+ciclo de ejecución, ¿verdad? Entonces es
+
+ciclo de ejecución, ¿verdad? Entonces es
+
+ciclo de ejecución, ¿verdad? Entonces es
+el máximo de resultados. Aquí podríamos
+
+el máximo de resultados. Aquí podríamos
+
+el máximo de resultados. Aquí podríamos
+dejarlo en 15 y le damos en guardar.
+
+dejarlo en 15 y le damos en guardar.
+
+dejarlo en 15 y le damos en guardar.
+Acá, como ustedes ven, nos indica que eh
+
+Acá, como ustedes ven, nos indica que eh
+
+Acá, como ustedes ven, nos indica que eh
+cómo deseamos que inicie, ¿verdad? Si lo
+
+cómo deseamos que inicie, ¿verdad? Si lo
+
+cómo deseamos que inicie, ¿verdad? Si lo
+queremos que sea por escogencia manual o
+
+queremos que sea por escogencia manual o
+
+queremos que sea por escogencia manual o
+eh en este caso para un específico
+
+eh en este caso para un específico
+
+eh en este caso para un específico
+periodo de tiempo, ¿verdad? Y eh podemos
+
+periodo de tiempo, ¿verdad? Y eh podemos
+
+periodo de tiempo, ¿verdad? Y eh podemos
+en este caso también darle que para
+
+en este caso también darle que para
+
+en este caso también darle que para
+todo, ¿verdad? para todo el periodo de
+
+todo, ¿verdad? para todo el periodo de
+
+todo, ¿verdad? para todo el periodo de
+tiempo, o sea, es cuánto,
+
+tiempo, o sea, es cuánto,
+
+tiempo, o sea, es cuánto,
+a partir de cuándo van a correr esta
+
+a partir de cuándo van a correr esta
+
+a partir de cuándo van a correr esta
+esta
+
+esta
+
+esta
+automatización.
+
+automatización.
+
+automatización.
+Nosotros podríamos y ahora vamos a
+
+Nosotros podríamos y ahora vamos a
+
+Nosotros podríamos y ahora vamos a
+utilizar, por ejemplo, escogencia manual
+
+utilizar, por ejemplo, escogencia manual
+
+utilizar, por ejemplo, escogencia manual
+para eh empujarlo en cierto momento a
+
+para eh empujarlo en cierto momento a
+
+para eh empujarlo en cierto momento a
+que proceda a trabajar, ¿verdad? Pero de
+
+que proceda a trabajar, ¿verdad? Pero de
+
+que proceda a trabajar, ¿verdad? Pero de
+momento también le podríamos dar que a
+
+momento también le podríamos dar que a
+
+momento también le podríamos dar que a
+partir de este momento para que
+
+partir de este momento para que
+
+partir de este momento para que
+cualquier correo que empiece a residirse
+
+cualquier correo que empiece a residirse
+
+cualquier correo que empiece a residirse
+entonces él proceda a trabajarlo,
+
+entonces él proceda a trabajarlo,
+
+entonces él proceda a trabajarlo,
+¿verdad? Eso sería lo común, pero
+
+¿verdad? Eso sería lo común, pero
+
+¿verdad? Eso sería lo común, pero
+también ahora vamos a ver que vamos a
+
+también ahora vamos a ver que vamos a
+
+también ahora vamos a ver que vamos a
+darle escogencia manual para que también
+
+darle escogencia manual para que también
+
+darle escogencia manual para que también
+eh nos ayude en ciertos momentos
+
+eh nos ayude en ciertos momentos
+
+eh nos ayude en ciertos momentos
+específicos a decir lo que actúe en este
+
+específicos a decir lo que actúe en este
+
+específicos a decir lo que actúe en este
+momento. Ahora vamos a abrir un
+
+momento. Ahora vamos a abrir un
+
+momento. Ahora vamos a abrir un
+siguiente nodo. Este siguiente nodo va a
+
+siguiente nodo. Este siguiente nodo va a
+
+siguiente nodo. Este siguiente nodo va a
+ser una conexión con chat GPT. Y por
+
+ser una conexión con chat GPT. Y por
+
+ser una conexión con chat GPT. Y por
+esta razón vamos a poner aquí GPT, puede
+
+esta razón vamos a poner aquí GPT, puede
+
+esta razón vamos a poner aquí GPT, puede
+ser cualquier tipo de inteligencia
+
+ser cualquier tipo de inteligencia
+
+ser cualquier tipo de inteligencia
+artificial. En este caso vamos a escoger
+
+artificial. En este caso vamos a escoger
+
+artificial. En este caso vamos a escoger
+chat GPT y le vamos a decir que nos
+
+chat GPT y le vamos a decir que nos
+
+chat GPT y le vamos a decir que nos
+ayude a generar una respuesta
+
+acá en el momento en que ya le vamos
+
+acá en el momento en que ya le vamos
+
+acá en el momento en que ya le vamos
+dando el proceso, en que vamos
+
+dando el proceso, en que vamos
+
+dando el proceso, en que vamos
+detallando el proceso, ¿verdad? Y tal
+
+detallando el proceso, ¿verdad? Y tal
+
+detallando el proceso, ¿verdad? Y tal
+vez aquí eh valga la pena. Igual voy a
+
+vez aquí eh valga la pena. Igual voy a
+
+vez aquí eh valga la pena. Igual voy a
+abrir otra ventanita de make para que
+
+abrir otra ventanita de make para que
+
+abrir otra ventanita de make para que
+también tengamos
+
+también tengamos
+
+también tengamos
+de hecho en la presentación
+
+de hecho en la presentación
+
+de hecho en la presentación
+eh está indicado el link para poder
+
+eh está indicado el link para poder
+
+eh está indicado el link para poder
+ingresar. Es más, vamos entonces a
+
+ingresar. Es más, vamos entonces a
+
+ingresar. Es más, vamos entonces a
+acceder a la presentación para que
+
+acceder a la presentación para que
+
+acceder a la presentación para que
+ustedes lo puedan ver acá. Como se logra
+
+ustedes lo puedan ver acá. Como se logra
+
+ustedes lo puedan ver acá. Como se logra
+observar, entonces hay un link que si
+
+observar, entonces hay un link que si
+
+observar, entonces hay un link que si
+ustedes ingresan a este link les van a
+
+ustedes ingresan a este link les van a
+
+ustedes ingresan a este link les van a
+abrir propiamente
+
+abrir propiamente
+
+abrir propiamente
+el eh
+
+el eh
+
+el eh
+esta misma automatización que estamos
+
+esta misma automatización que estamos
+
+esta misma automatización que estamos
+realizando. De hecho, en la presentación
+
+realizando. De hecho, en la presentación
+
+realizando. De hecho, en la presentación
+viene paso a paso. Entonces, vamos a eh
+
+viene paso a paso. Entonces, vamos a eh
+
+viene paso a paso. Entonces, vamos a eh
+proceder a copiar este link y abrirlo
+
+proceder a copiar este link y abrirlo
+
+proceder a copiar este link y abrirlo
+para que ustedes puedan ver cómo es eh
+
+para que ustedes puedan ver cómo es eh
+
+para que ustedes puedan ver cómo es eh
+cómo podemos también cada uno de de los
+
+cómo podemos también cada uno de de los
+
+cómo podemos también cada uno de de los
+que participen poder observar el flujo
+
+que participen poder observar el flujo
+
+que participen poder observar el flujo
+completo y también pues eso les va a
+
+completo y también pues eso les va a
+
+completo y también pues eso les va a
+ayudar a entender con más facilidad el
+
+ayudar a entender con más facilidad el
+
+ayudar a entender con más facilidad el
+paso a paso de lo que vamos a ir
+
+paso a paso de lo que vamos a ir
+
+paso a paso de lo que vamos a ir
+haciendo
+
+haciendo
+
+haciendo
+y pegamos, ¿verdad?
+
+y pegamos, ¿verdad?
+
+y pegamos, ¿verdad?
+Y podemos ya ver que podemos darle usar
+
+Y podemos ya ver que podemos darle usar
+
+Y podemos ya ver que podemos darle usar
+este escenario
+
+este escenario
+
+este escenario
+y ahí ya lo podemos observar en
+
+y ahí ya lo podemos observar en
+
+y ahí ya lo podemos observar en
+ejecución acá. Entonces, ustedes eh
+
+ejecución acá. Entonces, ustedes eh
+
+ejecución acá. Entonces, ustedes eh
+pueden ver que el paso que estamos
+
+pueden ver que el paso que estamos
+
+pueden ver que el paso que estamos
+siguiendo acá es categorizar esos
+
+siguiendo acá es categorizar esos
+
+siguiendo acá es categorizar esos
+correos, porque ya vamos a ver que
+
+correos, porque ya vamos a ver que
+
+correos, porque ya vamos a ver que
+recibimos el correo. El momento que lo
+
+recibimos el correo. El momento que lo
+
+recibimos el correo. El momento que lo
+recibimos hay que categorizar ese correo
+
+recibimos hay que categorizar ese correo
+
+recibimos hay que categorizar ese correo
+porque este flujo lo que busca, si lo
+
+porque este flujo lo que busca, si lo
+
+porque este flujo lo que busca, si lo
+ampliamos aquí un poquito más, es llega
+
+ampliamos aquí un poquito más, es llega
+
+ampliamos aquí un poquito más, es llega
+el correo, lo categoriza.
+
+el correo, lo categoriza.
+
+el correo, lo categoriza.
+Para ello, entonces va a haber un
+
+Para ello, entonces va a haber un
+
+Para ello, entonces va a haber un
+rutador que nos va a decir, bueno, si es
+
+rutador que nos va a decir, bueno, si es
+
+rutador que nos va a decir, bueno, si es
+eliminar, ¿verdad? Si lo que hay que
+
+eliminar, ¿verdad? Si lo que hay que
+
+eliminar, ¿verdad? Si lo que hay que
+hacer es eliminarlo, entonces haga este
+
+hacer es eliminarlo, entonces haga este
+
+hacer es eliminarlo, entonces haga este
+proceso. Si lo que necesitamos es que lo
+
+proceso. Si lo que necesitamos es que lo
+
+proceso. Si lo que necesitamos es que lo
+marque como leído, haga este proceso. Si
+
+marque como leído, haga este proceso. Si
+
+marque como leído, haga este proceso. Si
+hay que responderlo, entonces tiene que
+
+hay que responderlo, entonces tiene que
+
+hay que responderlo, entonces tiene que
+seguir este caminito. Si hay que
+
+seguir este caminito. Si hay que
+
+seguir este caminito. Si hay que
+escalarlo para que una persona, un
+
+escalarlo para que una persona, un
+
+escalarlo para que una persona, un
+agente, perdón, en este caso, un agente
+
+agente, perdón, en este caso, un agente
+
+agente, perdón, en este caso, un agente
+eh ya humano lo procede a analizar,
+
+eh ya humano lo procede a analizar,
+
+eh ya humano lo procede a analizar,
+entonces sería este proceso. Y si
+
+entonces sería este proceso. Y si
+
+entonces sería este proceso. Y si
+necesita contexto, entonces va a irse
+
+necesita contexto, entonces va a irse
+
+necesita contexto, entonces va a irse
+por esta línea de acá. ¿Ven? Entonces,
+
+por esta línea de acá. ¿Ven? Entonces,
+
+por esta línea de acá. ¿Ven? Entonces,
+eso es lo que vamos a hacer.
+
+eso es lo que vamos a hacer.
+
+eso es lo que vamos a hacer.
+De hecho, para hacer este proceso,
+
+De hecho, para hacer este proceso,
+
+De hecho, para hacer este proceso,
+tenemos insumos de la unidad. En esos
+
+tenemos insumos de la unidad. En esos
+
+tenemos insumos de la unidad. En esos
+insumos de la unidad, ¿ven que dice PROM
+
+insumos de la unidad, ¿ven que dice PROM
+
+insumos de la unidad, ¿ven que dice PROM
+para categorizar?
+
+para categorizar?
+
+para categorizar?
+Este es el PROM que vamos a utilizar.
+
+Este es el PROM que vamos a utilizar.
+
+Este es el PROM que vamos a utilizar.
+Entonces, ¿qué es lo que le vamos a
+
+Entonces, ¿qué es lo que le vamos a
+
+Entonces, ¿qué es lo que le vamos a
+pedir a las a la inteligencia
+
+pedir a las a la inteligencia
+
+pedir a las a la inteligencia
+artificial? Entonces, le vamos a decir,
+
+artificial? Entonces, le vamos a decir,
+
+artificial? Entonces, le vamos a decir,
+eres el asistente ejecutivo de
+
+eres el asistente ejecutivo de
+
+eres el asistente ejecutivo de
+inteligencia artificial para atender
+
+inteligencia artificial para atender
+
+inteligencia artificial para atender
+correos. Tu misión es gestionar la
+
+correos. Tu misión es gestionar la
+
+correos. Tu misión es gestionar la
+bandeja de entrada de manera eficiente,
+
+bandeja de entrada de manera eficiente,
+
+bandeja de entrada de manera eficiente,
+filtrando el ruido y deteniendo los
+
+filtrando el ruido y deteniendo los
+
+filtrando el ruido y deteniendo los
+centes con excelencia. ¿Ve? Entonces ya
+
+centes con excelencia. ¿Ve? Entonces ya
+
+centes con excelencia. ¿Ve? Entonces ya
+le dijimos, a partir de la información
+
+le dijimos, a partir de la información
+
+le dijimos, a partir de la información
+que le vamos a suministrar debes tomar
+
+que le vamos a suministrar debes tomar
+
+que le vamos a suministrar debes tomar
+la siguiente información. Y ahora vamos
+
+la siguiente información. Y ahora vamos
+
+la siguiente información. Y ahora vamos
+a ver cómo se hace este proceso. Con
+
+a ver cómo se hace este proceso. Con
+
+a ver cómo se hace este proceso. Con
+base en esta información determine o
+
+base en esta información determine o
+
+base en esta información determine o
+categorice dentro de las siguientes
+
+categorice dentro de las siguientes
+
+categorice dentro de las siguientes
+opciones.
+
+opciones.
+
+opciones.
+Entonces toma el correo y tiene que
+
+Entonces toma el correo y tiene que
+
+Entonces toma el correo y tiene que
+categorizar. Si ese correo lo deberíamos
+
+categorizar. Si ese correo lo deberíamos
+
+categorizar. Si ese correo lo deberíamos
+de eliminar. ¿Cuáles son los que se
+
+de eliminar. ¿Cuáles son los que se
+
+de eliminar. ¿Cuáles son los que se
+deberían de eliminar? la publicidad, la
+
+deberían de eliminar? la publicidad, la
+
+deberían de eliminar? la publicidad, la
+notificación de aprobación de anuncios
+
+notificación de aprobación de anuncios
+
+notificación de aprobación de anuncios
+de meta y los boletines genéricos
+
+de meta y los boletines genéricos
+
+de meta y los boletines genéricos
+irrelevantes.
+
+irrelevantes.
+
+irrelevantes.
+Marcar como leído resúmenes de
+
+Marcar como leído resúmenes de
+
+Marcar como leído resúmenes de
+transacciones bancarias, comprobantes de
+
+transacciones bancarias, comprobantes de
+
+transacciones bancarias, comprobantes de
+simple móvil, ingresos a canales
+
+simple móvil, ingresos a canales
+
+simple móvil, ingresos a canales
+virtuales, recibos o facturas de meta,
+
+virtuales, recibos o facturas de meta,
+
+virtuales, recibos o facturas de meta,
+noticias
+
+noticias
+
+noticias
+y correos meramente informativos.
+
+y correos meramente informativos.
+
+y correos meramente informativos.
+tiene que solicitar contexto, o sea,
+
+tiene que solicitar contexto, o sea,
+
+tiene que solicitar contexto, o sea,
+tiene que marcarlo o categorizarlo como
+
+tiene que marcarlo o categorizarlo como
+
+tiene que marcarlo o categorizarlo como
+contexto si consideras que necesitas
+
+contexto si consideras que necesitas
+
+contexto si consideras que necesitas
+conocer mensajes previos antes de dar
+
+conocer mensajes previos antes de dar
+
+conocer mensajes previos antes de dar
+una respuesta. Si ves que es necesario
+
+una respuesta. Si ves que es necesario
+
+una respuesta. Si ves que es necesario
+conocer conversaciones anteriores, pues
+
+conocer conversaciones anteriores, pues
+
+conocer conversaciones anteriores, pues
+se hace referencia,
+
+se hace referencia,
+
+se hace referencia,
+perdón, acá a un seguimiento de
+
+perdón, acá a un seguimiento de
+
+perdón, acá a un seguimiento de
+conversaciones anteriores
+
+conversaciones anteriores
+
+conversaciones anteriores
+y responder si es información que se
+
+y responder si es información que se
+
+y responder si es información que se
+puede contestar con la siguiente base de
+
+puede contestar con la siguiente base de
+
+puede contestar con la siguiente base de
+conocimiento. Y ven, aquí le damos una
+
+conocimiento. Y ven, aquí le damos una
+
+conocimiento. Y ven, aquí le damos una
+base de conocimiento donde le decimos
+
+base de conocimiento donde le decimos
+
+base de conocimiento donde le decimos
+todos los detalles de la información del
+
+todos los detalles de la información del
+
+todos los detalles de la información del
+negocio. ¿Ven? Aquí pues esta es
+
+negocio. ¿Ven? Aquí pues esta es
+
+negocio. ¿Ven? Aquí pues esta es
+información falsa, digamos que se creó
+
+información falsa, digamos que se creó
+
+información falsa, digamos que se creó
+meramente para efectos de el caso en en
+
+meramente para efectos de el caso en en
+
+meramente para efectos de el caso en en
+estudio, pero eh ustedes pueden ahí
+
+estudio, pero eh ustedes pueden ahí
+
+estudio, pero eh ustedes pueden ahí
+incluirle pues todos los elementos que
+
+incluirle pues todos los elementos que
+
+incluirle pues todos los elementos que
+ustedes consideren relevantes. ¿Ven?
+
+ustedes consideren relevantes. ¿Ven?
+
+ustedes consideren relevantes. ¿Ven?
+Entonces este es el prom. Va a recibir
+
+Entonces este es el prom. Va a recibir
+
+Entonces este es el prom. Va a recibir
+el mensaje y va a determinar si hay que
+
+el mensaje y va a determinar si hay que
+
+el mensaje y va a determinar si hay que
+eliminarlo porque eh en este caso cumple
+
+eliminarlo porque eh en este caso cumple
+
+eliminarlo porque eh en este caso cumple
+con estas condiciones, hay que leerlo
+
+con estas condiciones, hay que leerlo
+
+con estas condiciones, hay que leerlo
+porque marcarlo como leído nada más si
+
+porque marcarlo como leído nada más si
+
+porque marcarlo como leído nada más si
+cumple con estas condiciones. Eh ponerlo
+
+cumple con estas condiciones. Eh ponerlo
+
+cumple con estas condiciones. Eh ponerlo
+en contexto, ¿verdad? si considera que
+
+en contexto, ¿verdad? si considera que
+
+en contexto, ¿verdad? si considera que
+necesita pues obtener más información
+
+necesita pues obtener más información
+
+necesita pues obtener más información
+sobre contexto y sobre mensajes previos
+
+sobre contexto y sobre mensajes previos
+
+sobre contexto y sobre mensajes previos
+o responder si eh considera que lo puede
+
+o responder si eh considera que lo puede
+
+o responder si eh considera que lo puede
+atender con base en esta información.
+
+atender con base en esta información.
+
+atender con base en esta información.
+Eso es básicamente la idea. Vamos a
+
+Eso es básicamente la idea. Vamos a
+
+Eso es básicamente la idea. Vamos a
+guardarlo por acá.
+
+Y ahora sí, entonces nos vamos a
+
+Y ahora sí, entonces nos vamos a
+
+Y ahora sí, entonces nos vamos a
+regresar a make. Bueno, es importante
+
+regresar a make. Bueno, es importante
+
+regresar a make. Bueno, es importante
+que nos llevemos de una vez copiado
+
+que nos llevemos de una vez copiado
+
+que nos llevemos de una vez copiado
+de acá.
+
+de acá.
+
+de acá.
+Y ahora sí nos vamos a ir a make. Y aquí
+
+Y ahora sí nos vamos a ir a make. Y aquí
+
+Y ahora sí nos vamos a ir a make. Y aquí
+en make ya vemos que es este que vamos a
+
+en make ya vemos que es este que vamos a
+
+en make ya vemos que es este que vamos a
+trabajar. Entonces ya vamos a estar acá
+
+trabajar. Entonces ya vamos a estar acá
+
+trabajar. Entonces ya vamos a estar acá
+y vamos a configurar estos elementos que
+
+y vamos a configurar estos elementos que
+
+y vamos a configurar estos elementos que
+están por aquí. Lo primero que tenemos
+
+están por aquí. Lo primero que tenemos
+
+están por aquí. Lo primero que tenemos
+que hacer es agregar una conexión con
+
+que hacer es agregar una conexión con
+
+que hacer es agregar una conexión con
+chat GPT. Para eso le podemos dar aquí
+
+chat GPT. Para eso le podemos dar aquí
+
+chat GPT. Para eso le podemos dar aquí
+en agregar, ¿verdad? Le podemos poner un
+
+en agregar, ¿verdad? Le podemos poner un
+
+en agregar, ¿verdad? Le podemos poner un
+nombre que nosotros querramos y le
+
+nombre que nosotros querramos y le
+
+nombre que nosotros querramos y le
+ponemos en este caso una AP key. Esto ya
+
+ponemos en este caso una AP key. Esto ya
+
+ponemos en este caso una AP key. Esto ya
+lo vimos en e
+
+lo vimos en e
+
+lo vimos en e
+módulos anteriores, entonces no nos
+
+módulos anteriores, entonces no nos
+
+módulos anteriores, entonces no nos
+vamos a a detener mucho por acá. Nada
+
+vamos a a detener mucho por acá. Nada
+
+vamos a a detener mucho por acá. Nada
+más recordarles que esto es ingresar
+
+más recordarles que esto es ingresar
+
+más recordarles que esto es ingresar
+pues cualquier proveedor. En este caso
+
+pues cualquier proveedor. En este caso
+
+pues cualquier proveedor. En este caso
+vamos a utilizar chat GPT por tema de
+
+vamos a utilizar chat GPT por tema de
+
+vamos a utilizar chat GPT por tema de
+uso generalizado. Y entonces ya ingresan
+
+y por acá entonces es donde ustedes
+
+y por acá entonces es donde ustedes
+
+y por acá entonces es donde ustedes
+pueden crear una nueva APIC. Una vez que
+
+pueden crear una nueva APIC. Una vez que
+
+pueden crear una nueva APIC. Una vez que
+la crean, ¿verdad?
+
+la crean, ¿verdad?
+
+la crean, ¿verdad?
+La colocan por acá.
+
+La colocan por acá.
+
+La colocan por acá.
+En este caso,
+
+En este caso,
+
+En este caso,
+una vez que ustedes las configuren, van
+
+una vez que ustedes las configuren, van
+
+una vez que ustedes las configuren, van
+a quedar guardadas por acá. Acá yo no me
+
+a quedar guardadas por acá. Acá yo no me
+
+a quedar guardadas por acá. Acá yo no me
+está saliendo propiamente una AP que yo
+
+está saliendo propiamente una AP que yo
+
+está saliendo propiamente una AP que yo
+haya creado, entonces voy a agregar, voy
+
+haya creado, entonces voy a agregar, voy
+
+haya creado, entonces voy a agregar, voy
+a detener un momento acá posar la
+
+a detener un momento acá posar la
+
+a detener un momento acá posar la
+grabación para traerme entonces la
+
+grabación para traerme entonces la
+
+grabación para traerme entonces la
+información desde la API key.
+
+información desde la API key.
+
+información desde la API key.
+Muy bien. Entonces ahora sí, en este
+
+Muy bien. Entonces ahora sí, en este
+
+Muy bien. Entonces ahora sí, en este
+caso, pues ya copiamos la la piquin, nos
+
+caso, pues ya copiamos la la piquin, nos
+
+caso, pues ya copiamos la la piquin, nos
+venimos acá, le vamos a agregar, le
+
+venimos acá, le vamos a agregar, le
+
+venimos acá, le vamos a agregar, le
+vamos a poner entonces
+
+vamos a poner entonces
+
+vamos a poner entonces
+chat GPT
+
+chat GPT
+
+chat GPT
+bajo make. Pegamos la piqui por acá y
+
+bajo make. Pegamos la piqui por acá y
+
+bajo make. Pegamos la piqui por acá y
+aquí en la organización pues si queremos
+
+aquí en la organización pues si queremos
+
+aquí en la organización pues si queremos
+incluimos alguna, ¿verdad? Y si no, pues
+
+incluimos alguna, ¿verdad? Y si no, pues
+
+incluimos alguna, ¿verdad? Y si no, pues
+puede quedar en Y eso entonces él nos
+
+puede quedar en Y eso entonces él nos
+
+puede quedar en Y eso entonces él nos
+indica
+
+indica
+
+indica
+que efectivamente funcionó. ¿Ven? Y aquí
+
+que efectivamente funcionó. ¿Ven? Y aquí
+
+que efectivamente funcionó. ¿Ven? Y aquí
+está agregado y aquí podemos escoger el
+
+está agregado y aquí podemos escoger el
+
+está agregado y aquí podemos escoger el
+modelo. Entonces, ¿ven? Estos son los
+
+modelo. Entonces, ¿ven? Estos son los
+
+modelo. Entonces, ¿ven? Estos son los
+diferentes modelos que en este caso
+
+diferentes modelos que en este caso
+
+diferentes modelos que en este caso
+podríamos utilizar. Eh, hay diferentes
+
+podríamos utilizar. Eh, hay diferentes
+
+podríamos utilizar. Eh, hay diferentes
+costos, ¿verdad? Eso ya lo abarcamos con
+
+costos, ¿verdad? Eso ya lo abarcamos con
+
+costos, ¿verdad? Eso ya lo abarcamos con
+más detalle en
+
+más detalle en
+
+más detalle en
+la clase presencial. De momento vamos a
+
+la clase presencial. De momento vamos a
+
+la clase presencial. De momento vamos a
+utilizar el 4 o mini, que es tiene ser
+
+utilizar el 4 o mini, que es tiene ser
+
+utilizar el 4 o mini, que es tiene ser
+de los más baratos. Muy bien. Y aquí
+
+de los más baratos. Muy bien. Y aquí
+
+de los más baratos. Muy bien. Y aquí
+entonces ya me dice que que vamos a
+
+entonces ya me dice que que vamos a
+
+entonces ya me dice que que vamos a
+incluirlo, que si es una imagen en prom,
+
+incluirlo, que si es una imagen en prom,
+
+incluirlo, que si es una imagen en prom,
+si es un archivo en prom o demás. De
+
+si es un archivo en prom o demás. De
+
+si es un archivo en prom o demás. De
+momento vamos a utilizar prom texto,
+
+momento vamos a utilizar prom texto,
+
+momento vamos a utilizar prom texto,
+¿verdad? Y aquí es donde le vamos a
+
+¿verdad? Y aquí es donde le vamos a
+
+¿verdad? Y aquí es donde le vamos a
+pegar el prom que ya habíamos comentado
+
+pegar el prom que ya habíamos comentado
+
+pegar el prom que ya habíamos comentado
+que existiría para categorizar, ¿verdad?
+
+que existiría para categorizar, ¿verdad?
+
+que existiría para categorizar, ¿verdad?
+Y aquí entonces lo vamos a pegar. Pero
+
+Y aquí entonces lo vamos a pegar. Pero
+
+Y aquí entonces lo vamos a pegar. Pero
+si es importante que vean una cuestión
+
+si es importante que vean una cuestión
+
+si es importante que vean una cuestión
+por acá. Este subject que está acá,
+
+por acá. Este subject que está acá,
+
+por acá. Este subject que está acá,
+ustedes ven que ya es el asunto del
+
+ustedes ven que ya es el asunto del
+
+ustedes ven que ya es el asunto del
+correo, ¿ven que él lo logra leer bien?
+
+correo, ¿ven que él lo logra leer bien?
+
+correo, ¿ven que él lo logra leer bien?
+Porque eh cuando creamos esta
+
+Porque eh cuando creamos esta
+
+Porque eh cuando creamos esta
+esta funcionalidad, ¿verdad? Eh yo lo
+
+esta funcionalidad, ¿verdad? Eh yo lo
+
+esta funcionalidad, ¿verdad? Eh yo lo
+dejé configurado para que
+
+dejé configurado para que
+
+dejé configurado para que
+en este prom de una vez buscara estos
+
+en este prom de una vez buscara estos
+
+en este prom de una vez buscara estos
+elementos. Estos son elementos que va a
+
+elementos. Estos son elementos que va a
+
+elementos. Estos son elementos que va a
+traer de el correo previo. Vamos a
+
+traer de el correo previo. Vamos a
+
+traer de el correo previo. Vamos a
+hacerlo nosotros aquí manualmente
+
+hacerlo nosotros aquí manualmente
+
+hacerlo nosotros aquí manualmente
+para que ustedes puedan ver un poquito
+
+para que ustedes puedan ver un poquito
+
+para que ustedes puedan ver un poquito
+cómo hacerlo. ¿Ven? Lo que hacen aquí es
+
+cómo hacerlo. ¿Ven? Lo que hacen aquí es
+
+cómo hacerlo. ¿Ven? Lo que hacen aquí es
+que él de modo muy automatizado les tira
+
+que él de modo muy automatizado les tira
+
+que él de modo muy automatizado les tira
+las diferentes variables que ha estado
+
+las diferentes variables que ha estado
+
+las diferentes variables que ha estado
+recibiendo del módulo previo. ¿Ven que
+
+recibiendo del módulo previo. ¿Ven que
+
+recibiendo del módulo previo. ¿Ven que
+dice Gmail? ¿Ven que aquí dice dos?
+
+dice Gmail? ¿Ven que aquí dice dos?
+
+dice Gmail? ¿Ven que aquí dice dos?
+¿Ven? Dos. Y aquí trae diferentes
+
+¿Ven? Dos. Y aquí trae diferentes
+
+¿Ven? Dos. Y aquí trae diferentes
+elementos. Dentro de esos elementos,
+
+elementos. Dentro de esos elementos,
+
+elementos. Dentro de esos elementos,
+entonces vamos a buscar estos dos que es
+
+entonces vamos a buscar estos dos que es
+
+entonces vamos a buscar estos dos que es
+el el subject, que en este caso,
+
+el el subject, que en este caso,
+
+el el subject, que en este caso,
+¿verdad?, sería el asunto. Entonces,
+
+¿verdad?, sería el asunto. Entonces,
+
+¿verdad?, sería el asunto. Entonces,
+vamos a venirnos por acá y vamos a
+
+vamos a venirnos por acá y vamos a
+
+vamos a venirnos por acá y vamos a
+buscar el subject. ¿Ven? Le damos clic y
+
+buscar el subject. ¿Ven? Le damos clic y
+
+buscar el subject. ¿Ven? Le damos clic y
+en correo recibido vamos a buscar
+
+en correo recibido vamos a buscar
+
+en correo recibido vamos a buscar
+el contenido del correo, que es esta
+
+el contenido del correo, que es esta
+
+el contenido del correo, que es esta
+opcionita de acá.
+
+opcionita de acá.
+
+opcionita de acá.
+Sniping. Entonces vamos a buscar aquí
+
+Sniping. Entonces vamos a buscar aquí
+
+Sniping. Entonces vamos a buscar aquí
+Sniped
+
+Sniped
+
+Sniped
+y
+
+y
+
+y
+lo vamos a seleccionar. Esto de acá,
+
+lo vamos a seleccionar. Esto de acá,
+
+lo vamos a seleccionar. Esto de acá,
+¿ven? Es un resumen del contenido.
+
+¿ven? Es un resumen del contenido.
+
+¿ven? Es un resumen del contenido.
+Listo. ¿Ven? Ya con eso igual vean que
+
+Listo. ¿Ven? Ya con eso igual vean que
+
+Listo. ¿Ven? Ya con eso igual vean que
+aquí está el full text o el HTML body,
+
+aquí está el full text o el HTML body,
+
+aquí está el full text o el HTML body,
+que sería en este caso el contenido
+
+que sería en este caso el contenido
+
+que sería en este caso el contenido
+completo del mensaje. ¿Ven? Por lo demás
+
+completo del mensaje. ¿Ven? Por lo demás
+
+completo del mensaje. ¿Ven? Por lo demás
+ya es la información que le dios y ven
+
+ya es la información que le dios y ven
+
+ya es la información que le dios y ven
+que esto entonces es lo que permite
+
+que esto entonces es lo que permite
+
+que esto entonces es lo que permite
+entonces que extraiga la información de
+
+entonces que extraiga la información de
+
+entonces que extraiga la información de
+los diferentes nodos que normalmente son
+
+los diferentes nodos que normalmente son
+
+los diferentes nodos que normalmente son
+los nodos previos, ¿verdad? Y aquí le
+
+los nodos previos, ¿verdad? Y aquí le
+
+los nodos previos, ¿verdad? Y aquí le
+vamos a dar en guardar y ya tendríamos
+
+vamos a dar en guardar y ya tendríamos
+
+vamos a dar en guardar y ya tendríamos
+entonces este segundo punto configurado.
+
+entonces este segundo punto configurado.
+
+entonces este segundo punto configurado.
+Aquí ya vamos a empezar a movernos un
+
+Aquí ya vamos a empezar a movernos un
+
+Aquí ya vamos a empezar a movernos un
+poquito más rápido para configurar pues
+
+poquito más rápido para configurar pues
+
+poquito más rápido para configurar pues
+todos estos elementos.
+
+todos estos elementos.
+
+todos estos elementos.
+Ahora vamos a generar un router porque
+
+Ahora vamos a generar un router porque
+
+Ahora vamos a generar un router porque
+recordemos que él va a generar una
+
+recordemos que él va a generar una
+
+recordemos que él va a generar una
+respuesta. Dentro de la respuesta él va
+
+respuesta. Dentro de la respuesta él va
+
+respuesta. Dentro de la respuesta él va
+a decir, "Bueno, esto lo categorizo como
+
+a decir, "Bueno, esto lo categorizo como
+
+a decir, "Bueno, esto lo categorizo como
+leído, eh como eliminar, como responder,
+
+leído, eh como eliminar, como responder,
+
+leído, eh como eliminar, como responder,
+¿verdad? O sea, la respuesta que él va a
+
+¿verdad? O sea, la respuesta que él va a
+
+¿verdad? O sea, la respuesta que él va a
+generar al final es meramente leído,
+
+generar al final es meramente leído,
+
+generar al final es meramente leído,
+responder, escalar. etcétera. Esa es la
+
+responder, escalar. etcétera. Esa es la
+
+responder, escalar. etcétera. Esa es la
+respuesta que este módulo por medio de
+
+respuesta que este módulo por medio de
+
+respuesta que este módulo por medio de
+inteligencia artificial nos va a dar.
+
+inteligencia artificial nos va a dar.
+
+inteligencia artificial nos va a dar.
+Entonces, tenemos que darle aquí en
+
+Entonces, tenemos que darle aquí en
+
+Entonces, tenemos que darle aquí en
+agregar.
+
+agregar.
+
+agregar.
+Entonces, vamos a buscar lo control y
+
+Entonces, vamos a buscar lo control y
+
+Entonces, vamos a buscar lo control y
+está esta opción que es router. Aquí en
+
+está esta opción que es router. Aquí en
+
+está esta opción que es router. Aquí en
+router, entonces tenemos que darle clic
+
+router, entonces tenemos que darle clic
+
+router, entonces tenemos que darle clic
+en las en estos caminitos porque estos
+
+en las en estos caminitos porque estos
+
+en las en estos caminitos porque estos
+caminitos entonces son los que
+
+caminitos entonces son los que
+
+caminitos entonces son los que
+determinan qué va a hacer aquí en label
+
+determinan qué va a hacer aquí en label
+
+determinan qué va a hacer aquí en label
+base o label label, ¿verdad? sería el la
+
+base o label label, ¿verdad? sería el la
+
+base o label label, ¿verdad? sería el la
+etiqueta que nosotros queramos ponerle.
+
+etiqueta que nosotros queramos ponerle.
+
+etiqueta que nosotros queramos ponerle.
+Por ejemplo, eliminar. Esta etiqueta es
+
+Por ejemplo, eliminar. Esta etiqueta es
+
+Por ejemplo, eliminar. Esta etiqueta es
+la que se ve aquí como para que uno se
+
+la que se ve aquí como para que uno se
+
+la que se ve aquí como para que uno se
+guíe con más facilidad. Entonces, vamos
+
+guíe con más facilidad. Entonces, vamos
+
+guíe con más facilidad. Entonces, vamos
+a escribirle eliminar, ¿verdad? Y la
+
+a escribirle eliminar, ¿verdad? Y la
+
+a escribirle eliminar, ¿verdad? Y la
+condición es y aquí vean que nos
+
+condición es y aquí vean que nos
+
+condición es y aquí vean que nos
+referencia al nodo previo, al nodo
+
+referencia al nodo previo, al nodo
+
+referencia al nodo previo, al nodo
+número cuatro que está acá. Entonces uno
+
+número cuatro que está acá. Entonces uno
+
+número cuatro que está acá. Entonces uno
+puede decirle, bueno, si el resultado
+
+puede decirle, bueno, si el resultado
+
+puede decirle, bueno, si el resultado
+pues aquí podemos buscar dentro de todos
+
+pues aquí podemos buscar dentro de todos
+
+pues aquí podemos buscar dentro de todos
+los de tod estos son las variables que
+
+los de tod estos son las variables que
+
+los de tod estos son las variables que
+van a estar asociadas a este nodo.
+
+van a estar asociadas a este nodo.
+
+van a estar asociadas a este nodo.
+Entonces dentro de las variables
+
+Entonces dentro de las variables
+
+Entonces dentro de las variables
+asociadas a este nodo va a haber una que
+
+asociadas a este nodo va a haber una que
+
+asociadas a este nodo va a haber una que
+dice resultado.
+
+dice resultado.
+
+dice resultado.
+Si no la encontramos pues podemos
+
+Si no la encontramos pues podemos
+
+Si no la encontramos pues podemos
+buscarla por acá,
+
+buscarla por acá,
+
+buscarla por acá,
+¿ven? Y nos ayuda entonces a
+
+¿ven? Y nos ayuda entonces a
+
+¿ven? Y nos ayuda entonces a
+e a buscarlo con más facilidad.
+
+e a buscarlo con más facilidad.
+
+e a buscarlo con más facilidad.
+Entonces, le vamos a decir si es
+
+Entonces, le vamos a decir si es
+
+Entonces, le vamos a decir si es
+resultado
+
+resultado
+
+resultado
+y aquí nos dice es igual a, ¿verdad?
+
+y aquí nos dice es igual a, ¿verdad?
+
+y aquí nos dice es igual a, ¿verdad?
+Esto es un condicional y le vamos a
+
+Esto es un condicional y le vamos a
+
+Esto es un condicional y le vamos a
+poner eliminar.
+
+poner eliminar.
+
+poner eliminar.
+¿Por qué? Nuevamente, si nosotros
+
+¿Por qué? Nuevamente, si nosotros
+
+¿Por qué? Nuevamente, si nosotros
+revisamos con detalle este PROM de acá,
+
+revisamos con detalle este PROM de acá,
+
+revisamos con detalle este PROM de acá,
+en este prom lo que le dijimos es al
+
+en este prom lo que le dijimos es al
+
+en este prom lo que le dijimos es al
+final, o sea, lo que necesitamos,
+
+final, o sea, lo que necesitamos,
+
+final, o sea, lo que necesitamos,
+perdón, acá está indicado, necesitamos
+
+perdón, acá está indicado, necesitamos
+
+perdón, acá está indicado, necesitamos
+que la respuesta final sea propiamente
+
+que la respuesta final sea propiamente
+
+que la respuesta final sea propiamente
+la categoría que le corresponde, es
+
+la categoría que le corresponde, es
+
+la categoría que le corresponde, es
+decir, una sola palabra seleccionando
+
+decir, una sola palabra seleccionando
+
+decir, una sola palabra seleccionando
+alguna de las siguientes opciones.
+
+alguna de las siguientes opciones.
+
+alguna de las siguientes opciones.
+¿Okay?
+
+¿Okay?
+
+¿Okay?
+Por eso este punto es tan importante de
+
+Por eso este punto es tan importante de
+
+Por eso este punto es tan importante de
+entender para que diga, "Ah, bueno, si
+
+entender para que diga, "Ah, bueno, si
+
+entender para que diga, "Ah, bueno, si
+la inteligencia artificial seleccionó y
+
+la inteligencia artificial seleccionó y
+
+la inteligencia artificial seleccionó y
+dijo, esto es eliminar porque es una
+
+dijo, esto es eliminar porque es una
+
+dijo, esto es eliminar porque es una
+sola palabra, entonces va a seguir este
+
+sola palabra, entonces va a seguir este
+
+sola palabra, entonces va a seguir este
+caminito de acá, ¿ven? Entonces ya es
+
+caminito de acá, ¿ven? Entonces ya es
+
+caminito de acá, ¿ven? Entonces ya es
+este de acá."
+
+este de acá."
+
+este de acá."
+Y así
+
+Y así
+
+Y así
+lo podríamos ir haciendo, pues para
+
+lo podríamos ir haciendo, pues para
+
+lo podríamos ir haciendo, pues para
+todos los diferentes caminos. Vamos de
+
+todos los diferentes caminos. Vamos de
+
+todos los diferentes caminos. Vamos de
+momento a acomodar o a continuar con
+
+momento a acomodar o a continuar con
+
+momento a acomodar o a continuar con
+este de eliminar. Vamos a tratar de
+
+este de eliminar. Vamos a tratar de
+
+este de eliminar. Vamos a tratar de
+dejarlo ya listo. Entonces, aquí vamos a
+
+dejarlo ya listo. Entonces, aquí vamos a
+
+dejarlo ya listo. Entonces, aquí vamos a
+escoger otra vez de Gmail
+
+escoger otra vez de Gmail
+
+escoger otra vez de Gmail
+y aquí en Gmail
+
+y aquí en Gmail
+
+y aquí en Gmail
+vamos a escoger
+
+vamos a escoger
+
+vamos a escoger
+una opcionita para
+
+una opcionita para
+
+una opcionita para
+eh
+
+eh
+
+eh
+propiamente mover, ¿verdad?, este
+
+propiamente mover, ¿verdad?, este
+
+propiamente mover, ¿verdad?, este
+email. Entonces vamos, si se escoge que
+
+email. Entonces vamos, si se escoge que
+
+email. Entonces vamos, si se escoge que
+es eliminar, entonces le vamos a decir,
+
+es eliminar, entonces le vamos a decir,
+
+es eliminar, entonces le vamos a decir,
+bueno, si ya este mensaje entró, se dijo
+
+bueno, si ya este mensaje entró, se dijo
+
+bueno, si ya este mensaje entró, se dijo
+que era eliminar y entonces tráigamelo
+
+que era eliminar y entonces tráigamelo
+
+que era eliminar y entonces tráigamelo
+por acá y lo que vamos a hacer es que y
+
+por acá y lo que vamos a hacer es que y
+
+por acá y lo que vamos a hacer es que y
+aquí nos pide, bueno, ¿cuál es el ID del
+
+aquí nos pide, bueno, ¿cuál es el ID del
+
+aquí nos pide, bueno, ¿cuál es el ID del
+mensaje? Entonces el ID del mensaje no
+
+mensaje? Entonces el ID del mensaje no
+
+mensaje? Entonces el ID del mensaje no
+lo podemos traer de este nodo de Open
+
+lo podemos traer de este nodo de Open
+
+lo podemos traer de este nodo de Open
+AI, no, tendríamos que venirnos al nodo
+
+AI, no, tendríamos que venirnos al nodo
+
+AI, no, tendríamos que venirnos al nodo
+de Gmail. Ven que uno puede y cuando lo
+
+de Gmail. Ven que uno puede y cuando lo
+
+de Gmail. Ven que uno puede y cuando lo
+toca, ven que él salta. es como para
+
+toca, ven que él salta. es como para
+
+toca, ven que él salta. es como para
+identificarlo más fácilmente. Entonces
+
+identificarlo más fácilmente. Entonces
+
+identificarlo más fácilmente. Entonces
+uno tendría que venirse acá y decir,
+
+uno tendría que venirse acá y decir,
+
+uno tendría que venirse acá y decir,
+este es el ID del mensaje, ¿verdad?
+
+este es el ID del mensaje, ¿verdad?
+
+este es el ID del mensaje, ¿verdad?
+Entonces tome este mensaje y vean que me
+
+Entonces tome este mensaje y vean que me
+
+Entonces tome este mensaje y vean que me
+dice. Bueno, ¿de dónde va a ser la
+
+dice. Bueno, ¿de dónde va a ser la
+
+dice. Bueno, ¿de dónde va a ser la
+fuente? Normalmente va a ser del bandeja
+
+fuente? Normalmente va a ser del bandeja
+
+fuente? Normalmente va a ser del bandeja
+de entrada. ¿Y a dónde quiero que lo
+
+de entrada. ¿Y a dónde quiero que lo
+
+de entrada. ¿Y a dónde quiero que lo
+lleve? Quiero que lo lleve a, en este
+
+lleve? Quiero que lo lleve a, en este
+
+lleve? Quiero que lo lleve a, en este
+caso, al basurero, ¿verdad? En este
+
+caso, al basurero, ¿verdad? En este
+
+caso, al basurero, ¿verdad? En este
+caso, a eliminados. Listo. Ya. Entonces,
+
+caso, a eliminados. Listo. Ya. Entonces,
+
+caso, a eliminados. Listo. Ya. Entonces,
+con este proceso sí se seleccionó o se
+
+con este proceso sí se seleccionó o se
+
+con este proceso sí se seleccionó o se
+determinó que tenía que eliminarse.
+
+determinó que tenía que eliminarse.
+
+determinó que tenía que eliminarse.
+Entonces ya aquí lo estaríamos elimin
+
+Entonces ya aquí lo estaríamos elimin
+
+Entonces ya aquí lo estaríamos elimin
+Ahora podríamos hacer el siguiente.
+
+Ahora podríamos hacer el siguiente.
+
+Ahora podríamos hacer el siguiente.
+Bueno, ya con esto ya vemos la lógica de
+
+Bueno, ya con esto ya vemos la lógica de
+
+Bueno, ya con esto ya vemos la lógica de
+cómo funcionan todo este tipo de flujos.
+
+cómo funcionan todo este tipo de flujos.
+
+cómo funcionan todo este tipo de flujos.
+Aquí por cuestión de tiempo voy a ir un
+
+Aquí por cuestión de tiempo voy a ir un
+
+Aquí por cuestión de tiempo voy a ir un
+poquito más rápido,
+
+poquito más rápido,
+
+poquito más rápido,
+pero eh como ustedes ven la lógica es
+
+pero eh como ustedes ven la lógica es
+
+pero eh como ustedes ven la lógica es
+muy similar. Entonces, acá en este
+
+muy similar. Entonces, acá en este
+
+muy similar. Entonces, acá en este
+segundo puntito le vamos a poner como
+
+segundo puntito le vamos a poner como
+
+segundo puntito le vamos a poner como
+una etiqueta leído, ¿verdad?
+
+una etiqueta leído, ¿verdad?
+
+una etiqueta leído, ¿verdad?
+leído
+
+leído
+
+leído
+y nuevamente va a ser el condicional de
+
+y nuevamente va a ser el condicional de
+
+y nuevamente va a ser el condicional de
+que si el resultado
+
+que si el resultado
+
+que si el resultado
+que aquí está es igual a ya propiamente
+
+que aquí está es igual a ya propiamente
+
+que aquí está es igual a ya propiamente
+leído,
+
+leído,
+
+leído,
+entonces proceda a como leído. En este
+
+entonces proceda a como leído. En este
+
+entonces proceda a como leído. En este
+caso tenemos que verificar que use
+
+caso tenemos que verificar que use
+
+caso tenemos que verificar que use
+exactamente mismo término, ¿verdad? Que
+
+exactamente mismo término, ¿verdad? Que
+
+exactamente mismo término, ¿verdad? Que
+sea igual a leído. Entonces si es igual
+
+sea igual a leído. Entonces si es igual
+
+sea igual a leído. Entonces si es igual
+a leído, siga hay que ver que no quede
+
+a leído, siga hay que ver que no quede
+
+a leído, siga hay que ver que no quede
+en espacio ni nada. a su memory acá.
+
+en espacio ni nada. a su memory acá.
+
+en espacio ni nada. a su memory acá.
+Entonces, si he leído que sigue este
+
+Entonces, si he leído que sigue este
+
+Entonces, si he leído que sigue este
+proceso y también es de Gmail, quedaría
+
+proceso y también es de Gmail, quedaría
+
+proceso y también es de Gmail, quedaría
+en este caso.
+
+en este caso.
+
+en este caso.
+Tendríamos que buscar la opción aquí
+
+Tendríamos que buscar la opción aquí
+
+Tendríamos que buscar la opción aquí
+están muchas opciones que nos dan eh en
+
+están muchas opciones que nos dan eh en
+
+están muchas opciones que nos dan eh en
+este caso eh
+
+este caso eh
+
+este caso eh
+eh ya propiamente
+
+eh ya propiamente
+
+eh ya propiamente
+la interfaz de eh Gmail. Entonces, vean
+
+la interfaz de eh Gmail. Entonces, vean
+
+la interfaz de eh Gmail. Entonces, vean
+todas las acciones que podríamos
+
+todas las acciones que podríamos
+
+todas las acciones que podríamos
+ejecutar. Dentro de estas debería estar
+
+ejecutar. Dentro de estas debería estar
+
+ejecutar. Dentro de estas debería estar
+esta. ¿Ven? Marcar un email como leído.
+
+esta. ¿Ven? Marcar un email como leído.
+
+esta. ¿Ven? Marcar un email como leído.
+¿Ven? Entonces, ya aquí estaríamos
+
+¿Ven? Entonces, ya aquí estaríamos
+
+¿Ven? Entonces, ya aquí estaríamos
+haciendo esto y hay que procesar lo que
+
+haciendo esto y hay que procesar lo que
+
+haciendo esto y hay que procesar lo que
+nos piden. Ya aquí la conexión de Gmail,
+
+nos piden. Ya aquí la conexión de Gmail,
+
+nos piden. Ya aquí la conexión de Gmail,
+recuerden que ya la teníamos esto,
+
+recuerden que ya la teníamos esto,
+
+recuerden que ya la teníamos esto,
+entonces no hay que volverlo a hacer,
+
+entonces no hay que volverlo a hacer,
+
+entonces no hay que volverlo a hacer,
+pero sí necesitamos darle el ID del
+
+pero sí necesitamos darle el ID del
+
+pero sí necesitamos darle el ID del
+mensaje que nuevamente lo tendríamos que
+
+mensaje que nuevamente lo tendríamos que
+
+mensaje que nuevamente lo tendríamos que
+jalar desde acá.
+
+jalar desde acá.
+
+jalar desde acá.
+Muy bien. Y ya con eso entonces
+
+Muy bien. Y ya con eso entonces
+
+Muy bien. Y ya con eso entonces
+tendríamos ese nodo listo.
+
+tendríamos ese nodo listo.
+
+tendríamos ese nodo listo.
+Ahora vamos a tratar de desarrollar este
+
+Ahora vamos a tratar de desarrollar este
+
+Ahora vamos a tratar de desarrollar este
+que está por acá, ¿ven? que es más
+
+que está por acá, ¿ven? que es más
+
+que está por acá, ¿ven? que es más
+detallado. Entonces, lo que le vamos a
+
+detallado. Entonces, lo que le vamos a
+
+detallado. Entonces, lo que le vamos a
+pedir es que si la categoría es
+
+pedir es que si la categoría es
+
+pedir es que si la categoría es
+responder, genere un cuerpo de correo.
+
+responder, genere un cuerpo de correo.
+
+responder, genere un cuerpo de correo.
+Entonces, vamos a vamos a dar esto por
+
+Entonces, vamos a vamos a dar esto por
+
+Entonces, vamos a vamos a dar esto por
+acá. Vean que igual yo puedo hacer zoom
+
+acá. Vean que igual yo puedo hacer zoom
+
+acá. Vean que igual yo puedo hacer zoom
+para ser más grandes o más pequeñas
+
+para ser más grandes o más pequeñas
+
+para ser más grandes o más pequeñas
+estas bolitas, ¿verdad? Para facilitar.
+
+estas bolitas, ¿verdad? Para facilitar.
+
+estas bolitas, ¿verdad? Para facilitar.
+Aquí voy a tirar otro router. Entonces,
+
+Aquí voy a tirar otro router. Entonces,
+
+Aquí voy a tirar otro router. Entonces,
+le doy click nada más y ya con eso le
+
+le doy click nada más y ya con eso le
+
+le doy click nada más y ya con eso le
+doy acá y le voy a poner. En este caso
+
+doy acá y le voy a poner. En este caso
+
+doy acá y le voy a poner. En este caso
+ya sería responder, ¿verdad? Ven, esto
+
+ya sería responder, ¿verdad? Ven, esto
+
+ya sería responder, ¿verdad? Ven, esto
+es responder. Entonces le voy a poner
+
+es responder. Entonces le voy a poner
+
+es responder. Entonces le voy a poner
+esa etiqueta y le voy a decir si el
+
+esa etiqueta y le voy a decir si el
+
+esa etiqueta y le voy a decir si el
+resultado
+
+resultado
+
+resultado
+en este caso es igual a responder.
+
+Entonces, ahora sí vamos a decirle qué
+
+Entonces, ahora sí vamos a decirle qué
+
+Entonces, ahora sí vamos a decirle qué
+va a pasar aquí. y más bien tiene que ya
+
+va a pasar aquí. y más bien tiene que ya
+
+va a pasar aquí. y más bien tiene que ya
+hacer de open AI
+
+hacer de open AI
+
+hacer de open AI
+un no porque necesitamos que responda. Y
+
+un no porque necesitamos que responda. Y
+
+un no porque necesitamos que responda. Y
+aquí entonces
+
+aquí entonces
+
+aquí entonces
+vean que volvemos otra vez a la idea de
+
+vean que volvemos otra vez a la idea de
+
+vean que volvemos otra vez a la idea de
+generar una respuesta.
+
+generar una respuesta.
+
+generar una respuesta.
+Conectamos otra vez con las claves,
+
+Conectamos otra vez con las claves,
+
+Conectamos otra vez con las claves,
+¿verdad? Que en este caso es la que ya
+
+¿verdad? Que en este caso es la que ya
+
+¿verdad? Que en este caso es la que ya
+acabamos de decir. El modelo va a ser
+
+acabamos de decir. El modelo va a ser
+
+acabamos de decir. El modelo va a ser
+nuevamente el mismo de cuatro o mini.
+
+nuevamente el mismo de cuatro o mini.
+
+nuevamente el mismo de cuatro o mini.
+Podemos escoger otro, ¿verdad? No hay
+
+Podemos escoger otro, ¿verdad? No hay
+
+Podemos escoger otro, ¿verdad? No hay
+ningún inconveniente que nosotros
+
+ningún inconveniente que nosotros
+
+ningún inconveniente que nosotros
+consideremos.
+
+consideremos.
+
+consideremos.
+Y acá entonces le vamos a dar un promet
+
+Y acá entonces le vamos a dar un promet
+
+Y acá entonces le vamos a dar un promet
+para que responda dentro del material de
+
+para que responda dentro del material de
+
+para que responda dentro del material de
+los insumos. Ven que dice eh para
+
+los insumos. Ven que dice eh para
+
+los insumos. Ven que dice eh para
+generar correo, cuerpo de correo.
+
+generar correo, cuerpo de correo.
+
+generar correo, cuerpo de correo.
+Entonces vamos a utilizar ese
+
+Entonces vamos a utilizar ese
+
+Entonces vamos a utilizar ese
+y le vamos a dar.
+
+y le vamos a dar.
+
+y le vamos a dar.
+Vamos a enviarnos esta información.
+
+Vamos a enviarnos esta información.
+
+Vamos a enviarnos esta información.
+Vamos a copiar y nos la llevamos ya
+
+Vamos a copiar y nos la llevamos ya
+
+Vamos a copiar y nos la llevamos ya
+propiamente al make.
+
+propiamente al make.
+
+propiamente al make.
+Aquí lo vamos a pegar.
+
+Aquí lo vamos a pegar.
+
+Aquí lo vamos a pegar.
+Tenemos que darle llenarle estos
+
+Tenemos que darle llenarle estos
+
+Tenemos que darle llenarle estos
+campitos, ¿verdad? Que son como campitos
+
+campitos, ¿verdad? Que son como campitos
+
+campitos, ¿verdad? Que son como campitos
+de sistema para que él logre guiarse. E
+
+de sistema para que él logre guiarse. E
+
+de sistema para que él logre guiarse. E
+sería el subject del
+
+sería el subject del
+
+sería el subject del
+correo y el cuerpo, que aquí le vamos a
+
+correo y el cuerpo, que aquí le vamos a
+
+correo y el cuerpo, que aquí le vamos a
+dar el full text, ¿verdad? Entonces
+
+dar el full text, ¿verdad? Entonces
+
+dar el full text, ¿verdad? Entonces
+vamos a buscar aquí full text
+
+vamos a buscar aquí full text
+
+vamos a buscar aquí full text
+body y entonces aquí ya él va a recibir
+
+body y entonces aquí ya él va a recibir
+
+body y entonces aquí ya él va a recibir
+esa información como insumos y debe
+
+esa información como insumos y debe
+
+esa información como insumos y debe
+proceder a generar una respuesta, ¿ven?
+
+proceder a generar una respuesta, ¿ven?
+
+proceder a generar una respuesta, ¿ven?
+Con base en la información que ya
+
+Con base en la información que ya
+
+Con base en la información que ya
+habíamos hablado, ¿verdad? Entonces aquí
+
+habíamos hablado, ¿verdad? Entonces aquí
+
+habíamos hablado, ¿verdad? Entonces aquí
+le damos guardar y ya ahora entonces él
+
+le damos guardar y ya ahora entonces él
+
+le damos guardar y ya ahora entonces él
+va a generar el cuerpo de correo. Vean
+
+va a generar el cuerpo de correo. Vean
+
+va a generar el cuerpo de correo. Vean
+que inclusive uno le puede cambiar el
+
+que inclusive uno le puede cambiar el
+
+que inclusive uno le puede cambiar el
+nombre a estas cositas, ¿verdad? Creo
+
+nombre a estas cositas, ¿verdad? Creo
+
+nombre a estas cositas, ¿verdad? Creo
+que aquí quedó como open chat, ¿verdad?
+
+que aquí quedó como open chat, ¿verdad?
+
+que aquí quedó como open chat, ¿verdad?
+Entonces uno quiere como ponerle nombres
+
+Entonces uno quiere como ponerle nombres
+
+Entonces uno quiere como ponerle nombres
+que sean más e en este caso más claros
+
+que sean más e en este caso más claros
+
+que sean más e en este caso más claros
+para uno comprenderlos, ¿verdad?
+
+para uno comprenderlos, ¿verdad?
+
+para uno comprenderlos, ¿verdad?
+Entonces eh aquí pues perfectamente lo
+
+Entonces eh aquí pues perfectamente lo
+
+Entonces eh aquí pues perfectamente lo
+podríamos modificar.
+
+podríamos modificar.
+
+podríamos modificar.
+Vamos a proceder, ¿verdad? a bueno,
+
+Vamos a proceder, ¿verdad? a bueno,
+
+Vamos a proceder, ¿verdad? a bueno,
+hacer el cambio primero el nombre y ya
+
+hacer el cambio primero el nombre y ya
+
+hacer el cambio primero el nombre y ya
+continuar con el siguiente paso. Hm.
+
+continuar con el siguiente paso. Hm.
+
+continuar con el siguiente paso. Hm.
+Entonces, venimos acá, le damos a
+
+Entonces, venimos acá, le damos a
+
+Entonces, venimos acá, le damos a
+cambiar el nombre y le damos a poner
+
+cambiar el nombre y le damos a poner
+
+cambiar el nombre y le damos a poner
+entonces categorizar para tenerlo más
+
+entonces categorizar para tenerlo más
+
+entonces categorizar para tenerlo más
+clarito, ¿verdad?
+
+clarito, ¿verdad?
+
+clarito, ¿verdad?
+Y a este entonces le vamos a poner el
+
+Y a este entonces le vamos a poner el
+
+Y a este entonces le vamos a poner el
+nombre
+
+nombre
+
+nombre
+aquí directamente en la burbujita y le
+
+aquí directamente en la burbujita y le
+
+aquí directamente en la burbujita y le
+vamos a dar eh generar
+
+vamos a dar eh generar
+
+vamos a dar eh generar
+eh respuesta.
+
+más como para seguir esta lógica. Bueno,
+
+más como para seguir esta lógica. Bueno,
+
+más como para seguir esta lógica. Bueno,
+generar cuerpo de correo creo que sí se
+
+generar cuerpo de correo creo que sí se
+
+generar cuerpo de correo creo que sí se
+entendería mejor.
+
+Generar
+
+Generar
+
+Generar
+nuestro correo
+
+nuestro correo
+
+nuestro correo
+y entonces
+
+y entonces
+
+y entonces
+ya él va a generar ese cuerpo del
+
+ya él va a generar ese cuerpo del
+
+ya él va a generar ese cuerpo del
+correo. ¿Qué sigue ahora? Que nos ayuda
+
+correo. ¿Qué sigue ahora? Que nos ayuda
+
+correo. ¿Qué sigue ahora? Que nos ayuda
+a crear el asunto. Entonces vamos a
+
+a crear el asunto. Entonces vamos a
+
+a crear el asunto. Entonces vamos a
+venirnos acá, le vamos a dar click.
+
+venirnos acá, le vamos a dar click.
+
+venirnos acá, le vamos a dar click.
+Igual va a ser un módulo de Open AI. Y
+
+Igual va a ser un módulo de Open AI. Y
+
+Igual va a ser un módulo de Open AI. Y
+aquí le vamos a dar igual que nos ayudó
+
+aquí le vamos a dar igual que nos ayudó
+
+aquí le vamos a dar igual que nos ayudó
+a generar una respuesta y le vamos a
+
+a generar una respuesta y le vamos a
+
+a generar una respuesta y le vamos a
+bueno, a poner el modelo que nosotros
+
+bueno, a poner el modelo que nosotros
+
+bueno, a poner el modelo que nosotros
+queramos, ¿verdad? Como les digo, en
+
+queramos, ¿verdad? Como les digo, en
+
+queramos, ¿verdad? Como les digo, en
+realidad estos son todos los modelos que
+
+realidad estos son todos los modelos que
+
+realidad estos son todos los modelos que
+tiene Chat GPT. Eh, ustedes han visto a
+
+tiene Chat GPT. Eh, ustedes han visto a
+
+tiene Chat GPT. Eh, ustedes han visto a
+lo largo del curso pues que existen
+
+lo largo del curso pues que existen
+
+lo largo del curso pues que existen
+diferentes modelos, ¿verdad? Es como el
+
+diferentes modelos, ¿verdad? Es como el
+
+diferentes modelos, ¿verdad? Es como el
+cerebro que está utilizando, pues en
+
+cerebro que está utilizando, pues en
+
+cerebro que está utilizando, pues en
+este caso puedes escoger el que eh
+
+este caso puedes escoger el que eh
+
+este caso puedes escoger el que eh
+considere más adecuado
+
+considere más adecuado
+
+considere más adecuado
+y también valorar los costos, ¿verdad?
+
+y también valorar los costos, ¿verdad?
+
+y también valorar los costos, ¿verdad?
+entre mayor es el nivel de conocimiento,
+
+entre mayor es el nivel de conocimiento,
+
+entre mayor es el nivel de conocimiento,
+pues mayor va a ser el costo. Entonces,
+
+pues mayor va a ser el costo. Entonces,
+
+pues mayor va a ser el costo. Entonces,
+bueno, eso se ve como detalle en el
+
+bueno, eso se ve como detalle en el
+
+bueno, eso se ve como detalle en el
+curso como tal, en la sesión, pero
+
+curso como tal, en la sesión, pero
+
+curso como tal, en la sesión, pero
+entonces para que lo tengan ahí en
+
+entonces para que lo tengan ahí en
+
+entonces para que lo tengan ahí en
+cuenta, igual pueden preguntarle
+
+cuenta, igual pueden preguntarle
+
+cuenta, igual pueden preguntarle
+perfectamente la inteligencia artificial
+
+perfectamente la inteligencia artificial
+
+perfectamente la inteligencia artificial
+para que les ayude a terminar
+
+para que les ayude a terminar
+
+para que les ayude a terminar
+propiamente este eh costo, ¿verdad?,
+
+propiamente este eh costo, ¿verdad?,
+
+propiamente este eh costo, ¿verdad?,
+para valorar entonces cuál podría ser el
+
+para valorar entonces cuál podría ser el
+
+para valorar entonces cuál podría ser el
+mejor modelo ustedes le preguntan nada
+
+mejor modelo ustedes le preguntan nada
+
+mejor modelo ustedes le preguntan nada
+más cuáles son el costo de los
+
+más cuáles son el costo de los
+
+más cuáles son el costo de los
+diferentes modelos. Él le va a dar una
+
+diferentes modelos. Él le va a dar una
+
+diferentes modelos. Él le va a dar una
+tablita con los costos y ya ustedes ahí
+
+tablita con los costos y ya ustedes ahí
+
+tablita con los costos y ya ustedes ahí
+pueden valorarlos.
+
+pueden valorarlos.
+
+pueden valorarlos.
+Muy bien, como vieron, vamos a lo que
+
+Muy bien, como vieron, vamos a lo que
+
+Muy bien, como vieron, vamos a lo que
+hice fue ingresar propiamente a este
+
+hice fue ingresar propiamente a este
+
+hice fue ingresar propiamente a este
+prom que prom crear asunto que está en
+
+prom que prom crear asunto que está en
+
+prom que prom crear asunto que está en
+los insumos. Copio en este caso ese prom
+
+los insumos. Copio en este caso ese prom
+
+los insumos. Copio en este caso ese prom
+y me voy a ir
+
+y me voy a ir
+
+y me voy a ir
+por acá y lo voy a pegar. Como ven es un
+
+por acá y lo voy a pegar. Como ven es un
+
+por acá y lo voy a pegar. Como ven es un
+prom muy sencillo, nada más que está
+
+prom muy sencillo, nada más que está
+
+prom muy sencillo, nada más que está
+jalando
+
+jalando
+
+jalando
+este result que en realidad es el result
+
+este result que en realidad es el result
+
+este result que en realidad es el result
+de la anterior porque ven, él generó,
+
+de la anterior porque ven, él generó,
+
+de la anterior porque ven, él generó,
+¿verdad?, generar un asunto para el
+
+¿verdad?, generar un asunto para el
+
+¿verdad?, generar un asunto para el
+siguiente cuerpo de correo. ¿Y dónde
+
+siguiente cuerpo de correo. ¿Y dónde
+
+siguiente cuerpo de correo. ¿Y dónde
+genera el cuerpo de correo? En esta de
+
+genera el cuerpo de correo? En esta de
+
+genera el cuerpo de correo? En esta de
+aquí. ¿Ven? Por eso me voy a buscar
+
+aquí. ¿Ven? Por eso me voy a buscar
+
+aquí. ¿Ven? Por eso me voy a buscar
+dentro de todas las
+
+dentro de todas las
+
+dentro de todas las
+nodos que se han hecho, ¿verdad? Ven,
+
+nodos que se han hecho, ¿verdad? Ven,
+
+nodos que se han hecho, ¿verdad? Ven,
+aquí tenemos todos los nodos.un.
+
+aquí tenemos todos los nodos.un.
+
+aquí tenemos todos los nodos.un.
+Me quiero ir este. Este que se llama
+
+Me quiero ir este. Este que se llama
+
+Me quiero ir este. Este que se llama
+generar cuerpo de correo, ¿ven? Es este
+
+generar cuerpo de correo, ¿ven? Es este
+
+generar cuerpo de correo, ¿ven? Es este
+de acá. Entonces voy a abrir generar
+
+de acá. Entonces voy a abrir generar
+
+de acá. Entonces voy a abrir generar
+cuerpo de correo
+
+cuerpo de correo
+
+cuerpo de correo
+y voy a buscar el resultado. Entonces va
+
+y voy a buscar el resultado. Entonces va
+
+y voy a buscar el resultado. Entonces va
+a entender. Necesito generar un asunto
+
+a entender. Necesito generar un asunto
+
+a entender. Necesito generar un asunto
+para un correo que tiene este cuerpo,
+
+para un correo que tiene este cuerpo,
+
+para un correo que tiene este cuerpo,
+que fue el resultado del modelo de
+
+que fue el resultado del modelo de
+
+que fue el resultado del modelo de
+inteligencia artificial en el punto
+
+inteligencia artificial en el punto
+
+inteligencia artificial en el punto
+anterior. Acá, como ustedes pueden
+
+anterior. Acá, como ustedes pueden
+
+anterior. Acá, como ustedes pueden
+observar,
+
+observar,
+
+observar,
+eh le podemos darle una cantidad máxima
+
+eh le podemos darle una cantidad máxima
+
+eh le podemos darle una cantidad máxima
+tokens, ¿verdad? si nosotros
+
+tokens, ¿verdad? si nosotros
+
+tokens, ¿verdad? si nosotros
+quisiéramos, pero si no, pues eh
+
+quisiéramos, pero si no, pues eh
+
+quisiéramos, pero si no, pues eh
+simpleamente ya como es suficiente o le
+
+simpleamente ya como es suficiente o le
+
+simpleamente ya como es suficiente o le
+podemos agregar herramientas que aquí es
+
+podemos agregar herramientas que aquí es
+
+podemos agregar herramientas que aquí es
+que se conecte a otra herramienta o
+
+que se conecte a otra herramienta o
+
+que se conecte a otra herramienta o
+demás y eh por medio de MCP puede
+
+demás y eh por medio de MCP puede
+
+demás y eh por medio de MCP puede
+utilizar algún elemento adiccional, pero
+
+utilizar algún elemento adiccional, pero
+
+utilizar algún elemento adiccional, pero
+si no con esto sería suficiente. Y igual
+
+si no con esto sería suficiente. Y igual
+
+si no con esto sería suficiente. Y igual
+le vamos a cambiar el nombre
+
+le vamos a cambiar el nombre
+
+le vamos a cambiar el nombre
+y ahora le vamos a poner crear Zoom.
+
+y ahora le vamos a poner crear Zoom.
+
+y ahora le vamos a poner crear Zoom.
+Y bueno, para no ser muy largo este
+
+Y bueno, para no ser muy largo este
+
+Y bueno, para no ser muy largo este
+video, porque ya se nos está extendiendo
+
+video, porque ya se nos está extendiendo
+
+video, porque ya se nos está extendiendo
+bastante y como vieron, pues la lógica
+
+bastante y como vieron, pues la lógica
+
+bastante y como vieron, pues la lógica
+tiende a ser bastante similar, quiero
+
+tiende a ser bastante similar, quiero
+
+tiende a ser bastante similar, quiero
+que ya lo veamos aquí en ejecución lo
+
+que ya lo veamos aquí en ejecución lo
+
+que ya lo veamos aquí en ejecución lo
+que nos falta. Entonces, ven, aquí
+
+que nos falta. Entonces, ven, aquí
+
+que nos falta. Entonces, ven, aquí
+generamos el asunto. Después lo que
+
+generamos el asunto. Después lo que
+
+generamos el asunto. Después lo que
+hicimos fue crear un nodo,
+
+nada más aquí la conexión. Y vean que en
+
+nada más aquí la conexión. Y vean que en
+
+nada más aquí la conexión. Y vean que en
+este nodo lo que ya ahora le vamos a
+
+este nodo lo que ya ahora le vamos a
+
+este nodo lo que ya ahora le vamos a
+hacer es dar la respuesta. O sea, en eh
+
+hacer es dar la respuesta. O sea, en eh
+
+hacer es dar la respuesta. O sea, en eh
+ya generó el cuerpo de correo, ya generó
+
+ya generó el cuerpo de correo, ya generó
+
+ya generó el cuerpo de correo, ya generó
+el asunto y aquí en eh Gmail ya lo que
+
+el asunto y aquí en eh Gmail ya lo que
+
+el asunto y aquí en eh Gmail ya lo que
+estaría haciendo es propiamente generar
+
+estaría haciendo es propiamente generar
+
+estaría haciendo es propiamente generar
+la respuesta. Para que él envíe la
+
+la respuesta. Para que él envíe la
+
+la respuesta. Para que él envíe la
+respuesta. Vean que si ustedes eh
+
+respuesta. Vean que si ustedes eh
+
+respuesta. Vean que si ustedes eh
+revisan aquí, porque a veces uno dice,
+
+revisan aquí, porque a veces uno dice,
+
+revisan aquí, porque a veces uno dice,
+"Uy, ¿cuál debería ser la opción de
+
+"Uy, ¿cuál debería ser la opción de
+
+"Uy, ¿cuál debería ser la opción de
+Gmail?" ¿Verdad? que es cuando uno viene
+
+Gmail?" ¿Verdad? que es cuando uno viene
+
+Gmail?" ¿Verdad? que es cuando uno viene
+acá, ¿verdad?, y va a crear el siguiente
+
+acá, ¿verdad?, y va a crear el siguiente
+
+acá, ¿verdad?, y va a crear el siguiente
+nodo, tenemos que escoger de qué, de
+
+nodo, tenemos que escoger de qué, de
+
+nodo, tenemos que escoger de qué, de
+Gmail. Pero en Gmail hay un montón de
+
+Gmail. Pero en Gmail hay un montón de
+
+Gmail. Pero en Gmail hay un montón de
+opciones, ¿cómo puedo guiarme más
+
+opciones, ¿cómo puedo guiarme más
+
+opciones, ¿cómo puedo guiarme más
+fácilmente? Pues tienen que ver qué es
+
+fácilmente? Pues tienen que ver qué es
+
+fácilmente? Pues tienen que ver qué es
+lo que tienen que hacer. En este caso,
+
+lo que tienen que hacer. En este caso,
+
+lo que tienen que hacer. En este caso,
+lo que necesitamos es que ya proceda a
+
+lo que necesitamos es que ya proceda a
+
+lo que necesitamos es que ya proceda a
+enviar el Gmail o replicar o responder
+
+enviar el Gmail o replicar o responder
+
+enviar el Gmail o replicar o responder
+en este caso a un correo. ¿Ven que aquí
+
+en este caso a un correo. ¿Ven que aquí
+
+en este caso a un correo. ¿Ven que aquí
+inclusive en esta parte de abajo en eh
+
+inclusive en esta parte de abajo en eh
+
+inclusive en esta parte de abajo en eh
+cuando uno ya va creando los
+
+cuando uno ya va creando los
+
+cuando uno ya va creando los
+flujos de trabajo, él de una vez
+
+flujos de trabajo, él de una vez
+
+flujos de trabajo, él de una vez
+dice cuál fue la opción que se escogió?
+
+dice cuál fue la opción que se escogió?
+
+dice cuál fue la opción que se escogió?
+Entonces, en este caso efectivamente es
+
+Entonces, en este caso efectivamente es
+
+Entonces, en este caso efectivamente es
+eh replicar
+
+eh replicar
+
+eh replicar
+un Gmail, un email. Entonces, van a
+
+un Gmail, un email. Entonces, van a
+
+un Gmail, un email. Entonces, van a
+darle acá a la opción de replicar un
+
+darle acá a la opción de replicar un
+
+darle acá a la opción de replicar un
+email. ¿Ven? Él se conecta a la cuenta y
+
+email. ¿Ven? Él se conecta a la cuenta y
+
+email. ¿Ven? Él se conecta a la cuenta y
+nos pide esta información
+
+nos pide esta información
+
+nos pide esta información
+que fue las que estamos observando acá.
+
+que fue las que estamos observando acá.
+
+que fue las que estamos observando acá.
+Entonces, hay que darle el ID del
+
+Entonces, hay que darle el ID del
+
+Entonces, hay que darle el ID del
+correo, bueno, en este caso del hilo del
+
+correo, bueno, en este caso del hilo del
+
+correo, bueno, en este caso del hilo del
+hilo del correo,
+
+hilo del correo,
+
+hilo del correo,
+que nuevamente, ¿dónde lo sacaríamos?
+
+que nuevamente, ¿dónde lo sacaríamos?
+
+que nuevamente, ¿dónde lo sacaríamos?
+de
+
+de
+
+de
+el correo recibido, que es este primero,
+
+el correo recibido, que es este primero,
+
+el correo recibido, que es este primero,
+este primer no el Gmail primero.
+
+este primer no el Gmail primero.
+
+este primer no el Gmail primero.
+Después, entonces aquí yo puedo escoger
+
+Después, entonces aquí yo puedo escoger
+
+Después, entonces aquí yo puedo escoger
+si quiero replicar a todo, ¿verdad? A
+
+si quiero replicar a todo, ¿verdad? A
+
+si quiero replicar a todo, ¿verdad? A
+todas las personas que están en este
+
+todas las personas que están en este
+
+todas las personas que están en este
+caso involucradas o si quisiera replicar
+
+caso involucradas o si quisiera replicar
+
+caso involucradas o si quisiera replicar
+pues en algún punto particular.
+
+pues en algún punto particular.
+
+pues en algún punto particular.
+Y aquí ya yo tengo que darle el eh
+
+Y aquí ya yo tengo que darle el eh
+
+Y aquí ya yo tengo que darle el eh
+contenido, ¿verdad?, de el eh mensaje. Y
+
+contenido, ¿verdad?, de el eh mensaje. Y
+
+contenido, ¿verdad?, de el eh mensaje. Y
+aquí es donde entonces le daríamos el
+
+aquí es donde entonces le daríamos el
+
+aquí es donde entonces le daríamos el
+resultado
+
+resultado
+
+resultado
+de cuál nodo. Vean que aquí que yo
+
+de cuál nodo. Vean que aquí que yo
+
+de cuál nodo. Vean que aquí que yo
+inclusive al pararme, ¿ven que empieza a
+
+inclusive al pararme, ¿ven que empieza a
+
+inclusive al pararme, ¿ven que empieza a
+saltar este de acá? Entonces, ¿cuál va a
+
+saltar este de acá? Entonces, ¿cuál va a
+
+saltar este de acá? Entonces, ¿cuál va a
+ser el texto que voy a usar? El
+
+ser el texto que voy a usar? El
+
+ser el texto que voy a usar? El
+resultado de este nodo que era el de
+
+resultado de este nodo que era el de
+
+resultado de este nodo que era el de
+generar el cuerpo de correo. Entonces va
+
+generar el cuerpo de correo. Entonces va
+
+generar el cuerpo de correo. Entonces va
+a responder a este hilo, ¿verdad? o a
+
+a responder a este hilo, ¿verdad? o a
+
+a responder a este hilo, ¿verdad? o a
+este ID del correo
+
+con
+
+con
+
+con
+el texto que da resultado este nodo de
+
+el texto que da resultado este nodo de
+
+el texto que da resultado este nodo de
+acá, en el cual le pedimos a la
+
+acá, en el cual le pedimos a la
+
+acá, en el cual le pedimos a la
+inteligencia artificial que nos ayudara
+
+inteligencia artificial que nos ayudara
+
+inteligencia artificial que nos ayudara
+a generar el cuerpo del correo. Entonces
+
+a generar el cuerpo del correo. Entonces
+
+a generar el cuerpo del correo. Entonces
+ese que vamos a incluir en este puntito
+
+ese que vamos a incluir en este puntito
+
+ese que vamos a incluir en este puntito
+de acá, inclusive hasta podemos agregar
+
+de acá, inclusive hasta podemos agregar
+
+de acá, inclusive hasta podemos agregar
+imágenes y demás. Y aquí yo puedo
+
+imágenes y demás. Y aquí yo puedo
+
+imágenes y demás. Y aquí yo puedo
+agregarle una firma. Normalmente la van
+
+agregarle una firma. Normalmente la van
+
+agregarle una firma. Normalmente la van
+a jalar de e de nuestro correo, ¿verdad?
+
+a jalar de e de nuestro correo, ¿verdad?
+
+a jalar de e de nuestro correo, ¿verdad?
+Ya en este caso pues yo tenía una firma
+
+Ya en este caso pues yo tenía una firma
+
+Ya en este caso pues yo tenía una firma
+predeterminada, entonces la va a tomar e
+
+predeterminada, entonces la va a tomar e
+
+predeterminada, entonces la va a tomar e
+inclusive hasta podemos agregarle acá eh
+
+inclusive hasta podemos agregarle acá eh
+
+inclusive hasta podemos agregarle acá eh
+propiamente
+
+propiamente
+
+propiamente
+eh archivos adjuntos en dado caso que lo
+
+eh archivos adjuntos en dado caso que lo
+
+eh archivos adjuntos en dado caso que lo
+quisiéramos realizar,
+
+quisiéramos realizar,
+
+quisiéramos realizar,
+¿verdad? Entonces, vean acá cómo ya con
+
+¿verdad? Entonces, vean acá cómo ya con
+
+¿verdad? Entonces, vean acá cómo ya con
+esto logramos configurar adecuadamente
+
+esto logramos configurar adecuadamente
+
+esto logramos configurar adecuadamente
+este proceso.
+
+Ahora ya con eso entonces él recibe el
+
+Ahora ya con eso entonces él recibe el
+
+Ahora ya con eso entonces él recibe el
+hilo del correo, responde, ¿verdad? Y le
+
+hilo del correo, responde, ¿verdad? Y le
+
+hilo del correo, responde, ¿verdad? Y le
+responde a todos. Ahí ya uno lo guarda
+
+responde a todos. Ahí ya uno lo guarda
+
+responde a todos. Ahí ya uno lo guarda
+y si nos venimos para acá, ya este era
+
+y si nos venimos para acá, ya este era
+
+y si nos venimos para acá, ya este era
+el hilo de responder. Ahora podemos
+
+el hilo de responder. Ahora podemos
+
+el hilo de responder. Ahora podemos
+hacer el hilo de escalar, que es lo
+
+hacer el hilo de escalar, que es lo
+
+hacer el hilo de escalar, que es lo
+mismo.
+
+mismo.
+
+mismo.
+Si el resultado fue escalar, véngase
+
+Si el resultado fue escalar, véngase
+
+Si el resultado fue escalar, véngase
+para acá.
+
+para acá.
+
+para acá.
+¿Y qué es lo que va a hacer?
+
+¿Y qué es lo que va a hacer?
+
+¿Y qué es lo que va a hacer?
+Bueno, aquí como
+
+Bueno, aquí como
+
+Bueno, aquí como
+escoger ahí la cuenta
+
+escoger ahí la cuenta
+
+escoger ahí la cuenta
+y con base en el ID del mensaje
+
+y con base en el ID del mensaje
+
+y con base en el ID del mensaje
+que está en la carpeta de bandeja de
+
+que está en la carpeta de bandeja de
+
+que está en la carpeta de bandeja de
+entrada, necesito que le dé porque vean
+
+entrada, necesito que le dé porque vean
+
+entrada, necesito que le dé porque vean
+que cuál no escogí. Esto es un punto
+
+que cuál no escogí. Esto es un punto
+
+que cuál no escogí. Esto es un punto
+importante que es mover un email cuando
+
+importante que es mover un email cuando
+
+importante que es mover un email cuando
+la decisión que en este caso se tiene
+
+la decisión que en este caso se tiene
+
+la decisión que en este caso se tiene
+que hacer es escalar y la inteligencia
+
+que hacer es escalar y la inteligencia
+
+que hacer es escalar y la inteligencia
+artificial determinó que efectivamente
+
+artificial determinó que efectivamente
+
+artificial determinó que efectivamente
+había que escalarlo. Entonces, ¿cuál
+
+había que escalarlo. Entonces, ¿cuál
+
+había que escalarlo. Entonces, ¿cuál
+nodo tenemos que utilizar? Mover este
+
+nodo tenemos que utilizar? Mover este
+
+nodo tenemos que utilizar? Mover este
+correo. ¿Y hacia dónde lo vamos a mover?
+
+correo. ¿Y hacia dónde lo vamos a mover?
+
+correo. ¿Y hacia dónde lo vamos a mover?
+Lo vamos a mover de la bandeja de
+
+Lo vamos a mover de la bandeja de
+
+Lo vamos a mover de la bandeja de
+entrada hacia una etiqueta que le vamos
+
+entrada hacia una etiqueta que le vamos
+
+entrada hacia una etiqueta que le vamos
+a llamar para revisión,
+
+a llamar para revisión,
+
+a llamar para revisión,
+que esta etiqueta nosotros eh tuvimos
+
+que esta etiqueta nosotros eh tuvimos
+
+que esta etiqueta nosotros eh tuvimos
+que haberla creado de previo porque él
+
+que haberla creado de previo porque él
+
+que haberla creado de previo porque él
+va a buscar aquí dentro de todas las
+
+va a buscar aquí dentro de todas las
+
+va a buscar aquí dentro de todas las
+etiquetas de eh mi correo. Entonces eh
+
+etiquetas de eh mi correo. Entonces eh
+
+etiquetas de eh mi correo. Entonces eh
+en este caso esa etiqueta para revisión
+
+en este caso esa etiqueta para revisión
+
+en este caso esa etiqueta para revisión
+fue una etiqueta que primero creamos en
+
+fue una etiqueta que primero creamos en
+
+fue una etiqueta que primero creamos en
+el correo y aquí simple llanamente la
+
+el correo y aquí simple llanamente la
+
+el correo y aquí simple llanamente la
+estamos llamando, ¿verdad? Y ven que ya
+
+estamos llamando, ¿verdad? Y ven que ya
+
+estamos llamando, ¿verdad? Y ven que ya
+entonces con esto, ¿qué estaríamos
+
+entonces con esto, ¿qué estaríamos
+
+entonces con esto, ¿qué estaríamos
+diciendo? Bueno, si llega el correo, se
+
+diciendo? Bueno, si llega el correo, se
+
+diciendo? Bueno, si llega el correo, se
+categoriza que es necesario escalarla,
+
+categoriza que es necesario escalarla,
+
+categoriza que es necesario escalarla,
+entonces muévala a una etiqueta que se
+
+entonces muévala a una etiqueta que se
+
+entonces muévala a una etiqueta que se
+va a llamar para revisión para que en mi
+
+va a llamar para revisión para que en mi
+
+va a llamar para revisión para que en mi
+correo estén en ese en esa etiqueta y
+
+correo estén en ese en esa etiqueta y
+
+correo estén en ese en esa etiqueta y
+así yo puedo entrar y revisar
+
+así yo puedo entrar y revisar
+
+así yo puedo entrar y revisar
+específicamente aquellos elementos que
+
+específicamente aquellos elementos que
+
+específicamente aquellos elementos que
+la inteligencia artificial considera que
+
+la inteligencia artificial considera que
+
+la inteligencia artificial considera que
+yo debería dear.
+
+yo debería dear.
+
+yo debería dear.
+El último puntito por acá es, ¿qué
+
+El último puntito por acá es, ¿qué
+
+El último puntito por acá es, ¿qué
+sucede si el resultado es contexto,
+
+sucede si el resultado es contexto,
+
+sucede si el resultado es contexto,
+verdad? y ella necesita más contexto
+
+verdad? y ella necesita más contexto
+
+verdad? y ella necesita más contexto
+para responder. Entonces, vean que aquí
+
+para responder. Entonces, vean que aquí
+
+para responder. Entonces, vean que aquí
+que cuál fue la configuración que
+
+que cuál fue la configuración que
+
+que cuál fue la configuración que
+hicimos. La configuración que hicimos
+
+hicimos. La configuración que hicimos
+
+hicimos. La configuración que hicimos
+fue a ver si hay que escoger la cuenta.
+
+fue a ver si hay que escoger la cuenta.
+
+fue a ver si hay que escoger la cuenta.
+Eh,
+
+Eh,
+
+Eh,
+van a tomar en este caso el destinatario
+
+van a tomar en este caso el destinatario
+
+van a tomar en este caso el destinatario
+de correo,
+
+de correo,
+
+de correo,
+¿verdad? O sea, ¿quién fue propiamente
+
+¿verdad? O sea, ¿quién fue propiamente
+
+¿verdad? O sea, ¿quién fue propiamente
+el que lo envió? Y eh ya con eso, ¿ven?
+
+el que lo envió? Y eh ya con eso, ¿ven?
+
+el que lo envió? Y eh ya con eso, ¿ven?
+Porque aquí es buscar emails. Este es el
+
+Porque aquí es buscar emails. Este es el
+
+Porque aquí es buscar emails. Este es el
+nodo que estamos escogiendo es el de
+
+nodo que estamos escogiendo es el de
+
+nodo que estamos escogiendo es el de
+buscar emails. Entonces, como
+
+buscar emails. Entonces, como
+
+buscar emails. Entonces, como
+necesitamos contexto, lo que estoy
+
+necesitamos contexto, lo que estoy
+
+necesitamos contexto, lo que estoy
+diciendo es busquen
+
+diciendo es busquen
+
+diciendo es busquen
+los correos
+
+los correos
+
+los correos
+de ese destinatario. Ese es el query que
+
+de ese destinatario. Ese es el query que
+
+de ese destinatario. Ese es el query que
+le estamos dando. ¿Ven? Es un querer
+
+le estamos dando. ¿Ven? Es un querer
+
+le estamos dando. ¿Ven? Es un querer
+bastante sencillo. Aquí en el querer uno
+
+bastante sencillo. Aquí en el querer uno
+
+bastante sencillo. Aquí en el querer uno
+puede escoger muchos queries diferentes.
+
+puede escoger muchos queries diferentes.
+
+puede escoger muchos queries diferentes.
+Uno puede decir que el asunto sea tal
+
+Uno puede decir que el asunto sea tal
+
+Uno puede decir que el asunto sea tal
+que porque aquí lo que está haciendo
+
+que porque aquí lo que está haciendo
+
+que porque aquí lo que está haciendo
+nuevamente es una búsqueda de correos.
+
+nuevamente es una búsqueda de correos.
+
+nuevamente es una búsqueda de correos.
+Entonces él va a buscar dentro de mi
+
+Entonces él va a buscar dentro de mi
+
+Entonces él va a buscar dentro de mi
+correo los correos que cumplen con la
+
+correo los correos que cumplen con la
+
+correo los correos que cumplen con la
+siguiente condición. ¿Y qué condición le
+
+siguiente condición. ¿Y qué condición le
+
+siguiente condición. ¿Y qué condición le
+estamos diciendo? Que vengan de esta
+
+estamos diciendo? Que vengan de esta
+
+estamos diciendo? Que vengan de esta
+persona, ¿verdad?
+
+persona, ¿verdad?
+
+persona, ¿verdad?
+y le damos un límite de 10, o sea, que
+
+y le damos un límite de 10, o sea, que
+
+y le damos un límite de 10, o sea, que
+nos muestre los últimos 10 mensajes que
+
+nos muestre los últimos 10 mensajes que
+
+nos muestre los últimos 10 mensajes que
+vienen de esta persona. Eso es lo que
+
+vienen de esta persona. Eso es lo que
+
+vienen de esta persona. Eso es lo que
+estamos haciendo en este puntito de acá.
+
+estamos haciendo en este puntito de acá.
+
+estamos haciendo en este puntito de acá.
+Y le agregamos esta herramienta que ven
+
+Y le agregamos esta herramienta que ven
+
+Y le agregamos esta herramienta que ven
+que dice eh table aggregator.
+
+que dice eh table aggregator.
+
+que dice eh table aggregator.
+Este ya lo que está haciendo es,
+
+Este ya lo que está haciendo es,
+
+Este ya lo que está haciendo es,
+¿verdad?, vean que aquí lo está
+
+¿verdad?, vean que aquí lo está
+
+¿verdad?, vean que aquí lo está
+conectando, ¿verdad? Estoy conectando
+
+conectando, ¿verdad? Estoy conectando
+
+conectando, ¿verdad? Estoy conectando
+con este de búsqueda y le estoy diciendo
+
+con este de búsqueda y le estoy diciendo
+
+con este de búsqueda y le estoy diciendo
+agregue en una tabla, ¿verdad?
+
+agregue en una tabla, ¿verdad?
+
+agregue en una tabla, ¿verdad?
+Básicamente
+
+Básicamente
+
+Básicamente
+la fecha,
+
+la fecha,
+
+la fecha,
+yo aquí puedo escoger qué variables, la
+
+yo aquí puedo escoger qué variables, la
+
+yo aquí puedo escoger qué variables, la
+fecha, el asunto, el destinatario para
+
+fecha, el asunto, el destinatario para
+
+fecha, el asunto, el destinatario para
+que revisamos que sea correcto y el
+
+que revisamos que sea correcto y el
+
+que revisamos que sea correcto y el
+eh mensaje completo de esta persona.
+
+eh mensaje completo de esta persona.
+
+eh mensaje completo de esta persona.
+Bien, entonces le estoy diciendo, há una
+
+Bien, entonces le estoy diciendo, há una
+
+Bien, entonces le estoy diciendo, há una
+tablita. en el fondo lo estoy haciendo.
+
+tablita. en el fondo lo estoy haciendo.
+
+tablita. en el fondo lo estoy haciendo.
+Después de que usted busca esos correos,
+
+Después de que usted busca esos correos,
+
+Después de que usted busca esos correos,
+agrúpenos en una tablita para esta
+
+agrúpenos en una tablita para esta
+
+agrúpenos en una tablita para esta
+información y esta información
+
+yo se la voy a estar pasando a esta
+
+yo se la voy a estar pasando a esta
+
+yo se la voy a estar pasando a esta
+inteligencia artificial que entonces
+
+inteligencia artificial que entonces
+
+inteligencia artificial que entonces
+aquí vamos a escoger
+
+aquí vamos a escoger
+
+aquí vamos a escoger
+para que analice esta información. Para
+
+para que analice esta información. Para
+
+para que analice esta información. Para
+eso vamos a utilizar
+
+eso vamos a utilizar
+
+eso vamos a utilizar
+otro prom. ¿Ven? Aquí simpleamente es
+
+otro prom. ¿Ven? Aquí simpleamente es
+
+otro prom. ¿Ven? Aquí simpleamente es
+generar una respuesta y lo que buscamos
+
+generar una respuesta y lo que buscamos
+
+generar una respuesta y lo que buscamos
+es determinar si podemos responder ya
+
+es determinar si podemos responder ya
+
+es determinar si podemos responder ya
+una vez que tenemos más contexto, porque
+
+una vez que tenemos más contexto, porque
+
+una vez que tenemos más contexto, porque
+recen que esto es en los casos en que la
+
+recen que esto es en los casos en que la
+
+recen que esto es en los casos en que la
+inteligencia artificial dice, es que no
+
+inteligencia artificial dice, es que no
+
+inteligencia artificial dice, es que no
+estoy seguro si le puedo contestar,
+
+estoy seguro si le puedo contestar,
+
+estoy seguro si le puedo contestar,
+necesito un poco más de contexto. Si es
+
+necesito un poco más de contexto. Si es
+
+necesito un poco más de contexto. Si es
+así viene, busca los últimos 10 correos
+
+así viene, busca los últimos 10 correos
+
+así viene, busca los últimos 10 correos
+de esta persona y a partir de eso
+
+de esta persona y a partir de eso
+
+de esta persona y a partir de eso
+determina, le metemos aquí inteligencia
+
+determina, le metemos aquí inteligencia
+
+determina, le metemos aquí inteligencia
+artificial para que determine si le
+
+artificial para que determine si le
+
+artificial para que determine si le
+puede contestar, ¿verdad? Para ello
+
+puede contestar, ¿verdad? Para ello
+
+puede contestar, ¿verdad? Para ello
+existe un prom específico, que es este
+
+existe un prom específico, que es este
+
+existe un prom específico, que es este
+de aquí. Es un prom que determina si
+
+de aquí. Es un prom que determina si
+
+de aquí. Es un prom que determina si
+puede contestar. Entonces, perdón, acá
+
+puede contestar. Entonces, perdón, acá
+
+puede contestar. Entonces, perdón, acá
+se vio un momento,
+
+se vio un momento,
+
+se vio un momento,
+acá ya aparece. Entonces dice, toma el
+
+acá ya aparece. Entonces dice, toma el
+
+acá ya aparece. Entonces dice, toma el
+siguiente eh contexto de correos
+
+siguiente eh contexto de correos
+
+siguiente eh contexto de correos
+previos. ¿Ven? Esto es lo que estábamos
+
+previos. ¿Ven? Esto es lo que estábamos
+
+previos. ¿Ven? Esto es lo que estábamos
+viendo anteriormente. Entonces,
+
+viendo anteriormente. Entonces,
+
+viendo anteriormente. Entonces,
+le estamos diciendo con base en este
+
+le estamos diciendo con base en este
+
+le estamos diciendo con base en este
+contexto, debes eh determinar, ¿ven? Es
+
+contexto, debes eh determinar, ¿ven? Es
+
+contexto, debes eh determinar, ¿ven? Es
+otra categorización, si usted puede
+
+otra categorización, si usted puede
+
+otra categorización, si usted puede
+responder o si tiene que escalar.
+
+responder o si tiene que escalar.
+
+responder o si tiene que escalar.
+Entonces, veámoslo acá en el flujo.
+
+Entonces, veámoslo acá en el flujo.
+
+Entonces, veámoslo acá en el flujo.
+Entonces, vean que con este prom le
+
+Entonces, vean que con este prom le
+
+Entonces, vean que con este prom le
+estamos diciendo, tome esta tablita.
+
+estamos diciendo, tome esta tablita.
+
+estamos diciendo, tome esta tablita.
+¿Ven que está aquí parpadeando, entonces
+
+¿Ven que está aquí parpadeando, entonces
+
+¿Ven que está aquí parpadeando, entonces
+ya tome esta tablita y determine si
+
+ya tome esta tablita y determine si
+
+ya tome esta tablita y determine si
+puede responder o escalar y ahí es donde
+
+puede responder o escalar y ahí es donde
+
+puede responder o escalar y ahí es donde
+aparece ahora otro router. Si es
+
+aparece ahora otro router. Si es
+
+aparece ahora otro router. Si es
+escalar, entonces proceda a moverlo.
+
+escalar, entonces proceda a moverlo.
+
+escalar, entonces proceda a moverlo.
+¿A dónde? Pues al eh al etiqueta o a la
+
+¿A dónde? Pues al eh al etiqueta o a la
+
+¿A dónde? Pues al eh al etiqueta o a la
+carpetita de para revisión en el correo,
+
+carpetita de para revisión en el correo,
+
+carpetita de para revisión en el correo,
+¿verdad? Ya esto lo habíamos visto
+
+¿verdad? Ya esto lo habíamos visto
+
+¿verdad? Ya esto lo habíamos visto
+y si no, si usted puede responderle,
+
+y si no, si usted puede responderle,
+
+y si no, si usted puede responderle,
+entonces ya también habíamos visto cómo
+
+entonces ya también habíamos visto cómo
+
+entonces ya también habíamos visto cómo
+se hacía esto, ¿verdad? Es tome eh
+
+se hacía esto, ¿verdad? Es tome eh
+
+se hacía esto, ¿verdad? Es tome eh
+propiamente el asunto, el mensaje y el
+
+propiamente el asunto, el mensaje y el
+
+propiamente el asunto, el mensaje y el
+contexto. Ven, ahora estoy agregando el
+
+contexto. Ven, ahora estoy agregando el
+
+contexto. Ven, ahora estoy agregando el
+contexto y con esta información también
+
+contexto y con esta información también
+
+contexto y con esta información también
+adicional, ¿verdad?, de nuestra empresa
+
+adicional, ¿verdad?, de nuestra empresa
+
+adicional, ¿verdad?, de nuestra empresa
+posea, proceda a responderle. Bueno, en
+
+posea, proceda a responderle. Bueno, en
+
+posea, proceda a responderle. Bueno, en
+este caso a generar un texto y ese texto
+
+este caso a generar un texto y ese texto
+
+este caso a generar un texto y ese texto
+entonces ahora sí proceda a enviárselo.
+
+entonces ahora sí proceda a enviárselo.
+
+entonces ahora sí proceda a enviárselo.
+¿Ven? Entonces yo le tome ese hilo,
+
+¿Ven? Entonces yo le tome ese hilo,
+
+¿Ven? Entonces yo le tome ese hilo,
+¿verdad? Y proceda a replicarle a todos
+
+¿verdad? Y proceda a replicarle a todos
+
+¿verdad? Y proceda a replicarle a todos
+y en el texto, en el texto proceda a
+
+y en el texto, en el texto proceda a
+
+y en el texto, en el texto proceda a
+cargarle el resultado que le dio este
+
+cargarle el resultado que le dio este
+
+cargarle el resultado que le dio este
+nodo de acá. Es decir, la respuesta que
+
+nodo de acá. Es decir, la respuesta que
+
+nodo de acá. Es decir, la respuesta que
+acá con inteligencia artificial
+
+acá con inteligencia artificial
+
+acá con inteligencia artificial
+generamos es la que en este caso debería
+
+generamos es la que en este caso debería
+
+generamos es la que en este caso debería
+de recibir la persona y uno puede
+
+de recibir la persona y uno puede
+
+de recibir la persona y uno puede
+agregarle imágenes, archivos, adjuntos y
+
+agregarle imágenes, archivos, adjuntos y
+
+agregarle imágenes, archivos, adjuntos y
+demás en dado caso que lo considere
+
+demás en dado caso que lo considere
+
+demás en dado caso que lo considere
+necesario.
+
+necesario.
+
+necesario.
+Y vean que ya con esto entonces
+
+Y vean que ya con esto entonces
+
+Y vean que ya con esto entonces
+tendríamos el flujo completo
+
+tendríamos el flujo completo
+
+tendríamos el flujo completo
+para que eh la inteligencia artificial
+
+para que eh la inteligencia artificial
+
+para que eh la inteligencia artificial
+entonces proceda a recibir los mensajes,
+
+entonces proceda a recibir los mensajes,
+
+entonces proceda a recibir los mensajes,
+proceda a analizar cuál de las
+
+proceda a analizar cuál de las
+
+proceda a analizar cuál de las
+categorías le corresponde y si es
+
+categorías le corresponde y si es
+
+categorías le corresponde y si es
+eliminar procede a llevarlo a la
+
+eliminar procede a llevarlo a la
+
+eliminar procede a llevarlo a la
+papelera de reciclaje. Si es leído, lo
+
+papelera de reciclaje. Si es leído, lo
+
+papelera de reciclaje. Si es leído, lo
+marque como leído. Si lo puede
+
+marque como leído. Si lo puede
+
+marque como leído. Si lo puede
+responder, genere una respuesta, genere
+
+responder, genere una respuesta, genere
+
+responder, genere una respuesta, genere
+un asunto y proceda a responderle. Si
+
+un asunto y proceda a responderle. Si
+
+un asunto y proceda a responderle. Si
+tienen que escalarlo lo guarda en una
+
+tienen que escalarlo lo guarda en una
+
+tienen que escalarlo lo guarda en una
+carpetita, ¿verdad? En este caso, en una
+
+carpetita, ¿verdad? En este caso, en una
+
+carpetita, ¿verdad? En este caso, en una
+etiqueta, si necesita contexto, vaya y
+
+etiqueta, si necesita contexto, vaya y
+
+etiqueta, si necesita contexto, vaya y
+busque los mensajes previos, analice si
+
+busque los mensajes previos, analice si
+
+busque los mensajes previos, analice si
+ya puede responder o no y si y si puede
+
+ya puede responder o no y si y si puede
+
+ya puede responder o no y si y si puede
+responder, procede a generarle una
+
+responder, procede a generarle una
+
+responder, procede a generarle una
+respuesta y enviarlo. Y si no, proceda a
+
+respuesta y enviarlo. Y si no, proceda a
+
+respuesta y enviarlo. Y si no, proceda a
+escalarlo guardándolo en la carpetita
+
+escalarlo guardándolo en la carpetita
+
+escalarlo guardándolo en la carpetita
+del escalado correspondiente.
+
+del escalado correspondiente.
+
+del escalado correspondiente.
+Muy bien, ya con eso entonces ya vimos
+
+Muy bien, ya con eso entonces ya vimos
+
+Muy bien, ya con eso entonces ya vimos
+todo el proceso de un flujo eh
+
+todo el proceso de un flujo eh
+
+todo el proceso de un flujo eh
+respectivo con eh utilizando la
+
+respectivo con eh utilizando la
+
+respectivo con eh utilizando la
+herramienta de make. Y ahora lo que
+
+herramienta de make. Y ahora lo que
+
+herramienta de make. Y ahora lo que
+seguiría es más bien hacer otro flujo de
+
+seguiría es más bien hacer otro flujo de
+
+seguiría es más bien hacer otro flujo de
+trabajo, pero con la herramienta N8N.

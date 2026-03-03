@@ -1,0 +1,2680 @@
+Kind: captions
+Language: es
+
+Entonces, a realizar un proceso de
+
+Entonces, a realizar un proceso de
+
+Entonces, a realizar un proceso de
+minería y análisis de datos con
+
+minería y análisis de datos con
+
+minería y análisis de datos con
+inteligencia artificial. Para ello,
+
+inteligencia artificial. Para ello,
+
+inteligencia artificial. Para ello,
+entonces, eh tenemos que valorar una
+
+entonces, eh tenemos que valorar una
+
+entonces, eh tenemos que valorar una
+hipótesis central. Y la hipótesis que
+
+hipótesis central. Y la hipótesis que
+
+hipótesis central. Y la hipótesis que
+queremos en este caso plantear es que es
+
+queremos en este caso plantear es que es
+
+queremos en este caso plantear es que es
+más sencillo que la inteligencia
+
+más sencillo que la inteligencia
+
+más sencillo que la inteligencia
+artificial razone o en este caso pueda
+
+artificial razone o en este caso pueda
+
+artificial razone o en este caso pueda
+realizar eh un análisis más eficiente si
+
+realizar eh un análisis más eficiente si
+
+realizar eh un análisis más eficiente si
+nosotros le damos ciertos artefactos
+
+nosotros le damos ciertos artefactos
+
+nosotros le damos ciertos artefactos
+analíticos. entendiendo como artefactos
+
+analíticos. entendiendo como artefactos
+
+analíticos. entendiendo como artefactos
+analíticos,
+
+analíticos,
+
+analíticos,
+eh estadísticas, análisis, información
+
+eh estadísticas, análisis, información
+
+eh estadísticas, análisis, información
+un poco más procesada, no darle los
+
+un poco más procesada, no darle los
+
+un poco más procesada, no darle los
+datos en crudo, porque eso podría
+
+datos en crudo, porque eso podría
+
+datos en crudo, porque eso podría
+implicar mucho gasto de tokens,
+
+implicar mucho gasto de tokens,
+
+implicar mucho gasto de tokens,
+implicaría que tenga que analizar mucha
+
+implicaría que tenga que analizar mucha
+
+implicaría que tenga que analizar mucha
+información. En cambio, si nosotros ya
+
+información. En cambio, si nosotros ya
+
+información. En cambio, si nosotros ya
+le damos ciertas estadísticas un poquito
+
+le damos ciertas estadísticas un poquito
+
+le damos ciertas estadísticas un poquito
+más procesadas, entonces él podría hacer
+
+más procesadas, entonces él podría hacer
+
+más procesadas, entonces él podría hacer
+un mejor análisis. Para ello, entonces
+
+un mejor análisis. Para ello, entonces
+
+un mejor análisis. Para ello, entonces
+vamos a recapitular un poco lo que
+
+vamos a recapitular un poco lo que
+
+vamos a recapitular un poco lo que
+habíamos hecho en la unidad número
+
+habíamos hecho en la unidad número
+
+habíamos hecho en la unidad número
+nueve. En la unidad número nueve, ahí
+
+nueve. En la unidad número nueve, ahí
+
+nueve. En la unidad número nueve, ahí
+habíamos hecho un análisis RFM, vimos un
+
+habíamos hecho un análisis RFM, vimos un
+
+habíamos hecho un análisis RFM, vimos un
+poquito el tema de los intervalos entre
+
+poquito el tema de los intervalos entre
+
+poquito el tema de los intervalos entre
+compras, ¿verdad? Vimos eh variables
+
+compras, ¿verdad? Vimos eh variables
+
+compras, ¿verdad? Vimos eh variables
+cualitativas y obtuvimos ciertos
+
+cualitativas y obtuvimos ciertos
+
+cualitativas y obtuvimos ciertos
+embedings de esa información, o sea,
+
+embedings de esa información, o sea,
+
+embedings de esa información, o sea,
+convertimos eh la información, en este
+
+convertimos eh la información, en este
+
+convertimos eh la información, en este
+caso de características del cliente en
+
+caso de características del cliente en
+
+caso de características del cliente en
+vectores numéricos por medio de este
+
+vectores numéricos por medio de este
+
+vectores numéricos por medio de este
+proceso de embeding y ya con eso
+
+proceso de embeding y ya con eso
+
+proceso de embeding y ya con eso
+entonces hicimos posteriormente una
+
+entonces hicimos posteriormente una
+
+entonces hicimos posteriormente una
+clusterización.
+
+Con esas clusterizaciones también
+
+Con esas clusterizaciones también
+
+Con esas clusterizaciones también
+hicimos un análisis de tu para detección
+
+hicimos un análisis de tu para detección
+
+hicimos un análisis de tu para detección
+de valores extremos o de valores
+
+de valores extremos o de valores
+
+de valores extremos o de valores
+atípicos. Hicimos este análisis por
+
+atípicos. Hicimos este análisis por
+
+atípicos. Hicimos este análisis por
+cliente y por producto, ¿verdad? para
+
+cliente y por producto, ¿verdad? para
+
+cliente y por producto, ¿verdad? para
+ver eh cuáles ventas por cliente habían
+
+ver eh cuáles ventas por cliente habían
+
+ver eh cuáles ventas por cliente habían
+sido atípicas, cuáles ventas por
+
+sido atípicas, cuáles ventas por
+
+sido atípicas, cuáles ventas por
+producto habían sido atípicas y también
+
+producto habían sido atípicas y también
+
+producto habían sido atípicas y también
+hicimos un análisis temporal donde vimos
+
+hicimos un análisis temporal donde vimos
+
+hicimos un análisis temporal donde vimos
+cuál era la variación mensual, la
+
+cuál era la variación mensual, la
+
+cuál era la variación mensual, la
+variación interanual, si había alguna
+
+variación interanual, si había alguna
+
+variación interanual, si había alguna
+estacionalidad y realizamos este proceso
+
+estacionalidad y realizamos este proceso
+
+estacionalidad y realizamos este proceso
+por cliente y por eh
+
+por cliente y por eh
+
+por cliente y por eh
+por tipo de cliente, aprovechando los
+
+por tipo de cliente, aprovechando los
+
+por tipo de cliente, aprovechando los
+clústers que ya habíamos trabajado y por
+
+clústers que ya habíamos trabajado y por
+
+clústers que ya habíamos trabajado y por
+tipo de producto.
+
+tipo de producto.
+
+tipo de producto.
+Ahora, entonces, ¿qué es lo que queremos
+
+Ahora, entonces, ¿qué es lo que queremos
+
+Ahora, entonces, ¿qué es lo que queremos
+hacer? Que la inteligencia artificial
+
+hacer? Que la inteligencia artificial
+
+hacer? Que la inteligencia artificial
+actúe como un un minero en science, es
+
+actúe como un un minero en science, es
+
+actúe como un un minero en science, es
+decir, que busque en esas eh indicadores
+
+decir, que busque en esas eh indicadores
+
+decir, que busque en esas eh indicadores
+clave que nosotros hemos construido.
+
+clave que nosotros hemos construido.
+
+clave que nosotros hemos construido.
+Bueno, entonces no queremos darle la la
+
+Bueno, entonces no queremos darle la la
+
+Bueno, entonces no queremos darle la la
+base de datos en crudo, queremos darle
+
+base de datos en crudo, queremos darle
+
+base de datos en crudo, queremos darle
+entonces más bien los resultados que
+
+entonces más bien los resultados que
+
+entonces más bien los resultados que
+tuvimos de ese proceso de carpintería
+
+tuvimos de ese proceso de carpintería
+
+tuvimos de ese proceso de carpintería
+que hicimos en la unidad nueve. en la
+
+que hicimos en la unidad nueve. en la
+
+que hicimos en la unidad nueve. en la
+unidad nueve. Entonces, nos encargamos
+
+unidad nueve. Entonces, nos encargamos
+
+unidad nueve. Entonces, nos encargamos
+de hacer toda la carpintería para
+
+de hacer toda la carpintería para
+
+de hacer toda la carpintería para
+agarrar esos datos y utilizar técnicas
+
+agarrar esos datos y utilizar técnicas
+
+agarrar esos datos y utilizar técnicas
+para extraer indicadores relevantes. Eso
+
+para extraer indicadores relevantes. Eso
+
+para extraer indicadores relevantes. Eso
+fue lo que hicimos. Entonces, ¿ahor qué
+
+fue lo que hicimos. Entonces, ¿ahor qué
+
+fue lo que hicimos. Entonces, ¿ahor qué
+podríamos hacer? Bueno, tenemos dos
+
+podríamos hacer? Bueno, tenemos dos
+
+podríamos hacer? Bueno, tenemos dos
+opciones. O le damos la base de datos
+
+opciones. O le damos la base de datos
+
+opciones. O le damos la base de datos
+entera y completa a la inteligencia
+
+entera y completa a la inteligencia
+
+entera y completa a la inteligencia
+artificial para que analice y nos dé
+
+artificial para que analice y nos dé
+
+artificial para que analice y nos dé
+algunas conclusiones relevantes de esa
+
+algunas conclusiones relevantes de esa
+
+algunas conclusiones relevantes de esa
+información. O como les mencionamos,
+
+información. O como les mencionamos,
+
+información. O como les mencionamos,
+otra alternativa que podríamos tener es
+
+otra alternativa que podríamos tener es
+
+otra alternativa que podríamos tener es
+no usamos mejor la inteligencia
+
+no usamos mejor la inteligencia
+
+no usamos mejor la inteligencia
+artificial como una herramienta para que
+
+artificial como una herramienta para que
+
+artificial como una herramienta para que
+nos ayude procesar esa información, no
+
+nos ayude procesar esa información, no
+
+nos ayude procesar esa información, no
+dársela en crudo y ahora sí, ya una vez
+
+dársela en crudo y ahora sí, ya una vez
+
+dársela en crudo y ahora sí, ya una vez
+que la procesamos, démosela a la
+
+que la procesamos, démosela a la
+
+que la procesamos, démosela a la
+inteligencia artificial para que nos
+
+inteligencia artificial para que nos
+
+inteligencia artificial para que nos
+ayude a analizar y sacar conclusiones
+
+ayude a analizar y sacar conclusiones
+
+ayude a analizar y sacar conclusiones
+clave.
+
+Ahora bien, en el enfoque A, que es
+
+Ahora bien, en el enfoque A, que es
+
+Ahora bien, en el enfoque A, que es
+utilizar la inteligencia artificial
+
+utilizar la inteligencia artificial
+
+utilizar la inteligencia artificial
+sobre la base de datos cruda, en
+
+sobre la base de datos cruda, en
+
+sobre la base de datos cruda, en
+realidad no es que esté mal, tiene
+
+realidad no es que esté mal, tiene
+
+realidad no es que esté mal, tiene
+ciertas ventajas. Puedo descubrir
+
+ciertas ventajas. Puedo descubrir
+
+ciertas ventajas. Puedo descubrir
+patrones inesperados que nosotros no eh
+
+patrones inesperados que nosotros no eh
+
+patrones inesperados que nosotros no eh
+logramos obtener en el proceso de de
+
+logramos obtener en el proceso de de
+
+logramos obtener en el proceso de de
+carpintería de datos, ¿verdad? Tal vez
+
+carpintería de datos, ¿verdad? Tal vez
+
+carpintería de datos, ¿verdad? Tal vez
+utilizamos ciertas técnicas y calculamos
+
+utilizamos ciertas técnicas y calculamos
+
+utilizamos ciertas técnicas y calculamos
+ciertos indicadores y se nos eh fue o eh
+
+ciertos indicadores y se nos eh fue o eh
+
+ciertos indicadores y se nos eh fue o eh
+no consideramos algunos elementos que si
+
+no consideramos algunos elementos que si
+
+no consideramos algunos elementos que si
+le damos la base de datos en crudo va a
+
+le damos la base de datos en crudo va a
+
+le damos la base de datos en crudo va a
+poder procesarla por completo y eh va a
+
+poder procesarla por completo y eh va a
+
+poder procesarla por completo y eh va a
+tener la granularidad completa de todas
+
+tener la granularidad completa de todas
+
+tener la granularidad completa de todas
+las transacciones. ¿Cuál es la
+
+las transacciones. ¿Cuál es la
+
+las transacciones. ¿Cuál es la
+desventaja? Tiene mucho ruido, ¿verdad?
+
+desventaja? Tiene mucho ruido, ¿verdad?
+
+desventaja? Tiene mucho ruido, ¿verdad?
+O sea, hay mucha información. Entonces,
+
+O sea, hay mucha información. Entonces,
+
+O sea, hay mucha información. Entonces,
+esto puede ser un poco complicado,
+
+esto puede ser un poco complicado,
+
+esto puede ser un poco complicado,
+¿verdad? en ocasiones, más que todo por
+
+¿verdad? en ocasiones, más que todo por
+
+¿verdad? en ocasiones, más que todo por
+el timeout que tiene para responder. Es
+
+el timeout que tiene para responder. Es
+
+el timeout que tiene para responder. Es
+costosa en tokens porque imagínense
+
+costosa en tokens porque imagínense
+
+costosa en tokens porque imagínense
+cuántos tokens consume por procesar toda
+
+cuántos tokens consume por procesar toda
+
+cuántos tokens consume por procesar toda
+esa información. fácil que se pierda
+
+esa información. fácil que se pierda
+
+esa información. fácil que se pierda
+entre tanta información y un poco menos
+
+entre tanta información y un poco menos
+
+entre tanta información y un poco menos
+reproducible, o sea, más difícil
+
+reproducible, o sea, más difícil
+
+reproducible, o sea, más difícil
+entender cómo está sacando las
+
+entender cómo está sacando las
+
+entender cómo está sacando las
+conclusiones, pero es muy útil de
+
+conclusiones, pero es muy útil de
+
+conclusiones, pero es muy útil de
+utilizar cuando estamos haciendo una
+
+utilizar cuando estamos haciendo una
+
+utilizar cuando estamos haciendo una
+exploración inicial, cuando necesitamos
+
+exploración inicial, cuando necesitamos
+
+exploración inicial, cuando necesitamos
+eh o tenemos datos muy complejos,
+
+eh o tenemos datos muy complejos,
+
+eh o tenemos datos muy complejos,
+extraños y que quizás no tenemos
+
+extraños y que quizás no tenemos
+
+extraños y que quizás no tenemos
+indicadores claros que nos puedan
+
+indicadores claros que nos puedan
+
+indicadores claros que nos puedan
+ayudar, entonces ahí podría ser valioso.
+
+ayudar, entonces ahí podría ser valioso.
+
+ayudar, entonces ahí podría ser valioso.
+Pero tenemos que tener nuevamente en
+
+Pero tenemos que tener nuevamente en
+
+Pero tenemos que tener nuevamente en
+cuenta el tema de la privacidad de la
+
+cuenta el tema de la privacidad de la
+
+cuenta el tema de la privacidad de la
+información. No se le puede dar a
+
+información. No se le puede dar a
+
+información. No se le puede dar a
+cualquier información a la inteligencia
+
+cualquier información a la inteligencia
+
+cualquier información a la inteligencia
+artificial, ¿verdad? Esto es importante,
+
+artificial, ¿verdad? Esto es importante,
+
+artificial, ¿verdad? Esto es importante,
+aunque por la API pues tenemos muchos
+
+aunque por la API pues tenemos muchos
+
+aunque por la API pues tenemos muchos
+más respaldo de seguridad, tenemos que
+
+más respaldo de seguridad, tenemos que
+
+más respaldo de seguridad, tenemos que
+analizar las políticas de seguridad que
+
+analizar las políticas de seguridad que
+
+analizar las políticas de seguridad que
+tienen cada uno de los proveedores para
+
+tienen cada uno de los proveedores para
+
+tienen cada uno de los proveedores para
+saber qué se puede y qué no se puede
+
+saber qué se puede y qué no se puede
+
+saber qué se puede y qué no se puede
+hacer y también valorar internamente las
+
+hacer y también valorar internamente las
+
+hacer y también valorar internamente las
+posibles implicaciones que tiene pues
+
+posibles implicaciones que tiene pues
+
+posibles implicaciones que tiene pues
+esto y cuál es la información que se le
+
+esto y cuál es la información que se le
+
+esto y cuál es la información que se le
+puede o no se le puede aportar. ¿Cuál es
+
+puede o no se le puede aportar. ¿Cuál es
+
+puede o no se le puede aportar. ¿Cuál es
+la segunda opción? El otro enfoque que
+
+la segunda opción? El otro enfoque que
+
+la segunda opción? El otro enfoque que
+queremos en este caso también trabajar,
+
+queremos en este caso también trabajar,
+
+queremos en este caso también trabajar,
+que es ¿qué sucede si les damos
+
+que es ¿qué sucede si les damos
+
+que es ¿qué sucede si les damos
+artefactos analíticos? Es decir, si ya
+
+artefactos analíticos? Es decir, si ya
+
+artefactos analíticos? Es decir, si ya
+le damos clúster o layers, eh
+
+le damos clúster o layers, eh
+
+le damos clúster o layers, eh
+variaciones en el tiempo, ¿verdad? O
+
+variaciones en el tiempo, ¿verdad? O
+
+variaciones en el tiempo, ¿verdad? O
+sea, ya le damos un conjunto de
+
+sea, ya le damos un conjunto de
+
+sea, ya le damos un conjunto de
+indicadores o insigns que nos podrían,
+
+indicadores o insigns que nos podrían,
+
+indicadores o insigns que nos podrían,
+en este caso, eh que podrían estar
+
+en este caso, eh que podrían estar
+
+en este caso, eh que podrían estar
+reflejando el comportamiento de ciertos
+
+reflejando el comportamiento de ciertos
+
+reflejando el comportamiento de ciertos
+elementos. Y ahora pues lo que le
+
+elementos. Y ahora pues lo que le
+
+elementos. Y ahora pues lo que le
+estaríamos planteando a la inteligencia
+
+estaríamos planteando a la inteligencia
+
+estaríamos planteando a la inteligencia
+artificial es procede a analizar esa
+
+artificial es procede a analizar esa
+
+artificial es procede a analizar esa
+información, ¿verdad? ¿Cuál es la
+
+información, ¿verdad? ¿Cuál es la
+
+información, ¿verdad? ¿Cuál es la
+desventaja? Que va a depender de esa
+
+desventaja? Que va a depender de esa
+
+desventaja? Que va a depender de esa
+ingeniería de características, ¿verdad?,
+
+ingeniería de características, ¿verdad?,
+
+ingeniería de características, ¿verdad?,
+para que nosotros logramos extraer
+
+para que nosotros logramos extraer
+
+para que nosotros logramos extraer
+clave que nosotros en este caso eh
+
+clave que nosotros en este caso eh
+
+clave que nosotros en este caso eh
+traemos y puede eso heredar sesgos de
+
+traemos y puede eso heredar sesgos de
+
+traemos y puede eso heredar sesgos de
+preprocesamiento, es decir, que no lo
+
+preprocesamiento, es decir, que no lo
+
+preprocesamiento, es decir, que no lo
+hicimos adecuadamente
+
+hicimos adecuadamente
+
+hicimos adecuadamente
+en el proceso de carpintería y que
+
+en el proceso de carpintería y que
+
+en el proceso de carpintería y que
+entonces ahora pues podríamos más bien
+
+entonces ahora pues podríamos más bien
+
+entonces ahora pues podríamos más bien
+utilizar la inteligencia artificial sin
+
+utilizar la inteligencia artificial sin
+
+utilizar la inteligencia artificial sin
+eh sacarle el máximo provecho a los
+
+eh sacarle el máximo provecho a los
+
+eh sacarle el máximo provecho a los
+datos.
+
+datos.
+
+datos.
+Entonces, hay un enfoque híbrido que
+
+Entonces, hay un enfoque híbrido que
+
+Entonces, hay un enfoque híbrido que
+sería recomendado, ¿verdad? Tener
+
+sería recomendado, ¿verdad? Tener
+
+sería recomendado, ¿verdad? Tener
+artefactos analíticos. La inteligencia
+
+artefactos analíticos. La inteligencia
+
+artefactos analíticos. La inteligencia
+artificial interpreta y prioriza,
+
+artificial interpreta y prioriza,
+
+artificial interpreta y prioriza,
+¿verdad? y hace una revisión de datos
+
+¿verdad? y hace una revisión de datos
+
+¿verdad? y hace una revisión de datos
+crudos cuando considera que es
+
+crudos cuando considera que es
+
+crudos cuando considera que es
+necesario. Genera insigns también como
+
+necesario. Genera insigns también como
+
+necesario. Genera insigns también como
+elementos de apoyo. Ese podría ser pues
+
+elementos de apoyo. Ese podría ser pues
+
+elementos de apoyo. Ese podría ser pues
+un mecanismo de trabajo.
+
+un mecanismo de trabajo.
+
+un mecanismo de trabajo.
+Y acá vamos entonces a trabajar un
+
+Y acá vamos entonces a trabajar un
+
+Y acá vamos entonces a trabajar un
+poquito con lo que ya eh hicimos
+
+poquito con lo que ya eh hicimos
+
+poquito con lo que ya eh hicimos
+previamente. Vamos a usar de momento el
+
+previamente. Vamos a usar de momento el
+
+previamente. Vamos a usar de momento el
+enfoque B. Como les digo, un enfoque
+
+enfoque B. Como les digo, un enfoque
+
+enfoque B. Como les digo, un enfoque
+híbrido sería mejor, pero por temas de
+
+híbrido sería mejor, pero por temas de
+
+híbrido sería mejor, pero por temas de
+tiempo esto nos implicaría un poco más
+
+tiempo esto nos implicaría un poco más
+
+tiempo esto nos implicaría un poco más
+de procesamiento. Entonces, vamos a
+
+de procesamiento. Entonces, vamos a
+
+de procesamiento. Entonces, vamos a
+irnos por el enfoque en este caso de
+
+irnos por el enfoque en este caso de
+
+irnos por el enfoque en este caso de
+artefactos
+
+artefactos
+
+artefactos
+analíticos. Y aquí pues tendremos que
+
+analíticos. Y aquí pues tendremos que
+
+analíticos. Y aquí pues tendremos que
+preparar los artefactos. Y recordemos
+
+preparar los artefactos. Y recordemos
+
+preparar los artefactos. Y recordemos
+que estos nosotros los trabajamos
+
+que estos nosotros los trabajamos
+
+que estos nosotros los trabajamos
+en la unidad número 11, ¿verdad? Acá
+
+en la unidad número 11, ¿verdad? Acá
+
+en la unidad número 11, ¿verdad? Acá
+podemos ver, perdón, en la unidad nueve
+
+podemos ver, perdón, en la unidad nueve
+
+podemos ver, perdón, en la unidad nueve
+la habíamos trabajado y en ella
+
+la habíamos trabajado y en ella
+
+la habíamos trabajado y en ella
+podríamos tener esta estadísticas
+
+podríamos tener esta estadísticas
+
+podríamos tener esta estadísticas
+ventas. ¿Ven? Estas estadísticas ventas
+
+ventas. ¿Ven? Estas estadísticas ventas
+
+ventas. ¿Ven? Estas estadísticas ventas
+fueron en realidad los archivos CSV que
+
+fueron en realidad los archivos CSV que
+
+fueron en realidad los archivos CSV que
+generamos en la unidad nueve a partir
+
+generamos en la unidad nueve a partir
+
+generamos en la unidad nueve a partir
+del análisis de la información.
+
+del análisis de la información.
+
+del análisis de la información.
+Entonces, ya los tenemos por acá.
+
+Entonces, ya los tenemos por acá.
+
+Entonces, ya los tenemos por acá.
+Entonces, vamos a tenerlos aquí listos.
+
+Entonces, vamos a tenerlos aquí listos.
+
+Entonces, vamos a tenerlos aquí listos.
+Y acá, bueno, tenemos un prom que
+
+Y acá, bueno, tenemos un prom que
+
+Y acá, bueno, tenemos un prom que
+podemos en este caso eh utilizar
+
+podemos en este caso eh utilizar
+
+podemos en este caso eh utilizar
+básicamente, que es
+
+este de acá. Entonces le vamos a decir
+
+eh
+
+eh
+
+eh
+que requiero que tome la información de
+
+que requiero que tome la información de
+
+que requiero que tome la información de
+esa carpeta, ¿verdad?, que llamamos
+
+esa carpeta, ¿verdad?, que llamamos
+
+esa carpeta, ¿verdad?, que llamamos
+estadísticas ventas y con base en ellas
+
+estadísticas ventas y con base en ellas
+
+estadísticas ventas y con base en ellas
+procedas a bueno, enviar la información
+
+procedas a bueno, enviar la información
+
+procedas a bueno, enviar la información
+a la inteligencia artificial por medio
+
+a la inteligencia artificial por medio
+
+a la inteligencia artificial por medio
+de una API para que proceda a realizar
+
+de una API para que proceda a realizar
+
+de una API para que proceda a realizar
+un análisis de la información. Para ello
+
+un análisis de la información. Para ello
+
+un análisis de la información. Para ello
+usar la API Key que tengo guardada en el
+
+usar la API Key que tengo guardada en el
+
+usar la API Key que tengo guardada en el
+sistema con el nombre D. Recordemos que
+
+sistema con el nombre D. Recordemos que
+
+sistema con el nombre D. Recordemos que
+esto ya lo vemos en el punto anterior.
+
+esto ya lo vemos en el punto anterior.
+
+esto ya lo vemos en el punto anterior.
+Creamos una API Key, la guardamos a
+
+Creamos una API Key, la guardamos a
+
+Creamos una API Key, la guardamos a
+nivel de sistema y ahora vamos entonces
+
+nivel de sistema y ahora vamos entonces
+
+nivel de sistema y ahora vamos entonces
+a decirle, use esa API Key, genere la
+
+a decirle, use esa API Key, genere la
+
+a decirle, use esa API Key, genere la
+infraestructura para poder conectarse a
+
+infraestructura para poder conectarse a
+
+infraestructura para poder conectarse a
+los servidores de Open AI utilizando
+
+los servidores de Open AI utilizando
+
+los servidores de Open AI utilizando
+esta API Key y eh proceda entonces a
+
+esta API Key y eh proceda entonces a
+
+esta API Key y eh proceda entonces a
+darle esa información. Valora la forma
+
+darle esa información. Valora la forma
+
+darle esa información. Valora la forma
+más adecuada para que pueda recibir y
+
+más adecuada para que pueda recibir y
+
+más adecuada para que pueda recibir y
+procesar esa información. Estos datos
+
+procesar esa información. Estos datos
+
+procesar esa información. Estos datos
+hacen alusión al comportamiento, ya les
+
+hacen alusión al comportamiento, ya les
+
+hacen alusión al comportamiento, ya les
+explicamos un poquito más para que tenga
+
+explicamos un poquito más para que tenga
+
+explicamos un poquito más para que tenga
+más contexto de las ventas de la
+
+más contexto de las ventas de la
+
+más contexto de las ventas de la
+empresa, por lo cual es necesario que
+
+empresa, por lo cual es necesario que
+
+empresa, por lo cual es necesario que
+con base en esta información
+
+con base en esta información
+
+con base en esta información
+extraigas conclusiones clave del
+
+extraigas conclusiones clave del
+
+extraigas conclusiones clave del
+comportamiento que se ha observado y dos
+
+comportamiento que se ha observado y dos
+
+comportamiento que se ha observado y dos
+valores insignes y que nadie sus
+
+valores insignes y que nadie sus
+
+valores insignes y que nadie sus
+posibles valores atípicos determine sus
+
+posibles valores atípicos determine sus
+
+posibles valores atípicos determine sus
+alertas. También tenemos archivos que
+
+alertas. También tenemos archivos que
+
+alertas. También tenemos archivos que
+permiten observar la evolución de las
+
+permiten observar la evolución de las
+
+permiten observar la evolución de las
+ventas en el tiempo y sus variaciones
+
+ventas en el tiempo y sus variaciones
+
+ventas en el tiempo y sus variaciones
+intermensuales e interanuales,
+
+intermensuales e interanuales,
+
+intermensuales e interanuales,
+estacionalidades y detalle de esta
+
+estacionalidades y detalle de esta
+
+estacionalidades y detalle de esta
+información por tipo de cliente y
+
+información por tipo de cliente y
+
+información por tipo de cliente y
+producto. Debes actuar como experto
+
+producto. Debes actuar como experto
+
+producto. Debes actuar como experto
+minero de datos que permita sacar el
+
+minero de datos que permita sacar el
+
+minero de datos que permita sacar el
+máximo provecho, en este caso mejorar la
+
+máximo provecho, en este caso mejorar la
+
+máximo provecho, en este caso mejorar la
+información
+
+y generar un informe que debe guardar en
+
+y generar un informe que debe guardar en
+
+y generar un informe que debe guardar en
+un documento de Word. Muy bien.
+
+un documento de Word. Muy bien.
+
+un documento de Word. Muy bien.
+Entonces, con este prom
+
+podemos ahora sí irnos a Antigravity
+
+podemos ahora sí irnos a Antigravity
+
+podemos ahora sí irnos a Antigravity
+para trabajarlo.
+
+para trabajarlo.
+
+para trabajarlo.
+Entonces, para lograr este punto lo que
+
+Entonces, para lograr este punto lo que
+
+Entonces, para lograr este punto lo que
+hicimos fue hacer bueno, una carpetita
+
+hicimos fue hacer bueno, una carpetita
+
+hicimos fue hacer bueno, una carpetita
+que se llama evolución de ventas y
+
+que se llama evolución de ventas y
+
+que se llama evolución de ventas y
+dentro de ella la de estadísticas de
+
+dentro de ella la de estadísticas de
+
+dentro de ella la de estadísticas de
+ventas. Entonces, vamos a escoger esta
+
+ventas. Entonces, vamos a escoger esta
+
+ventas. Entonces, vamos a escoger esta
+como la carpeta del proyecto. Nos vamos
+
+como la carpeta del proyecto. Nos vamos
+
+como la carpeta del proyecto. Nos vamos
+a irgravity. Vamos a abrir este
+
+a irgravity. Vamos a abrir este
+
+a irgravity. Vamos a abrir este
+proyecto. Recordemos en este caso que
+
+proyecto. Recordemos en este caso que
+
+proyecto. Recordemos en este caso que
+tenemos que
+
+tenemos que
+
+tenemos que
+cargar la ubicación de la carpeta. Y ya
+
+cargar la ubicación de la carpeta. Y ya
+
+cargar la ubicación de la carpeta. Y ya
+ahora sí, entonces acá vamos a decir que
+
+ahora sí, entonces acá vamos a decir que
+
+ahora sí, entonces acá vamos a decir que
+es esta devolución ventas y le damos que
+
+es esta devolución ventas y le damos que
+
+es esta devolución ventas y le damos que
+confiamos
+
+confiamos
+
+confiamos
+en información y aquí está la carpetita.
+
+en información y aquí está la carpetita.
+
+en información y aquí está la carpetita.
+Vamos a darle el prom que hemos
+
+Vamos a darle el prom que hemos
+
+Vamos a darle el prom que hemos
+trabajado.
+
+trabajado.
+
+trabajado.
+Ah, perdón. Igual recordemos que el prom
+
+Ah, perdón. Igual recordemos que el prom
+
+Ah, perdón. Igual recordemos que el prom
+lo tenemos acá.
+
+es esta para el apoyo de comportamiento
+
+es esta para el apoyo de comportamiento
+
+es esta para el apoyo de comportamiento
+de ventas.
+
+Lo copiamos,
+
+Lo copiamos,
+
+Lo copiamos,
+se lo damos por acá a Antigravity
+
+se lo damos por acá a Antigravity
+
+se lo damos por acá a Antigravity
+y se lo vamos a dejar para que él
+
+y se lo vamos a dejar para que él
+
+y se lo vamos a dejar para que él
+proceda entonces a desarrollar un plan
+
+proceda entonces a desarrollar un plan
+
+proceda entonces a desarrollar un plan
+de implementación. Vamos a pausar acá
+
+de implementación. Vamos a pausar acá
+
+de implementación. Vamos a pausar acá
+para que él proceda a revisar el
+
+para que él proceda a revisar el
+
+para que él proceda a revisar el
+análisis respectivo.
+
+Entonces, vamos a proceder a ver el
+
+Entonces, vamos a proceder a ver el
+
+Entonces, vamos a proceder a ver el
+resultado que nos está planteando por
+
+resultado que nos está planteando por
+
+resultado que nos está planteando por
+acá. Igual aquí yo le puedo solicitar
+
+acá. Igual aquí yo le puedo solicitar
+
+acá. Igual aquí yo le puedo solicitar
+que me lo dé en español.
+
+Como podemos observar, entonces aquí ya
+
+Como podemos observar, entonces aquí ya
+
+Como podemos observar, entonces aquí ya
+nos plantea el objetivo. Entonces dice
+
+nos plantea el objetivo. Entonces dice
+
+nos plantea el objetivo. Entonces dice
+el objetivo es analizar los datos de
+
+el objetivo es analizar los datos de
+
+el objetivo es analizar los datos de
+venta proporcionados en estadísticas
+
+venta proporcionados en estadísticas
+
+venta proporcionados en estadísticas
+ventas utilizando la appid Open AI y
+
+ventas utilizando la appid Open AI y
+
+ventas utilizando la appid Open AI y
+generar un informe completo, un
+
+generar un informe completo, un
+
+generar un informe completo, un
+documento de Word en cubrir
+
+documento de Word en cubrir
+
+documento de Word en cubrir
+comportamiento, ventas, tendencia
+
+comportamiento, ventas, tendencia
+
+comportamiento, ventas, tendencia
+estacionalidad, valores atípicos y
+
+estacionalidad, valores atípicos y
+
+estacionalidad, valores atípicos y
+hallazgos claves.
+
+hallazgos claves.
+
+hallazgos claves.
+Aquí nos plantea el script que en este
+
+Aquí nos plantea el script que en este
+
+Aquí nos plantea el script que en este
+caso voy a utilizar y hasta lo podemos
+
+caso voy a utilizar y hasta lo podemos
+
+caso voy a utilizar y hasta lo podemos
+ver cuando lo genere, ¿verdad? Aquí
+
+ver cuando lo genere, ¿verdad? Aquí
+
+ver cuando lo genere, ¿verdad? Aquí
+todavía no lo va a generar. cuáles son
+
+todavía no lo va a generar. cuáles son
+
+todavía no lo va a generar. cuáles son
+los las librerías que en este caso va a
+
+los las librerías que en este caso va a
+
+los las librerías que en este caso va a
+utilizar.
+
+utilizar.
+
+utilizar.
+Va a cargar los datos, ¿verdad? Todos
+
+Va a cargar los datos, ¿verdad? Todos
+
+Va a cargar los datos, ¿verdad? Todos
+los CSV que está en esta carpeta a
+
+los CSV que está en esta carpeta a
+
+los CSV que está en esta carpeta a
+convertirlos en data frame, va a
+
+convertirlos en data frame, va a
+
+convertirlos en data frame, va a
+integrarlo con la eh con Open AI,
+
+integrarlo con la eh con Open AI,
+
+integrarlo con la eh con Open AI,
+¿verdad? Utilizando la Open AI Ping,
+
+¿verdad? Utilizando la Open AI Ping,
+
+¿verdad? Utilizando la Open AI Ping,
+¿verdad? de la variable de entorno. Ya,
+
+¿verdad? de la variable de entorno. Ya,
+
+¿verdad? de la variable de entorno. Ya,
+un prom de sistema especializado actuado
+
+un prom de sistema especializado actuado
+
+un prom de sistema especializado actuado
+como experto de minería de datos, prom
+
+como experto de minería de datos, prom
+
+como experto de minería de datos, prom
+de usuario de contenidos, datos e
+
+de usuario de contenidos, datos e
+
+de usuario de contenidos, datos e
+instrucciones específicas, analisar de
+
+instrucciones específicas, analisar de
+
+instrucciones específicas, analisar de
+comportamiento, típicos, estacionalidad,
+
+comportamiento, típicos, estacionalidad,
+
+comportamiento, típicos, estacionalidad,
+generar reporte. Aquí inclusive yo le
+
+generar reporte. Aquí inclusive yo le
+
+generar reporte. Aquí inclusive yo le
+puedo hacer un comentario de
+
+puedo hacer un comentario de
+
+puedo hacer un comentario de
+es importante
+
+es importante
+
+es importante
+generar
+
+generar
+
+generar
+un pronome robusto
+
+un pronome robusto
+
+un pronome robusto
+para este análisis de datos
+
+y ahí yo podría decir contemplar
+
+y ahí yo podría decir contemplar
+
+y ahí yo podría decir contemplar
+entonces los tipos de datos que estamos
+
+entonces los tipos de datos que estamos
+
+entonces los tipos de datos que estamos
+utilizando, ¿verdad? Pero aquí lo
+
+utilizando, ¿verdad? Pero aquí lo
+
+utilizando, ¿verdad? Pero aquí lo
+podemos dejar un poco más abierto. Y
+
+podemos dejar un poco más abierto. Y
+
+podemos dejar un poco más abierto. Y
+aquí nos da un plan de verificación, que
+
+aquí nos da un plan de verificación, que
+
+aquí nos da un plan de verificación, que
+siempre esto es muy importante,
+
+siempre esto es muy importante,
+
+siempre esto es muy importante,
+recuerden, es un plan de verificación
+
+recuerden, es un plan de verificación
+
+recuerden, es un plan de verificación
+para ver que todo esté funcionando
+
+para ver que todo esté funcionando
+
+para ver que todo esté funcionando
+adecuadamente.
+
+adecuadamente.
+
+adecuadamente.
+Y en este caso, entonces ya aquí podemos
+
+Y en este caso, entonces ya aquí podemos
+
+Y en este caso, entonces ya aquí podemos
+ver cuál va a ser la verificación que él
+
+ver cuál va a ser la verificación que él
+
+ver cuál va a ser la verificación que él
+va a hacer, o sea, va a ejecutar el
+
+va a hacer, o sea, va a ejecutar el
+
+va a hacer, o sea, va a ejecutar el
+script, va a verificar que en este caso
+
+script, va a verificar que en este caso
+
+script, va a verificar que en este caso
+se haya creado y tenga un contenido, no
+
+se haya creado y tenga un contenido, no
+
+se haya creado y tenga un contenido, no
+va a verificar mucho el contenido,
+
+va a verificar mucho el contenido,
+
+va a verificar mucho el contenido,
+¿verdad? Aquí pues nosotros podríamos
+
+¿verdad? Aquí pues nosotros podríamos
+
+¿verdad? Aquí pues nosotros podríamos
+tratar de guiarlo un poco más a que haga
+
+tratar de guiarlo un poco más a que haga
+
+tratar de guiarlo un poco más a que haga
+una especificación más profunda, pero
+
+una especificación más profunda, pero
+
+una especificación más profunda, pero
+para eso también está la verificación
+
+para eso también está la verificación
+
+para eso también está la verificación
+manual. Yo le puedo dar en este caso que
+
+manual. Yo le puedo dar en este caso que
+
+manual. Yo le puedo dar en este caso que
+eh proceda con estas modificaciones que
+
+eh proceda con estas modificaciones que
+
+eh proceda con estas modificaciones que
+yo les planteé. Y ahora vamos a esperar
+
+yo les planteé. Y ahora vamos a esperar
+
+yo les planteé. Y ahora vamos a esperar
+a que realice el análisis
+
+a que realice el análisis
+
+a que realice el análisis
+correspondiente.
+
+correspondiente.
+
+correspondiente.
+Acá me está planteando que le permita
+
+Acá me está planteando que le permita
+
+Acá me está planteando que le permita
+correr el algoritmo
+
+y que acepte en este caso dos cambios.
+
+y que acepte en este caso dos cambios.
+
+y que acepte en este caso dos cambios.
+y ya está trabajando acá en el
+
+y ya está trabajando acá en el
+
+y ya está trabajando acá en el
+desarrollo respectivo. Igual acá le
+
+desarrollo respectivo. Igual acá le
+
+desarrollo respectivo. Igual acá le
+tengo que dar correr para que vaya
+
+tengo que dar correr para que vaya
+
+tengo que dar correr para que vaya
+ejecutando. Vean que aquí lo que está es
+
+ejecutando. Vean que aquí lo que está es
+
+ejecutando. Vean que aquí lo que está es
+eh corriendo, ¿verdad?, el script para
+
+eh corriendo, ¿verdad?, el script para
+
+eh corriendo, ¿verdad?, el script para
+eliminar la dependencia tablet.
+
+Y aquí previamente,
+
+Y aquí previamente,
+
+Y aquí previamente,
+¿verdad? En este caso desarrollando el
+
+¿verdad? En este caso desarrollando el
+
+¿verdad? En este caso desarrollando el
+script para con un pron robusto,
+
+script para con un pron robusto,
+
+script para con un pron robusto,
+¿verdad? atendiendo un poco lo que le
+
+¿verdad? atendiendo un poco lo que le
+
+¿verdad? atendiendo un poco lo que le
+pedimos y bueno, así va a continuar
+
+pedimos y bueno, así va a continuar
+
+pedimos y bueno, así va a continuar
+trabajando.
+
+trabajando.
+
+trabajando.
+Acá en este caso me está pidiendo igual
+
+Acá en este caso me está pidiendo igual
+
+Acá en este caso me está pidiendo igual
+que ejecutemos y que ya hizo los cambios
+
+que ejecutemos y que ya hizo los cambios
+
+que ejecutemos y que ya hizo los cambios
+aquí
+
+en el eh en el plan de implementación
+
+y ya le puedo dar aceptar y también pues
+
+y ya le puedo dar aceptar y también pues
+
+y ya le puedo dar aceptar y también pues
+acá va a estar corriendo el proceso
+
+acá va a estar corriendo el proceso
+
+acá va a estar corriendo el proceso
+respectivo.
+
+Acá puedo ver entonces que ya bueno,
+
+Acá puedo ver entonces que ya bueno,
+
+Acá puedo ver entonces que ya bueno,
+generó el informe, bueno, el el
+
+generó el informe, bueno, el el
+
+generó el informe, bueno, el el
+algoritmo, este caso el script que se
+
+algoritmo, este caso el script que se
+
+algoritmo, este caso el script que se
+encarga de hacer todo este proceso. Vean
+
+encarga de hacer todo este proceso. Vean
+
+encarga de hacer todo este proceso. Vean
+que en este caso logre conectarse con
+
+que en este caso logre conectarse con
+
+que en este caso logre conectarse con
+Open AI, es una de las librerías que
+
+Open AI, es una de las librerías que
+
+Open AI, es una de las librerías que
+está utilizando. Configura la API que
+
+está utilizando. Configura la API que
+
+está utilizando. Configura la API que
+está utilizando la variable entorno que
+
+está utilizando la variable entorno que
+
+está utilizando la variable entorno que
+ya le di a nivel de sistema, ¿verdad?
+
+ya le di a nivel de sistema, ¿verdad?
+
+ya le di a nivel de sistema, ¿verdad?
+Aquí está el prom perfectamente. Yo
+
+Aquí está el prom perfectamente. Yo
+
+Aquí está el prom perfectamente. Yo
+podría también ajustarlo y modificar
+
+podría también ajustarlo y modificar
+
+podría también ajustarlo y modificar
+pues cualquier elemento que yo considere
+
+pues cualquier elemento que yo considere
+
+pues cualquier elemento que yo considere
+adecuado, ¿verdad? Aquí hace un for que
+
+adecuado, ¿verdad? Aquí hace un for que
+
+adecuado, ¿verdad? Aquí hace un for que
+encarga de irse viendo pues cada uno de
+
+encarga de irse viendo pues cada uno de
+
+encarga de irse viendo pues cada uno de
+los archivos que están por acá y después
+
+los archivos que están por acá y después
+
+los archivos que están por acá y después
+el prom interno que realizaría para
+
+el prom interno que realizaría para
+
+el prom interno que realizaría para
+hacer un análisis propio de cada uno de
+
+hacer un análisis propio de cada uno de
+
+hacer un análisis propio de cada uno de
+los archivos.
+
+los archivos.
+
+los archivos.
+Después aquí usa una función que se
+
+Después aquí usa una función que se
+
+Después aquí usa una función que se
+encarga de consultar o enviar esta
+
+encarga de consultar o enviar esta
+
+encarga de consultar o enviar esta
+información a Open AI utilizando el
+
+información a Open AI utilizando el
+
+información a Open AI utilizando el
+modelo 4 o Mini. Y perfectamente pues
+
+modelo 4 o Mini. Y perfectamente pues
+
+modelo 4 o Mini. Y perfectamente pues
+ahí podríamos cambiar cualquiera que
+
+ahí podríamos cambiar cualquiera que
+
+ahí podríamos cambiar cualquiera que
+quisiéramos. Y después si vemos aquí el
+
+quisiéramos. Y después si vemos aquí el
+
+quisiéramos. Y después si vemos aquí el
+plan de ejecución me dice que ya generó
+
+plan de ejecución me dice que ya generó
+
+plan de ejecución me dice que ya generó
+generó este archivo informeventas.py
+
+generó este archivo informeventas.py
+
+generó este archivo informeventas.py
+y eh generó este documento de Word,
+
+y eh generó este documento de Word,
+
+y eh generó este documento de Word,
+¿verdad? El informe final sobre en el
+
+¿verdad? El informe final sobre en el
+
+¿verdad? El informe final sobre en el
+formato de Word eh generado por la
+
+formato de Word eh generado por la
+
+formato de Word eh generado por la
+inteligencia artificial. ¿Cuál fue el
+
+inteligencia artificial. ¿Cuál fue el
+
+inteligencia artificial. ¿Cuál fue el
+proceso que hizo? lectura de los datos.
+
+proceso que hizo? lectura de los datos.
+
+proceso que hizo? lectura de los datos.
+Se agarró cada uno de los archivos que
+
+Se agarró cada uno de los archivos que
+
+Se agarró cada uno de los archivos que
+está en la carpeta estadísticas ventas.
+
+está en la carpeta estadísticas ventas.
+
+está en la carpeta estadísticas ventas.
+Hizo un procesamiento convirtiendo a
+
+Hizo un procesamiento convirtiendo a
+
+Hizo un procesamiento convirtiendo a
+formato de texto para ser procesados por
+
+formato de texto para ser procesados por
+
+formato de texto para ser procesados por
+el modelo de lenguaje. Análisis con IA.
+
+el modelo de lenguaje. Análisis con IA.
+
+el modelo de lenguaje. Análisis con IA.
+Se envió un pron detallado a la eh a la
+
+Se envió un pron detallado a la eh a la
+
+Se envió un pron detallado a la eh a la
+APID Open AI utilizando el 4 mini. Es
+
+APID Open AI utilizando el 4 mini. Es
+
+APID Open AI utilizando el 4 mini. Es
+importante ver que que estamos usando el
+
+importante ver que que estamos usando el
+
+importante ver que que estamos usando el
+modelo más barato, ¿verdad? Bueno, no es
+
+modelo más barato, ¿verdad? Bueno, no es
+
+modelo más barato, ¿verdad? Bueno, no es
+el más barato de todos, pero es uno de
+
+el más barato de todos, pero es uno de
+
+el más barato de todos, pero es uno de
+los más baratos. Y en este caso, e tal
+
+los más baratos. Y en este caso, e tal
+
+los más baratos. Y en este caso, e tal
+vez los resultados no sean tan robustos,
+
+vez los resultados no sean tan robustos,
+
+vez los resultados no sean tan robustos,
+pero es más que todo para un ejercicio
+
+pero es más que todo para un ejercicio
+
+pero es más que todo para un ejercicio
+académico, para que entendamos cómo
+
+académico, para que entendamos cómo
+
+académico, para que entendamos cómo
+funciona todo este proceso. Y aquí está
+
+funciona todo este proceso. Y aquí está
+
+funciona todo este proceso. Y aquí está
+eh el eh un prom, ¿verdad?, que nos está
+
+eh el eh un prom, ¿verdad?, que nos está
+
+eh el eh un prom, ¿verdad?, que nos está
+indicando cómo se cómo trabajó el prom.
+
+indicando cómo se cómo trabajó el prom.
+
+indicando cómo se cómo trabajó el prom.
+Y el PROM en este caso nos está diciendo
+
+Y el PROM en este caso nos está diciendo
+
+Y el PROM en este caso nos está diciendo
+que es un prom detallado a la API openi
+
+que es un prom detallado a la API openi
+
+que es un prom detallado a la API openi
+indicando que actúe como un experto eh
+
+indicando que actúe como un experto eh
+
+indicando que actúe como un experto eh
+minero de datos y que analice
+
+minero de datos y que analice
+
+minero de datos y que analice
+comportamiento y tendencias, evalúe la
+
+comportamiento y tendencias, evalúe la
+
+comportamiento y tendencias, evalúe la
+estacionalidad, analis segmento de
+
+estacionalidad, analis segmento de
+
+estacionalidad, analis segmento de
+producto, detección de animalías,
+
+producto, detección de animalías,
+
+producto, detección de animalías,
+conclusiones claves y aquí la generación
+
+conclusiones claves y aquí la generación
+
+conclusiones claves y aquí la generación
+de reporte, la respuesta de la formativa
+
+de reporte, la respuesta de la formativa
+
+de reporte, la respuesta de la formativa
+y guardada automáticamente en un formato
+
+y guardada automáticamente en un formato
+
+y guardada automáticamente en un formato
+de Word y cómo replicar el análisis. Y
+
+de Word y cómo replicar el análisis. Y
+
+de Word y cómo replicar el análisis. Y
+ya aquí nos dice que entonces procedamos
+
+ya aquí nos dice que entonces procedamos
+
+ya aquí nos dice que entonces procedamos
+a a tomar en consideración que si en
+
+a a tomar en consideración que si en
+
+a a tomar en consideración que si en
+algún momento quisiéramos replicar este
+
+algún momento quisiéramos replicar este
+
+algún momento quisiéramos replicar este
+análisis dado que ya tenemos este
+
+análisis dado que ya tenemos este
+
+análisis dado que ya tenemos este
+script, entonces nada más podríamos
+
+script, entonces nada más podríamos
+
+script, entonces nada más podríamos
+estarlo ejecutando. Inclusive hasta lo
+
+estarlo ejecutando. Inclusive hasta lo
+
+estarlo ejecutando. Inclusive hasta lo
+podemos abrir acá y le podemos dar en
+
+podemos abrir acá y le podemos dar en
+
+podemos abrir acá y le podemos dar en
+ejecutar si quisiéramos. Y ya nos
+
+ejecutar si quisiéramos. Y ya nos
+
+ejecutar si quisiéramos. Y ya nos
+podemos ir a la carpeta respectiva.
+
+podemos ir a la carpeta respectiva.
+
+podemos ir a la carpeta respectiva.
+Y si entramos al proyecto, que aquí eh
+
+Y si entramos al proyecto, que aquí eh
+
+Y si entramos al proyecto, que aquí eh
+evolución ventas, podemos ver que
+
+evolución ventas, podemos ver que
+
+evolución ventas, podemos ver que
+efectivamente generó el informe
+
+efectivamente generó el informe
+
+efectivamente generó el informe
+respectivo.
+
+Ven. Y aquí ya lo generó. En realidad
+
+Ven. Y aquí ya lo generó. En realidad
+
+Ven. Y aquí ya lo generó. En realidad
+podemos ver que es un informe ejecutivo,
+
+podemos ver que es un informe ejecutivo,
+
+podemos ver que es un informe ejecutivo,
+¿verdad? Acá él pues le puso ese ese
+
+¿verdad? Acá él pues le puso ese ese
+
+¿verdad? Acá él pues le puso ese ese
+esquema, ¿verdad? Eh,
+
+eh podríamos perfectamente
+
+eh podríamos perfectamente
+
+eh podríamos perfectamente
+implicar que haga un análisis detallado
+
+implicar que haga un análisis detallado
+
+implicar que haga un análisis detallado
+y al hacer un análisis detallado,
+
+y al hacer un análisis detallado,
+
+y al hacer un análisis detallado,
+inclusive podríamos ya ir archivo por
+
+inclusive podríamos ya ir archivo por
+
+inclusive podríamos ya ir archivo por
+archivo, producto por producto, ¿verdad?
+
+archivo, producto por producto, ¿verdad?
+
+archivo, producto por producto, ¿verdad?
+y haciendo pues todo ese proceso de
+
+y haciendo pues todo ese proceso de
+
+y haciendo pues todo ese proceso de
+análisis, como ustedes ven aquí también
+
+análisis, como ustedes ven aquí también
+
+análisis, como ustedes ven aquí también
+por su ventana de contexto, entonces él
+
+por su ventana de contexto, entonces él
+
+por su ventana de contexto, entonces él
+eh tampoco va a lograr recibir mucha
+
+eh tampoco va a lograr recibir mucha
+
+eh tampoco va a lograr recibir mucha
+información. Eso entonces es parte de lo
+
+información. Eso entonces es parte de lo
+
+información. Eso entonces es parte de lo
+que influye en el resultado, pero en
+
+que influye en el resultado, pero en
+
+que influye en el resultado, pero en
+términos generales sí me da una una muy
+
+términos generales sí me da una una muy
+
+términos generales sí me da una una muy
+un panorama general eh bastante
+
+un panorama general eh bastante
+
+un panorama general eh bastante
+interesante de los archivos, pero
+
+interesante de los archivos, pero
+
+interesante de los archivos, pero
+nuevamente yo quisiera algo más
+
+nuevamente yo quisiera algo más
+
+nuevamente yo quisiera algo más
+detallado, tengo que hacer como un
+
+detallado, tengo que hacer como un
+
+detallado, tengo que hacer como un
+informe detallado y aquí en el proceso
+
+informe detallado y aquí en el proceso
+
+informe detallado y aquí en el proceso
+de obtención o de creación del documento
+
+de obtención o de creación del documento
+
+de obtención o de creación del documento
+de Word, entonces ya lo que hago es que
+
+de Word, entonces ya lo que hago es que
+
+de Word, entonces ya lo que hago es que
+vaya haciendo llamadas diferenciadas,
+
+vaya haciendo llamadas diferenciadas,
+
+vaya haciendo llamadas diferenciadas,
+que por cada archivo y por cada producto
+
+que por cada archivo y por cada producto
+
+que por cada archivo y por cada producto
+haga un análisis.
+
+haga un análisis.
+
+haga un análisis.
+por ejemplo. Bien, entonces eso va a
+
+por ejemplo. Bien, entonces eso va a
+
+por ejemplo. Bien, entonces eso va a
+hacer que tengamos más secciones acá y
+
+hacer que tengamos más secciones acá y
+
+hacer que tengamos más secciones acá y
+que en estas secciones entonces eh ya
+
+que en estas secciones entonces eh ya
+
+que en estas secciones entonces eh ya
+haga un análisis más detallado de cada
+
+haga un análisis más detallado de cada
+
+haga un análisis más detallado de cada
+producto. Eso lo podríamos hacer, pero
+
+producto. Eso lo podríamos hacer, pero
+
+producto. Eso lo podríamos hacer, pero
+tendríamos entonces que especificarlo
+
+tendríamos entonces que especificarlo
+
+tendríamos entonces que especificarlo
+adecuadamente en el prom respectivo.
+
+adecuadamente en el prom respectivo.
+
+adecuadamente en el prom respectivo.
+Pero vean que aquí pues me está
+
+Pero vean que aquí pues me está
+
+Pero vean que aquí pues me está
+planteando elementos bastante
+
+planteando elementos bastante
+
+planteando elementos bastante
+interesantes. Me está hablando de las
+
+interesantes. Me está hablando de las
+
+interesantes. Me está hablando de las
+variaciones mensuales, picos los meses
+
+variaciones mensuales, picos los meses
+
+variaciones mensuales, picos los meses
+de abril y noviembre mostraron picos
+
+de abril y noviembre mostraron picos
+
+de abril y noviembre mostraron picos
+significativos en las ventas alcanzando,
+
+significativos en las ventas alcanzando,
+
+significativos en las ventas alcanzando,
+¿verdad? los valores caídas, ya me habla
+
+¿verdad? los valores caídas, ya me habla
+
+¿verdad? los valores caídas, ya me habla
+las caídas fuertes que tuvimos en estos
+
+las caídas fuertes que tuvimos en estos
+
+las caídas fuertes que tuvimos en estos
+periodos. Las variaciones anuales han
+
+periodos. Las variaciones anuales han
+
+periodos. Las variaciones anuales han
+sido inconsistentes por algunos tran un
+
+sido inconsistentes por algunos tran un
+
+sido inconsistentes por algunos tran un
+crecimiento notable, por ejemplo,
+
+crecimiento notable, por ejemplo,
+
+crecimiento notable, por ejemplo,
+noviembre 2024, ¿verdad? Aquí me dice
+
+noviembre 2024, ¿verdad? Aquí me dice
+
+noviembre 2024, ¿verdad? Aquí me dice
+pues cuál sido ese crecimiento, las
+
+pues cuál sido ese crecimiento, las
+
+pues cuál sido ese crecimiento, las
+tendencias claras, se observa un
+
+tendencias claras, se observa un
+
+tendencias claras, se observa un
+crecimiento en estos meses y un
+
+crecimiento en estos meses y un
+
+crecimiento en estos meses y un
+decrecimiento muy marcado en estos
+
+decrecimiento muy marcado en estos
+
+decrecimiento muy marcado en estos
+otros. Ya me habla de la estacionalidad,
+
+otros. Ya me habla de la estacionalidad,
+
+otros. Ya me habla de la estacionalidad,
+¿verdad? Entonces, ya me dice cuáles son
+
+¿verdad? Entonces, ya me dice cuáles son
+
+¿verdad? Entonces, ya me dice cuáles son
+los meses de alto rendimiento, de bajo
+
+los meses de alto rendimiento, de bajo
+
+los meses de alto rendimiento, de bajo
+rendimiento, un poco de la
+
+rendimiento, un poco de la
+
+rendimiento, un poco de la
+interpretación que pueda ver. Después
+
+interpretación que pueda ver. Después
+
+interpretación que pueda ver. Después
+desempeño por productos, cuáles son los
+
+desempeño por productos, cuáles son los
+
+desempeño por productos, cuáles son los
+productos destacados, ¿verdad? Eh,
+
+productos destacados, ¿verdad? Eh,
+
+productos destacados, ¿verdad? Eh,
+después por segmento, ¿verdad? Entonces
+
+después por segmento, ¿verdad? Entonces
+
+después por segmento, ¿verdad? Entonces
+aquí me dice cuáles son los segmentos
+
+aquí me dice cuáles son los segmentos
+
+aquí me dice cuáles son los segmentos
+que en este caso debería de valorar,
+
+que en este caso debería de valorar,
+
+que en este caso debería de valorar,
+pero como ven, es un informe ejecutivo,
+
+pero como ven, es un informe ejecutivo,
+
+pero como ven, es un informe ejecutivo,
+entonces es como para un tipo de
+
+entonces es como para un tipo de
+
+entonces es como para un tipo de
+gerencia, para una lectura muy rápida,
+
+gerencia, para una lectura muy rápida,
+
+gerencia, para una lectura muy rápida,
+¿verdad? Por eso son solo tres páginas,
+
+¿verdad? Por eso son solo tres páginas,
+
+¿verdad? Por eso son solo tres páginas,
+pero como les menciono en este caso,
+
+pero como les menciono en este caso,
+
+pero como les menciono en este caso,
+pues perfectamente podríamos darle eh o
+
+pues perfectamente podríamos darle eh o
+
+pues perfectamente podríamos darle eh o
+solicitarle un eh análisis mucho más
+
+solicitarle un eh análisis mucho más
+
+solicitarle un eh análisis mucho más
+detallado, ¿verdad? Que aquí me habla de
+
+detallado, ¿verdad? Que aquí me habla de
+
+detallado, ¿verdad? Que aquí me habla de
+los valores atípicos, ¿verdad? Y me está
+
+los valores atípicos, ¿verdad? Y me está
+
+los valores atípicos, ¿verdad? Y me está
+planteando pues las diferentes
+
+planteando pues las diferentes
+
+planteando pues las diferentes
+preocupaciones que tiene, ¿verdad? Se
+
+preocupaciones que tiene, ¿verdad? Se
+
+preocupaciones que tiene, ¿verdad? Se
+han identificado varios pedidos con
+
+han identificado varios pedidos con
+
+han identificado varios pedidos con
+valores atípicos, ¿verdad? Ella me está
+
+valores atípicos, ¿verdad? Ella me está
+
+valores atípicos, ¿verdad? Ella me está
+planteando aquí uno de los ejemplos más
+
+planteando aquí uno de los ejemplos más
+
+planteando aquí uno de los ejemplos más
+drásticos, ¿verdad? E y aquí pues
+
+drásticos, ¿verdad? E y aquí pues
+
+drásticos, ¿verdad? E y aquí pues
+algunas preocupaciones y oportunidades,
+
+algunas preocupaciones y oportunidades,
+
+algunas preocupaciones y oportunidades,
+pero queríamos que hiciera un análisis
+
+pero queríamos que hiciera un análisis
+
+pero queríamos que hiciera un análisis
+más detallado sus valores atípicos.
+
+más detallado sus valores atípicos.
+
+más detallado sus valores atípicos.
+Entonces, como les digo, en el mismo PR
+
+Entonces, como les digo, en el mismo PR
+
+Entonces, como les digo, en el mismo PR
+lo podemos ir detallando y mejorando. Y
+
+lo podemos ir detallando y mejorando. Y
+
+lo podemos ir detallando y mejorando. Y
+aquí pues algunos hallazgos importantes,
+
+aquí pues algunos hallazgos importantes,
+
+aquí pues algunos hallazgos importantes,
+principalmente la volatilidad tan fuerte
+
+principalmente la volatilidad tan fuerte
+
+principalmente la volatilidad tan fuerte
+que estamos observando, la
+
+que estamos observando, la
+
+que estamos observando, la
+estacionalidad y la segmentación en eh
+
+estacionalidad y la segmentación en eh
+
+estacionalidad y la segmentación en eh
+los grupos, ¿verdad? Estamos viendo que
+
+los grupos, ¿verdad? Estamos viendo que
+
+los grupos, ¿verdad? Estamos viendo que
+los grupos tal cual se mencionan por
+
+los grupos tal cual se mencionan por
+
+los grupos tal cual se mencionan por
+acá, sí tienen eh un comportamiento muy
+
+acá, sí tienen eh un comportamiento muy
+
+acá, sí tienen eh un comportamiento muy
+marcado que deberíamos en este caso de
+
+marcado que deberíamos en este caso de
+
+marcado que deberíamos en este caso de
+explotar.
+
+explotar.
+
+explotar.
+Y bien, eso es el informe que está
+
+Y bien, eso es el informe que está
+
+Y bien, eso es el informe que está
+generando, creo que lo está haciendo
+
+generando, creo que lo está haciendo
+
+generando, creo que lo está haciendo
+bastante bien, pero en este caso, pues
+
+bastante bien, pero en este caso, pues
+
+bastante bien, pero en este caso, pues
+para efectos didácticos, el informe eh
+
+para efectos didácticos, el informe eh
+
+para efectos didácticos, el informe eh
+cumple con los objetivos generales y si
+
+cumple con los objetivos generales y si
+
+cumple con los objetivos generales y si
+quisiéramos ya un refinamiento más
+
+quisiéramos ya un refinamiento más
+
+quisiéramos ya un refinamiento más
+detallado, tenemos que irlo haciendo en
+
+detallado, tenemos que irlo haciendo en
+
+detallado, tenemos que irlo haciendo en
+el prom y como les digo, ojalá
+
+el prom y como les digo, ojalá
+
+el prom y como les digo, ojalá
+estableciendo, ¿verdad?, que es esa
+
+estableciendo, ¿verdad?, que es esa
+
+estableciendo, ¿verdad?, que es esa
+intervención con inteligencia artificial
+
+intervención con inteligencia artificial
+
+intervención con inteligencia artificial
+vaya siendo más dosificada, que porque
+
+vaya siendo más dosificada, que porque
+
+vaya siendo más dosificada, que porque
+aquí está recibiendo toda la información
+
+aquí está recibiendo toda la información
+
+aquí está recibiendo toda la información
+y haciendo un análisis global de toda la
+
+y haciendo un análisis global de toda la
+
+y haciendo un análisis global de toda la
+información. Si yo quiero algo más
+
+información. Si yo quiero algo más
+
+información. Si yo quiero algo más
+detallado, debería empezar a irle
+
+detallado, debería empezar a irle
+
+detallado, debería empezar a irle
+enviando un segmento de información y
+
+enviando un segmento de información y
+
+enviando un segmento de información y
+que lo analice, enviando otro segmento
+
+que lo analice, enviando otro segmento
+
+que lo analice, enviando otro segmento
+de información y que lo analice y así
+
+de información y que lo analice y así
+
+de información y que lo analice y así
+sucesivamente para que de esa manera eh
+
+sucesivamente para que de esa manera eh
+
+sucesivamente para que de esa manera eh
+logre explotar al máximo pues todos los
+
+logre explotar al máximo pues todos los
+
+logre explotar al máximo pues todos los
+datos que le estamos suministrando,
+
+datos que le estamos suministrando,
+
+datos que le estamos suministrando,
+porque de lo contrario la ventana de
+
+porque de lo contrario la ventana de
+
+porque de lo contrario la ventana de
+contexto se satura con muchos datos y
+
+contexto se satura con muchos datos y
+
+contexto se satura con muchos datos y
+termina dando un informe general. Además
+
+termina dando un informe general. Además
+
+termina dando un informe general. Además
+de que, como les mencioné, pues eh acá
+
+de que, como les mencioné, pues eh acá
+
+de que, como les mencioné, pues eh acá
+indica que es un informe ejecutivo,
+
+indica que es un informe ejecutivo,
+
+indica que es un informe ejecutivo,
+entonces va a ser eh sintético, pero eh
+
+entonces va a ser eh sintético, pero eh
+
+entonces va a ser eh sintético, pero eh
+podemos perfectamente trabajarlo de la
+
+podemos perfectamente trabajarlo de la
+
+podemos perfectamente trabajarlo de la
+manera que les acabo de mencionar para
+
+manera que les acabo de mencionar para
+
+manera que les acabo de mencionar para
+hacer un informe más detallado. De esa
+
+hacer un informe más detallado. De esa
+
+hacer un informe más detallado. De esa
+manera, pues hemos ya visto cómo
+
+manera, pues hemos ya visto cómo
+
+manera, pues hemos ya visto cómo
+utilizar la inteligencia artificial,
+
+utilizar la inteligencia artificial,
+
+utilizar la inteligencia artificial,
+cómo aprovechar eh trabajos previos que
+
+cómo aprovechar eh trabajos previos que
+
+cómo aprovechar eh trabajos previos que
+hemos ido generando, cómo transmitir la
+
+hemos ido generando, cómo transmitir la
+
+hemos ido generando, cómo transmitir la
+información, que ella la analice, que
+
+información, que ella la analice, que
+
+información, que ella la analice, que
+actúe como un minero de información y
+
+actúe como un minero de información y
+
+actúe como un minero de información y
+entonces de esa manera nos ayude a
+
+entonces de esa manera nos ayude a
+
+entonces de esa manera nos ayude a
+obtener respuestas y a obtener análisis
+
+obtener respuestas y a obtener análisis
+
+obtener respuestas y a obtener análisis
+utilizando la de los modelos de
+
+utilizando la de los modelos de
+
+utilizando la de los modelos de
+inteligencia artificial para que esos
+
+inteligencia artificial para que esos
+
+inteligencia artificial para que esos
+modelos de inteligencia artificial
+
+modelos de inteligencia artificial
+
+modelos de inteligencia artificial
+puedan recibir información, analizarla y
+
+puedan recibir información, analizarla y
+
+puedan recibir información, analizarla y
+ayudarnos en ese proceso de análisis.
+
+ayudarnos en ese proceso de análisis.
+
+ayudarnos en ese proceso de análisis.
+Muchas gracias.

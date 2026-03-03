@@ -1,0 +1,3406 @@
+Kind: captions
+Language: es
+
+Muy bien, ahora vamos a proceder con la
+
+Muy bien, ahora vamos a proceder con la
+
+Muy bien, ahora vamos a proceder con la
+actividad número tres, que es
+
+actividad número tres, que es
+
+actividad número tres, que es
+automatización de procesamiento de
+
+automatización de procesamiento de
+
+automatización de procesamiento de
+archivos. Para ello vamos a utilizar
+
+archivos. Para ello vamos a utilizar
+
+archivos. Para ello vamos a utilizar
+Antigravity también. Entonces vamos a
+
+Antigravity también. Entonces vamos a
+
+Antigravity también. Entonces vamos a
+trabajar en Antigravity y vamos a crear
+
+trabajar en Antigravity y vamos a crear
+
+trabajar en Antigravity y vamos a crear
+un proyecto. Para ello vamos a utilizar
+
+un proyecto. Para ello vamos a utilizar
+
+un proyecto. Para ello vamos a utilizar
+los insumos
+
+los insumos
+
+los insumos
+de la
+
+de la
+
+de la
+eh de la sesión número nueve, ¿verdad?
+
+eh de la sesión número nueve, ¿verdad?
+
+eh de la sesión número nueve, ¿verdad?
+La unidad número nueve. En este caso es
+
+La unidad número nueve. En este caso es
+
+La unidad número nueve. En este caso es
+importante que veamos que se están
+
+importante que veamos que se están
+
+importante que veamos que se están
+agregando estos archivitos que están por
+
+agregando estos archivitos que están por
+
+agregando estos archivitos que están por
+acá.
+
+acá.
+
+acá.
+Estos archivos tienen información
+
+Estos archivos tienen información
+
+Estos archivos tienen información
+totalmente simulada, es completamente
+
+totalmente simulada, es completamente
+
+totalmente simulada, es completamente
+falsa, ¿verdad? Que nos da información
+
+falsa, ¿verdad? Que nos da información
+
+falsa, ¿verdad? Que nos da información
+sobre eh diferentes clientes. Estamos
+
+sobre eh diferentes clientes. Estamos
+
+sobre eh diferentes clientes. Estamos
+asumiendo ahí información
+
+asumiendo ahí información
+
+asumiendo ahí información
+crediticia. Estamos viendo que somos una
+
+crediticia. Estamos viendo que somos una
+
+crediticia. Estamos viendo que somos una
+entidad que colabora con el análisis de
+
+entidad que colabora con el análisis de
+
+entidad que colabora con el análisis de
+créditos. ¿verdad? Y que entonces aquí
+
+créditos. ¿verdad? Y que entonces aquí
+
+créditos. ¿verdad? Y que entonces aquí
+tenemos alguna información de estos
+
+tenemos alguna información de estos
+
+tenemos alguna información de estos
+clientes. Lo que queremos es hacer más o
+
+clientes. Lo que queremos es hacer más o
+
+clientes. Lo que queremos es hacer más o
+menos el siguiente proyecto. Eso ya está
+
+menos el siguiente proyecto. Eso ya está
+
+menos el siguiente proyecto. Eso ya está
+explicado ahí en las filminas, pero en
+
+explicado ahí en las filminas, pero en
+
+explicado ahí en las filminas, pero en
+realidad está mucho el código asociado y
+
+realidad está mucho el código asociado y
+
+realidad está mucho el código asociado y
+demás, entonces no queremos como
+
+demás, entonces no queremos como
+
+demás, entonces no queremos como
+enredarnos mucho con esos elementos.
+
+enredarnos mucho con esos elementos.
+
+enredarnos mucho con esos elementos.
+Creo que aquí lo más importante es
+
+Creo que aquí lo más importante es
+
+Creo que aquí lo más importante es
+comprender la lógica que está acá por
+
+comprender la lógica que está acá por
+
+comprender la lógica que está acá por
+detrás y es la siguiente. Necesitamos
+
+detrás y es la siguiente. Necesitamos
+
+detrás y es la siguiente. Necesitamos
+que
+
+que
+
+que
+haya una carpeta que puede estar en
+
+haya una carpeta que puede estar en
+
+haya una carpeta que puede estar en
+cualquier lado, no hay ningún
+
+cualquier lado, no hay ningún
+
+cualquier lado, no hay ningún
+inconveniente
+
+inconveniente
+
+inconveniente
+y le vamos a llamar
+
+y le vamos a llamar
+
+y le vamos a llamar
+insumos o inbox, tal vez como un buzón
+
+insumos o inbox, tal vez como un buzón
+
+insumos o inbox, tal vez como un buzón
+de entrada, ¿verdad? Y o llamémosle
+
+de entrada, ¿verdad? Y o llamémosle
+
+de entrada, ¿verdad? Y o llamémosle
+entrada, ¿verdad? para hacerlo más a
+
+entrada, ¿verdad? para hacerlo más a
+
+entrada, ¿verdad? para hacerlo más a
+nuestros registros. Y necesitamos
+
+nuestros registros. Y necesitamos
+
+nuestros registros. Y necesitamos
+entonces que ahí entren archivos. por
+
+entonces que ahí entren archivos. por
+
+entonces que ahí entren archivos. por
+ejemplo, entrarían estos estos
+
+ejemplo, entrarían estos estos
+
+ejemplo, entrarían estos estos
+documentos de acá
+
+y necesitamos que en este caso los
+
+y necesitamos que en este caso los
+
+y necesitamos que en este caso los
+procese a Word, los convierta a Word,
+
+cada uno de los que estén ahí, pero no
+
+cada uno de los que estén ahí, pero no
+
+cada uno de los que estén ahí, pero no
+solo eso, sino que estén monitoreando
+
+solo eso, sino que estén monitoreando
+
+solo eso, sino que estén monitoreando
+esa carpeta todos los días, que todos
+
+esa carpeta todos los días, que todos
+
+esa carpeta todos los días, que todos
+los días a una misma hora entre, vea que
+
+los días a una misma hora entre, vea que
+
+los días a una misma hora entre, vea que
+hay nuevo en esta carpeta y proceda a
+
+hay nuevo en esta carpeta y proceda a
+
+hay nuevo en esta carpeta y proceda a
+convertirlos a Word y guardarlos acá. Y
+
+convertirlos a Word y guardarlos acá. Y
+
+convertirlos a Word y guardarlos acá. Y
+después
+
+después
+
+después
+el Excel que ya eh, perdón, el PDF que
+
+el Excel que ya eh, perdón, el PDF que
+
+el Excel que ya eh, perdón, el PDF que
+ya procesó, entonces lo guarda en una
+
+ya procesó, entonces lo guarda en una
+
+ya procesó, entonces lo guarda en una
+carpeta que le podemos llamar procesado.
+
+carpeta que le podemos llamar procesado.
+
+carpeta que le podemos llamar procesado.
+En realidad podemos usar diferentes
+
+En realidad podemos usar diferentes
+
+En realidad podemos usar diferentes
+nombres.
+
+nombres.
+
+nombres.
+Vamos a utilizar esto como pues para
+
+Vamos a utilizar esto como pues para
+
+Vamos a utilizar esto como pues para
+tratar de hacerlo más intuitivo.
+
+tratar de hacerlo más intuitivo.
+
+tratar de hacerlo más intuitivo.
+Entonces, lo que entre acá, ¿verdad? En
+
+Entonces, lo que entre acá, ¿verdad? En
+
+Entonces, lo que entre acá, ¿verdad? En
+entrada, lo voy a revisar todos los días
+
+entrada, lo voy a revisar todos los días
+
+entrada, lo voy a revisar todos los días
+a una hora específica. Podemos decir a
+
+a una hora específica. Podemos decir a
+
+a una hora específica. Podemos decir a
+las 7 de la mañana
+
+las 7 de la mañana
+
+las 7 de la mañana
+le vamos a pedir que lo convierta a Word
+
+le vamos a pedir que lo convierta a Word
+
+le vamos a pedir que lo convierta a Word
+y que una vez que ya lo procesó lo
+
+y que una vez que ya lo procesó lo
+
+y que una vez que ya lo procesó lo
+traslade de entrada hacia procesado
+
+traslade de entrada hacia procesado
+
+traslade de entrada hacia procesado
+y después que agarre este estos archivos
+
+y después que agarre este estos archivos
+
+y después que agarre este estos archivos
+y lo envíen
+
+y lo envíen
+
+y lo envíen
+a una cuenta de correo electrónico, que
+
+a una cuenta de correo electrónico, que
+
+a una cuenta de correo electrónico, que
+pueden ser cuentas incluso
+
+pueden ser cuentas incluso
+
+pueden ser cuentas incluso
+eh diferentes
+
+eh diferentes
+
+eh diferentes
+dependiendo del archivo.
+
+dependiendo del archivo.
+
+dependiendo del archivo.
+Acá
+
+Acá
+
+Acá
+es importante que analicemos pues el
+
+es importante que analicemos pues el
+
+es importante que analicemos pues el
+contenido de esta información
+
+contenido de esta información
+
+contenido de esta información
+y dependiendo de cuál sea la
+
+y dependiendo de cuál sea la
+
+y dependiendo de cuál sea la
+información, pues tal vez tendrá que
+
+información, pues tal vez tendrá que
+
+información, pues tal vez tendrá que
+irse hacia un correo o hacia otro. De
+
+irse hacia un correo o hacia otro. De
+
+irse hacia un correo o hacia otro. De
+momento vamos a eh a pedirle que nos
+
+momento vamos a eh a pedirle que nos
+
+momento vamos a eh a pedirle que nos
+indique o nos haga un listado
+
+indique o nos haga un listado
+
+indique o nos haga un listado
+de los que eh de los que estén eh
+
+de los que eh de los que estén eh
+
+de los que eh de los que estén eh
+propiamente en entrada y vamos a
+
+propiamente en entrada y vamos a
+
+propiamente en entrada y vamos a
+asignarles ahí algún correo, ¿verdad?,
+
+asignarles ahí algún correo, ¿verdad?,
+
+asignarles ahí algún correo, ¿verdad?,
+al cual en este caso tendrían que irse
+
+al cual en este caso tendrían que irse
+
+al cual en este caso tendrían que irse
+ciertos archivos y ciertos otros.
+
+ciertos archivos y ciertos otros.
+
+ciertos archivos y ciertos otros.
+Entonces vamos a iniciar con un proceso
+
+Entonces vamos a iniciar con un proceso
+
+Entonces vamos a iniciar con un proceso
+muy sencillo que en primera instancia es
+
+muy sencillo que en primera instancia es
+
+muy sencillo que en primera instancia es
+que analice o que nos indique en este
+
+que analice o que nos indique en este
+
+que analice o que nos indique en este
+caso para procesado, ¿verdad? Eh,
+
+caso para procesado, ¿verdad? Eh,
+
+caso para procesado, ¿verdad? Eh,
+perdón, para entrada cuáles son los
+
+perdón, para entrada cuáles son los
+
+perdón, para entrada cuáles son los
+nombres de los archivos que están ahí, o
+
+nombres de los archivos que están ahí, o
+
+nombres de los archivos que están ahí, o
+sea, que nos haga un extracto de los
+
+sea, que nos haga un extracto de los
+
+sea, que nos haga un extracto de los
+nombres de los archivos que están ahí y
+
+nombres de los archivos que están ahí y
+
+nombres de los archivos que están ahí y
+nos lo genere en un Excel. Entonces,
+
+nos lo genere en un Excel. Entonces,
+
+nos lo genere en un Excel. Entonces,
+primero vamos a
+
+primero vamos a
+
+primero vamos a
+establecer el directorio para mayor
+
+establecer el directorio para mayor
+
+establecer el directorio para mayor
+orden. Vamos a meter esas carpetitas
+
+orden. Vamos a meter esas carpetitas
+
+orden. Vamos a meter esas carpetitas
+aquí en que le vamos a llamar
+
+aquí en que le vamos a llamar
+
+aquí en que le vamos a llamar
+automatización, tal vez mejor
+
+automatización, tal vez mejor
+
+automatización, tal vez mejor
+automatización
+
+de archivos.
+
+Entonces vamos a llevarnos estas tres
+
+Entonces vamos a llevarnos estas tres
+
+Entonces vamos a llevarnos estas tres
+para acá y este va a ser nuestro
+
+para acá y este va a ser nuestro
+
+para acá y este va a ser nuestro
+directorio que es donde vamos a estar
+
+directorio que es donde vamos a estar
+
+directorio que es donde vamos a estar
+trabajando, ¿verdad? Entonces vamos a
+
+trabajando, ¿verdad? Entonces vamos a
+
+trabajando, ¿verdad? Entonces vamos a
+venirnos aquí a Antigravity y vamos a ir
+
+venirnos aquí a Antigravity y vamos a ir
+
+venirnos aquí a Antigravity y vamos a ir
+a buscar esa carpetita, ¿verdad?
+
+a buscar esa carpetita, ¿verdad?
+
+a buscar esa carpetita, ¿verdad?
+Inclusive, pues ya la podemos tener por
+
+Inclusive, pues ya la podemos tener por
+
+Inclusive, pues ya la podemos tener por
+acá
+
+y entonces va a ser esta, ¿verdad?
+
+y entonces va a ser esta, ¿verdad?
+
+y entonces va a ser esta, ¿verdad?
+automatización de archivos ya la
+
+automatización de archivos ya la
+
+automatización de archivos ya la
+selecciono
+
+selecciono
+
+selecciono
+ahí. Bueno, yo tengo que tal y como
+
+ahí. Bueno, yo tengo que tal y como
+
+ahí. Bueno, yo tengo que tal y como
+habíamos visto anteriormente indicarle
+
+habíamos visto anteriormente indicarle
+
+habíamos visto anteriormente indicarle
+que es confiable utilizar estos
+
+que es confiable utilizar estos
+
+que es confiable utilizar estos
+archivos. Como mencionamos en unidades
+
+archivos. Como mencionamos en unidades
+
+archivos. Como mencionamos en unidades
+previas, Antigravity entonces va a
+
+previas, Antigravity entonces va a
+
+previas, Antigravity entonces va a
+permitirnos trabajar con inteligencia
+
+permitirnos trabajar con inteligencia
+
+permitirnos trabajar con inteligencia
+artificial y eh vimos un ejemplo de
+
+artificial y eh vimos un ejemplo de
+
+artificial y eh vimos un ejemplo de
+desarrollo de páginas web. Dijimos que
+
+desarrollo de páginas web. Dijimos que
+
+desarrollo de páginas web. Dijimos que
+podía hacer muchas cosas más porque lo
+
+podía hacer muchas cosas más porque lo
+
+podía hacer muchas cosas más porque lo
+vamos a utilizar dentro de Python,
+
+vamos a utilizar dentro de Python,
+
+vamos a utilizar dentro de Python,
+¿verdad? eh como un en este caso como un
+
+¿verdad? eh como un en este caso como un
+
+¿verdad? eh como un en este caso como un
+ID que nos ayude a trabajar en Python.
+
+ID que nos ayude a trabajar en Python.
+
+ID que nos ayude a trabajar en Python.
+Entonces, lo que vamos a hacer en
+
+Entonces, lo que vamos a hacer en
+
+Entonces, lo que vamos a hacer en
+primera instancia es irle dando ciertos
+
+primera instancia es irle dando ciertos
+
+primera instancia es irle dando ciertos
+órdenes concretos. Entonces, lo primero
+
+órdenes concretos. Entonces, lo primero
+
+órdenes concretos. Entonces, lo primero
+que vamos a hacer es algo muy sencillo.
+
+que vamos a hacer es algo muy sencillo.
+
+que vamos a hacer es algo muy sencillo.
+Vamos a pedirle
+
+Vamos a pedirle
+
+Vamos a pedirle
+que tome los archivos que están en la
+
+que tome los archivos que están en la
+
+que tome los archivos que están en la
+carpeta entrada y nos genere un código.
+
+carpeta entrada y nos genere un código.
+
+carpeta entrada y nos genere un código.
+Podemos decirle en Python, es muy
+
+Podemos decirle en Python, es muy
+
+Podemos decirle en Python, es muy
+probable que lo haga en Python, pero no
+
+probable que lo haga en Python, pero no
+
+probable que lo haga en Python, pero no
+importa. podemos indicar si no genere un
+
+importa. podemos indicar si no genere un
+
+importa. podemos indicar si no genere un
+código en Python permita extraer el
+
+código en Python permita extraer el
+
+código en Python permita extraer el
+nombre de los archivos PDF que están en
+
+nombre de los archivos PDF que están en
+
+nombre de los archivos PDF que están en
+esa carpeta
+
+esa carpeta
+
+esa carpeta
+y los genere en un archivo de Excel que
+
+y los genere en un archivo de Excel que
+
+y los genere en un archivo de Excel que
+debe estar en el en este directorio, o
+
+debe estar en el en este directorio, o
+
+debe estar en el en este directorio, o
+sea, debe estar en esta carpeta que
+
+sea, debe estar en esta carpeta que
+
+sea, debe estar en esta carpeta que
+hablamos de automatización de archivos.
+
+hablamos de automatización de archivos.
+
+hablamos de automatización de archivos.
+Archivo Excel debe estar en la carpeta
+
+Archivo Excel debe estar en la carpeta
+
+Archivo Excel debe estar en la carpeta
+en o directorio, ¿verdad?
+
+en o directorio, ¿verdad?
+
+en o directorio, ¿verdad?
+de archivos. Creo que con esta
+
+de archivos. Creo que con esta
+
+de archivos. Creo que con esta
+definición bastante general, ¿verdad?
+
+definición bastante general, ¿verdad?
+
+definición bastante general, ¿verdad?
+Aquí le podemos dar inclusive pues aquí
+
+Aquí le podemos dar inclusive pues aquí
+
+Aquí le podemos dar inclusive pues aquí
+podemos escoger el modelo que querramos.
+
+podemos escoger el modelo que querramos.
+
+podemos escoger el modelo que querramos.
+Podemos utilizar en este caso un Gemini
+
+Podemos utilizar en este caso un Gemini
+
+Podemos utilizar en este caso un Gemini
+3 Flash porque es una tarea bastante
+
+3 Flash porque es una tarea bastante
+
+3 Flash porque es una tarea bastante
+sencilla.
+
+sencilla.
+
+sencilla.
+Esperaríamos que lo logre generar
+
+Esperaríamos que lo logre generar
+
+Esperaríamos que lo logre generar
+inconvenientes.
+
+inconvenientes.
+
+inconvenientes.
+Analiza la petición.
+
+Y aquí nos da las tareas que él está
+
+Y aquí nos da las tareas que él está
+
+Y aquí nos da las tareas que él está
+proponiendo. Es explorar y verificar el
+
+proponiendo. Es explorar y verificar el
+
+proponiendo. Es explorar y verificar el
+script de extracción, crear el script
+
+script de extracción, crear el script
+
+script de extracción, crear el script
+que se va a llamar extraer nombres
+
+que se va a llamar extraer nombres
+
+que se va a llamar extraer nombres
+pdf.py, e va a ser un programa en Python
+
+pdf.py, e va a ser un programa en Python
+
+pdf.py, e va a ser un programa en Python
+ejetar el script y verificar la creación
+
+ejetar el script y verificar la creación
+
+ejetar el script y verificar la creación
+del Excel, documentar de proceso en un
+
+del Excel, documentar de proceso en un
+
+del Excel, documentar de proceso en un
+mapeo de proceso, ¿verdad? Aquí yo le
+
+mapeo de proceso, ¿verdad? Aquí yo le
+
+mapeo de proceso, ¿verdad? Aquí yo le
+puedo dar que corra para que
+
+puedo dar que corra para que
+
+puedo dar que corra para que
+efectivamente haga este proceso.
+
+Me da un plan de implementación. Aquí lo
+
+Me da un plan de implementación. Aquí lo
+
+Me da un plan de implementación. Aquí lo
+puedo abrir y ya me dice qué es lo que
+
+puedo abrir y ya me dice qué es lo que
+
+puedo abrir y ya me dice qué es lo que
+va a hacer. Básicamente voy a utilizar
+
+va a hacer. Básicamente voy a utilizar
+
+va a hacer. Básicamente voy a utilizar
+Path Lip para escanear la carpeta. Eso
+
+Path Lip para escanear la carpeta. Eso
+
+Path Lip para escanear la carpeta. Eso
+es una librería, ¿verdad? Y después va a
+
+es una librería, ¿verdad? Y después va a
+
+es una librería, ¿verdad? Y después va a
+identificar únicamente los archivos PDF.
+
+identificar únicamente los archivos PDF.
+
+identificar únicamente los archivos PDF.
+va a utilizar Pandas, que es otra
+
+va a utilizar Pandas, que es otra
+
+va a utilizar Pandas, que es otra
+librería que ya habíamos hablado para
+
+librería que ya habíamos hablado para
+
+librería que ya habíamos hablado para
+con una columna crear una columna que se
+
+con una columna crear una columna que se
+
+con una columna crear una columna que se
+llama nombre de archivo y guardar esto
+
+llama nombre de archivo y guardar esto
+
+llama nombre de archivo y guardar esto
+en una carpeta. Aquí nosotros podemos
+
+en una carpeta. Aquí nosotros podemos
+
+en una carpeta. Aquí nosotros podemos
+indicarle pues cualquier cosa, pero en
+
+indicarle pues cualquier cosa, pero en
+
+indicarle pues cualquier cosa, pero en
+realidad creo que estamos muy claritos
+
+realidad creo que estamos muy claritos
+
+realidad creo que estamos muy claritos
+de lo que nos está proponiendo y en
+
+de lo que nos está proponiendo y en
+
+de lo que nos está proponiendo y en
+realidad pues fue un proceso muy
+
+realidad pues fue un proceso muy
+
+realidad pues fue un proceso muy
+sencillo. Entonces ya él procedió de
+
+sencillo. Entonces ya él procedió de
+
+sencillo. Entonces ya él procedió de
+inmediato a realizarlo y aquí le podemos
+
+inmediato a realizarlo y aquí le podemos
+
+inmediato a realizarlo y aquí le podemos
+dar aceptar todos y aquí puedo ver el
+
+dar aceptar todos y aquí puedo ver el
+
+dar aceptar todos y aquí puedo ver el
+código tal cual. De hecho, él inclusive
+
+código tal cual. De hecho, él inclusive
+
+código tal cual. De hecho, él inclusive
+ya lo corrió.
+
+Entonces, veamos acá que ya él creó este
+
+Entonces, veamos acá que ya él creó este
+
+Entonces, veamos acá que ya él creó este
+archivo en Python que se llama extraer
+
+archivo en Python que se llama extraer
+
+archivo en Python que se llama extraer
+nombres PDF y aquí ya de una vez generó
+
+nombres PDF y aquí ya de una vez generó
+
+nombres PDF y aquí ya de una vez generó
+el listado de archivos.
+
+Bien, ya me generó aquí el listado de
+
+Bien, ya me generó aquí el listado de
+
+Bien, ya me generó aquí el listado de
+archivos. Entonces, yo aquí ya podría
+
+archivos. Entonces, yo aquí ya podría
+
+archivos. Entonces, yo aquí ya podría
+agregarle
+
+agregarle
+
+agregarle
+el correo, ¿verdad? y eh o podríamos
+
+el correo, ¿verdad? y eh o podríamos
+
+el correo, ¿verdad? y eh o podríamos
+hacer algo pues un poco más ordenado,
+
+hacer algo pues un poco más ordenado,
+
+hacer algo pues un poco más ordenado,
+¿verdad? Que en este caso
+
+¿verdad? Que en este caso
+
+¿verdad? Que en este caso
+sería tener
+
+sería tener
+
+sería tener
+otro archivito de Excel.
+
+otro archivito de Excel.
+
+otro archivito de Excel.
+Lo podemos hacer de muchas formas
+
+Lo podemos hacer de muchas formas
+
+Lo podemos hacer de muchas formas
+diferentes, pero vamos a hacer en vez de
+
+diferentes, pero vamos a hacer en vez de
+
+diferentes, pero vamos a hacer en vez de
+de contacto.
+
+Y entonces acá
+
+vamos a estarnos siempre trayendo estos
+
+vamos a estarnos siempre trayendo estos
+
+vamos a estarnos siempre trayendo estos
+estos nombres.
+
+nos lo llevamos acá
+
+y aquí le vamos poniendo el correo al
+
+y aquí le vamos poniendo el correo al
+
+y aquí le vamos poniendo el correo al
+cual vamos a asignar esto.
+
+cual vamos a asignar esto.
+
+cual vamos a asignar esto.
+De momento vamos a utilizar un correo
+
+por cuestión de simplicidad
+
+y ya. Entonces ahí estaría el BDC.
+
+y ya. Entonces ahí estaría el BDC.
+
+y ya. Entonces ahí estaría el BDC.
+El día de mañana si yo quisiera ejecutar
+
+El día de mañana si yo quisiera ejecutar
+
+El día de mañana si yo quisiera ejecutar
+esto, simplemente le doy doble clic. Él
+
+esto, simplemente le doy doble clic. Él
+
+esto, simplemente le doy doble clic. Él
+me va a abrir en diferentes opciones, me
+
+me va a abrir en diferentes opciones, me
+
+me va a abrir en diferentes opciones, me
+da para que yo pueda utilizarlo. Podemos
+
+da para que yo pueda utilizarlo. Podemos
+
+da para que yo pueda utilizarlo. Podemos
+utilizar Visual Studio Cop, sería una
+
+utilizar Visual Studio Cop, sería una
+
+utilizar Visual Studio Cop, sería una
+muy buena opción. Y aquí nosotros
+
+muy buena opción. Y aquí nosotros
+
+muy buena opción. Y aquí nosotros
+perfectamente podríamos ejecutar,
+
+perfectamente podríamos ejecutar,
+
+perfectamente podríamos ejecutar,
+¿verdad? Entonces ahí le damos en
+
+¿verdad? Entonces ahí le damos en
+
+¿verdad? Entonces ahí le damos en
+ejecutar.
+
+Bueno, ahí hicimos ejecución y
+
+Bueno, ahí hicimos ejecución y
+
+Bueno, ahí hicimos ejecución y
+depuración o simplemente le damos aquí
+
+depuración o simplemente le damos aquí
+
+depuración o simplemente le damos aquí
+en ejecutar
+
+en ejecutar
+
+en ejecutar
+y él va a proceder a ejecutar pues el
+
+y él va a proceder a ejecutar pues el
+
+y él va a proceder a ejecutar pues el
+programa. Y ven que aquí ya lo ejecutó.
+
+Ah, aquí me está diciendo un error
+
+Ah, aquí me está diciendo un error
+
+Ah, aquí me está diciendo un error
+porque me dice que eh
+
+porque me dice que eh
+
+porque me dice que eh
+porque ven que está tomando como
+
+porque ven que está tomando como
+
+porque ven que está tomando como
+directorio esta de acá, entonces tengo
+
+directorio esta de acá, entonces tengo
+
+directorio esta de acá, entonces tengo
+que cambiarle directorio. Pero tal vez
+
+que cambiarle directorio. Pero tal vez
+
+que cambiarle directorio. Pero tal vez
+la forma más sencilla de hacerlo es en
+
+la forma más sencilla de hacerlo es en
+
+la forma más sencilla de hacerlo es en
+el mismo antigravity, como vamos a tener
+
+el mismo antigravity, como vamos a tener
+
+el mismo antigravity, como vamos a tener
+este directorio por acá,
+
+este directorio por acá,
+
+este directorio por acá,
+entonces vea lo que podemos hacer. Voy a
+
+entonces vea lo que podemos hacer. Voy a
+
+entonces vea lo que podemos hacer. Voy a
+cerrar por acá y que entonces venimos
+
+cerrar por acá y que entonces venimos
+
+cerrar por acá y que entonces venimos
+otro nuevo día. Necesitamos
+
+correr esto, ¿verdad? Digamos que
+
+correr esto, ¿verdad? Digamos que
+
+correr esto, ¿verdad? Digamos que
+estamos aquí en blanco.
+
+estamos aquí en blanco.
+
+estamos aquí en blanco.
+Entonces, y digamos que inclusive esté
+
+Entonces, y digamos que inclusive esté
+
+Entonces, y digamos que inclusive esté
+cerrado el archivo, ¿verdad? El folder.
+
+cerrado el archivo, ¿verdad? El folder.
+
+cerrado el archivo, ¿verdad? El folder.
+Entonces tenemos que abrir o escoger
+
+Entonces tenemos que abrir o escoger
+
+Entonces tenemos que abrir o escoger
+nuevamente dónde está el proyecto. Todos
+
+nuevamente dónde está el proyecto. Todos
+
+nuevamente dónde está el proyecto. Todos
+los días, digamos, simpamente lo
+
+los días, digamos, simpamente lo
+
+los días, digamos, simpamente lo
+escogemos cada vez correo
+
+escogemos cada vez correo
+
+escogemos cada vez correo
+y entonces aquí seleccionamos igual la
+
+y entonces aquí seleccionamos igual la
+
+y entonces aquí seleccionamos igual la
+carpeta y va a estar el código en
+
+carpeta y va a estar el código en
+
+carpeta y va a estar el código en
+Python, ¿ven? Aquí. Entonces, yo puedo
+
+Python, ¿ven? Aquí. Entonces, yo puedo
+
+Python, ¿ven? Aquí. Entonces, yo puedo
+darle en correr
+
+darle en correr
+
+darle en correr
+y vean que él ya automáticamente lo
+
+y vean que él ya automáticamente lo
+
+y vean que él ya automáticamente lo
+generó. Bien, entonces esto es también
+
+generó. Bien, entonces esto es también
+
+generó. Bien, entonces esto es también
+una forma muy sencilla. En piso de
+
+una forma muy sencilla. En piso de
+
+una forma muy sencilla. En piso de
+Studio Cop lo podríamos haber hecho nada
+
+Studio Cop lo podríamos haber hecho nada
+
+Studio Cop lo podríamos haber hecho nada
+más que teníamos que haberle eh definido
+
+más que teníamos que haberle eh definido
+
+más que teníamos que haberle eh definido
+el directorio, pero bueno, ya que
+
+el directorio, pero bueno, ya que
+
+el directorio, pero bueno, ya que
+estamos haciendo todo acá en Antigravit,
+
+estamos haciendo todo acá en Antigravit,
+
+estamos haciendo todo acá en Antigravit,
+entonces también lo podemos hacer desde
+
+entonces también lo podemos hacer desde
+
+entonces también lo podemos hacer desde
+acá. E y eso entonces si ustedes logran
+
+acá. E y eso entonces si ustedes logran
+
+acá. E y eso entonces si ustedes logran
+ver acá hace que él lo corra, lo acaba
+
+ver acá hace que él lo corra, lo acaba
+
+ver acá hace que él lo corra, lo acaba
+de correr, ¿ven? Entonces ya lo tengo
+
+de correr, ¿ven? Entonces ya lo tengo
+
+de correr, ¿ven? Entonces ya lo tengo
+por acá esto. Entonces lo podría hacer
+
+por acá esto. Entonces lo podría hacer
+
+por acá esto. Entonces lo podría hacer
+cuántas veces eh quiera, ¿verdad?
+
+cuántas veces eh quiera, ¿verdad?
+
+cuántas veces eh quiera, ¿verdad?
+Después, eh, ahora vamos entonces a
+
+Después, eh, ahora vamos entonces a
+
+Después, eh, ahora vamos entonces a
+hacer que
+
+hacer que
+
+hacer que
+primero entonces eh procese todos estos
+
+primero entonces eh procese todos estos
+
+primero entonces eh procese todos estos
+archivos, pero yo tengo que definirle la
+
+archivos, pero yo tengo que definirle la
+
+archivos, pero yo tengo que definirle la
+base de datos de contactos. Eh, si yo
+
+base de datos de contactos. Eh, si yo
+
+base de datos de contactos. Eh, si yo
+subiera, supiera exactamente a cuál es,
+
+subiera, supiera exactamente a cuál es,
+
+subiera, supiera exactamente a cuál es,
+por ejemplo, en este caso, si todo va al
+
+por ejemplo, en este caso, si todo va al
+
+por ejemplo, en este caso, si todo va al
+mismo correo, vamos a poder
+
+mismo correo, vamos a poder
+
+mismo correo, vamos a poder
+automatizarlo. Muy sencillo. En caso de
+
+automatizarlo. Muy sencillo. En caso de
+
+automatizarlo. Muy sencillo. En caso de
+que todo no vaya al mismo correo,
+
+que todo no vaya al mismo correo,
+
+que todo no vaya al mismo correo,
+¿verdad? Como les decía, hay que extraer
+
+¿verdad? Como les decía, hay que extraer
+
+¿verdad? Como les decía, hay que extraer
+los datos que estén acá, pasarlos a
+
+los datos que estén acá, pasarlos a
+
+los datos que estén acá, pasarlos a
+contacto y decir, pues, ¿a qué correo
+
+contacto y decir, pues, ¿a qué correo
+
+contacto y decir, pues, ¿a qué correo
+debería ir cada contacto, ¿verdad? Pero
+
+debería ir cada contacto, ¿verdad? Pero
+
+debería ir cada contacto, ¿verdad? Pero
+supongamos que por simplicidad todo va a
+
+supongamos que por simplicidad todo va a
+
+supongamos que por simplicidad todo va a
+ir a este mismo correo. Entonces vamos a
+
+ir a este mismo correo. Entonces vamos a
+
+ir a este mismo correo. Entonces vamos a
+programar el siguiente proceso, ¿verdad?
+
+programar el siguiente proceso, ¿verdad?
+
+programar el siguiente proceso, ¿verdad?
+Entonces para eso vamos a utilizar ya
+
+Entonces para eso vamos a utilizar ya
+
+Entonces para eso vamos a utilizar ya
+aquí el chat y le vamos a le vamos a
+
+aquí el chat y le vamos a le vamos a
+
+aquí el chat y le vamos a le vamos a
+explicar el proceso que necesitamos.
+
+explicar el proceso que necesitamos.
+
+explicar el proceso que necesitamos.
+Entonces, requiero
+
+Entonces, requiero
+
+Entonces, requiero
+que hagas un algoritmo que tome los
+
+que hagas un algoritmo que tome los
+
+que hagas un algoritmo que tome los
+archivos PDF que están en la carpeta, en
+
+archivos PDF que están en la carpeta, en
+
+archivos PDF que están en la carpeta, en
+este caso es entrada, ¿verdad? Vamos a
+
+este caso es entrada, ¿verdad? Vamos a
+
+este caso es entrada, ¿verdad? Vamos a
+poner entre comillas para que lo
+
+poner entre comillas para que lo
+
+poner entre comillas para que lo
+entienda mejor y los convierta en
+
+entienda mejor y los convierta en
+
+entienda mejor y los convierta en
+documentos
+
+documentos
+
+documentos
+Word y los guarde y estos documentos de
+
+Word y los guarde y estos documentos de
+
+Word y los guarde y estos documentos de
+Word, ¿verdad?
+
+Word, ¿verdad?
+
+Word, ¿verdad?
+que son estos logán
+
+que son estos logán
+
+que son estos logán
+guardarse en la carpeta
+
+guardarse en la carpeta
+
+guardarse en la carpeta
+llamada a la que pudimos convertir a
+
+llamada a la que pudimos convertir a
+
+llamada a la que pudimos convertir a
+Word, pero más bien debería de ser
+
+Word, pero más bien debería de ser
+
+Word, pero más bien debería de ser
+convertidos, perdón, vamos,
+
+una carpeta llamada convertido a Word y
+
+una carpeta llamada convertido a Word y
+
+una carpeta llamada convertido a Word y
+los y PDF que ya fueron procesados ados
+
+los y PDF que ya fueron procesados ados
+
+los y PDF que ya fueron procesados ados
+ya pasaron por este proceso, es
+
+ya pasaron por este proceso, es
+
+ya pasaron por este proceso, es
+necesario o deben moverse a la carpeta
+
+necesario o deben moverse a la carpeta
+
+necesario o deben moverse a la carpeta
+llamada procesado. ¿Ven? Entonces aquí
+
+llamada procesado. ¿Ven? Entonces aquí
+
+llamada procesado. ¿Ven? Entonces aquí
+le estamos definiendo muy muy bien este
+
+le estamos definiendo muy muy bien este
+
+le estamos definiendo muy muy bien este
+proceso. En vez ya yo podría pedirle
+
+proceso. En vez ya yo podría pedirle
+
+proceso. En vez ya yo podría pedirle
+solo esto para ver que esto funcione
+
+solo esto para ver que esto funcione
+
+solo esto para ver que esto funcione
+bien, ¿verdad? Porque después lo que
+
+bien, ¿verdad? Porque después lo que
+
+bien, ¿verdad? Porque después lo que
+sigue es inclusive que él esté
+
+sigue es inclusive que él esté
+
+sigue es inclusive que él esté
+monitoreando o haciendo esto todos los
+
+monitoreando o haciendo esto todos los
+
+monitoreando o haciendo esto todos los
+días a las 7 y él tendría la capacidad
+
+días a las 7 y él tendría la capacidad
+
+días a las 7 y él tendría la capacidad
+inclusive de poder ir haciéndolo. Pero
+
+inclusive de poder ir haciéndolo. Pero
+
+inclusive de poder ir haciéndolo. Pero
+aquí eh pues de momento vamos a pedirle
+
+aquí eh pues de momento vamos a pedirle
+
+aquí eh pues de momento vamos a pedirle
+que empiece a trabajar en esta parte.
+
+que empiece a trabajar en esta parte.
+
+que empiece a trabajar en esta parte.
+Entonces aquí le vamos a dar en ejecutar
+
+y entonces va a analizar cómo proceder.
+
+Aquí inclusive podríamos ver qué modelo
+
+Aquí inclusive podríamos ver qué modelo
+
+Aquí inclusive podríamos ver qué modelo
+le habíamos puesto. Creo que le habíamos
+
+le habíamos puesto. Creo que le habíamos
+
+le habíamos puesto. Creo que le habíamos
+dejado el flash. Eh, ya cuando son
+
+dejado el flash. Eh, ya cuando son
+
+dejado el flash. Eh, ya cuando son
+acciones un poquito más complejas, sí
+
+acciones un poquito más complejas, sí
+
+acciones un poquito más complejas, sí
+valdría la pena, ¿verdad?,
+
+poder eh pasarlo algo un poco más más
+
+poder eh pasarlo algo un poco más más
+
+poder eh pasarlo algo un poco más más
+robusto. Aquí ven que nos está pidiendo,
+
+robusto. Aquí ven que nos está pidiendo,
+
+robusto. Aquí ven que nos está pidiendo,
+¿verdad?,
+
+¿verdad?,
+
+¿verdad?,
+que es necesario crear un ambiente tal
+
+que es necesario crear un ambiente tal
+
+que es necesario crear un ambiente tal
+cual habíamos hablado porque eh pues
+
+cual habíamos hablado porque eh pues
+
+cual habíamos hablado porque eh pues
+algunos paquetes que se van a utilizar
+
+algunos paquetes que se van a utilizar
+
+algunos paquetes que se van a utilizar
+no están en esa versión, que era un poco
+
+no están en esa versión, que era un poco
+
+no están en esa versión, que era un poco
+lo que habíamos hablado de por qué
+
+lo que habíamos hablado de por qué
+
+lo que habíamos hablado de por qué
+existen los ambientes. Entonces, le
+
+existen los ambientes. Entonces, le
+
+existen los ambientes. Entonces, le
+vamos a decir que lo cree.
+
+Y aquí nos va a dar pues las opciones de
+
+Y aquí nos va a dar pues las opciones de
+
+Y aquí nos va a dar pues las opciones de
+Python, que en este caso se tienen
+
+Python, que en este caso se tienen
+
+Python, que en este caso se tienen
+disponibles.
+
+disponibles.
+
+disponibles.
+Como son un poquito más viejas, pues
+
+Como son un poquito más viejas, pues
+
+Como son un poquito más viejas, pues
+aquí podríamos usar el 3.12.
+
+Aquí vean que él nos hizo el plan de
+
+Aquí vean que él nos hizo el plan de
+
+Aquí vean que él nos hizo el plan de
+implementación
+
+y nos dice qué es lo que en este caso él
+
+y nos dice qué es lo que en este caso él
+
+y nos dice qué es lo que en este caso él
+plantea realizar.
+
+Voy un momento nada más a cerrar esto
+
+Voy un momento nada más a cerrar esto
+
+Voy un momento nada más a cerrar esto
+por acá
+
+por acá
+
+por acá
+para ver el plan. Dice
+
+para ver el plan. Dice
+
+para ver el plan. Dice
+automatización de archivos. Entonces nos
+
+automatización de archivos. Entonces nos
+
+automatización de archivos. Entonces nos
+propone un archivo que ven que es en
+
+propone un archivo que ven que es en
+
+propone un archivo que ven que es en
+Python. Yo no le pedí que fuera en
+
+Python. Yo no le pedí que fuera en
+
+Python. Yo no le pedí que fuera en
+Python. Él supo que era la mejor forma
+
+Python. Él supo que era la mejor forma
+
+Python. Él supo que era la mejor forma
+de trabajarlo y utilizará esta librería
+
+de trabajarlo y utilizará esta librería
+
+de trabajarlo y utilizará esta librería
+que se llama PDF 2 docs para revisar la
+
+que se llama PDF 2 docs para revisar la
+
+que se llama PDF 2 docs para revisar la
+conversión B. Por eso las librerías son
+
+conversión B. Por eso las librerías son
+
+conversión B. Por eso las librerías son
+tan importantes por acá. Lista todos los
+
+tan importantes por acá. Lista todos los
+
+tan importantes por acá. Lista todos los
+archivos en PDF en entrada. Para cada
+
+archivos en PDF en entrada. Para cada
+
+archivos en PDF en entrada. Para cada
+archivo lo convierte adoc y lo guarda en
+
+archivo lo convierte adoc y lo guarda en
+
+archivo lo convierte adoc y lo guarda en
+convertido adc y mueve el archivo
+
+convertido adc y mueve el archivo
+
+convertido adc y mueve el archivo
+original a procesado. En todo lo hace
+
+original a procesado. En todo lo hace
+
+original a procesado. En todo lo hace
+correctamente. Si algo no me apareciera
+
+correctamente. Si algo no me apareciera
+
+correctamente. Si algo no me apareciera
+acá, yo puedo hacerle un comentario y
+
+acá, yo puedo hacerle un comentario y
+
+acá, yo puedo hacerle un comentario y
+decirlo, "Bueno, no, aquí hay un error,
+
+decirlo, "Bueno, no, aquí hay un error,
+
+decirlo, "Bueno, no, aquí hay un error,
+hay que hacerlo de tal y tal manera." Lo
+
+hay que hacerlo de tal y tal manera." Lo
+
+hay que hacerlo de tal y tal manera." Lo
+podríamos perfectamente hacer. Y
+
+podríamos perfectamente hacer. Y
+
+podríamos perfectamente hacer. Y
+pruebas, un plan de verificación. De
+
+pruebas, un plan de verificación. De
+
+pruebas, un plan de verificación. De
+hecho, él plantea algunas pruebas para
+
+hecho, él plantea algunas pruebas para
+
+hecho, él plantea algunas pruebas para
+verificar que todo esté correcto.
+
+verificar que todo esté correcto.
+
+verificar que todo esté correcto.
+Ejecuta el script, observa la salida en
+
+Ejecuta el script, observa la salida en
+
+Ejecuta el script, observa la salida en
+consola para asegurar que no hayan
+
+consola para asegurar que no hayan
+
+consola para asegurar que no hayan
+errores de conversión, verifica la
+
+errores de conversión, verifica la
+
+errores de conversión, verifica la
+existencia y también pues podemos hacer
+
+existencia y también pues podemos hacer
+
+existencia y también pues podemos hacer
+alguna verificación manual. Aquí listas
+
+alguna verificación manual. Aquí listas
+
+alguna verificación manual. Aquí listas
+las tareas que en este caso tiene que
+
+las tareas que en este caso tiene que
+
+las tareas que en este caso tiene que
+hacer. Ya él las ejecutó porque yo le di
+
+hacer. Ya él las ejecutó porque yo le di
+
+hacer. Ya él las ejecutó porque yo le di
+la posibilidad en la configuración de
+
+la posibilidad en la configuración de
+
+la posibilidad en la configuración de
+que él fuera ejecutando de una vez. Si
+
+que él fuera ejecutando de una vez. Si
+
+que él fuera ejecutando de una vez. Si
+no, pues simplemente hay que irle dando
+
+no, pues simplemente hay que irle dando
+
+no, pues simplemente hay que irle dando
+correr, correr, correr, aceptar. Yo ya
+
+correr, correr, correr, aceptar. Yo ya
+
+correr, correr, correr, aceptar. Yo ya
+he hecho, digamos, muchas
+
+he hecho, digamos, muchas
+
+he hecho, digamos, muchas
+automatizaciones de este tipo. Entonces,
+
+automatizaciones de este tipo. Entonces,
+
+automatizaciones de este tipo. Entonces,
+ya él tiene como cierta libertad para
+
+ya él tiene como cierta libertad para
+
+ya él tiene como cierta libertad para
+proceder de esa manera.
+
+proceder de esa manera.
+
+proceder de esa manera.
+Y aquí vean que
+
+Y aquí vean que
+
+Y aquí vean que
+nos muestra este esta ruta crítica que
+
+nos muestra este esta ruta crítica que
+
+nos muestra este esta ruta crítica que
+al fin cabo ejecutó. Entonces, ya nos da
+
+al fin cabo ejecutó. Entonces, ya nos da
+
+al fin cabo ejecutó. Entonces, ya nos da
+una vez que hizo todo el proceso,
+
+una vez que hizo todo el proceso,
+
+una vez que hizo todo el proceso,
+nos dice eh que creó este script, que
+
+nos dice eh que creó este script, que
+
+nos dice eh que creó este script, que
+instaló esta dependencia
+
+instaló esta dependencia
+
+instaló esta dependencia
+y que eh estas son las carpetas que está
+
+y que eh estas son las carpetas que está
+
+y que eh estas son las carpetas que está
+gestionando y ya esta nos dice cómo le
+
+gestionando y ya esta nos dice cómo le
+
+gestionando y ya esta nos dice cómo le
+fue. dice que procesó los 20 archivos,
+
+fue. dice que procesó los 20 archivos,
+
+fue. dice que procesó los 20 archivos,
+los convirtió a doc
+
+los convirtió a doc
+
+los convirtió a doc
+y que eh aquí nos muestra alguno de los
+
+y que eh aquí nos muestra alguno de los
+
+y que eh aquí nos muestra alguno de los
+archivos de ejemplos generados y que
+
+archivos de ejemplos generados y que
+
+archivos de ejemplos generados y que
+entonces ya podríamos perfectamente
+
+entonces ya podríamos perfectamente
+
+entonces ya podríamos perfectamente
+revisarlo. Entonces vamos a irnos a la
+
+revisarlo. Entonces vamos a irnos a la
+
+revisarlo. Entonces vamos a irnos a la
+carpeta a verificar que efectivamente
+
+carpeta a verificar que efectivamente
+
+carpeta a verificar que efectivamente
+haya hecho eso. Bueno, aquí creó un
+
+haya hecho eso. Bueno, aquí creó un
+
+haya hecho eso. Bueno, aquí creó un
+ambiente, por eso es que ven este punto
+
+ambiente, por eso es que ven este punto
+
+ambiente, por eso es que ven este punto
+BE creó este e
+
+BE creó este e
+
+BE creó este e
+archivo de Python que dice convertir PDF
+
+archivo de Python que dice convertir PDF
+
+archivo de Python que dice convertir PDF
+Word, que fue el que efectivamente
+
+Word, que fue el que efectivamente
+
+Word, que fue el que efectivamente
+generó. Y aquí yo puedo ver que en
+
+generó. Y aquí yo puedo ver que en
+
+generó. Y aquí yo puedo ver que en
+entrada ya no queda ninguno, deberían de
+
+entrada ya no queda ninguno, deberían de
+
+entrada ya no queda ninguno, deberían de
+estar en procesados. Efectivamente lo
+
+estar en procesados. Efectivamente lo
+
+estar en procesados. Efectivamente lo
+hizo. Vean aquí donde están y puedo ver
+
+hizo. Vean aquí donde están y puedo ver
+
+hizo. Vean aquí donde están y puedo ver
+que los haya convertido a Word. Aquí
+
+que los haya convertido a Word. Aquí
+
+que los haya convertido a Word. Aquí
+dice que los convirtió a Word y puedo
+
+dice que los convirtió a Word y puedo
+
+dice que los convirtió a Word y puedo
+abrir cada uno de ellos para ver si la
+
+abrir cada uno de ellos para ver si la
+
+abrir cada uno de ellos para ver si la
+conversión fue correcta. Y aquí puedo
+
+conversión fue correcta. Y aquí puedo
+
+conversión fue correcta. Y aquí puedo
+ver que lo hizo perfectamente.
+
+ver que lo hizo perfectamente.
+
+ver que lo hizo perfectamente.
+Entonces, ya realizó este proceso.
+
+Entonces, ya realizó este proceso.
+
+Entonces, ya realizó este proceso.
+Ahora,
+
+Ahora,
+
+Ahora,
+entonces, ¿qué sigue? Bueno, el paso que
+
+entonces, ¿qué sigue? Bueno, el paso que
+
+entonces, ¿qué sigue? Bueno, el paso que
+sigue acá,
+
+sigue acá,
+
+sigue acá,
+yo aquí ya puedo cerrar este proceso que
+
+yo aquí ya puedo cerrar este proceso que
+
+yo aquí ya puedo cerrar este proceso que
+hicimos acá, ¿verdad?
+
+hicimos acá, ¿verdad?
+
+hicimos acá, ¿verdad?
+Y puedo, vean que aquí seguimos usando
+
+Y puedo, vean que aquí seguimos usando
+
+Y puedo, vean que aquí seguimos usando
+Gemini 3 Flash. Voy a utilizar un
+
+Gemini 3 Flash. Voy a utilizar un
+
+Gemini 3 Flash. Voy a utilizar un
+poquito más
+
+poquito más
+
+poquito más
+elevado,
+
+elevado,
+
+elevado,
+high.
+
+high.
+
+high.
+Y bueno, aquí tengo que darle aceptar
+
+Y bueno, aquí tengo que darle aceptar
+
+Y bueno, aquí tengo que darle aceptar
+todo para que ya en este caso se
+
+todo para que ya en este caso se
+
+todo para que ya en este caso se
+entendiera que todo estuvo correcto.
+
+entendiera que todo estuvo correcto.
+
+entendiera que todo estuvo correcto.
+Ahora yo le puedo entonces solicitar que
+
+Ahora yo le puedo entonces solicitar que
+
+Ahora yo le puedo entonces solicitar que
+se requiere y lo hice así para no
+
+se requiere y lo hice así para no
+
+se requiere y lo hice así para no
+hacerlo todo de golpe, aunque vean que
+
+hacerlo todo de golpe, aunque vean que
+
+hacerlo todo de golpe, aunque vean que
+él en el plan de implementación detalló
+
+él en el plan de implementación detalló
+
+él en el plan de implementación detalló
+muy bien todo lo que él tenía que ir
+
+muy bien todo lo que él tenía que ir
+
+muy bien todo lo que él tenía que ir
+haciendo, ¿verdad?
+
+haciendo, ¿verdad?
+
+haciendo, ¿verdad?
+Pero acá eh vean que yo perfectamente
+
+Pero acá eh vean que yo perfectamente
+
+Pero acá eh vean que yo perfectamente
+podría haber modificado cualquier
+
+podría haber modificado cualquier
+
+podría haber modificado cualquier
+elemento o incluso en esta ruta de
+
+elemento o incluso en esta ruta de
+
+elemento o incluso en esta ruta de
+resultado, ¿verdad?, que él nos ofrece,
+
+resultado, ¿verdad?, que él nos ofrece,
+
+resultado, ¿verdad?, que él nos ofrece,
+yo podría perfectamente haberle dado un
+
+yo podría perfectamente haberle dado un
+
+yo podría perfectamente haberle dado un
+comentario aquí y dicho, "Bueno, esto no
+
+comentario aquí y dicho, "Bueno, esto no
+
+comentario aquí y dicho, "Bueno, esto no
+lo hizo bien, tuvo un error, etcétera.
+
+lo hizo bien, tuvo un error, etcétera.
+
+lo hizo bien, tuvo un error, etcétera.
+Eso yo pude perfectamente haberlo
+
+Eso yo pude perfectamente haberlo
+
+Eso yo pude perfectamente haberlo
+hecho". Aquí por cuestión de tiempo,
+
+hecho". Aquí por cuestión de tiempo,
+
+hecho". Aquí por cuestión de tiempo,
+¿verdad?, del video, pues no nos
+
+¿verdad?, del video, pues no nos
+
+¿verdad?, del video, pues no nos
+detallamos tanto en esto, ¿verdad? Ahora
+
+detallamos tanto en esto, ¿verdad? Ahora
+
+detallamos tanto en esto, ¿verdad? Ahora
+yo le voy a dar un siguiente punto que
+
+yo le voy a dar un siguiente punto que
+
+yo le voy a dar un siguiente punto que
+le voy a decir, se requiere que
+
+le voy a decir, se requiere que
+
+le voy a decir, se requiere que
+este proceso
+
+este proceso
+
+este proceso
+se ejecute
+
+se ejecute
+
+se ejecute
+todos los días.
+
+todos los días.
+
+todos los días.
+Bueno, primero que todo vamos a hacer
+
+Bueno, primero que todo vamos a hacer
+
+Bueno, primero que todo vamos a hacer
+algo antes, que es que envíe todo esto
+
+algo antes, que es que envíe todo esto
+
+algo antes, que es que envíe todo esto
+utilizando mi correo de Gmail
+
+utilizando mi correo de Gmail
+
+utilizando mi correo de Gmail
+a una dirección de correo. Entonces, le
+
+a una dirección de correo. Entonces, le
+
+a una dirección de correo. Entonces, le
+voy a decir ahora se requiere
+
+que los archivos
+
+que los archivos
+
+que los archivos
+procesados
+
+en el día de hoy, ¿verdad? Es importante
+
+en el día de hoy, ¿verdad? Es importante
+
+en el día de hoy, ¿verdad? Es importante
+que sean los de hoy.
+
+Se envíen de modo conjunto. Vamos a
+
+Se envíen de modo conjunto. Vamos a
+
+Se envíen de modo conjunto. Vamos a
+enviarlos todos en uno solo. Yo
+
+enviarlos todos en uno solo. Yo
+
+enviarlos todos en uno solo. Yo
+perfectamente podría haber dicho que
+
+perfectamente podría haber dicho que
+
+perfectamente podría haber dicho que
+fuera uno por uno, ¿verdad? se envíen de
+
+fuera uno por uno, ¿verdad? se envíen de
+
+fuera uno por uno, ¿verdad? se envíen de
+modo conjunto a la dirección
+
+modo conjunto a la dirección
+
+modo conjunto a la dirección
+de correo y ya aquí como les digo, esto
+
+de correo y ya aquí como les digo, esto
+
+de correo y ya aquí como les digo, esto
+es porque vamos a usar un solo correo.
+
+es porque vamos a usar un solo correo.
+
+es porque vamos a usar un solo correo.
+Si no, yo le hubiera dicho, tome eh la
+
+Si no, yo le hubiera dicho, tome eh la
+
+Si no, yo le hubiera dicho, tome eh la
+base de datos de contacto y realice un
+
+base de datos de contacto y realice un
+
+base de datos de contacto y realice un
+proceso para lograr, en este caso,
+
+proceso para lograr, en este caso,
+
+proceso para lograr, en este caso,
+asociar cada PDF, ¿verdad?, de resultado
+
+asociar cada PDF, ¿verdad?, de resultado
+
+asociar cada PDF, ¿verdad?, de resultado
+a un contacto, ¿verdad? Eso
+
+a un contacto, ¿verdad? Eso
+
+a un contacto, ¿verdad? Eso
+perfectamente lo podríamos haber hecho.
+
+perfectamente lo podríamos haber hecho.
+
+perfectamente lo podríamos haber hecho.
+De momento, por simplicidad, vamos a
+
+De momento, por simplicidad, vamos a
+
+De momento, por simplicidad, vamos a
+hacer que todo se vaya a esta dirección.
+
+o inclusive más bien voy a voy a más
+
+o inclusive más bien voy a voy a más
+
+o inclusive más bien voy a voy a más
+bien enviarla desde esta desde esta
+
+bien enviarla desde esta desde esta
+
+bien enviarla desde esta desde esta
+dirección y que se me vaya a mi otra
+
+dirección y que se me vaya a mi otra
+
+dirección y que se me vaya a mi otra
+dirección de correo que escomben
+
+ser enviados desde mi cuenta
+
+diseñar
+
+diseñar
+
+diseñar
+un asunto y un mensaje en el cuerpo que
+
+un asunto y un mensaje en el cuerpo que
+
+un asunto y un mensaje en el cuerpo que
+se ajuste adecuado.
+
+Esto lo hicimos porque lo estamos
+
+Esto lo hicimos porque lo estamos
+
+Esto lo hicimos porque lo estamos
+haciendo porque lo estamos trabajando
+
+haciendo porque lo estamos trabajando
+
+haciendo porque lo estamos trabajando
+desde Gmail. Efectivamente yo podría
+
+desde Gmail. Efectivamente yo podría
+
+desde Gmail. Efectivamente yo podría
+haber usado el Outlook y que él lo
+
+haber usado el Outlook y que él lo
+
+haber usado el Outlook y que él lo
+enviara, ¿verdad? Entonces ya son
+
+enviara, ¿verdad? Entonces ya son
+
+enviara, ¿verdad? Entonces ya son
+cuestiones de cómo lo queramos trabajar.
+
+cuestiones de cómo lo queramos trabajar.
+
+cuestiones de cómo lo queramos trabajar.
+Muy bien. Yo aquí entonces lo voy a
+
+Muy bien. Yo aquí entonces lo voy a
+
+Muy bien. Yo aquí entonces lo voy a
+poner igual en modo de planificación,
+
+poner igual en modo de planificación,
+
+poner igual en modo de planificación,
+¿verdad? porque quiero que trabaje todo
+
+¿verdad? porque quiero que trabaje todo
+
+¿verdad? porque quiero que trabaje todo
+el proceso y le voy a dar entonces que
+
+el proceso y le voy a dar entonces que
+
+el proceso y le voy a dar entonces que
+procedo.
+
+Ahí está analizando, ¿verdad?, la
+
+Ahí está analizando, ¿verdad?, la
+
+Ahí está analizando, ¿verdad?, la
+solicitud. Vamos entonces a un momento
+
+solicitud. Vamos entonces a un momento
+
+solicitud. Vamos entonces a un momento
+para eh ver el proceso tal cual para que
+
+para eh ver el proceso tal cual para que
+
+para eh ver el proceso tal cual para que
+eh no no le debate mucho tiempo acá de
+
+eh no no le debate mucho tiempo acá de
+
+eh no no le debate mucho tiempo acá de
+la grabación y ver pues el resultado que
+
+la grabación y ver pues el resultado que
+
+la grabación y ver pues el resultado que
+va.
+
+va.
+
+va.
+Muy bien, aquí ya terminó generando,
+
+Muy bien, aquí ya terminó generando,
+
+Muy bien, aquí ya terminó generando,
+entonces ya me dijo, "Bueno, este es el
+
+entonces ya me dijo, "Bueno, este es el
+
+entonces ya me dijo, "Bueno, este es el
+plan de funcionamiento. Me indica que
+
+plan de funcionamiento. Me indica que
+
+plan de funcionamiento. Me indica que
+tengo que primero crear una eh
+
+tengo que primero crear una eh
+
+tengo que primero crear una eh
+contraseña de aplicación de Google. Esto
+
+contraseña de aplicación de Google. Esto
+
+contraseña de aplicación de Google. Esto
+pues acá eh se puede hacer. Eso es
+
+pues acá eh se puede hacer. Eso es
+
+pues acá eh se puede hacer. Eso es
+cuestión de de seguir el procedimiento
+
+cuestión de de seguir el procedimiento
+
+cuestión de de seguir el procedimiento
+respectivo que tiene Google para esto.
+
+respectivo que tiene Google para esto.
+
+respectivo que tiene Google para esto.
+Básicamente dar una contraseña para que
+
+Básicamente dar una contraseña para que
+
+Básicamente dar una contraseña para que
+el equipo pueda entonces disponer o
+
+el equipo pueda entonces disponer o
+
+el equipo pueda entonces disponer o
+utilizar eh propiamente eh en este caso
+
+utilizar eh propiamente eh en este caso
+
+utilizar eh propiamente eh en este caso
+la cuenta de Google. Entonces, que el
+
+la cuenta de Google. Entonces, que el
+
+la cuenta de Google. Entonces, que el
+ordenador pueda eh realizar este
+
+ordenador pueda eh realizar este
+
+ordenador pueda eh realizar este
+proceso. Esto ya es algo adicional acá
+
+proceso. Esto ya es algo adicional acá
+
+proceso. Esto ya es algo adicional acá
+por efectos de tiempo y no lo vamos a
+
+por efectos de tiempo y no lo vamos a
+
+por efectos de tiempo y no lo vamos a
+hacer en este video, pero es digamos una
+
+hacer en este video, pero es digamos una
+
+hacer en este video, pero es digamos una
+configuración que habría que hacer. Y ya
+
+configuración que habría que hacer. Y ya
+
+configuración que habría que hacer. Y ya
+después de eso nos dice, "Okay, vamos a
+
+después de eso nos dice, "Okay, vamos a
+
+después de eso nos dice, "Okay, vamos a
+crear este eh nuevo algoritmo en este
+
+crear este eh nuevo algoritmo en este
+
+crear este eh nuevo algoritmo en este
+programa que se llama enviar reporte
+
+programa que se llama enviar reporte
+
+programa que se llama enviar reporte
+diario a EPY y nos dice, bueno, ¿qué es
+
+diario a EPY y nos dice, bueno, ¿qué es
+
+diario a EPY y nos dice, bueno, ¿qué es
+lo que vamos a hacer?" Vamos entonces a
+
+lo que vamos a hacer?" Vamos entonces a
+
+lo que vamos a hacer?" Vamos entonces a
+hacer un correo. Aquí nos da una muestra
+
+hacer un correo. Aquí nos da una muestra
+
+hacer un correo. Aquí nos da una muestra
+del correo que puede realizar. nosotros
+
+del correo que puede realizar. nosotros
+
+del correo que puede realizar. nosotros
+perfectamente podríamos comentar o
+
+perfectamente podríamos comentar o
+
+perfectamente podríamos comentar o
+ajustar cualquier elemento que
+
+ajustar cualquier elemento que
+
+ajustar cualquier elemento que
+querramos, ¿verdad? Podemos también
+
+querramos, ¿verdad? Podemos también
+
+querramos, ¿verdad? Podemos también
+modificar cualquiera de estos elementos
+
+modificar cualquiera de estos elementos
+
+modificar cualquiera de estos elementos
+que nos parezca que sea necesario
+
+que nos parezca que sea necesario
+
+que nos parezca que sea necesario
+modificar y ya después entonces él eh
+
+modificar y ya después entonces él eh
+
+modificar y ya después entonces él eh
+también hace una ejecución y una
+
+también hace una ejecución y una
+
+también hace una ejecución y una
+verificación correspondiente. Acá eh
+
+verificación correspondiente. Acá eh
+
+verificación correspondiente. Acá eh
+pues ya nos habla un poquito del
+
+pues ya nos habla un poquito del
+
+pues ya nos habla un poquito del
+resultado, ¿verdad? Ya aquí permití que
+
+resultado, ¿verdad? Ya aquí permití que
+
+resultado, ¿verdad? Ya aquí permití que
+corriera y ya generó todo, ¿verdad? Y
+
+corriera y ya generó todo, ¿verdad? Y
+
+corriera y ya generó todo, ¿verdad? Y
+aquí ya me generó el script, que como
+
+aquí ya me generó el script, que como
+
+aquí ya me generó el script, que como
+ustedes ven es este que dice eh
+
+ustedes ven es este que dice eh
+
+ustedes ven es este que dice eh
+enviarreortediario.py.
+
+enviarreortediario.py.
+
+enviarreortediario.py.
+Y entonces ya ahora sí él hace el
+
+Y entonces ya ahora sí él hace el
+
+Y entonces ya ahora sí él hace el
+proceso necesario para eh primero que
+
+proceso necesario para eh primero que
+
+proceso necesario para eh primero que
+todo correr esta esta conversión de PDF
+
+todo correr esta esta conversión de PDF
+
+todo correr esta esta conversión de PDF
+Award y después hacer el envío del
+
+Award y después hacer el envío del
+
+Award y después hacer el envío del
+correo. Y aquí pues está el código que
+
+correo. Y aquí pues está el código que
+
+correo. Y aquí pues está el código que
+generó y aquí están las listas de
+
+generó y aquí están las listas de
+
+generó y aquí están las listas de
+acciones que corresponden. Aquí pues
+
+acciones que corresponden. Aquí pues
+
+acciones que corresponden. Aquí pues
+todavía no lo no lo podemos hacer porque
+
+todavía no lo no lo podemos hacer porque
+
+todavía no lo no lo podemos hacer porque
+pues necesitamos hacer ese proceso
+
+pues necesitamos hacer ese proceso
+
+pues necesitamos hacer ese proceso
+respectivo, pero aquí ya aceptamos,
+
+respectivo, pero aquí ya aceptamos,
+
+respectivo, pero aquí ya aceptamos,
+¿verdad? Y tendríamos
+
+¿verdad? Y tendríamos
+
+¿verdad? Y tendríamos
+el detalle. Nada más nos falta un último
+
+el detalle. Nada más nos falta un último
+
+el detalle. Nada más nos falta un último
+paso, que en este caso sería excelente
+
+paso, que en este caso sería excelente
+
+paso, que en este caso sería excelente
+trabajo.
+
+trabajo.
+
+trabajo.
+Ahora requiero que
+
+Ahora requiero que
+
+Ahora requiero que
+este proceso
+
+este proceso
+
+este proceso
+se realice de modo automático
+
+todos los días
+
+todos los días
+
+todos los días
+a las 7 a. de modo que
+
+a las 7 a. de modo que
+
+a las 7 a. de modo que
+revise
+
+revise
+
+revise
+en la carpeta entrada
+
+los PDF que ahí se encuentren y haga el
+
+los PDF que ahí se encuentren y haga el
+
+los PDF que ahí se encuentren y haga el
+proceso de conversión
+
+proceso de conversión
+
+proceso de conversión
+y envío de correo que hemos revisado o
+
+y envío de correo que hemos revisado o
+
+y envío de correo que hemos revisado o
+que hemos desarrollado.
+
+que hemos desarrollado.
+
+que hemos desarrollado.
+Y una vez hecho eso, igual él va a
+
+Y una vez hecho eso, igual él va a
+
+Y una vez hecho eso, igual él va a
+generar acá. Vamos a darle nada más un
+
+generar acá. Vamos a darle nada más un
+
+generar acá. Vamos a darle nada más un
+chance para que trabaje y ya vemos el
+
+chance para que trabaje y ya vemos el
+
+chance para que trabaje y ya vemos el
+resultado que nos generaría.
+
+resultado que nos generaría.
+
+resultado que nos generaría.
+Bien, después de que ya lo dejamos
+
+Bien, después de que ya lo dejamos
+
+Bien, después de que ya lo dejamos
+trabajar por un rato, entonces podemos
+
+trabajar por un rato, entonces podemos
+
+trabajar por un rato, entonces podemos
+ver el resultado que nos generó. Bueno,
+
+ver el resultado que nos generó. Bueno,
+
+ver el resultado que nos generó. Bueno,
+acá está el program que le indicamos y
+
+acá está el program que le indicamos y
+
+acá está el program que le indicamos y
+entonces ya dice planificación del
+
+entonces ya dice planificación del
+
+entonces ya dice planificación del
+cronograma automático. Entonces, usuario
+
+cronograma automático. Entonces, usuario
+
+cronograma automático. Entonces, usuario
+solicitado automatizar el proceso
+
+solicitado automatizar el proceso
+
+solicitado automatizar el proceso
+diariamente, ¿verdad? A las 7 de la
+
+diariamente, ¿verdad? A las 7 de la
+
+diariamente, ¿verdad? A las 7 de la
+mañana. Entonces aquí nos está un plan
+
+mañana. Entonces aquí nos está un plan
+
+mañana. Entonces aquí nos está un plan
+de implementación. Entonces, nos dice
+
+de implementación. Entonces, nos dice
+
+de implementación. Entonces, nos dice
+este plan detalla cómo automatizar la
+
+este plan detalla cómo automatizar la
+
+este plan detalla cómo automatizar la
+ejecución de escrib existentes para que
+
+ejecución de escrib existentes para que
+
+ejecución de escrib existentes para que
+corran todos los días a las 7 de la
+
+corran todos los días a las 7 de la
+
+corran todos los días a las 7 de la
+mañana. nos da aquí una advertencia que
+
+mañana. nos da aquí una advertencia que
+
+mañana. nos da aquí una advertencia que
+dice para que la automatización funcione
+
+dice para que la automatización funcione
+
+dice para que la automatización funcione
+es script y tu computadora deben estar
+
+es script y tu computadora deben estar
+
+es script y tu computadora deben estar
+encendidos y ejecutándose. A esa hora se
+
+encendidos y ejecutándose. A esa hora se
+
+encendidos y ejecutándose. A esa hora se
+creará un archivo para almacenar tu
+
+creará un archivo para almacenar tu
+
+creará un archivo para almacenar tu
+contraseña de aplicación. Asegúrate de
+
+contraseña de aplicación. Asegúrate de
+
+contraseña de aplicación. Asegúrate de
+no compartir este archivo. Entonces es
+
+no compartir este archivo. Entonces es
+
+no compartir este archivo. Entonces es
+importante que la computadora esté en
+
+importante que la computadora esté en
+
+importante que la computadora esté en
+este caso eh abierta, ¿verdad? Y que
+
+este caso eh abierta, ¿verdad? Y que
+
+este caso eh abierta, ¿verdad? Y que
+este script exista, ¿verdad? Este que se
+
+este script exista, ¿verdad? Este que se
+
+este script exista, ¿verdad? Este que se
+llama automatizaciónprogramada.py
+
+llama automatizaciónprogramada.py
+
+llama automatizaciónprogramada.py
+fue el script que generó. Inclusive si
+
+fue el script que generó. Inclusive si
+
+fue el script que generó. Inclusive si
+le damos clic aquí, porque bueno, ya
+
+le damos clic aquí, porque bueno, ya
+
+le damos clic aquí, porque bueno, ya
+aquí ya lo generó, ¿verdad? Pero como
+
+aquí ya lo generó, ¿verdad? Pero como
+
+aquí ya lo generó, ¿verdad? Pero como
+ustedes pueden ver este es el script
+
+ustedes pueden ver este es el script
+
+ustedes pueden ver este es el script
+donde él hace el proceso de ejecución,
+
+donde él hace el proceso de ejecución,
+
+donde él hace el proceso de ejecución,
+¿verdad? Bueno, pues vamos a abrir aquí
+
+¿verdad? Bueno, pues vamos a abrir aquí
+
+¿verdad? Bueno, pues vamos a abrir aquí
+el plan de implementación
+
+el plan de implementación
+
+el plan de implementación
+y entonces ya aquí nos dice cuáles son
+
+y entonces ya aquí nos dice cuáles son
+
+y entonces ya aquí nos dice cuáles son
+los cambios propuestos. hace un nuevo
+
+los cambios propuestos. hace un nuevo
+
+los cambios propuestos. hace un nuevo
+script, un nuevo algoritmo acá, un nuevo
+
+script, un nuevo algoritmo acá, un nuevo
+
+script, un nuevo algoritmo acá, un nuevo
+eh código de script donde eh hace un
+
+eh código de script donde eh hace un
+
+eh código de script donde eh hace un
+proceso de configuración para que
+
+proceso de configuración para que
+
+proceso de configuración para que
+nosotros guardemos la contraseña acá y
+
+nosotros guardemos la contraseña acá y
+
+nosotros guardemos la contraseña acá y
+así él pueda acceder a esta a esta
+
+así él pueda acceder a esta a esta
+
+así él pueda acceder a esta a esta
+contraseña y pues no tener que estásela
+
+contraseña y pues no tener que estásela
+
+contraseña y pues no tener que estásela
+dando todos los días, sino que la vamos
+
+dando todos los días, sino que la vamos
+
+dando todos los días, sino que la vamos
+a almacenar aquí y aquí dentro. Entonces
+
+a almacenar aquí y aquí dentro. Entonces
+
+a almacenar aquí y aquí dentro. Entonces
+él la va a extraer. Después de eso,
+
+él la va a extraer. Después de eso,
+
+él la va a extraer. Después de eso,
+entonces
+
+entonces
+
+entonces
+aplicará esta automatización programada,
+
+aplicará esta automatización programada,
+
+aplicará esta automatización programada,
+que es este script que está por acá,
+
+que es este script que está por acá,
+
+que es este script que está por acá,
+donde utilizará la librería eh que está
+
+donde utilizará la librería eh que está
+
+donde utilizará la librería eh que está
+en este caso eh programada para hacer
+
+en este caso eh programada para hacer
+
+en este caso eh programada para hacer
+estos eh procesos de modo automático. y
+
+estos eh procesos de modo automático. y
+
+estos eh procesos de modo automático. y
+procederá entonces ahora sí a ejecutar
+
+procederá entonces ahora sí a ejecutar
+
+procederá entonces ahora sí a ejecutar
+estas dos estos dos script, el de
+
+estas dos estos dos script, el de
+
+estas dos estos dos script, el de
+convertir los PDFs a Word y después de
+
+convertir los PDFs a Word y después de
+
+convertir los PDFs a Word y después de
+enviar el reporte diario
+
+enviar el reporte diario
+
+enviar el reporte diario
+por correo y definirá una tarea
+
+por correo y definirá una tarea
+
+por correo y definirá una tarea
+programada todos los días a las 7 de la
+
+programada todos los días a las 7 de la
+
+programada todos los días a las 7 de la
+mañana y mantendrá un bloque infinito.
+
+mañana y mantendrá un bloque infinito.
+
+mañana y mantendrá un bloque infinito.
+Acá entonces ya podemos ver que
+
+Acá entonces ya podemos ver que
+
+Acá entonces ya podemos ver que
+podríamos hacer unas modificaciones
+
+podríamos hacer unas modificaciones
+
+podríamos hacer unas modificaciones
+diarias. Ahí le dijimos todos los días.
+
+diarias. Ahí le dijimos todos los días.
+
+diarias. Ahí le dijimos todos los días.
+Yo podría decirle todos los días
+
+Yo podría decirle todos los días
+
+Yo podría decirle todos los días
+laborales, ¿verdad? Eso podría haber
+
+laborales, ¿verdad? Eso podría haber
+
+laborales, ¿verdad? Eso podría haber
+sido un cambio importante que le
+
+sido un cambio importante que le
+
+sido un cambio importante que le
+pudiéramos haber dado. Aquí nos indica
+
+pudiéramos haber dado. Aquí nos indica
+
+pudiéramos haber dado. Aquí nos indica
+las dependencias, la verificación y
+
+las dependencias, la verificación y
+
+las dependencias, la verificación y
+demás. Bueno, para no hacer muy largo
+
+demás. Bueno, para no hacer muy largo
+
+demás. Bueno, para no hacer muy largo
+este video, acá vemos como ya eh
+
+este video, acá vemos como ya eh
+
+este video, acá vemos como ya eh
+posteriormente empezó a generar los eh
+
+posteriormente empezó a generar los eh
+
+posteriormente empezó a generar los eh
+los modificaciones que consideró
+
+los modificaciones que consideró
+
+los modificaciones que consideró
+necesarias. Ven que creó este archivo,
+
+necesarias. Ven que creó este archivo,
+
+necesarias. Ven que creó este archivo,
+automatización programada, modificó un
+
+automatización programada, modificó un
+
+automatización programada, modificó un
+poquito este archivo de enviar
+
+poquito este archivo de enviar
+
+poquito este archivo de enviar
+reporteediario.py
+
+reporteediario.py
+
+reporteediario.py
+y creó este archivo de configuración de
+
+y creó este archivo de configuración de
+
+y creó este archivo de configuración de
+seguridad para extraer la eh la
+
+seguridad para extraer la eh la
+
+seguridad para extraer la eh la
+contraseña del sistema para poder
+
+contraseña del sistema para poder
+
+contraseña del sistema para poder
+entonces enviar los archivos. Después
+
+entonces enviar los archivos. Después
+
+entonces enviar los archivos. Después
+instaló la librería, eh creó la
+
+instaló la librería, eh creó la
+
+instaló la librería, eh creó la
+estructura y ya posteriormente planteó
+
+estructura y ya posteriormente planteó
+
+estructura y ya posteriormente planteó
+pues este mapa en el cual podemos ver eh
+
+pues este mapa en el cual podemos ver eh
+
+pues este mapa en el cual podemos ver eh
+cuál es el proceso que seguiría,
+
+cuál es el proceso que seguiría,
+
+cuál es el proceso que seguiría,
+¿verdad?
+
+¿verdad?
+
+¿verdad?
+Y básicamente lo que nos dice es que
+
+Y básicamente lo que nos dice es que
+
+Y básicamente lo que nos dice es que
+efectivamente creó los scripts, que ya
+
+efectivamente creó los scripts, que ya
+
+efectivamente creó los scripts, que ya
+generó la configuración para poder
+
+generó la configuración para poder
+
+generó la configuración para poder
+extraer la contraseña. Es un archivo
+
+extraer la contraseña. Es un archivo
+
+extraer la contraseña. Es un archivo
+seguro donde nada más hay que poner tu
+
+seguro donde nada más hay que poner tu
+
+seguro donde nada más hay que poner tu
+eh contraseña de email, ¿verdad?, que
+
+eh contraseña de email, ¿verdad?, que
+
+eh contraseña de email, ¿verdad?, que
+fue las que le mencionamos
+
+fue las que le mencionamos
+
+fue las que le mencionamos
+anteriormente, que es la de sistema,
+
+anteriormente, que es la de sistema,
+
+anteriormente, que es la de sistema,
+para que pueda acceder a mi correo y que
+
+para que pueda acceder a mi correo y que
+
+para que pueda acceder a mi correo y que
+ahora entonces eh ya acá, ¿verdad?,
+
+ahora entonces eh ya acá, ¿verdad?,
+
+ahora entonces eh ya acá, ¿verdad?,
+Eh, puede proceder en bueno, ¿qué es lo
+
+Eh, puede proceder en bueno, ¿qué es lo
+
+Eh, puede proceder en bueno, ¿qué es lo
+que nos está diciendo que hay que hacer
+
+que nos está diciendo que hay que hacer
+
+que nos está diciendo que hay que hacer
+para ya que esto funciona? Hay que abrir
+
+para ya que esto funciona? Hay que abrir
+
+para ya que esto funciona? Hay que abrir
+este archivo. Reemplaza tu contraseña de
+
+este archivo. Reemplaza tu contraseña de
+
+este archivo. Reemplaza tu contraseña de
+aplicación aquí, ¿verdad? Por la
+
+aplicación aquí, ¿verdad? Por la
+
+aplicación aquí, ¿verdad? Por la
+contraseña de aplicación de Google Real.
+
+contraseña de aplicación de Google Real.
+
+contraseña de aplicación de Google Real.
+Recuerde que si no la teníamos tenemos
+
+Recuerde que si no la teníamos tenemos
+
+Recuerde que si no la teníamos tenemos
+que hacer este proceso. Y paso dos,
+
+que hacer este proceso. Y paso dos,
+
+que hacer este proceso. Y paso dos,
+inicia la automatización. Para que el
+
+inicia la automatización. Para que el
+
+inicia la automatización. Para que el
+sistema funcione debes dejar el script
+
+sistema funcione debes dejar el script
+
+sistema funcione debes dejar el script
+corriendo o configurar una tarea
+
+corriendo o configurar una tarea
+
+corriendo o configurar una tarea
+programada de Windows, pero esto es más
+
+programada de Windows, pero esto es más
+
+programada de Windows, pero esto es más
+simple para empezar, ¿verdad? y abra la
+
+simple para empezar, ¿verdad? y abra la
+
+simple para empezar, ¿verdad? y abra la
+terminal y ejecuta esto, ¿verdad? Eh,
+
+terminal y ejecuta esto, ¿verdad? Eh,
+
+terminal y ejecuta esto, ¿verdad? Eh,
+entonces verá su mensaje indicando que
+
+entonces verá su mensaje indicando que
+
+entonces verá su mensaje indicando que
+el sistema se ha iniciado y la hora de
+
+el sistema se ha iniciado y la hora de
+
+el sistema se ha iniciado y la hora de
+la próxima ejecución y no no hay que
+
+la próxima ejecución y no no hay que
+
+la próxima ejecución y no no hay que
+cerrar la ventana en la terminal. ¿Qué
+
+cerrar la ventana en la terminal. ¿Qué
+
+cerrar la ventana en la terminal. ¿Qué
+hará el sistema? Pues todos los días
+
+hará el sistema? Pues todos los días
+
+hará el sistema? Pues todos los días
+buscará eh los PDFs en entrada, los
+
+buscará eh los PDFs en entrada, los
+
+buscará eh los PDFs en entrada, los
+revisará, los convertirá y los enviará.
+
+revisará, los convertirá y los enviará.
+
+revisará, los convertirá y los enviará.
+Es importante, como ustedes ven, que
+
+Es importante, como ustedes ven, que
+
+Es importante, como ustedes ven, que
+este script que se llama
+
+este script que se llama
+
+este script que se llama
+automatizaciónprogramada.py Py tien que
+
+automatizaciónprogramada.py Py tien que
+
+automatizaciónprogramada.py Py tien que
+estar corriendo. Por eso, ¿verdad? Uno
+
+estar corriendo. Por eso, ¿verdad? Uno
+
+estar corriendo. Por eso, ¿verdad? Uno
+puede eh dejar el script corriendo,
+
+puede eh dejar el script corriendo,
+
+puede eh dejar el script corriendo,
+¿verdad?
+
+¿verdad?
+
+¿verdad?
+que es básicamente abrir el archivo y
+
+que es básicamente abrir el archivo y
+
+que es básicamente abrir el archivo y
+darle a ejecutar o configurar una tarea
+
+darle a ejecutar o configurar una tarea
+
+darle a ejecutar o configurar una tarea
+que en este caso es una tarea programada
+
+que en este caso es una tarea programada
+
+que en este caso es una tarea programada
+de Windows para que lo pueda en este
+
+de Windows para que lo pueda en este
+
+de Windows para que lo pueda en este
+caso estar corriendo.
+
+caso estar corriendo.
+
+caso estar corriendo.
+Y listo. Ya por lo demás eh si vemos ya
+
+Y listo. Ya por lo demás eh si vemos ya
+
+Y listo. Ya por lo demás eh si vemos ya
+el mapa final, pues eh ya tenemos los
+
+el mapa final, pues eh ya tenemos los
+
+el mapa final, pues eh ya tenemos los
+diferentes archivos y demás y podríamos
+
+diferentes archivos y demás y podríamos
+
+diferentes archivos y demás y podríamos
+darle aceptar y ya tendríamos en este
+
+darle aceptar y ya tendríamos en este
+
+darle aceptar y ya tendríamos en este
+caso todos los eh algoritmos para que
+
+caso todos los eh algoritmos para que
+
+caso todos los eh algoritmos para que
+esto ocurra. Como ustedes ven, esto fue
+
+esto ocurra. Como ustedes ven, esto fue
+
+esto ocurra. Como ustedes ven, esto fue
+porque quisimos que automatizarlo para
+
+porque quisimos que automatizarlo para
+
+porque quisimos que automatizarlo para
+que cubriera todos los días a las 7 de
+
+que cubriera todos los días a las 7 de
+
+que cubriera todos los días a las 7 de
+la mañana, pero si no, vean que yo
+
+la mañana, pero si no, vean que yo
+
+la mañana, pero si no, vean que yo
+podría abrir cada uno de estos y con
+
+podría abrir cada uno de estos y con
+
+podría abrir cada uno de estos y con
+solo que yo le ejecutar va a convertir
+
+solo que yo le ejecutar va a convertir
+
+solo que yo le ejecutar va a convertir
+los PDFs a Word y con solo que yo me
+
+los PDFs a Word y con solo que yo me
+
+los PDFs a Word y con solo que yo me
+venga acá y le dé ejecutar, va a agarrar
+
+venga acá y le dé ejecutar, va a agarrar
+
+venga acá y le dé ejecutar, va a agarrar
+esos PDFs y los va a enviar a una
+
+esos PDFs y los va a enviar a una
+
+esos PDFs y los va a enviar a una
+persona. O sea, si no quiero automatizar
+
+persona. O sea, si no quiero automatizar
+
+persona. O sea, si no quiero automatizar
+ese envío, porque como ven implica eh
+
+ese envío, porque como ven implica eh
+
+ese envío, porque como ven implica eh
+conectarse con con
+
+conectarse con con
+
+conectarse con con
+una aplicación programada y demás, que
+
+una aplicación programada y demás, que
+
+una aplicación programada y demás, que
+puede ser algo un poquito más complejo
+
+puede ser algo un poquito más complejo
+
+puede ser algo un poquito más complejo
+en dado caso, sino también perfectamente
+
+en dado caso, sino también perfectamente
+
+en dado caso, sino también perfectamente
+yo a las 7 de la mañana podría venir,
+
+yo a las 7 de la mañana podría venir,
+
+yo a las 7 de la mañana podría venir,
+corro este programa, corro este programa
+
+corro este programa, corro este programa
+
+corro este programa, corro este programa
+y ya también estaría generando.
+
+y ya también estaría generando.
+
+y ya también estaría generando.
+Entonces, de esa manera tenemos las dos
+
+Entonces, de esa manera tenemos las dos
+
+Entonces, de esa manera tenemos las dos
+opciones y como ustedes ven, con
+
+opciones y como ustedes ven, con
+
+opciones y como ustedes ven, con
+antigravity, inteligencia artificial y
+
+antigravity, inteligencia artificial y
+
+antigravity, inteligencia artificial y
+Python pudimos automatizar este proceso
+
+Python pudimos automatizar este proceso
+
+Python pudimos automatizar este proceso
+de un modo bastante eficiente. Muchas
+
+de un modo bastante eficiente. Muchas
+
+de un modo bastante eficiente. Muchas
+gracias. M.
