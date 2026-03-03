@@ -1,6 +1,6 @@
 {
-    "version": "1.0.1",
-    "changelog": "Versión inicial de la Plataforma IA del CEDECC.",
-    "date": "2026-02-27",
+    "version": "1.2.0",
+    "changelog": "Se han añadido todos los tutoriales en video faltantes para las unidades 9, 14, 15 y 19, completando así el programa.",
+    "date": "2024-03-03",
     "download_url": "https://raw.githubusercontent.com/Marlon-Ledezma-Solis/Plataforma-IA/main/plataforma-ia-corregida-final.html"
 }
