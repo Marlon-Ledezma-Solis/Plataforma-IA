@@ -1,6 +1,6 @@
 {
-    "version": "1.2.0",
-    "changelog": "Se han añadido todos los tutoriales en video faltantes para las unidades 9, 14, 15 y 19, completando así el programa.",
+    "version": "1.2.1",
+    "changelog": "Corrección: Se ha añadido el tutorial faltante sobre Uso de Google AI Studio en la Unidad 7.",
     "date": "2024-03-03",
     "download_url": "https://raw.githubusercontent.com/Marlon-Ledezma-Solis/Plataforma-IA/main/plataforma-ia-corregida-final.html"
 }
