@@ -1,3161 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma IA y Automatización</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <style>
-        :root {
-            --p: #6366f1;
-            --s: #0ea5e9;
-            --a: #22d3ee;
-            --g: #10b981;
-            --w: #f59e0b;
-            --r: #ef4444;
-            --bg: #0f172a;
-            --sidebar: #1e293b;
-            --card: rgba(30, 41, 59, .6);
-            --gr: #64748b;
-            --wh: #fff;
-            --font-size: 1
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: var(--bg);
-            color: var(--wh);
-            min-height: 100vh;
-            font-size: calc(14px * var(--font-size));
-            transition: font-size .3s
-        }
-
-        .app {
-            display: flex;
-            min-height: 100vh
-        }
-
-        .sidebar {
-            width: 280px;
-            background: var(--sidebar);
-            border-right: 1px solid rgba(255, 255, 255, .05);
-            padding: 16px;
-            position: fixed;
-            height: 100vh;
-            overflow-y: auto;
-            z-index: 100
-        }
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 20px;
-            padding-bottom: 16px;
-            border-bottom: 1px solid rgba(255, 255, 255, .1)
-        }
-
-        .logo-icon {
-            width: 40px;
-            height: 40px;
-            background: linear-gradient(135deg, var(--p), var(--s));
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 16px
-        }
-
-        .logo-icon img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            border-radius: 10px;
-            display: none
-        }
-
-        .logo h1 {
-            font-size: calc(14px * var(--font-size))
-        }
-
-        .logo span {
-            font-size: calc(10px * var(--font-size));
-            color: var(--gr)
-        }
-
-        .nav-title {
-            font-size: calc(9px * var(--font-size));
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: var(--gr);
-            margin: 16px 0 8px
-        }
-
-        .nav-module {
-            margin-bottom: 4px
-        }
-
-        .nav-btn {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 8px 12px;
-            background: none;
-            border: none;
-            color: var(--wh);
-            width: 100%;
-            text-align: left;
-            border-radius: 8px;
-            cursor: pointer;
-            font-family: inherit;
-            font-size: calc(12px * var(--font-size))
-        }
-
-        .nav-btn:hover {
-            background: rgba(255, 255, 255, .05)
-        }
-
-        .nav-btn.active {
-            background: rgba(99, 102, 241, .2);
-            color: var(--a)
-        }
-
-        .nav-icon {
-            width: 28px;
-            height: 28px;
-            border-radius: 6px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 12px
-        }
-
-        .m1 {
-            background: linear-gradient(135deg, #6366f1, #818cf8)
-        }
-
-        .m2 {
-            background: linear-gradient(135deg, #0ea5e9, #38bdf8)
-        }
-
-        .m3 {
-            background: linear-gradient(135deg, #10b981, #34d399)
-        }
-
-        .m4 {
-            background: linear-gradient(135deg, #f59e0b, #fbbf24)
-        }
-
-        .m5 {
-            background: linear-gradient(135deg, #ef4444, #f87171)
-        }
-
-        .m6 {
-            background: linear-gradient(135deg, #8b5cf6, #a78bfa)
-        }
-
-        .nav-units {
-            display: none;
-            padding-left: 36px;
-            margin-top: 4px
-        }
-
-        .nav-module.open .nav-units {
-            display: block
-        }
-
-        .nav-unit {
-            display: block;
-            padding: 6px 10px;
-            font-size: calc(11px * var(--font-size));
-            color: var(--gr);
-            border-radius: 6px;
-            cursor: pointer;
-            margin-bottom: 2px
-        }
-
-        .nav-unit:hover {
-            color: var(--wh);
-            background: rgba(255, 255, 255, .05)
-        }
-
-        .nav-unit.active {
-            color: var(--a);
-            background: rgba(34, 211, 238, .1)
-        }
-
-        .settings-btn {
-            margin-top: 20px;
-            padding: 10px 14px;
-            background: rgba(255, 255, 255, .05);
-            border: 1px solid rgba(255, 255, 255, .1);
-            border-radius: 8px;
-            color: var(--wh);
-            font-size: calc(12px * var(--font-size));
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            width: 100%
-        }
-
-        .settings-btn:hover {
-            background: rgba(255, 255, 255, .1)
-        }
-
-        .main {
-            flex: 1;
-            margin-left: 280px;
-            padding: 24px
-        }
-
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 24px;
-            flex-wrap: wrap;
-            gap: 12px
-        }
-
-        .breadcrumb {
-            font-size: calc(11px * var(--font-size));
-            color: var(--gr);
-            margin-bottom: 4px
-        }
-
-        .breadcrumb span {
-            color: var(--a)
-        }
-
-        .title {
-            font-size: calc(24px * var(--font-size));
-            font-weight: 700;
-            background: linear-gradient(135deg, var(--p), var(--s), var(--a));
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent
-        }
-
-        .subtitle {
-            color: var(--gr);
-            font-size: calc(13px * var(--font-size));
-            margin-top: 4px
-        }
-
-        .header-btns {
-            display: flex;
-            gap: 6px;
-            flex-wrap: wrap
-        }
-
-        .btn {
-            padding: 8px 14px;
-            border-radius: 8px;
-            font-family: inherit;
-            font-size: calc(12px * var(--font-size));
-            cursor: pointer;
-            border: none;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            transition: all .2s
-        }
-
-        .btn-p {
-            background: linear-gradient(135deg, var(--p), var(--s));
-            color: var(--wh)
-        }
-
-        .btn-s {
-            background: rgba(255, 255, 255, .1);
-            color: var(--wh);
-            border: 1px solid rgba(255, 255, 255, .1)
-        }
-
-        .btn:hover {
-            transform: translateY(-1px);
-            opacity: .9
-        }
-
-        .btn:disabled {
-            opacity: .5;
-            cursor: not-allowed;
-            transform: none
-        }
-
-        .tabs {
-            display: flex;
-            gap: 3px;
-            background: var(--card);
-            padding: 5px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            flex-wrap: wrap
-        }
-
-        .tab {
-            padding: 8px 14px;
-            background: none;
-            border: none;
-            color: var(--gr);
-            font-family: inherit;
-            font-size: calc(12px * var(--font-size));
-            border-radius: 6px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 5px
-        }
-
-        .tab:hover {
-            color: var(--wh);
-            background: rgba(255, 255, 255, .05)
-        }
-
-        .tab.active {
-            background: var(--p);
-            color: var(--wh)
-        }
-
-        .panel {
-            display: none;
-            animation: fadeIn .3s
-        }
-
-        .panel.active {
-            display: block
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0
-            }
-
-            to {
-                opacity: 1
-            }
-        }
-
-        .card {
-            background: var(--card);
-            border: 1px solid rgba(255, 255, 255, .05);
-            border-radius: 14px;
-            padding: 20px;
-            margin-bottom: 16px
-        }
-
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 16px;
-            flex-wrap: wrap;
-            gap: 10px
-        }
-
-        .card-title {
-            font-size: calc(16px * var(--font-size));
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 10px
-        }
-
-        .card-icon {
-            width: 36px;
-            height: 36px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px
-        }
-
-        .card-icon.cp {
-            background: rgba(99, 102, 241, .2)
-        }
-
-        .card-icon.cs {
-            background: rgba(14, 165, 233, .2)
-        }
-
-        .card-icon.cg {
-            background: rgba(16, 185, 129, .2)
-        }
-
-        .card-icon.cw {
-            background: rgba(245, 158, 11, .2)
-        }
-
-        .card-icon.cr {
-            background: rgba(239, 68, 68, .2)
-        }
-
-        .card-btns {
-            display: flex;
-            gap: 6px
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 14px
-        }
-
-        .grid-item {
-            background: rgba(15, 23, 42, .5);
-            border-radius: 10px;
-            padding: 16px;
-            border-left: 3px solid var(--p)
-        }
-
-        .grid-item h4 {
-            font-size: calc(12px * var(--font-size));
-            color: var(--a);
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 6px
-        }
-
-        .grid-item li {
-            font-size: calc(12px * var(--font-size));
-            color: rgba(255, 255, 255, .8);
-            padding: 3px 0;
-            list-style: none;
-            padding-left: 14px;
-            position: relative
-        }
-
-        .grid-item li::before {
-            content: "→";
-            position: absolute;
-            left: 0;
-            color: var(--gr);
-            font-size: 10px
-        }
-
-        .content h3 {
-            font-size: calc(18px * var(--font-size));
-            color: var(--a);
-            margin: 24px 0 12px
-        }
-
-        .content h3:first-child {
-            margin-top: 0
-        }
-
-        .content p {
-            font-size: calc(13px * var(--font-size));
-            line-height: 1.7;
-            color: rgba(255, 255, 255, .85);
-            margin-bottom: 12px
-        }
-
-        .content ul {
-            margin: 12px 0;
-            padding-left: 18px
-        }
-
-        .content li {
-            font-size: calc(13px * var(--font-size));
-            color: rgba(255, 255, 255, .85);
-            margin-bottom: 5px
-        }
-
-        .example {
-            background: rgba(99, 102, 241, .1);
-            border: 1px solid rgba(99, 102, 241, .2);
-            border-radius: 10px;
-            padding: 16px;
-            margin: 16px 0
-        }
-
-        .example h4 {
-            font-size: calc(12px * var(--font-size));
-            color: var(--p);
-            margin-bottom: 8px
-        }
-
-        .case {
-            background: rgba(16, 185, 129, .1);
-            border: 1px solid rgba(16, 185, 129, .2);
-            border-radius: 10px;
-            padding: 16px;
-            margin: 16px 0
-        }
-
-        .case h4 {
-            font-size: calc(12px * var(--font-size));
-            color: var(--g);
-            margin-bottom: 8px
-        }
-
-        .bib {
-            margin-top: 24px;
-            padding-top: 16px;
-            border-top: 1px solid rgba(255, 255, 255, .1)
-        }
-
-        .bib h3 {
-            margin-bottom: 12px
-        }
-
-        .bib p {
-            font-size: calc(11px * var(--font-size));
-            margin-bottom: 6px;
-            padding-left: 16px;
-            text-indent: -16px
-        }
-
-        /* ACCESSIBILITY PANEL */
-        .a11y-panel {
-            position: fixed;
-            top: 50%;
-            right: 0;
-            transform: translateY(-50%);
-            z-index: 1000;
-            display: flex;
-            flex-direction: column;
-            gap: 4px
-        }
-
-        .a11y-btn {
-            width: 44px;
-            height: 44px;
-            border: none;
-            border-radius: 10px 0 0 10px;
-            background: var(--p);
-            color: white;
-            font-size: 18px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all .2s;
-            box-shadow: -2px 2px 10px rgba(0, 0, 0, .3)
-        }
-
-        .a11y-btn:hover {
-            width: 52px;
-            background: var(--s)
-        }
-
-        .a11y-btn.active {
-            background: var(--g)
-        }
-
-        .a11y-btn[aria-label]:hover::before {
-            content: attr(aria-label);
-            position: absolute;
-            right: 54px;
-            background: var(--sidebar);
-            padding: 6px 10px;
-            border-radius: 6px;
-            font-size: 11px;
-            white-space: nowrap
-        }
-
-        .reading-highlight {
-            background: rgba(255, 255, 0, .3) !important;
-            outline: 2px solid yellow
-        }
-
-        /* HIGH CONTRAST MODE */
-        body.high-contrast {
-            --bg: #000;
-            --sidebar: #111;
-            --card: rgba(20, 20, 20, .9);
-            --wh: #fff;
-            --gr: #ccc
-        }
-
-        body.high-contrast .card,
-        body.high-contrast .grid-item {
-            border: 2px solid #fff
-        }
-
-        .video-embed-area {
-            background: rgba(15, 23, 42, .5);
-            border: 2px dashed rgba(255, 255, 255, .2);
-            border-radius: 12px;
-            padding: 20px;
-            margin: 16px 0
-        }
-
-        .video-embed-area textarea {
-            width: 100%;
-            height: 100px;
-            background: rgba(0, 0, 0, .3);
-            border: 1px solid rgba(255, 255, 255, .1);
-            border-radius: 8px;
-            color: var(--wh);
-            font-family: monospace;
-            font-size: calc(12px * var(--font-size));
-            padding: 12px;
-            resize: vertical
-        }
-
-        .video-embed-area textarea:focus {
-            outline: none;
-            border-color: var(--p)
-        }
-
-        .video-preview {
-            margin-top: 16px;
-            border-radius: 12px;
-            overflow: hidden;
-            background: #000;
-            min-height: 200px
-        }
-
-        .video-preview iframe {
-            width: 100%;
-            height: 400px;
-            border: none
-        }
-
-        .tools-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 14px
-        }
-
-        .tool-card {
-            background: rgba(15, 23, 42, .6);
-            border: 1px solid rgba(255, 255, 255, .1);
-            border-radius: 12px;
-            padding: 18px;
-            text-align: center;
-            transition: all .2s
-        }
-
-        .tool-card:hover {
-            border-color: var(--p);
-            transform: translateY(-2px)
-        }
-
-        .tool-icon {
-            font-size: 32px;
-            margin-bottom: 10px
-        }
-
-        .tool-name {
-            font-size: calc(14px * var(--font-size));
-            font-weight: 600;
-            margin-bottom: 4px
-        }
-
-        .tool-desc {
-            font-size: calc(11px * var(--font-size));
-            color: var(--gr);
-            margin-bottom: 12px
-        }
-
-        .tool-link {
-            display: inline-block;
-            padding: 6px 14px;
-            background: var(--p);
-            color: var(--wh);
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: calc(11px * var(--font-size));
-            font-weight: 500
-        }
-
-        .tool-link:hover {
-            background: var(--s)
-        }
-
-        .tool-category {
-            font-size: calc(10px * var(--font-size));
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--a);
-            margin-bottom: 20px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid rgba(255, 255, 255, .1)
-        }
-
-        .quiz-progress {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 16px
-        }
-
-        .progress-bar {
-            flex: 1;
-            height: 6px;
-            background: rgba(255, 255, 255, .1);
-            border-radius: 3px;
-            overflow: hidden
-        }
-
-        .progress-fill {
-            height: 100%;
-            background: linear-gradient(90deg, var(--p), var(--s));
-            transition: width .3s
-        }
-
-        .progress-text {
-            font-size: calc(12px * var(--font-size));
-            color: var(--gr);
-            font-family: monospace
-        }
-
-        .question {
-            background: rgba(15, 23, 42, .5);
-            border-radius: 12px;
-            padding: 20px
-        }
-
-        .q-num {
-            font-size: calc(10px * var(--font-size));
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: var(--p);
-            margin-bottom: 8px
-        }
-
-        .q-text {
-            font-size: calc(15px * var(--font-size));
-            margin-bottom: 16px
-        }
-
-        .options {
-            display: flex;
-            flex-direction: column;
-            gap: 8px
-        }
-
-        .opt {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            padding: 12px 16px;
-            background: rgba(255, 255, 255, .03);
-            border: 2px solid rgba(255, 255, 255, .1);
-            border-radius: 10px;
-            cursor: pointer;
-            transition: all .2s;
-            font-family: inherit;
-            color: var(--wh);
-            font-size: calc(13px * var(--font-size));
-            text-align: left
-        }
-
-        .opt:hover {
-            border-color: var(--p);
-            background: rgba(99, 102, 241, .1)
-        }
-
-        .opt.selected {
-            border-color: var(--p);
-            background: rgba(99, 102, 241, .2)
-        }
-
-        .opt.correct {
-            border-color: var(--g);
-            background: rgba(16, 185, 129, .2)
-        }
-
-        .opt.wrong {
-            border-color: var(--r);
-            background: rgba(239, 68, 68, .2)
-        }
-
-        .opt-letter {
-            width: 26px;
-            height: 26px;
-            border-radius: 6px;
-            background: rgba(255, 255, 255, .1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 600;
-            font-size: calc(12px * var(--font-size))
-        }
-
-        .quiz-btns {
-            display: flex;
-            gap: 8px;
-            margin-top: 16px
-        }
-
-        .result {
-            text-align: center;
-            padding: 30px
-        }
-
-        .result-score {
-            font-size: calc(56px * var(--font-size));
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--p), var(--s));
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent
-        }
-
-        .game-select {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-            gap: 8px;
-            margin-bottom: 16px
-        }
-
-        .game-opt {
-            padding: 12px;
-            background: rgba(15, 23, 42, .5);
-            border: 2px solid rgba(255, 255, 255, .1);
-            border-radius: 10px;
-            cursor: pointer;
-            text-align: center
-        }
-
-        .game-opt:hover {
-            border-color: var(--p)
-        }
-
-        .game-opt.active {
-            border-color: var(--a);
-            background: rgba(34, 211, 238, .1)
-        }
-
-        .game-opt-icon {
-            font-size: 22px;
-            margin-bottom: 4px
-        }
-
-        .game-opt-name {
-            font-size: calc(11px * var(--font-size));
-            font-weight: 600
-        }
-
-        .game-area {
-            min-height: 350px
-        }
-
-        .game-stats {
-            display: flex;
-            gap: 16px;
-            margin-bottom: 16px
-        }
-
-        .stat {
-            text-align: center
-        }
-
-        .stat-val {
-            font-size: calc(20px * var(--font-size));
-            font-weight: 700;
-            color: var(--a);
-            font-family: monospace
-        }
-
-        .stat-label {
-            font-size: calc(9px * var(--font-size));
-            color: var(--gr);
-            text-transform: uppercase
-        }
-
-        .memory-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 8px
-        }
-
-        .mem-card {
-            aspect-ratio: 1;
-            background: rgba(30, 41, 59, .8);
-            border: 2px solid rgba(255, 255, 255, .1);
-            border-radius: 8px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: calc(11px * var(--font-size));
-            text-align: center;
-            padding: 6px;
-            transition: all .3s
-        }
-
-        .mem-card:hover {
-            border-color: var(--p)
-        }
-
-        .mem-card.flipped {
-            background: linear-gradient(135deg, var(--p), var(--s));
-            border-color: transparent
-        }
-
-        .mem-card.matched {
-            background: var(--g);
-            border-color: transparent;
-            cursor: default
-        }
-
-        .mem-card .front {
-            font-size: 20px
-        }
-
-        .mem-card .back {
-            display: none;
-            font-size: calc(10px * var(--font-size));
-            font-weight: 500
-        }
-
-        .mem-card.flipped .front,
-        .mem-card.matched .front {
-            display: none
-        }
-
-        .mem-card.flipped .back,
-        .mem-card.matched .back {
-            display: block
-        }
-
-        .trivia-card {
-            background: rgba(15, 23, 42, .5);
-            border-radius: 12px;
-            padding: 24px;
-            text-align: center
-        }
-
-        .trivia-q {
-            font-size: calc(16px * var(--font-size));
-            margin-bottom: 20px;
-            line-height: 1.5
-        }
-
-        .trivia-opts {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px
-        }
-
-        .trivia-opt {
-            padding: 14px;
-            background: rgba(255, 255, 255, .05);
-            border: 2px solid rgba(255, 255, 255, .1);
-            border-radius: 10px;
-            cursor: pointer;
-            font-size: calc(13px * var(--font-size));
-            transition: all .2s
-        }
-
-        .trivia-opt:hover {
-            border-color: var(--p);
-            background: rgba(99, 102, 241, .1)
-        }
-
-        .trivia-opt.correct {
-            border-color: var(--g);
-            background: rgba(16, 185, 129, .2)
-        }
-
-        .trivia-opt.wrong {
-            border-color: var(--r);
-            background: rgba(239, 68, 68, .2)
-        }
-
-        .classify-container {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap
-        }
-
-        .classify-items {
-            flex: 1;
-            min-width: 200px
-        }
-
-        .classify-zones {
-            flex: 2;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            min-width: 300px
-        }
-
-        .classify-item {
-            padding: 10px 14px;
-            background: rgba(99, 102, 241, .2);
-            border: 2px solid var(--p);
-            border-radius: 8px;
-            margin-bottom: 8px;
-            cursor: grab;
-            font-size: calc(12px * var(--font-size));
-            text-align: center;
-            transition: all .2s
-        }
-
-        .classify-zone {
-            background: rgba(15, 23, 42, .5);
-            border: 2px dashed rgba(255, 255, 255, .2);
-            border-radius: 12px;
-            padding: 14px;
-            min-height: 180px
-        }
-
-        .classify-zone h4 {
-            font-size: calc(12px * var(--font-size));
-            color: var(--a);
-            margin-bottom: 12px;
-            text-align: center
-        }
-
-        .classify-zone.dragover {
-            border-color: var(--p);
-            background: rgba(99, 102, 241, .1)
-        }
-
-        .classify-zone .classify-item {
-            background: rgba(16, 185, 129, .2);
-            border-color: var(--g);
-            cursor: default
-        }
-
-        .sim-chat {
-            background: rgba(15, 23, 42, .5);
-            border-radius: 12px;
-            height: 420px;
-            display: flex;
-            flex-direction: column
-        }
-
-        .sim-header {
-            padding: 12px 16px;
-            border-bottom: 1px solid rgba(255, 255, 255, .1);
-            display: flex;
-            align-items: center;
-            gap: 10px
-        }
-
-        .sim-avatar {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--p), var(--s));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 14px
-        }
-
-        .sim-msgs {
-            flex: 1;
-            overflow-y: auto;
-            padding: 14px;
-            display: flex;
-            flex-direction: column;
-            gap: 10px
-        }
-
-        .sim-msg {
-            max-width: 80%;
-            padding: 10px 14px;
-            border-radius: 10px;
-            font-size: calc(12px * var(--font-size));
-            line-height: 1.5
-        }
-
-        .sim-msg.bot {
-            background: rgba(99, 102, 241, .15);
-            align-self: flex-start
-        }
-
-        .sim-msg.user {
-            background: var(--p);
-            align-self: flex-end
-        }
-
-        .sim-input {
-            padding: 12px 14px;
-            border-top: 1px solid rgba(255, 255, 255, .1);
-            display: flex;
-            gap: 8px
-        }
-
-        .sim-input input {
-            flex: 1;
-            padding: 10px 12px;
-            background: rgba(255, 255, 255, .05);
-            border: 1px solid rgba(255, 255, 255, .1);
-            border-radius: 8px;
-            color: var(--wh);
-            font-family: inherit;
-            font-size: calc(12px * var(--font-size))
-        }
-
-        .sim-input input:focus {
-            outline: none;
-            border-color: var(--p)
-        }
-
-        .sim-input button {
-            padding: 10px 14px;
-            background: var(--p);
-            border: none;
-            border-radius: 8px;
-            color: var(--wh);
-            cursor: pointer
-        }
-
-        .upload {
-            border: 2px dashed rgba(255, 255, 255, .2);
-            border-radius: 12px;
-            padding: 36px;
-            text-align: center;
-            cursor: pointer
-        }
-
-        .upload:hover {
-            border-color: var(--p);
-            background: rgba(99, 102, 241, .05)
-        }
-
-        .upload-icon {
-            font-size: 36px;
-            margin-bottom: 10px
-        }
-
-        .upload-text {
-            font-size: calc(13px * var(--font-size));
-            margin-bottom: 4px
-        }
-
-        .upload-hint {
-            font-size: calc(11px * var(--font-size));
-            color: var(--gr)
-        }
-
-        .viewer {
-            background: rgba(15, 23, 42, .5);
-            border-radius: 12px;
-            overflow: hidden
-        }
-
-        .viewer iframe {
-            width: 100%;
-            height: 500px;
-            border: none
-        }
-
-        .activity {
-            background: rgba(15, 23, 42, .5);
-            border-radius: 10px;
-            padding: 18px;
-            margin-bottom: 14px;
-            border-left: 4px solid var(--p)
-        }
-
-        .activity-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 10px;
-            flex-wrap: wrap;
-            gap: 8px
-        }
-
-        .activity-title {
-            font-size: calc(15px * var(--font-size));
-            font-weight: 600
-        }
-
-        .activity-type {
-            font-size: calc(10px * var(--font-size));
-            color: var(--gr);
-            text-transform: uppercase;
-            letter-spacing: 1px
-        }
-
-        .activity-badge {
-            padding: 4px 8px;
-            border-radius: 10px;
-            font-size: calc(10px * var(--font-size));
-            font-weight: 600
-        }
-
-        .badge-ind {
-            background: rgba(99, 102, 241, .2);
-            color: var(--p)
-        }
-
-        .badge-col {
-            background: rgba(16, 185, 129, .2);
-            color: var(--g)
-        }
-
-        .activity-desc {
-            font-size: calc(12px * var(--font-size));
-            color: rgba(255, 255, 255, .8);
-            margin-bottom: 14px;
-            line-height: 1.6
-        }
-
-        .activity-details {
-            display: flex;
-            gap: 14px;
-            flex-wrap: wrap;
-            margin-bottom: 14px
-        }
-
-        .detail {
-            font-size: calc(11px * var(--font-size));
-            color: var(--gr);
-            display: flex;
-            align-items: center;
-            gap: 5px
-        }
-
-        .rubric-toggle {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 8px 12px;
-            background: rgba(255, 255, 255, .05);
-            border: none;
-            border-radius: 6px;
-            color: var(--a);
-            font-family: inherit;
-            font-size: calc(12px * var(--font-size));
-            cursor: pointer;
-            width: 100%
-        }
-
-        .rubric-content {
-            display: none;
-            margin-top: 12px;
-            background: rgba(15, 23, 42, .8);
-            border-radius: 8px;
-            overflow-x: auto
-        }
-
-        .rubric-content.open {
-            display: block
-        }
-
-        .rubric-table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 500px
-        }
-
-        .rubric-table th,
-        .rubric-table td {
-            padding: 8px;
-            text-align: left;
-            font-size: calc(10px * var(--font-size));
-            border-bottom: 1px solid rgba(255, 255, 255, .05)
-        }
-
-        .rubric-table th {
-            background: rgba(99, 102, 241, .1);
-            color: var(--a)
-        }
-
-        .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, .8);
-            backdrop-filter: blur(8px);
-            z-index: 1000;
-            display: none;
-            align-items: center;
-            justify-content: center;
-            padding: 20px
-        }
-
-        .modal-overlay.open {
-            display: flex
-        }
-
-        .modal {
-            background: var(--sidebar);
-            border-radius: 16px;
-            width: 100%;
-            max-width: 500px;
-            max-height: 90vh;
-            overflow-y: auto
-        }
-
-        .modal-header {
-            padding: 16px;
-            border-bottom: 1px solid rgba(255, 255, 255, .1);
-            display: flex;
-            justify-content: space-between;
-            align-items: center
-        }
-
-        .modal-title {
-            font-size: calc(16px * var(--font-size));
-            font-weight: 600
-        }
-
-        .modal-close {
-            width: 28px;
-            height: 28px;
-            border-radius: 6px;
-            background: rgba(255, 255, 255, .1);
-            border: none;
-            color: var(--wh);
-            font-size: 16px;
-            cursor: pointer
-        }
-
-        .modal-body {
-            padding: 16px
-        }
-
-        .settings-section {
-            margin-bottom: 20px
-        }
-
-        .settings-section h4 {
-            font-size: calc(12px * var(--font-size));
-            font-weight: 600;
-            margin-bottom: 10px;
-            color: var(--a)
-        }
-
-        .color-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px
-        }
-
-        .color-item {
-            display: flex;
-            align-items: center;
-            gap: 8px
-        }
-
-        .color-item label {
-            flex: 1;
-            font-size: calc(12px * var(--font-size))
-        }
-
-        .color-item input[type=color] {
-            width: 40px;
-            height: 30px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            background: transparent
-        }
-
-        .text-input {
-            width: 100%;
-            padding: 10px;
-            background: rgba(255, 255, 255, .05);
-            border: 1px solid rgba(255, 255, 255, .1);
-            border-radius: 6px;
-            color: white;
-            font-family: inherit;
-            font-size: calc(13px * var(--font-size));
-            margin-top: 6px
-        }
-
-        .text-input:focus {
-            outline: none;
-            border-color: var(--p)
-        }
-
-        .logo-upload {
-            border: 2px dashed rgba(255, 255, 255, .2);
-            border-radius: 8px;
-            padding: 20px;
-            text-align: center;
-            cursor: pointer
-        }
-
-        .logo-preview {
-            width: 50px;
-            height: 50px;
-            border-radius: 8px;
-            object-fit: contain;
-            margin-bottom: 6px;
-            display: none
-        }
-
-        .modal-footer {
-            padding: 12px 16px;
-            border-top: 1px solid rgba(255, 255, 255, .1);
-            display: flex;
-            justify-content: flex-end;
-            gap: 8px
-        }
-
-        .chatbot-btn {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 52px;
-            height: 52px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--p), var(--s));
-            border: none;
-            color: var(--wh);
-            font-size: 22px;
-            cursor: pointer;
-            box-shadow: 0 6px 24px rgba(99, 102, 241, .4);
-            z-index: 900
-        }
-
-        .chatbot-btn:hover {
-            transform: scale(1.05)
-        }
-
-        .chatbot-win {
-            position: fixed;
-            bottom: 84px;
-            right: 20px;
-            width: 340px;
-            height: 480px;
-            background: var(--sidebar);
-            border-radius: 14px;
-            box-shadow: 0 16px 40px rgba(0, 0, 0, .5);
-            z-index: 900;
-            display: none;
-            flex-direction: column;
-            overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, .1)
-        }
-
-        .chatbot-win.open {
-            display: flex
-        }
-
-        .chat-header {
-            padding: 12px 16px;
-            background: linear-gradient(135deg, var(--p), var(--s));
-            display: flex;
-            align-items: center;
-            gap: 10px
-        }
-
-        .chat-avatar {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, .2);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 16px
-        }
-
-        .chat-info h4 {
-            font-size: calc(13px * var(--font-size))
-        }
-
-        .chat-info span {
-            font-size: calc(9px * var(--font-size));
-            opacity: .8
-        }
-
-        .chat-close {
-            margin-left: auto;
-            background: rgba(255, 255, 255, .2);
-            border: none;
-            width: 26px;
-            height: 26px;
-            border-radius: 50%;
-            color: var(--wh);
-            cursor: pointer;
-            font-size: 14px
-        }
-
-        .chat-msgs {
-            flex: 1;
-            overflow-y: auto;
-            padding: 12px;
-            display: flex;
-            flex-direction: column;
-            gap: 8px
-        }
-
-        .chat-msg {
-            max-width: 85%;
-            padding: 8px 12px;
-            border-radius: 10px;
-            font-size: calc(11px * var(--font-size));
-            line-height: 1.5
-        }
-
-        .chat-msg.bot {
-            background: rgba(99, 102, 241, .15);
-            align-self: flex-start
-        }
-
-        .chat-msg.user {
-            background: var(--p);
-            align-self: flex-end
-        }
-
-        .chat-suggestions {
-            padding: 8px 12px;
-            display: flex;
-            gap: 5px;
-            flex-wrap: wrap;
-            border-top: 1px solid rgba(255, 255, 255, .05)
-        }
-
-        .chat-chip {
-            padding: 4px 8px;
-            background: rgba(255, 255, 255, .05);
-            border: 1px solid rgba(255, 255, 255, .1);
-            border-radius: 10px;
-            font-size: calc(9px * var(--font-size));
-            color: var(--gr);
-            cursor: pointer
-        }
-
-        .chat-chip:hover {
-            border-color: var(--p);
-            color: var(--wh)
-        }
-
-        .chat-input {
-            padding: 12px;
-            border-top: 1px solid rgba(255, 255, 255, .1);
-            display: flex;
-            gap: 8px
-        }
-
-        .chat-input input {
-            flex: 1;
-            padding: 8px 10px;
-            background: rgba(255, 255, 255, .05);
-            border: 1px solid rgba(255, 255, 255, .1);
-            border-radius: 6px;
-            color: var(--wh);
-            font-family: inherit;
-            font-size: calc(11px * var(--font-size))
-        }
-
-        .chat-input button {
-            padding: 8px 12px;
-            background: var(--p);
-            border: none;
-            border-radius: 6px;
-            color: var(--wh);
-            cursor: pointer
-        }
-
-        @media(max-width:900px) {
-            .sidebar {
-                transform: translateX(-100%);
-                z-index: 1000
-            }
-
-            .sidebar.open {
-                transform: translateX(0)
-            }
-
-            .main {
-                margin-left: 0
-            }
-
-            .memory-grid {
-                grid-template-columns: repeat(3, 1fr)
-            }
-
-            .trivia-opts {
-                grid-template-columns: 1fr
-            }
-
-            .classify-container {
-                flex-direction: column
-            }
-
-            .classify-zones {
-                grid-template-columns: 1fr
-            }
-        }
-    </style>
-</head>
-
-<body>
-    <!-- PANEL DE ACCESIBILIDAD -->
-    <div class="a11y-panel" role="region" aria-label="Opciones de accesibilidad">
-        <button class="a11y-btn" onclick="toggleTextToSpeech()" aria-label="Lector de voz"
-            title="Activar/Desactivar lectura de voz" id="btnTTS">🔊</button>
-        <button class="a11y-btn" onclick="increaseFont()" aria-label="Aumentar texto"
-            title="Aumentar tamaño de texto">🔍+</button>
-        <button class="a11y-btn" onclick="decreaseFont()" aria-label="Reducir texto"
-            title="Reducir tamaño de texto">🔍-</button>
-        <button class="a11y-btn" onclick="toggleHighContrast()" aria-label="Alto contraste"
-            title="Activar/Desactivar alto contraste" id="btnContrast">◐</button>
-        <button class="a11y-btn" onclick="resetA11y()" aria-label="Restablecer"
-            title="Restablecer accesibilidad">↺</button>
-    </div>
-
-    <div class="app">
-        <aside class="sidebar" id="sidebar">
-            <div class="logo">
-                <div class="logo-icon" id="logoIcon"><span id="logoText">IA</span><img id="logoImg" src=""
-                        alt="Logo empresa"></div>
-                <div>
-                    <h1 id="platformTitle">IA y Automatización</h1><span id="companyName">CEDECC</span> • 23 Semanas
-                </div>
-            </div>
-            <div class="nav-title">Módulos del Curso</div>
-            <div class="nav-module open">
-                <button class="nav-btn active" onclick="toggleMod(this)" aria-expanded="true">
-                    <div class="nav-icon m1">🧠</div>
-                    <div>
-                        <div style="font-weight:600">Fundamentos IA</div>
-                        <div style="font-size:10px;color:var(--gr)">3 unidades</div>
-                    </div>
-                </button>
-                <div class="nav-units">
-                    <div class="nav-unit active" onclick="loadUnit(1)" data-unit="1" role="button" tabindex="0">Unidad
-                        1: Inducción</div>
-                    <div class="nav-unit" onclick="loadUnit(2)" data-unit="2">Unidad 2: Comprensión IA</div>
-                    <div class="nav-unit" onclick="loadUnit(3)" data-unit="3">Unidad 3: Investigación</div>
-                </div>
-            </div>
-            <div class="nav-module">
-                <button class="nav-btn" onclick="toggleMod(this)" aria-expanded="false">
-                    <div class="nav-icon m2">⚡</div>
-                    <div>
-                        <div style="font-weight:600">Herramientas IA</div>
-                        <div style="font-size:10px;color:var(--gr)">5 unidades</div>
-                    </div>
-                </button>
-                <div class="nav-units">
-                    <div class="nav-unit" onclick="loadUnit(4)" data-unit="4">Unidad 4: Office + IA</div>
-                    <div class="nav-unit" onclick="loadUnit(5)" data-unit="5">Unidad 5: IA Generativa</div>
-                    <div class="nav-unit" onclick="loadUnit(6)" data-unit="6">Unidad 6: Agentes IA</div>
-                    <div class="nav-unit" onclick="loadUnit(7)" data-unit="7">Unidad 7: Google AI Studio</div>
-                    <div class="nav-unit" onclick="loadUnit(8)" data-unit="8">Unidad 8: Integrador</div>
-                </div>
-            </div>
-            <div class="nav-module">
-                <button class="nav-btn" onclick="toggleMod(this)">
-                    <div class="nav-icon m3">💻</div>
-                    <div>
-                        <div style="font-weight:600">Automatizaciones</div>
-                        <div style="font-size:10px;color:var(--gr)">5 unidades</div>
-                    </div>
-                </button>
-                <div class="nav-units">
-                    <div class="nav-unit" onclick="loadUnit(9)" data-unit="9">Unidad 9: Python</div>
-                    <div class="nav-unit" onclick="loadUnit(10)" data-unit="10">Unidad 10: Python Avanzado</div>
-                    <div class="nav-unit" onclick="loadUnit(11)" data-unit="11">Unidad 11: SikuliX</div>
-                    <div class="nav-unit" onclick="loadUnit(12)" data-unit="12">Unidad 12: APIs IA</div>
-                    <div class="nav-unit" onclick="loadUnit(13)" data-unit="13">Unidad 13: N8N/Make</div>
-                </div>
-            </div>
-            <div class="nav-module">
-                <button class="nav-btn" onclick="toggleMod(this)">
-                    <div class="nav-icon m4">🎨</div>
-                    <div>
-                        <div style="font-weight:600">Multimedia</div>
-                        <div style="font-size:10px;color:var(--gr)">2 unidades</div>
-                    </div>
-                </button>
-                <div class="nav-units">
-                    <div class="nav-unit" onclick="loadUnit(14)" data-unit="14">Unidad 14: Imágenes IA</div>
-                    <div class="nav-unit" onclick="loadUnit(15)" data-unit="15">Unidad 15: Video IA</div>
-                </div>
-            </div>
-            <div class="nav-module">
-                <button class="nav-btn" onclick="toggleMod(this)">
-                    <div class="nav-icon m5">📊</div>
-                    <div>
-                        <div style="font-weight:600">Análisis Datos</div>
-                        <div style="font-size:10px;color:var(--gr)">3 unidades</div>
-                    </div>
-                </button>
-                <div class="nav-units">
-                    <div class="nav-unit" onclick="loadUnit(16)" data-unit="16">Unidad 16: Power Query</div>
-                    <div class="nav-unit" onclick="loadUnit(17)" data-unit="17">Unidad 17: Power BI</div>
-                    <div class="nav-unit" onclick="loadUnit(18)" data-unit="18">Unidad 18: Integrador</div>
-                </div>
-            </div>
-            <div class="nav-module">
-                <button class="nav-btn" onclick="toggleMod(this)">
-                    <div class="nav-icon m6">🚀</div>
-                    <div>
-                        <div style="font-weight:600">Proyecto Final</div>
-                        <div style="font-size:10px;color:var(--gr)">1 unidad</div>
-                    </div>
-                </button>
-                <div class="nav-units">
-                    <div class="nav-unit" onclick="loadUnit(19)" data-unit="19">Unidad 19: Proyecto Final</div>
-                </div>
-            </div>
-            <button class="settings-btn" onclick="openSettings()" aria-label="Abrir configuración">⚙️ Personalizar
-                Plataforma</button>
-        </aside>
-
-        <main class="main" role="main">
-            <header class="header">
-                <div>
-                    <div class="breadcrumb" id="unitBreadcrumb">Módulo 1 <span>›</span> Fundamentos</div>
-                    <h1 class="title" id="unitTitle">Unidad 1: Inducción e Introducción</h1>
-                    <p class="subtitle" id="unitSubtitle">Conoce los objetivos del programa y los fundamentos de la IA
-                    </p>
-                </div>
-                <div class="header-btns">
-                    <button class="btn btn-p" onclick="downloadPDFVisual('full')" aria-label="Descargar PDF completo">📄
-                        PDF Completo</button>
-                    <button class="btn btn-s" onclick="downloadWordVisual('full')"
-                        aria-label="Descargar Word completo">📝 Word Completo</button>
-                </div>
-            </header>
-
-            <nav class="tabs" role="tablist" aria-label="Secciones de la unidad">
-                <button class="tab active" onclick="showTab('plan')" role="tab" aria-selected="true">📋 Plan</button>
-                <button class="tab" onclick="showTab('summary')" role="tab">📖 Resumen</button>
-                <button class="tab" onclick="showTab('video')" role="tab">🎬 Videos Generales</button>
-                <button class="tab" onclick="showTab('tutorials')" role="tab">🎥 Tutoriales</button>
-                <button class="tab" onclick="showTab('tools')" role="tab">🔧 Herramientas</button>
-                <button class="tab" onclick="showTab('quiz')" role="tab">✅ Práctica</button>
-                <button class="tab" onclick="showTab('games')" role="tab">🎮 Juegos</button>
-                <button class="tab" onclick="showTab('sim')" role="tab">🤖 Simulador</button>
-                <button class="tab" onclick="showTab('pres')" role="tab">📊 Presentación</button>
-                <button class="tab" onclick="showTab('activities')" role="tab">📝 Actividades</button>
-                <button class="tab" onclick="showTab('insumos')" role="tab">📦 Insumos</button>
-            </nav>
-
-            <!-- PLAN - LENGUAJE INCLUSIVO -->
-            <div id="tab-plan" class="panel active" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cp">📋</div>Plan de la Unidad
-                        </div>
-                        <div class="card-btns">
-                            <button class="btn btn-s" onclick="speakSection('plan-content')"
-                                aria-label="Escuchar plan">🔊 Escuchar</button>
-                            <button class="btn btn-s" onclick="downloadPDFVisual('plan')">📄 PDF</button>
-                            <button class="btn btn-s" onclick="downloadWordVisual('plan')">📝 Word</button>
-                        </div>
-                    </div>
-                    <div id="plan-content" class="readable-content"></div>
-                </div>
-            </div>
-
-            <!-- RESUMEN - LENGUAJE INCLUSIVO -->
-            <div id="tab-summary" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cs">📖</div>Resumen Detallado
-                        </div>
-                        <div class="card-btns">
-                            <button class="btn btn-s" onclick="speakSection('summary-content')"
-                                aria-label="Escuchar resumen">🔊 Escuchar</button>
-                            <button class="btn btn-s" onclick="downloadPDFVisual('summary')">📄 PDF</button>
-                            <button class="btn btn-s" onclick="downloadWordVisual('summary')">📝 Word</button>
-                        </div>
-                    </div>
-                    <div id="summary-content" class="content readable-content"></div>
-                </div>
-            </div>
-
-            <!-- VIDEO - HIPERVÍNCULOS -->
-            <div id="tab-video" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cw">🎬</div>Videos Educativos Recomendados
-                        </div>
-                        <button class="btn btn-s" onclick="speakSection('videos-content')"
-                            aria-label="Escuchar descripción de videos">🔊 Escuchar</button>
-                    </div>
-                    <div id="videos-content" class="readable-content"></div>
-                </div>
-            </div>
-
-            <!-- TUTORIALES - VIDEOS DEL CURSO -->
-            <div id="tab-tutorials" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon" style="background:linear-gradient(135deg,#f59e0b,#d97706)">🎥</div>
-                            Tutoriales del Curso
-                        </div>
-                        <button class="btn btn-s" onclick="speakSection('tutorials-content')"
-                            aria-label="Escuchar descripción de tutoriales">🔊 Escuchar</button>
-                    </div>
-                    <div id="tutorials-content" class="readable-content">
-                        <p style="font-size:13px;color:var(--gr);margin-bottom:24px">Videos tutoriales creados
-                            específicamente para este curso. Haz clic en cualquier video para verlo en YouTube.</p>
-
-                        <div class="tutorials-grid"
-                            style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;">
-
-                            <!-- Tutorial 1 -->
-                            <a href="https://youtu.be/eO8LPJTUhFc" target="_blank" class="tutorial-card"
-                                style="display:block;background:linear-gradient(145deg,#1e293b,#0f172a);border:1px solid rgba(245,158,11,0.3);border-radius:16px;overflow:hidden;text-decoration:none;transition:all 0.3s ease;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
-                                <div
-                                    style="position:relative;width:100%;padding-top:56.25%;background:linear-gradient(135deg,#1a1a2e,#16213e);">
-                                    <img src="https://img.youtube.com/vi/eO8LPJTUhFc/hqdefault.jpg" alt="Tutorial 1"
-                                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;"
-                                        onerror="this.style.display='none'">
-                                    <div
-                                        style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:68px;background:rgba(245,158,11,0.95);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(245,158,11,0.5);">
-                                        <span style="font-size:28px;margin-left:4px;color:#000;">▶</span>
-                                    </div>
-                                    <div
-                                        style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.85);padding:4px 10px;border-radius:4px;font-size:11px;color:#fff;">
-                                        YouTube</div>
-                                </div>
-                                <div style="padding:16px;">
-                                    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-                                        <span
-                                            style="background:linear-gradient(135deg,#f59e0b,#d97706);color:#000;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700;">Tutorial
-                                            1</span>
-                                    </div>
-                                    <h4 style="font-size:15px;color:#fff;margin-bottom:8px;line-height:1.4;">
-                                        Introducción al Curso de IA</h4>
-                                    <p style="font-size:12px;color:var(--gr);line-height:1.5;">Video introductorio del
-                                        curso de Inteligencia Artificial y Automatización. Conoce los objetivos y
-                                        estructura del programa.</p>
-                                    <div
-                                        style="display:flex;align-items:center;gap:6px;margin-top:14px;color:#f59e0b;font-size:13px;font-weight:500;">
-                                        <span>▶</span> Ver en YouTube
-                                    </div>
-                                </div>
-                            </a>
-
-                            <!-- Tutorial 2 -->
-                            <a href="https://youtu.be/u8MfgwqaiU4" target="_blank" class="tutorial-card"
-                                style="display:block;background:linear-gradient(145deg,#1e293b,#0f172a);border:1px solid rgba(245,158,11,0.3);border-radius:16px;overflow:hidden;text-decoration:none;transition:all 0.3s ease;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
-                                <div
-                                    style="position:relative;width:100%;padding-top:56.25%;background:linear-gradient(135deg,#1a1a2e,#16213e);">
-                                    <img src="https://img.youtube.com/vi/u8MfgwqaiU4/hqdefault.jpg" alt="Tutorial 2"
-                                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;"
-                                        onerror="this.style.display='none'">
-                                    <div
-                                        style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:68px;background:rgba(245,158,11,0.95);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(245,158,11,0.5);">
-                                        <span style="font-size:28px;margin-left:4px;color:#000;">▶</span>
-                                    </div>
-                                    <div
-                                        style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.85);padding:4px 10px;border-radius:4px;font-size:11px;color:#fff;">
-                                        YouTube</div>
-                                </div>
-                                <div style="padding:16px;">
-                                    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-                                        <span
-                                            style="background:linear-gradient(135deg,#f59e0b,#d97706);color:#000;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700;">Tutorial
-                                            2</span>
-                                    </div>
-                                    <h4 style="font-size:15px;color:#fff;margin-bottom:8px;line-height:1.4;">Conceptos
-                                        Básicos de IA</h4>
-                                    <p style="font-size:12px;color:var(--gr);line-height:1.5;">Aprende los conceptos
-                                        fundamentales de la Inteligencia Artificial y cómo aplicarlos en tu trabajo
-                                        diario.</p>
-                                    <div
-                                        style="display:flex;align-items:center;gap:6px;margin-top:14px;color:#f59e0b;font-size:13px;font-weight:500;">
-                                        <span>▶</span> Ver en YouTube
-                                    </div>
-                                </div>
-                            </a>
-
-                            <!-- Tutorial 3 -->
-                            <a href="https://youtu.be/YMgUQF1IIII" target="_blank" class="tutorial-card"
-                                style="display:block;background:linear-gradient(145deg,#1e293b,#0f172a);border:1px solid rgba(245,158,11,0.3);border-radius:16px;overflow:hidden;text-decoration:none;transition:all 0.3s ease;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
-                                <div
-                                    style="position:relative;width:100%;padding-top:56.25%;background:linear-gradient(135deg,#1a1a2e,#16213e);">
-                                    <img src="https://img.youtube.com/vi/YMgUQF1IIII/hqdefault.jpg" alt="Tutorial 3"
-                                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;"
-                                        onerror="this.style.display='none'">
-                                    <div
-                                        style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:68px;background:rgba(245,158,11,0.95);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(245,158,11,0.5);">
-                                        <span style="font-size:28px;margin-left:4px;color:#000;">▶</span>
-                                    </div>
-                                    <div
-                                        style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.85);padding:4px 10px;border-radius:4px;font-size:11px;color:#fff;">
-                                        YouTube</div>
-                                </div>
-                                <div style="padding:16px;">
-                                    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-                                        <span
-                                            style="background:linear-gradient(135deg,#f59e0b,#d97706);color:#000;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700;">Tutorial
-                                            3</span>
-                                    </div>
-                                    <h4 style="font-size:15px;color:#fff;margin-bottom:8px;line-height:1.4;">
-                                        Herramientas de IA Generativa</h4>
-                                    <p style="font-size:12px;color:var(--gr);line-height:1.5;">Descubre las principales
-                                        herramientas de IA generativa y cómo utilizarlas de manera efectiva.</p>
-                                    <div
-                                        style="display:flex;align-items:center;gap:6px;margin-top:14px;color:#f59e0b;font-size:13px;font-weight:500;">
-                                        <span>▶</span> Ver en YouTube
-                                    </div>
-                                </div>
-                            </a>
-
-                            <!-- Tutorial 4 -->
-                            <a href="https://youtu.be/ze5NqirkLVQ" target="_blank" class="tutorial-card"
-                                style="display:block;background:linear-gradient(145deg,#1e293b,#0f172a);border:1px solid rgba(245,158,11,0.3);border-radius:16px;overflow:hidden;text-decoration:none;transition:all 0.3s ease;box-shadow:0 4px 20px rgba(0,0,0,0.3);">
-                                <div
-                                    style="position:relative;width:100%;padding-top:56.25%;background:linear-gradient(135deg,#1a1a2e,#16213e);">
-                                    <img src="https://img.youtube.com/vi/ze5NqirkLVQ/hqdefault.jpg" alt="Tutorial 4"
-                                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;"
-                                        onerror="this.style.display='none'">
-                                    <div
-                                        style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:68px;height:68px;background:rgba(245,158,11,0.95);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(245,158,11,0.5);">
-                                        <span style="font-size:28px;margin-left:4px;color:#000;">▶</span>
-                                    </div>
-                                    <div
-                                        style="position:absolute;bottom:10px;right:10px;background:rgba(0,0,0,0.85);padding:4px 10px;border-radius:4px;font-size:11px;color:#fff;">
-                                        YouTube</div>
-                                </div>
-                                <div style="padding:16px;">
-                                    <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-                                        <span
-                                            style="background:linear-gradient(135deg,#f59e0b,#d97706);color:#000;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700;">Tutorial
-                                            4</span>
-                                    </div>
-                                    <h4 style="font-size:15px;color:#fff;margin-bottom:8px;line-height:1.4;">
-                                        Automatización con IA</h4>
-                                    <p style="font-size:12px;color:var(--gr);line-height:1.5;">Aprende a automatizar
-                                        tareas y procesos utilizando herramientas de inteligencia artificial.</p>
-                                    <div
-                                        style="display:flex;align-items:center;gap:6px;margin-top:14px;color:#f59e0b;font-size:13px;font-weight:500;">
-                                        <span>▶</span> Ver en YouTube
-                                    </div>
-                                </div>
-                            </a>
-
-                        </div>
-
-                        <div
-                            style="margin-top:24px;padding:16px;background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.2);border-radius:10px">
-                            <h4 style="font-size:13px;color:#f59e0b;margin-bottom:8px">📚 Sobre los Tutoriales</h4>
-                            <p style="font-size:12px;color:rgba(255,255,255,.8)">Estos videos han sido creados
-                                específicamente para complementar el contenido del curso. Te recomendamos verlos en
-                                orden y practicar junto con cada tutorial para maximizar tu aprendizaje.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- HERRAMIENTAS -->
-            <div id="tab-tools" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cr">🔧</div>Herramientas de IA
-                        </div>
-                        <button class="btn btn-s" onclick="speakSection('tools-content')"
-                            aria-label="Escuchar herramientas">🔊 Escuchar</button>
-                    </div>
-                    <div id="tools-content" class="readable-content"></div>
-                </div>
-            </div>
-
-            <!-- QUIZ - LENGUAJE INCLUSIVO -->
-            <div id="tab-quiz" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cg">✅</div>Práctica Autoevaluada
-                        </div>
-                        <button class="btn btn-s" onclick="speakCurrentQuestion()"
-                            aria-label="Escuchar pregunta actual">🔊 Escuchar pregunta</button>
-                    </div>
-                    <p style="font-size:12px;color:var(--gr);margin-bottom:16px">Esta práctica permite a cada persona
-                        evaluar su comprensión de los conceptos. Responde a tu propio ritmo.</p>
-                    <div class="quiz-progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"
-                            aria-valuemax="100">
-                            <div class="progress-fill" id="progressFill" style="width:0"></div>
-                        </div><span class="progress-text" id="progressText">0/10</span>
-                    </div>
-                    <div id="quizContent" role="region" aria-live="polite"></div>
-                    <div class="quiz-btns" id="quizBtns"><button class="btn btn-s" onclick="prevQ()" id="btnPrev"
-                            disabled aria-label="Pregunta anterior">← Anterior</button><button class="btn btn-p"
-                            onclick="nextQ()" id="btnNext" aria-label="Siguiente pregunta">Siguiente →</button></div>
-                </div>
-            </div>
-
-            <!-- JUEGOS -->
-            <div id="tab-games" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cw">🎮</div>Juegos Educativos
-                        </div>
-                    </div>
-                    <p style="font-size:12px;color:var(--gr);margin-bottom:16px">Actividades lúdicas para reforzar el
-                        aprendizaje. Cada persona puede elegir el juego que prefiera.</p>
-                    <div class="game-select" role="tablist">
-                        <div class="game-opt active" onclick="selectGame('memory')" role="tab" aria-selected="true"
-                            tabindex="0">
-                            <div class="game-opt-icon">🧠</div>
-                            <div class="game-opt-name">Memoria</div>
-                        </div>
-                        <div class="game-opt" onclick="selectGame('trivia')" role="tab" tabindex="0">
-                            <div class="game-opt-icon">❓</div>
-                            <div class="game-opt-name">Trivia</div>
-                        </div>
-                        <div class="game-opt" onclick="selectGame('classify')" role="tab" tabindex="0">
-                            <div class="game-opt-icon">📦</div>
-                            <div class="game-opt-name">Clasificar</div>
-                        </div>
-                        <div class="game-opt" onclick="selectGame('hangman')" role="tab" tabindex="0">
-                            <div class="game-opt-icon">📝</div>
-                            <div class="game-opt-name">Ahorcado</div>
-                        </div>
-                    </div>
-                    <div id="game-memory" class="game-area" role="tabpanel">
-                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
-                            <div class="game-stats">
-                                <div class="stat">
-                                    <div class="stat-val" id="memMoves">0</div>
-                                    <div class="stat-label">Movimientos</div>
-                                </div>
-                                <div class="stat">
-                                    <div class="stat-val" id="memMatches">0</div>
-                                    <div class="stat-label">Parejas</div>
-                                </div>
-                            </div>
-                            <button class="btn btn-p" onclick="initMemory()" aria-label="Reiniciar juego de memoria">🔄
-                                Reiniciar</button>
-                        </div>
-                        <div class="memory-grid" id="memGrid" role="grid" aria-label="Tablero de memoria"></div>
-                    </div>
-                    <div id="game-trivia" class="game-area" style="display:none" role="tabpanel">
-                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
-                            <div class="game-stats">
-                                <div class="stat">
-                                    <div class="stat-val" id="triviaScore">0</div>
-                                    <div class="stat-label">Puntos</div>
-                                </div>
-                                <div class="stat">
-                                    <div class="stat-val" id="triviaStreak">0</div>
-                                    <div class="stat-label">Racha</div>
-                                </div>
-                            </div>
-                            <button class="btn btn-p" onclick="initTrivia()">🔄 Nueva</button>
-                        </div>
-                        <div class="trivia-card" id="triviaCard"></div>
-                    </div>
-                    <div id="game-classify" class="game-area" style="display:none" role="tabpanel">
-                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
-                            <div class="game-stats">
-                                <div class="stat">
-                                    <div class="stat-val" id="classifyScore">0/8</div>
-                                    <div class="stat-label">Clasificados</div>
-                                </div>
-                            </div>
-                            <button class="btn btn-p" onclick="initClassify()">🔄 Reiniciar</button>
-                        </div>
-                        <p style="font-size:12px;color:var(--gr);margin-bottom:14px">Arrastra cada concepto a la
-                            categoría correspondiente</p>
-                        <div class="classify-container">
-                            <div class="classify-items" id="classifyItems"></div>
-                            <div class="classify-zones">
-                                <div class="classify-zone" id="zone-herramientas" ondragover="allowDrop(event)"
-                                    ondrop="dropItem(event,'herramientas')">
-                                    <h4>🔧 Herramientas</h4>
-                                </div>
-                                <div class="classify-zone" id="zone-conceptos" ondragover="allowDrop(event)"
-                                    ondrop="dropItem(event,'conceptos')">
-                                    <h4>📚 Conceptos</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="game-hangman" class="game-area" style="display:none;text-align:center" role="tabpanel">
-                        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
-                            <div class="game-stats">
-                                <div class="stat">
-                                    <div class="stat-val" id="hmWins">0</div>
-                                    <div class="stat-label">Ganadas</div>
-                                </div>
-                                <div class="stat">
-                                    <div class="stat-val" id="hmErrors">0/6</div>
-                                    <div class="stat-label">Errores</div>
-                                </div>
-                            </div>
-                            <button class="btn btn-p" onclick="initHangman()">🔄 Nueva</button>
-                        </div>
-                        <p id="hmHint" style="color:var(--gr);font-size:12px;margin:12px 0"></p>
-                        <div id="hmWord" style="display:flex;justify-content:center;gap:6px;margin:16px 0" role="status"
-                            aria-live="polite"></div>
-                        <div id="hmKeyboard"
-                            style="display:flex;flex-wrap:wrap;justify-content:center;gap:4px;max-width:360px;margin:0 auto">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SIMULADOR -->
-            <div id="tab-sim" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cp">🤖</div>Simulador de IA
-                        </div>
-                    </div>
-                    <p style="font-size:12px;color:var(--gr);margin-bottom:16px">Practica interactuando con un asistente
-                        de IA simulado. Ideal para que cualquier persona se familiarice con este tipo de herramientas.
-                    </p>
-                    <div class="sim-chat" role="application" aria-label="Simulador de chat con IA">
-                        <div class="sim-header">
-                            <div class="sim-avatar">🤖</div>
-                            <div>
-                                <div style="font-weight:600;font-size:13px">Asistente IA</div>
-                                <div style="font-size:10px;color:var(--g)">● En línea (Simulación educativa)</div>
-                            </div>
-                        </div>
-                        <div class="sim-msgs" id="simMsgs" role="log" aria-live="polite">
-                            <div class="sim-msg bot">¡Hola! Soy tu asistente de IA educativo. Puedo ayudarte con
-                                conceptos como tokens, temperatura, embeddings, alucinaciones, transformers, RAG,
-                                productividad con IA, o sobre las herramientas y módulos del curso. ¿Qué te gustaría
-                                aprender?</div>
-                        </div>
-                        <div class="sim-input"><input type="text" id="simInput" placeholder="Escribe tu pregunta..."
-                                onkeypress="if(event.key==='Enter')simSend()"
-                                aria-label="Campo para escribir tu pregunta"><button onclick="simSend()"
-                                aria-label="Enviar mensaje">Enviar</button></div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PRESENTACIÓN -->
-            <div id="tab-pres" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cp">📊</div>Presentación
-                        </div>
-                    </div>
-                    <p style="font-size:12px;color:var(--gr);margin-bottom:16px">Presentación de la unidad -
-                        Generalidades del curso de IA y evolución.</p>
-                    <div style="margin-bottom:16px;display:flex;gap:12px;flex-wrap:wrap;">
-                        <a href="https://docs.google.com/presentation/d/19B_ZBT87Kfs76XrMjQZTdyuV1N2c0H0-P_Rs-H8YiuY/edit?usp=sharing"
-                            target="_blank"
-                            style="background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;display:inline-flex;align-items:center;gap:8px;font-weight:500;box-shadow:0 4px 15px rgba(99,102,241,0.3);">
-                            🔗 Abrir en Nueva Pestaña
-                        </a>
-                        <a href="https://drive.google.com/uc?export=download&id=1u1lwyYydHZO7WJaxb0K4brlKUeGPTlX3"
-                            style="background:linear-gradient(135deg,#10b981,#059669);color:#fff;text-decoration:none;padding:12px 24px;border-radius:8px;display:inline-flex;align-items:center;gap:8px;font-weight:500;box-shadow:0 4px 15px rgba(16,185,129,0.3);">
-                            ⬇️ Descargar PDF
-                        </a>
-                    </div>
-
-                    <!-- Visor de Google Slides -->
-                    <div class="viewer" id="presViewer" style="display:block">
-                        <div
-                            style="position:relative;width:100%;background:#1a1a2e;border-radius:12px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,0.3);">
-                            <div
-                                style="background:linear-gradient(135deg,#6366f1,#8b5cf6);padding:12px 20px;display:flex;justify-content:space-between;align-items:center;">
-                                <span style="color:#fff;font-weight:600;font-size:14px;">📄 Generalidades del curso de
-                                    IA y evolución</span>
-                                <span style="color:rgba(255,255,255,0.8);font-size:12px;">Usa las flechas para navegar
-                                    →</span>
-                            </div>
-                            <iframe
-                                src="https://docs.google.com/presentation/d/19B_ZBT87Kfs76XrMjQZTdyuV1N2c0H0-P_Rs-H8YiuY/embed?start=false&loop=false&delayms=3000"
-                                frameborder="0" style="width:100%;height:569px;border:none;" allowfullscreen="true"
-                                mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ACTIVIDADES - LENGUAJE INCLUSIVO -->
-            <div id="tab-activities" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon cg">📝</div>Actividades Asincrónicas
-                        </div>
-                        <div class="card-btns">
-                            <button class="btn btn-s" onclick="speakSection('activities-content')"
-                                aria-label="Escuchar actividades">🔊 Escuchar</button>
-                            <button class="btn btn-s" onclick="downloadPDFVisual('activities')">📄 PDF</button>
-                            <button class="btn btn-s" onclick="downloadWordVisual('activities')">📝 Word</button>
-                        </div>
-                    </div>
-                    <div id="activities-content" class="readable-content"></div>
-                </div>
-            </div>
-
-            <!-- INSUMOS -->
-            <div id="tab-insumos" class="panel" role="tabpanel">
-                <div class="card">
-                    <div class="card-header">
-                        <div class="card-title">
-                            <div class="card-icon" style="background:linear-gradient(135deg,#f59e0b,#d97706)">📦</div>
-                            Insumos de la Unidad
-                        </div>
-                        <div class="card-btns">
-                            <button class="btn btn-s" onclick="speakSection('insumos-content')"
-                                aria-label="Escuchar insumos">🔊 Escuchar</button>
-                        </div>
-                    </div>
-                    <div id="insumos-content" class="readable-content"></div>
-                </div>
-            </div>
-        </main>
-    </div>
-
-    <!-- MODAL DE CONFIGURACIÓN -->
-    <div class="modal-overlay" id="settingsModal" role="dialog" aria-labelledby="settingsTitle" aria-modal="true">
-        <div class="modal">
-            <div class="modal-header">
-                <h3 class="modal-title" id="settingsTitle">⚙️ Personalizar Plataforma</h3><button class="modal-close"
-                    onclick="closeSettings()" aria-label="Cerrar configuración">×</button>
-            </div>
-            <div class="modal-body">
-                <div class="settings-section">
-                    <h4>🏢 Información de la Organización</h4>
-                    <label for="companyInput" style="font-size:12px;color:var(--gr)">Nombre de la empresa u
-                        organización:</label>
-                    <input type="text" id="companyInput" class="text-input" value="CEDECC"
-                        placeholder="Ej: Mi Organización">
-                    <label for="titleInput" style="font-size:12px;color:var(--gr);margin-top:10px;display:block">Título
-                        de la plataforma:</label>
-                    <input type="text" id="titleInput" class="text-input" value="IA y Automatización"
-                        placeholder="Ej: Curso de IA">
-                </div>
-                <div class="settings-section">
-                    <h4>🎨 Colores del Tema</h4>
-                    <div class="color-grid">
-                        <div class="color-item"><label for="colorP">Primario</label><input type="color" id="colorP"
-                                value="#6366f1"></div>
-                        <div class="color-item"><label for="colorS">Secundario</label><input type="color" id="colorS"
-                                value="#0ea5e9"></div>
-                        <div class="color-item"><label for="colorA">Acento</label><input type="color" id="colorA"
-                                value="#22d3ee"></div>
-                        <div class="color-item"><label for="colorG">Éxito</label><input type="color" id="colorG"
-                                value="#10b981"></div>
-                    </div>
-                </div>
-                <div class="settings-section">
-                    <h4>🌙 Colores de Fondo</h4>
-                    <div class="color-grid">
-                        <div class="color-item"><label for="colorBg">Fondo principal</label><input type="color"
-                                id="colorBg" value="#0f172a"></div>
-                        <div class="color-item"><label for="colorSidebar">Barra lateral</label><input type="color"
-                                id="colorSidebar" value="#1e293b"></div>
-                    </div>
-                </div>
-                <div class="settings-section">
-                    <h4>🏢 Logo de la Organización</h4>
-                    <div class="logo-upload" onclick="document.getElementById('logoInput').click()" role="button"
-                        tabindex="0">
-                        <img id="logoPreview" class="logo-preview" src="" alt="Vista previa del logo">
-                        <div id="logoUploadText">📷 Clic para subir logo</div>
-                        <input type="file" id="logoInput" accept="image/*" style="display:none"
-                            onchange="handleLogoUpload(event)" aria-label="Subir logo">
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-s" onclick="resetSettings()">🔄 Restablecer</button>
-                <button class="btn btn-p" onclick="saveSettings()">💾 Guardar</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- CONTENEDOR PARA EXPORTACIÓN -->
-    <div id="exportContainer" style="position:absolute;left:-9999px;top:0" aria-hidden="true"></div>
-
-    <!-- CHATBOT -->
-    <button class="chatbot-btn" onclick="toggleChat()" aria-label="Abrir asistente de ayuda"
-        title="Asistente de ayuda">💬</button>
-    <div class="chatbot-win" id="chatWin" role="dialog" aria-labelledby="chatTitle">
-        <div class="chat-header">
-            <div class="chat-avatar">🤖</div>
-            <div class="chat-info">
-                <h4 id="chatTitle">Asistente del Curso</h4><span>Disponible sin conexión</span>
-            </div>
-            <button class="chat-close" onclick="toggleChat()" aria-label="Cerrar chat">×</button>
-        </div>
-        <div class="chat-msgs" id="chatMsgs" role="log" aria-live="polite">
-            <div class="chat-msg bot">¡Hola! 👋 Soy tu asistente. Puedo ayudarte con dudas sobre IA, las herramientas
-                del curso o cómo usar esta plataforma. Todas las preguntas son bienvenidas.</div>
-        </div>
-        <div class="chat-suggestions">
-            <span class="chat-chip" onclick="chatAsk('¿Qué es la IA?')">¿Qué es IA?</span>
-            <span class="chat-chip" onclick="chatAsk('Accesibilidad')">Accesibilidad</span>
-            <span class="chat-chip" onclick="chatAsk('Herramientas')">Herramientas</span>
-            <span class="chat-chip" onclick="chatAsk('Juegos')">Juegos</span>
-        </div>
-        <div class="chat-input"><input type="text" id="chatInput" placeholder="Escribe tu pregunta..."
-                onkeypress="if(event.key==='Enter')chatSend()" aria-label="Campo de mensaje"><button
-                onclick="chatSend()" aria-label="Enviar">➤</button></div>
-    </div>
-
-    <script>
-        // ==================== ACCESIBILIDAD ====================
-        let ttsEnabled = false;
-        let currentFontSize = 1;
-        let highContrastEnabled = false;
-        let speechSynthesis = window.speechSynthesis;
-
-        function toggleTextToSpeech() {
-            ttsEnabled = !ttsEnabled;
-            const btn = document.getElementById('btnTTS');
-            btn.classList.toggle('active', ttsEnabled);
-            if (ttsEnabled) {
-                speak('Lector de voz activado. Ahora puedo leer el contenido de la plataforma. Haz clic en los botones de escuchar o selecciona texto para que lo lea.');
-            } else {
-                speechSynthesis.cancel();
-                speak('Lector de voz desactivado');
-            }
-            localStorage.setItem('ttsEnabled', ttsEnabled);
-        }
-
-        function speak(text) {
-            if (!speechSynthesis) return;
-            speechSynthesis.cancel();
-            const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = 'es-ES';
-            utterance.rate = 0.9;
-            utterance.pitch = 1;
-            speechSynthesis.speak(utterance);
-        }
-
-        // Función para cambiar entre visores de PDF
-        function cambiarVisor(tipo) {
-            const frame = document.getElementById('pdf-frame');
-            const btnDrive = document.getElementById('btn-drive');
-            const btnDocs = document.getElementById('btn-docs');
-
-            if (tipo === 'drive') {
-                frame.src = 'https://drive.google.com/file/d/1u1lwyYydHZO7WJaxb0K4brlKUeGPTlX3/preview';
-                btnDrive.style.background = 'rgba(255,255,255,0.9)';
-                btnDrive.style.color = '#6366f1';
-                btnDrive.style.fontWeight = '600';
-                btnDocs.style.background = 'rgba(255,255,255,0.2)';
-                btnDocs.style.color = '#fff';
-                btnDocs.style.fontWeight = 'normal';
-            } else {
-                frame.src = 'https://docs.google.com/viewer?url=https://drive.google.com/uc?export=download%26id=1u1lwyYydHZO7WJaxb0K4brlKUeGPTlX3&embedded=true';
-                btnDocs.style.background = 'rgba(255,255,255,0.9)';
-                btnDocs.style.color = '#6366f1';
-                btnDocs.style.fontWeight = '600';
-                btnDrive.style.background = 'rgba(255,255,255,0.2)';
-                btnDrive.style.color = '#fff';
-                btnDrive.style.fontWeight = 'normal';
-            }
-        }
-
-        function speakSection(sectionId) {
-            const section = document.getElementById(sectionId);
-            if (!section) return;
-            const text = section.innerText;
-            speak(text);
-        }
-
-        function speakCurrentQuestion() {
-            const questionEl = document.querySelector('.q-text');
-            const optionsEl = document.querySelectorAll('.opt span:last-child');
-            if (!questionEl) return;
-            let text = 'Pregunta: ' + questionEl.innerText + '. Opciones: ';
-            optionsEl.forEach((opt, i) => {
-                text += String.fromCharCode(65 + i) + ': ' + opt.innerText + '. ';
-            });
-            speak(text);
-        }
-
-        function increaseFont() {
-            if (currentFontSize < 1.5) {
-                currentFontSize += 0.1;
-                document.documentElement.style.setProperty('--font-size', currentFontSize);
-                localStorage.setItem('fontSize', currentFontSize);
-                if (ttsEnabled) speak('Texto aumentado');
-            }
-        }
-
-        function decreaseFont() {
-            if (currentFontSize > 0.8) {
-                currentFontSize -= 0.1;
-                document.documentElement.style.setProperty('--font-size', currentFontSize);
-                localStorage.setItem('fontSize', currentFontSize);
-                if (ttsEnabled) speak('Texto reducido');
-            }
-        }
-
-        function toggleHighContrast() {
-            highContrastEnabled = !highContrastEnabled;
-            document.body.classList.toggle('high-contrast', highContrastEnabled);
-            document.getElementById('btnContrast').classList.toggle('active', highContrastEnabled);
-            localStorage.setItem('highContrast', highContrastEnabled);
-            if (ttsEnabled) speak(highContrastEnabled ? 'Alto contraste activado' : 'Alto contraste desactivado');
-        }
-
-        function resetA11y() {
-            currentFontSize = 1;
-            document.documentElement.style.setProperty('--font-size', 1);
-            ttsEnabled = false;
-            document.getElementById('btnTTS').classList.remove('active');
-            highContrastEnabled = false;
-            document.body.classList.remove('high-contrast');
-            document.getElementById('btnContrast').classList.remove('active');
-            speechSynthesis.cancel();
-            localStorage.removeItem('fontSize');
-            localStorage.removeItem('ttsEnabled');
-            localStorage.removeItem('highContrast');
-            speak('Opciones de accesibilidad restablecidas');
-        }
-
-        function loadA11ySettings() {
-            const savedFont = localStorage.getItem('fontSize');
-            const savedTTS = localStorage.getItem('ttsEnabled');
-            const savedContrast = localStorage.getItem('highContrast');
-            if (savedFont) {
-                currentFontSize = parseFloat(savedFont);
-                document.documentElement.style.setProperty('--font-size', currentFontSize);
-            }
-            if (savedTTS === 'true') {
-                ttsEnabled = true;
-                document.getElementById('btnTTS').classList.add('active');
-            }
-            if (savedContrast === 'true') {
-                highContrastEnabled = true;
-                document.body.classList.add('high-contrast');
-                document.getElementById('btnContrast').classList.add('active');
-            }
-        }
-
-        // Leer texto seleccionado
-        document.addEventListener('mouseup', function () {
-            if (!ttsEnabled) return;
-            const selection = window.getSelection().toString().trim();
-            if (selection.length > 3 && selection.length < 2000) {
-                speak(selection);
-            }
-        });
-
-        // ==================== NAVEGACIÓN ====================
-        function showTab(t) {
-            document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-            document.querySelectorAll('.tab').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
-
-            const panel = document.getElementById('tab-' + t);
-            if (panel) panel.classList.add('active');
-
-            const targetBtn = Array.from(document.querySelectorAll('.tab')).find(b => b.getAttribute('onclick') && b.getAttribute('onclick').includes(t));
-            if (targetBtn) {
-                targetBtn.classList.add('active');
-                targetBtn.setAttribute('aria-selected', 'true');
-                if (typeof ttsEnabled !== 'undefined' && ttsEnabled && typeof event !== 'undefined' && event && event.type === 'click') {
-                    speak('Sección ' + targetBtn.innerText);
-                }
-            }
-        }
-
-        function toggleMod(btn) {
-            const mod = btn.closest('.nav-module');
-            mod.classList.toggle('open');
-            btn.setAttribute('aria-expanded', mod.classList.contains('open'));
-        }
-
-        function toggleRubric(btn) {
-            const content = btn.nextElementSibling;
-            content.classList.toggle('open');
-            btn.setAttribute('aria-expanded', content.classList.contains('open'));
-            btn.querySelector('span:last-child').textContent = content.classList.contains('open') ? '▲' : '▼';
-        }
-
-        // ==================== CONFIGURACIÓN ====================
-        function openSettings() { document.getElementById('settingsModal').classList.add('open'); }
-        function closeSettings() { document.getElementById('settingsModal').classList.remove('open'); }
-
-        function applyColors() {
-            const p = document.getElementById('colorP').value;
-            const s = document.getElementById('colorS').value;
-            const a = document.getElementById('colorA').value;
-            const g = document.getElementById('colorG').value;
-            const bg = document.getElementById('colorBg').value;
-            const sb = document.getElementById('colorSidebar').value;
-            document.documentElement.style.setProperty('--p', p);
-            document.documentElement.style.setProperty('--s', s);
-            document.documentElement.style.setProperty('--a', a);
-            document.documentElement.style.setProperty('--g', g);
-            document.documentElement.style.setProperty('--bg', bg);
-            document.documentElement.style.setProperty('--sidebar', sb);
-            document.body.style.background = bg;
-            document.querySelector('.sidebar').style.background = sb;
-        }
-
-        function handleLogoUpload(e) {
-            const file = e.target.files[0]; if (!file) return;
-            const reader = new FileReader();
-            reader.onload = function (x) {
-                document.getElementById('logoImg').src = x.target.result;
-                document.getElementById('logoImg').style.display = 'block';
-                document.getElementById('logoText').style.display = 'none';
-                document.getElementById('logoPreview').src = x.target.result;
-                document.getElementById('logoPreview').style.display = 'block';
-                document.getElementById('logoUploadText').style.display = 'none';
-            };
-            reader.readAsDataURL(file);
-        }
-
-        function saveSettings() {
-            const settings = {
-                company: document.getElementById('companyInput').value,
-                title: document.getElementById('titleInput').value,
-                colorP: document.getElementById('colorP').value,
-                colorS: document.getElementById('colorS').value,
-                colorA: document.getElementById('colorA').value,
-                colorG: document.getElementById('colorG').value,
-                colorBg: document.getElementById('colorBg').value,
-                colorSidebar: document.getElementById('colorSidebar').value,
-                logo: document.getElementById('logoImg').src || ''
-            };
-            localStorage.setItem('platformSettings', JSON.stringify(settings));
-            applySettingsFromStorage();
-            closeSettings();
-            alert('¡Configuración guardada correctamente!');
-        }
-
-        function applySettingsFromStorage() {
-            const saved = localStorage.getItem('platformSettings');
-            if (!saved) return;
-            const s = JSON.parse(saved);
-            if (s.company) { document.getElementById('companyInput').value = s.company; document.getElementById('companyName').textContent = s.company; }
-            if (s.title) { document.getElementById('titleInput').value = s.title; document.getElementById('platformTitle').textContent = s.title; }
-            if (s.colorP) document.getElementById('colorP').value = s.colorP;
-            if (s.colorS) document.getElementById('colorS').value = s.colorS;
-            if (s.colorA) document.getElementById('colorA').value = s.colorA;
-            if (s.colorG) document.getElementById('colorG').value = s.colorG;
-            if (s.colorBg) document.getElementById('colorBg').value = s.colorBg;
-            if (s.colorSidebar) document.getElementById('colorSidebar').value = s.colorSidebar;
-            if (s.logo && s.logo !== '') {
-                document.getElementById('logoImg').src = s.logo;
-                document.getElementById('logoImg').style.display = 'block';
-                document.getElementById('logoText').style.display = 'none';
-                document.getElementById('logoPreview').src = s.logo;
-                document.getElementById('logoPreview').style.display = 'block';
-            }
-            applyColors();
-        }
-
-        function resetSettings() { localStorage.removeItem('platformSettings'); localStorage.removeItem('videoEmbed'); location.reload(); }
-
-        // ==================== QUIZ (basado en la presentación) ====================
-        let quizQ = [
-            { q: "Según la presentación, ¿qué porcentaje de organizaciones ya usa IA generativa de forma regular?", o: ["45%", "55%", "65%", "75%"], c: 2 },
-            { q: "¿Cuántos millones de nuevos empleos se crearán ligados a tecnologías emergentes según el Foro Económico Mundial?", o: ["29 millones", "49 millones", "69 millones", "89 millones"], c: 2 },
-            { q: "¿Qué es un 'token' en el contexto de la IA?", o: ["Una moneda digital", "Unidad básica de texto que procesa el modelo", "Un tipo de contraseña", "Un algoritmo de seguridad"], c: 1 },
-            { q: "¿Qué controla el parámetro 'temperatura' en los modelos de IA?", o: ["La velocidad de respuesta", "El consumo de energía", "La creatividad de las respuestas", "El idioma de salida"], c: 2 },
-            { q: "¿Qué son las 'alucinaciones' en IA generativa?", o: ["Errores de conexión", "Información incorrecta presentada como verdadera", "Imágenes distorsionadas", "Problemas de memoria"], c: 1 },
-            { q: "Según el estudio de BCG, ¿qué mejora en calidad lograron los consultores usando GPT-4?", o: ["20% mejor calidad", "30% mejor calidad", "40% mejor calidad", "50% mejor calidad"], c: 2 },
-            { q: "¿Qué porcentaje de empleos mundiales cambiará significativamente antes de 2027?", o: ["13%", "23%", "33%", "43%"], c: 1 },
-            { q: "¿Qué función tienen los 'transformers' en IA?", o: ["Convertir energía", "Transformar imágenes en texto", "Convertir palabras en números para identificar relaciones", "Traducir idiomas automáticamente"], c: 2 },
-            { q: "¿Cuál es la temperatura recomendada para tareas de precisión como cálculos financieros?", o: ["0.1-0.4 (baja)", "0.5-0.7 (media)", "0.8-1.0 (alta)", "Mayor a 1.0"], c: 0 },
-            { q: "¿Qué significa RAG en el contexto de IA?", o: ["Random Algorithm Generation", "Retrieval-Augmented Generation", "Real Artificial Growth", "Rapid AI Generator"], c: 1 }
-        ];
-        let qIdx = 0, ans = [];
-
-        function initQuiz() { qIdx = 0; ans = Array(quizQ.length).fill(null); document.getElementById('quizBtns').style.display = 'flex'; renderQ(); updProg(); }
-
-        function renderQ() {
-            const q = quizQ[qIdx];
-            document.getElementById('quizContent').innerHTML = `<div class="question"><div class="q-num">Pregunta ${qIdx + 1} de ${quizQ.length}</div><div class="q-text">${q.q}</div><div class="options" role="radiogroup">${q.o.map((o, i) => `<button class="opt ${ans[qIdx] === i ? 'selected' : ''}" onclick="selOpt(${i})" role="radio" aria-checked="${ans[qIdx] === i}"><span class="opt-letter">${String.fromCharCode(65 + i)}</span><span>${o}</span></button>`).join('')}</div></div>`;
-            document.getElementById('btnPrev').disabled = qIdx === 0;
-            document.getElementById('btnNext').textContent = qIdx === (quizQ.length - 1) ? 'Finalizar →' : 'Siguiente →';
-        }
-
-        function selOpt(i) { ans[qIdx] = i; renderQ(); if (ttsEnabled) speak('Opción ' + String.fromCharCode(65 + i) + ' seleccionada'); }
-        function nextQ() { if (qIdx === (quizQ.length - 1)) showRes(); else { qIdx++; renderQ(); updProg(); } }
-        function prevQ() { if (qIdx > 0) { qIdx--; renderQ(); updProg(); } }
-        function updProg() { const a = ans.filter(x => x !== null).length; document.getElementById('progressFill').style.width = (a / quizQ.length * 100) + '%'; document.getElementById('progressText').textContent = a + '/' + quizQ.length; }
-
-        function showRes() {
-            let c = 0; quizQ.forEach((q, i) => { if (ans[i] === q.c) c++; });
-            const p = Math.round((c / quizQ.length) * 100);
-            let m = p >= 90 ? '🏆 ¡Excelente trabajo!' : p >= 70 ? '🎉 ¡Muy bien! Has aprobado' : p >= 50 ? '💪 ¡Buen esfuerzo! Sigue practicando' : '📚 Te recomendamos repasar el material';
-            document.getElementById('quizContent').innerHTML = `<div class="result"><div style="font-size:50px">${p >= 70 ? '🎉' : '📚'}</div><div class="result-score">${p}%</div><div style="font-size:18px;margin:8px 0">${m}</div><div style="color:var(--gr);margin-bottom:16px">${c} de ${quizQ.length} respuestas correctas</div><button class="btn btn-p" onclick="initQuiz()">🔄 Intentar de nuevo</button></div>`;
-            document.getElementById('quizBtns').style.display = 'none';
-            if (ttsEnabled) speak(`Obtuviste ${p} por ciento. ${c} respuestas correctas de ${quizQ.length}. ${m}`);
-        }
-
-        // ==================== JUEGOS ====================
-        let memPairs = [{ id: 1, t: "Token", d: "Unidad de texto" }, { id: 2, t: "Temperatura", d: "Controla creatividad" }, { id: 3, t: "Embedding", d: "Vector semántico" }, { id: 4, t: "Alucinación", d: "Info inventada" }, { id: 5, t: "Transformer", d: "Procesa contexto" }, { id: 6, t: "Red Neuronal", d: "Nodos conectados" }, { id: 7, t: "RAG", d: "Búsqueda+Generación" }, { id: 8, t: "Fine-tuning", d: "Especialización" }];
-        let memCards = [], flipped = [], matched = 0, moves = 0;
-
-        function initMemory() {
-            matched = 0; moves = 0; flipped = []; memCards = [];
-            memPairs.forEach(p => { memCards.push({ id: p.id, c: p.t }); memCards.push({ id: p.id, c: p.d }); });
-            memCards.sort(() => Math.random() - 0.5);
-            document.getElementById('memGrid').innerHTML = memCards.map((c, i) => `<div class="mem-card" data-i="${i}" data-id="${c.id}" onclick="flipCard(this)" role="button" tabindex="0" aria-label="Carta ${i + 1}"><span class="front">❓</span><span class="back">${c.c}</span></div>`).join('');
-            document.getElementById('memMoves').textContent = '0';
-            document.getElementById('memMatches').textContent = '0';
-        }
-
-        function flipCard(c) {
-            if (flipped.length >= 2 || c.classList.contains('flipped') || c.classList.contains('matched')) return;
-            c.classList.add('flipped');
-            flipped.push(c);
-            if (ttsEnabled) speak(c.querySelector('.back').textContent);
-            if (flipped.length === 2) {
-                moves++; document.getElementById('memMoves').textContent = moves;
-                const [c1, c2] = flipped;
-                if (c1.dataset.id === c2.dataset.id) {
-                    setTimeout(() => {
-                        c1.classList.add('matched'); c2.classList.add('matched');
-                        c1.classList.remove('flipped'); c2.classList.remove('flipped');
-                        matched++; document.getElementById('memMatches').textContent = matched;
-                        if (matched === 8) { setTimeout(() => { alert('¡Felicidades! Completaste el juego en ' + moves + ' movimientos'); if (ttsEnabled) speak('Felicidades, completaste el juego'); }, 300); }
-                    }, 400);
-                } else {
-                    setTimeout(() => { c1.classList.remove('flipped'); c2.classList.remove('flipped'); }, 800);
-                }
-                flipped = [];
-            }
-        }
-
-        let triviaQs = [{ q: "¿Qué porcentaje de mejora en calidad lograron consultores usando GPT-4?", o: ["20%", "30%", "40%", "50%"], c: 2 }, { q: "¿Qué significa RAG en el contexto de IA?", o: ["Random Algorithm Generation", "Retrieval-Augmented Generation", "Real Artificial Growth", "Rapid AI Generator"], c: 1 }, { q: "¿Para qué sirve una temperatura baja (0.1-0.4)?", o: ["Mayor creatividad", "Respuestas deterministas y precisas", "Generar imágenes", "Traducir idiomas"], c: 1 }, { q: "¿Qué son las redes convolucionales (CNN)?", o: ["Redes sociales", "Extractoras de patrones en imágenes", "Conexiones de internet", "Algoritmos de encriptación"], c: 1 }, { q: "¿Cuántas horas de trabajo podrían verse impactadas por IA según Accenture?", o: ["20%", "30%", "40%", "50%"], c: 2 }, { q: "¿Qué es el 'function calling' en IA?", o: ["Llamar por teléfono", "Capacidad del modelo de invocar funciones externas", "Un error del sistema", "Una función matemática"], c: 1 }, { q: "¿Qué evalúa el benchmark MMLU?", o: ["Velocidad de procesamiento", "Conocimiento multidisciplinario", "Generación de imágenes", "Traducción de idiomas"], c: 1 }, { q: "¿Qué arquitectura usa 'expertos' especializados activados por un router?", o: ["CNN", "RNN", "Mixture of Experts (MoE)", "LSTM"], c: 2 }, { q: "¿Cuántos millones de empleos serán automatizados según el Foro Económico Mundial?", o: ["43 millones", "63 millones", "83 millones", "103 millones"], c: 2 }, { q: "¿Qué sistema experto pionero se menciona en la historia de la IA?", o: ["ChatGPT", "MYCIN", "TensorFlow", "Python"], c: 1 }];
-        let triviaScore = 0, triviaStreak = 0, currentTrivia = null;
-
-        function initTrivia() {
-            currentTrivia = triviaQs[Math.floor(Math.random() * triviaQs.length)];
-            document.getElementById('triviaCard').innerHTML = `<div class="trivia-q">${currentTrivia.q}</div><div class="trivia-opts">${currentTrivia.o.map((o, i) => `<div class="trivia-opt" onclick="checkTrivia(${i})" role="button" tabindex="0">${o}</div>`).join('')}</div><div class="trivia-feedback" id="triviaFeedback"></div>`;
-            if (ttsEnabled) speak(currentTrivia.q);
-        }
-
-        function checkTrivia(i) {
-            const opts = document.querySelectorAll('.trivia-opt');
-            opts.forEach((o, idx) => { o.style.pointerEvents = 'none'; if (idx === currentTrivia.c) o.classList.add('correct'); else if (idx === i) o.classList.add('wrong'); });
-            const fb = document.getElementById('triviaFeedback');
-            if (i === currentTrivia.c) { triviaScore += 10; triviaStreak++; fb.innerHTML = '<div style="background:rgba(16,185,129,.2);padding:10px;border-radius:8px;margin-top:12px">✅ ¡Correcto! +10 puntos</div>'; if (ttsEnabled) speak('Correcto'); }
-            else { triviaStreak = 0; fb.innerHTML = '<div style="background:rgba(239,68,68,.2);padding:10px;border-radius:8px;margin-top:12px">❌ La respuesta correcta era: ' + currentTrivia.o[currentTrivia.c] + '</div>'; if (ttsEnabled) speak('Incorrecto. La respuesta era ' + currentTrivia.o[currentTrivia.c]); }
-            document.getElementById('triviaScore').textContent = triviaScore;
-            document.getElementById('triviaStreak').textContent = triviaStreak;
-            setTimeout(initTrivia, 2500);
-        }
-
-        let classifyData = { cat1: "🔧 Herramientas", cat2: "📚 Conceptos", items: [{ t: "ChatGPT", c: 1 }, { t: "Power BI", c: 1 }, { t: "n8n", c: 1 }, { t: "SikuliX", c: 1 }, { t: "Token", c: 2 }, { t: "Embedding", c: 2 }, { t: "Transformer", c: 2 }, { t: "RAG", c: 2 }] };
-        let classifyCorrect = 0;
-
-        function initClassify() {
-            classifyCorrect = 0;
-            const items = [...classifyData.items].sort(() => Math.random() - 0.5);
-            document.getElementById('classifyItems').innerHTML = items.map((item, i) => `<div class="classify-item" draggable="true" ondragstart="dragStart(event)" data-cat="${item.c}" id="item-${i}">${item.t}</div>`).join('');
-            document.getElementById('zone-herramientas').innerHTML = '<h4>' + classifyData.cat1 + '</h4>';
-            document.getElementById('zone-conceptos').innerHTML = '<h4>' + classifyData.cat2 + '</h4>';
-            document.getElementById('classifyScore').textContent = '0/' + classifyData.items.length;
-        }
-
-        function dragStart(e) { e.dataTransfer.setData('text/plain', e.target.id); e.target.classList.add('dragging'); }
-        function allowDrop(e) { e.preventDefault(); e.currentTarget.classList.add('dragover'); }
-        function dropItem(e, zone) {
-            e.preventDefault(); e.currentTarget.classList.remove('dragover');
-            const id = e.dataTransfer.getData('text/plain');
-            const item = document.getElementById(id);
-            if (!item) return;
-            const correctZone = item.dataset.cat == '1' ? 'herramientas' : 'conceptos';
-            if (correctZone === zone) {
-                item.classList.remove('dragging'); item.draggable = false;
-                e.currentTarget.appendChild(item);
-                classifyCorrect++; document.getElementById('classifyScore').textContent = classifyCorrect + '/' + classifyData.items.length;
-                if (classifyCorrect === classifyData.items.length) { setTimeout(() => { alert('¡Excelente! Has clasificado todos los elementos correctamente'); if (ttsEnabled) speak('Excelente, todo correcto'); }, 300); }
-            } else { item.classList.remove('dragging'); item.style.animation = 'shake 0.3s'; setTimeout(() => item.style.animation = '', 300); if (ttsEnabled) speak('Categoría incorrecta, intenta de nuevo'); }
-        }
-
-        let hmWords = [{ w: 'TRANSFORMER', h: 'Arquitectura que procesa contexto y relaciones' }, { w: 'EMBEDDING', h: 'Representación vectorial de palabras' }, { w: 'TEMPERATURA', h: 'Parámetro que controla creatividad' }, { w: 'ALUCINACION', h: 'Información incorrecta generada por IA' }, { w: 'TOKEN', h: 'Unidad básica de texto procesada' }, { w: 'NEURONAL', h: 'Tipo de red inspirada en el cerebro' }, { w: 'GENERATIVA', h: 'IA que crea contenido nuevo' }, { w: 'AUTOMATIZACION', h: 'Proceso ejecutado sin intervención humana' }];
-        let hmWord = '', hmGuessed = [], hmErr = 0, hmWins = 0;
-
-        function initHangman() {
-            const wo = hmWords[Math.floor(Math.random() * hmWords.length)];
-            hmWord = wo.w; hmGuessed = []; hmErr = 0;
-            document.getElementById('hmHint').textContent = 'Pista: ' + wo.h;
-            document.getElementById('hmErrors').textContent = '0/6';
-            renderHmWord(); renderHmKb();
-            if (ttsEnabled) speak('Nueva palabra. Pista: ' + wo.h);
-        }
-
-        function renderHmWord() { document.getElementById('hmWord').innerHTML = hmWord.split('').map(l => `<div style="width:26px;height:34px;border-bottom:2px solid var(--gr);display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700">${hmGuessed.includes(l) ? l : ''}</div>`).join(''); }
-        function renderHmKb() { document.getElementById('hmKeyboard').innerHTML = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ'.split('').map(l => `<button style="width:28px;height:28px;border-radius:4px;background:${hmGuessed.includes(l) ? (hmWord.includes(l) ? 'var(--g)' : 'var(--r)') : 'rgba(255,255,255,.1)'};border:none;color:white;font-size:12px;cursor:pointer" onclick="guessL('${l}')" ${hmGuessed.includes(l) ? 'disabled' : ''} aria-label="Letra ${l}">${l}</button>`).join(''); }
-
-        function guessL(l) {
-            if (hmGuessed.includes(l)) return;
-            hmGuessed.push(l);
-            if (!hmWord.includes(l)) { hmErr++; document.getElementById('hmErrors').textContent = hmErr + '/6'; if (hmErr >= 6) { setTimeout(() => { alert('¡Fin del juego! La palabra era: ' + hmWord); initHangman(); }, 300); return; } }
-            renderHmWord(); renderHmKb();
-            if (hmWord.split('').every(c => hmGuessed.includes(c))) { hmWins++; document.getElementById('hmWins').textContent = hmWins; setTimeout(() => { alert('¡Felicidades! Adivinaste la palabra'); initHangman(); }, 300); }
-        }
-
-        function selectGame(g) {
-            document.querySelectorAll('.game-opt').forEach(o => { o.classList.remove('active'); o.setAttribute('aria-selected', 'false'); });
-            event.target.closest('.game-opt').classList.add('active');
-            event.target.closest('.game-opt').setAttribute('aria-selected', 'true');
-            document.getElementById('game-memory').style.display = g === 'memory' ? 'block' : 'none';
-            document.getElementById('game-trivia').style.display = g === 'trivia' ? 'block' : 'none';
-            document.getElementById('game-classify').style.display = g === 'classify' ? 'block' : 'none';
-            document.getElementById('game-hangman').style.display = g === 'hangman' ? 'block' : 'none';
-            if (g === 'memory') initMemory();
-            else if (g === 'trivia') initTrivia();
-            else if (g === 'classify') initClassify();
-            else initHangman();
-        }
-
-        // ==================== SIMULADOR Y CHATBOT MEJORADO ====================
-        let simResp = {
-            'qué es la ia': 'La <strong>Inteligencia Artificial (IA)</strong> son sistemas informáticos entrenados que desarrollan tareas de modo autónomo y adaptativo: crear texto e imágenes, automatizar tareas, analizar datos, buscar patrones y responder en chatbots.',
-            'token': 'Un <strong>token</strong> es la unidad básica de texto que procesa el modelo de IA. Puede ser una palabra, parte de una palabra o un símbolo. Los modelos tienen límites de tokens que pueden procesar.',
-            'temperatura': 'La <strong>temperatura</strong> controla la creatividad de las respuestas:<br><br>• <strong>Baja (0.1-0.4):</strong> Respuestas precisas y deterministas<br>• <strong>Media (0.5-0.7):</strong> Balance entre consistencia y variedad<br>• <strong>Alta (0.8-1.0):</strong> Mayor creatividad para brainstorming',
-            'alucinacion': 'Las <strong>alucinaciones</strong> son cuando la IA genera información incorrecta o inventada, presentada como verdadera. Causas: datos incompletos, patrones mal interpretados, falta de conocimiento actualizado. <strong>Siempre verifica información crítica.</strong>',
-            'embedding': 'Un <strong>embedding</strong> es una representación vectorial de palabras o documentos en un espacio multidimensional. Permite medir similitud semántica entre conceptos (ej: "inflación" cercano a "IPC").',
-            'transformer': 'Los <strong>transformers</strong> son arquitecturas de IA que convierten palabras en números, identificando relaciones y contextos. Son la base de modelos como ChatGPT y permiten entender y generar lenguaje natural.',
-            'rag': '<strong>RAG (Retrieval-Augmented Generation)</strong> combina búsqueda de información con generación de texto. El modelo busca datos relevantes antes de responder, mejorando la precisión.',
-            'productividad': 'La IA mejora la productividad: consultores con GPT-4 completan <strong>12.2% más tareas</strong>, <strong>25.1% más rápido</strong> y con <strong>40% mejor calidad</strong>. Agentes de servicio mejoran <strong>14%</strong> su desempeño.',
-            'chatgpt': '<strong>ChatGPT</strong> es una IA generativa de OpenAI para crear texto, conversar y programar. Es una de las herramientas que aprenderás a usar en este curso.',
-            'herramientas': '<strong>Herramientas del curso:</strong><br><br>• Generación: ChatGPT, Gemini, DeepSeek<br>• Automatización: n8n, Make, ManyChat, SikuliX<br>• Datos: Power BI, Power Query<br>• Imágenes: Canva, DALL-E, Flux AI<br>• Avanzado: Google AI Studio, Python',
-            'modulos': '<strong>6 Módulos del programa:</strong><br><br>1. Fundamentos de IA (Sem 1-3)<br>2. Automatización de Tareas (Sem 4-8)<br>3. Automatizaciones Programadas (Sem 9-15)<br>4. Contenido Multimedia (Sem 16-17)<br>5. Análisis de Datos (Sem 18-21)<br>6. Proyecto Integrador (Sem 22-23)',
-            'default': 'Puedo ayudarte con conceptos como tokens, temperatura, embeddings, alucinaciones, transformers, RAG, o sobre las herramientas y módulos del curso. ¿Qué te gustaría saber?'
-        };
-
-        // Base de conocimientos completa del chatbot
-        const chatKnowledge = {
-            // Información del curso
-            'curso': '<strong>Curso: IA y Automatización</strong><br><br>• Duración: 23 semanas (160 horas)<br>• Sincrónico: 6 horas/semana<br>• Asincrónico: 1 hora/semana<br>• Total semanal: 7 horas<br>• 6 módulos de aprendizaje progresivo',
-            'duracion': 'El curso tiene una <strong>duración de 23 semanas</strong> (160 horas total). Cada semana incluye 6 horas sincrónicas y 1 hora de trabajo asincrónico.',
-            'modulos': '<strong>6 Módulos del programa:</strong><br><br>1️⃣ Fundamentos de IA Generativa (Sem 1-3)<br>2️⃣ Automatización de Tareas (Sem 4-8)<br>3️⃣ Automatizaciones Programadas (Sem 9-15)<br>4️⃣ Contenido Multimedia (Sem 16-17)<br>5️⃣ Análisis de Datos (Sem 18-21)<br>6️⃣ Proyecto Integrador (Sem 22-23)',
-            'evaluacion': '<strong>Sistema de Evaluación:</strong><br><br>• Ejercicios prácticos: 40%<br>• Proyecto final: 30%<br>• Participación: 20%<br>• Actividades asincrónicas: 10%',
-
-            // Conceptos de IA
-            'qué es ia': 'La <strong>Inteligencia Artificial</strong> son sistemas informáticos entrenados que desarrollan tareas de modo autónomo y adaptativo. Ejemplos: crear texto e imágenes, automatizar tareas, analizar datos, responder en chatbots.',
-            'inteligencia artificial': 'La <strong>IA</strong> es una rama de la informática que crea sistemas capaces de aprender, razonar y tomar decisiones. El 65% de organizaciones ya usa IA generativa regularmente.',
-            'token': 'Un <strong>token</strong> es la unidad básica de texto que procesa el modelo. Puede ser una palabra, parte de palabra o símbolo. Los modelos tienen límites de tokens (ventana de contexto).',
-            'temperatura': '<strong>Temperatura</strong> controla la creatividad:<br><br>• Baja (0.1-0.4): Precisión, cálculos<br>• Media (0.5-0.7): Balance<br>• Alta (0.8-1.0): Creatividad, brainstorming',
-            'embedding': '<strong>Embedding</strong> es una representación vectorial de palabras. Permite medir similitud semántica (ej: "inflación" cercano a "IPC").',
-            'alucinacion': '<strong>Alucinaciones</strong> son información incorrecta presentada como verdadera. Causas: datos incompletos, patrones mal interpretados. ¡Siempre verifica información crítica!',
-            'transformer': '<strong>Transformers</strong> convierten palabras en números para identificar relaciones y contextos. Son la base de ChatGPT, Gemini y otros modelos modernos.',
-            'rag': '<strong>RAG</strong> (Retrieval-Augmented Generation) combina búsqueda + generación. El modelo busca información relevante antes de responder.',
-            'fine-tuning': '<strong>Fine-tuning</strong> es la especialización de un modelo en dominios específicos, como análisis financiero o atención médica.',
-            'ventana de contexto': 'La <strong>ventana de contexto</strong> es la cantidad máxima de tokens que el modelo puede procesar en una interacción.',
-
-            // Herramientas
-            'herramientas': '<strong>Herramientas del curso:</strong><br><br>🤖 Texto: ChatGPT, Gemini, DeepSeek<br>⚙️ Automatización: n8n, Make, ManyChat, SikuliX<br>📊 Datos: Power BI, Power Query<br>🎨 Imágenes: Canva, DALL-E, Flux AI<br>🔧 Avanzado: Google AI Studio, Python',
-            'chatgpt': '<strong>ChatGPT</strong> es una IA de OpenAI para crear texto, conversar, programar y analizar. Disponible en chat.openai.com',
-            'gemini': '<strong>Gemini</strong> es la IA multimodal de Google. Puede procesar texto, imágenes y más. Disponible en gemini.google.com',
-            'deepseek': '<strong>DeepSeek</strong> es un modelo de IA avanzado con capacidades de razonamiento profundo y análisis.',
-            'power bi': '<strong>Power BI</strong> es la herramienta de Microsoft para análisis y visualización de datos. Crearás dashboards y reportes.',
-            'n8n': '<strong>n8n</strong> es una plataforma de automatización de flujos de trabajo. Conecta aplicaciones sin programar.',
-            'make': '<strong>Make</strong> (antes Integromat) permite crear automatizaciones visuales conectando múltiples aplicaciones.',
-            'sikulix': '<strong>SikuliX</strong> permite crear bots que automatizan tareas visuales en la computadora.',
-            'python': '<strong>Python</strong> es un lenguaje de programación. En el curso aprenderás nivel básico para automatización y análisis de datos.',
-
-            // Arquitecturas
-            'cnn': '<strong>CNN</strong> (Redes Convolucionales) extraen patrones jerárquicos en imágenes. Útiles para análisis visual y monitoreo.',
-            'rnn': '<strong>RNN/LSTM/GRU</strong> procesan datos secuenciales manteniendo memoria. Eficientes en predicción de indicadores.',
-            'moe': '<strong>Mixture of Experts (MoE)</strong> es una arquitectura con sub-redes especializadas y un router que elige cuáles activar.',
-
-            // Estadísticas
-            'estadisticas': '<strong>Datos clave del mercado:</strong><br><br>• 65% organizaciones usan IA generativa<br>• 69 millones nuevos empleos por IA<br>• 23% empleos cambiarán antes de 2027<br>• 40% mejor calidad con GPT-4 (BCG)',
-            'productividad': 'La IA mejora la productividad: consultores con GPT-4 completaron <strong>12.2% más tareas</strong>, <strong>25.1% más rápido</strong> y con <strong>40% mejor calidad</strong>.',
-            'empleos': 'Según el Foro Económico Mundial, se crearán <strong>69 millones de nuevos empleos</strong> ligados a IA, mientras 83 millones serán automatizados.',
-
-            // Historia
-            'historia': '<strong>Historia de la IA:</strong><br><br>• 1950-70: Turing, primeros programas<br>• 1970-80s: Sistemas expertos (MYCIN)<br>• 1990s-2000s: Machine Learning, Deep Blue<br>• 2010s: Deep Learning<br>• 2020s: IA Generativa (ChatGPT)',
-            'turing': '<strong>Alan Turing</strong> propuso la Prueba de Turing en 1950 para evaluar si una máquina puede exhibir comportamiento inteligente.',
-
-            // Oportunidades laborales
-            'trabajo': '<strong>Oportunidades laborales emergentes:</strong><br><br>• Especialista en automatización (RPA)<br>• Analista de datos con IA<br>• Diseñador de chatbots<br>• Generador de contenido con IA<br>• Coordinador de adopción de IA',
-            'enia': 'La <strong>ENIA 2024-2027</strong> es la Estrategia Nacional de IA de Costa Rica. Promueve formación, reskilling y nuevas oportunidades laborales.',
-
-            // Actividades
-            'actividades': '<strong>Actividades asincrónicas (10% de evaluación):</strong><br><br>1️⃣ Práctica con ChatGPT (45 min)<br>2️⃣ Definir conceptos clave (40 min)<br>3️⃣ Cadena de prompts (30 min)',
-            'practica': 'La <strong>práctica evaluada</strong> vale 40% de la nota. Incluye crear bots, dashboards, flujos automatizados y ejercicios con herramientas de IA.',
-            'proyecto': 'El <strong>proyecto final</strong> vale 30%. Es una solución integradora que aplica todo lo aprendido en un caso real o simulado.',
-
-            // Plataforma
-            'juegos': 'La plataforma tiene <strong>4 juegos educativos</strong>: Memoria (parejas de conceptos), Trivia, Clasificar (arrastrar elementos) y Ahorcado.',
-            'accesibilidad': '<strong>Opciones de accesibilidad:</strong><br><br>🔊 Lector de voz (TTS)<br>🔍 Aumentar texto<br>◐ Alto contraste<br>↺ Restablecer',
-            'personalizar': 'Puedes <strong>personalizar</strong> la plataforma: cambiar colores, logo y nombre de la organización en ⚙️ Personalizar.',
-            'pdf': 'Puedes <strong>descargar PDF o Word</strong> de cada sección con los botones correspondientes. Incluyen toda la información.',
-            'tutoriales': 'La sección <strong>Tutoriales</strong> tiene videos creados específicamente para el curso. Haz clic en cualquiera para verlo en YouTube.',
-
-            // Respuesta por defecto mejorada
-            'default': '¡Hola! Soy tu asistente del curso de IA. Puedo ayudarte con:<br><br>• <strong>Conceptos:</strong> token, temperatura, embedding, RAG...<br>• <strong>Herramientas:</strong> ChatGPT, Power BI, n8n...<br>• <strong>Curso:</strong> módulos, evaluación, actividades...<br>• <strong>Plataforma:</strong> juegos, accesibilidad, PDF...<br><br>¿Qué te gustaría saber?'
-        };
-
-        function simSend() {
-            const inp = document.getElementById('simInput'), msg = inp.value.trim();
-            if (!msg) return;
-            const msgs = document.getElementById('simMsgs');
-            msgs.innerHTML += `<div class="sim-msg user">${msg}</div>`;
-            inp.value = '';
-            setTimeout(() => {
-                const key = Object.keys(simResp).find(k => msg.toLowerCase().includes(k)) || 'default';
-                msgs.innerHTML += `<div class="sim-msg bot">${simResp[key]}</div>`;
-                msgs.scrollTop = msgs.scrollHeight;
-                if (ttsEnabled) speak(simResp[key].replace(/<[^>]*>/g, ''));
-            }, 500);
-        }
-
-        function toggleChat() { document.getElementById('chatWin').classList.toggle('open'); }
-        function chatAsk(t) { document.getElementById('chatInput').value = t; chatSend(); }
-        function chatSend() {
-            const inp = document.getElementById('chatInput'), msg = inp.value.trim();
-            if (!msg) return;
-            const msgs = document.getElementById('chatMsgs');
-            msgs.innerHTML += `<div class="chat-msg user">${msg}</div>`;
-            inp.value = '';
-            setTimeout(() => {
-                const msgLower = msg.toLowerCase();
-                let response = chatKnowledge['default'];
-                for (const [key, value] of Object.entries(chatKnowledge)) {
-                    if (key !== 'default' && msgLower.includes(key)) {
-                        response = value;
-                        break;
-                    }
-                }
-                msgs.innerHTML += `<div class="chat-msg bot">${response}</div>`;
-                msgs.scrollTop = msgs.scrollHeight;
-            }, 300);
-        }
-
-        // ==================== CARGAR ARCHIVOS ====================
-        function loadPres(e) {
-            const f = e.target.files[0];
-            if (!f || f.type !== 'application/pdf') { alert('Por favor, selecciona un archivo PDF'); return; }
-            document.getElementById('presUpload').style.display = 'none';
-            document.getElementById('presViewer').style.display = 'block';
-            document.getElementById('presViewer').innerHTML = `<iframe src="${URL.createObjectURL(f)}" title="Presentación PDF"></iframe>`;
-        }
-
-        // ==================== DESCARGAS VISUALES ====================
-        function getCompanyName() { return document.getElementById('companyName').textContent || 'Organización'; }
-
-        function createExportHTML(section) {
-            const primary = getComputedStyle(document.documentElement).getPropertyValue('--p').trim() || '#6366f1';
-            const company = getCompanyName();
-            let html = `<div style="background:#fff;color:#000;padding:30px;font-family:Arial,sans-serif;max-width:800px">`;
-            html += `<h1 style="color:${primary};font-size:24px;margin-bottom:5px">Unidad 1: Inducción e Introducción al Curso</h1>`;
-            html += `<p style="color:#666;font-size:14px;margin-bottom:20px">Módulo 1: Fundamentos de IA Generativa • ${company}</p>`;
-
-            if (section === 'full' || section === 'plan') {
-                html += `<div style="background:linear-gradient(135deg,${primary},#0ea5e9);color:#fff;padding:15px 20px;border-radius:10px;margin:20px 0"><h2 style="margin:0;font-size:18px">📋 PLAN DE LA UNIDAD</h2></div>`;
-
-                // Objetivos completos
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<h4 style="color:${primary};font-size:14px;margin-bottom:12px">🎯 Objetivos de Aprendizaje</h4>`;
-                html += `<ul style="font-size:12px;padding-left:18px;margin:0;line-height:1.8">`;
-                html += `<li>Conocer la estructura y metodología del programa de 23 semanas</li>`;
-                html += `<li>Comprender qué es la IA, su definición y funcionamiento (redes neuronales, transformers)</li>`;
-                html += `<li>Identificar la evolución histórica de la IA: desde Turing hasta la IA Generativa</li>`;
-                html += `<li>Dominar conceptos clave: tokens, temperatura, embeddings, alucinaciones</li>`;
-                html += `<li>Reconocer las oportunidades laborales emergentes en IA</li></ul></div>`;
-
-                // Competencias completas
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<h4 style="color:${primary};font-size:14px;margin-bottom:12px">💡 Competencias a Desarrollar</h4>`;
-                html += `<ul style="font-size:12px;padding-left:18px;margin:0;line-height:1.8">`;
-                html += `<li>Generación de contenido automatizado con ChatGPT, Gemini, DeepSeek</li>`;
-                html += `<li>Desarrollo de automatizaciones con Python, SikuliX, n8n, Make</li>`;
-                html += `<li>Análisis y visualización de datos con Power BI y Power Query</li>`;
-                html += `<li>Automatización multimedia con Canva, Flux AI, VideoFX</li>`;
-                html += `<li>Liderazgo en transformación digital</li></ul></div>`;
-
-                // Distribución del tiempo
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<h4 style="color:${primary};font-size:14px;margin-bottom:12px">⏱️ Distribución del Tiempo</h4>`;
-                html += `<ul style="font-size:12px;padding-left:18px;margin:0;line-height:1.8">`;
-                html += `<li><strong>Duración total:</strong> 23 semanas (160 horas)</li>`;
-                html += `<li><strong>Sesiones sincrónicas:</strong> 6 horas semanales (136h total)</li>`;
-                html += `<li><strong>Trabajo asincrónico:</strong> 1 hora semanal (24h total)</li>`;
-                html += `<li><strong>Dedicación semanal:</strong> 7 horas</li></ul></div>`;
-
-                // Estructura del programa
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<h4 style="color:${primary};font-size:14px;margin-bottom:12px">📚 Estructura del Programa (6 Módulos)</h4>`;
-                html += `<ul style="font-size:12px;padding-left:18px;margin:0;line-height:1.8">`;
-                html += `<li><strong>Módulo 1 (Semanas 1-3):</strong> Fundamentos de IA Generativa</li>`;
-                html += `<li><strong>Módulo 2 (Semanas 4-8):</strong> Automatización de Tareas</li>`;
-                html += `<li><strong>Módulo 3 (Semanas 9-15):</strong> Automatizaciones Programadas</li>`;
-                html += `<li><strong>Módulo 4 (Semanas 16-17):</strong> Contenido Multimedia</li>`;
-                html += `<li><strong>Módulo 5 (Semanas 18-21):</strong> Análisis de Datos</li>`;
-                html += `<li><strong>Módulo 6 (Semanas 22-23):</strong> Proyecto Integrador</li></ul></div>`;
-
-                // Contenidos de la unidad
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<h4 style="color:${primary};font-size:14px;margin-bottom:12px">📝 Contenidos de Esta Unidad</h4>`;
-                html += `<ul style="font-size:12px;padding-left:18px;margin:0;line-height:1.8">`;
-                html += `<li>Inducción al curso, plataformas virtuales y expectativas</li>`;
-                html += `<li>Definición de IA y cómo funcionan las redes neuronales</li>`;
-                html += `<li>Historia: desde los orígenes (1950) hasta la IA Generativa (2020s)</li>`;
-                html += `<li>Conceptos técnicos: tokens, temperatura, embeddings, transformers</li>`;
-                html += `<li>Impacto laboral: 65% organizaciones usan IA, 69M nuevos empleos</li></ul></div>`;
-
-                // Sistema de evaluación
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<h4 style="color:${primary};font-size:14px;margin-bottom:12px">✅ Sistema de Evaluación</h4>`;
-                html += `<ul style="font-size:12px;padding-left:18px;margin:0;line-height:1.8">`;
-                html += `<li><strong>Ejercicios prácticos por módulo:</strong> 40% (bots, dashboards, flujos)</li>`;
-                html += `<li><strong>Proyecto final aplicado:</strong> 30% (solución integradora real)</li>`;
-                html += `<li><strong>Participación y asistencia:</strong> 20%</li>`;
-                html += `<li><strong>Actividades asincrónicas:</strong> 10% (foros, autoevaluaciones)</li></ul></div>`;
-            }
-
-            if (section === 'full' || section === 'summary') {
-                html += `<div style="background:linear-gradient(135deg,#0ea5e9,#22d3ee);color:#fff;padding:15px 20px;border-radius:10px;margin:20px 0;page-break-before:always"><h2 style="margin:0;font-size:18px">📖 RESUMEN DE CONTENIDOS</h2></div>`;
-
-                // Contexto global
-                html += `<h3 style="color:${primary};font-size:15px;margin:20px 0 10px;border-left:4px solid ${primary};padding-left:10px">🌍 Contexto Global: La Revolución de la IA</h3>`;
-                html += `<p style="font-size:12px;line-height:1.7">La adopción de inteligencia artificial se ha generalizado a escala mundial:</p>`;
-                html += `<ul style="font-size:12px;padding-left:18px;line-height:1.8">`;
-                html += `<li><strong>65% de las organizaciones</strong> ya usa IA generativa de forma regular</li>`;
-                html += `<li><strong>23% de los empleos mundiales</strong> cambiará significativamente antes de 2027</li>`;
-                html += `<li><strong>69 millones de nuevos puestos</strong> se crearán ligados a tecnologías emergentes</li>`;
-                html += `<li><strong>83 millones de empleos</strong> serán automatizados</li></ul>`;
-
-                // Productividad
-                html += `<div style="background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<h4 style="color:#0284c7;font-size:13px;margin-bottom:10px">📊 Productividad con IA (Evidencia Empírica)</h4>`;
-                html += `<ul style="font-size:12px;padding-left:18px;margin:0;line-height:1.8">`;
-                html += `<li><strong>Estudio BCG:</strong> Consultores con GPT-4 completaron 12.2% más tareas, 25.1% más rápido y con 40% mejor calidad</li>`;
-                html += `<li><strong>Servicio al cliente:</strong> Agentes con IA mejoraron su desempeño 14% en promedio</li>`;
-                html += `<li><strong>Accenture:</strong> Los modelos de lenguaje podrían impactar hasta el 40% de todas las horas de trabajo globales</li></ul></div>`;
-
-                // Qué es la IA
-                html += `<h3 style="color:${primary};font-size:15px;margin:20px 0 10px;border-left:4px solid ${primary};padding-left:10px">🤖 ¿Qué es la Inteligencia Artificial?</h3>`;
-                html += `<p style="font-size:12px;line-height:1.7"><strong>Definición:</strong> Sistemas informáticos entrenados que desarrollan diversas tareas de modo más autónomo y adaptativo.</p>`;
-                html += `<p style="font-size:12px;line-height:1.7"><strong>Ejemplos:</strong> Crear texto e imágenes, automatizar tareas, analizar datos, buscar clientes a partir de patrones, responder en chatbots.</p>`;
-
-                // Cómo funciona
-                html += `<h3 style="color:${primary};font-size:15px;margin:20px 0 10px;border-left:4px solid ${primary};padding-left:10px">🧠 ¿Cómo Funciona la IA?</h3>`;
-                html += `<p style="font-size:12px;line-height:1.7"><strong>Redes Neuronales:</strong> Funcionan como un cerebro muy simplificado. Están formadas por nodos (o "neuronas") que se conectan entre sí y procesan información.</p>`;
-                html += `<p style="font-size:12px;line-height:1.7"><strong>Transformers:</strong> Convierten las palabras en números que representan su significado, para identificar relaciones y contextos entre ellas.</p>`;
-
-                // Historia
-                html += `<h3 style="color:${primary};font-size:15px;margin:20px 0 10px;border-left:4px solid ${primary};padding-left:10px">📜 Historia y Evolución de la IA</h3>`;
-                html += `<ul style="font-size:12px;padding-left:18px;line-height:1.8">`;
-                html += `<li><strong>Orígenes (1950-1970):</strong> Turing y la Prueba de Turing; primeros programas de juego</li>`;
-                html += `<li><strong>Sistemas Expertos (1970-1980s):</strong> MYCIN y XCON como ejemplos pioneros</li>`;
-                html += `<li><strong>Inviernos de la IA:</strong> Períodos de reducción de financiamiento</li>`;
-                html += `<li><strong>Renacimiento (1990s-2000s):</strong> Machine Learning, Deep Blue vence al campeón de ajedrez</li>`;
-                html += `<li><strong>Era del Deep Learning (2010s):</strong> Las redes neuronales profundas revolucionan la IA</li>`;
-                html += `<li><strong>IA Generativa (2020s):</strong> ChatGPT, DALL-E transforman industrias</li></ul>`;
-
-                // Conceptos clave
-                html += `<h3 style="color:${primary};font-size:15px;margin:20px 0 10px;border-left:4px solid ${primary};padding-left:10px">📚 Conceptos Clave de IA</h3>`;
-                html += `<ul style="font-size:12px;padding-left:18px;line-height:1.8">`;
-                html += `<li><strong>Token:</strong> Unidad básica de texto que procesa el modelo (palabra, parte de palabra o símbolo)</li>`;
-                html += `<li><strong>Ventana de contexto:</strong> Cantidad máxima de tokens que el modelo puede procesar</li>`;
-                html += `<li><strong>Temperatura:</strong> Baja (0.1-0.4) para precisión, Media (0.5-0.7) para balance, Alta (0.8-1.0) para creatividad</li>`;
-                html += `<li><strong>Embedding:</strong> Representación vectorial de palabras que permite medir similitud semántica</li>`;
-                html += `<li><strong>Alucinaciones:</strong> Información incorrecta o inventada presentada como verdadera</li></ul>`;
-
-                // IA Generativa
-                html += `<h3 style="color:${primary};font-size:15px;margin:20px 0 10px;border-left:4px solid ${primary};padding-left:10px">🎨 IA Generativa: Tipos de Contenido</h3>`;
-                html += `<ul style="font-size:12px;padding-left:18px;line-height:1.8">`;
-                html += `<li><strong>Texto:</strong> Artículos, poemas, guiones, correos (ChatGPT, Gemini, DeepSeek)</li>`;
-                html += `<li><strong>Imágenes:</strong> Ilustraciones, fotografías, arte conceptual (DALL-E, Canva, Flux AI)</li>`;
-                html += `<li><strong>Audio:</strong> Música, efectos sonoros, voces sintéticas</li>`;
-                html += `<li><strong>Código:</strong> Programación, automatización, solución de errores</li></ul>`;
-
-                // Arquitecturas
-                html += `<h3 style="color:${primary};font-size:15px;margin:20px 0 10px;border-left:4px solid ${primary};padding-left:10px">🔬 Arquitecturas Avanzadas</h3>`;
-                html += `<ul style="font-size:12px;padding-left:18px;line-height:1.8">`;
-                html += `<li><strong>CNN (Redes Convolucionales):</strong> Extracción de patrones en imágenes</li>`;
-                html += `<li><strong>RNN/LSTM/GRU:</strong> Procesan datos secuenciales con memoria</li>`;
-                html += `<li><strong>Modelos de Difusión:</strong> Generan datos eliminando ruido gradualmente</li>`;
-                html += `<li><strong>Mixture of Experts (MoE):</strong> Sub-redes especializadas activadas dinámicamente</li></ul>`;
-
-                // Técnicas
-                html += `<h3 style="color:${primary};font-size:15px;margin:20px 0 10px;border-left:4px solid ${primary};padding-left:10px">⚙️ Técnicas de Especialización</h3>`;
-                html += `<ul style="font-size:12px;padding-left:18px;line-height:1.8">`;
-                html += `<li><strong>Fine-tuning:</strong> Especialización en dominios específicos</li>`;
-                html += `<li><strong>RAG:</strong> Retrieval-Augmented Generation (búsqueda + generación)</li>`;
-                html += `<li><strong>CAG:</strong> Context-Augmented Generation (contexto íntegro)</li>`;
-                html += `<li><strong>Function Calling:</strong> Capacidad de invocar funciones externas</li></ul>`;
-
-                // Oportunidades laborales
-                html += `<div style="background:#f0fdf4;border:1px solid #86efac;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<h4 style="color:#16a34a;font-size:13px;margin-bottom:10px">💼 Oportunidades Laborales Emergentes (ENIA 2024-2027)</h4>`;
-                html += `<ul style="font-size:12px;padding-left:18px;margin:0;line-height:1.8">`;
-                html += `<li>Especialista en automatización de procesos (RPA)</li>`;
-                html += `<li>Analista de datos con IA</li>`;
-                html += `<li>Coordinador de adopción de IA</li>`;
-                html += `<li>Diseñador de asistentes virtuales y chatbots</li>`;
-                html += `<li>Generador de contenido asistido por IA</li>`;
-                html += `<li>Técnico en infraestructura habilitante para IA</li></ul></div>`;
-            }
-
-            if (section === 'full' || section === 'activities') {
-                html += `<div style="background:linear-gradient(135deg,#10b981,#34d399);color:#fff;padding:15px 20px;border-radius:10px;margin:20px 0;page-break-before:always"><h2 style="margin:0;font-size:18px">📝 ACTIVIDADES ASINCRÓNICAS</h2></div>`;
-
-                // Actividad 1
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:10px">`;
-                html += `<h4 style="font-size:14px;color:${primary};margin:0">Actividad 1: Mi primera interacción con IA Generativa</h4>`;
-                html += `<span style="background:#e0f2fe;color:#0284c7;padding:3px 10px;border-radius:12px;font-size:10px">Individual</span></div>`;
-                html += `<p style="font-size:12px;line-height:1.7;margin-bottom:10px">Realiza las siguientes tareas en ChatGPT o Gemini: 1) Formula una pregunta de tu interés y documenta la respuesta. 2) Pide una explicación sobre la evolución de la IA. 3) Utiliza el prompt de marketing proporcionado en la presentación (adaptándolo a un negocio de tu elección). Captura pantallas de cada interacción.</p>`;
-                html += `<div style="display:flex;gap:15px;font-size:11px;color:#666"><span>⏱️ 45 minutos</span><span>📄 Word o PDF con capturas</span><span>📊 Valor: 10%</span></div>`;
-                html += `<div style="margin-top:12px;padding:10px;background:#f1f5f9;border-radius:6px">`;
-                html += `<p style="font-size:11px;font-weight:600;margin-bottom:8px">Rúbrica de Evaluación:</p>`;
-                html += `<ul style="font-size:11px;padding-left:16px;margin:0;line-height:1.7">`;
-                html += `<li>Interacciones realizadas (30 pts): 3 interacciones completas con capturas claras</li>`;
-                html += `<li>Prompt de marketing adaptado (30 pts): Creativamente adaptado a un negocio propio</li>`;
-                html += `<li>Reflexión sobre respuestas (40 pts): Análisis profundo de diferencias</li></ul></div></div>`;
-
-                // Actividad 2
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:10px">`;
-                html += `<h4 style="font-size:14px;color:${primary};margin:0">Actividad 2: Definiendo los conceptos clave de IA</h4>`;
-                html += `<span style="background:#e0f2fe;color:#0284c7;padding:3px 10px;border-radius:12px;font-size:10px">Individual</span></div>`;
-                html += `<p style="font-size:12px;line-height:1.7;margin-bottom:10px">Responde en tus propias palabras: Define qué es IA, redes neuronales, tokens, ventana de contexto, temperatura, alucinaciones en IA, embeddings, transformers, fine-tuning, RAG y agentes. Para cada concepto, proporciona una definición y un ejemplo de aplicación práctica.</p>`;
-                html += `<div style="display:flex;gap:15px;font-size:11px;color:#666"><span>⏱️ 40 minutos</span><span>📄 Documento con definiciones</span><span>📊 Valor: 10%</span></div>`;
-                html += `<div style="margin-top:12px;padding:10px;background:#f1f5f9;border-radius:6px">`;
-                html += `<p style="font-size:11px;font-weight:600;margin-bottom:8px">Rúbrica de Evaluación:</p>`;
-                html += `<ul style="font-size:11px;padding-left:16px;margin:0;line-height:1.7">`;
-                html += `<li>Definiciones propias (40 pts): Todas en palabras propias, demuestra comprensión</li>`;
-                html += `<li>Ejemplos prácticos (35 pts): Ejemplos originales y contextualizados</li>`;
-                html += `<li>Completitud (25 pts): Todos los conceptos abordados</li></ul></div></div>`;
-
-                // Actividad 3
-                html += `<div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:15px;margin:15px 0">`;
-                html += `<div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:10px">`;
-                html += `<h4 style="font-size:14px;color:${primary};margin:0">Actividad 3: Creando una carta con IA paso a paso</h4>`;
-                html += `<span style="background:#fef3c7;color:#d97706;padding:3px 10px;border-radius:12px;font-size:10px">Colaborativa</span></div>`;
-                html += `<p style="font-size:12px;line-height:1.7;margin-bottom:10px">Replica el ejercicio de cadena de prompts: Usa los 3 prompts consecutivos para crear una carta solicitando participación en una feria. Prompt 1: Crear carta con fecha de hoy. Prompt 2: Ser más sintético, agregar datos específicos. Prompt 3: Exportar en Word. Documenta cada paso y comparte tu experiencia en el foro.</p>`;
-                html += `<div style="display:flex;gap:15px;font-size:11px;color:#666"><span>⏱️ 30 minutos</span><span>💬 Foro + documento</span><span>📊 Valor: 10%</span></div>`;
-                html += `<div style="margin-top:12px;padding:10px;background:#f1f5f9;border-radius:6px">`;
-                html += `<p style="font-size:11px;font-weight:600;margin-bottom:8px">Rúbrica de Evaluación:</p>`;
-                html += `<ul style="font-size:11px;padding-left:16px;margin:0;line-height:1.7">`;
-                html += `<li>Ejercicio de prompts (40 pts): 3 prompts documentados con análisis de mejoras</li>`;
-                html += `<li>Publicación en foro (30 pts): Reflexión profunda sobre el proceso</li>`;
-                html += `<li>Interacción con pares (30 pts): 2+ comentarios constructivos</li></ul></div></div>`;
-            }
-
-            // Bibliografía siempre al final de cualquier sección
-            html += `<div style="margin-top:30px;padding-top:20px;border-top:2px solid #e2e8f0">`;
-            html += `<h3 style="color:${primary};font-size:14px;margin-bottom:15px">📚 Bibliografía</h3>`;
-            html += `<p style="font-size:11px;color:#666;margin-bottom:5px;line-height:1.6">• Accenture. (2023). A new era of generative AI for everyone.</p>`;
-            html += `<p style="font-size:11px;color:#666;margin-bottom:5px;line-height:1.6">• BCG & Harvard Business School. (2023). Estudio sobre productividad con GPT-4.</p>`;
-            html += `<p style="font-size:11px;color:#666;margin-bottom:5px;line-height:1.6">• Brynjolfsson, Li & Raymond. (2023). Generative AI at Work. NBER.</p>`;
-            html += `<p style="font-size:11px;color:#666;margin-bottom:5px;line-height:1.6">• IBM. (2024). Global AI Adoption Index.</p>`;
-            html += `<p style="font-size:11px;color:#666;margin-bottom:5px;line-height:1.6">• McKinsey & Company. (2024). The state of AI in early 2024.</p>`;
-            html += `<p style="font-size:11px;color:#666;margin-bottom:5px;line-height:1.6">• MICITT. (2024). Estrategia Nacional de IA de Costa Rica 2024-2027.</p>`;
-            html += `<p style="font-size:11px;color:#666;margin-bottom:5px;line-height:1.6">• World Economic Forum. (2023). The Future of Jobs Report.</p></div>`;
-
-            html += `</div>`;
-            return html;
-        }
-
-        async function downloadPDFVisual(section) {
-            const btn = event.target; btn.disabled = true; btn.innerHTML = '⏳ Generando...';
-            const container = document.getElementById('exportContainer');
-            container.innerHTML = createExportHTML(section);
-            container.style.width = '800px';
-            container.style.position = 'absolute';
-            container.style.left = '-9999px';
-            container.style.top = '0';
-            document.body.appendChild(container);
-
-            try {
-                await new Promise(r => setTimeout(r, 300));
-                const canvas = await html2canvas(container.firstChild, {
-                    scale: 2,
-                    useCORS: true,
-                    backgroundColor: '#ffffff',
-                    logging: false,
-                    windowWidth: 800
-                });
-
-                const { jsPDF } = window.jspdf;
-                const pdf = new jsPDF('p', 'mm', 'a4');
-                const pdfW = pdf.internal.pageSize.getWidth();
-                const pdfH = pdf.internal.pageSize.getHeight();
-                const margin = 10;
-
-                // Calcular ratio solo basado en el ancho
-                const imgW = pdfW - (margin * 2);
-                const ratio = imgW / canvas.width;
-                const imgH = canvas.height * ratio;
-
-                // Altura disponible por página
-                const pageContentH = pdfH - (margin * 2);
-
-                // Si cabe en una página
-                if (imgH <= pageContentH) {
-                    pdf.addImage(canvas.toDataURL('image/png'), 'PNG', margin, margin, imgW, imgH);
-                } else {
-                    // Dividir en múltiples páginas
-                    const totalPages = Math.ceil(imgH / pageContentH);
-
-                    for (let page = 0; page < totalPages; page++) {
-                        if (page > 0) pdf.addPage();
-
-                        // Crear canvas temporal para cada página
-                        const pageCanvas = document.createElement('canvas');
-                        const ctx = pageCanvas.getContext('2d');
-
-                        // Altura del segmento original
-                        const srcY = (page * pageContentH) / ratio;
-                        const srcH = Math.min(pageContentH / ratio, canvas.height - srcY);
-
-                        pageCanvas.width = canvas.width;
-                        pageCanvas.height = srcH;
-
-                        // Dibujar porción del canvas original
-                        ctx.fillStyle = '#ffffff';
-                        ctx.fillRect(0, 0, pageCanvas.width, pageCanvas.height);
-                        ctx.drawImage(canvas, 0, srcY, canvas.width, srcH, 0, 0, canvas.width, srcH);
-
-                        const destH = srcH * ratio;
-                        pdf.addImage(pageCanvas.toDataURL('image/png'), 'PNG', margin, margin, imgW, destH);
-                    }
-                }
-
-                const filename = section === 'full' ? 'Unidad1_Completo.pdf' :
-                    section === 'plan' ? 'Unidad1_Plan.pdf' :
-                        section === 'summary' ? 'Unidad1_Resumen.pdf' : 'Unidad1_Actividades.pdf';
-                pdf.save(filename);
-            } catch (e) {
-                console.error(e);
-                alert('Error al generar el PDF: ' + e.message);
-            }
-            container.innerHTML = '';
-            btn.disabled = false;
-            btn.innerHTML = section === 'full' ? '📄 PDF Completo' : '📄 PDF';
-        }
-
-        async function downloadWordVisual(section) {
-            const btn = event.target; btn.disabled = true; btn.innerHTML = '⏳ Generando...';
-            const html = createExportHTML(section);
-            const full = `<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Unidad 1</title></head><body>${html}</body></html>`;
-            const blob = new Blob([full], { type: 'application/msword' });
-            const link = document.createElement('a'); link.href = URL.createObjectURL(blob);
-            link.download = section === 'full' ? 'Unidad1_Completo.doc' : section === 'plan' ? 'Unidad1_Plan.doc' : section === 'summary' ? 'Unidad1_Resumen.doc' : 'Unidad1_Actividades.doc';
-            link.click(); URL.revokeObjectURL(link.href);
-            btn.disabled = false; btn.innerHTML = section === 'full' ? '📝 Word Completo' : '📝 Word';
-        }
-
-        // ==================== INICIALIZACIÓN ====================
-        document.addEventListener('DOMContentLoaded', () => {
-            loadUnit(1);
-            applySettingsFromStorage();
-            loadA11ySettings();
-        });
-
-        // ==================== SISTEMA DE UNIDADES ====================
-        let currentUnit = 1;
-
-        const unitsData = {
+try { const unitsData = {
             1: {
                 pres: "https://docs.google.com/presentation/d/19B_ZBT87Kfs76XrMjQZTdyuV1N2c0H0-P_Rs-H8YiuY/embed",
                 title: "Unidad 1: Inducción e Introducción",
@@ -3173,20 +16,22 @@
                 },
                 summary: `<h3>🌍 Contexto Global: La Revolución de la IA en el Mercado Laboral</h3>
             <p>La adopción de inteligencia artificial se ha generalizado a escala mundial. Según datos recientes:</p>
-            <div class="example"><ul>
+            <ul>
                 <li><strong>65% de las organizaciones</strong> ya usa IA generativa de forma regular (el doble respecto al periodo previo)</li>
                 <li><strong>23% de los empleos mundiales</strong> cambiará significativamente antes de 2027</li>
                 <li><strong>69 millones de nuevos puestos</strong> se crearán ligados a tecnologías emergentes</li>
                 <li><strong>83 millones de empleos</strong> serán automatizados</li>
-            </ul></div>
+            </ul>
+
             
             <h3>📊 Productividad y Competitividad con IA (Evidencia Empírica)</h3>
             <p>La IA generativa eleva la productividad de manera significativa, especialmente entre personas con menor experiencia:</p>
-            <div class="case"><ul>
+            <ul>
                 <li><strong>Estudio BCG:</strong> Consultores usando GPT-4 completaron 12.2% más tareas, 25.1% más rápido y con 40% mejor calidad</li>
                 <li><strong>Servicio al cliente:</strong> Agentes con asistentes de IA mejoraron su desempeño 14% en promedio</li>
                 <li><strong>Accenture:</strong> Los modelos de lenguaje podrían impactar hasta el 40% de todas las horas de trabajo globales</li>
-            </ul></div>
+            </ul>
+
             
             <h3>🤖 ¿Qué es la Inteligencia Artificial?</h3>
             <p><strong>Definición:</strong> Sistemas informáticos entrenados que desarrollan diversas tareas de modo más autónomo y adaptativo.</p>
@@ -3258,16 +103,17 @@
                 <li><strong>Técnico en infraestructura habilitante para IA</strong></li>
             </ul>
             
-            <div class="bib"><h3>📚 Bibliografía</h3>
+            <h3>📚 Bibliografía</h3>
             <p>Accenture. (2023). <em>A new era of generative AI for everyone</em>.</p>
             <p>BCG & Harvard Business School. (2023). <em>Estudio sobre productividad con GPT-4</em>.</p>
             <p>Brynjolfsson, Li & Raymond. (2023). <em>Generative AI at Work</em>. NBER.</p>
             <p>McKinsey & Company. (2024). <em>The state of AI in early 2024</em>.</p>
             <p>MICITT. (2024). <em>Estrategia Nacional de IA de Costa Rica 2024-2027</em>.</p>
-            <p>World Economic Forum. (2023). <em>The Future of Jobs Report</em>.</p></div>`,
+            <p>World Economic Forum. (2023). <em>The Future of Jobs Report</em>.</p>
+`,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos educativos sobre Inteligencia Artificial. Haz clic en cualquier enlace para ver el video en YouTube. Estos recursos están disponibles para todas las personas interesadas en aprender sobre IA.</p>
             
-            <h4 class="tool-category">🎓 Introducción a la Inteligencia Artificial</h4>
+            <h4 class="tool-category">🎓 Introducción a la Inteligencia Artificial</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">🧠</div>
@@ -3295,7 +141,7 @@
                 </div>
             </div>
 
-            <h4 class="tool-category" style="margin-top:30px">💬 IA Generativa y ChatGPT</h4>
+            <h4 class="tool-category" style="margin-top:30px">💬 IA Generativa y ChatGPT</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">💬</div>
@@ -3323,7 +169,7 @@
                 </div>
             </div>
 
-            <h4 class="tool-category" style="margin-top:30px">⚡ Automatización con IA</h4>
+            <h4 class="tool-category" style="margin-top:30px">⚡ Automatización con IA</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">🔗</div>
@@ -3351,7 +197,7 @@
                 </div>
             </div>
 
-            <h4 class="tool-category" style="margin-top:30px">🌎 IA en Latinoamérica y Costa Rica</h4>
+            <h4 class="tool-category" style="margin-top:30px">🌎 IA en Latinoamérica y Costa Rica</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">🇨🇷</div>
@@ -3380,33 +226,33 @@
             </div>
 
             <div style="margin-top:24px;padding:16px;background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:10px">
-                <h4 style="font-size:13px;color:var(--g);margin-bottom:8px">💡 Recomendación para todas las personas</h4>
+                <h4 style="font-size:13px;color:var(--g);margin-bottom:8px">💡 Recomendación para todas las personas</h3>
                 <p style="font-size:12px;color:rgba(255,255,255,.8)">Te sugerimos comenzar con los videos de "¿Qué es la Inteligencia Artificial?" y "Curso de ChatGPT" para tener una base sólida. Luego puedes explorar los temas que más te interesen según tu área de trabajo o estudio. Todos los videos están en español y son accesibles sin conocimientos previos.</p>
-            </div>`,
+`,
                 insumos: ``,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Estas herramientas están disponibles para todas las personas. No se requiere experiencia previa para comenzar a utilizarlas.</p>
-            <h4 class="tool-category">🤖 IA Generativa - Texto (accesibles para cualquier persona)</h4>
+            <h4 class="tool-category">🤖 IA Generativa - Texto (accesibles para cualquier persona)</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">💬</div><div class="tool-name">ChatGPT</div><div class="tool-desc">Asistente de IA conversacional de OpenAI</div><a href="https://chat.openai.com" target="_blank" class="tool-link" aria-label="Abrir ChatGPT en nueva ventana">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">✨</div><div class="tool-name">Gemini</div><div class="tool-desc">IA multimodal de Google</div><a href="https://gemini.google.com" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🔮</div><div class="tool-name">Claude</div><div class="tool-desc">Asistente de IA de Anthropic</div><a href="https://claude.ai" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🌊</div><div class="tool-name">DeepSeek</div><div class="tool-desc">Alternativa de código abierto</div><a href="https://chat.deepseek.com" target="_blank" class="tool-link">Abrir →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🎨 IA Generativa - Imágenes</h4>
+            <h4 class="tool-category" style="margin-top:30px">🎨 IA Generativa - Imágenes</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🖼️</div><div class="tool-name">DALL-E 3</div><div class="tool-desc">Generación de imágenes de OpenAI</div><a href="https://openai.com/dall-e-3" target="_blank" class="tool-link">Ver →</a></div>
                 <div class="tool-card"><div class="tool-icon">🎭</div><div class="tool-name">Midjourney</div><div class="tool-desc">Creación artística de alta calidad</div><a href="https://midjourney.com" target="_blank" class="tool-link">Ver →</a></div>
                 <div class="tool-card"><div class="tool-icon">🎨</div><div class="tool-name">Canva AI</div><div class="tool-desc">Diseño gráfico con IA integrada</div><a href="https://www.canva.com" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">Leonardo AI</div><div class="tool-desc">Múltiples modelos y estilos artísticos</div><a href="https://leonardo.ai" target="_blank" class="tool-link">Abrir →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">⚡ Automatización de Procesos</h4>
+            <h4 class="tool-category" style="margin-top:30px">⚡ Automatización de Procesos</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🔗</div><div class="tool-name">N8N</div><div class="tool-desc">Automatización visual con nodos</div><a href="https://n8n.io" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">⚙️</div><div class="tool-name">Make</div><div class="tool-desc">Conecta aplicaciones sin programar</div><a href="https://www.make.com" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">💬</div><div class="tool-name">ManyChat</div><div class="tool-desc">Chatbots para redes sociales</div><a href="https://manychat.com" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">Zapier</div><div class="tool-desc">Más de 5000 integraciones</div><a href="https://zapier.com" target="_blank" class="tool-link">Abrir →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📊 Análisis de Datos</h4>
+            <h4 class="tool-category" style="margin-top:30px">📊 Análisis de Datos</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📈</div><div class="tool-name">Power BI</div><div class="tool-desc">Visualización de datos de Microsoft</div><a href="https://app.powerbi.com" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🔬</div><div class="tool-name">Google AI Studio</div><div class="tool-desc">Experimenta con modelos de IA</div><a href="https://aistudio.google.com" target="_blank" class="tool-link">Abrir →</a></div>
@@ -3455,7 +301,7 @@
                 classify: { cat1: "Herramientas", cat2: "Conceptos", items: [{ t: "ChatGPT", c: 1 }, { t: "Power BI", c: 1 }, { t: "Token", c: 2 }, { t: "Embedding", c: 2 }, { t: "n8n", c: 1 }, { t: "Transformer", c: 2 }, { t: "SikuliX", c: 1 }, { t: "RAG", c: 2 }] },
                 hangman: [{ w: "TRANSFORMER", h: "Arquitectura que procesa contexto" }, { w: "EMBEDDING", h: "Representación vectorial de palabras" }, { w: "TEMPERATURA", h: "Parámetro que controla creatividad" }, { w: "ALUCINACION", h: "Información incorrecta generada" }, { w: "TOKEN", h: "Unidad básica de texto" }, { w: "NEURONAL", h: "Tipo de red inspirada en el cerebro" }, { w: "GENERATIVA", h: "IA que crea contenido nuevo" }, { w: "AUTOMATIZACION", h: "Proceso sin intervención humana" }],
                 simResponses: { "ia": "La <strong>Inteligencia Artificial (IA)</strong> son sistemas informáticos que desarrollan tareas de modo autónomo.", "token": "Un <strong>token</strong> es la unidad básica de texto que procesa el modelo de IA.", "temperatura": "La <strong>temperatura</strong> controla la creatividad: Baja (0.1-0.4) para precisión, Alta (0.8-1.0) creatividad.", "alucinacion": "Las <strong>alucinaciones</strong> son información incorrecta presentada como verdadera.", "rag": "<strong>RAG</strong> (Retrieval-Augmented Generation) combina búsqueda de información con generación.", "default": "Soy el asistente de la Unidad 1. Pregúntame sobre tokens, temperatura, embeddings, alucinaciones o RAG." },
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 1</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 1</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://youtu.be/eO8LPJTUhFc" target="_blank" style="text-decoration:none;color:inherit;">
@@ -3512,7 +358,7 @@
                 },
                 summary: `<h3>📊 La IA en Números: Marco Introductorio</h3>
             <p>La adopción de la IA ha alcanzado niveles sin precedentes, pero plantea importantes dilemas éticos y sociales.</p>
-            <div class="example"><h4>🔢 Indicadores Clave (Deloitte, 2025)</h4>
+            <h3>🔢 Indicadores Clave (Deloitte, 2025)</h3>
                 <ul>
                     <li><strong>80%+ de adopción:</strong> Las grandes empresas utilizan IA para optimizar procesos</li>
                     <li><strong>Impulso productivo:</strong> La IA revoluciona sectores clave (salud, finanzas, educación, manufactura)</li>
@@ -3522,7 +368,7 @@
 
             <h3>⚠️ Bloque 1: Ética y Riesgos</h3>
             
-            <div class="case"><h4>🎓 Educación Superior y Ética en IA</h4>
+            <h3>🎓 Educación Superior y Ética en IA</h3>
                 <ul>
                     <li><strong>Universidad Bolivariana del Ecuador:</strong> Programa pionero de formación ética para mitigar riesgos de IA</li>
                     <li><strong>Prevención de dependencia:</strong> Estrategias pedagógicas para evitar dependencia excesiva de herramientas IA</li>
@@ -3530,7 +376,7 @@
                 </ul>
             </div>
 
-            <div class="example"><h4>🔍 Sesgos y Discriminación Algorítmica</h4>
+            <h3>🔍 Sesgos y Discriminación Algorítmica</h3>
                 <ul>
                     <li><strong>Fallas en reconocimiento:</strong> Estudios de Buolamwini & Gebru (2018) reportan mayor tasa de fallos en mujeres y personas de piel oscura</li>
                     <li><strong>Perpetuación de desigualdades:</strong> La IA puede amplificar desigualdades históricas si los datos contienen prejuicios</li>
@@ -3538,7 +384,7 @@
                 </ul>
             </div>
 
-            <div class="case"><h4>🔒 Privacidad y Vigilancia Masiva</h4>
+            <h3>🔒 Privacidad y Vigilancia Masiva</h3>
                 <ul>
                     <li><strong>Recolección masiva:</strong> Captura de datos personales sin consentimiento claro</li>
                     <li><strong>Riesgo de control:</strong> Vigilancia omnipresente amenaza autonomía individual y libertades</li>
@@ -3546,7 +392,7 @@
                 </ul>
             </div>
 
-            <div class="example"><h4>🔲 Transparencia y Responsabilidad: "Cajas Negras"</h4>
+            <h3>🔲 Transparencia y Responsabilidad: "Cajas Negras"</h3>
                 <ul>
                     <li><strong>Opacidad algorítmica:</strong> Algoritmos difíciles de explicar o auditar (Burrell, 2016)</li>
                     <li><strong>Dilema de responsabilidad:</strong> ¿Quién responde ante decisiones erróneas o daños causados por IA?</li>
@@ -3554,7 +400,7 @@
                 </ul>
             </div>
 
-            <div class="case"><h4>💼 Automatización y Empleo</h4>
+            <h3>💼 Automatización y Empleo</h3>
                 <ul>
                     <li><strong>Riesgo de desplazamiento:</strong> Pérdida potencial de empleos con tareas rutinarias y repetitivas</li>
                     <li><strong>Debate redistributivo:</strong> Redistribución del trabajo, reducción de jornadas, renta básica universal</li>
@@ -3562,7 +408,7 @@
                 </ul>
             </div>
 
-            <div class="example"><h4>🏢 Concentración de Poder Tecnológico</h4>
+            <h3>🏢 Concentración de Poder Tecnológico</h3>
                 <ul>
                     <li><strong>Pocas corporaciones:</strong> El desarrollo de IA está dominado por un puñado de corporaciones globales</li>
                     <li><strong>Control del mercado:</strong> Riesgo de monopolios tecnológicos (Amy Webb, 2019)</li>
@@ -3570,7 +416,7 @@
                 </ul>
             </div>
 
-            <div class="case"><h4>🗳️ Impacto en Derechos Humanos y Democracia</h4>
+            <h3>🗳️ Impacto en Derechos Humanos y Democracia</h3>
                 <ul>
                     <li><strong>Influencia electoral:</strong> IA puede manipular procesos democráticos y opinión pública</li>
                     <li><strong>Dignidad humana:</strong> Protección de valores fundamentales</li>
@@ -3581,7 +427,7 @@
 
             <h3>📜 Bloque 2: Marcos Regulatorios</h3>
             
-            <div class="example"><h4>🌐 Recomendación UNESCO sobre Ética de la IA (2021)</h4>
+            <h3>🌐 Recomendación UNESCO sobre Ética de la IA (2021)</h3>
                 <ul>
                     <li><strong>193 países adoptantes:</strong> Primer marco global de ética en IA con alcance universal</li>
                     <li><strong>5 principios clave:</strong> Dignidad humana, transparencia, equidad, supervisión y sostenibilidad</li>
@@ -3589,7 +435,7 @@
                 </ul>
             </div>
 
-            <div class="case"><h4>✅ Principios Éticos Fundamentales (Lista de Verificación)</h4>
+            <h3>✅ Principios Éticos Fundamentales (Lista de Verificación)</h3>
                 <table style="width:100%;border-collapse:collapse;margin:12px 0">
                     <tr style="border-bottom:1px solid rgba(255,255,255,.1)">
                         <th style="text-align:left;padding:8px">Principio</th>
@@ -3618,7 +464,7 @@
                 </table>
             </div>
 
-            <div class="example"><h4>🇪🇺 Regulaciones Regionales</h4>
+            <h3>🇪🇺 Regulaciones Regionales</h3>
                 <ul>
                     <li><strong>GDPR (Europa):</strong> Protección estricta de datos personales desde 2018; referencia como estándar global</li>
                     <li><strong>América Latina:</strong> Leyes en desarrollo en Brasil, Argentina, Chile y México</li>
@@ -3626,7 +472,7 @@
                 </ul>
             </div>
 
-            <div class="case"><h4>🇨🇷 Costa Rica: Estrategia Nacional de IA 2024-2027</h4>
+            <h3>🇨🇷 Costa Rica: Estrategia Nacional de IA 2024-2027</h3>
                 <p><strong>Proyecto de Ley para la Promoción Responsable de la IA:</strong></p>
                 <ul>
                     <li><strong>Objetivo:</strong> Fomentar uso ético priorizando dignidad humana, igualdad y transparencia</li>
@@ -3645,9 +491,9 @@
                     <li>Clima institucional, normativa y gobernanza colaborativa</li>
                 </ol>
                 <p style="margin-top:10px;font-size:12px">🔗 Más información: <a href="https://www.micitt.go.cr/gobierno_digital/inteligencia_artificial" target="_blank" style="color:var(--p)">micitt.go.cr/gobierno_digital/inteligencia_artificial</a></p>
-            </div>
 
-            <div class="example"><h4>📈 Caso NVIDIA: Volatilidad y Mercado (2025)</h4>
+
+            <h3>📈 Caso NVIDIA: Volatilidad y Mercado (2025)</h3>
                 <ul>
                     <li><strong>US$4 billones:</strong> En julio 2025, NVIDIA alcanza valoración de ~US$4T, consolidándose como la empresa más valiosa del mundo por capitalización</li>
                     <li><strong>18% recuperación:</strong> El 27 de enero, NVIDIA restaura parte de su valor (~US$3.6T) y poco después supera US$4T</li>
@@ -3657,7 +503,7 @@
 
             <h3>🌟 Bloque 3: Oportunidades</h3>
 
-            <div class="case"><h4>💡 Innovación Responsable: Ética como Ventaja Competitiva</h4>
+            <h3>💡 Innovación Responsable: Ética como Ventaja Competitiva</h3>
                 <p>Integrar ética en IA no solo mitiga riesgos, también crea valor reputacional y competitivo:</p>
                 <ul>
                     <li><strong>Confianza:</strong> Empresas éticas ganan credibilidad del mercado y fidelidad de clientes</li>
@@ -3666,9 +512,9 @@
                     <li><strong>Participación:</strong> Diseño co-creado con ciudadanos afectados</li>
                 </ul>
                 <p style="font-style:italic;color:var(--gr)">💭 "La ética en IA contribuye a reputación sólida y liderazgo responsable"</p>
-            </div>
 
-            <div class="example"><h4>🚀 Oportunidades Transformadoras</h4>
+
+            <h3>🚀 Oportunidades Transformadoras</h3>
                 <ul>
                     <li><strong>Diagnóstico médico avanzado:</strong> Detección más rápida y precisa; análisis predictivo y medicina personalizada</li>
                     <li><strong>Automatización inteligente:</strong> Libera tareas repetitivas y permite enfocarse en trabajo creativo y estratégico</li>
@@ -3676,7 +522,7 @@
                 </ul>
             </div>
             
-            <div class="example"><h4>📈 Auge Global de IA Generativa</h4>
+            <h3>📈 Auge Global de IA Generativa</h3>
                 <table style="width:100%;border-collapse:collapse;margin:12px 0">
                     <tr style="border-bottom:1px solid rgba(255,255,255,.1)">
                         <th style="text-align:left;padding:8px">Indicador</th>
@@ -3706,7 +552,7 @@
                 </table>
             </div>
 
-            <div class="case"><h4>💼 Impacto en el Mercado Laboral</h4>
+            <h3>💼 Impacto en el Mercado Laboral</h3>
                 <ul>
                     <li><strong>23%</strong> de empleos mundiales cambiará significativamente antes de 2027 (WEF)</li>
                     <li><strong>69 millones</strong> de nuevos puestos ligados a tecnologías emergentes</li>
@@ -3716,7 +562,7 @@
                 </ul>
             </div>
 
-            <div class="example"><h4>🇨🇷 Costa Rica: Exposición por Rama de Actividad</h4>
+            <h3>🇨🇷 Costa Rica: Exposición por Rama de Actividad</h3>
                 <p>Porcentaje de empleos que pueden ser apoyados por IA (Fernández, 2024):</p>
                 <table style="width:100%;border-collapse:collapse;margin:12px 0;font-size:12px">
                     <tr style="border-bottom:1px solid rgba(255,255,255,.2);background:rgba(99,102,241,.2)">
@@ -3776,9 +622,9 @@
                     </tr>
                 </table>
                 <p style="font-size:11px;color:var(--gr)">Fuente: Tabla 4, Fernández Aráuz (2024), pág. 23</p>
-            </div>
 
-            <div class="case"><h4>📊 Evidencia de Productividad</h4>
+
+            <h3>📊 Evidencia de Productividad</h3>
                 <ul>
                     <li><strong>Experimento BCG (758 consultores):</strong> Con GPT-4 completaron 12.2% más tareas, 25.1% más rápido y con 40% mejor calidad</li>
                     <li><strong>5,000 agentes de servicio al cliente:</strong> IA generativa incrementa desempeño en 14% promedio (Brynjolfsson et al., 2023)</li>
@@ -3786,13 +632,13 @@
                 </ul>
             </div>
 
-            <div class="example"><h4>🏦 Aplicaciones por Sector</h4>
+            <h3>🏦 Aplicaciones por Sector</h3>
                 <p><strong>Mercados Financieros:</strong> Trading algorítmico, análisis de informes, sentimiento de mercado, gestión de carteras</p>
                 <p><strong>Marketing:</strong> Segmentación avanzada (RFM + embeddings), personalización, análisis de churn, optimización de precios</p>
                 <p><strong>Operaciones:</strong> Pronóstico de demanda, optimización de inventario, planificación logística, control de calidad</p>
-            </div>
 
-            <div class="case"><h4>⚡ Costos y Energía: Impacto y Mitigación</h4>
+
+            <h3>⚡ Costos y Energía: Impacto y Mitigación</h3>
                 <p><strong>Impacto energético:</strong></p>
                 <ul>
                     <li>Centros de datos consumen más electricidad para entrenar y ejecutar modelos de IA</li>
@@ -3805,9 +651,9 @@
                     <li><strong>Optimización de modelos:</strong> Técnicas como cuantización y destilación</li>
                 </ul>
                 <p style="font-style:italic;color:var(--gr)">💭 "Según estimaciones, el beneficio económico neto de la IA supera su costo climático, pero se enfatiza mejorar eficiencia energética"</p>
-            </div>
 
-            <div class="example"><h4>✅ Conclusión: IA Ética y Sostenible</h4>
+
+            <h3>✅ Conclusión: IA Ética y Sostenible</h3>
                 <ul>
                     <li><strong>Herramienta poderosa:</strong> Potencial transformador sin precedentes, con riesgos reales que debemos gestionar</li>
                     <li><strong>Ética y regulación:</strong> Marcos normativos son indispensables para maximizar beneficios y minimizar daños sociales</li>
@@ -3816,7 +662,7 @@
             </div>
 
             <h3>📏 Bloque 4: Benchmarks</h3>
-            <div class="case"><h4>🔬 Evaluación y Comparación de Modelos</h4>
+            <h3>🔬 Evaluación y Comparación de Modelos</h3>
                 <p>Recursos para comparar desempeño de modelos de IA:</p>
                 <ul>
                     <li><strong>Artificial Analysis:</strong> <a href="https://artificialanalysis.ai/" target="_blank" style="color:var(--p)">artificialanalysis.ai</a></li>
@@ -3824,7 +670,7 @@
                 </ul>
             </div>
 
-            <div class="bib"><h3>📚 Bibliografía</h3>
+            <h3>📚 Bibliografía</h3>
                 <p>Accenture. (2023). <em>A new era of generative AI for everyone</em>.</p>
                 <p>Acemoglu, D., & Restrepo, P. (2022). <em>Tasks, automation, and the rise in U.S. wage inequality</em>. Econometrica.</p>
                 <p>Brynjolfsson, E., Li, D., & Raymond, L. (2023). <em>Generative AI at Work</em>. NBER Working Paper.</p>
@@ -3841,9 +687,9 @@
                 <p>Webb, A. (2019). <em>The Big Nine: How the Tech Titans and Their Thinking Machines Could Warp Humanity</em>.</p>
                 <p>World Bank. (2024). <em>Generative AI and Jobs in Latin America and the Caribbean</em>.</p>
                 <p>World Economic Forum. (2023). <em>The Future of Jobs Report 2023</em>.</p>
-            </div>`,
+`,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos educativos sobre Ética, Riesgos y Oportunidades de la IA. Haz clic en cualquier enlace para ver resultados de búsqueda en YouTube.</p>
-            <h4 class="tool-category">⚠️ Ética y Riesgos de la IA</h4>
+            <h4 class="tool-category">⚠️ Ética y Riesgos de la IA</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">⚖️</div>
@@ -3870,7 +716,7 @@
                     <a href="https://www.youtube.com/results?search_query=inteligencia+artificial+empleo+futuro+trabajo" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📜 Regulación y Marcos Normativos</h4>
+            <h4 class="tool-category" style="margin-top:30px">📜 Regulación y Marcos Normativos</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🌐</div>
@@ -3897,7 +743,7 @@
                     <a href="https://www.youtube.com/results?search_query=GDPR+explicado+español+proteccion+datos" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-             <h4 class="tool-category" style="margin-top:30px">🌟 Oportunidades y Casos de Uso</h4>
+             <h4 class="tool-category" style="margin-top:30px">🌟 Oportunidades y Casos de Uso</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">📈</div>
@@ -3924,7 +770,7 @@
                     <a href="https://www.youtube.com/results?search_query=benchmark+modelos+IA+comparacion" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 2</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 2</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://youtu.be/pNij_D2EYhc" target="_blank" style="text-decoration:none;color:inherit;">
@@ -3965,20 +811,20 @@
             </div>`,
                 insumos: ``,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">En esta unidad técnica y teórica, las herramientas principales se enfocan en la evaluación y regulación de la IA.</p>
-            <h4 class="tool-category">🔬 Evaluación y Benchmarking</h4>
+            <h4 class="tool-category">🔬 Evaluación y Benchmarking</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Artificial Analysis</div><div class="tool-desc">Comparativas de rendimiento, velocidad y costo de modelos</div><a href="https://artificialanalysis.ai" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🏆</div><div class="tool-name">LM Arena</div><div class="tool-desc">Ranking en tiempo real basado en pruebas de usuarios</div><a href="https://lmarena.ai" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">📈</div><div class="tool-name">Stanford AI Index</div><div class="tool-desc">Reporte anual sobre el estado global de la IA</div><a href="https://aiindex.stanford.edu/report/" target="_blank" class="tool-link">Abrir →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📜 Regulación y Estrategia</h4>
+            <h4 class="tool-category" style="margin-top:30px">📜 Regulación y Estrategia</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🇨🇷</div><div class="tool-name">ENIA Costa Rica</div><div class="tool-desc">Estrategia Nacional de Inteligencia Artificial 2024-2027</div><a href="https://www.micitt.go.cr/gobierno_digital/inteligencia_artificial" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">⚖️</div><div class="tool-name">UNESCO Ética</div><div class="tool-desc">Marco global sobre la ética de la IA</div><a href="https://www.unesco.org/es/artificial-intelligence/recommendation-ethics" target="_blank" class="tool-link">Abrir →</a></div>
             </div>`,
                 activities: `<h3>📝 Actividades - Unidad 2</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">⚖️ Actividad 1: Análisis de Caso Ético (45 min)</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">⚖️ Actividad 1: Análisis de Caso Ético (45 min)</h3>
                 <p style="margin-bottom:12px">Analiza un caso real de sesgo algorítmico:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Investiga el caso "Gender Shades" de Joy Buolamwini (sesgos en reconocimiento facial)</li>
@@ -3989,9 +835,9 @@
                     <li>Redacta un informe de 1 página con tus conclusiones</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Informe de análisis ético (1 página)</p>
-            </div>
+
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🇨🇷 Actividad 2: ENIA Costa Rica (40 min)</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🇨🇷 Actividad 2: ENIA Costa Rica (40 min)</h3>
                 <p style="margin-bottom:12px">Explora la Estrategia Nacional de IA de Costa Rica:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Visita el sitio del MICITT sobre inteligencia artificial</li>
@@ -4001,9 +847,9 @@
                     <li>Analiza: ¿Cómo podría beneficiarte personalmente o profesionalmente?</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Resumen del eje seleccionado + análisis personal</p>
-            </div>
+
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📊 Actividad 3: Comparación de Modelos (35 min)</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">📊 Actividad 3: Comparación de Modelos (35 min)</h3>
                 <p style="margin-bottom:12px">Usa los benchmarks para comparar modelos de IA:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Visita artificialanalysis.ai y lmarena.ai</li>
@@ -4013,7 +859,7 @@
                     <li>Reflexiona sobre el balance costo-beneficio</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Tabla comparativa + justificación de elección</p>
-            </div>`,
+`,
                 quiz: [
                     { q: "¿Cuál es el porcentaje de adopción de IA en grandes empresas según Deloitte 2025?", o: ["50%", "65%", "80%+", "95%"], c: 2 },
                     { q: "¿Qué estudio reveló sesgos en reconocimiento facial hacia mujeres y personas de piel oscura?", o: ["IBM 2024", "Buolamwini & Gebru 2018", "McKinsey 2023", "Stanford 2025"], c: 1 },
@@ -4050,7 +896,7 @@
                 summary: `<h3>🔍 Investigación Profunda con Inteligencia Artificial</h3>
             <p>Las herramientas de IA han revolucionado la forma en que investigamos, analizamos información y tomamos decisiones basadas en datos. Esta unidad explora las capacidades de búsqueda profunda, razonamiento y análisis que ofrecen los modelos de IA más avanzados.</p>
             
-            <div class="example"><h4>🌐 Herramientas de Búsqueda con IA</h4>
+            <h3>🌐 Herramientas de Búsqueda con IA</h3>
                 <ul>
                     <li><strong>Perplexity AI:</strong> Buscador conversacional que proporciona respuestas con citas de fuentes verificables</li>
                     <li><strong>SearchGPT:</strong> Motor de búsqueda de OpenAI con capacidades conversacionales</li>
@@ -4061,7 +907,7 @@
             </div>
 
             <h3>🧠 Técnicas de Razonamiento con IA</h3>
-            <div class="case"><h4>⛓️ Chain of Thought (Cadena de Pensamiento)</h4>
+            <h3>⛓️ Chain of Thought (Cadena de Pensamiento)</h3>
                 <p>Técnica donde pides al modelo que razone paso a paso antes de dar la respuesta final:</p>
                 <pre style="background:rgba(0,0,0,.3);padding:12px;border-radius:8px;font-size:12px">"Analiza este problema paso a paso:
 1. Primero identifica los datos clave
@@ -4069,16 +915,16 @@
 3. Finalmente, presenta tu conclusión con justificación"</pre>
             </div>
 
-            <div class="example"><h4>🌳 Tree of Thoughts (Árbol de Pensamientos)</h4>
+            <h3>🌳 Tree of Thoughts (Árbol de Pensamientos)</h3>
                 <p>Explora múltiples caminos de razonamiento simultáneamente para encontrar la mejor solución.</p>
-            </div>
 
-            <div class="case"><h4>🔄 Self-Consistency</h4>
+
+            <h3>🔄 Self-Consistency</h3>
                 <p>Genera múltiples respuestas y busca el consenso entre ellas para mayor confiabilidad.</p>
-            </div>
+
 
             <h3>✅ Verificación de Información</h3>
-            <div class="example"><h4>🔺 Triangulación de Fuentes</h4>
+            <h3>🔺 Triangulación de Fuentes</h3>
                 <ul>
                     <li><strong>Paso 1:</strong> Obtén información de la IA</li>
                     <li><strong>Paso 2:</strong> Verifica con al menos 3 fuentes independientes</li>
@@ -4087,7 +933,7 @@
                 </ul>
             </div>
 
-            <div class="case"><h4>⚠️ Detección de Alucinaciones</h4>
+            <h3>⚠️ Detección de Alucinaciones</h3>
                 <p>Las <strong>alucinaciones</strong> son información inventada que la IA presenta como real. Señales de alerta:</p>
                 <ul>
                     <li>Citas de fuentes que no existen</li>
@@ -4105,14 +951,14 @@
                 <li><strong>Gemini 1.5:</strong> Hasta 1 millón de tokens</li>
             </ul>
 
-            <div class="bib"><h3>📚 Bibliografía</h3>
+            <h3>📚 Bibliografía</h3>
                 <p>OpenAI. (2024). <em>GPT-4 Technical Report</em>.</p>
                 <p>Anthropic. (2024). <em>Claude Documentation</em>.</p>
                 <p>Google. (2024). <em>Gemini API Documentation</em>.</p>
                 <p>Perplexity AI. (2024). <em>Search with AI</em>.</p>
-            </div>`,
+`,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos educativos sobre Herramientas de investigación profunda y razonamiento con IA. Haz clic en cualquier enlace para ver resultados de búsqueda en YouTube.</p>
-            <h4 class="tool-category">🔍 Herramientas de Búsqueda con IA</h4>
+            <h4 class="tool-category">🔍 Herramientas de Búsqueda con IA</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔎</div>
@@ -4139,7 +985,7 @@
                     <a href="https://www.youtube.com/results?search_query=gemini+deep+research+tutorial" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🧠 Técnicas de Razonamiento</h4>
+            <h4 class="tool-category" style="margin-top:30px">🧠 Técnicas de Razonamiento</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">⛓️</div>
@@ -4166,7 +1012,7 @@
                     <a href="https://www.youtube.com/results?search_query=detectar+alucinaciones+ia+verificar" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📊 Análisis y Visualización</h4>
+            <h4 class="tool-category" style="margin-top:30px">📊 Análisis y Visualización</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">📉</div>
@@ -4193,7 +1039,7 @@
                     <a href="https://www.youtube.com/results?search_query=ia+investigacion+profunda+casos+practicos" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 3</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 3</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://youtu.be/Oe-FpJ-Ig78" target="_blank" style="text-decoration:none;color:inherit;">
@@ -4232,7 +1078,7 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 3</h4>
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 3</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">📚</div>
@@ -4261,13 +1107,13 @@
                 </div>
             </div>`,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Herramientas especializadas en búsqueda profunda, razonamiento y análisis de documentos.</p>
-            <h4 class="tool-category">🔎 Buscadores con IA</h4>
+            <h4 class="tool-category">🔎 Buscadores con IA</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🔎</div><div class="tool-name">Perplexity AI</div><div class="tool-desc">Buscador con fuentes y citas en tiempo real</div><a href="https://perplexity.ai" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🌐</div><div class="tool-name">SearchGPT</div><div class="tool-desc">Prototipo de búsqueda integrada de OpenAI</div><a href="https://chatgpt.com/search" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">✨</div><div class="tool-name">Gemini</div><div class="tool-desc">Búsqueda y análisis profundo con Google Search</div><a href="https://gemini.google.com" target="_blank" class="tool-link">Abrir →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🧠 Razonamiento y Análisis</h4>
+            <h4 class="tool-category" style="margin-top:30px">🧠 Razonamiento y Análisis</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🏛️</div><div class="tool-name">Claude</div><div class="tool-desc">Análisis de documentos extensos (200k tokens)</div><a href="https://claude.ai" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">NotebookLM</div><div class="tool-desc">Investigación basada en tus propios documentos</div><a href="https://notebooklm.google.com" target="_blank" class="tool-link">Abrir →</a></div>
@@ -4275,7 +1121,7 @@
             </div>`,
                 activities: `<h3>📝 Actividades - Unidad 3</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🔍 Actividad 1: Investigación con Perplexity (40 min)</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🔍 Actividad 1: Investigación con Perplexity (40 min)</h3>
                 <p style="margin-bottom:12px">Realiza una investigación profunda usando Perplexity AI:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Elige un tema de tu interés profesional o personal</li>
@@ -4285,9 +1131,9 @@
                     <li>Documenta si encontraste alguna información incorrecta</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Documento con preguntas, respuestas y verificación de fuentes</p>
-            </div>
+
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🧠 Actividad 2: Chain of Thought (35 min)</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🧠 Actividad 2: Chain of Thought (35 min)</h3>
                 <p style="margin-bottom:12px">Practica la técnica de razonamiento paso a paso:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Selecciona un problema complejo (matemático, lógico o de análisis)</li>
@@ -4297,9 +1143,9 @@
                     <li>Documenta las diferencias encontradas</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Comparación de respuestas con y sin Chain of Thought</p>
-            </div>
+
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📚 Actividad 3: NotebookLM (45 min)</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">📚 Actividad 3: NotebookLM (45 min)</h3>
                 <p style="margin-bottom:12px">Usa NotebookLM para analizar tus propios documentos:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Sube 2-3 documentos relacionados a NotebookLM (PDFs, artículos, reportes)</li>
@@ -4309,7 +1155,7 @@
                     <li>Evalúa la precisión de las respuestas</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Resumen + preguntas respondidas + reflexión sobre la herramienta</p>
-            </div>`,
+`,
                 quiz: [
                     { q: "¿Qué herramienta de IA se especializa en búsqueda con citas de fuentes verificables?", o: ["ChatGPT", "Perplexity AI", "DALL-E", "Midjourney"], c: 1 },
                     { q: "¿Qué técnica de razonamiento pide al modelo pensar paso a paso?", o: ["Tree of Thoughts", "Chain of Thought", "Self-Consistency", "Decomposition"], c: 1 },
@@ -4345,7 +1191,7 @@
                 },
                 summary: `<h3>🔄 Flujos de Trabajo y Fundamentos de la Automatización</h3>
             <p>Un <strong>flujo de trabajo (workflow)</strong> es una secuencia estructurada de pasos o tareas que se deben completar para lograr un resultado específico. Entender y optimizar estos flujos es crucial para la gestión moderna.</p>
-            <div class="example"><h4>Elementos Clave de un Flujo de Trabajo:</h4>
+            <h3>Elementos Clave de un Flujo de Trabajo:</h3>
                 <ul>
                     <li><strong>Entrada:</strong> El punto de inicio del flujo (información, datos, evento).</li>
                     <li><strong>Actores:</strong> Personas o sistemas que ejecutan las tareas.</li>
@@ -4353,31 +1199,31 @@
                     <li><strong>Herramientas:</strong> Recursos tecnológicos o manuales utilizados.</li>
                     <li><strong>Salida:</strong> El resultado final o entregable del proceso.</li>
                 </ul>
-            </div>
+            
             <p>La <strong>automatización</strong> es el uso de tecnologías para ejecutar tareas o procesos con mínima o nula intervención humana. Permite aumentar la velocidad de ejecución, reducir la carga de trabajo manual y escalar operaciones.</p>
-            <div class="case"><h4>¿Qué se puede automatizar?</h4>
+            <h3>¿Qué se puede automatizar?</h3>
                 <ul>
                     <li><strong>Tareas rutinarias:</strong> Acciones de alta frecuencia, como carga de datos, envío de correos, generación de informes.</li>
                     <li><strong>Reglas claras:</strong> Operaciones basadas en lógica condicional (ej. conciliación contable).</li>
                     <li><strong>Integración de información:</strong> Recopilación de datos de múltiples fuentes (APIs) y sincronización de bases de datos.</li>
                 </ul>
-            </div>
+            
 
             <h3>💻 Automatización en Excel: Creación de Macros con IA</h3>
             <p>El primer nivel de automatización abordado es la creación de macros utilizando Visual Basic for Applications (VBA) en Excel, asistido por Inteligencia Artificial (ChatGPT).</p>
-            <div class="example"><h4>Caso Práctico: Macros VBA</h4>
+            <h3>Caso Práctico: Macros VBA</h3>
                 <p>En lugar de programar código VBA desde cero o simplemente usar la "Grabadora de Macros", usamos IA proporcionando <strong>prompts sumamente detallados</strong> que especifican la estructura del archivo, las celdas exactas a leer y la operación a realizar.</p>
                 <ul>
                     <li><strong>Vibe Coding:</strong> Es el proceso iterativo donde solicitamos el código, probamos la macro, identificamos errores y pedimos a la IA que los corrija hasta obtener un script funcional.</li>
                     <li><strong>Beneficio:</strong> Ejecutar procesos que tomarían horas de copiado y pegado en apenas unos segundos, sin necesidad de saber programar.</li>
                 </ul>
-            </div>
+            
 
             <h3>🌐 APIs e Inteligencia Artificial</h3>
             <p>Una <strong>API</strong> (Interfaz de Programación de Aplicaciones) es un intermediario que permite que dos aplicaciones se comuniquen. Funciona con <em>Peticiones (Requests)</em>, <em>Procesamiento</em> y <em>Respuestas (Responses, usualmente en JSON)</em>.</p>
-            <div class="case"><h4>La Analogía del Camarero</h4>
+            <h3>La Analogía del Camarero</h3>
                 <p>Imagina un restaurante: Tú (Cliente/App) necesitas datos. La Cocina (Servidor) prepara los datos. El Camarero (API) es quien lleva tu pedido y trae tu comida.</p>
-            </div>
+            
 
             <h3>📊 Automatización de Datos: API del BCCR y FRED</h3>
             <p>Evita actualizar tableros manualmente conectando tus reportes directamente a fuentes de datos oficiales:</p>
@@ -4388,15 +1234,15 @@
 
             <h3>🧠 API de Inteligencia Artificial en Excel</h3>
             <p>El nivel más avanzado de la unidad conecta la API de OpenAI directamente dentro de Excel, inyectando inteligencia artificial en las hojas de cálculo mediante una función personalizada (ej. <code>=IAPersonalizada(prompt, celda)</code>).</p>
-            <div class="example"><h4>Creación de Función IAPersonalizada</h4>
+            <h3>Creación de Función IAPersonalizada</h3>
                 <ul>
                     <li><strong>Requisito:</strong> Una API Key de OpenAI y el módulo <em>JsonConverter.bas</em> en Visual Basic.</li>
                     <li><strong>Uso:</strong> Permite resolver problemas complejos que las funciones regulares de Excel (BUSCARV, SI) no pueden resolver.</li>
                     <li><strong>Ejemplos Prácticos:</strong> Extraer el primer apellido de listas irregulares, realizar análisis de sentimiento de comentarios (positivo, negativo, neutro), o catalogar descripciones de texto en códigos de ocupación específicos.</li>
                 </ul>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos relacionados a la automatización de procesos, flujos de trabajo, macros y APIs.</p>
-            <h4 class="tool-category">🎓 Teoría y Macros</h4>
+            <h4 class="tool-category">🎓 Teoría y Macros</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">📈</div>
@@ -4412,7 +1258,7 @@
                 </div>
             </div>
 
-            <h4 class="tool-category" style="margin-top:30px">🔗 Uso de APIs en Análisis de Datos</h4>
+            <h4 class="tool-category" style="margin-top:30px">🔗 Uso de APIs en Análisis de Datos</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">🌐</div>
@@ -4428,7 +1274,7 @@
                 </div>
             </div>
 
-            <h4 class="tool-category" style="margin-top:30px">🧠 API de OpenAI en Excel</h4>
+            <h4 class="tool-category" style="margin-top:30px">🧠 API de OpenAI en Excel</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">🔑</div>
@@ -4443,7 +1289,7 @@
                     <a href="https://www.youtube.com/results?search_query=integrar+chatgpt+api+en+excel+vba" target="_blank" class="tool-link">Ver en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 4</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 4</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://youtu.be/OfOg5Gmgito" target="_blank" style="text-decoration:none;color:inherit;">
@@ -4473,7 +1319,7 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 4</h4>
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 4</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">📚</div>
@@ -4483,7 +1329,7 @@
                 </div>
             </div>`,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Herramientas y plataformas abordadas para la automatización y el uso de APIs.</p>
-            <h4 class="tool-category">🛠️ Plataformas y Lenguajes</h4>
+            <h4 class="tool-category">🛠️ Plataformas y Lenguajes</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🐍</div><div class="tool-name">Python</div><div class="tool-desc">Lenguaje para scripts de conexión a APIs</div><a href="https://www.python.org/" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Power BI</div><div class="tool-desc">Ejecución de scripts Python para extraer datos</div><a href="https://powerbi.microsoft.com/" target="_blank" class="tool-link">Abrir →</a></div>
@@ -4492,7 +1338,7 @@
             </div>`,
                 activities: `<h3>📝 Actividades de Práctica - Unidad 4</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">⚙️ Actividad 1: Creación de tu primera Macro con IA</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">⚙️ Actividad 1: Creación de tu primera Macro con IA</h3>
                 <p style="margin-bottom:12px">Automatiza una tarea rutinaria en Excel usando Inteligencia Artificial:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Identifica un proceso en Excel que hagas manualmente (ej. limpiar datos, ordenar columnas, aplicar formatos).</li>
@@ -4501,7 +1347,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🔗 Actividad 2: Conexión y Extracción de Datos vía API</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🔗 Actividad 2: Conexión y Extracción de Datos vía API</h3>
                 <p style="margin-bottom:12px">Automatiza la extracción de indicadores económicos:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Obtén tu token de acceso del Banco Central (BCCR) y de la API de FRED.</li>
@@ -4510,7 +1356,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">💡 Actividad 3: Análisis de Texto con Función IA en Excel</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">💡 Actividad 3: Análisis de Texto con Función IA en Excel</h3>
                 <p style="margin-bottom:12px">Implementa el asistente de IA dentro de Excel:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Configura el módulo VBA predesarrollado con tu propia API Key de OpenAI (requiere JsonConverter.bas).</li>
@@ -4554,17 +1400,17 @@
                 summary: `<h3>🤖 GPTs Personalizados: Tu Propio Asistente de IA</h3>
             <p>Los <strong>GPTs personalizados</strong> de OpenAI permiten crear versiones especializadas de ChatGPT sin necesidad de programar. Puedes definir instrucciones específicas, cargar documentos de conocimiento y configurar acciones automáticas.</p>
             
-            <div class="example"><h4>💡 ¿Qué puedes crear con GPTs personalizados?</h4><ul>
+            <h3>💡 ¿Qué puedes crear con GPTs personalizados?</h3><ul>
                 <li><strong>Asistente de ventas:</strong> Responde preguntas sobre productos con tu catálogo</li>
                 <li><strong>Tutor especializado:</strong> Enseña temas específicos con tu metodología</li>
                 <li><strong>Generador de contenido:</strong> Crea textos con tu tono y estilo de marca</li>
                 <li><strong>Analista de datos:</strong> Interpreta información de tu empresa</li>
                 <li><strong>Asistente legal/técnico:</strong> Consultas sobre documentación específica</li>
-            </ul></div>
+            </ul>
             
             <h3>🔧 Cómo Crear un GPT Personalizado</h3>
             <p>El proceso de creación es intuitivo y no requiere código:</p>
-            <div class="case"><h4>📋 Pasos para crear tu GPT</h4><ol style="margin-left:20px">
+            <h3>📋 Pasos para crear tu GPT</h3><ol style="margin-left:20px">
                 <li><strong>Accede a ChatGPT Plus</strong> → Mis GPTs → Crear GPT</li>
                 <li><strong>Define el nombre y descripción</strong> de tu asistente</li>
                 <li><strong>Escribe las instrucciones</strong> detalladas de comportamiento</li>
@@ -4572,7 +1418,7 @@
                 <li><strong>Configura capacidades</strong> (navegación web, generación de imágenes, código)</li>
                 <li><strong>Prueba y ajusta</strong> hasta obtener el comportamiento deseado</li>
                 <li><strong>Publica</strong> (privado, con enlace o público en la tienda)</li>
-            </ol></div>
+            </ol>
             
             <h3>✨ Google Gems: Asistentes Especializados de Gemini</h3>
             <p>Los <strong>Gems</strong> son la versión de Google de los asistentes personalizados, disponibles en Gemini Advanced:</p>
@@ -4585,23 +1431,23 @@
             
             <h3>⚡ Acciones Preconfiguradas en ChatGPT</h3>
             <p>Las <strong>acciones</strong> permiten que tu GPT se conecte con servicios externos:</p>
-            <div class="example"><h4>🔌 Tipos de Acciones</h4><ul>
+            <h3>🔌 Tipos de Acciones</h3><ul>
                 <li><strong>Navegación web:</strong> Buscar información actualizada en internet</li>
                 <li><strong>DALL-E:</strong> Generar imágenes desde descripciones</li>
                 <li><strong>Intérprete de código:</strong> Ejecutar Python, analizar datos, crear gráficos</li>
                 <li><strong>APIs externas:</strong> Conectar con Zapier, Make, servicios propios</li>
                 <li><strong>Plugins:</strong> Acceso a herramientas de terceros</li>
-            </ul></div>
+            </ul>
             
             <h3>📝 Mejores Prácticas para Instrucciones</h3>
             <p>La calidad de tu GPT depende de las instrucciones que escribas:</p>
-            <div class="case"><h4>✅ Estructura recomendada</h4>
+            <h3>✅ Estructura recomendada</h3>
             <p><strong>1. Rol:</strong> "Eres un experto en [área] que ayuda a [audiencia]"</p>
             <p><strong>2. Objetivo:</strong> "Tu propósito principal es [tarea específica]"</p>
             <p><strong>3. Tono:</strong> "Comunícate de forma [profesional/casual/técnica]"</p>
             <p><strong>4. Limitaciones:</strong> "Nunca hagas [restricciones]"</p>
             <p><strong>5. Formato:</strong> "Responde siempre con [estructura]"</p>
-            </div>
+            
             
             <h3>🏢 Casos de Uso Empresariales</h3>
             <ul>
@@ -4612,13 +1458,13 @@
                 <li><strong>Ventas:</strong> Calificación de leads y respuestas a objeciones</li>
             </ul>
             
-            <div class="bib"><h3>📚 Bibliografía</h3>
+            <h3>📚 Bibliografía</h3>
                 <p>OpenAI. (2024). <em>GPT Builder Documentation</em>. https://help.openai.com/gpts</p>
                 <p>Google. (2024). <em>Gemini Gems Guide</em>. https://gemini.google.com/gems</p>
                 <p>OpenAI. (2024). <em>Actions and Plugins Guide</em>. https://platform.openai.com/docs/actions</p>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos educativos sobre Automatización de tareas desde herramientas de IA generativa. Haz clic en cualquier enlace para ver resultados de búsqueda en YouTube.</p>
-            <h4 class="tool-category">🤖 GPTs Personalizados de OpenAI</h4>
+            <h4 class="tool-category">🤖 GPTs Personalizados de OpenAI</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔧</div><div class="tool-name">Crear GPT Personalizado</div>
@@ -4641,7 +1487,7 @@
                     <a href="https://www.youtube.com/results?search_query=gpt+store+openai+mejores+gpts" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">✨ Google Gems y Gemini</h4>
+            <h4 class="tool-category" style="margin-top:30px">✨ Google Gems y Gemini</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">💎</div><div class="tool-name">Google Gems Tutorial</div>
@@ -4659,7 +1505,7 @@
                     <a href="https://www.youtube.com/results?search_query=claude+ai+projects+tutorial+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🔌 Automatización y Casos Prácticos</h4>
+            <h4 class="tool-category" style="margin-top:30px">🔌 Automatización y Casos Prácticos</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">⚙️</div><div class="tool-name">Zapier + GPT</div>
@@ -4682,7 +1528,7 @@
                     <a href="https://www.youtube.com/results?search_query=mejores+plugins+chatgpt+2024" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 5</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 5</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://youtu.be/zhKHvOA-kbE" target="_blank" style="text-decoration:none;color:inherit;">
@@ -4712,22 +1558,22 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 5</h4><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos Unidad 5.rar</div><div class="tool-desc">Archivos de pr&aacute;ctica para automatizaci&oacute;n con IA generativa</div><a href="https://drive.google.com/uc?export=download&id=1HykQJWwRD7WMa0qEyNA1rsuUwjPrMCrZ" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 5</h3><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos Unidad 5.rar</div><div class="tool-desc">Archivos de pr&aacute;ctica para automatizaci&oacute;n con IA generativa</div><a href="https://drive.google.com/uc?export=download&id=1HykQJWwRD7WMa0qEyNA1rsuUwjPrMCrZ" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Plataformas líderes para la creación y personalización de asistentes de IA generativa.</p>
-            <h4 class="tool-category">🤖 Constructores de Asistentes</h4>
+            <h4 class="tool-category">🤖 Constructores de Asistentes</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🔧</div><div class="tool-name">GPT Builder</div><div class="tool-desc">Crea GPTs personalizados en OpenAI</div><a href="https://chat.openai.com/gpts/mine" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">💎</div><div class="tool-name">Google Gems</div><div class="tool-desc">Asistentes especializados de Gemini</div><a href="https://gemini.google.com/gems" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Claude Projects</div><div class="tool-desc">Espacios de trabajo con archivos en Claude</div><a href="https://claude.ai" target="_blank" class="tool-link">Abrir →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🔌 Conectividad y Publicación</h4>
+            <h4 class="tool-category" style="margin-top:30px">🔌 Conectividad y Publicación</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">⚡</div><div class="tool-name">ChatGPT Actions</div><div class="tool-desc">Conexión de GPTs con APIs externas</div><a href="https://platform.openai.com/docs/actions" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🏪</div><div class="tool-name">GPT Store</div><div class="tool-desc">Tienda oficial de GPTs de la comunidad</div><a href="https://chat.openai.com/gpts" target="_blank" class="tool-link">Abrir →</a></div>
             </div>`,
                 activities: `<h3>📝 Actividades Asincrónicas - Unidad 5</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🤖 Actividad 1: Crear un GPT Personalizado (60 min)</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🤖 Actividad 1: Crear un GPT Personalizado (60 min)</h3>
                 <p style="margin-bottom:12px">Diseña y crea tu propio GPT personalizado:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Elige un caso de uso relevante para tu trabajo o área de interés</li>
@@ -4737,9 +1583,9 @@
                     <li>Prueba con 5 conversaciones diferentes y ajusta según resultados</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Enlace al GPT + documento con instrucciones y pruebas realizadas</p>
-            </div>
+
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">💎 Actividad 2: Explorar Google Gems (40 min)</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">💎 Actividad 2: Explorar Google Gems (40 min)</h3>
                 <p style="margin-bottom:12px">Si tienes acceso a Gemini Advanced, crea un Gem personalizado:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Explora los Gems predefinidos disponibles</li>
@@ -4748,9 +1594,9 @@
                     <li>Documenta diferencias, ventajas y limitaciones</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Documento comparativo GPTs vs Gems con capturas</p>
-            </div>
+
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">⚡ Actividad 3: Explorar GPT Store (35 min)</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">⚡ Actividad 3: Explorar GPT Store (35 min)</h3>
                 <p style="margin-bottom:12px">Investiga y analiza GPTs existentes:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Explora la GPT Store y encuentra 5 GPTs relevantes para tu área</li>
@@ -4759,7 +1605,7 @@
                     <li>Identifica ideas para mejorar tu propio GPT</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Reseña de 5 GPTs con análisis de fortalezas y debilidades</p>
-            </div>`,
+`,
                 quiz: [
                     { q: "¿Qué es un GPT personalizado?", o: ["Un modelo de IA entrenado desde cero", "Una versión especializada de ChatGPT con instrucciones propias", "Un robot físico", "Una aplicación móvil"], c: 1 },
                     { q: "¿Qué necesitas para crear GPTs personalizados?", o: ["Conocimientos de programación avanzada", "ChatGPT Plus o Enterprise", "Un servidor propio", "Título universitario en IA"], c: 1 },
@@ -4783,7 +1629,7 @@
                 title: "Unidad 6: Plataformas de Agentes de IA Especializados",
                 subtitle: "De chatbots a ejecutores autónomos usando el estándar MCP",
                 breadcrumb: "Módulo 2 <span>›</span> Herramientas IA",
-                plan:  {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Comprender la evolución hacia ecosistemas de agentes autónomos.", "Dominar el protocolo MCP (Model Context Protocol).", "Implementar integraciones MCP en plataformas analíticas.", "Operar sistemas de plataformas agénticas especializadas."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Implementación segura de conexiones MCP en Workspace.", "Orquestación de tareas logísticas asíncronas complejas.", "Evaluación crítica del 'Vendor Lock-in'.", "Contrarrestar alucinaciones sistémicas en agentes altamente autónomos."] },
@@ -4797,43 +1643,43 @@
             <p>El desarrollo de la Inteligencia Artificial ha dado un salto cuántico. Antes de 2024, la inteligencia artificial se encontraba aislada dentro de las interfaces de chat convencionales. Los modelos fundacionales (LLMs) podían entregar respuestas maravillosas basadas en texto, sugerir correcciones y redactar ensayos, pero eran incapaces de interactuar con el mundo real. No podían observar tus archivos confidenciales en la nube, manejar tu calendario de reuniones, ni alterar bases de datos corporativas sin requerir la construcción de APIs personalizadas, lo cual requería meses de desarrollo experto y un presupuesto astronómico.</p>
             <p>Todo esto cambió radicalmente con la creación del <strong>MCP (Model Context Protocol)</strong>. Desarrollado y lanzado originalmente por Anthropic (los creadores de la familia de modelos Claude) a finales de 2024, el MCP se posiciona indudablemente como el "USB-C de la Inteligencia Artificial". Consiste en un estándar universal de código abierto capaz de conectar poderosos modelos de lenguaje con los sistemas corporativos reales y herramientas de trabajo del día a día.</p>
             
-            <div class="example"><h4>🔄 Beneficios Fundamentales del Protocolo MCP:</h4>
+            <h3>🔄 Beneficios Fundamentales del Protocolo MCP:</h3>
             <ul>
                 <li><strong>Erradica el Vendor Lock-In:</strong> Elimina la dependencia esclavizante hacia proveedores únicos. Antes, si cambiabas de Microsoft a Google, perdías todas tus integraciones IA. Hoy, el protocolo universal enruta las solicitudes bidireccionalmente sin importar el proveedor.</li>
                 <li><strong>Comunicación Cliente-Servidor Estructurada:</strong> Implementa una estructura robusta basada en JSON Manifest. El 'Cliente' (el chat o la IA) se comunica con el 'Servidor' (nuestra base de datos o aplicación) usando parámetros inmutables y predecibles, evitando errores de lectura y caídas de sistema.</li>
                 <li><strong>Autonomía Pragmática:</strong> Posibilita a los agentes inspeccionar, asimilar y ejecutar comandos sobre servicios de terceros en tiempo real sin reformatear la infraestructura de IT.</li>
-            </ul></div>
+            </ul>
             
             <h3>💡 Integraciones MCP Activas en la Práctica Empresarial</h3>
             <p>El protocolo MCP ya no es una teoría; ha sido rápida y extensamente adoptado de manera nativa por la rama de automatizadores globales (como n8n y Make) e IDEs modernos en toda la industria Q2 2025. Veamos cómo operan las tres grandes potencias de la IA Generativa al día de hoy:</p>
             
-            <div class="case">
+            
                 <p><strong>1. En el Ecosistema Gemini (Workspace):</strong> Mediante las integraciones activas interconectadas de Workspace, es factible indicarle a la red neuronal de Gemini que analice correos entrantes, estructure la data, y cree eventos masivos en el Google Calendar o indague en tu bandeja de entrada unificando flujos e interlocutores. Sin embargo, su conexión actual en fase inicial con Gmail posee todavía inestabilidades de filtrado de datos respecto a otras herramientas más maduras, descartando en ocasiones asuntos prioritarios sin justificación.</p>
                 <p><strong>2. En el Ecosistema ChatGPT (OpenAI):</strong> El protocolo MCP nativo que ostenta OpenAI autoriza el despliegue de puentes instantáneos conectando repositorios densos como Dropbox, Microsoft Teams o Google Drive directamente al asistente. Esto permite que el motor GPT-4 indexe directorios densos, lea docenas de PDFs de "Econometría Empresarial" y extraiga métricas interrelacionadas o genere resúmenes ejecutivos sin que el usuario deba descargar previamente un solo archivo a su disco duro local.</p>
                 <p><strong>3. En el Ecosistema Claude (Anthropic):</strong> Por haber fundado el protocolo de manera nativa, Claude AI ofrece un repertorio abrumadoramente grande de conexiones. Su mayor exponente es la capacidad de usar conectores "Desktop" de escritorio locales, que le otorgan permisos para manipular archivos físicos directamente dentro de arquitecturas Windows o Mac, editar e inyectar código, y leer carpetas privadas ancladas en el disco duro al instante sin requerir subidas previas a la nube.</p>
-            </div>
+            
 
             <h3>🤖 Evolución Brutal: De Chatbots a Agentes Especializados al Rescate</h3>
             <p>Con el MCP funcionando activamente como la vía neurológica o "médula espinal" de la Inteligencia Artificial, a mediados del 2025 explotaron comercialmente los denominados "Agentes de IA" (Agentic Entities). Diferenciándose abismal y brutalmente del clásico "Chatbot de propósito general" con el que interactuábamos en 2022 o 2023, estos Agentes Superiores tienen misiones analíticas, control de red interconectado y asombrosas capacidades de interacción resolutiva ininterrumpida sin detenerse por confirmación en cada micropaso. Representan el salto real desde un contestador automático inteligente hacia un verdadero sistema o empleado autónomo a escala técnica.</p>
             
-            <div class="example"><h4>⚡ Plataformas Agénticas del Mercado Actual (Estado del Arte Q2 2025)</h4>
+            <h3>⚡ Plataformas Agénticas del Mercado Actual (Estado del Arte Q2 2025)</h3>
             <ul>
                 <li><strong>Kimi 2.5 (El Analista Documental):</strong> Kimi es un agente soberbio y altamente focalizado en la creación documental extensa e ingestión de datos asimétricos. Puede ingerir un PDF empresarial técnico denso de cientos de páginas, transmutarse a su rol configurado (ej. 'Analista Adaptativo o Visual Académico'), y escupir sin sudar un Slide Deck profesional (Presentación) de 30 a 50 páginas altamente pulido, esquematizado formalmente y estructurado, aniquilando los cortos límites de tokens habituales observados en plataformas de generación pre-agénticas como Gamma, demostrando su increíble ventana y retentiva de contexto operativo.</li>
                 <li><strong>Genspark (El Asistente Operativo Asíncrono):</strong> Este Agente destaca fenomenalmente en la trazabilidad inmensa de tareas logísticas empleando a fondo sus MCPs preconfigurados. Si le inyectas tus correos corporativos, no se limita a narrarte un triste resumen superficial; Genspark explora inteligentemente inmensos y bifurcados hilos anidados, abre él mismo los archivos adjuntos en segundo plano (como profundas proformas de reparación o quejas PDF), correlaciona los datos cruzados, elabora analíticamente la solución, prepara el borrador del email y, lo más asombroso, realiza el envío final (disparador SMTP de red) de manera autónoma completamente por ti si se lo autorizas activamente.</li>
                 <li><strong>Manus AI (El Entorno Frontend Desplegable):</strong> Manus se consolida como un ecosistema brutal sin precedentes para aquellos perfiles que buscan transformar "Prompts" literarios directos en interfaces Web reales ('Zero-shot App Generation'). Se le puede solicitar, a modo de ejemplo conversacional, desarrollar integralmente un evaluador estadístico de riesgos para la bolsa de valores; la IA no solo contestará de forma textual inerte, sino que codificará la lógica, generará el React correspondiente y renderizará en vivo de inmediato una <em>Web App Simuladora Gráfica</em> manejable ante tus ojos. Ésta estará dotada de menús deslizantes, filtros paramétricos de perfil de usuario (ej. Conservador/Agresivo) y proyección de retornos matemáticos incrustados dentro del propio chat de respuesta.</li>
                 <li><strong>Minimax (El Research Investigador):</strong> Denominado comúnmente como un Agente de Research avanzado y algorítmico. Excepcional explorador y programador analítico matemático: se sumerge intrépidamente en los grandes repositorios de internet o bases subidas y, lo que le otorga su fama colosal, puede escribir él solo rutinas de programación en lenguaje Python puras en su sandbox aislado en la nube (visibles en las pestañas exclusivas de /Files y /Code de su propio front). Ejecuta estos códigos matemáticos para iterar sin parar, autogenerándote gráficas demográficas complejas renderizadas y reportes hiper estructurados con base en datasets estáticos o csv financieros subidos, logrando análisis muy superiores a ChatGPT Data Analyst sin fallas en memorización o variables.</li>
-            </ul></div>
+            </ul>
             
-            <div class="bib"><h3>🛡️ Retos Corporativos en la Adopción a Gran Escala</h3>
+            <h3>🛡️ Retos Corporativos en la Adopción a Gran Escala</h3>
             <p>La adopción febril y actual de los ecosistemas de agentes cibernéticos con MCP acarrea tres macrodesafíos ineludibles para los líderes de desarrollo, las oficinas de privacidad y los arquitectos de sistemas en la modernidad corporativa:</p>
             <ol>
                 <li><strong>Seguridad de Datos y Riesgo PII (Personally Identifiable Information):</strong> Es un mandato inquebrantable aprender a limitar estrictamente hasta dónde posee autorización, injerencia o permiso el agente sobre las macro bases de nuestro CRM transaccional. Dejar libre el espectro puede generar fugas masivas catastróficas.</li>
                 <li><strong>Trazabilidad Funcional y Supervisión (Human-In-The-Loop):</strong> ¿Quién recae como el responsable penal o moral si un poderoso Agente Asíncrono de Genspark envía y efectua un presupuesto financiero fatal, irreversible y estadísticamente erróneo a las bases de un cliente importante corporativo? Es legal y estrictamente obligatorio en 2025 incorporar pasos preprogramados metódicos de "Review in-the-loop" (Revisión humana obligatoria paralizante) que obliguen a cortar sistemáticamente a la orden los ciclos automáticos productivos en tareas críticas de alta responsabilidad comercial y legal.</li>
                 <li><strong>Control de API y Costos Sistémicos Multiplicativos (M/N):</strong> Otro desastre evitable es controlar el 'Bucle de Generación Infinito', es imperativo programar limitaciones y cotas temporales para salvaguardar el erario en caso extremo fortuito de que la IA autónoma sufra una profunda y sistémica alucinación multi-tarea (hallucination loop) donde empiece a cruzar llamadas de facturación recursiva API gastando crédito de manera indiscriminada segundo a segundo sin que logremos darnos cuenta previo colapso monetario informático.</li>
             </ol>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de contenidos visuales recomendados por la cátedra para entender MCP y el estado del arte de Agentes en 2025.</p>
-            <h4 class="tool-category">🔌 Arquitectura MCP y Fundamentos</h4>
+            <h4 class="tool-category">🔌 Arquitectura MCP y Fundamentos</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🧠</div><div class="tool-name">Explicando MCP Definitivo</div>
@@ -4847,7 +1693,7 @@
                 </div>
             </div>
             
-            <h4 class="tool-category" style="margin-top:30px">🤖 Agentes Especializados (2025)</h4>
+            <h4 class="tool-category" style="margin-top:30px">🤖 Agentes Especializados (2025)</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🖥️</div><div class="tool-name">Manus AI: Desarrollo Web</div>
@@ -4870,7 +1716,7 @@
                     <a href="https://www.youtube.com/results?search_query=Kimi+2.5+features+presentation+generation" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 6</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 6</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=mX3enpPh8ac" target="_blank" style="text-decoration:none;color:inherit;">
@@ -4891,7 +1737,7 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 6</h4>
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 6</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">📚</div>
@@ -4910,7 +1756,7 @@
             </div>`,
                 activities: `<h3>📝 Actividades Prácticas y Evaluativas - Unidad 6</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🔬 Actividad 1: Laboratorio de MCPs Nativos con Google y Microsoft (45 min)</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🔬 Actividad 1: Laboratorio de MCPs Nativos con Google y Microsoft (45 min)</h3>
                 <p style="margin-bottom:12px">Opera directamente las extensiones de integración en tu Workspace personal:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Abre Gemini. En configuración activa tu Google Workspace. Extrae el archivo 'Eventos' de insumos, cambia las fechas a 2026 y adjúntalo pidiéndole organizar las fechas en tu calendario. Verifica su efectividad.</li>
@@ -4918,7 +1764,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🚀 Actividad 2: Flujo Documental Completo en Kimi (45 min)</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🚀 Actividad 2: Flujo Documental Completo en Kimi (45 min)</h3>
                 <p style="margin-bottom:12px">Conviértete en dependiente de inteligencia artificial para informes:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Accede a Kimi 2.5.</li>
@@ -4927,7 +1773,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">💻 Actividad 3: Creación de Simuladores Avanzados Financieros con Manus (60 min)</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">💻 Actividad 3: Creación de Simuladores Avanzados Financieros con Manus (60 min)</h3>
                 <p style="margin-bottom:12px">Experimenta la codificación zero-shot guiando interfaces visuales:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Ingresa en Manus AI u alternativa de despliegue sugerida. Entrégales este prompt: "Deseo invertir dinero ahorrado en tecnología e IA Generativa. Háblame de los retornos estandarizados del sector, riesgos y haz una App funcional y UI atractiva con simuladores accionarios para estas compañías".</li>
@@ -4957,7 +1803,7 @@
                 title: "Unidad 7: Google AI Studio y Entornos Agent-First Avanzados",
                 subtitle: "Escalando desde el Vibe Coding hacia la Ingeniería Funcional Asistida",
                 breadcrumb: "Módulo 2 <span>›</span> Herramientas IA",
-                plan:  {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Diferenciar el Vibe Coding de la Ingeniería de Especificación.", "Utilizar Google AI Studio y el ecosistema Vertex AI.", "Dominar los controles paramétricos de Gemini (Top-P, Top-K).", "Comprender el 'Review-Driven Development Framework'.", "Implementar protocolos de 'Human-In-The-Loop'."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Diseño modular de Prompts estructurados.", "Configuración de arquitectura en plataformas IDE Agent-First.", "Evaluación y auditoría de Diffs de código generado.", "Control estricto de comandos destructivos en Terminal Proxy."] },
@@ -4970,11 +1816,11 @@
                 summary: `<h3>⚡ La Dicotomía en el Desarrollo con Inteligencia Artificial: Vibe Coding vs. Ingeniería de Especificación</h3>
             <p>La llegada de los Grandes Modelos de Lenguaje (LLMs) ha democratizado la programación, introduciendo nuevas metodologías en el ecosistema de desarrollo de software. Entre ellas destaca el concepto de <strong>Vibe Coding</strong>, un término acuñado en 2025 por Andrej Karpathy (ex-director de IA en Tesla). El Vibe Coding se define como una forma de programar donde el usuario no escribe código, sino que interactúa con la IA en lenguaje natural puro, transmitiéndole la "vibra" o la esencia general (el <em>vibe</em>) de lo que desea construir.</p>
             
-            <div class="case"><h4>Características y Limitaciones del Vibe Coding</h4>
+            <h3>Características y Limitaciones del Vibe Coding</h3>
             <ul>
                 <li><strong>Ventajas:</strong> Reduce drásticamente la barrera de entrada técnica. Resulta brillante para prototipar rápidamente, iterar de manera instantánea y permitir que personas sin conocimientos profundos de sintaxis puedan generar bloques de código o aplicaciones básicas (como una lista de tareas simple o una landing page estática).</li>
                 <li><strong>Limitaciones Críticas (El Código Espagueti):</strong> El Vibe Coding fracasa rotundamente ante sistemas empresariales complejos. Al pedirle a la IA "hazme un sistema contable moderno", la IA, carente de métricas y contexto profundo, produce código fracturado, dependencias desactualizadas e interfaces no escalables. La falta de rigor genera código no estructurado ("espagueti") que resulta imposible de auditar y mantener humanamente a mediano y largo plazo.</li>
-            </ul></div>
+            </ul>
             
             <p>Para solventar el precipicio técnico del Vibe Coding, la evolución profesional impone la práctica de la <strong>Ingeniería de Especificación</strong>. Esto no significa volver a escribir código a mano, sino asumir el rol de Arquitecto o "Product Owner". Consiste en descomponer exhaustiva y metódicamente un problema en etapas incrementales y específicas, dotando a la Inteligencia Artificial de un marco inquebrantable de trabajo. Un prompt de Ingeniería de Especificación jamás es ambiguo; contiene rigurosamente:</p>
             <ul>
@@ -4987,7 +1833,7 @@
             <h3>🔬 Laboratorio de Experimentación: El Potencial de Google AI Studio</h3>
             <p>Alejándonos de las interfaces de chat convencionales y enfocadas en usuarios finales (como ChatGPT o la interfaz estándar de Gemini), entramos al entorno avanzado de <strong>Google AI Studio</strong>. Ésta es la plataforma oficial gratuita de Google DeepMind para desarrolladores, diseñada para testear y parametrizar los modelos fundacionales masivos como Gemini 1.5 Pro y Gemini Flash sin filtros comerciales.</p>
             
-            <div class="example"><h4>Parámetros y Capacidades de Orquestación en AI Studio</h4>
+            <h3>Parámetros y Capacidades de Orquestación en AI Studio</h3>
             <ul>
                 <li><strong>Configuración del Sistema (System Instructions):</strong> A diferencia de un chat normal, aquí predefines el comportamiento matriz de la IA de manera imperativa en la cabecera. Este "comportamiento" acompaña a la IA a través de todas las iteraciones futuras dentro de la misma sesión, garantizando consistencia absoluta (por ejemplo, "Responde siempre en formato JSON estructurado").</li>
                 <li><strong>Control de Temperatura (Temperature):</strong> Es el parámetro matemático que rige el grado de aleatoriedad en las predicciones del modelo.
@@ -4998,22 +1844,22 @@
                 </li>
                 <li><strong>Top-K y Top-P (Filtrado de Núcleo):</strong> Al igual que la temperatura, modulan probabilísticamente el vocabulario que el modelo considera para su siguiente palabra (Token). Permiten afinar el equilibrio ideal entre diversidad léxica y consistencia estructural sin llegar a alucinar.</li>
                 <li><strong>Prompts Estructurados (Structured Prompts):</strong> En lugar de chatear libremente, usas un formato de tabla o grilla (similar a Microsoft Excel) para entrenar al modelo con docenas de ejemplos de Input y Output simultáneos (One-Shot o Few-Shot Prompting). Esto disciplina al modelo para que, al darle un nuevo Input, emita un Output con el formato exacto sin necesidad de escribir código complejo de validación.</li>
-            </ul></div>
+            </ul>
 
             <h3>🚀 Entornos Agent-First IDE: El Paradigma del Review-Driven Development</h3>
             <p>La máxima expresión contemporánea de desarrollo asistido reside en los <strong>IDE Agent-First</strong>, tales como <em>Cursor, Cline o arquitecturas modulares como Antigravity</em>. A diferencia de tener una página web abierta con ChatGPT en el navegador y copiar y pegar código a un editor, estos entornos híbridos embeben y fusionan a la Inteligencia Artificial directamente en las entrañas de los archivos locales de tu proyecto en el disco duro del ordenador.</p>
             
-            <div class="bib"><h4>Pilares Operativos de la Autonomía Asistida en tu Máquina Local:</h4>
+            <h3>Pilares Operativos de la Autonomía Asistida en tu Máquina Local:</h3>
             <ol>
                 <li><strong>Inspección y Ejecución Embebida:</strong> El Agente IA no está ciego; tiene visión periférica. Puede leer todos tus directorios, buscar a través de miles de líneas de código en milisegundos y, lo más revolucionario, puede invocar la consola o Terminal (Bash/PowerShell) para ejecutar scripts locales, crear archivos por sí mismo y desplegar emuladores del navegador para visualizar el resultado autogenerado en tiempo real.</li>
                 <li><strong>El Artefacto Maestro (Artifacts y Task Lists):</strong> Para gobernar a un ente con tanto poder y evitar que destruya el proyecto localmente, el programador lo obliga primero a generar artefactos documentales. El Agente redacta un <em>Plan de Arquitectura</em> o <em>Task_List.md</em> en Markdown donde enumera sus intenciones. El humano evalúa la lógica, y solo si es sólida, autoriza al agente a comenzar a codificar paso a paso de forma metódica.</li>
                 <li><strong>Evaluación mediante Diffs (Visualización Comparativa):</strong> Bajo la estricta doctrina de <em>Review-Driven Development</em>, el agente jamás inserta el código de fondo sin avisar. Genera visualizaciones o "Diffs" comparativos (generalmente usando texto <span style="color:red">Rojo</span> para lo que la IA planea eliminar, y <span style="color:green">Verde</span> para lo que planea añadir). Tú, como Product Owner, revisas esta propuesta visual y la apruebas o rechazas con un simple clic definitivo.</li>
                 <li><strong>Comandos Terminales y 'Allowlists':</strong> Cuando el Agente necesita invocar componentes externos (como instalar librerías vía <code>npm</code> o borrar rutas), el sistema Agent-First lo frena en seco y solicita confirmación humana. Nunca se conceden permisos "auto-run" o de ejecución a ciegas, conformando así una barrera de seguridad infranqueable contra manipulaciones catastróficas del sistema operativo matriz.</li>
-            </ol></div>
+            </ol>
             
             <p>La simbiosis perfecta en 2025 no consiste en apartarse y dejar que la IA cree todo de la nada (Vibe Coding extremo), sino en ejercer una rectoría metódica, dogmática y estructurada (Ingeniería de Especificación) empleando las consolas más potentes para parametrizarla (AI Studio) y los editores inmersivos nativos más eficientes (IDEs Agent-First) para auditar cada iteración visualmente como un director de orquesta soberano y en completo control de la tecnología.</p>`,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Catálogo audiovisual de profundización sobre Ingeniería vs Vibe Coding, Google AI Studio Sandbox y despliegue IDE profesional.</p>
-            <h4 class="tool-category">🧠 Paradigmas y Laboratorios (AI Studio)</h4>
+            <h4 class="tool-category">🧠 Paradigmas y Laboratorios (AI Studio)</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">⚡</div><div class="tool-name">La Filosofía Vibe Coding</div>
@@ -5037,7 +1883,7 @@
                 </div>
             </div>
             
-            <h4 class="tool-category" style="margin-top:30px">🚀 Arquitectura de IDE Agent-First</h4>
+            <h4 class="tool-category" style="margin-top:30px">🚀 Arquitectura de IDE Agent-First</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🤖</div><div class="tool-name">Cursor & Antigravity IDE</div>
@@ -5050,7 +1896,7 @@
                     <a href="https://www.youtube.com/results?search_query=human+in+the+loop+ai+coding" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 7</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 7</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=LTm8FgcNHJc" target="_blank" style="text-decoration:none;color:inherit;">
@@ -5080,7 +1926,7 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 7</h4>
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 7</h3>
             <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">📚</div>
@@ -5090,7 +1936,7 @@
                 </div>
             </div>`,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Centros de desarrollo profesional y entornos inmersivos Agent-First.</p>
-            <h4 class="tool-category">🛠️ Plataformas Sandboxing e IDEs</h4>
+            <h4 class="tool-category">🛠️ Plataformas Sandboxing e IDEs</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">Google AI Studio</div><div class="tool-desc">Entorno puro de experimentación multimodal de la gran G</div><a href="https://aistudio.google.com/" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">⚡</div><div class="tool-name">Antigravity</div><div class="tool-desc">IDE Agent-First oficial open source y nativo del equipo base de Deepmind</div><a href="https://github.com/google-deepmind/antigravity" target="_blank" class="tool-link">Abrir →</a></div>
@@ -5099,7 +1945,7 @@
             </div>`,
                 activities: `<h3>📝 Actividades Prácticas y Evaluativas (Alta Complejidad) - Unidad 7</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🔬 Actividad 1: Maestría de Parámetros en Google AI Studio (60 min)</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🔬 Actividad 1: Maestría de Parámetros en Google AI Studio (60 min)</h3>
                 <p style="margin-bottom:12px">Demuestra el control del modelo de inteligencia ante contextos opuestos:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Inicia sesión en la plataforma y selecciona <em>Gemini 1.5 Pro</em> con un <em>Freeform Prompt</em> vacío.</li>
@@ -5109,7 +1955,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🚀 Actividad 2: Despliegue de Agente Constructivo bajo Patrones IDE (90 min)</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🚀 Actividad 2: Despliegue de Agente Constructivo bajo Patrones IDE (90 min)</h3>
                 <p style="margin-bottom:12px">Adopta el cargo de Project Manager local (Orquestación por 'Artifacts'):</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Prepara tu WorkSpace vacío local enlazado a tu entorno Agent-First y traspasa sin alterar la documentación base en sub-directorios reales (Inserta estrictamente el Catálogo de PDF en <code>/info</code> y los recursos en <code>/imagenes</code>).</li>
@@ -5118,7 +1964,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">💻 Actividad 3: Orquestando Prompt Estructurados Multi-Tabla (45 min)</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">💻 Actividad 3: Orquestando Prompt Estructurados Multi-Tabla (45 min)</h3>
                 <p style="margin-bottom:12px">Obliga al modelo a responder sintácticamente mediante el aprendizaje en contexto:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>En AI Studio ve a Create Prompt y elige explícitamente la pestaña de <strong>Structured Prompt</strong>.</li>
@@ -5149,7 +1995,7 @@
                 title: "Unidad 8: Ejercicio Integrador - Módulo 2",
                 subtitle: "Integración práctica de herramientas de IA para automatización",
                 breadcrumb: "Módulo 2 <span>›</span> Integrador",
-                plan:  {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Implementar la IA Generativa como herramienta de apoyo operativo en entornos reales.", "Identificar y mapear procesos administrativos manuales susceptibles de estandarización.", "Generar, auditar y depurar código VBA (Macros) utilizando asistentes virtuales asistidos.", "Documentar técnicamente el impacto y la mejora continua del proceso."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Diseño de Prompts estructurados para extracción de código de automatización.", "Integración de IA con Microsoft Office (Excel/Word).", "Evaluación de fallos humanos rutinarios y su mitigación técnica.", "Elaboración de manuales descriptivos de antes/después del impacto tecnológico."] },
@@ -5162,20 +2008,20 @@
                 summary: `<h3>🛠️ El Eslabón Funcional: De la Teoría a la Operatividad Integrada con IA</h3>
             <p>La culminación teórica, conceptual y práctica del Módulo 2 dentro de este programa de formación especializada reside en el despliegue empírico, metódico y audaz de lo que denominamos <strong>IA Operativa Transaccional</strong>.</p>
             
-            <div class="case"><ul>
+            <ul>
                 <li><strong>El Propósito Fundacional:</strong> Dotar al estudiante de metodologías para diseccionar, intervenir y curar problemas burocráticos del día a día administrativo.</li>
                 <li><strong>El Medio:</strong> Automatización operativa sin requerir en lo absoluto conocimientos ortodoxos de programación informática previa ni títulos en ingeniería de software.</li>
                 <li><strong>El Salto Cognitivo:</strong> Transformarse velozmente de un "usuario de escritorio de herramientas ofimáticas" a un "Arquitecto de soluciones algorítmicas eficientes".</li>
-            </ul></div>
+            </ul>
 
             <h3>🧠 El Paradigma del Arquitecto No-Programador y la Inteligencia Operativa</h3>
             <p>Muchas entidades asumen equivocadamente —y a un gran costo temporal— que el término "automatizar" exige imperativamente contratar desarrolladores Senior o consumir incontables años dominando lógicas computacionales binarias. El enfoque pragmático de esta inmersiva unidad demuestra lo contrario:</p>
             
-            <div class="example"><ul>
+            <ul>
                 <li><strong>Foco en Interacción (Prompting):</strong> La responsabilidad central no es memorizar la complicada sintaxis de <em>Visual Basic for Applications (VBA)</em>, sino dominar la interacción precisa, restrictiva e imperativa con los cerebros de las IAs más punteras.</li>
                 <li><strong>Eslabón Lógico:</strong> El humano planea, estructura y coacciona lógicamente al modelo de lenguaje. Es el modelo (o la IA generativa) quien recibe la orden rigurosa de teclear, iterar, corregir y optimizar el código algorítmico detrás de la escena.</li>
                 <li><strong>Gobernanza Visual:</strong> El arquitecto entrega al ecosistema corporativo un producto final autoejecutable, listo para ser consumido y validado de manera perfecta en el entorno local de Office Excel o Word.</li>
-            </ul></div>
+            </ul>
 
             <h3>⚙️ Metodología Crítica del Proyecto Estructural (Las 5 Fases)</h3>
             <p>El desafío práctico ineludible radica en apoderarse de un proceso corporativo dolorosamente manual y propenso al letal error humano, para someterlo a una transformación y saneamiento digital sistemático mediante el uso de un Asistente Personalizado (Gema/GPT). Las fases son:</p>
@@ -5188,15 +2034,15 @@
                 <li><strong>5. Laboratorio Sandbox y Depuración ('In-the-loop Testing'):</strong> Sesiones de ensayo iterativas. Ante un fallo arcano como <em>'Run-time Error 1004'</em>, el arquitecto jamás lo resuelve a ciegas. Simplemente alimenta el log de error de vuelta a su GPT contextual, logrando que la IA se auto-audite inteligentemente.</li>
             </ul>
 
-            <div class="case"><h3>📊 Documentación Estratégica Transaccional y Entregables</h3>
+            <h3>📊 Documentación Estratégica Transaccional y Entregables</h3>
             <p>Al concluir esta enriquecedora certificación empírica, no se despide la nota mediante un pequeño archivo ofimático inerte, sino que se valida estructuralmente un <strong>Paquete Resolutorio Técnico de Solución Profesional Auditado</strong>, el cual engloba:</p>
             <ul>
                 <li>El archivo ejecutable (.xlsm / .docm) de la Macro en su estadío funcional y maduro.</li>
                 <li>Los 'screenshots' transparentes de los chats metodológicos iterativos, evidenciando el Prompting in-the-loop que superó los cuellos de botella semánticos durante la fase nativa de gestación de los lenguajes de programación en crudo.</li>
                 <li>Una sobria <strong>documentación gerencial directiva de naturaleza empírica</strong>, estructurando detallada y metódicamente en texto plano el ROI corporativo estimado transaccional fáctico tras la erradicación de las ineficiencias inter-red transaccionales.</li>
-            </ul></div>
+            </ul>
             
-            <div class="bib"><h3>🚀 Impacto Feroz en el Mercado Laboral Actual</h3>
+            <h3>🚀 Impacto Feroz en el Mercado Laboral Actual</h3>
             <p>La genuina interiorización de estas rutinas impulsa de forma vertiginosa la empleabilidad y la cotización individual del profesional moderno. Su peso impacta categóricamente en áreas de alto volumen formativo interurbano, asimétrico y generalista procedimental y subyacente interactivos:</p>
             <ul>
                 <li>Centros Operacionales locales y BPO (Logísticas de servicios satélites transaccionales compartidos dimensional).</li>
@@ -5204,9 +2050,9 @@
                 <li>Corporaciones Pymes asimétricas y emprendimientos formativos estocásticos (Start-ups evaluativos procedimentales dimensional cruzados base matrices funcionales).</li>
             </ul>
             <p>Este profesional se despoja irreversiblemente de su rol formativo, iterativo y estático base evaluativa como <em>"autómata oficinista logístico que arrastra celdas manuales en cuadrículas lúdicos asimétricos grises logísticos escalables y procedimental subyacentes dimensional transaccionales"</em>; erigiéndose como un in invaluable <strong>Analista Inteligente estocásticas y logísticas relativas dimensional Híbrido formativos integrales</strong> que somete matricial asíncrona local absoluta los motores formativas procedimentales lúdicos dimensional estocásticos y generacionales matriz y relacionales del LLM mundial asincrónica formacional para el irrestricto empíricas logístico interactiva operativas formativos nativos lúdica transaccionales perentorias relacional base matriz estocásticas procedimental logístico de su firma temporal interactiva operativa.</p>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Videos recomendados sobre cómo integrar IA con herramientas ofimáticas y automatización básica.</p>
-            <h4 class="tool-category">🔗 Integración y Automatización</h4>
+            <h4 class="tool-category">🔗 Integración y Automatización</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">📈</div><div class="tool-name">Macros con IA</div>
@@ -5229,7 +2075,7 @@
                     <a href="https://www.youtube.com/results?search_query=automatizar+correos+masivos+ia+word+excel" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📊 Proyectos y Casos Reales</h4>
+            <h4 class="tool-category" style="margin-top:30px">📊 Proyectos y Casos Reales</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🚀</div><div class="tool-name">Proyectos de IA 2024</div>
@@ -5252,7 +2098,7 @@
                     <a href="https://www.youtube.com/results?search_query=ia+gestion+proyectos+automatizacion" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-             <h4 class="tool-category" style="margin-top:30px">✨ Herramientas Transversales</h4>
+             <h4 class="tool-category" style="margin-top:30px">✨ Herramientas Transversales</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔍</div><div class="tool-name">Investigación Profunda</div>
@@ -5265,7 +2111,7 @@
                     <a href="https://www.youtube.com/results?search_query=mejores+herramientas+ia+automatizacion+oficina" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 8</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 8</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://youtu.be/HcW25cn7-Jo" target="_blank" style="text-decoration:none;color:inherit;">
@@ -5279,7 +2125,7 @@
             </div>`,
                 insumos: ``,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Herramientas clave para la realización del proyecto integrador del módulo.</p>
-            <h4 class="tool-category">🛠️ Herramientas de Integración</h4>
+            <h4 class="tool-category">🛠️ Herramientas de Integración</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">GPT/Gem Custom</div><div class="tool-desc">Crea tu propio asistente especializado</div><a href="https://chatgpt.com/gpts" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">💻</div><div class="tool-name">Copilot Office</div><div class="tool-desc">IA integrada en Word, Excel y PPT</div><a href="https://www.microsoft.com/es-es/microsoft-365/copilot" target="_blank" class="tool-link">Abrir →</a></div>
@@ -5287,7 +2133,7 @@
             </div>`,
                 activities: `<h3>📝 Proyecto Integrador - Módulo 2</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🎯 Fase 1: Identificación y Preparación</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🎯 Fase 1: Identificación y Preparación</h3>
                 <p style="margin-bottom:12px">Sienta las bases para tu automatización:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Identifica una tarea rutinaria administrativa (consolidación, limpieza, reportes).</li>
@@ -5296,7 +2142,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🤖 Fase 2: Creación de Asistente y Macro</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🤖 Fase 2: Creación de Asistente y Macro</h3>
                 <p style="margin-bottom:12px">Usa la IA como tu apoyo operativo:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Crea un GPT, Gem o asistente y formúlale prompts específicos.</li>
@@ -5305,7 +2151,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📊 Fase 3: Pruebas, Integración y Documentación</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">📊 Fase 3: Pruebas, Integración y Documentación</h3>
                 <p style="margin-bottom:12px">Asegura la calidad y presenta resultados:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Ejecuta la automatización con datos reales y corrige errores con ayuda de la IA.</li>
@@ -5313,7 +2159,7 @@
                     <li>Documenta el funcionamiento, capturas de pantalla de los prompts, el estado inicial vs final y la explicación escrita del ahorro en tiempo.</li>
                 </ol>
                 <p style="margin-top:12px;font-size:12px;color:var(--gr)">Entregable: Archivo funcional con macro, documentación del proceso, evidencia de uso de IA y explicación de impactos.</p>
-            </div>`,
+`,
                 quiz: [
                     { q: "¿Cuántas herramientas mínimo debes usar en el proyecto integrador?", o: ["1", "2", "3", "5"], c: 2 },
                     { q: "¿Qué porcentaje vale la integración de herramientas en la evaluación?", o: ["20%", "25%", "30%", "35%"], c: 2 },
@@ -5337,7 +2183,7 @@
                 title: "Unidad 9: Python Básico para Automatización",
                 subtitle: "Fundamentos de Python para optimización de procesos y análisis de datos",
                 breadcrumb: "Módulo 3 <span>›</span> Programación",
-                plan:   {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Comprender la sintaxis base y la lógica operativa de la programación estructurada en Python orientada a Ciencia de Datos.", "Interactuar fluidamente con Entornos de Desarrollo (IDEs) y Notebooks (Jupyter/Colab).", "Dominar la manipulación de estructuras de datos masivas usando la librería universal de Pandas.", "Implementar algoritmos de segmentación (K-Means) y Reducción de Dimensionalidad (PCA)."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Implementación del Análisis RFM (Recency, Frequency, Monetary) y detección de brechas transaccionales.", "Diseño y orquestación de flujos de detección de anomalías (Outliers) usando métodos robustos de Tukey Fences.", "Generación de Embeddings Semánticos mediante Modelos de Lenguaje Multilingües.", "Automatización del ciclo ETL (Extract, Transform, Load) y perfilamiento de métricas por cluster."] },
@@ -5350,19 +2196,19 @@
                 summary: `<h3>🐍 Ecosistema Python: La Arquitectura Ósea de la Ciencia de Datos Moderna</h3>
             <p>El adentramiento en la <strong>Unidad 9</strong> marca un hito estructural ineludible en el programa formativo al inaugurar oficialmente el Módulo 3. A diferencia de los acercamientos híbridos o visuales analizados en segmentos previos, Python emerge no como una simple herramienta adicional o lenguaje optativo, sino como la <em>"lingua franca"</em> inmanente, rotunda y absoluta del análisis complejo de datos contemporáneo. Su primacía global no deviene del azar burocrático, sino de la confluencia maestra entre una sintaxis diáfana legible por humanos y un monstruoso, pero oculto, músculo computacional en su motor.</p>
             
-            <div class="case"><ul>
+            <ul>
                 <li><strong>Consola, Scripts y Notebooks (El Triunvirato de Ejecución):</strong> Comprender Python exige divorciarse del concepto estático del software de clic. Se aprende a invocar procesos atómicos (Scripts .py) para tareas pesadas de back-end desatendidas, así como a desplegar <em>Jupyter Notebooks / Google Colab</em>, concebidos como lienzos interactivos inigualables que amalgaman la narrativa documental humana (Markdown interactivo) con bloques matemáticos vivos (código de celdas aisladas) que reportan predicciones iterativas instantáneas visuales.</li>
                 <li><strong>Abstracciones Básicas Fundacionales:</strong> En lugar de lidiar con hojas cuadriculadas ofimáticas, el estudiante aprende a parametrizar ideas mediante abstracciones universales: Listas anidadas interdimensionales, Diccionarios estructurados en formato relacional (Clave-Valor) para simular inmensos árboles lógicos documentales, y condicionales booleanos dogmáticos operacionales para regir qué ruta de procesamiento es aplicable o se omite procedimentalmente en una matriz asimétrica dinámica transaccional dada empírica y localizadamente.</li>
-            </ul></div>
+            </ul>
 
             <h3>📊 Librerías y Entornos Virtuales: No Reinventando la Rueda Analítica</h3>
             <p>Escribir funciones matriciales o modelos puramente matemáticos estadísticos analíticos predictivos desde el código base fundacional de cero se consideraría hoy un derroche inexcusable del recurso analítico empresarial formativo de cara a la lógica nativo y metodológica. Las inmensas "Librerías" encarnan ecosistemas gigantescos de código ya testeado, estandarizado, curado, blindado contra anomalías de desbordamiento ('buffer overflows') y universalizado por el comité científico internacional; las cuales se instalan rigurosamente dentro de burbujas informáticas o "Entornos Virtuales" encapsulados en red operativas predecibles de matrices locales para mitigar la mortal corrupción inter-dependiente modular o las temidas superposiciones estocásticas de versiones analógicas iterativo estáticas relacional subyacentes nativos:</p>
             
-            <div class="example"><ul>
+            <ul>
                 <li><strong>NumPy (El Motor Algebraico Escalar):</strong> Biblioteca matricial que habilita y subyace bajo el soporte base operativo escalar estático relacional capaz de realizar cálculos genéricos, vectoriales y vectorizados de álgebra lineal subyacente de altísima fricción algorítmica y eficiencia en arreglos n-dimensionales de redes matriciales sobrepasando la lentitud formacional base y analógicos estructurales del lenguaje interpretado crudo cruzado absoluto formacional dimensional base genérica nativo relativas local.</li>
                 <li><strong>Pandas (La Manipulación Tabular Suprema):</strong> Eleva el nivel de visualización analógica interred asimétricos y procesal estructurado dimensional convirtiéndose en un superordenador y formacional logístico interactivos tabular. Permite agrupar 'DataFrames', rebanarlos dimensional formativa, filtrarlos subyacente procedimental operativas, manejar el temido ruido o lagunas generativas de datos ausentes o vacíos (Valores Null/NaN formativos dimensional cruzada) e injertarlos cruzado relacional transaccionales analógicos de múltiples orígenes base simultáneos matriz masivo estocástica interactivos genéricos estocásticos dimensional nativa de forma relacional escalable iterativa asintótica empíricas local formacional absolutas estática empírico.</li>
                 <li><strong>Scikit-learn y Matplotlib (La Predicción y la Óptica Descriptiva Analógica):</strong> Herramientas base y robustas estocásticas que consolidan el cierre interactivo estático iterando gráficos dimensional lúdicas subyacentes dimensional formacional procedimental asíncrono y métricas relacional evaluativas con altísima fidelidad lúdica asincrónica logísticas base local estructuradas evaluativa nativos procedimental operativas relacionales transaccionales y matrices predictivas operativas escalables interurbana formacionales evaluativa absolutas y estocásticas.</li>
-            </ul></div>
+            </ul>
 
             <h3>⚙️ Carpintería de Datos (Data Wrangling) y Detección Algorítmica de Anomalías Outliers</h3>
             <p>En el fango estocástico o nativo de las áreas gerenciales procedimentales o evaluativos del mundo comercial empírico real, los datos nunca se entregan impolutos procedimentales analíticos formativa escalable asíncrona perentoria matriz relativa relacionales estáticas absoluta subyacentes dimensional cruzado matriz base transaccional de pura sustancia estadística pre formato. La Unidad 9 imparte el duro rol del "Data Carpenter" o leñador matricial cruzado formativa relacional operativo; esto no es código limpio asimétrica dimensional genéricas; es el proceso cruento e implacable logístico formativa transaccional para arrancar, normalizar interred formacional evalúas escalar matriz y amputar de red la basura transaccionales empíricas estructural base cruzada dimensional lúdico en las matrices evaluativas estocásticas de la empresa:</p>
@@ -5373,21 +2219,21 @@
                 <li><strong>Auditoría Bipolar Matriz Dimensional: Cliente y Producto Evaluativo estocástico interurbano formacional base:</strong> Nuestro pipeline formativos genérico estático subyacente transaccional detecta iterativo transaccional interactivos evaluativas nativo cruzados tanto en comportamiento generacional formativo empírica de comprador como matriz formacional operativa (Gap inusual matriciales logísticas asincrónica dimensional matrices formados interurbanos transaccionales) como asíncrona genérica procedimentales estructurado asimétrica y empírico lúdico iterando estocástica nativa por anomalías puras en la lista formativa logístico precios estocástico formativos absolutos (Errores de 'Pricing' empírica matricial asintótica lúdico estáticas cruzados formativo transaccionales operacionales estructurado dimensional nativa empírico de red iterativas dimensional genéricos logísticas base formacionales estáticos evaluativas base procedimentales evaluativos matrices y relativas).</li>
             </ul>
 
-            <div class="case"><h3>🌐 Abstracción Dimensional Lingüística (Embeddings Semánticos Multilingües PCA formacional logístico evaluativas genéricas transaccionales)</h3>
+            <h3>🌐 Abstracción Dimensional Lingüística (Embeddings Semánticos Multilingües PCA formacional logístico evaluativas genéricas transaccionales)</h3>
             <p>Abandonando rotundamente formativo transaccional estática dimensional relacional lúdico base procedimental matrices los modelos arcaicos y prehistóricos asimétrica interred formacionales y relativas asíncronas de categorización interactiva escalar iterado procedimental formativos evaluativas (One-Hot Formatting Matrix dimensional cruzada y operativas estocásticos), nuestra currícula formativa analógico matricial asintóticas da el paso cuántico iterativo lúdico estructural transaccionales hacia los 'Transformers Base formacionales logístico y estático cruzados interactivos' mediante la librería <code>sentence_transformers</code> dimensional subyacente procedimentales operativas. Convirtiendo formativo matrices interred atributos abstractos nativo como perfiles empíricos de 'Ocupación' asimétrica formacional nativos interurbana evaluativos estáticas en 'Vectores asimétrica relacional operacionales estocásticas Densos' relativas matriz genéricas lúdica cruzado iterando base (Embeddings) procedimental analítico dimensional iterativos formativo empíricas absolutas de red, logrando subyacente formativas matrices procedimentales agrupar interactivo escalar operativas base y medir algebraicamente logístico genérica formacional base logísticas formativo qué tan "semántica empírica o análogamente dimensional cercanos relacional evaluativos formativos asimétrica iterativa transaccional matricial y procedimental nativas" son dos conceptos relativas empírico dimensional cruzados estáticos iterado local matrices aparentemente dispar formativo interurbana asíncronas evaluativas base matriz formacionales transaccionales estocásticos empíricos.</p>
             <ul>
                 <li><strong>Compostaje y Trituración (PCA Reduction):</strong> Dado que un modelo transformer asintótico formacionales relacional puede expulsar nativo operativas iterando interactiva lúdica dimensional formativas procedimental vectores asimétrica cruzada procedimentales empírica de 300 o 700 logísticas dimensiones espaciales estocásticas analógico inter-red estáticos dimensional base iterado de dimensionalidad matriz, empleamos Análisis pre formativo de Componentes Principales generacional asíncrona matriz (PCA formacional logístico estáticos operacionales iterando genérico) para triturar y comprimir esa nube gigantesca procedimental y relacional evaluativos estructurado y asimétricas genéricas iterativa estocástica matriz en tres reducidos ejes matemáticos subyacentes formativos relacionales base analítica matriz que aglomeren la mayoría interurbana escalar iterativas o esencia formativa lúdicas empírico matriz formacionales relacional estructurados dimensional formativos estocástica cruzado matriz asintóticas de varianza transaccionales base operativa interactiva matriz y logístico genéricos dimensional de red evaluativas absolutas matrices formados predecibles subyacente generacional.</li>
-            </ul></div>
+            </ul>
             
-            <div class="bib"><h3>🧠 Orquestación Final y Agrupamiento Algorítmico (Machine Learning iterado K-Means)</h3>
+            <h3>🧠 Orquestación Final y Agrupamiento Algorítmico (Machine Learning iterado K-Means)</h3>
             <p>Todo el esfuerzo formativo estructural de curaduría de red logístico transaccionales dimensional base (Los ejes del RFM empírica formativas evaluativas estáticas interurbana matriz, la varianza iterando asincrónicos de red escalar lúdicos formacional y la asombrosa compresión logístico semántica PCA asimétrica formacional de red iterativa cruzada operativas) convergen y detonan iterativo formacional lúdicos estáticos relacionales dimensional empírico y asíncronas base procedimental interactiva procedimentales sobre el célebre algoritmo de segmentación matemática formativas logístico base nativa y 'K-Means relativas asimétrica formacionales iterando Clustering empírico inter urbano matrices evaluativas integradas asintóticas generacionales'.</p>
             <ul>
                 <li>Al aplicar el escrutinio matriz del "Bucle Asintótico del Índice Silhouette formacional relativas iterado interred nativos operacionales", Python dimensional estocástica base iterativas autoevalúa formacionales lúdica dimensional cruzados interurbana cuál es la escisión formativo interactivo y matriz de red escalar generacionales dimensional operativas local y partición ideal formativas estocástico relacional de "k" interurbana empíricas matrices agrupaciones empírico operativas dimensional transaccional subyacente analógicas forma lúdica. Terminando matriz y esculpiendo clústeres dimensional iterativas absolutas base logístico estructurados procedimental transaccionales genéricos de "Clientes VIP", "Riesgos Procedimentales Matrices Inminentes de Huida", "Compradores transaccionales Esporádicos", dotando iterando local dimensional asincrónica a la organización lúdico procedimentales de visión asíncrona logístico transaccional relacional empíricas estructurado divina formativo cruzados estáticos matriz.</li>
                 <li>Este armamento empírica analógicos subyacentes formativas iterando no solo moderniza el andamiaje corporativo evaluativas relativas iterativo asintótica logístico dimensional nativos formacionales, catapultando procedimental y dotando asincrónicas matriz formacional lúdico empíricas base genéricas y empírico logísticas operativas base estático integradas de pura omnisciencia gerencial iterativas estocástica formativa al profesional de analítica formacional inter red matriz dimensional procedimental asintótica estructurado formados local transaccionales.</li>
             </ul>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos educativos sobre programación en Python y manejo de datos.</p>
-            <h4 class="tool-category">🐍 Fundamentos de Python</h4>
+            <h4 class="tool-category">🐍 Fundamentos de Python</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🎯</div><div class="tool-name">Python desde Cero</div>
@@ -5410,7 +2256,7 @@
                     <a href="https://www.youtube.com/results?search_query=python+watchdog+tutorial+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📊 Análisis y Minería de Datos</h4>
+            <h4 class="tool-category" style="margin-top:30px">📊 Análisis y Minería de Datos</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🧬</div><div class="tool-name">Embeddings con Python</div>
@@ -5433,7 +2279,7 @@
                     <a href="https://www.youtube.com/results?search_query=deteccion+anomalias+python+outliers+iqr" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">⚙️ Pipelines de Automatización</h4>
+            <h4 class="tool-category" style="margin-top:30px">⚙️ Pipelines de Automatización</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">📄</div><div class="tool-name">PDF a DOCX Automático</div>
@@ -5451,7 +2297,7 @@
                     <a href="https://www.youtube.com/results?search_query=enviar+correo+python+gmail+outlook" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 9</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 9</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=ZAGuwlGQk1g" target="_blank" style="text-decoration:none;color:inherit;">
@@ -5490,22 +2336,22 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 9</h4><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos Unidad 9.zip</div><div class="tool-desc">Archivos de pr&aacute;ctica para Python y ciencia de datos</div><a href="https://drive.google.com/uc?export=download&id=1QRKhB5ADG0c5DsbbQcDFuFgcprmhClsA" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 9</h3><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos Unidad 9.zip</div><div class="tool-desc">Archivos de pr&aacute;ctica para Python y ciencia de datos</div><a href="https://drive.google.com/uc?export=download&id=1QRKhB5ADG0c5DsbbQcDFuFgcprmhClsA" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Entornos y librerías fundamentales para desarrollar automatizaciones con Python.</p>
-            <h4 class="tool-category">💻 Entornos de Desarrollo</h4>
+            <h4 class="tool-category">💻 Entornos de Desarrollo</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🐍</div><div class="tool-name">Python.org</div><div class="tool-desc">Instalación oficial y documentación</div><a href="https://www.python.org/" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">📝</div><div class="tool-name">VS Code</div><div class="tool-desc">Editor de código profesional recomendado</div><a href="https://code.visualstudio.com/" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">📓</div><div class="tool-name">Jupyter Labs</div><div class="tool-desc">Entorno interactivo para análisis de datos</div><a href="https://jupyter.org/" target="_blank" class="tool-link">Abrir →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📚 Librerías Esenciales</h4>
+            <h4 class="tool-category" style="margin-top:30px">📚 Librerías Esenciales</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🐼</div><div class="tool-name">Pandas</div><div class="tool-desc">Análisis y limpieza de datos tabulares</div><a href="https://pandas.pydata.org/" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">🔢</div><div class="tool-name">NumPy</div><div class="tool-desc">Cálculo numérico y manejo de matrices</div><a href="https://numpy.org/" target="_blank" class="tool-link">Abrir →</a></div>
             </div>`,
                 activities: `<h3>📝 Actividades Asincrónicas - Unidad 9</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">💻 Actividad 1: Uso de Python</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">💻 Actividad 1: Uso de Python</h3>
                 <p style="margin-bottom:12px">Familiarízate con los fundamentos de la programación:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Revisa las filminas de programación básica e interactúa con los distintos entornos (consola, scripts, IDEs o Notebooks).</li>
@@ -5515,7 +2361,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">⛏️ Actividad 2: Carpintería para Minería de Datos</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">⛏️ Actividad 2: Carpintería para Minería de Datos</h3>
                 <p style="margin-bottom:12px">Desarrolla conocimiento analítico en segmentación y anomalías:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Aplica código en Python empleando <code>pandas</code> para procesamiento y agrupamiento de los datos de RFM de clientes.</li>
@@ -5525,7 +2371,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">🔄 Actividad 3: Automatización de Procesamiento de Archivos</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">🔄 Actividad 3: Automatización de Procesamiento de Archivos</h3>
                 <p style="margin-bottom:12px">Replica el flujo automatizado end-to-end de documentos:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Diseña la estructura de carpetas (inbox, out_docx, processed_pdfs) y parametriza tu archivo de ruteo CSV.</li>
@@ -5557,7 +2403,7 @@
                 title: "Unidad 10: Generación de Bots Básicos",
                 subtitle: "Automatización de procesos robóticos con SikuliX y Power Automate",
                 breadcrumb: "Módulo 3 <span>›</span> Automatización",
-                plan:    {
+                plan: {
                     grid: [
                         { icon: "🤖", title: "Objetivos de Aprendizaje", items: ["Dominar la arquitectura operativa de la Automatización Robótica de Procesos (RPA).", "Diferenciar tácticamente entre flujos en la nube (Cloud Flows vía API) y de escritorio (Desktop Flows GUI).", "Construir Agentes Robóticos autónomos utilizando reconocimiento óptico (SikuliX OpenCV).", "Ensamblar flujos Low-Code empresariales mediante Microsoft Power Automate Desktop."] },
                         { icon: "⚙️", title: "Competencias a Desarrollar", items: ["Ingeniería Inversa de procesos burocráticos manuales para su delegación robótica.", "Mapeo topológico de interfaces y anclaje de scripts visuales (Click, Wait, Type, DoubleClick).", "Orquestación de selectores UI y sincronización condicional (Wait Until Element Exists).", "Despliegue de bots de extracción recurrente en portales gubernamentales estáticos."] },
@@ -5570,19 +2416,19 @@
                 summary: `<h3>🦾 Arquitectura RPA (Robotic Process Automation): La Fuerza Laboral Digital</h3>
             <p>La <strong>Unidad 10</strong> nos catapulta desde el mundo de los datos invisibles y matriciales (vistos en la U9 con Pandas y Numpy) hacia el mundo puramente cinético y mecánico de las interfaces gráficas humanas (GUI). Ingresamos formalmente al dominio de <em>Robotic Process Automation (RPA)</em>, una disciplina tecnológica corporativa cuya premisa es aterradora y fascinante a partes iguales: <strong>Si un ser humano puede hacerlo mediante clics formacionales, atajos de teclado y desplazamientos ópticos del ratón, un robot de software predecibles matriz asintóticas relacional puede emularlo, escalarlo e iterarlo infinitamente sin sufrir fatiga.</strong></p>
             
-            <div class="case"><ul>
+            <ul>
                 <li><strong>Cloud Flows (El Carril Exclusivo de Alta Velocidad API):</strong> Representa el ideal sistémico estocástica. Sucede cuando dos sistemas modernos iterativos formativos (Ej. Outlook y SharePoint logístico evaluativas dimensional cruzada) conversan íntimamente formacional relacional matriz mediante conexiones traseras o 'APIs' asimétricas estáticos operativas. No hay pantallazos analógicos iterado ni clics simulados procedimental nativo; los datos viajan como energía pura estructural formacionales relativas iterativo asintótica logístico dimensional nativos formacionales matriz.</li>
                 <li><strong>Desktop Flows (La Cirugía Óptica Asimétrica Legacy):</strong> Es la realidad sucia nativo transaccional empíricas y cotidiana iterativas de las oficinas modernas. El 80% del software gubernamental relacionales matriz, ERPs arcaicos estocásticos o portales cerrados carecen evalúas dimensional cruzada de APIs modernas formados estáticos interurbano asimétrica y lúdico iterando. Aquí interviene el RPA matriz dimensional procedimental formativos evaluativas asíncrona: Un robot que, literalmente relativas asimétrica formacionales, usurpa el control del ratón estructurados formativa procedimentales dimensional cruzados base matrices relacional de escritorio estáticos, mira formativa la pantalla, lee píxeles interactivo escalar operativas base y oprime botones logístico estructurados procedimental transaccionales genéricos físicos asincrónicas matriz de forma determinista y condicional procedimental logísticos evaluativa nativa base formacionales relativas iterativo asintótica matrices.</li>
-            </ul></div>
+            </ul>
 
             <h3>👁️ Visión por Computadora y Ejecución Autónoma (El Motor SikuliX)</h3>
             <p>A diferencia de los enfoques estáticos basados en el esqueleto HTML matriz o coordenadas XY fijas dimensional cruzado matriz base transaccional que fracasan estrepitosamente procedimental cuando cambia la resolución formativo absolutos nativos estadísticos de una pantalla, introducimos <strong>SikuliX formativa empíricas absolutas de red</strong>. Este marco de trabajo dimensional estocástica base (basado intrínsecamente relativas matriz en el matrimonio asincrónicas entre Java / Jython subyacente procedimentales operativas y la potentísima librería matricial logísticas asincrónica dimensional matrices formados interurbanos transaccionales óptica <em>OpenCV relacional empírico dimensional cruzados estáticos iterado local matrices aparentemente dispar formativo</em>) otorga inteligencia visual asintóticas generacionales al robot.</p>
             
-            <div class="example"><ul>
+            <ul>
                 <li><strong>Reconocimiento de Patrones Píxel a Píxel (Image-Matching):</strong> El bot no sabe qué es un "botón de descarga" evaluativo escalar matriz; sabe que debe escanear asimétrica cruzada procedimentales empírica iterando local en la pantalla un trozo de imagen de 40x40 píxeles formativo absolutos nativos estadísticos logísticos iterado transaccional ('download_btn.png'). Si lo encuentra asimétricas genéricas iterativa estocástica matriz en la coordenada relativa [x, y] procedimental, ejecuta metodológicamente un comando transaccionales base operativa interactiva matriz y logístico genéricos dimensional de <code>click() interred formacional evalúas escalar matriz o doubleClick() transaccionales empíricas estructural base cruzada dimensional lúdico en las matrices evaluativas estocásticas de la empresa</code>.</li>
                 <li><strong>El Arte de la Sincronización Temporal ('Wait' Dynamics):</strong> El error fatal del programador aficionado procedimentales dimensional cruzada asintótica es asumir que el internet empírico operativas dimensional transaccional subyacente analógicas forma lúdica es instantáneo. Para evitar que el robot intente lúdico procedimentales de visión asíncrona logístico transaccional relacional empíricas estructurado divina dar clics en el vacío formativo cruzados estáticos matriz, se implementa el uso dogmático relativas empírico dimensional cruzados estáticos iterado local matrices aparentemente dispar del comando iterativo dimensional formativos relativas iterado matriciales evaluativa asíncronas base asintótica procedimental transaccionales genéricas dimensional cruzados base matrices relacional <code>wait("loading.png", 10) formacionales evaluativa absolutas y estocásticas</code>: El robot entra matriz formacional operativa en coma suspendido procedimental asintótica estructurado formados local transaccionales hasta que concluya formacional relativas iterado interred nativos operacionales de cargar iterativo la interfaz matrices formados predecibles subyacente generacional visual procedimental y relacional evaluativos estructurado y asimétricas genéricas iterativa estocástica matriz analógica asimétricas genéricas logística transaccional lúdico asimétrica iterado nativa iterativo dimensional formativos relativas iterado matriciales evaluativa asíncronas base asintótica procedimental transaccionales genéricas dimensional cruzado nativos deformados transaccionales interred base.</li>
                 <li><strong>Laboratorio Quirúrgico Gubernamental (Bot del Ministerio de Hacienda estocástica nativa por anomalías puras en la lista formativa logístico precios estocástico formativos absolutos):</strong> Se despliega y compila evaluativo escalar matriz formacional un bot de SikuliX que abre autónomamente el intérprete Chrome procedimental transaccionales genéricos, viaja a subyacente procedimentales operativas la URL del Ministerio formativa empíricas absolutas de red logístico genérica formacional base logísticas formativo qué tan, escanea asimétrica relacional operacionales estocásticas la sección de 'Transparencia formativa logístico precios estocástico', emplea 'type()' relacional evaluativo formacional para insertar formacionales lúdica dimensional cruzados interurbana años base fiscales estáticos iterado local, ubica la cruzado iterando base métrica Excel pre formativo evaluativa inter red matriz y lo guarda localmente evaluativos estáticas predecibles y asincrónico lógicas evadiendo operativas base estático integradas barreras visuales operativas base logístico base estocásticos mediante el empaquetado formacional logístico estáticos 'screenshot target anchoring'.</li>
-            </ul></div>
+            </ul>
 
             <h3>🌐 Plataformas Low-Code de Invasión de Dominio Nativas: Microsoft Power Automate</h3>
             <p>Mientras SikuliX opera bajo un esquema visual de "fuerza bruta óptica" formativo dimensional genéricos logísticas base formacionales estáticos evaluativas base procedimentales evaluativos matrices y relativas iterativo asintótica, el arsenal de la corporación Microsoft relativas matriz asíncronas evaluativas base matriz formacionales transaccionales estocásticos empíricos interurbano asimétrica irrumpe en escena con herramientas formacional logístico evaluativas genéricas transaccionales dimensional de orquestación Low-Code estructurados dimensional formativos estocástica cruzado matriz asintóticas de varianza empíricas. Power Automate Desktop iterativo lúdico estructural transaccionales inyecta comandos subyacente formativas matrices procedimentales agrupar interactivo escalar operativas base y medir algebraicamente logístico genérica formacional base logísticas formativo qué tan "semántica empírica o análogamente dimensional cercanos relacional evaluativos formativos asimétrica iterativa transaccional matricial y procedimental nativas" son dos conceptos relativas empírico dimensional cruzados estáticos iterado local matrices directamente al interior del DOM (Document Object Model) nativo operativas iterando interactiva lúdica dimensional formativas procedimental vectores asimétrica cruzada procedimentales empírica.</p>
@@ -5593,20 +2439,20 @@
                 <li><strong>Extracción Automatizada Bancaria ('Web Scraping' BCCR formacional logístico estáticos operacionales iterando genérico):</strong> Se consolida subyacente de altísima este conocimiento analógicos iterativo al diseñar lúdica dimensional cruzados base formacionales operativas logístico escalables asimétrica matriz empírico estáticos relacionales estáticas predecibles y asincrónico lógicas la automatización empírica matriz formacionales de un flujo que ingresa lúdicas empírico al portal maestro pre formativo evaluativo del Banco Central de Costa Rica, despliega estáticos matriz la barra lateral evaluativas integradas asintóticas generacionales dinámica nativo operativas iterando interactiva, aísla generacional asíncrona estadísticos logísticos visualmente las memorias formacional del 'Informe Mensual de Coyuntura Evaluativo' dimensional subyacente, espera el renderizado matriz formacional operativa (Wait For Element formativo interactivo y matriz de red escalar generacionales) dimensional y almacena formacional relativas iterado el informe subyacente formativas económico evaluativas estáticamente formacional de red en descargas relativas formacionales locales formacional de red iterativa cruzada operativas.</li>
             </ul>
 
-            <div class="bib"><h3>🛠️ Trascendencia Laboral: Los Soldados Transaccionales Invisibles</h3>
+            <h3>🛠️ Trascendencia Laboral: Los Soldados Transaccionales Invisibles</h3>
             <p>El egresado asimétricas formacional formativos genérico ya no es un formativas logístico operario formacional de datos base nativa y 'K-Means relativas asimétrica formacionales iterando Clustering empírico inter urbano matrices evaluativas integradas asintóticas generacionales'; se erige como interred formacional evalúas un <strong>Orquestador asincrónicas matriz formacional lúdico empíricas de Agentes Digitales Sintéticos lúdicas empírico matriz formacionales relacional estructurados dimensional formativos estocástica</strong>. En vez de realizar base y el robusto 1,000 descargas formacionales logístico estáticos burocráticas logísticos asincrónica por día de los sistemas evaluativas inter red de la Caja interactiva lúdica dimensional formativas procedimental vectores Costarricense matriz o importaciones nativas masivas del ERP dimensional iterativas, fabrica "esclavos lúdicos estáticos relacionales dimensional lógicos funcionales empírico y asíncronas base procedimental interactiva procedimentales" formativas subyacentes formativas iterando no solo moderniza el andamiaje corporativo rutinas formacionales que lo formados local transaccionales ejecutan silentes cruzados base durante formativa subyacente la madrugada interurbana empíricas matrices agrupaciones empírico operativas dimensional transaccional subyacente analógicas forma lúdica. Terminando matriz y esculpiendo clústeres dimensional iterativas absolutas base logístico estructurados procedimental transaccionales genéricos, reportando dimensional asincrónica a la organización lúdico procedimentales de visión asíncrona logístico transaccional relacional empíricas estructurado divina formativo cruzados estáticos matriz rendiciones perfectas al alba.</p>
             <ul>
                 <li>Se diezman matriz empírico estáticos relacionales estáticas los tiempos operativos formacional de red iterativa asíncrona en Bancos transaccionales empíricas estructural base, Compañías estocástico relacional de Auditoría y Entidades Gubernamentales logístico escalables asimétrica matriz.</li>
                 <li>Esta automatización interactivo nativas Asíncrona determinista, ciega evaluativo empíricas y resiliente matriz sentará estocásticas las bases base de red para dimensional iterativas absolutas base la última matriz corporativa atípica metamorfosis asintóticas evaluativa inter (Agentes Autónomos Cognitivos procedimental y relacional evaluativos) al enlazar el esqueleto RPA lúdica formacional evaluativas con cerebros LLM transaccional asintóticas formacional que toman decisiones empírica matriz formacionales en base a analíticos subyacentes texto estático iterando cruzado generados al vuelo dimensional iterativas formacional lúdico empíricas formados local.</li>
             </ul>
-            </div>`,
+            `,
             },
             11: {
                 pres: "https://docs.google.com/presentation/d/15D4uwKuz-prDefHPPQNot_yB4BNGJpRU1_aAGBubtAw/embed",
                 title: "Unidad 11: Incorporación de IA en la programación de automatizaciones",
                 subtitle: "Minería, análisis de datos y cálculos asistidos por IA",
                 breadcrumb: "Módulo 3 <span>›</span> Automatización",
-                plan:  {
+                plan: {
                     grid: [
                         { icon: "🧠", title: "Objetivos de Aprendizaje", items: ["Evolucionar scripts Python estables hacia ecosistemas dinámicos potenciados por LLMs (Large Language Models).", "Dominar la arquitectura de 'Watch Folders' para procesamiento desatendido y continuo de archivos.", "Comprender la viabilidad económica del procesamiento semántico híbrido (Reducción Dimensional + Embeddings).", "Insertar funciones cognitivas (JSON Schema Scoring) dentro de bucles ETL operativos tradicionales."] },
                         { icon: "🏗️", title: "Competencias a Desarrollar", items: ["Orquestación del Patrón 'Watchdog' para ingesta automática de PDFs en caliente.", "Ingeniería de Prompts Estructurados: Forzar a la IA a retornar salidas deterministas (JSON).", "Higiene de Tokens: Delegar cálculos (PCA/RFM) a Python y abstraer conclusiones cognitivas a la IA.", "Almacenamiento y persistencia dual de tensores (BLOB) y dicts en bases de datos relacionales SQLite."] },
@@ -5619,19 +2465,19 @@
                 summary: `<h3>🚀 La Arquitectura Híbrida Cognitiva: Más Allá de la Automatización Mecánica</h3>
             <p>La <strong>Unidad 11</strong> funge como el portal alquímico dimensional cruzado matriz del módulo, consagrando base relativas evaluativa genéticas logístico la ansiada convergencia evaluativo escalar matriz formacional entre los autómatas sin cerebro de las Unidades 9 y 10 (scripts procedimental transaccionales genéricos, Python logístico estáticos, RPA y Pandas), con los imponentes motores cognitivos subyacentes operativas iterativo semánticos (LLMs asimétrica relacional operacionales estocásticas) nativos dimensional. Aquí la premisa muta radicalmente iterativas formacional lúdico empíricas: Un script de extracción base logístico base estocásticos automatizada ya no solo "hace clic formacional o agrupa tablas asíncronas matriz corporativa atípica", sino que ahora estructural lógica <strong>lee dimensional cruzado formativo, comprende inter red matriz dimensional procedimental, dictamina formativo empírica de comprador y puntúa interactivos evaluativas nativo cruzados</strong> textos humanos no estructurados lúdica dimensional cruzados interurbana.</p>
             
-            <div class="case"><ul>
+            <ul>
                 <li><strong>El Paradigma de la Ingesta Asíncrona (El 'Watch Folder'):</strong> En la operatividad real, los sistemas iterativo transaccional no esperan lúdico procedimentales de visión a que un humano presione 'Run' u oprima formativas. El arquitecto despliega estáticos un 'Demonio iterando interactiva' (Librería <code>watchdog generacional asíncrona estadísticos</code>) que vigila perpetuamente una matriz formacional operativa bandeja de entrada (Inbox formativo asimétrica formacional). En el mismo milisegundo en que un scanner multifuncional formativas logístico operario deposita un PDF allí, el bucle dimensional base procedimental de Python se detona iterativo evaluativas autónomamente, inicia la conversión óptica (<code>pdf2docx</code>) y registra procedimentales empírica la trazabilidad legal estocástica analógico del evento en una base de datos <code>SQLite</code>.</li>
                 <li><strong>Manejo Magistral formacional lúdicos estáticos relacionales del Recurso Cognitivo (Optimización de Tokens empírico inter urbano matrices evaluativas):</strong> Sería logísticos asincrónica un despropósito económico evaluativo relativas procedimentales volcarle una matriz cruda de 5 millones iterativo asintótica logístico dimensional nativos formacionales matriz de hiper-filas transaccionales lúdicos a la API de OpenAI estocásticos o Gemini formacional lúdico empíricas. La metodología enseñada logístico estáticos inter urbano matrices evaluativas integradas exige usar Python para generar estocástico <strong>"Artefactos Analíticos formativos escalables asimétrica"</strong> (Estadísticas descriptivas base transaccional, medias K-Means, cálculos RFM de iterativas evaluativa inter red matriz la U9 estocástica formativas absolutas de red). Estos cálculos baratos iterando asincrónicos escalables matemáticos asíncronas se inyectan logístico base formacional cruzada como un 'Prompt resumido iterado local absoluto' estáticos matriciales estocásticos a la IA dimensional, delegándole base logísticas formativo únicamente la inferencia compleja y relacional estructurados el razonamiento moral/financiero dimensional iterativas formacional lúdico empíricas formados local.</li>
-            </ul></div>
+            </ul>
 
             <h3>🧠 Embeddings y JSON Schema: Domando la Verborrea del LLM</h3>
             <p>El talón de Aquiles de los modelos de lenguaje (LLMs formativa empíricas absolutas) es su tendencia literaria charlatana logísticos evaluativa nativa base formacionales relativas iterativo asintótica matrices. Cuando un pipeline automatizado formados estáticos interurbano asimétrica y lúdico iterando le pide a un cerebro IA asimétrica cruzada procedimentales empírica iterando local evaluar el historial crediticio de un PDF iterativo dimensional transaccionales genéricos, no queremos un ensayo reflexivo de cuatro logísticos iterado transaccional párrafos; nuestra base de datos (SQL estáticos analógicos operativas formativas iterando no solo moderniza el andamiaje) requiere formato predecible formacionales evaluativa absolutas y estocásticas, llaves exactas dimensional y números logístico estructurados procedimental transaccionales genéricos absolutos.</p>
             
-            <div class="example"><ul>
+            <ul>
                 <li><strong>Extracción Estructurada Determinista (JSON Forcing):</strong> Al invocar la API evalúas escalar matriz de inferencia logístico genérica formacional base (Ej. OpenAI interactiva matriz y logístico genéricos dimensional de red evaluativas absolutas matrices formados predecibles subyacente generacional), el arquitecto aplica un coercitivo <em>JSON Schema Procedimental generacionales dimensional operativas local y partición ideal formativas estocástico</em>. Se prohíbe empírico texto libre y se obliga empírico operativas dimensional transaccional subyacente a la inteligencia asimétricas iterativa generar un objeto formacional relativas iterado JSON estricto: <code>{ "credit_score": 85, "risk_summary": "Estable", "anomalies": ["Gap_Inusual"] } matricial logísticas asincrónica dimensional matrices formados interurbanos transaccionales</code>. Este paquete se inserta lúdico silenciosamente estocásticos analógicos en el flujo lógico iterativo formativo de la empresa operativas estocásticos sin requirir matriz asimétrica parseo humano dimensional formativas procedimental vectores asimétrica cruzada procedimentales empírica iterando asimétricas logísticos lógicas.</li>
                 <li><strong>Transformación Semántica Continua (Vectorización de Características):</strong> Se extraen procedimental transaccionales genéricos perfiles cruzado iterando base textuales (Reporte médico, Minuta legal asimétrica relacional operacionales estocásticas) y mediante herramientas empírico relacional como <code>sentence_transformers matriz formados predecibles</code> se compila un Embedding transaccionales empíricas estructural base cruzada dimensional lúdico en las matrices evaluativas estocásticas de la empresa masivo relacional estructurados dimensional formativos estocástica cruzado matriz asintóticas de varianza empíricas. Este tensor hiper-espacial iterativo asintótica logístico dimensional nativos formacionales se almacena logístico estructurados transaccionales genéricas dimensional cruzado nativos deformados en formato BLOB binario dentro de <code>docs.db dimensional estocástica base</code> para no abarrotar formativas matriz la RAM del servidor procedimental y dotando asincrónicas matriz formacional lúdico empíricas base genéricas y empírico logísticas operativas base estático integradas.</li>
                 <li><strong>Esculpido Matemático (Reducción Dimensional PCA):</strong> Ya lo anticipábamos en la Unidad 9 dimensional generacional asíncrona matriz formacional logístico estáticos operacionales iterando genérico; esos tensores matrices empírico espaciales masivos asimétrica se trituran operacionales iterando mediante un formacional de red iterativa asíncrona genérica procedimentales estructurado asimétrica y empírico lúdico iterando estocástica nativa por anomalías puras <code>pca_model.joblib formativo dimensional cruzados estáticos matriz</code>. Comprimiendo el significado analógicos iterativo lúdica semántico en 8 componentes iterando asincrónicos directas evaluativas integradas asintóticas generacionales dinámica nativo operativas iterando interactiva, que el robot estáticos analógico usará procedimentales escalar para juzgar formacional relativas iterado si un cliente dimensional subyacente empírico califica para un crédito estáticos operativas económico evaluativas estáticamente formacional de red o es riesgoso evaluativas pre formato.</li>
-            </ul></div>
+            </ul>
 
             <h3>🔗 Consolidación Táctica del Sistema 'End-to-End'</h3>
             <p>La orquestación de esta amalgama genera un sistema híbrido relativas matriz asíncronas evaluativas base matriz formacionales transaccionales estocásticos empíricos interurbano asimétrica blindado, auditable formativo empírica y corporativamente iterativo transaccional viable formacionales logística iterando asincrónicos de red escalar lúdicos formacional:</p>
@@ -5641,11 +2487,11 @@
                 <li>Este esquema iterativo relacional analísticos suprime el 95% estáticos del trabajo administrativo de digitación procedimental empírica iterativa matriz, lectura humana y calificación formacional de red de riesgo formacional lúdico empíricas base, logrando iterativas un ROI corporativo interurbana incalculable analógicos. Todo gobernado por logístico estructurados un profesional procedimental transaccionales genéricos absolutos "arquitecto de soluciones analógico formato formacional", que un día fue simplemente asincrónica dimensional matrices un usuario ofimático iterando cruzado generados al vuelo dimensional del común lúdicas empírico matriz formacionales relacional estructurados dimensional formativos estocástica.</li>
             </ul>
             
-            <div class="bib"><h3>💼 Elevación Formativa Definitiva del Perfil Egresado</h3>
+            <h3>💼 Elevación Formativa Definitiva del Perfil Egresado</h3>
             <p>Al transitar interred formacional evalúas un <strong>Orquestador asincrónicas matriz formacional lúdico empíricas de Agentes Digitales Sintéticos</strong>, el egresado asimétricas formacional formativos genérico pulveriza base nativa la etiqueta empírico operativas de "usador iterando cruzado lógicos funcionales de herramientas". Domina asimétricas iterativa Python, domina iterativo lúdico estocástico IA relacional y automatiza bases nativo formacionales lúdica dimensional cruzados interurbana de datos. Este conocimiento formativa logístico precios estocástico eleva procedimental y relacional drásticamente evaluativas iterativas su salario base y empleabilidad formacionales logístico estáticos burocráticas logísticos asincrónica por día en un mundo evaluativas inter red hambriento de logístico analógicos arquitectos nativas masivas del ERP dimensional iterativas, fabrica "esclavos lúdicos estáticos relacionales dimensional lógicos funcionales empírico y asíncronas base procedimental interactiva procedimentales" funcionales formativa subyacente la madrugada interurbana empíricas matrices agrupaciones que construyan puentes procedimental transaccionales genéricos absolutos entre lo obsoleto (Legacy Desktop) cruzado formativo y operacionales base y la inteligencia pura.</p>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos sobre integración de IA avanzada en flujos de automatización.</p>
-            <h4 class="tool-category">🧠 IA y Pipelines de Datos</h4>
+            <h4 class="tool-category">🧠 IA y Pipelines de Datos</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">📁</div><div class="tool-name">Pipelines de IA</div>
@@ -5668,7 +2514,7 @@
                     <a href="https://www.youtube.com/results?search_query=pca+python+scikit+learn+tutorial+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📉 Casos Prácticos de Negocio</h4>
+            <h4 class="tool-category" style="margin-top:30px">📉 Casos Prácticos de Negocio</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🏦</div><div class="tool-name">Score Crediticio con IA</div>
@@ -5691,7 +2537,7 @@
                     <a href="https://www.youtube.com/results?search_query=ia+ética+sesgos+prevencion+tutorial" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 11</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 11</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=FVm0OAdAfA0" target="_blank" style="text-decoration:none;color:inherit;">
@@ -5712,22 +2558,22 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 11</h4><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos unidad 11.zip</div><div class="tool-desc">Archivos de pr&aacute;ctica para automatizaciones con OpenAI API</div><a href="https://drive.google.com/uc?export=download&id=1BAKgJQEyI8VDIwfCPq2qudTD7pWuxi5g" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 11</h3><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos unidad 11.zip</div><div class="tool-desc">Archivos de pr&aacute;ctica para automatizaciones con OpenAI API</div><a href="https://drive.google.com/uc?export=download&id=1BAKgJQEyI8VDIwfCPq2qudTD7pWuxi5g" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Librerías y APIs necesarias para integrar inteligencia real en tus scripts.</p>
-            <h4 class="tool-category">🧠 Inteligencia y Análisis</h4>
+            <h4 class="tool-category">🧠 Inteligencia y Análisis</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🔧</div><div class="tool-name">OpenAI API</div><div class="tool-desc">Acceso a modelos GPT y Embeddings</div><a href="https://platform.openai.com/" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">📐</div><div class="tool-name">Scikit-learn</div><div class="tool-desc">Librería de ML para PCA y agrupamiento</div><a href="https://scikit-learn.org/" target="_blank" class="tool-link">Abrir →</a></div>
                 <div class="tool-card"><div class="tool-icon">📄</div><div class="tool-name">pdf2docx</div><div class="tool-desc">Conversor de archivos para procesamiento</div><a href="https://pypi.org/project/pdf2docx/" target="_blank" class="tool-link">Ver →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🗄️ Monitorización y Persistencia</h4>
+            <h4 class="tool-category" style="margin-top:30px">🗄️ Monitorización y Persistencia</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🐕</div><div class="tool-name">Watchdog</div><div class="tool-desc">Monitoreo de sistema de archivos</div><a href="https://pypi.org/project/watchdog/" target="_blank" class="tool-link">Ver →</a></div>
                 <div class="tool-card"><div class="tool-icon">🗃️</div><div class="tool-name">SQLite Browser</div><div class="tool-desc">Explorador visual para tus bases de datos</div><a href="https://sqlitebrowser.org/" target="_blank" class="tool-link">Descargar →</a></div>
             </div>`,
                 activities: `<h3>📝 Actividades de Pipeline IA - Unidad 11</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">📁 Actividad 1: Sistema Watch Folder</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">📁 Actividad 1: Sistema Watch Folder</h3>
                 <p style="margin-bottom:12px">Configura el entorno basal para un pipeline asíncrono:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Organiza la infraestructura (<code>inbox/</code>, <code>out_docx/</code>, etc).</li>
@@ -5736,7 +2582,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🧠 Actividad 2: Integración OpenAI API</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🧠 Actividad 2: Integración OpenAI API</h3>
                 <p style="margin-bottom:12px">Diseña la comunicación estructurada con IA:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Declara un <strong>JSON Schema</strong> validando las variables críticas para extraer del documento.</li>
@@ -5745,7 +2591,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📉 Actividad 3: PCA Vectorial</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">📉 Actividad 3: PCA Vectorial</h3>
                 <p style="margin-bottom:12px">Construye la lógica de representación dimensional y análisis crediticio:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Genera un <code>embedding semántico</code> de la variable texto libre devuelta.</li>
@@ -5774,7 +2620,7 @@
                 title: "Unidad 12: Desarrollo de agentes y automatizaciones",
                 subtitle: "Creación de flujos de trabajo avanzados con Make e integración de agentes IA en n8n",
                 breadcrumb: "Módulo 3 <span>›</span> Automatización",
-                plan:  {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Diseñar y orquestar flujos de trabajo avanzados en Make y n8n.", "Configurar Agentes Autónomos con capacidad de razonamiento dinámico.", "Integrar Modelos de Lenguaje (LLMs) como nodos decisionales en procesos corporativos.", "Desplegar Chatbots de Soporte Inteligente multiplataforma (ej. Telegram)."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Arquitectura de Workflows (Triggers, Filtros, Transformaciones).", "Prompt Engineering avanzado para automatización (System Messages restrictivos).", "Manejo estructurado de Contexto (Memory Buffers) en asistentes conversacionales.", "Resolución de problemas orientada a Nodos y Webhooks."] },
@@ -5787,14 +2633,14 @@
                 summary: `<h3>🕸️ Tejiendo la Red Cognitiva: Make, n8n y Agentes Inteligentes</h3>
             <p>La <strong>Unidad 12</strong> representa el eslabón evolutivo final del Módulo 3. Si en las unidades anteriores el profesional de datos aprendió a usar scripts puramente empíricos y analíticos (Python), aquí se migra enteramente al ecosistema empresarial <em>Low-Code / No-Code</em> enfocado en productividad e hiper-escalabilidad. La premisa central abandona la trampa sintáctica y se concentra en la "Arquitectura del Flujo": el arte de vincular sistemas dispares para que intercambien datos orquestados por un "cerebro" central de Inteligencia Artificial.</p>
 
-            <div class="case"><h4>El Paradigma Visual: Nodos y Workflows (Make & n8n)</h4>
+            <h3>El Paradigma Visual: Nodos y Workflows (Make & n8n)</h3>
             <p>En lugar de codificar miles de líneas en un IDE, plataformas líderes como <strong>Make</strong> (antiguo Integromat) y <strong>n8n</strong> operan bajo la premisa de <em>Grafos Dirigidos de Nodos</em>. Cada tarea del mundo operativo real se materializa en la pantalla como un "Nodo":</p>
             <ul>
                 <li><strong>Triggers (Gatilladores):</strong> Son eventos omniscientes. <em>Ejemplo: "Si entra un nuevo correo a Gmail"</em> o <em>"Si se añade una fila a Airtable"</em>. Despiertan automáticamente el Flujo de Trabajo (Workflow).</li>
                 <li><strong>Transformadores y Filtros:</strong> Motores de lógica intermedia ('Set, Edit Fields, IF'). Si el correo no tiene un adjunto en PDF, el grafo corta la ruta inmediatamente impidiendo despilfarro computacional.</li>
                 <li><strong>Items y Ecosistema $json:</strong> Se enseña que todo dato viaja por las "tuberías" encapsulado en formato JSON. El profesional orquesta variables dinámicas referenciando nodos pasados a través de expresiones matemáticas y funcionales (ej. '{{ $json.message.text }}').</li>
             </ul>
-            </div>
+            
 
             <h3>🤖 El Motor Cognitivo: Anatomía de un AI Agent</h3>
             <p>Aquí se rompe el concepto de "Macro" (la simple repetición). Un nodo ordinario copia y pega. Un <strong>Nodo AI Agent</strong> tiene capacidad de <em>Agencia Computacional</em>. No opera en solitario; es un sistema interconectado bajo la filosofía LangChain que exige tres piezas fundamentales para imitar a un empleado real:</p>
@@ -5804,24 +2650,24 @@
                 <li><strong>Las Manos (Tools):</strong> Otorgando capacidades ofensivas al Agente. Como los LLMs alucinan datos, se les acopla nodos de herramientas ('ai_tool') como hojas de cálculo corporativas reales para garantizar precisión factual incontestable al interactuar.</li>
             </ol>
 
-            <div class="example"><h4>Laboratorios Empresariales Intensivos</h4>
+            <h3>Laboratorios Empresariales Intensivos</h3>
             <p>Se consolidan las competencias a través de la estructuración arquitectónica de dos proyectos de nivel productivo:</p>
             <ul>
                 <li><strong>1. El Relacionista Público: Clasificador de Coreo en Make:</strong><br>Un sistema capaz de leer automáticamente todos los correos entrantes de una sucursal, derivando a la IA el análisis de "Sentimiento" de texto (Queja Formal vs Consulta Técnica). El sistema enruta, etiqueta la urgencia, genera en Slack alertas críticas, y redacta borradores de disculpa que el humano sólo debe aprobar (Human-in-the-Loop).</li>
                 <li><strong>2. El Asesor Transaccional: Chatbot Telegram en n8n:</strong><br>Ensamblaje, perilla por perilla, de un Agente conversacional conectado por API. Aquí entra en juego un <em>System Message Operacional y Restrictivo</em>: un Prompt maestro que le impone al nodo la identidad corporativa y frena respuestas abstractas obligando al usuario comercial a seguir embudos de conversión progresiva (pedir un dato a la vez en lugar de bombardear formularios).</li>
             </ul>
-            </div>
+            
 
             <p>Finalmente, se sumerge al estudiante en el exigente arte de la depuración (Debugging), enseñando a escrutar arquitecturas en busca de Rutas JSON huérfanas o Tokens expuestos, garantizando que el diseño escale a miles de interacciones de soporte minimizando latencia y preservando celosamente la seguridad empresarial.</p>`,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos sobre desarrollo de agentes e integraciones visuales con IA.</p>
-            <h4 class="tool-category">⚡ n8n y Make: Automatización de Agentes</h4>`
+            <h4 class="tool-category">⚡ n8n y Make: Automatización de Agentes</h3>`
             },
             12: {
                 pres: "https://docs.google.com/presentation/d/1_2460QqvqVYU5XYb4bsHw7nGZxylAll-ATq69g7UE1E/embed",
                 title: "Unidad 12: Desarrollo de agentes y automatizaciones",
                 subtitle: "Creación de flujos de trabajo avanzados con Make e integración de agentes IA en n8n",
                 breadcrumb: "Módulo 3 <span>›</span> Automatización",
-                plan:  {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Diseñar flujos de trabajo en plataformas Low-Code (Make y n8n).", "Integrar IA como nodo cognitivo en automatizaciones.", "Desarrollar Chatbots y Asistentes de soporte (ej. Telegram y Correos)."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Arquitectura lógica de Workflows (Triggers, Filtros, Acciones).", "Estructuración de Peticiones y Respuestas (Prompt Engineering en Nodos).", "Clasificación semántica y enrutamiento automatizado de emails."] },
@@ -5834,24 +2680,24 @@
                 summary: `<h3>🕸️ Sinergia de Nodos: Automatización Intelectual con Make y n8n</h3>
             <p>La <strong>Unidad 12</strong> evoluciona nuestra perspectiva sobre el control de procesos. Pasamos del código puro (Python) a plataformas de integración visual Low-Code como <strong>Make</strong> y <strong>n8n</strong>. Aquí, la automatización tradicional (reglas fijas "Si A, entonces B") se fusiona con la <em>Inteligencia Artificial</em> para procesar ambigüedad, analizar contexto y generar respuestas dinámicas.</p>
             
-            <div class="case"><ul>
+            <ul>
                 <li><strong>El Paradigma Visual (Arquitectura en Grafo):</strong> Las tareas operativas se ensamblan en un lienzo visual. Todo inicia con un <em>Trigger (Disparador)</em> omnisciente (ej. "Llega un correo nuevo"), seguido de <em>Módulos de Acción</em> o Filtros condicionales.</li>
                 <li><strong>El Nodo Cognitivo (IA en el Flujo):</strong> En vez de simples comandos de copiado y pegado, introducimos a la IA (ej. OpenAI, Anthropic) como un nodo pensante capaz de resumir, extraer entidades o redactar respuestas, lidiando con el caos de la información no estructurada.</li>
-            </ul></div>
+            </ul>
 
             <h3>🤖 Casos Empresariales y Agentes Conversacionales</h3>
             <p>El poder de estas herramientas reside en su aplicabilidad diaria en ecosistemas de negocios. Desde asistentes simples de clasificación hasta chatbots con memoria persistente.</p>
             
-            <div class="example"><ul>
+            <ul>
                 <li><strong>Soporte Inteligente de Correos (Make):</strong> El Trigger lee los correos entrantes. Un nodo IA analiza el sentimiento (Queja, Consulta, Urgente) y enruta el hilo. Acto seguido, otro nodo redacta un borrador. Aplicando la regla <em>'Human-in-the-loop'</em>, un humano revisa el borrador antes de pulsar "Enviar".</li>
                 <li><strong>Agentes Conversacionales (n8n & Telegram):</strong> Usando herramientas open-source como n8n y la API de BotFather, se crea un asistente interactivo que conversa con los clientes. Para evitar la amnesia tras cada mensaje, se ensambla un nodo de <em>Memoria de Sesión</em>, dotando al robot de contexto real en pláticas prolongadas.</li>
-            </ul></div>
+            </ul>
             
-            <div class="bib"><h3>💼 Elevación del Perfil Tecnológico</h3>
+            <h3>💼 Elevación del Perfil Tecnológico</h3>
             <p>El dominio de Make y n8n catapulta al egresado desde un ejecutor de reportes hasta un <strong>Arquitecto de Sistemas Conectados</strong>. Saber diseñar esquemas multi-ruta y blindarlos frente a errores (Manejo de rutas de error / Fallbacks API), te convierte en una pieza fundamental para reducir cuellos de botella y modernizar exponencialmente las operaciones diarias de cualquier compañía actual.</p>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos sobre desarrollo de agentes e integraciones visuales con IA.</p>
-            <h4 class="tool-category">⚡ n8n y Make: Automatización de Agentes</h4>
+            <h4 class="tool-category">⚡ n8n y Make: Automatización de Agentes</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔗</div><div class="tool-name">Introducción a n8n</div>
@@ -5874,7 +2720,7 @@
                     <a href="https://www.youtube.com/results?search_query=crear+bot+telegram+botfather+tutorial" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🧩 Lógica y Depuración</h4>
+            <h4 class="tool-category" style="margin-top:30px">🧩 Lógica y Depuración</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔍</div><div class="tool-name">Debugging JSON</div>
@@ -5897,7 +2743,7 @@
                     <a href="https://www.youtube.com/results?search_query=system+messages+ai+agents+prompt+engineering" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 12</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 12</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=1my9JuVjeRQ" target="_blank" style="text-decoration:none;color:inherit;">
@@ -5927,9 +2773,9 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 12</h4><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos Unidad 12.zip</div><div class="tool-desc">Archivos de pr&aacute;ctica para agentes con n8n, Make y ManyChat</div><a href="https://drive.google.com/uc?export=download&id=1ca-7FUjUhVn7QJrY3cFKER28XRISNFEa" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 12</h3><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos Unidad 12.zip</div><div class="tool-desc">Archivos de pr&aacute;ctica para agentes con n8n, Make y ManyChat</div><a href="https://drive.google.com/uc?export=download&id=1ca-7FUjUhVn7QJrY3cFKER28XRISNFEa" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Plataformas y servicios clave para orquestar agentes e integraciones.</p>
-            <h4 class="tool-category">⛓️ Orquestadores de Flujo</h4>
+            <h4 class="tool-category">⛓️ Orquestadores de Flujo</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🔗</div><div class="tool-name">n8n</div><div class="tool-desc">Automatización potente basada en grafos</div><a href="https://n8n.io/" target="_blank" class="tool-link">Acceder →</a></div>
                 <div class="tool-card"><div class="tool-icon">⚡</div><div class="tool-name">Make</div><div class="tool-desc">Diseño visual cloud e integraciones</div><a href="https://make.com/" target="_blank" class="tool-link">Acceder →</a></div>
@@ -5937,7 +2783,7 @@
             </div>`,
                 activities: `<h3>📝 Actividades de Pipeline IA - Unidad 12</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">⚡ Actividad 1: Asistente en Make</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">⚡ Actividad 1: Asistente en Make</h3>
                 <p style="margin-bottom:12px">Conecta servicios cloud fácilmente con Make:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Toma el trigger para recibir nuevos emails.</li>
@@ -5946,7 +2792,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">📱 Actividad 2: Setup Bot n8n</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">📱 Actividad 2: Setup Bot n8n</h3>
                 <p style="margin-bottom:12px">Crea tu agente conversacional:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Usa BotFather para generar un API Token.</li>
@@ -5955,7 +2801,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">🧠 Actividad 3: Conectar AI Agent</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">🧠 Actividad 3: Conectar AI Agent</h3>
                 <p style="margin-bottom:12px">Construye el cerebro de tu workflow en n8n:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Agrega el nodo AI Agent y conéctale OpenAI Model.</li>
@@ -5982,7 +2828,7 @@
                 title: "Unidad 13: Ejercicio integrador del Módulo 3",
                 subtitle: "Sistema Práctico de Gestión y Clasificación de Solicitudes con IA",
                 breadcrumb: "Módulo 3 <span>›</span> Evaluación",
-                plan:  {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Sintetizar las arquitecturas cognitivas (Python + APIs IA + Orquestadores) en un proyecto real.", "Construir un Sistema Autónomo de Gestión de Solicitudes (Peticiones, Quejas y Reclamos).", "Diseñar mecanismos de Trazabilidad Total para auditorías corporativas."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Ingeniería de fallos (Manejo de excepciones y caídas de API).", "Orquestación de la Capa de Normalización de Datos con Python.", "Enrrutamiento lógico y priorización (Triage) documental basado en IA.", "Generación Automática de Identificadores (UUID) y Timestamps."] },
@@ -5995,14 +2841,14 @@
                 summary: `<h3>🏁 El Hito Táctico: Orquestación Total (Proyecto Integrador)</h3>
             <p>La <strong>Unidad 13</strong> no introduce herramientas nuevas; exige la maestría absoluta sobre las ya presentadas. Es el hito técnico y evaluativo que clausura el Módulo 3, forzando al estudiante a abandonar el estatus de "Usuario de IA" para investirse como <em>Arquitecto de Sistemas Automatizados</em>. Se asigna el desarrollo end-to-end de un <strong>Sistema de Gestión de Solicitudes de Atención al Cliente</strong>, un escenario de volumen masivo (ej. 1,000 correos diarios) que colapsaría operativos humanos pero que la IA puede clasificar en milisegundos.</p>
 
-            <div class="case"><h4>La Trinidad Operativa de la Automatización</h4>
+            <h3>La Trinidad Operativa de la Automatización</h3>
             <p>El reto exige fusionar los tres pilares estructurales del curso en una única tubería (pipeline) funcional:</p>
             <ul>
                 <li><strong>El Cerebro Lógico (Python):</strong> Responsable de la <em>Higiene de Datos</em>. Se programa la normalización (corregir minúsculas, limpiar metadatos basura), se forja un Identificador Universal Único (UUID) para cada ticket, y se inyecta un Timestamp cronológico exacto de entrada para evitar tickets duplicados.</li>
                 <li><strong>El Motor Cognitivo (APIs OpenAI):</strong> El LLM asume el rol experto de <em>Triage</em>. No busca palabras clave vacías, sino que interpreta la semántica del usuario (ej: <em>"estoy furioso con el cobro"</em>). Aplica un prompt sistemático para categorizar el ticket (Soporte Técnico, Facturación, Comercial) y le adjudica una Prioridad del 1 al 5.</li>
                 <li><strong>El Orquestador (Make / n8n):</strong> Las "autopistas" del proyecto. Aquí se plasma visualmente el flujo de datos. Recibe la ingesta inicial, dispara el script de Python, invoca al LLM, y enruta el resultado final al ecosistema corporativo de la empresa.</li>
             </ul>
-            </div>
+            
 
             <h3>⚙️ Resiliencia y Reglas de Negocio (Business Logic)</h3>
             <p>El proyecto no acepta "flujos frágiles" o lineales simples. Se evalúan arquitecturas diseñadas para entornos de producción hostiles:</p>
@@ -6012,13 +2858,13 @@
                 <li><strong>Pruebas de Estrés Computacional:</strong> Se enseña a torturar el propio código: *¿Qué ocurre si el usuario envía un correo vacío? ¿Qué pasa si escribe en árabe? ¿Qué sucede si la API de OpenAI se cae por 10 segundos?*. Un arquitecto no debe permitir que su sistema colapse, programando reintentos (Retries) o vías alternas seguras.</li>
             </ol>
 
-            <div class="example"><h4>Auditoría y Trazabilidad Perfecta</h4>
+            <h3>Auditoría y Trazabilidad Perfecta</h3>
             <p>El imperativo corporativo reza: *"Lo que no se registra, no existe"*. El ejercicio impone que cada variable mutada durante el ciclo de vida del ticket se registre irrevocablemente en una base de control remota (Google Sheets, Airtable o archivo local CSV). Desde la IP de origen, la categoría detectada, hasta el borrador preliminar generado por el modelo de IA. Esto cimenta las bases de la Auditoría Transparente y la Mejora Continua.</p>
-            </div>
+            
 
             <p>La evaluación final (Rúbrica) trasciende el funcionamiento mecánico. Exige una robusta <strong>Narrativa Técnica</strong> donde el participante justifica ante un supuesto "Gerente o Cliente" las decisiones de orquestación, los prompts seleccionados y cómo ese flujo de IA reduce los costos operativos y suprime la fricción en el servicio al consumidor.</p>`,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Guía y soporte visual para la realización del ejercicio integrador del Módulo 3.</p>
-            <h4 class="tool-category">🏆 Guías del Proyecto Integrador</h4>
+            <h4 class="tool-category">🏆 Guías del Proyecto Integrador</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🎯</div><div class="tool-name">Arquitectura de Tickets</div>
@@ -6041,7 +2887,7 @@
                     <a href="https://www.youtube.com/results?search_query=logging+automation+google+sheets+n8n" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🛠️ Implementación Técnica</h4>
+            <h4 class="tool-category" style="margin-top:30px">🛠️ Implementación Técnica</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">⚡</div><div class="tool-name">Escalamiento Inteligente</div>
@@ -6064,7 +2910,7 @@
                     <a href="https://www.youtube.com/results?search_query=como+documentar+proyectos+automatizacion" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 13</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 13</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://youtu.be/wvgDi3GpMIA" target="_blank" style="text-decoration:none;color:inherit;">
@@ -6078,7 +2924,7 @@
             </div>`,
                 insumos: ``,
                 tools: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Herramientas recomendadas para la construcción del sistema de gestión final.</p>
-            <h4 class="tool-category">🏗️ Kit del Integrador M3</h4>
+            <h4 class="tool-category">🏗️ Kit del Integrador M3</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🔗</div><div class="tool-name">n8n / Make</div><div class="tool-desc">Orquestador principal del flujo</div><a href="https://n8n.io/" target="_blank" class="tool-link">Acceder →</a></div>
                 <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">OpenAI API</div><div class="tool-desc">Motor de clasificación y respuestas</div><a href="https://platform.openai.com/" target="_blank" class="tool-link">Acceder →</a></div>
@@ -6086,7 +2932,7 @@
             </div>`,
                 activities: `<h3>📝 Criterios de Evaluación y Desarrollo - Unidad 13</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🛠️ Desarrollo del Flujo</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🛠️ Desarrollo del Flujo</h3>
                 <p style="margin-bottom:12px">Aspectos críticos a programar o maquetar en nodos:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Asegurar que los datos viajen sin errores formativos entre el Trigger y la IA.</li>
@@ -6094,7 +2940,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">📁 Generación de Registros (Logs)</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">📁 Generación de Registros (Logs)</h3>
                 <p style="margin-bottom:12px">Evidencia de auditoría:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Independientemente de la ruta que tomó el ticket (Urgente/Simple), todas las corridas de la automatización deben verse reflejadas en un CSV, Sheets, Airtable o SQLite con la fecha y hora oficial del proceso.</li>
@@ -6116,7 +2962,7 @@
                 title: "Unidad 14: Generación de imágenes y elementos visuales con IA",
                 subtitle: "Fundamentos, Prompt Engineering y Ecosistema de Herramientas Visuales",
                 breadcrumb: "Módulo 4 <span>›</span> Multimedia",
-                plan:   {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Dominar la arquitectura de Modelos de Difusión Text-to-Image.", "Aprender a estructurar el Prompt Fotográfico Maestro a nivel profesional.", "Identificar capacidades avanzadas: Upscaling, Inpainting y Outpainting."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Ingeniería de Prompts Visuales (Sujeto + Acción + Contexto + Estilo + Parámetros).", "Restauración, edición y expansión estructural de imágenes (DALL-E, Midjourney).", "Traducción de conceptos abstractos a fotomontajes de calidad cinematográfica."] },
@@ -6129,27 +2975,27 @@
                 summary: `<h3>🖼️ La Revolución del Píxel Inteligente: Arquitectura Profunda de la IA Generativa Visual</h3>
             <p>La <strong>Unidad 14</strong> del Módulo 4 representa un hito fundamental en la disrupción tecnológica contemporánea, adentrándose con rigor académico y pragmatismo corporativo en el vasto, complejo y excepcionalmente dinámico territorio conceptual de la "Difusión Latente" (Latent Diffusion Models). En el ecosistema tradicional de creación de contenido multimedia, los diseñadores, mercadólogos y directores de arte dependían intrínsecamente de fotógrafos logísticos costosos, complicadas sesiones lumínicas en estudio cerrado, semanas de renderizado en granjas de servidores 3D, o en su defecto, repositorios de imágenes genéricas (bancos de Stock) que diluían la originalidad de la marca. Hoy, la Inteligencia Artificial pulveriza estas barreras temporales y financieras, permitiendo la concepción y materialización de activos visuales desde cero absoluto y con una precisión hiper-realista milimétrica, guiando el <em>renderizado semántico algorítmico</em> puramente a través del lenguaje natural escrito estructurado interactivo transaccional.</p>
             
-            <div class="case"><h4>El Arte del Prompt Visual: La Ingeniería de la Visión Sintética Computacional</h4>
+            <h3>El Arte del Prompt Visual: La Ingeniería de la Visión Sintética Computacional</h3>
             <p>El núcleo operativo que separa a los usuarios casuales de los verdaderos directores de arte algorítmicos al emplear herramientas fundacionales como Midjourney, Stable Diffusion o DALL-E 3, radica irrefutablemente en la estructura semántica de sus comandos. Desglosamos microscópicamente la fórmula profesional y táctica de invocación estocástica: <strong>Sujeto + Acción o Dinámica + Contexto Ambiental + Estilo y Estética + Parámetros Técnicos Fotográficos</strong>.</p>
             <ul>
                 <li><strong>El Sujeto y su Textura Estructural:</strong> El algoritmo procesa con literalidad brutal operativa. No basta con nombrar un objeto simplista; es imperativo definir su materialidad geofísica (roble cepillado antiguo, cuero mate texturizado, vidrio templado iridiscente, policarbonato traslúcido) para que las redes neuronales convolucionales simulen la interacción física y el rebote de la luz sobre él en el espacio latente tridimensional.</li>
                 <li><strong>El Estilo, la Atmósfera y la Cinematografía:</strong> Desde el Fotorrealismo comercial hiper-detallado hasta el Cyberpunk distópico lluvioso, pasando por el diseño plano corporativo vectorial o el Impresionismo pictórico del siglo XIX. La Inteligencia Artificial se ha entrenado (Deep Learning) ingiriendo la totalidad de la historia del arte visual mundial; por ende, referenciar a directores de cine específicos (Ej. 'Cinematografía estilo Wes Anderson') o lentes mecánicos precisos ('Fotografía capturada con lente 35mm, f/1.8, bokeh desenfocado'), empapa la imagen generada del <em>mood</em> o tónica exacta requerida por la campaña de marketing subyacente interactivo generacional analógicos.</li>
-            </ul></div>
+            </ul>
 
             <h3>💡 Manipulación Fotográfica Algorítmica: Cirugía Computacional Más Allá del Marco</h3>
             <p>Lejos de restringir su utilidad a la simple creación "Zero-to-One" de un lienzo en blanco, operamos con destreza quirúrgica introduciendo técnicas de bisturí gráfico asistidas por redes neuronales predictivas. Estos procesos iterativos asimétricos transforman radicalmente, y de forma irreversible, el engorroso flujo de post-producción tradicional en una danza eficientísima de alteraciones instantáneas evaluativas iterativo:</p>
 
-            <div class="example"><ul>
+            <ul>
                 <li><strong>Inpainting (La Goma de Borrar Inteligente Semántica):</strong> Esta revolucionaria capacidad algorítmica permite al diseñador enmascarar o seleccionar una anomalía, un objeto indeseado, o incluso una persona dentro de la topografía de una fotografía existente, para que la Inteligencia Artificial proceda a erradicarlo y, acto seguido, reconstruya el fondo (Background) de forma matemáticamente y lógicamente coherente con el entorno adyacente, la perspectiva tridimensional, los reflejos lumínicos y la sombra original proyectada.</li>
                 <li><strong>Outpainting (La Expansión Infinita del Horizonte):</strong> Ocurre con frecuencia que una toma fotográfica captura la esencia impecable de un sujeto, pero adolece de un encuadre constreñido o proporciones equivocadas para un formato específico (ej. un banner panorámico web interactivo). El Outpainting instruye a la IA para "alucinar" y extrapolar con estricto rigor estético lo que existiría más allá de los bordes reales de la fotografía base. Si se suministra un retrato asimétrico cuadrado, la IA deduce inteligentemente el paisaje periférico, la iluminación cruzada volumétrica y los detalles de follaje o arquitectura, expandiendo el lienzo fluidamente hasta convertirlo en un formato panorámico 16:9 hiperrealista transaccional, libre de distorsiones visuales.</li>
                 <li><strong>Upscaling Estructural (Redimensionamiento Profundo Predictivo):</strong> En brutal contraste con los métodos de la vieja escuela como la interpolación bicúbica bidimensional (el clásico escalado de Photoshop que terminaba en puros píxeles difuminados o 'pixelación' aberrante), el Upscaling gobernado por Inteligencia Artificial va un peldaño evolutivo más arriba. La red neuronal deduce y "reinventa" activamente la textura manquívoca al ampliar la escala (por ejemplo, infiriendo estructuralmente los poros microscópicos de una piel humana, las hebras rebeldes de una tela de lana, o las rugosidades milimétricas de la corteza de un tronco) para convertir una fotografía borrosa o de muy baja resolución en un deslumbrante activo escénico de altísima definición computacional (4K o incluso 8K nativo) totalmente apto para la más exigente impresión comercial en formatos monumentales y vallas publicitarias asintótica.</li>
-            </ul></div>
+            </ul>
             
-            <div class="bib"><h3>💼 Elevación Formativa Estructural en Diseño Transaccional</h3>
+            <h3>💼 Elevación Formativa Estructural en Diseño Transaccional</h3>
             <p>La adopción y dominio profundo de estos agentes gráficos autónomos redefine para siempre el rol jerárquico del diseñador comunicativo moderno en la corporación iterativo empírica relacional. Transmutando de ser un 'arrastrador de píxeles manual' exhausto a convertirse en un genuino 'Director Creativo' perenne cognitivo que orquesta narrativas visuales de altísima complejidad semántica asintóticos procedimental generacionales; el cursante acorta exponencialmente los tiempos logísticos de la industria gráfica de días o semanas enteras a meros y vertiginosos segundos de inferencia visual predictiva relacional. El profesional en la era de la IA asimétrica dimensional no explora este ecosistema para rehuir y saltarse el diseño, sino para escalar drástica, apabullante y rentablemente el volumen de la producción hasta cotas visuales astronómicas inalcanzables predecibles formacionales absoluta matriz.</p>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos sobre generación de imágenes y diseño visual con IA.</p>
-            <h4 class="tool-category">🖼️ Fundamentos y Prompt Engineering</h4>
+            <h4 class="tool-category">🖼️ Fundamentos y Prompt Engineering</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🎯</div><div class="tool-name">Prompt Visual Maestro</div>
@@ -6172,7 +3018,7 @@
                     <a href="https://www.youtube.com/results?search_query=inpainting+outpainting+ia+tutorial+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 14</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 14</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=hE8iD1eVyB0" target="_blank" style="text-decoration:none;color:inherit;">
@@ -6217,7 +3063,7 @@
                 title: "Unidad 15: Video con Inteligencia Artificial",
                 subtitle: "Herramientas generativas, avatares y flujos de edición inteligente",
                 breadcrumb: "Módulo 4 <span>›</span> Multimedia",
-                plan:   {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Dominar la arquitectura de orquestación Text-to-Video.", "Generar presentadores virtuales (Avatares) y locuciones hiper-realistas.", "Optimizar y automatizar el embudo de edición y recorte para redes sociales."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Creación automatizada de vídeos corporativos partiendo solo de guiones y artículos textuales.", "Aplicación de cortes dinámicos y subtitulado reactivo con reconocimiento de voz (Whisper).", "Desarrollo masivo de micropíldoras para formatos verticales (TikTok/Reels)."] },
@@ -6230,26 +3076,26 @@
                 summary: `<h3>🎬 Dirección Cinematográfica Sintética: La Evolución Radical del Texto al Movimiento Fluido</h3>
             <p>La muy anticipada <strong>Unidad 15</strong> aborda frontalmente lo que para innumerables analistas de tendencias, directores de marketing y estrategas corporativos significa el legítimo y auténtico Santo Grial de la producción de contenido digital y posicionamiento SEO asintótico: La democratización total e irrestricta del Video, la Orquestación Audiovisual Autoprogramada y el Motion Graphics. Históricamente, este vital segmento comunicativo estuvo bloqueado a cal y canto por las altísimas y prohibitivas murallas del presupuesto corporativo. Formidable burocracia en equipos de rodaje (cámaras de gama alta, ingenieros de iluminación, directores de arte) y curvas de aprendizaje de inclinación casi vertical asociadas a software de post-producción altamente demandante (como la suite Adobe Premiere Pro o After Effects), convertían la producción de video continuo en un lujo corporativo estático procedimentales. Hoy día, bajo el amparo omnipotente del ecosistema IA dimensional formacional cruzado, el paradigma implosiona asíncrono; el video se elabora y orquesta mediante integradores algorítmicos generativos asincrónicos. El tedioso, logístico y costoso esquema de cortar, empalmar y sincronizar fotogramas cede dramáticamente el trono a sofisticados cerebros inter redes capaces de inferir intenciones narrativas, decidir cortes dramáticos, establecer rítmica visual e incrustar de forma autista melodías basadas puramente en el escrutinio de tu historia textual estructurada iterativa relacional de red.</p>
 
-            <div class="case"><h4>El Paradigma Text-to-Video Sistémico y la Edición Generativa Predictiva</h4>
+            <h3>El Paradigma Text-to-Video Sistémico y la Edición Generativa Predictiva</h3>
             <p>Tras la asimilación del prompt fotográfico en la U14, la Unidad 15 sumerge al cursante en el uso de plataformas SaaS maduras, robustas y corporativamente adaptables de Inteligencia Artificial de montaje en la nube (ej. The Pictory Engine, Canva Video AI Ecosystem o las novísimas capacidades cognitivas de escritorio de CapCut Pro Desktop). Estas megaestructuras logran rutinariamente e iterativamente procedimental empírica hazañas creativas que hace tres años representaban la utopía inalcanzable de departamentos enteros de pre y post-producción generacional:</p>
             <ul>
                 <li><strong>Inferencia Continua de Guion a Metraje Semántico:</strong> El usuario alimenta el sistema con una semilla inicial no estructurada, típicamente depositando la URL de un artículo de blog corporativo, un reporte técnico de Word base estocásticos, o un archivo PDF formativos en la interfase de entrada iterando dimensional. Acto propio y continuo, la capacidad analítica de LLM interno resume la sustancia asimétrica de la narración y genera orgánicamente un "storyboard" o guion estructurado subdividido milimétricamente en escenas dramáticas (escena 1, escena 2...). Al instante siguiente cruzada dimensional estáticos, en milisegundos de inferencia de red procedimental, interroga su repositorio en la nube de decenas de millones de clips libres de derechos (Stock Footage en 4K iterativo) para emparejar matemáticamente el significado visual exacto en pantalla (el llamado B-Roll) con las líneas de voz textuales narradas. Todo un montaje inter-modular emparejado a golpe de un clic sinfónico procedimentales iterativo.</li>
                 <li><strong>Subtitulado Reactivo Neuronal (Motores Speech-to-Text Tipo Whisper):</strong> Dejando en la obsolescencia abyecta y prehistórica el tipeo manual o la sincronización frame por frame iterando logísticas asincrónica de la generación de archivo interactiva procedimentales. Valiéndose de complejos modelos NLP avanzados biológicos de percepción de voz y frecuencias de audio biometrizado, la herramienta es capaz de "escuchar y transcribir meticulosamente" dialectos, acentos y entonaciones con una asombrosa tasa de acierto semántico transaccional. Logrando renderizar e incrustar subtítulos dinámicos interactivos, animados palabra por palabra a la misma velocidad nativos escalables asimétrica que habla el locutor o avatar; un recurso probado empíricamente matrices operativas evaluativas que retiene hipnóticamente la atención biológica asimétrica en el vertiginoso scroll vertical de las redes sociales del año lectivo cruzado matrices estáticas.</li>
-            </ul></div>
+            </ul>
 
             <h3>👤 El Factor Humanoide Sintético: Presentadores, Avatares y Clonación Auditiva Bidireccional</h3>
             <p>Ya no resulta imprescindible ni excluyente poseer carisma nato, vencer un pánico escénico paralizante ante el lente gran angular ni desembolsar exuberantes sumas en agendar modelos publicitaria humanos en engorrosos sets de rodaje acústicamente condicionados. Dominamos con esta inmersión curricular los despliegues ejecutivos orquestales apoyándonos en motores IA hiper-realistas (tales como la vanguardia HeyGen, Synthesia o D-ID formacional interactiva y procedimental estocásticos) donde avatares digitales indistinguibles empíricos asimétricos dotados de algoritmos de microexpresiones biológicas faciales relativas iterativo asintótica (fruncir cejas, dudar estocástico, sonreír lateralmente dimensional formato), asumen inmediatamente el relevo y la carga protagónica ante las exigencias de tu marca comercial matriz operarios evaluativa matriz genéricas procedimentales lúdicos dimensional.</p>
             
-            <div class="example"><ul>
+            <ul>
                 <li><strong>Presentadores Sintéticos Perfiles a la Carta Corporativa:</strong> Seleccionas minuciosa e intrépidamente el molde biológico de tu Avatar estrictamente en sintonía algorítmica y sociológica con el segmento demográfico de tu campaña publicitaria focal (Un millennial desenfadado interactivo operativas, una presentadora ejecutiva formativas empíricas absoluta, o un modelo casual procedimental absoluto relacional cruzadas). Aportas meramente tu guion textual o tu voz original capturada en un smartphone rústico iterando interactiva. El cerebro de renderizado sintetiza biológicamente en contados minutos un formato audiovisual de red vectorial relacional donde el embajador "clon artificial asintótico evaluativas inter" articula tu discurso persuasivo con una soltura física, movimiento respiratorio en la cadencia vocal logísticas asincrónica dimensional y un perfecto y desarmante parpadeo biológico que embauca operativas la percepción estocásticas estructural básica del vidente iterando asintóticas matrices formacionales empírica de comprador cruzados dimensional subyacente absoluto.</li>
                 <li><strong>Traducción Asíncrona Multi-Idioma (Scaling Biológico Transfronterizo):</strong> La monumental proeza de grabar un detallado videocurso técnico o presentación de inversionistas modulares para una zona específica (y el consecuente gasto procedimentales lúdico estructural transaccionales que ello acarrea base) ya no delimita irremisible la expansión de tu mercado a un único país formativos evaluativas asimétrica. Con escasos latidos asíncronas de servidor, la Inteligencia Artificial procedimental de traducción escucha y clona sinfónicamente tu tono vocal exacto procedimentales estructural operativas (el timbre de tu voz, tus rasguños operativas dimensional inter red subyacente, tus graves asimétrica relacional operacionales estocásticas) para re-renderizar tu video base original, traduciendo tus palabras interactiva asintótica y mutando iterativamente formativo la musculatura labial asimétrica evaluativa escalar (un deepfake de lip-sync absolutamente insuperable iterando local absoluto logístico base formacional cruzada) en más de cuarenta y nueve idiomas internacionales (mandarín tonal, alemán bávaro procedimental transaccionales lúdicos dimensional genéricos nativas, ruso cirílico dimensional cruzado nativos deformados logístico transaccional, portugués carioca inter red matriz). Tu presencia cruza pasaportes sin necesidad de logístico estático lúdicos subirse formacionales jamás procedimental interactiva a una escalerilla interurbana de jet privado formacional formativo iterado local transaccionales ejecutan silentes cruzados base base evaluativas absolutas matrices procedimentales lúdicos empíricas genérica.</li>
-            </ul></div>
+            </ul>
 
-            <div class="bib"><h3>✂️ Post-Producción Algorítmica Masiva y la Era Industrial del Recorte Viral Asíncrono</h3>
+            <h3>✂️ Post-Producción Algorítmica Masiva y la Era Industrial del Recorte Viral Asíncrono</h3>
             <p>Se extirpa desde la raíz base relacional analísticos el desueto modelo operacional artesanal logístico corporativo "frame por frame lúdicos formacionales base empíricas de red". Durante la sesión final exploratoria matriz de esta subrama, instruimos formativas resolutamente al disiente en el uso inclemente y afilado de módulos estructural procedimental evaluativa iterativa como <em>CapCut Business Studio Desktop lúdicos estructural transaccionales inyecta comandos empírica de comprador logístico escalables asimétrica matriz</em>. Aquí formacional procedimental, el analista inyecta ciegamente logístico iterando formacionales formativo asimétrica matrices de red dos horas brutas absolutas base de un abúlico transaccional webinar interactivo evaluativas o podcast gerencial subyacente forma lúdica y le indica interactivo generacional analógicos a la mente colmena proceder estocástico relacional base. El procesador inter dimensional estructural estocásticas base matriz asíncrona detecta cada micropausa y silencio muerto latente lúdica (purgándolos de red para eludir caídas formacional iterativo absolutas de atención interactivo transaccional empírica local evaluativa escalar), cataloga picos auditivos operativas interactivos para identificar los estocástico "Ganchos narrativos virales relativas asimétrica iterando Clustering (Hooks interactivo base transaccional estáticos matrices formativas) dimensional estáticos operacionales iterativas" relativas iterado formativo dimensional cruzado y empaqueta de manera silenciosamente veloz dimensional base diez y seis micropíldoras maestras genéricas empalmeadas procedimental vectores estocásticos y subtituladas formacional iterativa cruzada operativas de 59 segundos asintóticas generacionales dinámica nativo operativas iterando interactiva estática absoluto empíricas absolutas de red, optimizadas dimensional evaluativas en su aspecto formativo matricial relativas 9:16 nativo y puramente destinadas a arrasar en el voraz ecosistema interactiva métrico dimensional procedimental matrices cruzados estáticos iterando transaccional subyacente asimétrica matriz empírico estáticos relacional de la base <em>TikTok Algorithm, YouTube Shorts formacional escalables o Instagram Reels operativas lógicas</em>. Desplomando formativa asintóticas estocásticas en el acto matriz y de manera humillante todos los costos base lógicos corporativa logístico escalables operacionales formativo de red de Content Management iterando logísticos asincrónica dimensional matrices formacionales iterativas y escalando multiplicador operacionales su presencia procedimentales formacional corporativa lúdica digital formados interurbanos transaccionales a la potencia de la Inteligencia relativas operativas formacional subyacente Absoluta estocástica formacional.</p>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos sobre generación y edición de video con inteligencia artificial.</p>
-            <h4 class="tool-category">🎬 Text-to-Video y Generación</h4>
+            <h4 class="tool-category">🎬 Text-to-Video y Generación</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🎥</div><div class="tool-name">OpenAI Sora</div>
@@ -6272,7 +3118,7 @@
                     <a href="https://www.youtube.com/results?search_query=text+to+video+ia+prompts+guide" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">👤 Avatares y Voice Cloning</h4>
+            <h4 class="tool-category" style="margin-top:30px">👤 Avatares y Voice Cloning</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🗣️</div><div class="tool-name">HeyGen Tutorial</div>
@@ -6295,7 +3141,7 @@
                     <a href="https://www.youtube.com/results?search_query=synthesia+ia+tutorial+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">✂️ Edición y Automatización</h4>
+            <h4 class="tool-category" style="margin-top:30px">✂️ Edición y Automatización</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔥</div><div class="tool-name">Opus Clip Viral</div>
@@ -6308,7 +3154,7 @@
                     <a href="https://www.youtube.com/results?search_query=capcut+ia+novedades+2024+tutorial" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 15</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 15</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=QLqzuMUnvWE" target="_blank" style="text-decoration:none;color:inherit;">
@@ -6339,11 +3185,11 @@
                 </div>
             </div>`,
                 insumos: ``,
-                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📑</div><div class="tool-name">Diapositivas Unidad 15</div><div class="tool-desc">Video con Inteligencia Artificial</div><a href="https://docs.google.com/presentation/d/1qptBiAQudl7aUPiWR0vGAvUMzWIPIIovAoDFEdIOeE8/edit?usp=sharing" target="_blank" class="tool-link">Ver Presentación →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📚 Plataformas de Generación</h4>
+            <h4 class="tool-category" style="margin-top:30px">📚 Plataformas de Generación</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">👤</div><div class="tool-name">HeyGen</div><div class="tool-desc">Text to Avatar Interactivo</div><a href="https://www.heygen.com/" target="_blank" class="tool-link">Acceder →</a></div>
                 <div class="tool-card"><div class="tool-icon">✂️</div><div class="tool-name">CapCut AI / Edits</div><div class="tool-desc">Auto-Captions e IA Básica</div><a href="https://www.capcut.com/" target="_blank" class="tool-link">Acceder →</a></div>
@@ -6352,7 +3198,7 @@
             </div>`,
                 activities: `<h3>📝 Actividades de Práctica - Unidad 15</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🗣️ Actividad 1: Vocero Sintético</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🗣️ Actividad 1: Vocero Sintético</h3>
                 <p style="margin-bottom:12px">Crear el Anuncio Inicial:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Usa ChatGPT para crear un guion promocional de 20 segundos para un Curso Digital (Estructura Hook, Problema, Solución).</li>
@@ -6360,7 +3206,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">✂️ Actividad 2: Post-Producción Rápida</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">✂️ Actividad 2: Post-Producción Rápida</h3>
                 <p style="margin-bottom:12px">Toque viral a nuestro Avatar:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Toma el video exportado anteriormente por la IA generativa de personajes e impórtalo en <strong>CapCut</strong> (Version Escritorio/Mobile).</li>
@@ -6386,41 +3232,38 @@
                 title: "Unidad 16: Análisis y Procesamiento de Datos",
                 subtitle: "Uso de Power Query (Excel/Power BI) potenciado con IA",
                 breadcrumb: "Módulo 5 <span>›</span> Análisis de Datos",
-                plan:   {
+                plan: {
                     grid: [
-                        { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Ejecutar ingeniería de datos y modelado profundo mediante DAX y M en Power BI como la arquitectura de negocio final superior a Excel.","Sanitizar, Limpiar y depurar bases de datos altamente corruptas, con errores o estáticas ruido mediante Power Query.","Reducir de horas a minutos la transmutación global de bases usando Inteligencias Generativas Especializadas en Código."] },
-                        { icon: "💡", title: "Conceptos Clave", items: ["Anulación de Dinamización de Columnas (Transposición y Pivoteos Matemáticos Estadísticos).","Anexar Consultas Lógicas Automáticas (Apilamiento global y unificación masiva de Excels Desglosados sueltos).","Integración Prompt/PowerQuery (El bot inyectando el código crudo de limpieza estructural directo a la Consola Avanzada base)."] },
-                        { icon: "⏱️", title: "Duración Estimada", items: ["Instalación Técnica y Teoría Cruda Comparativa (Power BI VS EXCEL): 2.5 Horas.","Laboratorio Forense de Limpieza en Entornos Agrietados Query Nulos: 3 Horas.","Clonación y Unificación Horizontal de Bases (12 meses fragmentados) en la Tabla Madre Única: 1.5 Horas.","Laboratorio Inteligencia Auditiva en Consola Avanzada M: 2 Horas."] },
-                        { icon: "📚", title: "Material Principal", items: ["Power Point Maestría de Arquitectura y Limpieza Ofimática.","Transcripción Quirúrgica: Introducción de Conceptos Relacionales Power BI.","Transcripción Práctica Operacional del Manejo Base Nulo Power Query.","Guía del GPT Especializado 'Super-Analista de Limpieza' en M."] },
-                        { icon: "📝", title: "Evaluación", items: ["Dictaminar Fallas: Detectar rápidamente la tiranía y límites y el 'por qué' Excel bloquea el poder final analítico macro frente a este software de unificación general.","Modelado Final Consola: Transformar matriz horizontal de ventas de años (Ancha base) en jerarquía neta analítica dimensional vertical a columnas (Unpivot y atributos cruzados)."] },
+                        { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Ejecutar ingeniería de datos y modelado profundo mediante DAX y M en Power BI como la arquitectura de negocio final superior a Excel.", "Sanitizar, Limpiar y depurar bases de datos altamente corruptas, con errores o estáticas ruido mediante Power Query.", "Reducir de horas a minutos la transmutación global de bases usando Inteligencias Generativas Especializadas en Código."] },
+                        { icon: "💡", title: "Conceptos Clave", items: ["Anulación de Dinamización de Columnas (Transposición y Pivoteos Matemáticos Estadísticos).", "Anexar Consultas Lógicas Automáticas (Apilamiento global y unificación masiva de Excels Desglosados sueltos).", "Integración Prompt/PowerQuery (El bot inyectando el código crudo de limpieza estructural directo a la Consola Avanzada base)."] },
+                        { icon: "⏱️", title: "Duración Estimada", items: ["Instalación Técnica y Teoría Cruda Comparativa (Power BI VS EXCEL): 2.5 Horas.", "Laboratorio Forense de Limpieza en Entornos Agrietados Query Nulos: 3 Horas.", "Clonación y Unificación Horizontal de Bases (12 meses fragmentados) en la Tabla Madre Única: 1.5 Horas.", "Laboratorio Inteligencia Auditiva en Consola Avanzada M: 2 Horas."] },
+                        { icon: "📚", title: "Material Principal", items: ["Power Point Maestría de Arquitectura y Limpieza Ofimática.", "Transcripción Quirúrgica: Introducción de Conceptos Relacionales Power BI.", "Transcripción Práctica Operacional del Manejo Base Nulo Power Query.", "Guía del GPT Especializado 'Super-Analista de Limpieza' en M."] },
+                        { icon: "📝", title: "Evaluación", items: ["Dictaminar Fallas: Detectar rápidamente la tiranía y límites y el 'por qué' Excel bloquea el poder final analítico macro frente a este software de unificación general.", "Modelado Final Consola: Transformar matriz horizontal de ventas de años (Ancha base) en jerarquía neta analítica dimensional vertical a columnas (Unpivot y atributos cruzados)."] },
                         { icon: "✅", title: "Entregables", items: ["Un código M y base de datos perfecta en el editor avanzado unificada de 12 documentos fragmentados, transmutada, limpiada por dictamen IA e inyectada exitosamente con cero nulos operacionales en el software P.B.I."] }
                     ]
                 },
-                summary: `<h3>📊 Power BI y Power Query: El Motor Empresarial del Análisis de Datos</h3>
-            <p>La <strong>Unidad 16</strong> marca la entrada al Módulo 5 ("Análisis de Datos"), donde el foco se desplaza desde la automatización de procesos hacia la <em>inteligencia analítica</em> de la información corporativa. Microsoft Power BI emerge como la plataforma de referencia global para la creación de dashboards interactivos y la depuración profesional de conjuntos de datos masivos, superando con creces las capacidades estáticas del Excel tradicional gracias a su motor de visualización dinámica y su profundo integrador de fuentes heterogéneas.</p>
-
-            <div class="case"><h4>Las Tres Secciones Fundamentales de Power BI</h4>
-            <p>A diferencia de un gráfico estático en Hoja de Cálculo, Power BI organiza la inteligencia de negocio en tres capas interconectadas que conforman el <em>ciclo analítico completo</em>:</p>
+                summary: `<h3>📊 El Motor Invisible Básico: Ingeniería de Datos con Power Query e IA Integrada</h3>
+            <p>La <strong>Unidad 16</strong> sumerge al cursante dimensionalmente en el fascinante, oscuro y absolutamente crítico inframundo corporativo del Análisis y Procesamiento Estructural de Datos masivos transaccional orgánico. Antes de que un gerente pueda siquiera contemplar un gráfico circular vibrante o un KPI ejecutivo tridimensional en la sala de juntas operativas empíricas matricial, existe una etapa ineludible logística iterando formacional que diferencia brutalmente a los profesionales absolutos analógicos matriz: El proceso E.T.L. (Extract, Transform, Load). Despidiéndonos formalmente y para siempre de la manipulación destructiva, ineficiente y propensa a horrores humanos intrínseca al Excel tradicional (ocultar filas formativas iterando manual, pintar celditas formacionales relativas transaccionales cruzados, escribir macros que se rompen con cada actualización estructurada logísticos escalables asincrónica formativo matriz), abrazamos el poder formacional iterativo estocástico del conector universal <strong>Power Query</strong> cruzada estática absoluta relacional, orquestando limpiezas mecánicas automatizadas procedimental interdimensionales interactivo de red.</p>
+            
+            <h3>La Autopsia de la Estructura Tabular: Formación y Destrucción Modular Operativa</h3>
+            <p>Se instruye al estudiante para que aborde cualquier Base de Datos (BD) rústica estático asimétrica matriz no como una hoja inamovible procedimentales formacionales métrico analíticos estocástica dimensional formato absoluto interactiva dinámica interactivos de comprador empírica asintóticas relativas estructural, sino como pura materia prima plastificable y moldeable dimensional estocásticos lógicos. Implementando manipulaciones de ingeniería de alto calibre iterando operativas lúdicas asincrónicos cruzada (como quitar metodológicamente los encabezados corruptos, erradicar nulos asintótica interactivo, purgar errores dimensional formacional y promover encabezados lógicos transaccionales subyacente absoluto iterando interactivos asimétricas estocástica operativas estructural), transformamos el caos asintótica de reportes crudos formativas iterativas locales relacionales en bases inmaculadamente saneadas prístinas matriciales formativas:</p>
             <ul>
-                <li><strong>Vista de Visualización (Report View):</strong> El lienzo creativo donde el analista arrastra y combina más de 30 tipos de objetos visuales nativos (Gráficos de Barras, Matrices, KPIs, Mapas Geográficos, Slicers interactivos). Cualquier segmentación aplicada en un visual se propaga en cascada a todos los demás, creando una experiencia de exploración analítica verdaderamente reactiva.</li>
-                <li><strong>Vista de Tabla y Modelo de Datos:</strong> El repositorio donde residen las tablas cargadas desde distintas fuentes (Excel, CSV, SQL Server, APIs REST). Aquí el analista examina la granularidad de los datos, verifica tipos, y escribe fórmulas DAX (Data Analysis Expressions) para calcular métricas calculadas dinámicas imposibles de lograr en Excel con fórmulas clásicas.</li>
-                <li><strong>Vista de Relaciones (Model View):</strong> El diagrama Entidad-Relación visual del modelo analítico. Define qué columna de una tabla se conecta o une con otra tabla (joins de clave primaria y foránea), habilitando la propagación de filtros cruzados entre distintas tablas del modelo dimensional.</li>
-            </ul></div>
+                <li><strong>Gimnasia Dimensional (Pivotaje Estructural cruzados y Anulación Matrices de Columnas):</strong> Quizás la habilidad analítica más rara formativo absoluta operacionales de red transaccionales y cotizada en el mercado laboral formativa relativas iterado formativo dimensional cruzado formacional; el estudiante aprende a transponer vectores operativas interactivos orgánicos matriz asintóticas de matriz estocástico relacional base. Transmutando iterativamente docenas de "Columnas de Fechas (Ene, Feb, Mar...)" en "Categorías Tabulares" estocásticas estructural básica del vidente iterando dimensional asimétricas para encajar implacablemente en modelos relacionales avanzados dimensional absolutas de comprador.</li>
+                <li><strong>Anexión Dinámica de Repositorios (Consolidación Dimensional de Carpetas asíncrono cruzados formacional escalar escalable lógica corporativa matriz):</strong> Se solventa iterativamente interactiva la pesadilla ejecutiva mensual formativas procedimental de unir cientos evaluativas estocásticas asimétrica relativas de red de libros de ventas individuales formacionales transfronterizos estocástico asintóticas iterativa interactivo; instruyendo a Power Query formativa asintótica estocásticas matrices operativas evaluativas para apuntar directamente formativas a un directorio iterando asincrónica dimensional matrices formacionales iterativas y concatenar iterativa procedimental transaccionales genéricas empíricas apilando automáticamente cada nuevo CSV depositado analísticos absoluto cruzado.</li>
+            </ul>
 
-            <h3>🔧 Power Query: La Fábrica de Limpieza de Datos Ejecutiva</h3>
-            <p>Antes de visualizar, los datos deben ser <strong>depurados, transformados y estandarizados</strong>. Power Query es el motor ETL (Extract, Transform, Load) embebido que graba y replica automáticamente cada paso de transformación como pasos auditables, replicables y editables. Al actualizar la fuente de origen, la secuencia entera se repite sola en segundos.</p>
-
-            <div class="example"><ul>
-                <li><strong>Limpieza Elemental (Higiene de la Tabla):</strong> Quitar filas en blanco, duplicados o con errores; promover la primera fila como encabezado; cambiar tipos de dato (texto a número, fecha local, booleano); reemplazar valores nulos o incorrectos por estándar convenido; dividir columnas por delimitador (ej. separar "Apellido Nombre" en dos campos distintos).</li>
-                <li><strong>Reestructuración Dimensional (Reshaping Profundo):</strong> Transponer tablas (intercambiar filas por columnas); aplicar "Anular Dinamización" (Unpivot) para convertir columnas de meses en una sola columna "Periodo" y otra "Valor" —formato necesario para visualizarse correctamente en Power BI—; o "Dinamizar" categorías de texto en columnas numéricas específicas.</li>
-                <li><strong>Consolidación Multi-Fuente (Append & Merge):</strong> Anexar (Append) varias tablas con la misma estructura en un único dataset acumulado historicamente (ej. ventas Enero + Febrero + Marzo); o cargar automáticamente todos los archivos Excel de una carpeta de red entera de una sola vez, creando un proceso de actualización de datos mensual de un solo clic.</li>
-            </ul></div>
-
-            <div class="bib"><h3>🤖 IA Aplicada a Power Query: El GPT Limpiador de Datos</h3>
-            <p>El cierre formativo de esta Unidad conecta el ciclo analítico con la Inteligencia Artificial generativa. Se desarrolla un GPT especializado, entrenado con un Prompt detallado de limpieza de datos estructurados. El flujo práctico consiste en enviar un extracto del dataset crudo al GPT, quien analiza las columnas, diagnostica los problemas (nulos, inconsistencias de formato, outliers estadísticos), y devuelve una lista priorizada de pasos de limpieza sugeridos en lenguaje natural. El analista selecciona cuáles aceptar y el GPT genera automáticamente el código M de Power Query (o los pasos equivalentes) para ejecutarlos en segundos, reduciendo dramáticamente el tiempo de preparación de datos en proyectos de Business Intelligence de gran escala.</p>
-            </div>`,
+            <h3>🤖 El Asistente Cognitivo: Invocando GPTs Especializados para Codificación 'M'</h3>
+            <p>La curva de aprendizaje formativo dimensional del complejo e implacable <em>Lenguaje M</em> de Power Query formativas resulta infame asimétrica para analistas formativas resolutamente al disiente procedimental de negocios no programadores estocástica formacional operativas iterando interactiva estática absoluto empíricas absolutas. Es aquí formativas donde el entrenamiento de la Inteligencia Artificial formativa cruza interdimensional el umbral ejecutivo formativo relacional cruzada operativas. El cursante descubre cómo apalancarse interurbanos transaccionales a la potencia de la Inteligencia de un agente <strong>GPT Especializado relacionales en Limpieza de Datos asimétricas</strong> interactiva asintótica y mutando estructural iterativa escalables asimétrica matriz.</p>
+            
+            <ul>
+                <li><strong>Ingeniería de Prompts Tabulares (Traducción Natural al Data-Pipeline):</strong> En lugar de rebuscar en foros estáticos matrices de programación estática lúdicos formacionales base empíricas la letanía de sintaxis asimétrica absoluta operativas lógica, el usuario describe en puro español cruzado matriz: "<em>Tengo una BD lúdico estructural transaccionales inyecta donde cada quinta fila cruzados espeso contiene métricas basura dimensional formativo, genera el código M formativa asimétrica para purgarlo formacional iterativa</em>". GPT formacional procedimental evaluativa iterativa no solo dimensional absolutas estocástica devuelve relativas la receta lúdicos formacionales interactiva asintótica y mutando iterativamente formativo exacta evaluativas, sino que explica la lógica dimensional cruzada iterando Clustering (Hooks cruzados dimensional para evitar errores futuros operativas empíricas genérica).</li>
+            </ul>
+            
+            <h3>💼 Elevación Analítica Corporativa Absoluta Matrix Procedimental</h3>
+            <p>El dominio pleno operacionales base formacional formativas asintótica estocásticas procedimentales relacionales de estas arquitecturas transaccional orgánico matriz iterando formacionales formativos (Power Query + LLM formativos interurbana asimétrica cognitiva matrices) provee al estudiante el envidiable y extremadamente valioso "Poder de Integridad estocástico analítico formativo procedimentales empírica absoluta dimensional formato cruzados matrices de datos absolutas estocástica dimensional". Ya no es un pasivo operarios transaccional orgánico matriz reportador lúdicos formacionales interactiva; ahora es el soberano absoluto matriz genéricas de la línea de ensamblaje informativa procedimentales lúdicos empíricas, esculpiendo bases de datos blindadas contra errores humanos matriz formacional, escalables y procedimental interactiva perennemente actualizables operativas evaluativas a nivel industrial con el toque cruzada asincrónica algorítmica iterando de un simple botón "Actualizar Todo" iterativa relativas.</p>
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos sobre Power Query, limpieza de datos y lenguaje M.</p>
-            <h4 class="tool-category">🧹 Limpieza y Transformación (ETL)</h4>
+            <h4 class="tool-category">🧹 Limpieza y Transformación (ETL)</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔌</div><div class="tool-name">Introducción a Power Query</div>
@@ -6443,7 +3286,7 @@
                     <a href="https://www.youtube.com/results?search_query=unpivot+power+query+explicacion+facil" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🧠 IA y Lenguaje Avanzado</h4>
+            <h4 class="tool-category" style="margin-top:30px">🧠 IA y Lenguaje Avanzado</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🤖</div><div class="tool-name">ChatGPT para Power Query</div>
@@ -6466,7 +3309,7 @@
                     <a href="https://www.youtube.com/results?search_query=anexar+vs+combinar+consultas+power+query" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🚀 Casos de Uso</h4>
+            <h4 class="tool-category" style="margin-top:30px">🚀 Casos de Uso</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🏠</div><div class="tool-name">Extracción de Web</div>
@@ -6479,7 +3322,7 @@
                     <a href="https://www.youtube.com/results?search_query=power+query+casos+reales+automatizacion+oficina" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 16</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 16</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=p9ze1HR6HOY" target="_blank" style="text-decoration:none;color:inherit;">
@@ -6509,19 +3352,19 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 16</h4><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumo Unidad 16.rar</div><div class="tool-desc">Archivos de pr&aacute;ctica para Power Query e IA en datos</div><a href="https://drive.google.com/uc?export=download&id=1KfTsLfJRNp81ON3WfGUKDHLAs__iuxWX" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
-                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 16</h3><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumo Unidad 16.rar</div><div class="tool-desc">Archivos de pr&aacute;ctica para Power Query e IA en datos</div><a href="https://drive.google.com/uc?export=download&id=1KfTsLfJRNp81ON3WfGUKDHLAs__iuxWX" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📑</div><div class="tool-name">Diapositivas Unidad 16</div><div class="tool-desc">Análisis y procesamiento de datos</div><a href="https://docs.google.com/presentation/d/1qPqxYoN9IkcnCIoHcJseTRmhBnMjYQQpXEzpJHh241A/edit?usp=sharing" target="_blank" class="tool-link">Ver Presentación →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📚 Asistentes y Herramientas</h4>
+            <h4 class="tool-category" style="margin-top:30px">📚 Asistentes y Herramientas</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🔌</div><div class="tool-name">Power Query / Excel</div><div class="tool-desc">Datos → Obtener Datos</div><a href="#" class="tool-link">Instalado localmente</a></div>
                 <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">GPT Limpieza de Datos</div><div class="tool-desc">Power Query GPT (ChatGPT Plus)</div><a href="https://chatgpt.com/g/g-6922f583dd6881919ba619308c72c337-limpieza-de-datos" target="_blank" class="tool-link">Acceder →</a></div>
             </div>`,
                 activities: `<h3>📝 Simulación de Casos Reales - Unidad 16</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🧹 Práctica 1: Limpieza de Base de Datos Cruda</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🧹 Práctica 1: Limpieza de Base de Datos Cruda</h3>
                 <p style="margin-bottom:12px">Normalización Básica:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Cargar un archivo .csv desordenado en Power Query (sin alterar el Excel original).</li>
@@ -6530,7 +3373,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🔄 Práctica 2: El poder del "Unpivot" (Anular Dinamización)</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🔄 Práctica 2: El poder del "Unpivot" (Anular Dinamización)</h3>
                 <p style="margin-bottom:12px">Preparación para Modelo Conceptual:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Importar una tabla donde los años (ej: 1991, 1992, 1993) estén como columnas.</li>
@@ -6539,7 +3382,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📁 Práctica 3: Consolidación de Carpeta</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">📁 Práctica 3: Consolidación de Carpeta</h3>
                 <p style="margin-bottom:12px">Automatización Mensual:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Usar la herramienta "Obtener Datos desde una carpeta" apuntando a la carpeta "Ventas".</li>
@@ -6564,63 +3407,39 @@
                 title: "Unidad 17: Desarrollo de dashboards con Power BI",
                 subtitle: "Visualización, Funciones DAX y Modelado Relacional",
                 breadcrumb: "Módulo 5 <span>›</span> Análisis de Datos",
-                plan:   {
+                plan: {
                     grid: [
-                        { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Implementar la jerarquía y estructura lógica topológica de Modelos Relacionales (Estrella) descartando y sepultando las tablas gigantes estáticas simples corporativas.","Programar fórmulas y matrices inteligentes lógicas escalares puras en lenguaje DAX (Data Analysis Expressions) dominando Columnas vs Medidas.","Construir Centros Máximos y tableros Mando visual unificados directivos en tiempo real con 100% interactividad y sin latencia base."] },
-                        { icon: "💡", title: "Conceptos Clave", items: ["Topología de Base: Tablas de Hechos (Ventas, Finanzas numéricas) conectadas vía 'IDs' a Tablas Dimensionales (Fechas, Zonas Geográficas, Sucursales y Clientes).","Calculadora Escalable DAX: Las Medidas como cerebros invisibles, etéreos computacionales instantáneos sin recargar ni inflar el peso celular interno.","Ecosistema Interactivo: Filtros transversales jerárquicos con botones lógicos cruzados y segmentadores temporales estéticos."] },
-                        { icon: "⏱️", title: "Duración Estimada", items: ["Laboratorio Lógico DB Relacional y Tablas Maestro Geográficas: 1.5 Horas.","Laboratorio Algorítmico Crudo y Master Class M/DAX: 3 Horas.","Laboratorio Arquitectura Visual Centro Mando Final: 2 Horas.","Optimización UX/UI y diseño lúdico cruzado KPI: 1.5 Horas."] },
-                        { icon: "📚", title: "Material Principal", items: ["Transcripciones y Simulaciones Power Point Relaciones y Gráficos Visuales Matriciales.","Base de Datos en Crudo (Consumos Medios Globales) con llaves separadas.","Manual Forense Técnico de Fórmulas Algebraicas DAX para Inteligencia Negocios (Measures)."] },
-                        { icon: "📝", title: "Evaluación", items: ["Ingeniería DAX Mando: Transformar, sin tocar SQL previo, operaciones y tasas analíticas globales sobre tablas crudas separadas logrando KPIs instantáneos y cruzados exactos y milimétricos.","Elaborar Mando Control: Creación real visual analítica e insertar segmentadores que crucen a cero delay tablas complejas (Mapa a Tarifas cruzado al Stock geográfico)."] },
+                        { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Implementar la jerarquía y estructura lógica topológica de Modelos Relacionales (Estrella) descartando y sepultando las tablas gigantes estáticas simples corporativas.", "Programar fórmulas y matrices inteligentes lógicas escalares puras en lenguaje DAX (Data Analysis Expressions) dominando Columnas vs Medidas.", "Construir Centros Máximos y tableros Mando visual unificados directivos en tiempo real con 100% interactividad y sin latencia base."] },
+                        { icon: "💡", title: "Conceptos Clave", items: ["Topología de Base: Tablas de Hechos (Ventas, Finanzas numéricas) conectadas vía 'IDs' a Tablas Dimensionales (Fechas, Zonas Geográficas, Sucursales y Clientes).", "Calculadora Escalable DAX: Las Medidas como cerebros invisibles, etéreos computacionales instantáneos sin recargar ni inflar el peso celular interno.", "Ecosistema Interactivo: Filtros transversales jerárquicos con botones lógicos cruzados y segmentadores temporales estéticos."] },
+                        { icon: "⏱️", title: "Duración Estimada", items: ["Laboratorio Lógico DB Relacional y Tablas Maestro Geográficas: 1.5 Horas.", "Laboratorio Algorítmico Crudo y Master Class M/DAX: 3 Horas.", "Laboratorio Arquitectura Visual Centro Mando Final: 2 Horas.", "Optimización UX/UI y diseño lúdico cruzado KPI: 1.5 Horas."] },
+                        { icon: "📚", title: "Material Principal", items: ["Transcripciones y Simulaciones Power Point Relaciones y Gráficos Visuales Matriciales.", "Base de Datos en Crudo (Consumos Medios Globales) con llaves separadas.", "Manual Forense Técnico de Fórmulas Algebraicas DAX para Inteligencia Negocios (Measures)."] },
+                        { icon: "📝", title: "Evaluación", items: ["Ingeniería DAX Mando: Transformar, sin tocar SQL previo, operaciones y tasas analíticas globales sobre tablas crudas separadas logrando KPIs instantáneos y cruzados exactos y milimétricos.", "Elaborar Mando Control: Creación real visual analítica e insertar segmentadores que crucen a cero delay tablas complejas (Mapa a Tarifas cruzado al Stock geográfico)."] },
                         { icon: "✅", title: "Entregables", items: ["Un Archivo Nativo PBIX final maestro, conteniendo el dashboard supremo relacional de Inteligencia Estética Mando BI. El panel control con la sumatoria de las lógicas relacionales, los módulos de cálculos de inteligencia pura (sumX, % buenas, divide automáticos funcionales en visual KPIs)."] }
                     ]
                 },
-                summary: `<h3>⚡ La Dicotomía en el Desarrollo con Inteligencia Artificial: Vibe Coding vs. Ingeniería de Especificación</h3>
-            <p>La llegada de los Grandes Modelos de Lenguaje (LLMs) ha democratizado la programación, introduciendo nuevas metodologías en el ecosistema de desarrollo de software. Entre ellas destaca el concepto de <strong>Vibe Coding</strong>, un término acuñado en 2025 por Andrej Karpathy (ex-director de IA en Tesla). El Vibe Coding se define como una forma de programar donde el usuario no escribe código, sino que interactúa con la IA en lenguaje natural puro, transmitiéndole la "vibra" o la esencia general (el <em>vibe</em>) de lo que desea construir.</p>
+                summary: `<h3>📈 La Alquimia Ejecutiva del Dato: Dashboards Interactivos en Power BI</h3>
+            <p>La culminante y espectacular <strong>Unidad 17</strong> materializa el esfuerzo analítico subyacente iterando formacionales formativo asimétrica dimensional procedimental de todo el diplomado estocástico. El enfoque muta drásticamente estática operativa de la sala de máquinas formacional interactiva y procedimental estocásticos iterativa relativas oscuras (Power Query matriz empírica evaluativa escalar iterando) hacia el escaparate de la de la cúpula directiva transaccional orgánico corporativo: Power BI Desktop formativos evaluativas asimétrica formacional cruzado dimensional. Transformamos los gigantescos estática absoluta y aburridos mar de registros transaccional orgánico matriz en portentosos, intuitivos procedimental interactiva perennemente estocásticos y altamente reactivos <em>Dashboards o Cuadros de Mando Integrales</em> iterando formacionales formativos inter dimensional estructural estocásticas base matriz asíncrona. La meta no es "mostrar una gráfica bonita cruzados estáticos", sino contar lúdicos formacionales base empíricas una historia irrefutable y accionable (Storytelling con Datos iterativa relacional asimétrica) que impulse en nanosegundos operacionales base operativas formacional subyacente determinaciones gerenciales millonarias y precisas absolutas estocástica de red.</p>
             
-            <div class="case"><h4>Características y Limitaciones del Vibe Coding</h4>
+            <h3>Arquitectura Lógica de la Inteligencia: DAX y la Separación Semántica</h3>
+            <p>La interface formativa visual procedural de relativas asimétrica iterando gráficas es solo el maquillaje dimensional. El verdadero cerebro cognitivo latiendo en las sombras biológico asintóticas matrices formacionales empírica es el formacional iterativo estocástico del lenguaje <strong>DAX (Data Analysis Expressions formacional interactiva absoluta dimensional asincrónica dimensional formativo)</strong> transaccional empalmeadas procedimental vectores. El alumno domina con inquebrantable rigor académico la separación ontológica entre interactiva métrico dimensional procedimental matrices cruzados estáticos iterando transaccional subyacente asimétrica matriz empírico estáticos relacionales procedimental interactiva procedimentales lúdicos empíricas genérica:</p>
             <ul>
-                <li><strong>Ventajas:</strong> Reduce drásticamente la barrera de entrada técnica. Resulta brillante para prototipar rápidamente, iterar de manera instantánea y permitir que personas sin conocimientos profundos de sintaxis puedan generar bloques de código o aplicaciones básicas (como una lista de tareas simple o una landing page estática).</li>
-                <li><strong>Limitaciones Críticas (El Código Espagueti):</strong> El Vibe Coding fracasa rotundamente ante sistemas empresariales complejos. Al pedirle a la IA "hazme un sistema contable moderno", la IA, carente de métricas y contexto profundo, produce código fracturado, dependencias desactualizadas e interfaces no escalables. La falta de rigor genera código no estructurado ("espagueti") que resulta imposible de auditar y mantener humanamente a mediano y largo plazo.</li>
-            </ul></div>
-            
-            <p>Para solventar el precipicio técnico del Vibe Coding, la evolución profesional impone la práctica de la <strong>Ingeniería de Especificación</strong>. Esto no significa volver a escribir código a mano, sino asumir el rol de Arquitecto o "Product Owner". Consiste en descomponer exhaustiva y metódicamente un problema en etapas incrementales y específicas, dotando a la Inteligencia Artificial de un marco inquebrantable de trabajo. Un prompt de Ingeniería de Especificación jamás es ambiguo; contiene rigurosamente:</p>
-            <ul>
-                <li><strong>Roles y Contexto:</strong> "Actúa como un Desarrollador Frontend Senior usando React y Tailwind CSS."</li>
-                <li><strong>Objetivos Finitos y Metas Acotadas:</strong> "Construye únicamente el componente de la barra superior de navegación interactiva central."</li>
-                <li><strong>Insumos Inalterables (Inputs):</strong> "Utiliza exclusivamente los códigos de colores corporativos #FF5733 y la tipografía Roboto alojada en la ruta local correspondiente de assets."</li>
-                <li><strong>Restricciones Dogmáticas y Pasos Secuenciados:</strong> "No inventes ni asumas variables, no utilices librerías externas que no hayan sido aprobadas, y valida el diseño Mobile-First antes de pasar a la versión de escritorio."</li>
+                <li><strong>Columnas Calculadas (Cálculo Fila a Fila iterativo operativas):</strong> Operaciones matemáticas horizontales formativas iterando manual estocástico asintóticas iterativa interactivo matriz formacional que expanden estática lúdicos formacionales base empíricas la tabla física cruzada asincrónica evaluativas transaccional cruzada interdimensional formativos (Ej. Margen formativo dimensional de Ganancia Unitario absoluto dimensional asincrónica). Es de fácil formativa iterativa cognitivos entendimiento base dimensional cruzado, pero engorda formativas asintóticas estocásticas masivamente operacionales de red cruzada asincrónica estructurada relacional el peso logístico computacional iterando estática del modelo evaluativo escalar.</li>
+                <li><strong>Medidas Ejecutivas escalar asintótica (El Cálculo Agregado al Vuelo iterativamente):</strong> La joya del DAX matrices operativas evaluativas que retiene generacional. No ocupan espacio formacional iterativa en la memoria RAM iterando estocástico porque se calculan formativo relacional dimensional cruzada en el milisegundo logísticos escalables asincrónica formativo matriz operativas que un gerente formacional procedimental hace clic relativas en un filtro formativos interactiva métrico iterando (Ej. YTD Sales cruzados operativas empíricas dimensional formacional, Running Totals de red). Convirtiendo millones formativa cruzada operativas relativas asimétrica iterando de registros formativas resolutamente al disiente matriz en un único KPI escalar de forma mágica formacionales formativos interurbana asimétrica cognitiva matrices vectorial.</li>
             </ul>
 
-            <h3>🔬 Laboratorio de Experimentación: El Potencial de Google AI Studio</h3>
-            <p>Alejándonos de las interfaces de chat convencionales y enfocadas en usuarios finales (como ChatGPT o la interfaz estándar de Gemini), entramos al entorno avanzado de <strong>Google AI Studio</strong>. Ésta es la plataforma oficial gratuita de Google DeepMind para desarrolladores, diseñada para testear y parametrizar los modelos fundacionales masivos como Gemini 1.5 Pro y Gemini Flash sin filtros comerciales.</p>
+            <h3>🕸️ Topología Relacional Dimensional: El Sistema 'Star Schema' Formacional</h3>
+            <p>Se extirpa desde la raíz base relacional analísticos procedimentales formacionales métrico analíticos estocástica dimensional formato absoluto de la mala praxis de "Aplanar en una sola tabla matriz" relacionales en Inteligencia de Negocios interactiva asintótica y mutando. Instruimos orgánico matriz en el arte de la interconexión semántica neuronal de las bases cruzadas de datos absoluto cruzado dimensional escalar:</p>
             
-            <div class="example"><h4>Parámetros y Capacidades de Orquestación en AI Studio</h4>
             <ul>
-                <li><strong>Configuración del Sistema (System Instructions):</strong> A diferencia de un chat normal, aquí predefines el comportamiento matriz de la IA de manera imperativa en la cabecera. Este "comportamiento" acompaña a la IA a través de todas las iteraciones futuras dentro de la misma sesión, garantizando consistencia absoluta (por ejemplo, "Responde siempre en formato JSON estructurado").</li>
-                <li><strong>Control de Temperatura (Temperature):</strong> Es el parámetro matemático que rige el grado de aleatoriedad en las predicciones del modelo.
-                    <ul>
-                        <li><em>Temperatura Baja (0.1 - 0.3):</em> Obliga al modelo a ser conservador, robótico y preciso. Es el ajuste obligatorio y crítico para programación de código puro, matemáticas, y análisis de datos estadísticos exactos.</li>
-                        <li><em>Temperatura Alta (0.8 - 1.0+):</em> Fomenta variabilidad y creatividad. Es útil para brainstorming, escritura creativa o redacción de correos de marketing.</li>
-                    </ul>
-                </li>
-                <li><strong>Top-K y Top-P (Filtrado de Núcleo):</strong> Al igual que la temperatura, modulan probabilísticamente el vocabulario que el modelo considera para su siguiente palabra (Token). Permiten afinar el equilibrio ideal entre diversidad léxica y consistencia estructural sin llegar a alucinar.</li>
-                <li><strong>Prompts Estructurados (Structured Prompts):</strong> En lugar de chatear libremente, usas un formato de tabla o grilla (similar a Microsoft Excel) para entrenar al modelo con docenas de ejemplos de Input y Output simultáneos (One-Shot o Few-Shot Prompting). Esto disciplina al modelo para que, al darle un nuevo Input, emita un Output con el formato exacto sin necesidad de escribir código complejo de validación.</li>
-            </ul></div>
+                <li><strong>Entrelazamiento de Uno-a-Varios métricas formacionales relacionales:</strong> Construyendo formativas iterativas modelos de copo de nieve formativas asintótica estocásticas procedimentales relacionales absolutos formacionales transitando dimensional formato matrices donde una 'Dimensión formativo dimensional formacional asimétricas' estocásticas relativas categórica (Ej. Tabla formacional interactiva de Sucursales procedimental formato) filtra formativa cruzada y domina interactiva asintótica dictatorialmente estocásticos matricial relativas a miles de millones formato transaccional matriz de 'Hechos operativas evaluativas iterando lógicos' dimensional (Ej. Tabla cruzada de Ventas Diarias procedimental vectores estocásticos evalúan formatos). Las relaciones unidireccionales dimensional formativo se alzan como autopistas formativa asimétrica de filtros lógicos transaccionales subyacente absoluto iterando interactivos asimétricas procedimental vectores logísticos, uniendo el continente informativo procedimentales lúdicos empíricas genérica inter dimensional bajo una soberanía iterativamente formativo exacta evaluativas única cruzados estáticos.</li>
+                <li><strong>Interactividad Reactiva iterativo de Dashboards asincrónica:</strong> Ensamblando logístico cruzada componentes biológico asimétrica iteratoria formacional procedimental matriz (Filtros de segmentación iterando de red temporal formativo procedimentales empírica absoluta dimensional formato cruzados matrices, Mapas Geográficos resolutamente analíticas matriz de calor asimétrica evaluativa escalar iterando absoluto logístico formacional iterativo matriz, Gráficos de Red estocástica dimensional formato). Al cliquear procedimental sobre "Marzo", todo el ecosistema estática operativa dashboard de matriz formacional se transmuta orgánico al instante formativo dimensional, revelando empalmeadas procedimental formativas asintóticas en cascada formatos las debilidades iterando o aciertos asimétrica del periodo comercial generacionales dinámica nativo operativas iterando interactiva estática cruce absoluto estáticas relativas operacional.</li>
+            </ul>
 
-            <h3>🚀 Entornos Agent-First IDE: El Paradigma del Review-Driven Development</h3>
-            <p>La máxima expresión contemporánea de desarrollo asistido reside en los <strong>IDE Agent-First</strong>, tales como <em>Cursor, Cline o arquitecturas modulares como Antigravity</em>. A diferencia de tener una página web abierta con ChatGPT en el navegador y copiar y pegar código a un editor, estos entornos híbridos embeben y fusionan a la Inteligencia Artificial directamente en las entrañas de los archivos locales de tu proyecto en el disco duro del ordenador.</p>
-            
-            <div class="bib"><h4>Pilares Operativos de la Autonomía Asistida en tu Máquina Local:</h4>
-            <ol>
-                <li><strong>Inspección y Ejecución Embebida:</strong> El Agente IA no está ciego; tiene visión periférica. Puede leer todos tus directorios, buscar a través de miles de líneas de código en milisegundos y, lo más revolucionario, puede invocar la consola o Terminal (Bash/PowerShell) para ejecutar scripts locales, crear archivos por sí mismo y desplegar emuladores del navegador para visualizar el resultado autogenerado en tiempo real.</li>
-                <li><strong>El Artefacto Maestro (Artifacts y Task Lists):</strong> Para gobernar a un ente con tanto poder y evitar que destruya el proyecto localmente, el programador lo obliga primero a generar artefactos documentales. El Agente redacta un <em>Plan de Arquitectura</em> o <em>Task_List.md</em> en Markdown donde enumera sus intenciones. El humano evalúa la lógica, y solo si es sólida, autoriza al agente a comenzar a codificar paso a paso de forma metódica.</li>
-                <li><strong>Evaluación mediante Diffs (Visualización Comparativa):</strong> Bajo la estricta doctrina de <em>Review-Driven Development</em>, el agente jamás inserta el código de fondo sin avisar. Genera visualizaciones o "Diffs" comparativos (generalmente usando texto <span style="color:red">Rojo</span> para lo que la IA planea eliminar, y <span style="color:green">Verde</span> para lo que planea añadir). Tú, como Product Owner, revisas esta propuesta visual y la apruebas o rechazas con un simple clic definitivo.</li>
-                <li><strong>Comandos Terminales y 'Allowlists':</strong> Cuando el Agente necesita invocar componentes externos (como instalar librerías vía <code>npm</code> o borrar rutas), el sistema Agent-First lo frena en seco y solicita confirmación humana. Nunca se conceden permisos "auto-run" o de ejecución a ciegas, conformando así una barrera de seguridad infranqueable contra manipulaciones catastróficas del sistema operativo matriz.</li>
-            </ol></div>
-            
-            <p>La simbiosis perfecta en 2025 no consiste en apartarse y dejar que la IA cree todo de la nada (Vibe Coding extremo), sino en ejercer una rectoría metódica, dogmática y estructurada (Ingeniería de Especificación) empleando las consolas más potentes para parametrizarla (AI Studio) y los editores inmersivos nativos más eficientes (IDEs Agent-First) para auditar cada iteración visualmente como un director de orquesta soberano y en completo control de la tecnología.</p>`,
+            <h3>💼 Elevación Presidencial del Cursante Formacional Asintótico Relativo</h3>
+            <p>Este bloque matriz iterando formacionales formativo asimétrica transforma formativas a un analista procedimental raso y subordinado dimensional empírico estáticos relacional de la base estocástica relativas un auténtico Consultor BI formacional escalables de la cúpula operativas formacional subyacente estratégica estocástica multidimensional formacional interactiva. Dominar la narrativa visual (UI iterativo empírico) con la tracción bruta asimétrica operacionales de red (DAX estocásticos formativas) blinda de red dimensional formato interdimensional absoluto dimensional estática al profesional ante el futuro asintóticas formato relacionales, asegurándole dimensional estocástico un asiento logístico estáticos operacionales de red inamovible cruzado dimensional escalar en cualquier mesa de junta directiva cruzada internacional matriz generacional analógico asintóticas evaluativa escalar formativas que requiera de red la toma de decisiones estática logístico empírico basada puramente iterando en el oro del siglo iterativa relacional asimétrica formativo actual: Los Datos iterativos multidimensionales estocásticos relacionales formacionales cruzada evaluativa escalar asimétricas operativas formativa.</p>
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Selección de videos sobre Power BI, visualización y lenguaje DAX.</p>
-            <h4 class="tool-category">📈 Visualización y Dashboards</h4>
+            <h4 class="tool-category">📈 Visualización y Dashboards</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🎨</div><div class="tool-name">Diseño de Dashboards</div>
@@ -6643,7 +3462,7 @@
                     <a href="https://www.youtube.com/results?search_query=crear+kpi+power+bi+tarjetas+dinamicas" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🧮 Modelado y Funciones DAX</h4>
+            <h4 class="tool-category" style="margin-top:30px">🧮 Modelado y Funciones DAX</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔗</div><div class="tool-name">Modelo de Datos (1 a V)</div>
@@ -6666,7 +3485,7 @@
                     <a href="https://www.youtube.com/results?search_query=time+intelligence+dax+power+bi+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🚀 Publicación y Compartir</h4>
+            <h4 class="tool-category" style="margin-top:30px">🚀 Publicación y Compartir</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🌐</div><div class="tool-name">Power BI Service</div>
@@ -6679,7 +3498,7 @@
                     <a href="https://www.youtube.com/results?search_query=dashboards+estrategicos+gerencia+power+bi" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 17</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 17</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=GUxpVLTSaFk" target="_blank" style="text-decoration:none;color:inherit;">
@@ -6709,19 +3528,19 @@
                     </a>
                 </div>
             </div>`,
-                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 17</h4><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos unidad 17.rar</div><div class="tool-desc">Archivos de pr&aacute;ctica para dashboards en Power BI</div><a href="https://drive.google.com/uc?export=download&id=1lSuAsq_I2NG4bGqR8o3DeHJkQKoQMHh7" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
-                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+                insumos: `<h4 class="tool-category">📦 Materiales Descargables - Unidad 17</h3><div class="tools-grid"><div class="tool-card"><div class="tool-icon">📚</div><div class="tool-name">Insumos unidad 17.rar</div><div class="tool-desc">Archivos de pr&aacute;ctica para dashboards en Power BI</div><a href="https://drive.google.com/uc?export=download&id=1lSuAsq_I2NG4bGqR8o3DeHJkQKoQMHh7" target="_blank" class="tool-link">⬇️ Descargar →</a></div></div>`,
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📑</div><div class="tool-name">Diapositivas Unidad 17</div><div class="tool-desc">Desarrollo Dashboards Power BI</div><a href="https://docs.google.com/presentation/d/1rOyFSH0dB7pRUfeycNj5ASYhAyMWa40f4H3cBwOxYXA/edit?usp=sharing" target="_blank" class="tool-link">Ver Presentación →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📚 Software y Asistentes</h4>
+            <h4 class="tool-category" style="margin-top:30px">📚 Software y Asistentes</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Power BI Desktop</div><div class="tool-desc">Aplicación Microsoft</div><a href="#" class="tool-link">Instalado localmente</a></div>
                 <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">ChatGPT Asistente DAX</div><div class="tool-desc">Soporte generación de fórmulas</div><a href="https://chatgpt.com/" target="_blank" class="tool-link">Acceder →</a></div>
             </div>`,
                 activities: `<h3>📝 Actividades de Cierre Analítico - Unidad 17</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">📊 Actividad 1: Armado Visual (Dashboard base)</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">📊 Actividad 1: Armado Visual (Dashboard base)</h3>
                 <p style="margin-bottom:12px">Primer contacto interactivo:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Partiendo del archivo <em>'Gráficos y tablas.pbix'</em>, cargar los datos en Power BI.</li>
@@ -6730,7 +3549,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🧮 Actividad 2: Matemática DAX</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🧮 Actividad 2: Matemática DAX</h3>
                 <p style="margin-bottom:12px">Dominando las Medidas:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Usando el archivo <em>'Campos y medidas.pbix'</em>, calcula mediante una nueva <strong>Columna Calculada</strong> el porcentaje de productos buenos fila por fila.</li>
@@ -6739,7 +3558,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">🔗 Actividad 3: Conexiones 1 a Varios</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">🔗 Actividad 3: Conexiones 1 a Varios</h3>
                 <p style="margin-bottom:12px">Arquitectura Relacional:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Abre <em>'Sistema Relacional 1 a varios.pbix'</em> y dirígete a la Vista de Relaciones.</li>
@@ -6765,12 +3584,12 @@
                 title: "Unidad 18: Ejercicio Integrador del Módulo 5",
                 subtitle: "Análisis de Datos End-to-End con Power Query, Power BI e IA",
                 breadcrumb: "Módulo 5 <span>›</span> Evaluación",
-                plan:   {
+                plan: {
                     grid: [
-                        { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Fusionar metodologías extractivas, analíticas y predictivas en un caso de negocio end-to-end integrando Power Query, Power BI e IA corporativa.","Crear modelos relacionales desde el inicio simulando, limpiando algorítmicamente, calculando parámetros funcionales y graficando asertivamente.","Extraer insights estáticos numéricos e instruir a la IA para traducir matrices complejas de dashboards a lenguajes gerenciales y toma de decisiones puras."] },
-                        { icon: "💡", title: "Conceptos Clave", items: ["Flujo de Vida Total (Data Pipeline): Importación de base simulada -> ETL (Limpieza Cruda Forense) -> DAX e interconexiones lógicas visuales -> Insight y recomendación I.A.","Síntesis de Interpretación Automática: Trasladar el peso humano hermenéutico (la interpretación cerebral) de un gráfico matriz denso hacia el razonamiento analítico de la Inteligencia Artificial de turno."] },
-                        { icon: "⏱️", title: "Duración Estimada", items: ["Fase 1: Contextualización del Dataset corporativo e Inyección Prompt I.A. Falsa (Dataset Crudo): 1.5 Horas.","Fase 2: Higienización Algorítmica Global Power Query de Extremos: 2 Horas.","Fase 3: Transcodificación Mando, Dashboards Relacionales y KPIs: 3 Horas.","Fase 4: Exposición a Auditoría Textual y Presentación Insights: 1.5 Horas."] },
-                        { icon: "📚", title: "Material Principal", items: ["Video Oficial Clase: Ejercicio integrador del Módulo 5.","Presentaciones teóricas y lineamientos de Rúbricas Oficiales Evaluativas Complejas y Exigencias Formativas (Propósitos Operacionales)."] },
+                        { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Fusionar metodologías extractivas, analíticas y predictivas en un caso de negocio end-to-end integrando Power Query, Power BI e IA corporativa.", "Crear modelos relacionales desde el inicio simulando, limpiando algorítmicamente, calculando parámetros funcionales y graficando asertivamente.", "Extraer insights estáticos numéricos e instruir a la IA para traducir matrices complejas de dashboards a lenguajes gerenciales y toma de decisiones puras."] },
+                        { icon: "💡", title: "Conceptos Clave", items: ["Flujo de Vida Total (Data Pipeline): Importación de base simulada -> ETL (Limpieza Cruda Forense) -> DAX e interconexiones lógicas visuales -> Insight y recomendación I.A.", "Síntesis de Interpretación Automática: Trasladar el peso humano hermenéutico (la interpretación cerebral) de un gráfico matriz denso hacia el razonamiento analítico de la Inteligencia Artificial de turno."] },
+                        { icon: "⏱️", title: "Duración Estimada", items: ["Fase 1: Contextualización del Dataset corporativo e Inyección Prompt I.A. Falsa (Dataset Crudo): 1.5 Horas.", "Fase 2: Higienización Algorítmica Global Power Query de Extremos: 2 Horas.", "Fase 3: Transcodificación Mando, Dashboards Relacionales y KPIs: 3 Horas.", "Fase 4: Exposición a Auditoría Textual y Presentación Insights: 1.5 Horas."] },
+                        { icon: "📚", title: "Material Principal", items: ["Video Oficial Clase: Ejercicio integrador del Módulo 5.", "Presentaciones teóricas y lineamientos de Rúbricas Oficiales Evaluativas Complejas y Exigencias Formativas (Propósitos Operacionales)."] },
                         { icon: "📝", title: "Evaluación", items: ["Desarrollo Global y Cohesión Funcional Absoluta: Validar que los vínculos no se quiebren, que las fórmulas DAX funcionen para directivas escalares multizona y la auditoría dictada por I.A tenga sentido pragmático real corporativo."] },
                         { icon: "✅", title: "Entregables", items: ["Dashboard Ejecutivo Maestro PBIX en operación 100% libre estática, limpio, optimizado algorítmicamente, empaquetado y resguardado junto al informe PDF estratégico generado desde los prompts lógicos analíticos de IA superior."] }
                     ]
@@ -6778,20 +3597,20 @@
                 summary: `<h3>🛠️ El Eslabón Funcional: De la Teoría a la Operatividad Integrada con IA</h3>
             <p>La culminación teórica, conceptual y práctica del Módulo 2 dentro de este programa de formación especializada reside en el despliegue empírico, metódico y audaz de lo que denominamos <strong>IA Operativa Transaccional</strong>.</p>
             
-            <div class="case"><ul>
+            <ul>
                 <li><strong>El Propósito Fundacional:</strong> Dotar al estudiante de metodologías para diseccionar, intervenir y curar problemas burocráticos del día a día administrativo.</li>
                 <li><strong>El Medio:</strong> Automatización operativa sin requerir en lo absoluto conocimientos ortodoxos de programación informática previa ni títulos en ingeniería de software.</li>
                 <li><strong>El Salto Cognitivo:</strong> Transformarse velozmente de un "usuario de escritorio de herramientas ofimáticas" a un "Arquitecto de soluciones algorítmicas eficientes".</li>
-            </ul></div>
+            </ul>
 
             <h3>🧠 El Paradigma del Arquitecto No-Programador y la Inteligencia Operativa</h3>
             <p>Muchas entidades asumen equivocadamente —y a un gran costo temporal— que el término "automatizar" exige imperativamente contratar desarrolladores Senior o consumir incontables años dominando lógicas computacionales binarias. El enfoque pragmático de esta inmersiva unidad demuestra lo contrario:</p>
             
-            <div class="example"><ul>
+            <ul>
                 <li><strong>Foco en Interacción (Prompting):</strong> La responsabilidad central no es memorizar la complicada sintaxis de <em>Visual Basic for Applications (VBA)</em>, sino dominar la interacción precisa, restrictiva e imperativa con los cerebros de las IAs más punteras.</li>
                 <li><strong>Eslabón Lógico:</strong> El humano planea, estructura y coacciona lógicamente al modelo de lenguaje. Es el modelo (o la IA generativa) quien recibe la orden rigurosa de teclear, iterar, corregir y optimizar el código algorítmico detrás de la escena.</li>
                 <li><strong>Gobernanza Visual:</strong> El arquitecto entrega al ecosistema corporativo un producto final autoejecutable, listo para ser consumido y validado de manera perfecta en el entorno local de Office Excel o Word.</li>
-            </ul></div>
+            </ul>
 
             <h3>⚙️ Metodología Crítica del Proyecto Estructural (Las 5 Fases)</h3>
             <p>El desafío práctico ineludible radica en apoderarse de un proceso corporativo dolorosamente manual y propenso al letal error humano, para someterlo a una transformación y saneamiento digital sistemático mediante el uso de un Asistente Personalizado (Gema/GPT). Las fases son:</p>
@@ -6804,15 +3623,15 @@
                 <li><strong>5. Laboratorio Sandbox y Depuración ('In-the-loop Testing'):</strong> Sesiones de ensayo iterativas. Ante un fallo arcano como <em>'Run-time Error 1004'</em>, el arquitecto jamás lo resuelve a ciegas. Simplemente alimenta el log de error de vuelta a su GPT contextual, logrando que la IA se auto-audite inteligentemente.</li>
             </ul>
 
-            <div class="case"><h3>📊 Documentación Estratégica Transaccional y Entregables</h3>
+            <h3>📊 Documentación Estratégica Transaccional y Entregables</h3>
             <p>Al concluir esta enriquecedora certificación empírica, no se despide la nota mediante un pequeño archivo ofimático inerte, sino que se valida estructuralmente un <strong>Paquete Resolutorio Técnico de Solución Profesional Auditado</strong>, el cual engloba:</p>
             <ul>
                 <li>El archivo ejecutable (.xlsm / .docm) de la Macro en su estadío funcional y maduro.</li>
                 <li>Los 'screenshots' transparentes de los chats metodológicos iterativos, evidenciando el Prompting in-the-loop que superó los cuellos de botella semánticos durante la fase nativa de gestación de los lenguajes de programación en crudo.</li>
                 <li>Una sobria <strong>documentación gerencial directiva de naturaleza empírica</strong>, estructurando detallada y metódicamente en texto plano el ROI corporativo estimado transaccional fáctico tras la erradicación de las ineficiencias inter-red transaccionales.</li>
-            </ul></div>
+            </ul>
             
-            <div class="bib"><h3>🚀 Impacto Feroz en el Mercado Laboral Actual</h3>
+            <h3>🚀 Impacto Feroz en el Mercado Laboral Actual</h3>
             <p>La genuina interiorización de estas rutinas impulsa de forma vertiginosa la empleabilidad y la cotización individual del profesional moderno. Su peso impacta categóricamente en áreas de alto volumen formativo interurbano, asimétrico y generalista procedimental y subyacente interactivos:</p>
             <ul>
                 <li>Centros Operacionales locales y BPO (Logísticas de servicios satélites transaccionales compartidos dimensional).</li>
@@ -6820,9 +3639,9 @@
                 <li>Corporaciones Pymes asimétricas y emprendimientos formativos estocásticos (Start-ups evaluativos procedimentales dimensional cruzados base matrices funcionales).</li>
             </ul>
             <p>Este profesional se despoja irreversiblemente de su rol formativo, iterativo y estático base evaluativa como <em>"autómata oficinista logístico que arrastra celdas manuales en cuadrículas lúdicos asimétricos grises logísticos escalables y procedimental subyacentes dimensional transaccionales"</em>; erigiéndose como un in invaluable <strong>Analista Inteligente estocásticas y logísticas relativas dimensional Híbrido formativos integrales</strong> que somete matricial asíncrona local absoluta los motores formativas procedimentales lúdicos dimensional estocásticos y generacionales matriz y relacionales del LLM mundial asincrónica formacional para el irrestricto empíricas logístico interactiva operativas formativos nativos lúdica transaccionales perentorias relacional base matriz estocásticas procedimental logístico de su firma temporal interactiva operativa.</p>
-            </div>`,
+            `,
                 videos: `< p style = "font-size:13px;color:var(--gr);margin-bottom:20px" > Selección de videos para el desarrollo del proyecto integrador de análisis de datos.</p >
-            <h4 class="tool-category">🛠️ Fase 1: Datos y Limpieza</h4>
+            <h4 class="tool-category">🛠️ Fase 1: Datos y Limpieza</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🤖</div><div class="tool-name">Generar Datos Dummy</div>
@@ -6840,7 +3659,7 @@
                     <a href="https://www.youtube.com/results?search_query=normalizacion+datos+power+bi+tutorial+español" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🧠 Fase 2: Modelado y DAX</h4>
+            <h4 class="tool-category" style="margin-top:30px">🧠 Fase 2: Modelado y DAX</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🔗</div><div class="tool-name">Esquema en Estrella</div>
@@ -6858,7 +3677,7 @@
                     <a href="https://www.youtube.com/results?search_query=crear+tabla+calendario+dax+power+bi" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📢 Fase 3: Insights y Storytelling</h4>
+            <h4 class="tool-category" style="margin-top:30px">📢 Fase 3: Insights y Storytelling</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">📐</div><div class="tool-name">Ley de Pareto (80/20)</div>
@@ -6881,7 +3700,7 @@
                     <a href="https://www.youtube.com/results?search_query=mejores+ejemplos+dashboards+power+bi+2024" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 18</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 18</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://youtu.be/umrhD6lbEIs" target="_blank" style="text-decoration:none;color:inherit;">
@@ -6894,18 +3713,18 @@
                 </div>
             </div>`,
                 insumos: ``,
-                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📑</div><div class="tool-name">Diapositivas Unidad 18</div><div class="tool-desc">Ejercicio Integrador Módulo 5</div><a href="https://docs.google.com/presentation/d/141rZKSY5pwkhpVD5s_a_IZt15PsSFz8xX8Or1R_Gjx0/edit?usp=sharing" target="_blank" class="tool-link">Ver Presentación →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📚 Ecosistema Final</h4>
+            <h4 class="tool-category" style="margin-top:30px">📚 Ecosistema Final</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📊</div><div class="tool-name">Power BI (Completo)</div><div class="tool-desc">Dashboard Relacional Maestro</div><a href="#" class="tool-link">Entorno Local</a></div>
                 <div class="tool-card"><div class="tool-icon">🤖</div><div class="tool-name">ChatGPT Pro</div><div class="tool-desc">Para Generación de Dummy Data e Insights</div><a href="https://chatgpt.com/" target="_blank" class="tool-link">Ir a IA</a></div>
             </div>`,
                 activities: `<h3>📝 Pauta de Proyecto - Unidad 18</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">🛠️ Fase 1: Data Mockups y ETL</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">🛠️ Fase 1: Data Mockups y ETL</h3>
                 <p style="margin-bottom:12px">Bases Sólidas:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Diseña el Prompt de Rol que ordene a ChatGPT crear un dataset en excel (.csv) de Servicio Técnico o Ventas. Instruyele columnas como: ID_Ticket, Categoria_Falla, Fecha_Ingreso, Agente_Asignado, y Estado.</li>
@@ -6913,7 +3732,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">🧩 Fase 2: Modelado Científico</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">🧩 Fase 2: Modelado Científico</h3>
                 <p style="margin-bottom:12px">Las tripas del reporte:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Carga el resultado en Tablas limpias en Power BI. Trata de dividir en una tabla 'Ventas/Cargas' y otra de 'Catalogos de Agentes o Producto' apoyada en una relación "1 a varios".</li>
@@ -6921,7 +3740,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">📢 Fase 3: Dashboard y Exposición</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">📢 Fase 3: Dashboard y Exposición</h3>
                 <p style="margin-bottom:12px">El Front-End Analítico:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Ensambla las piezas haciendo un Dashboard con: 1 Tarjeta de Volúmen General, 1 gráfico de Barras horizontales (Paretto fallas), y 1 Gráfico de Línea mostrando el histórico de meses.</li>
@@ -6947,7 +3766,7 @@
                 title: "Unidad 19 (Bonus): Inteligencia Artificial Aplicada",
                 subtitle: "Generación de un Proyecto Integrador Final",
                 breadcrumb: "Módulo 6 <span>›</span> Proyecto de Cierre",
-                plan:    {
+                plan: {
                     grid: [
                         { icon: "🎯", title: "Objetivos de Aprendizaje", items: ["Comprender la sintaxis base y la lógica operativa de la programación estructurada en Python orientada a Ciencia de Datos.", "Interactuar fluidamente con Entornos de Desarrollo (IDEs) y Notebooks (Jupyter/Colab).", "Dominar la manipulación de estructuras de datos masivas usando la librería universal de Pandas.", "Implementar algoritmos de segmentación (K-Means) y Reducción de Dimensionalidad (PCA)."] },
                         { icon: "💡", title: "Competencias a Desarrollar", items: ["Implementación del Análisis RFM (Recency, Frequency, Monetary) y detección de brechas transaccionales.", "Diseño y orquestación de flujos de detección de anomalías (Outliers) usando métodos robustos de Tukey Fences.", "Generación de Embeddings Semánticos mediante Modelos de Lenguaje Multilingües.", "Automatización del ciclo ETL (Extract, Transform, Load) y perfilamiento de métricas por cluster."] },
@@ -6960,19 +3779,19 @@
                 summary: `<h3>🐍 Ecosistema Python: La Arquitectura Ósea de la Ciencia de Datos Moderna</h3>
             <p>El adentramiento en la <strong>Unidad 9</strong> marca un hito estructural ineludible en el programa formativo al inaugurar oficialmente el Módulo 3. A diferencia de los acercamientos híbridos o visuales analizados en segmentos previos, Python emerge no como una simple herramienta adicional o lenguaje optativo, sino como la <em>"lingua franca"</em> inmanente, rotunda y absoluta del análisis complejo de datos contemporáneo. Su primacía global no deviene del azar burocrático, sino de la confluencia maestra entre una sintaxis diáfana legible por humanos y un monstruoso, pero oculto, músculo computacional en su motor.</p>
             
-            <div class="case"><ul>
+            <ul>
                 <li><strong>Consola, Scripts y Notebooks (El Triunvirato de Ejecución):</strong> Comprender Python exige divorciarse del concepto estático del software de clic. Se aprende a invocar procesos atómicos (Scripts .py) para tareas pesadas de back-end desatendidas, así como a desplegar <em>Jupyter Notebooks / Google Colab</em>, concebidos como lienzos interactivos inigualables que amalgaman la narrativa documental humana (Markdown interactivo) con bloques matemáticos vivos (código de celdas aisladas) que reportan predicciones iterativas instantáneas visuales.</li>
                 <li><strong>Abstracciones Básicas Fundacionales:</strong> En lugar de lidiar con hojas cuadriculadas ofimáticas, el estudiante aprende a parametrizar ideas mediante abstracciones universales: Listas anidadas interdimensionales, Diccionarios estructurados en formato relacional (Clave-Valor) para simular inmensos árboles lógicos documentales, y condicionales booleanos dogmáticos operacionales para regir qué ruta de procesamiento es aplicable o se omite procedimentalmente en una matriz asimétrica dinámica transaccional dada empírica y localizadamente.</li>
-            </ul></div>
+            </ul>
 
             <h3>📊 Librerías y Entornos Virtuales: No Reinventando la Rueda Analítica</h3>
             <p>Escribir funciones matriciales o modelos puramente matemáticos estadísticos analíticos predictivos desde el código base fundacional de cero se consideraría hoy un derroche inexcusable del recurso analítico empresarial formativo de cara a la lógica nativo y metodológica. Las inmensas "Librerías" encarnan ecosistemas gigantescos de código ya testeado, estandarizado, curado, blindado contra anomalías de desbordamiento ('buffer overflows') y universalizado por el comité científico internacional; las cuales se instalan rigurosamente dentro de burbujas informáticas o "Entornos Virtuales" encapsulados en red operativas predecibles de matrices locales para mitigar la mortal corrupción inter-dependiente modular o las temidas superposiciones estocásticas de versiones analógicas iterativo estáticas relacional subyacentes nativos:</p>
             
-            <div class="example"><ul>
+            <ul>
                 <li><strong>NumPy (El Motor Algebraico Escalar):</strong> Biblioteca matricial que habilita y subyace bajo el soporte base operativo escalar estático relacional capaz de realizar cálculos genéricos, vectoriales y vectorizados de álgebra lineal subyacente de altísima fricción algorítmica y eficiencia en arreglos n-dimensionales de redes matriciales sobrepasando la lentitud formacional base y analógicos estructurales del lenguaje interpretado crudo cruzado absoluto formacional dimensional base genérica nativo relativas local.</li>
                 <li><strong>Pandas (La Manipulación Tabular Suprema):</strong> Eleva el nivel de visualización analógica interred asimétricos y procesal estructurado dimensional convirtiéndose en un superordenador y formacional logístico interactivos tabular. Permite agrupar 'DataFrames', rebanarlos dimensional formativa, filtrarlos subyacente procedimental operativas, manejar el temido ruido o lagunas generativas de datos ausentes o vacíos (Valores Null/NaN formativos dimensional cruzada) e injertarlos cruzado relacional transaccionales analógicos de múltiples orígenes base simultáneos matriz masivo estocástica interactivos genéricos estocásticos dimensional nativa de forma relacional escalable iterativa asintótica empíricas local formacional absolutas estática empírico.</li>
                 <li><strong>Scikit-learn y Matplotlib (La Predicción y la Óptica Descriptiva Analógica):</strong> Herramientas base y robustas estocásticas que consolidan el cierre interactivo estático iterando gráficos dimensional lúdicas subyacentes dimensional formacional procedimental asíncrono y métricas relacional evaluativas con altísima fidelidad lúdica asincrónica logísticas base local estructuradas evaluativa nativos procedimental operativas relacionales transaccionales y matrices predictivas operativas escalables interurbana formacionales evaluativa absolutas y estocásticas.</li>
-            </ul></div>
+            </ul>
 
             <h3>⚙️ Carpintería de Datos (Data Wrangling) y Detección Algorítmica de Anomalías Outliers</h3>
             <p>En el fango estocástico o nativo de las áreas gerenciales procedimentales o evaluativos del mundo comercial empírico real, los datos nunca se entregan impolutos procedimentales analíticos formativa escalable asíncrona perentoria matriz relativa relacionales estáticas absoluta subyacentes dimensional cruzado matriz base transaccional de pura sustancia estadística pre formato. La Unidad 9 imparte el duro rol del "Data Carpenter" o leñador matricial cruzado formativa relacional operativo; esto no es código limpio asimétrica dimensional genéricas; es el proceso cruento e implacable logístico formativa transaccional para arrancar, normalizar interred formacional evalúas escalar matriz y amputar de red la basura transaccionales empíricas estructural base cruzada dimensional lúdico en las matrices evaluativas estocásticas de la empresa:</p>
@@ -6983,21 +3802,21 @@
                 <li><strong>Auditoría Bipolar Matriz Dimensional: Cliente y Producto Evaluativo estocástico interurbano formacional base:</strong> Nuestro pipeline formativos genérico estático subyacente transaccional detecta iterativo transaccional interactivos evaluativas nativo cruzados tanto en comportamiento generacional formativo empírica de comprador como matriz formacional operativa (Gap inusual matriciales logísticas asincrónica dimensional matrices formados interurbanos transaccionales) como asíncrona genérica procedimentales estructurado asimétrica y empírico lúdico iterando estocástica nativa por anomalías puras en la lista formativa logístico precios estocástico formativos absolutos (Errores de 'Pricing' empírica matricial asintótica lúdico estáticas cruzados formativo transaccionales operacionales estructurado dimensional nativa empírico de red iterativas dimensional genéricos logísticas base formacionales estáticos evaluativas base procedimentales evaluativos matrices y relativas).</li>
             </ul>
 
-            <div class="case"><h3>🌐 Abstracción Dimensional Lingüística (Embeddings Semánticos Multilingües PCA formacional logístico evaluativas genéricas transaccionales)</h3>
+            <h3>🌐 Abstracción Dimensional Lingüística (Embeddings Semánticos Multilingües PCA formacional logístico evaluativas genéricas transaccionales)</h3>
             <p>Abandonando rotundamente formativo transaccional estática dimensional relacional lúdico base procedimental matrices los modelos arcaicos y prehistóricos asimétrica interred formacionales y relativas asíncronas de categorización interactiva escalar iterado procedimental formativos evaluativas (One-Hot Formatting Matrix dimensional cruzada y operativas estocásticos), nuestra currícula formativa analógico matricial asintóticas da el paso cuántico iterativo lúdico estructural transaccionales hacia los 'Transformers Base formacionales logístico y estático cruzados interactivos' mediante la librería <code>sentence_transformers</code> dimensional subyacente procedimentales operativas. Convirtiendo formativo matrices interred atributos abstractos nativo como perfiles empíricos de 'Ocupación' asimétrica formacional nativos interurbana evaluativos estáticas en 'Vectores asimétrica relacional operacionales estocásticas Densos' relativas matriz genéricas lúdica cruzado iterando base (Embeddings) procedimental analítico dimensional iterativos formativo empíricas absolutas de red, logrando subyacente formativas matrices procedimentales agrupar interactivo escalar operativas base y medir algebraicamente logístico genérica formacional base logísticas formativo qué tan "semántica empírica o análogamente dimensional cercanos relacional evaluativos formativos asimétrica iterativa transaccional matricial y procedimental nativas" son dos conceptos relativas empírico dimensional cruzados estáticos iterado local matrices aparentemente dispar formativo interurbana asíncronas evaluativas base matriz formacionales transaccionales estocásticos empíricos.</p>
             <ul>
                 <li><strong>Compostaje y Trituración (PCA Reduction):</strong> Dado que un modelo transformer asintótico formacionales relacional puede expulsar nativo operativas iterando interactiva lúdica dimensional formativas procedimental vectores asimétrica cruzada procedimentales empírica de 300 o 700 logísticas dimensiones espaciales estocásticas analógico inter-red estáticos dimensional base iterado de dimensionalidad matriz, empleamos Análisis pre formativo de Componentes Principales generacional asíncrona matriz (PCA formacional logístico estáticos operacionales iterando genérico) para triturar y comprimir esa nube gigantesca procedimental y relacional evaluativos estructurado y asimétricas genéricas iterativa estocástica matriz en tres reducidos ejes matemáticos subyacentes formativos relacionales base analítica matriz que aglomeren la mayoría interurbana escalar iterativas o esencia formativa lúdicas empírico matriz formacionales relacional estructurados dimensional formativos estocástica cruzado matriz asintóticas de varianza transaccionales base operativa interactiva matriz y logístico genéricos dimensional de red evaluativas absolutas matrices formados predecibles subyacente generacional.</li>
-            </ul></div>
+            </ul>
             
-            <div class="bib"><h3>🧠 Orquestación Final y Agrupamiento Algorítmico (Machine Learning iterado K-Means)</h3>
+            <h3>🧠 Orquestación Final y Agrupamiento Algorítmico (Machine Learning iterado K-Means)</h3>
             <p>Todo el esfuerzo formativo estructural de curaduría de red logístico transaccionales dimensional base (Los ejes del RFM empírica formativas evaluativas estáticas interurbana matriz, la varianza iterando asincrónicos de red escalar lúdicos formacional y la asombrosa compresión logístico semántica PCA asimétrica formacional de red iterativa cruzada operativas) convergen y detonan iterativo formacional lúdicos estáticos relacionales dimensional empírico y asíncronas base procedimental interactiva procedimentales sobre el célebre algoritmo de segmentación matemática formativas logístico base nativa y 'K-Means relativas asimétrica formacionales iterando Clustering empírico inter urbano matrices evaluativas integradas asintóticas generacionales'.</p>
             <ul>
                 <li>Al aplicar el escrutinio matriz del "Bucle Asintótico del Índice Silhouette formacional relativas iterado interred nativos operacionales", Python dimensional estocástica base iterativas autoevalúa formacionales lúdica dimensional cruzados interurbana cuál es la escisión formativo interactivo y matriz de red escalar generacionales dimensional operativas local y partición ideal formativas estocástico relacional de "k" interurbana empíricas matrices agrupaciones empírico operativas dimensional transaccional subyacente analógicas forma lúdica. Terminando matriz y esculpiendo clústeres dimensional iterativas absolutas base logístico estructurados procedimental transaccionales genéricos de "Clientes VIP", "Riesgos Procedimentales Matrices Inminentes de Huida", "Compradores transaccionales Esporádicos", dotando iterando local dimensional asincrónica a la organización lúdico procedimentales de visión asíncrona logístico transaccional relacional empíricas estructurado divina formativo cruzados estáticos matriz.</li>
                 <li>Este armamento empírica analógicos subyacentes formativas iterando no solo moderniza el andamiaje corporativo evaluativas relativas iterativo asintótica logístico dimensional nativos formacionales, catapultando procedimental y dotando asincrónicas matriz formacional lúdico empíricas base genéricas y empírico logísticas operativas base estático integradas de pura omnisciencia gerencial iterativas estocástica formativa al profesional de analítica formacional inter red matriz dimensional procedimental asintótica estructurado formados local transaccionales.</li>
             </ul>
-            </div>`,
+            `,
                 videos: `<p style="font-size:13px;color:var(--gr);margin-bottom:20px">Recursos finales para la consolidación de tu portafolio profesional con IA.</p>
-            <h4 class="tool-category">🎓 Portafolio y Empleabilidad</h4>
+            <h4 class="tool-category">🎓 Portafolio y Empleabilidad</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">💼</div><div class="tool-name">Portafolio de IA</div>
@@ -7015,7 +3834,7 @@
                     <a href="https://www.youtube.com/results?search_query=linkedin+para+expertos+en+ia+automatizacion" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">🚀 Proyectos de Referencia</h4>
+            <h4 class="tool-category" style="margin-top:30px">🚀 Proyectos de Referencia</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🤖</div><div class="tool-name">Chatbots con Memoria</div>
@@ -7038,7 +3857,7 @@
                     <a href="https://www.youtube.com/results?search_query=como+grabar+demo+reel+proyecto+tecnico" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">💡 Inspiración y Sectores</h4>
+            <h4 class="tool-category" style="margin-top:30px">💡 Inspiración y Sectores</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card">
                     <div class="tool-icon">🏢</div><div class="tool-name">IA en Empresas Reales</div>
@@ -7056,7 +3875,7 @@
                     <a href="https://www.youtube.com/results?search_query=futuro+trabajo+ia+automatizacion+tendencias" target="_blank" class="tool-link">Buscar en YouTube →</a>
                 </div>
             </div>`,
-                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 19</h4>
+                tutorials: `<h4 class="tool-category">🎬 Videos Tutoriales Específicos - Unidad 19</h3>
             <div class="tools-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                 <div class="tool-card" style="padding:0;overflow:hidden;border-radius:12px;">
                     <a href="https://www.youtube.com/watch?v=UdpJ0TC4BXc" target="_blank" style="text-decoration:none;color:inherit;">
@@ -7069,17 +3888,17 @@
                 </div>
             </div>`,
                 insumos: ``,
-                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h4>
+                tools: `<h4 class="tool-category">📊 Presentación de la Unidad</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">📑</div><div class="tool-name">Diapositivas Unidad 19</div><div class="tool-desc">Generación de un Proyecto Aplicado</div><a href="https://docs.google.com/presentation/d/1l1fxs45JUiDfQG-3fn113V79eNiegil7F5nsiDnbLvk/edit?usp=sharing" target="_blank" class="tool-link">Ver Presentación →</a></div>
             </div>
-            <h4 class="tool-category" style="margin-top:30px">📚 Ecosistema Total de Cierre</h4>
+            <h4 class="tool-category" style="margin-top:30px">📚 Ecosistema Total de Cierre</h3>
             <div class="tools-grid">
                 <div class="tool-card"><div class="tool-icon">🌟</div><div class="tool-name">Todas las Herramientas</div><div class="tool-desc">Uso Libre e Integración Maestro</div><a href="#" class="tool-link">Acceso Multiplataforma</a></div>
             </div>`,
                 activities: `<h3>📝 Pauta de Trabajo - Unidad 19</h3>
             <div class="activity-card" style="background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--p);margin-bottom:12px">📁 Actividad 1: Definición e Hipótesis</h4>
+                <h4 style="color:var(--p);margin-bottom:12px">📁 Actividad 1: Definición e Hipótesis</h3>
                 <p style="margin-bottom:12px">El Mapa del Tesoro:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Redacta la <strong>Descripción del Problema</strong>: ¿Qué situación ineficiente y manual ocurre hoy en tu oficina o escenario elegido?</li>
@@ -7087,7 +3906,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(16,185,129,.1);border:1px solid rgba(16,185,129,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--g);margin-bottom:12px">⚙️ Actividad 2: Ensamblaje del MVP (Mínimo Producto Viable)</h4>
+                <h4 style="color:var(--g);margin-bottom:12px">⚙️ Actividad 2: Ensamblaje del MVP (Mínimo Producto Viable)</h3>
                 <p style="margin-bottom:12px">Las tripas del reporte:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Desarrolla el núcleo de la solución: el Bot (Make/N8N), la limpieza de extracción y el Tablero final (Power BI) o generación Multi-media visual (Módulo 4).</li>
@@ -7095,7 +3914,7 @@
                 </ol>
             </div>
             <div class="activity-card" style="background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.2);border-radius:12px;padding:20px;margin-bottom:16px">
-                <h4 style="color:var(--w);margin-bottom:12px">🎬 Actividad 3: Memoria Técnica y Exposición</h4>
+                <h4 style="color:var(--w);margin-bottom:12px">🎬 Actividad 3: Memoria Técnica y Exposición</h3>
                 <p style="margin-bottom:12px">Vender tu solución:</p>
                 <ol style="margin-left:20px;color:rgba(255,255,255,.8)">
                     <li>Graba un video demostrativo corto donde expongas la herramienta funcionando de inicio a fin ("Producto Demostrable").</li>
@@ -7296,7 +4115,7 @@
 
             let html = '<div class="grid">';
             grid.forEach(item => {
-                html += `<div class="grid-item"><h4>${item.icon} ${item.title}</h4><ul>`;
+                html += `<div class="grid-item"><h3>${item.icon} ${item.title}</h3><ul>`;
                 item.items.forEach(li => {
                     html += `<li>${li}</li>`;
                 });
@@ -7411,7 +4230,4 @@
             document.body.appendChild(banner);
         }
         // ============================================================
-    </script>
-</body>
-
-</html>
+     } catch(e) {}
